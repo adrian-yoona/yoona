@@ -1,0 +1,81 @@
+Targeted YOONA 3.1.0 presentation regression on disposable real WordPress.
+The full 200-item importer suite is preserved separately; this run checks presentation and existing SEO output only.
+e27b9f38c61eb7a9d3d925ec518e0b0f6db4c7032b36744850ced79688671ca7  plugin/yoona-seo/assets/design.css
+cd9a06e12860b1c2e0feeb21a64ac44579232ddaa071ad29a522d8deec5d6426  plugin/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+3.1.0
+1.0.280
+7.1.3
+PHP 8.3.35 (cli) (built: Sep 25 2026 17:43:50) (NTS)
+Initialized the core administrator dashboard before the strict post/metadata baseline (WordPress Quick Draft is created on first dashboard access).
+Success: Updated 'yoona_seo_design_enabled' option.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+Success: 2 original-theme warm-up HTTP assertions passed.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Success: Captured post and metadata baseline before visual-only HTTP actions.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The new homepage hero is rendered by the real frontend.
+PASS Design HTTP The selected template enqueues the visual stylesheet.
+PASS Design HTTP The design stylesheet is registered through a normal WordPress link.
+PASS Design HTTP The actual bundled design CSS is served successfully by WordPress.
+PASS Design HTTP The homepage contains exactly one SEO title.
+PASS Design HTTP The homepage does not duplicate the SEO description.
+PASS Design HTTP The standard WordPress hook yoona-design-head-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-body-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-footer-probe executes once.
+PASS Design HTTP The branded layout offers a skip link to its main content.
+PASS Design HTTP Existing public pages receive the branded template.
+PASS Design HTTP Existing Divi content still passes through WordPress the_content and shortcode callbacks.
+PASS Design HTTP The secondary template keeps rendered existing content and its links.
+PASS Design HTTP The branded secondary template renders exactly the existing SEO title.
+PASS Design HTTP The branded secondary template renders one exact existing SEO description.
+PASS Design HTTP A theme without title-tag support still receives exactly one correct SEO title.
+PASS Design HTTP The visual template retains actual Rank Math frontend output.
+PASS Design HTTP Public posts retain their original body inside the branded layout.
+PASS Design HTTP A protected public page keeps the standard WordPress password form.
+PASS Design HTTP The protected page never exposes its stored content to an anonymous visitor.
+PASS Design HTTP The category archive receives the branded layout.
+PASS Design HTTP The search results receives the branded layout.
+PASS Design HTTP Missing public content keeps HTTP 404 inside the branded layout.
+PASS Design HTTP The normal RSS feed is preserved and excludes visual templates.
+PASS Design HTTP The native embed response excludes the visual template and stylesheet.
+PASS Design HTTP The REST endpoint returns ordinary JSON without the visual template.
+PASS Design HTTP The et_fb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_bfb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_pb_preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The elementor-preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP An unauthenticated visitor cannot change the visual setting.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The real WordPress test administrator logs in.
+PASS Design HTTP The plugin panel exposes its visual design controls.
+PASS Design HTTP The design action rejects a missing nonce with HTTP 403.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A GET request cannot change the visual setting even with a valid nonce.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP An invalid visual mode is rejected safely.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The limited subscriber account logs in through WordPress.
+PASS Design HTTP A logged-in subscriber cannot use the administrator visual action.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A valid administrator POST disables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP Disabling the design restores the original theme frontend without its visual stylesheet.
+PASS Design HTTP The original theme still displays unchanged secondary content when the design is disabled.
+PASS Design HTTP A valid administrator POST re-enables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The authenticated refresh action completes without changing the selected design state.
+PASS Design HTTP The public homepage uses the requested design state.
+Success: 52 real visual design HTTP assertions passed (rank_math).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
+All targeted presentation HTTP, PHP syntax and database-preservation checks passed.

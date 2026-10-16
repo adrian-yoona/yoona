@@ -1,14 +1,20 @@
-# Yoona — wygląd i SEO 3.0
+# Yoona — wygląd i SEO 3.1
 
 Wersja 3 dodaje przebudowę wyglądu według załączonego wzoru: czerń, pomarańcz, jasne tło, duża typografia, zdjęciowe karty usług, proces, realizacje i kontakt. Nowy układ strony głównej oraz wspólna oprawa podstron włączają się po aktualizacji wtyczki, o ile wcześniej nie wyłączono ich w panelu.
 
-**[Pobierz wtyczkę yoona-seo-v3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+**[Pobierz wtyczkę yoona-seo-v3.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.1.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+
+## Dopracowanie wersji 3.1
+
+Poprawiono warstwy zdjęcia w nagłówku: przyciemnienie znajduje się teraz nad fotografią, pod tekstem. Kadr ma spokojniejszą kolorystykę, a mocniejszy gradient po lewej ułatwia czytanie. Opis ma 18 px na komputerze i 16 px na telefonie. Nowy lokalny Manrope obsługuje opisy i interfejs, a Archivo Black pozostaje fontem dużych nagłówków z luźniejszym odstępem liter.
+
+Nazwy usług w kartach, pasek PROJEKT / DRUK / PRODUKCJA / MONTAŻ, oferta w stopce i nagłówki na stronie Pełna Oferta są wyświetlane wielkimi literami. Zachowano naturalną pisownię akapitów, a nazwy w bazie nie są przepisywane.
 
 ## Aktualizacja wyglądu
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. Otwórz **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.0.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
+2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.1.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. Otwórz **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.1.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
 4. Otwórz stronę po aktualizacji. Jeśli nadal widzisz poprzedni układ, użyj odświeżenia wyglądu/cache w panelu. Cache hostingu lub CDN może wymagać wyczyszczenia w jego własnym panelu.
 5. Sprawdź stronę główną, ofertę, realizację i kontakt na komputerze oraz telefonie, w tym formularze i galerie.
 
@@ -24,7 +30,7 @@ Tytuły i opisy zapisują się w natywnych polach Rank Math. Aktualizacja tekst�
 
 ## Jak działa i jak wrócić
 
-Nowy wygląd jest warstwą szablonów wtyczki, a nie nadpisaniem układu Divi w bazie. Strona główna korzysta z przygotowanego układu; podstrony zachowują własną treść przez standardowy mechanizm WordPressa. Stare moduły, galerie i formularze pozostają w bazie. Zdjęcia pochodzą z istniejących adresów witryny, a nagłówki korzystają z lokalnie dołączonego Archivo Black na licencji OFL.
+Nowy wygląd jest warstwą szablonów wtyczki, a nie nadpisaniem układu Divi w bazie. Strona główna korzysta z przygotowanego układu; podstrony zachowują własną treść przez standardowy mechanizm WordPressa. Stare moduły, galerie i formularze pozostają w bazie. Zdjęcia pochodzą z istniejących adresów witryny, a nagłówki korzystają z lokalnego Archivo Black, a teksty i interfejs z Manrope; obie rodziny mają dołączone licencje OFL.
 
 Wyłączenie nowego wyglądu w panelu przywraca szablony motywu. Dezaktywacja Yoona SEO również usuwa tę warstwę wizualną. Zapisane wcześniej treści oraz natywne metadane Rank Math pozostają; cofa się je osobno przez historię partii. Kopie wtyczki nie zastępują pełnego backupu hostingu.
 

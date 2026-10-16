@@ -1,4 +1,4 @@
-Tested design.css SHA-256: 9eee769e81d574436b08dfe4ceb90192276df3cc019f08249b0914eb23434a04
+Tested design.css SHA-256: e27b9f38c61eb7a9d3d925ec518e0b0f6db4c7032b36744850ced79688671ca7
 PASS Design browser desktop: the real homepage loads successfully.
 PASS Design browser desktop: the frontend serves the exact current source stylesheet.
 PASS Design browser desktop: the visual template is active.
@@ -7,7 +7,38 @@ PASS Design browser desktop: the homepage has exactly one H1.
 PASS Design browser desktop: the new hero title is visible.
 PASS Design browser desktop: the page has no horizontal overflow.
 PASS Design browser desktop: the hero text fits inside the viewport.
+PASS Design browser desktop: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser desktop: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser desktop: the hero description retains a readable minimum font size.
+PASS Design browser desktop: the header navigation keeps valid internal URLs and existing anchor targets.
 PASS Design browser desktop: the shipped local display font loads and styles the hero.
+PASS Design browser desktop: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser desktop: hero text stays readable over a white photo (#yn-hero-title 15.22:1, #yn-hero-title 16.38:1, #yn-hero-title span 4.49:1, .yn-hero-description 13.84:1, .yn-hero-description 14.20:1).
+PASS Design browser desktop: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser desktop: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser desktop: the actual full-offer route receives its scoped offer styling.
+PASS Design browser desktop: full-offer headings and nested labels override conflicting serif fonts and display uppercase.
+PASS Design browser desktop: long full-offer labels fit their available width.
+PASS Design browser desktop-wide: the real homepage loads successfully.
+PASS Design browser desktop-wide: the frontend serves the exact current source stylesheet.
+PASS Design browser desktop-wide: the visual template is active.
+PASS Design browser desktop-wide: one accessible main region is present.
+PASS Design browser desktop-wide: the homepage has exactly one H1.
+PASS Design browser desktop-wide: the new hero title is visible.
+PASS Design browser desktop-wide: the page has no horizontal overflow.
+PASS Design browser desktop-wide: the hero text fits inside the viewport.
+PASS Design browser desktop-wide: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser desktop-wide: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser desktop-wide: the hero description retains a readable minimum font size.
+PASS Design browser desktop-wide: the header navigation keeps valid internal URLs and existing anchor targets.
+PASS Design browser desktop-wide: the shipped local display font loads and styles the hero.
+PASS Design browser desktop-wide: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser desktop-wide: hero text stays readable over a white photo (#yn-hero-title 14.46:1, #yn-hero-title 15.24:1, #yn-hero-title span 4.30:1, .yn-hero-description 13.33:1, .yn-hero-description 13.69:1).
+PASS Design browser desktop-wide: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser desktop-wide: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser desktop-wide: the actual full-offer route receives its scoped offer styling.
+PASS Design browser desktop-wide: full-offer headings and nested labels override conflicting serif fonts and display uppercase.
+PASS Design browser desktop-wide: long full-offer labels fit their available width.
 PASS Design browser mobile: the real homepage loads successfully.
 PASS Design browser mobile: the frontend serves the exact current source stylesheet.
 PASS Design browser mobile: the visual template is active.
@@ -16,6 +47,10 @@ PASS Design browser mobile: the homepage has exactly one H1.
 PASS Design browser mobile: the new hero title is visible.
 PASS Design browser mobile: the page has no horizontal overflow.
 PASS Design browser mobile: the hero text fits inside the viewport.
+PASS Design browser mobile: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser mobile: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser mobile: the hero description retains a readable minimum font size.
+PASS Design browser mobile: the header navigation keeps valid internal URLs and existing anchor targets.
 PASS Design browser mobile: all section headings fit their own content box without clipped text.
 PASS Design browser mobile: the gallery has all eight project cards.
 PASS Design browser mobile: gallery card 1 keeps half width inside the viewport.
@@ -32,6 +67,13 @@ PASS Design browser mobile: Enter opens the native menu.
 PASS Design browser mobile: opening the menu reveals navigation links.
 PASS Design browser mobile: Enter closes the menu again.
 PASS Design browser mobile: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser mobile: hero text stays readable over a white photo (#yn-hero-title 14.85:1, #yn-hero-title 15.24:1, #yn-hero-title span 4.37:1, .yn-hero-description 12.23:1, .yn-hero-description 11.88:1, .yn-hero-description 14.96:1).
+PASS Design browser mobile: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser mobile: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser mobile: the actual full-offer route receives its scoped offer styling.
+PASS Design browser mobile: full-offer headings and nested labels override conflicting serif fonts and display uppercase.
+PASS Design browser mobile: long full-offer labels fit their available width.
 PASS Design browser mobile: existing secondary content remains visible in the branded layout.
 PASS Design browser mobile: the secondary content has no horizontal overflow.
 PASS Design browser mobile-small: the real homepage loads successfully.
@@ -42,6 +84,10 @@ PASS Design browser mobile-small: the homepage has exactly one H1.
 PASS Design browser mobile-small: the new hero title is visible.
 PASS Design browser mobile-small: the page has no horizontal overflow.
 PASS Design browser mobile-small: the hero text fits inside the viewport.
+PASS Design browser mobile-small: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser mobile-small: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser mobile-small: the hero description retains a readable minimum font size.
+PASS Design browser mobile-small: the header navigation keeps valid internal URLs and existing anchor targets.
 PASS Design browser mobile-small: all section headings fit their own content box without clipped text.
 PASS Design browser mobile-small: the gallery has all eight project cards.
 PASS Design browser mobile-small: gallery card 1 keeps half width inside the viewport.
@@ -58,6 +104,13 @@ PASS Design browser mobile: Enter opens the native menu.
 PASS Design browser mobile: opening the menu reveals navigation links.
 PASS Design browser mobile: Enter closes the menu again.
 PASS Design browser mobile-small: the shipped local display font loads and styles the hero.
+PASS Design browser mobile-small: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser mobile-small: hero text stays readable over a white photo (#yn-hero-title 14.25:1, #yn-hero-title 14.99:1, #yn-hero-title span 3.75:1, .yn-hero-description 12.80:1, .yn-hero-description 11.20:1, .yn-hero-description 12.23:1, .yn-hero-description 15.43:1).
+PASS Design browser mobile-small: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser mobile-small: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser mobile-small: the actual full-offer route receives its scoped offer styling.
+PASS Design browser mobile-small: full-offer headings and nested labels override conflicting serif fonts and display uppercase.
+PASS Design browser mobile-small: long full-offer labels fit their available width.
 PASS Design browser The actual frontend raises no uncaught JavaScript errors.
-Success: 60 real Chromium visual design assertions passed.
-Screenshots: /tmp/yoona-design-screenshots (remote media replaced with labelled local test images).
+Success: 113 real Chromium visual design assertions passed.
+Screenshots: /tmp/yoona-premium-screenshots (remote media replaced with labelled local test images).

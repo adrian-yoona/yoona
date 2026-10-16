@@ -58,7 +58,7 @@ oraz metadanych; zmiana szablonu nie może ich modyfikować. Przed zapisem stanu
 początkowego oryginalny motyw blokowy jest raz renderowany, aby WordPress
 utworzył własny rekord nawigacji. Porównanie nadal obejmuje wszystkie rekordy.
 
-Opcjonalny test w prawdziwym Chromium wymaga pakietu Node `playwright`
+Opcjonalny test w prawdziwym Chromium wymaga pakietu Node `playwright`, Python 3 z Pillow
 i przeglądarki pod `/usr/bin/chromium` (ścieżkę można wskazać przez
 `YOONA_TEST_CHROMIUM`). Uruchom go wraz z pełnym przebiegiem:
 
@@ -66,8 +66,21 @@ i przeglądarki pod `/usr/bin/chromium` (ścieżkę można wskazać przez
 YOONA_TEST_BROWSER=1 bash tests/record-wordpress.sh
 ```
 
-Sprawdza widok komputerowy 1440 px i mobilny 390/320 px, brak poziomego przewijania, pojedynczy
+Sprawdza widoki komputerowe 1440/1920 px i mobilne 390/320 px, brak poziomego przewijania, pojedynczy
 nagłówek H1, obsługę menu klawiaturą i widoczność zachowanej treści podstrony.
+Weryfikuje rzeczywiste załadowanie lokalnych fontów Archivo Black i Manrope,
+wersaliki wszystkich nazw oferty, rozmiar opisu hero i poprawne adresy nawigacji.
+Poza `scrollWidth` mierzy prostokąty tekstu przez DOM Range, dzięki czemu wykrywa
+też przycięcie tekstu ukryte przez `overflow`. Po normalnych zrzutach podmienia
+wyłącznie zdjęcie hero na białe SVG i mierzy piksele za końcami wierszy tekstu:
+kontrast minimum 3:1 dla dużych nagłówków i 4,5:1 dla opisu. Sprawdza też, że
+fotografia pozostaje widoczna poza mocniej przyciemnioną częścią pod tekstem.
+Ten test wykrywa zasłonę umieszczoną przypadkowo pod zdjęciem, nawet gdy ciemny
+obraz testowy maskowałby taki błąd.
+Osobny fixture `/pelna-oferta/` sprawdza ograniczoną do tej strony klasę CSS,
+nazwy usług w nagłówkach H3–H6 oraz zagnieżdżonych span/link. Konkurencyjne
+reguły serif z `!important` symulują ustawienia fontów Divi; test sprawdza
+wynikowe Manrope i wersaliki we wszystkich czterech szerokościach.
 Zrzuty trafiają do `/tmp/yoona-design-screenshots` lub katalogu wskazanego
 przez `YOONA_TEST_SCREENSHOTS`. W teście obrazki realizacji są zastępowane
 oznaczonymi lokalnymi obrazkami SVG, ponieważ nie można pobrać zdjęć z yoona.pl.
@@ -81,6 +94,14 @@ Plik `design-browser-results.txt` jest podmieniany atomowo dopiero po sukcesie.
 Test porównuje hash serwowanego CSS z aktualnym źródłem oraz mierzy szerokości
 wszystkich kart galerii na telefonach, aby wykryć również ukryte lub zbyt wąskie
 kolumny. Ten osobny wynik nie zastępuje raportu testów PHP i bazy danych.
+
+`design-premium-http-results.txt` zawiera celowany przebieg dla wersji 3.1.0:
+składnię wszystkich plików PHP wtyczki, 52 żądania i kontrole HTTP z właściwym
+Rank Math oraz dokładne porównanie wszystkich wpisów i metadanych po zmianach
+wyglądu. Na świeżej instalacji przed baseline rozgrzano też panel administratora:
+standardowy widżet Quick Draft WordPressa tworzy własny auto-draft przy pierwszym
+wejściu na kokpit. Ten raport nie powtarza ani nie zastępuje pełnego testu importera
+200 pozycji zachowanego w `wordpress-integration-results.txt`.
 
 Opcjonalny test rzeczywistej paczki można uruchomić z prywatnym eksportem:
 

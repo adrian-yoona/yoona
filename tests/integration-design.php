@@ -84,6 +84,11 @@ $mu_fixture = <<<'PHP'
 <?php
 /** Local test hooks and shortcode callbacks; this is not the Divi theme. */
 add_action('wp_head', function () { echo '<meta name="yoona-design-head-probe" content="executed" />'; });
+add_action('wp_head', function () {
+    if (is_page('pelna-oferta')) {
+        echo '<style>body .design-offer-sample :is(h3,h4,h5,h6),body .design-offer-sample :is(h3,h4,h5,h6) :is(span,a){font-family:Georgia,serif!important;text-transform:none!important}</style>';
+    }
+}, 999);
 add_action('wp_body_open', function () { echo '<div id="yoona-design-body-probe" hidden></div>'; });
 add_action('wp_footer', function () { echo '<div id="yoona-design-footer-probe" hidden></div>'; });
 add_action('after_setup_theme', function () {
@@ -107,6 +112,13 @@ update_post_meta($page, '_yoona_seo_title', 'YOONA design SEO fixture');
 update_post_meta($page, '_yoona_seo_description', 'YOONA design description fixture.');
 update_post_meta($page, 'rank_math_title', 'YOONA design SEO fixture');
 update_post_meta($page, 'rank_math_description', 'YOONA design description fixture.');
+$offer = wp_insert_post(wp_slash(array(
+    'post_type' => 'page', 'post_status' => 'publish', 'post_name' => 'pelna-oferta',
+    'post_title' => 'Pełna oferta — typografia',
+    'post_content' => '[et_pb_section][et_pb_row][et_pb_column][et_pb_text]<div class="design-offer-sample"><h3><span style="font-family:Georgia,serif">Reklama wielkoformatowa</span></h3><h4><a href="#oferta-test">Ścianki wystawiennicze i ekspozycyjne</a></h4><h5>Litery przestrzenne i podświetlane</h5><h6 id="oferta-test">Tablice informacyjne i unijne</h6></div>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]',
+)), true);
+$check(!is_wp_error($offer), 'A full-offer page contains mixed-case nested service headings and competing Divi-like font styles.');
+update_post_meta($offer, '_et_pb_use_builder', 'on');
 $protected = wp_insert_post(array(
     'post_type' => 'page', 'post_status' => 'publish', 'post_name' => 'design-protected',
     'post_title' => 'Protected design fixture', 'post_password' => 'local-design-test-password',

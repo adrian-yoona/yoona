@@ -75,6 +75,9 @@ final class Yoona_SEO_Design {
 		if ( self::$selected ) {
 			$classes[] = 'yn-design';
 			$classes[] = is_front_page() && ! post_password_required() ? 'yn-front-page' : 'yn-inner-page';
+			if ( is_page( 'pelna-oferta' ) ) {
+				$classes[] = 'yn-offer-page';
+			}
 		}
 		return $classes;
 	}

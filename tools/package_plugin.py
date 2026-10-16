@@ -19,11 +19,14 @@ def main() -> None:
         "assets/fonts/archivo-black-latin-400-normal.woff2",
         "assets/fonts/archivo-black-latin-ext-400-normal.woff2",
         "assets/fonts/OFL-Archivo-Black.txt", "assets/fonts/README.md",
+        "assets/fonts/manrope-latin-wght-normal.woff2",
+        "assets/fonts/manrope-latin-ext-wght-normal.woff2",
+        "assets/fonts/OFL-Manrope.txt", "assets/fonts/README-Manrope.md",
     }
     actual = {path.relative_to(source).as_posix() for path in source.rglob("*") if path.is_file()}
     if actual != expected:
         raise ValueError(f"Unexpected plugin files: {actual ^ expected}")
-    target = root / "downloads" / "yoona-seo-v3.zip"
+    target = root / "downloads" / "yoona-seo-v3.1.zip"
     target.parent.mkdir(exist_ok=True)
     with ZipFile(target, "w", ZIP_DEFLATED, compresslevel=9) as archive:
         for relative in sorted(expected):

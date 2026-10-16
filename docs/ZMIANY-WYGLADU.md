@@ -30,3 +30,9 @@ Wyniki rzeczywiście wykonanych testów podaje [dokument testów](WYNIKI-TESTOW.
 Adresy zdjęć wybrano z istniejącej treści witryny. Filtr sieciowy uniemożliwił pobranie ich w środowisku, dlatego nie potwierdzono aktualnych plików ani identycznego kadru ze zdjęciem referencyjnym. Test układu z zastępczymi obrazami sprawdza geometrię, nie fotografię produkcyjną.
 
 Licencjonowany motyw Divi i dodatki do niego nie są dołączone do testów. Po aktualizacji właściciel powinien sprawdzić stronę główną, typową usługę, realizację i kontakt na komputerze oraz telefonie, zwłaszcza galerie, formularze i przyciski. Cache hostingu lub CDN może wymagać czyszczenia w swoim panelu. Nie wykonano zdalnego wdrożenia na yoona.pl ani pomiaru szybkości produkcji.
+
+## Dopracowanie 3.1 według uwag właściciela
+
+Poprawiono kolejność warstw nagłówka, tak aby gradient rzeczywiście przykrywał zdjęcie i znajdował się pod tekstem. Sam plik fotografii firmy pozostaje w bibliotece: kadrowanie, stonowanie barw i przyciemnienie są odwracalną prezentacją CSS. Nie zastąpiono rzeczywistego budynku wygenerowanym obrazem.
+
+Dodano lokalny Manrope Variable do opisów i interfejsu z polskimi znakami, licencją OFL i pochodzeniem. Archivo Black zachowano dla dużych nagłówków, z mniej ujemnym odstępem liter. Zwiększono opisy, nawigację, przyciski i podpisy. Nazwy kart usług, pasek możliwości, oferta w stopce i nagłówki Pełnej Oferty są wyświetlane wielkimi literami; akapity pozostają czytelne w zwykłej pisowni. Treści w bazie i pakiet SEO pozostają bez zmian.

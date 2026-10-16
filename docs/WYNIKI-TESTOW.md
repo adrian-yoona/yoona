@@ -1,8 +1,18 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.0.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.1.0
 
 Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl.
 
-## Potwierdzone zachowanie
+## Czytelność i typografia — wersja 3.1
+
+Końcowy test Chromium obejmuje **113 asercji** przy szerokościach **1440, 1920, 390 i 320 px**. Sprawdza rzeczywiste lokalne fonty Archivo Black i Manrope, dopasowanie tekstów i podpisów, wielkie litery usług i pełnej oferty, zachowanie menu oraz siatki realizacji. Kontrola pełnej oferty obejmuje także zagnieżdżone etykiety i konkurencyjne reguły fontu podobne do wygenerowanego CSS Divi.
+
+Przy całkowicie białym obrazie pod tekstem test odczytuje piksele tła za końcem każdego wiersza. Pomarańczowy duży nagłówek ma w tym teście kontrast co najmniej **3,75:1**, opis co najmniej **11,2:1**, a pomarańczowe wyróżnienia na jasnym tle co najmniej **4,5:1**. To celowana kontrola wybranych elementów, nie certyfikacja dostępności całej witryny. Poza białym obrazem używany jest wyraźnie oznaczony testowy SVG; rzeczywiste zdjęcie właściciela pozostaje niedostępne z sieci środowiska.
+
+Końcowy raport: [design-browser-results.txt](../tests/design-browser-results.txt). Liczby w raporcie dotyczą dokładnie serwowanego CSS zgodnego z kodem źródłowym. Zdjęcie firmy nie jest przepisywane w bibliotece; efekt wynika z kadru, filtrów i kolejności warstw CSS. Pakiet tekstów i SEO zachowuje ten sam SHA-256.
+
+Ponownie zaliczono **52 testy rzeczywistego HTTP z Rank Math 1.0.280**, składnię dziesięciu plików PHP wtyczki i ścisłe porównanie wszystkich rekordów wpisów/metadanych po przeglądaniu i przełączaniu wyglądu. Przed stanem początkowym rozgrzano oryginalny motyw i dashboard, aby WordPress utworzył własną nawigację i pusty wpis szybkiego szkicu; porównanie nie pomija żadnych rekordów. [Raport HTTP i zachowania bazy wersji 3.1](../tests/design-premium-http-results.txt).
+
+## Pełna regresja pakietu treści — przebieg wersji 3.0
 
 - **17 testów Pythona**: analiza eksportu, parser audytu i rozpoznanie blokady sieciowej. Nie są to pomiary działającej witryny.
 - Kontrola składni wszystkich plików PHP oraz **90 asercji integracyjnych WordPressa**: uprawnienia, nonce, import, kontrola stanu przed zapisem, kopie, konflikty, blokada równoległych wdrożeń i odzyskiwanie po błędzie.
@@ -11,14 +21,14 @@ Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez p
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- ZIP: 18 dozwolonych plików, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.0.0; osobny ZIP wersji 2 pozostaje poprzednim wydaniem.
+- ZIP wersji 3.1: 22 dozwolone pliki, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.1.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.1.0; ZIP-y wersji 2 i 3 pozostają poprzednimi wydaniami.
 
 ## Nowa warstwa wyglądu
 
 - **51 asercji HTTP bez Rank Math i 52 z prawdziwym Rank Math**: nowa strona główna, wspólna oprawa podstron, zachowanie treści i shortcode, stan domyślnie włączony, włączenie/wyłączenie/odświeżenie, nonce, uprawnienia, metody HTTP, style, kanały feed, REST, osadzenia i wyłączenia edytorów. Osobna próba sprawdza pojedynczy tytuł SEO także w motywie bez własnej obsługi `title-tag`.
 - **2 asercje ochrony strony głównej hasłem** oraz ochrona treści podstrony hasłem w powyższych scenariuszach.
 - Trzy porównania wszystkich rekordów wpisów i metadanych potwierdzają, że przeglądanie i przełączanie wyglądu nie przepisuje treści w bazie. Przed pomiarem renderowany jest oryginalny motyw blokowy, aby zakończyć standardowe utworzenie przez WordPress własnego rekordu nawigacji. Nie wyłączono tego rekordu z porównania.
-- Końcowy przebieg Chromium: **60 asercji** na prawdziwych szablonach, CSS i lokalnych fontach przy szerokościach **1440, 390 i 320 px**, obejmujących menu klawiaturą, H1, geometrię kart realizacji, mieszczące się nagłówki, widoczność zachowanej treści oraz błędy JavaScript. Po pełnym przebiegu PHP/HTTP dodano dokładne sprawdzenie geometrii i ponowiono sam test przeglądarki po poprawkach CSS. [Końcowy raport przeglądarki](../tests/design-browser-results.txt) dotyczy dokładnie aktualnego CSS; wcześniejszy raport pełnej integracji zawiera 37 ówczesnych sprawdzeń przeglądarki.
+- Przebieg Chromium wersji 3.0 obejmował **60 asercji** na prawdziwych szablonach, CSS i lokalnych fontach przy szerokościach **1440, 390 i 320 px**, obejmujących menu klawiaturą, H1, geometrię kart realizacji, mieszczące się nagłówki, widoczność zachowanej treści oraz błędy JavaScript. Po pełnym przebiegu PHP/HTTP dodano dokładne sprawdzenie geometrii i ponowiono sam test przeglądarki po poprawkach CSS. Aktualny raport przeglądarki opisuje już wersję 3.1 i 113 sprawdzeń; wcześniejszy raport pełnej integracji zachowuje 37 ówczesnych sprawdzeń przeglądarki.
 
 Zdjęcia w teście przeglądarki są zastąpione jawnie oznaczonymi lokalnymi obrazami SVG. Oceniono układ i zachowanie, nie rzeczywiste fotografie. Przegląd zrzutów wykrył i pozwolił poprawić zbyt wąskie karty realizacji na telefonie, mimo że strona nie miała poziomego przewijania. Końcowy test mierzy szerokość oraz położenie każdej karty, aby wykrywać ten problem.
 
@@ -38,12 +48,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.zip](../downloads/yoona-seo-v3.zip)
+Plik: [downloads/yoona-seo-v3.1.zip](../downloads/yoona-seo-v3.1.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-edc175a8f2ba316f346ec4786f5cd7336c6e84c6e3426f2d4d7266d2c918cda1
+8740337b1b35a45d3396bf7e33bfdb49d422dec8180867b1c285b8a86b500bdc
 ```
 
 SHA-256 dołączonego `content/changes.json`:
