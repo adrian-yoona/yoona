@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Yoona SEO — audyt i wdrożenie treści
  * Description: Podgląd, wdrażanie i cofanie zatwierdzonych zmian treści i metadanych SEO. Eksport danych do audytu.
- * Version: 1.0.0
+ * Version: 2.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Yoona
@@ -14,9 +14,10 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('YOONA_SEO_VERSION', '1.0.0');
+define('YOONA_SEO_VERSION', '2.0.0');
 define('YOONA_SEO_FILE', __FILE__);
 
+require_once __DIR__ . '/includes/class-yoona-seo-divi.php';
 require_once __DIR__ . '/includes/class-yoona-seo-engine.php';
 require_once __DIR__ . '/includes/class-yoona-seo-admin.php';
 

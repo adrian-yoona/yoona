@@ -20,6 +20,7 @@ final class Yoona_SEO_Admin {
 		add_action( 'admin_post_yoona_seo_apply', array( __CLASS__, 'handle_apply' ) );
 		add_action( 'admin_post_yoona_seo_rollback', array( __CLASS__, 'handle_rollback' ) );
 		add_action( 'admin_post_yoona_seo_diagnostics', array( __CLASS__, 'handle_diagnostics' ) );
+		add_action( 'admin_post_yoona_seo_bundled', array( __CLASS__, 'handle_bundled' ) );
 	}
 
 	public static function add_menu() {
@@ -48,6 +49,9 @@ final class Yoona_SEO_Admin {
 				.yoona-seo-admin{max-width:1180px}.yoona-seo-admin .yoona-card{background:#fff;border:1px solid #c3c4c7;padding:20px;margin:20px 0}.yoona-seo-admin .yoona-step{margin-top:0}.yoona-seo-admin .yoona-page{border:1px solid #dcdcde;padding:16px;margin:16px 0}.yoona-seo-admin .yoona-page h3{margin:0 0 12px}.yoona-seo-admin .yoona-compare{table-layout:fixed;width:100%;border-collapse:collapse;margin:12px 0}.yoona-seo-admin .yoona-compare th,.yoona-seo-admin .yoona-compare td{border:1px solid #dcdcde;padding:10px;vertical-align:top;text-align:left;overflow-wrap:anywhere;white-space:pre-wrap}.yoona-seo-admin .yoona-compare th:first-child{width:18%}.yoona-seo-admin textarea{width:100%;min-height:150px;white-space:pre-wrap}.yoona-seo-admin .yoona-content-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}.yoona-seo-admin .yoona-inline-form{display:inline}.yoona-seo-admin .yoona-path{font-family:monospace;overflow-wrap:anywhere}.yoona-seo-admin .yoona-muted{color:#50575e}.yoona-seo-admin .yoona-history td{vertical-align:middle}.yoona-seo-admin details{margin:12px 0}.yoona-seo-admin summary{cursor:pointer;font-weight:600}@media(max-width:782px){.yoona-seo-admin .yoona-content-columns{grid-template-columns:1fr}.yoona-seo-admin .yoona-card{padding:12px}}
 			</style>
 			<?php self::render_notice( $notice ); ?>
+			<?php if ( ! is_wp_error( $bundle ) && ! empty( $bundle['audit_verified'] ) ) : ?>
+				<div class="notice notice-info inline"><p><strong>Gotowy pakiet: <?php echo esc_html( count( $bundle['pages'] ) ); ?> stron i wpisów.</strong> <?php echo 'rank_math' === ( isset( $bundle['seo_storage'] ) ? $bundle['seo_storage'] : '' ) ? esc_html( 'Tytuły i opisy zostaną zapisane w polach Rank Math. Teksty Divi zmienią się w istniejących modułach.' ) : ''; ?></p></div>
+			<?php endif; ?>
 			<?php if ( is_wp_error( $preview ) ) : ?>
 				<div class="notice notice-error inline"><p><?php echo esc_html( $preview->get_error_message() ); ?></p></div>
 			<?php elseif ( empty( $preview['audit_verified'] ) ) : ?>
@@ -65,7 +69,13 @@ final class Yoona_SEO_Admin {
 			<?php endif; ?>
 
 			<section class="yoona-card" aria-labelledby="yoona-prepare">
-				<h2 id="yoona-prepare" class="yoona-step">Przygotuj paczkę zmian</h2>
+				<h2 id="yoona-prepare" class="yoona-step">Pakiet zmian i diagnostyka</h2>
+				<p>Po aktualizacji wtyczki gotowy pakiet jest dostępny poniżej. Jeśli wcześniej wczytano inną paczkę, przycisk przywróci paczkę dołączoną do tej wersji wtyczki. Sam wybór paczki nie zmienia strony.</p>
+				<form action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" method="post">
+					<input type="hidden" name="action" value="yoona_seo_bundled">
+					<?php wp_nonce_field( 'yoona_seo_bundled' ); ?>
+					<?php submit_button( 'Użyj pakietu dołączonego do wtyczki', 'secondary', 'submit', false ); ?>
+				</form>
 				<p>Jeśli audyt wymaga dostępu do treści witryny, pobierz diagnostykę i przekaż ten plik osobie przygotowującej teksty. Traktuj go jak kopię treści swojej strony.</p>
 				<form action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" method="post">
 					<input type="hidden" name="action" value="yoona_seo_diagnostics">
@@ -89,7 +99,8 @@ final class Yoona_SEO_Admin {
 				<?php if ( empty( $pages ) ) : ?>
 					<p>Brak przygotowanych zmian do wyświetlenia. Po wczytaniu poprawnej paczki zobaczysz tutaj podgląd każdej strony.</p>
 				<?php endif; ?>
-				<form action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" method="post">
+				<form id="yoona-seo-apply-form" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" method="post">
+					<p><button type="button" class="button" id="yoona-select-all">Zaznacz wszystkie gotowe</button> <button type="button" class="button" id="yoona-select-none">Odznacz wszystkie</button></p>
 					<input type="hidden" name="action" value="yoona_seo_apply">
 					<input type="hidden" name="bundle_hash" value="<?php echo esc_attr( is_wp_error( $bundle ) ? '' : self::bundle_hash( $bundle ) ); ?>">
 					<?php wp_nonce_field( 'yoona_seo_apply' ); ?>
@@ -125,6 +136,13 @@ final class Yoona_SEO_Admin {
 									<?php if ( array_key_exists( 'post_title', $new ) ) : ?><?php self::render_comparison_row( 'Tytuł strony', 'post_title', $current, $new ); ?><?php endif; ?>
 								</tbody>
 								</table>
+							<?php if ( ! empty( $page['divi_preview'] ) ) : ?>
+								<details><summary>Porównaj zmiany tekstów Divi (<?php echo esc_html( count( $page['divi_preview'] ) ); ?> modułów)</summary>
+								<?php foreach ( $page['divi_preview'] as $patch ) : ?>
+									<h4><?php echo esc_html( ( 'et_pb_toggle' === $patch['module_type'] ? 'Odpowiedź FAQ ' : 'Moduł tekstowy ' ) . ( 1 + $patch['module_index'] ) ); ?></h4>
+									<div class="yoona-content-columns"><div><strong>Obecnie</strong><pre style="white-space:pre-wrap;overflow-wrap:anywhere"><?php echo esc_html( $patch['before'] ); ?></pre></div><div><strong>Po aktualizacji</strong><pre style="white-space:pre-wrap;overflow-wrap:anywhere"><?php echo esc_html( $patch['after'] ); ?></pre></div></div>
+								<?php endforeach; ?></details>
+							<?php endif; ?>
 							<?php if ( array_key_exists( 'content', $new ) ) : ?>
 								<details>
 									<summary>Porównaj pełną treść strony</summary>
@@ -140,6 +158,9 @@ final class Yoona_SEO_Admin {
 					<h2>2. Wgraj zmiany</h2>
 					<p>Przycisk zapisze zmiany tylko dla zaznaczonych stron. Wtyczka zachowa kopię poprzednich wartości, dostępną poniżej.</p>
 					<?php submit_button( 'Wgraj zmiany na zaznaczone strony', 'primary', 'submit', false, 0 === $applicable ? array( 'disabled' => 'disabled' ) : array() ); ?>
+					<p>Podczas wgrywania pozostaw tę kartę otwartą. Zmiany będą zapisywane po 10 stron, z osobną kopią każdej partii.</p>
+					<div id="yoona-progress" hidden><progress style="width:100%" value="0" max="1"></progress><p role="status" aria-live="polite"></p><ul></ul><button type="button" class="button" id="yoona-refresh" hidden>Odśwież podgląd i historię</button></div>
+					<noscript><p>Włącz JavaScript, aby wdrożyć cały pakiet partiami. Bez JavaScript zaznacz najwyżej 10 stron na jeden zapis.</p></noscript>
 				</form>
 			</section>
 
@@ -151,7 +172,7 @@ final class Yoona_SEO_Admin {
 					<p>Nie zapisano jeszcze żadnej partii zmian.</p>
 				<?php else : ?>
 					<table class="widefat striped yoona-history"><thead><tr><th scope="col">Data</th><th scope="col">Strony</th><th scope="col">Stan</th><th scope="col">Działanie</th></tr></thead><tbody>
-						<?php foreach ( array_slice( $history, 0, 10 ) as $batch ) : ?>
+						<?php foreach ( $history as $batch ) : ?>
 							<?php
 							if ( ! is_array( $batch ) || empty( $batch['batch_id'] ) ) {
 								continue;
@@ -180,6 +201,7 @@ final class Yoona_SEO_Admin {
 				<?php endif; ?>
 			</section>
 		</div>
+		<?php self::batch_script(); ?>
 		<?php
 	}
 
@@ -219,6 +241,13 @@ final class Yoona_SEO_Admin {
 		self::finish( 'success', 'Paczka została wczytana. Sprawdź podgląd i wybierz strony. Treści witryny nie zostały zmienione.' );
 	}
 
+	public static function handle_bundled() {
+		self::authorize( 'yoona_seo_bundled' );
+		delete_option( self::IMPORT_OPTION );
+		if ( null !== get_option( self::IMPORT_OPTION, null ) ) { self::finish( 'error', 'Nie udało się wybrać dołączonej paczki.' ); }
+		self::finish( 'success', 'Wybrano pakiet dołączony do wtyczki. Sprawdź podgląd. Treść witryny nie została zmieniona.' );
+	}
+
 	public static function handle_apply() {
 		self::authorize( 'yoona_seo_apply' );
 		$bundle = Yoona_SEO_Engine::load_bundle();
@@ -238,7 +267,14 @@ final class Yoona_SEO_Admin {
 				self::finish( 'error', 'Lista wybranych stron jest niepoprawna. Zaznacz strony ponownie.' );
 			}
 		}
+		if ( count( $paths ) > 10 ) {
+			self::finish( 'error', 'Jedna partia może zawierać najwyżej 10 stron. Użyj przycisku w panelu z włączonym JavaScript, aby wykonać cały pakiet partiami.' );
+		}
 		$result = Yoona_SEO_Engine::apply( $bundle, array_values( array_unique( $paths ) ) );
+		if ( self::wants_json() ) {
+			if ( is_wp_error( $result ) ) { wp_send_json_error( array( 'message' => $result->get_error_message() ), 409 ); }
+			wp_send_json_success( $result );
+		}
 		self::finish_result( $result, 'Zakończono wgrywanie zmian. Sprawdź stan każdej strony.' );
 	}
 
@@ -318,6 +354,7 @@ final class Yoona_SEO_Admin {
 	}
 
 	private static function finish( $type, $message, $result = array() ) {
+		if ( self::wants_json() ) { wp_send_json_error( array( 'message' => sanitize_text_field( $message ) ), 409 ); }
 		$notice = array(
 			'type'    => in_array( $type, array( 'success', 'warning', 'error' ), true ) ? $type : 'warning',
 			'message' => sanitize_text_field( $message ),
@@ -354,6 +391,71 @@ final class Yoona_SEO_Admin {
 			echo '</ul></details>';
 		}
 		echo '</div>';
+	}
+
+	private static function wants_json() {
+		return isset( $_POST['yoona_json'], $_POST['action'] ) && '1' === $_POST['yoona_json'] && 'yoona_seo_apply' === $_POST['action'];
+	}
+
+	private static function batch_script() {
+		?>
+		<script>
+		(function () {
+			'use strict';
+			const form = document.getElementById('yoona-seo-apply-form');
+			if (!form || !window.fetch || !window.FormData) return;
+			const box = document.getElementById('yoona-progress');
+			const progress = box.querySelector('progress');
+			const status = box.querySelector('[role="status"]');
+			const results = box.querySelector('ul');
+			const refresh = document.getElementById('yoona-refresh');
+			let running = false;
+			const choices = () => Array.from(form.querySelectorAll('input[name="selected_paths[]"]:not(:disabled)'));
+			document.getElementById('yoona-select-all').addEventListener('click', () => { if (!running) choices().forEach(input => input.checked = true); });
+			document.getElementById('yoona-select-none').addEventListener('click', () => { if (!running) choices().forEach(input => input.checked = false); });
+			refresh.addEventListener('click', () => window.location.reload());
+			window.addEventListener('beforeunload', event => { if (running) { event.preventDefault(); event.returnValue = ''; } });
+			form.addEventListener('submit', async event => {
+				event.preventDefault();
+				if (running) return;
+				const paths = choices().filter(input => input.checked).map(input => input.value);
+				box.hidden = false;
+				if (!paths.length) { status.textContent = 'Zaznacz co najmniej jedną stronę gotową do aktualizacji.'; return; }
+				const template = new FormData(form);
+				template.delete('selected_paths[]');
+				running = true; results.textContent = ''; refresh.hidden = true;
+				progress.max = paths.length; progress.value = 0;
+				form.querySelectorAll('button,input[type="submit"]').forEach(button => button.disabled = true);
+				let completed = 0;
+				try {
+					for (let offset = 0; offset < paths.length; offset += 10) {
+						status.textContent = 'Zapisywanie: ' + completed + ' z ' + paths.length + ' stron. Pozostaw kartę otwartą.';
+						const data = new FormData();
+						template.forEach((value, key) => data.append(key, value));
+						data.set('yoona_json', '1');
+						paths.slice(offset, offset + 10).forEach(path => data.append('selected_paths[]', path));
+						const response = await fetch(form.action, {method: 'POST', body: data, credentials: 'same-origin'});
+						let payload;
+						try { payload = await response.json(); } catch (error) { throw new Error('Serwer przerwał odpowiedź. Sprawdź historię przed ponowieniem; wcześniejsze partie mają własne kopie.'); }
+						if (!response.ok || !payload.success) throw new Error((payload.data && payload.data.message) || 'Zapis został odrzucony. Odśwież panel i sprawdź komunikaty.');
+						const result = payload.data;
+						(result.pages || []).forEach(page => { const item = document.createElement('li'); item.textContent = page.path + ': ' + page.message; results.appendChild(item); });
+						completed += (result.pages || []).filter(page => page.status === 'applied' || page.status === 'unchanged').length;
+						progress.value = completed;
+						if (result.status !== 'success' && !(result.pages && result.pages.length && result.pages.every(page => page.status === 'unchanged'))) throw new Error(result.message || 'Nie wszystkie zmiany tej partii zostały zapisane. Sprawdź wyniki.');
+					}
+					status.textContent = 'Zakończono. Zapisano ' + completed + ' z ' + paths.length + ' stron. Wyczyść pamięć podręczną strony i sprawdź wynik. Kopie znajdziesz w historii.';
+				} catch (error) {
+					status.textContent = 'Zatrzymano po ' + completed + ' z ' + paths.length + ' stron. ' + error.message;
+				} finally {
+					running = false;
+					form.querySelectorAll('button,input[type="submit"]').forEach(button => button.disabled = false);
+					refresh.hidden = false;
+				}
+			});
+		})();
+		</script>
+		<?php
 	}
 
 	private static function status_label( $status ) {

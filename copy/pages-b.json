@@ -1,0 +1,2184 @@
+[
+  {
+    "path": "/kasetony-swietlne/",
+    "seo_title": "Kasetony świetlne Olsztyn i Ostróda | YOONA",
+    "meta_description": "Kasetony z dibondu i plexi, z podświetleniem LED. YOONA: projekt, produkcja i montaż w Olsztynie i Ostródzie. Prześlij wymiary do wyceny.",
+    "expected_content_sha256": "2cbb2918e49ddb2e0f527e1c37676e30711b48661aed0b082778dd49e86468bd",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Kasetony do oznakowania lokali</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "1249785cf6f738c7077d4eb113465f0f0c56642d664fafa4774e391075d06bdd",
+        "html": "<h1>Kasetony świetlne w Olsztynie i <span style=\"color: #f36f21\">Ostródzie</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "1043956990f49667dfc29284f443b4c2e40f1432f8a43fb7ffc5ff647a32f4b5",
+        "html": "\n<p><span style=\"color: #000000\">Kaseton świetlny pomaga oznaczyć lokal i pokazać nazwę firmy po zmroku. W YOONA projektujemy, produkujemy i montujemy kasetony reklamowe dla firm z Olsztyna, Ostródy i innych miejscowości.</span></p>\n<p><span style=\"color: #000000\">Wykonujemy kasetony z dibondu oraz plexi z podświetleniem LED. Wersję jednostronną lub dwustronną dobieramy do położenia lokalu i kierunku, z którego klienci będą widzieć reklamę.</span></p>\n<p><span style=\"color: #000000\">Zaczynamy od projektu i ustalenia wymiarów. Następnie dobieramy materiały, sposób wykonania grafiki oraz oświetlenie do miejsca ekspozycji. Przed produkcją uzgadniamy wygląd oznakowania.</span></p>\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "fac348ac83c575264137302b5fa7b047ec4dba517fd7c9f96ef33fb221919ca6",
+        "html": "<p>Kaseton łączy obudowę z powierzchnią przeznaczoną na logo, nazwę lub grafikę. Wielkość napisu i kontrast tła warto dobrać do odległości, z której ma być odczytywany.</p>\n"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "6af456bc144a7dee687de0182ca6ab26a2ede84e297b540008a9f2d3121f0071",
+        "html": "<p>W kasetonie świetlnym źródło światła znajduje się wewnątrz obudowy. Moduły LED podświetlają wybrane elementy lub lico, zależnie od konstrukcji i projektu.</p>\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "7f312ec2a284a9301404381c98068da1df66f222e6f05526b634a9b22c33861b",
+        "html": "<p>Podświetlenie może uzupełniać oznakowanie sklepu, restauracji lub punktu usługowego. Układ grafiki powinien pozostać czytelny zarówno przy włączonym, jak i wyłączonym oświetleniu.</p>\n"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "7639eef6b14469f117a9cfa70b803e88e872b9a6092ac99d92ca984740dedf3d",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Dobór technologii</h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "81c68cf759c927affbb8a2d0d60993aa7a234966c9d6d9e7834ebd9d99e120f9",
+        "html": "<h2>Jak powstaje kaseton <span style=\"color: #f36f21\">reklamowy?</span></h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "aad7998d9ad91142e0c9b11f0d940bedacf9c9ae2c63c88cb75f2d99e3860004",
+        "html": "<p>Frezowanie, wyklejanie folią, malowanie i podświetlenie pozwalają uzyskać różne efekty wykończenia. Dobieramy technologię do projektu zamiast stosować jeden wariant dla każdego lokalu.</p>\n<p>Aby przygotować wycenę, prześlij logo, orientacyjne wymiary kasetonu oraz zdjęcie elewacji. Podaj też miejsce montażu i informację, czy reklama ma być widoczna z jednej czy z dwóch stron.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "acd3313c453f9d7385146347c1f6f39f83045a47311ba55c54c9913bec7dd1a9",
+        "html": "<p>Frezowanie pozwala wyciąć w dibondzie lub tworzywie kształty liter, logo i innych elementów. Zakres obróbki dobieramy do projektu oraz materiału kasetonu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8445d6000f74ec7b9c8da556fd2c3015ab5475de0ce1e1f45961b3e1a01792ce",
+        "html": "<p>Moduły LED montowane wewnątrz kasetonu podświetlają lico albo wybrane elementy. Ich układ i moc dobieramy do wymiarów konstrukcji i oczekiwanego efektu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "7a5183632e438e45badb32143bdc28df2cde8bcfcae67087029ba213a9070eff",
+        "html": "<p>Folia samoprzylepna pozwala nanieść kolor, logo lub wydruk na powierzchnię kasetonu. Rodzaj folii zależy od podłoża oraz sposobu podświetlenia.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "27116f6ebb6b512dc4e9d31465acecf2f4e5628b0de7da36f576ff959bd28670",
+        "html": "<p>Malowanie służy do wykończenia korpusu w uzgodnionym kolorze. Sposób przygotowania i powłokę dobieramy do materiału obudowy oraz warunków ekspozycji.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/pylony/",
+    "seo_title": "Pylony reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Pylony i totemy reklamowe dla firm i obiektów usługowych. Projekt, produkcja oraz montaż w YOONA. Zapytaj o rozwiązanie dla swojej lokalizacji.",
+    "expected_content_sha256": "32dc0e33eb03ae8c5e51e1299bb2b740596687710ba66a9efb3a8d879ba6d882",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "c876eb3031a29c773025cfedfa38e275ca14eef7ffd0f736b424c698cb941d86",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oznakowanie przy wjazdach i obiektach</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "e46333febfc92b7a34929f09a06af19ef73032a93eb7b59422019894cef0bf38",
+        "html": "<h1>Pylony reklamowe w Olsztynie i <span style=\"color: #f36f21\">Ostródzie</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "c204f30248ee508b73310bd9f57843c76e15116260cbe01ba27ce4aab13f4639",
+        "html": "<p><span style=\"color: #000000\">Pylon reklamowy to wolnostojące oznakowanie, które pomaga odnaleźć wjazd, siedzibę firmy lub konkretny lokal. W YOONA przygotowujemy pylony dla firm, biurowców, hoteli i obiektów handlowych w Olsztynie, Ostródzie oraz regionie.</span></p>\n<p><span style=\"color: #000000\">Projekt dopasowujemy do miejsca ustawienia i identyfikacji wizualnej. Możemy zaplanować pojedyncze logo albo układ informacji o kilku firmach korzystających z jednego obiektu.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "862e801ea198270ceabcf69221f8f5a89987f4a03c21eb8b0c1a074ad2af303e",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Projekt, produkcja i montaż</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "595714e75eab6becc656bd620273412743937f92596d636bbe4c658a2e615e80",
+        "html": "<h2>Pylon dopasowany do <span style=\"color: #f36f21\">obiektu</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "53c8ef36e5554ae57cda638d31386ed77bb5d929291b8367574b154bf9f770be",
+        "html": "<p>Zakres prac obejmuje projekt graficzny, wykonanie konstrukcji i elementów reklamowych oraz montaż. Stosujemy między innymi stal, aluminium, dibond i plexi, zależnie od konstrukcji oraz oczekiwanego efektu.</p>\n<p>W ofercie są pylony informacyjne, warianty z podświetleniem LED i totemy z wymiennymi panelami. Układ treści dobieramy do liczby oznaczeń i odległości od odbiorcy.</p>\n\n\n"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "40181f77363a670d0f53a9f34d0061b02d3cfae7267ed8ef467953baf1e8592b",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Konstrukcja i lokalizacja</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "7fa6fb5e805040964d5baa17880f1cc16f5d3693e1f6d6152c48ba2d7d7f4057",
+        "html": "<h2>Co ustalić przed <span style=\"color: #f36f21\">realizacją?</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "ce6bd3358a48b4be30e8019248f19193cd5907f8b4478c4cf1f27ab76dd4a2b3",
+        "html": "<p>Przed realizacją ustalamy wymiary, miejsce posadowienia i sposób mocowania. Istotne są również dostęp do zasilania oraz warunki otoczenia, jeśli projekt ma zawierać oświetlenie.</p>\n<p>W obiektach z wieloma najemcami warto przewidzieć możliwość wymiany nazw i logotypów. Dzięki temu oznakowanie można dostosować do zmian w budynku.</p>\n\n\n"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "2de5ff9366b55ec618f54ede190282d7293587a9920ad140adb0cbe762fcc6f0",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie wyceny</h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "a7f0124ee370877fd3fa362ca051ccb9d20a6501d1a5e2383602cf9d046c0efb",
+        "html": "<h2>Zaplanuj oznakowanie <span style=\"color: #f36f21\">firmy</span></h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "1b1c0d0cdc258a0d1e4aac473345be22df0d7fddf780c7fc7774206f291f87d8",
+        "html": "<p>Prześlij lokalizację, zdjęcia terenu oraz logo lub zestaw nazw, które mają znaleźć się na pylonie. Dołącz planowane wymiary i informację o podświetleniu.</p>\n<p>Na tej podstawie omówimy możliwą konstrukcję i zakres realizacji. Warunki ustawienia pylonu oraz wymagane uzgodnienia trzeba ustalić dla konkretnej lokalizacji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "35852541d94dfcd54b5d911a88826b3431853ba5e3ca3f59f54b94970336cd85",
+        "html": "<p>Projektujemy, wykonujemy i montujemy pylony oraz totemy informacyjne, w tym warianty z podświetleniem.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8a8b5d1ccd671e2a8c8de2c047d0b8e7a75a94df79ae616174709a8d125a1c6e",
+        "html": "<p>W projekcie ustalamy układ informacji, wymiary, konstrukcję i miejsce ustawienia.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "76fb9c352717ed5debcd2e40fa91deaf03ed11ef5897e772b6d0e77a949ac202",
+        "html": "<p>Przykłady wykonanych prac można obejrzeć w galerii realizacji na stronie. Jeśli szukasz przykładu podobnego do swojego zamówienia, opisz planowany zakres — wskażemy odpowiednie materiały.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b187b980f07693196979f47daa917b1f5d920ec635974850251d81d85110191a",
+        "html": "<p>Koszt pylonów reklamowych ustalamy indywidualnie, uwzględniając wymiary, konstrukcję, podświetlenie i sposób montażu. Wycenę przygotowujemy dla uzgodnionego zakresu prac.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "a936e30cd575605b82253772f02fab4dce8a906321b619f4faa302ae80f3f0cc",
+        "html": "<p>Przygotuj logo, treść oznakowania, zdjęcia terenu i orientacyjne wymiary. Potrzebna będzie również akceptacja projektu i uzgodnienie szczegółów przed realizacją.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/markizy-z-logo/",
+    "seo_title": "Markizy z logo Olsztyn i Ostróda | YOONA",
+    "meta_description": "Markizy z logo dla restauracji, kawiarni i sklepów. YOONA: projekt, znakowanie i montaż. Prześlij zdjęcie lokalu i wymiary do wyceny.",
+    "expected_content_sha256": "e5f9aeb794d986b84fc285c93a16a30f572c3ff9243f8e1a51437a88716848ae",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "fe0c77591167ad28f0ba61e118920c55598e2265d26337a3b6ed87269b944df1",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oznakowanie i osłona dla lokalu</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "8ce624c8bc7e19a0a6831fba176e3ccc730b0c42b0003a1cdd66dbd1d8319d91",
+        "html": "<h1>Markizy z <span style=\"color: #f36f21\">logo</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "dc1e2a6b988f1e6531c0a441c4aa3844a5c0d633e109f6f864d5728dac2bd8de",
+        "html": "\n<p><span style=\"color: #000000\">Markiza z logo łączy osłonę przeciwsłoneczną z oznakowaniem lokalu. Nazwa restauracji, kawiarni lub sklepu może znaleźć się na poszyciu albo falbanie, zgodnie z przygotowanym projektem.</span></p>\n<p><span style=\"color: #000000\">W YOONA realizujemy markizy reklamowe dla lokali w Olsztynie i Ostródzie. Dobieramy wygląd konstrukcji i znakowanie do elewacji oraz identyfikacji wizualnej firmy.</span></p>\n\n\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "1e2494c718ff21f8303ca01d7eced7fc74d28b683a8d7630a52cc26d255229c8",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Wygląd dopasowany do elewacji</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "b362341d3beca4b433deea359ea50991aa9ab99e933e2d6eda3bd16ea3f7e7a1",
+        "html": "<h2>Czytelna nazwa Twojego <span style=\"color: #f36f21\">lokalu</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "e1965d740e7cb49c4932dfa44a1fcfe1a5c8a23e213d84e81be8a47f56fea4dc",
+        "html": "<p>Przy projektowaniu nadruku liczy się czytelność nazwy z ulicy. Kolor poszycia, wielkość logo i położenie grafiki powinny współgrać z witryną i pozostałym oznakowaniem.</p>\n<p>Markiza może osłaniać wejście, witrynę lub strefę przed lokalem. Sposób użytkowania zależy od wybranego modelu i jego parametrów technicznych.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "21ec2d33060319b0ad73541b547d7c5a0b06a989243b022c4141d065129cb49e",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Od projektu do montażu</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "0c09d7c4ccecbdaa5c87767f2c032890ba6582ccaae1c99352e4776ba0a89f58",
+        "html": "<h2>Jak realizujemy <span style=\"color: #f36f21\">markizy?</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "39051b7e08207c756b118abedba479dcccbb78d93ed8190f5cd93b75a49c117a",
+        "html": "<p>Obsługa obejmuje projekt graficzny, dobór rozwiązania technicznego, wykonanie znakowania oraz montaż. Przed produkcją uzgadniamy wizualizację i szczegóły zamówienia.</p>\n<p>Możliwość mocowania oceniamy dla konkretnego budynku. Wymiary oraz sposób sterowania trzeba dobrać do planowanej powierzchni osłony i miejsca montażu.</p>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "63be32e0e904c160cd110742a86eae01f427ed6c5388a403d95d70ba72bbf4fc",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Zapytaj o wycenę</h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "00d8146d1140fc50a5caf2f01e02163758f5cab66c8663e9e69e058e998fe72a",
+        "html": "<h2>Przygotuj zdjęcie i <span style=\"color: #f36f21\">wymiary</span></h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "f6271d92567daa55b06050a2016b623e482e1fce62a2f097a3bc1f226995b522",
+        "html": "<p>Do zapytania dołącz logo, szerokość planowanej markizy i zdjęcie elewacji. Podaj adres montażu oraz informację, jak chcesz korzystać z osłoniętej przestrzeni.</p>\n<p>Przygotujemy propozycję zakresu prac i wycenę. Warunki korzystania z markizy przy wietrze lub opadach określa dokumentacja dobranego modelu.</p>\n\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "5ac0f708e5a9f87a4d98a583febb1f51039788fbf4c2b7d0d8faae442a70b2cc",
+        "html": "<p>Cena zależy od wymiarów, rodzaju konstrukcji, sterowania, grafiki i montażu. Do wyceny prześlij zdjęcie elewacji, orientacyjną szerokość oraz logo.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "3cc51a212f83f8a0bcc2c2e98e9430afe46d2e93631b4384529f9bfd25fdd6ae",
+        "html": "<p>Trwałość znakowania zależy od poszycia, techniki nadruku, nasłonecznienia i sposobu użytkowania. Właściwe zasady pielęgnacji określamy dla wybranego rozwiązania.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "14534c10a3ff7f4b6fcb0a6a47c8a6ff73c734ee863fe9099c05b99931131de7",
+        "html": "<p>Markiza służy przede wszystkim do zacieniania. Dopuszczalne użytkowanie przy opadach i wietrze zależy od modelu, nachylenia i parametrów konstrukcji. Należy kierować się jej instrukcją.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b9ea41c73fb2c3144dfb56c32df1188aecee04e2f5dbd91535d86b7c6ca7de2b",
+        "html": "<p>Termin ustalamy po akceptacji projektu i sprawdzeniu dostępności materiałów. Podaj oczekiwaną datę realizacji już przy zapytaniu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "2438cdae1f181882c237288c741c846fadf6320dfc93a1f1250aa307e91225c3",
+        "html": "<p>Możemy przygotować znakowanie z logo, nazwą lub grafiką. Projekt dopasowujemy do rozmiaru i koloru poszycia, a przed produkcją uzgadniamy jego wygląd.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 5,
+        "expected_html_sha256": "905c7347bb12b349117ecc8c3d246053adbeb6306c3ed9fbfe833b754a5f128a",
+        "html": "<p>Markizy montuje się między innymi przy restauracjach, kawiarniach, sklepach i punktach usługowych. Lokalizację oraz sposób mocowania trzeba ustalić dla konkretnego budynku.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 6,
+        "expected_html_sha256": "f609d211c8879a34a1347b819a3b4275d536abb35b172a147e0672236335c0ee",
+        "html": "<p>Tak. Przygotowujemy projekt znakowania na podstawie materiałów firmy i uzgadniamy go przed produkcją. Prześlij logo oraz zdjęcie miejsca montażu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 7,
+        "expected_html_sha256": "015c1a074ba9e81165027a2e75b729f436d6570312a6c66b986a27189058790f",
+        "html": "<p>Możliwość montażu na istniejącej elewacji zależy od jej konstrukcji i stanu. Po obejrzeniu miejsca można dobrać sposób mocowania i zakres prac.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/flagi/",
+    "seo_title": "Flagi reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Flagi z nadrukiem i maszty reklamowe dla firm. Różne kształty i rozmiary. YOONA w Olsztynie i Ostródzie — zapytaj o projekt i wycenę.",
+    "expected_content_sha256": "8950e508825a754d7953cb874a69a78a40540a104ecb0328e1527011b6d6029f",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "05831608dd114d37c9a19f2163bf405f15d4c111e3672449549245cf8e874b3d",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Flagi z nadrukiem dla firm</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "3551aaaf7a8ffd01a0c53c9d955b210fce80515100305804dab3a5a39ba7b873",
+        "html": "<h1>Flagi reklamowe w Olsztynie i <span style=\"color: #f36f21\">Ostródzie</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "8309e48e94660640011a0e73371975c56ef2f086294303c6a71e726d7c5472d8",
+        "html": "<div class=\"opis-image\">\n<div class=\"opis-box-right\">\n<p>Flagi z logo służą do oznakowania siedziby firmy, stoiska lub wydarzenia. W YOONA przygotowujemy flagi reklamowe z nadrukiem i maszty dla klientów z Olsztyna, Ostródy oraz okolic.</p>\n<p>Oferujemy różne kształty i rozmiary flag. Wybór warto powiązać z miejscem ekspozycji, wysokością masztu oraz układem znaku firmowego.</p>\n<p>Druk jednostronny może być widoczny z drugiej strony jako odbicie lustrzane. Ten efekt trzeba uwzględnić podczas projektowania napisów i logotypu.</p>\n<p>Prześlij logo, oczekiwany format i liczbę flag. Podaj, gdzie będą używane i czy potrzebujesz również masztu — pozwoli to ustalić właściwy zestaw i wycenę.</p>\n</div>\n</div>\n<div id=\"galeria\" class=\"galeria-header\"></div>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      }
+    ]
+  },
+  {
+    "path": "/fototapety/",
+    "seo_title": "Fototapety na wymiar Olsztyn i Ostróda | YOONA",
+    "meta_description": "Fototapety z własną grafiką do domu, biura i lokalu. Projekt i druk na wymiar w YOONA. Prześlij wymiary ściany i zapytaj o wycenę.",
+    "expected_content_sha256": "ed8a3b983d12e7b6b301ed703063073fe775141199e16cb33ef6ad5bf59b9935",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Druk dopasowany do wnętrza</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "21d01e584a478dd5bd10d024b06fee8fa4dcdd112c917ba71568ec0ab47501ec",
+        "html": "<h1>Fototapety na <span style=\"color: #f36f21\">wymiar</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "a384272933d28e2ccfcee8295a13ac9a8c7d602669e527e9e9fdf1984602ebc1",
+        "html": "\n\n<p><span style=\"color: #000000\">Fototapeta na wymiar pozwala dopasować grafikę do konkretnej ściany. Przygotowujemy wydruki do mieszkań, biur, restauracji, hoteli i lokali usługowych w Olsztynie i Ostródzie.</span></p>\n<p><span style=\"color: #000000\">Możesz przekazać własne zdjęcie lub projekt albo omówić z nami opracowanie grafiki. Przed drukiem trzeba sprawdzić rozdzielczość pliku i kadrowanie obrazu do proporcji ściany.</span></p>\n<p><span style=\"color: #000000\">Fototapety powstają w ramach naszej oferty <a href=\"https://yoona.pl/drukarnia-wielkoformatowa/\">druku wielkoformatowego</a>. Materiał dobieramy do zastosowania i warunków w pomieszczeniu.</span></p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "961a271f12a3c01957dfd06e673f95e596a6ce6925dff399cc0021c31ead919d",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Dom i przestrzeń firmowa</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "4dd6cfcd535c4d46e6fefa8445cc0ab0b87484b382282ba18d8bf9b29e62e4b6",
+        "html": "<h2>Gdzie sprawdzi się <span style=\"color: #f36f21\">fototapeta?</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "c8e217fee48e622126ec86ebead46c512f9a79a2911312b7a43c535c3dec43a4",
+        "html": "<p>We wnętrzu firmowym fototapeta może pokazywać identyfikację marki, ilustrację lub fotografię związaną z działalnością. W domu pomaga zaplanować dekorację o wymiarach dopasowanych do przestrzeni.</p>\n"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "075969dcec07ef4780eaa0e6234bcd04aadfab2c45e4e3093bd0fc0b3f9c418d",
+        "html": "<h2>Projekt dopasowany do <span style=\"color: #f36f21\">ściany</span></h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "ef2d415e3765f7a8766ffd54c2b7c3504513777646bc3d59a8e9b2ef496e0110",
+        "html": "<p>Przy ustalaniu projektu uwzględniamy położenie drzwi, gniazd, mebli i innych elementów zasłaniających ścianę. Ułatwia to umieszczenie ważnych fragmentów grafiki we właściwym miejscu.</p>\n<p>Kolory i detale obrazu warto ocenić jeszcze przed produkcją. Przy dużym powiększeniu jakość zdjęcia źródłowego ma szczególne znaczenie.</p>\n\n"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "7fa3b39e60ec1c36d120fd33cc07a4e8c0cfdabd177bca7a2b6cef410bb981f7",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Materiał i przygotowanie podłoża</h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "de1bd2cc7b08f5c2adb83cde8d14ae4bd45126e0918f7db9420a562ffa70403c",
+        "html": "<h2>Przed drukiem i <span style=\"color: #f36f21\">montażem</span></h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "da35060668b1a24d3597aa8994fbcb86495edcdc60401d3ce2f5aaa31ccf41cd",
+        "html": "<p>Zastosowanie i stan podłoża wpływają na wybór materiału oraz przygotowanie ściany. Zakres ewentualnego montażu i sposób pielęgnacji ustalamy dla wybranego rozwiązania.</p>\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "df230fcae20a593a6d9a8d78caffb498de40887f0252e534e57eb6bacdf88332",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "c1417e8a8af6af1d8b2db22357881416bff758674d71ade77646c1dbeaf1c7af",
+        "html": "<h2>Co przesłać do <span style=\"color: #f36f21\">wyceny?</span></h2>"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "3b7d2a94146c5ffe117d234742ebb12f70b79866899c836b7472a45aef094d89",
+        "html": "<p>Prześlij szerokość i wysokość ściany, zdjęcie wnętrza oraz plik graficzny, jeśli już go masz. Podaj przeznaczenie pomieszczenia — przygotujemy wycenę i omówimy kolejne kroki.</p>\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "e646bba58f05b70559640f70d393ab95c9eceaf55705ebacbfded7d85a032498",
+        "html": "<p>Grafikę i kadrowanie dopasowujemy do wymiarów ściany. Możesz przekazać własne zdjęcie lub omówić przygotowanie projektu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "5f3dec9be5780544b2cb0b34fb4b6802a2e8890fe1a8950399e5c0f69739d081",
+        "html": "<p>Przed drukiem sprawdzamy przydatność pliku do docelowego formatu. Rozdzielczość i jakość zdjęcia mają wpływ na wygląd powiększonej grafiki.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "d661d8ebc985f572412637e789022aaa26ef534a70366c266267c973f81baab5",
+        "html": "<p>Przy projekcie uwzględniamy wymiary ściany, przeznaczenie wnętrza oraz elementy, które mogą zasłaniać obraz. Zakres opracowania uzgadniamy indywidualnie.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "9f03a39ec3875043d549eba5d139de3fa43f3d1c26b0f78f54282222a3a93e61",
+        "html": "<p>Trwałość fototapety zależy od materiału, przygotowania podłoża, montażu i warunków w pomieszczeniu. Sposób czyszczenia dobieramy do konkretnego produktu.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/totemy/",
+    "seo_title": "Totemy reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Totemy do oznakowania firm i obiektów. YOONA w Olsztynie i Ostródzie — omów projekt, miejsce ustawienia i zakres realizacji swojego oznakowania.",
+    "expected_content_sha256": "8afacf934fb48a7f2c74df3f19ae1e93dfcbb2d7958d42ee998ba59e77da6807",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "561d11fd86ccc34de3686a053f7e0dc0528cfd96dfdbcf6f1eacd23850100c45",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Oznakowanie firmy i obiektu</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "070484167995389307aebdb6ab0676c3d2a92ecefede732d5e1e194ccd249d32",
+        "html": "<h1>Totemy <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "2d206f277bf0c6a7f0340010818a3a727ef1f8d309fe609fa5e21d3680cc896c",
+        "html": "<p>Totem reklamowy to wolnostojący nośnik informacji o firmie lub obiekcie. Może wskazywać wejście, prezentować nazwę albo porządkować informacje o lokalach w jednym miejscu.</p>\n<p>W YOONA przygotowujemy oznakowanie dla klientów z Olsztyna i Ostródy. Wygląd totemu ustalamy z uwzględnieniem identyfikacji wizualnej oraz otoczenia.</p>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "4bc5fcb1bc1ac46122c99b8c25c9a32478fde431533ba5ad179e396bd726b1cf",
+        "html": "<h2>Jak planujemy <span style=\"color: #f36f21\">oznakowanie?</span></h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "f2c243e0fc5f318e9fddfb683f46d6034219dd14559831ccaf335de8f650ed64",
+        "html": "<p>Projekt zaczynamy od określenia informacji, które mają znaleźć się na nośniku. Dobieramy ich kolejność, wielkość i kontrast tak, aby odbiorca mógł odczytać potrzebny komunikat.</p>\n<p>Zakres wykonania i sposób ustawienia omawiamy dla konkretnego miejsca. Warto zaplanować je przed ostatecznym ustaleniem wymiarów.</p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "561d11fd86ccc34de3686a053f7e0dc0528cfd96dfdbcf6f1eacd23850100c45",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie realizacji</h2>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "bc44e399cc0db433ac7ace29262dc8a3c573783e770ee1092aca526664b79854",
+        "html": "<h2>Co przesłać do <span style=\"color: #f36f21\">wyceny?</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "1c1ec24ed4b9ca2bb9e8260d0aa69b0040f3c44a95009dc520c4ca731a30d256",
+        "html": "<p>Prześlij logo, treść oznakowania oraz zdjęcie miejsca, w którym ma stanąć totem. Dołącz orientacyjne wymiary i liczbę potrzebnych nośników.</p>\n<p>Na tej podstawie ustalimy zakres projektu i wycenę. Jeśli oznakowanie obejmuje kilka firm lub wejść, przygotuj także ich listę i plan rozmieszczenia.</p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "35852541d94dfcd54b5d911a88826b3431853ba5e3ca3f59f54b94970336cd85",
+        "html": "<p>Przygotowujemy oznakowanie w formie totemów oraz inne nośniki identyfikacji firmy. Zakres konkretnej realizacji ustalamy przy zapytaniu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8a8b5d1ccd671e2a8c8de2c047d0b8e7a75a94df79ae616174709a8d125a1c6e",
+        "html": "<p>Zaczynamy od treści i miejsca ekspozycji. Następnie uzgadniamy układ informacji oraz zakres wykonania.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "76fb9c352717ed5debcd2e40fa91deaf03ed11ef5897e772b6d0e77a949ac202",
+        "html": "<p>Przykłady wykonanych prac można obejrzeć w galerii realizacji na stronie. Jeśli szukasz przykładu podobnego do swojego zamówienia, opisz planowany zakres — wskażemy odpowiednie materiały.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b187b980f07693196979f47daa917b1f5d920ec635974850251d81d85110191a",
+        "html": "<p>Koszt totemów reklamowych ustalamy indywidualnie, uwzględniając format, wykonanie i miejsce ustawienia. Wycenę przygotowujemy dla uzgodnionego zakresu prac.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "a936e30cd575605b82253772f02fab4dce8a906321b619f4faa302ae80f3f0cc",
+        "html": "<p>Przygotuj logo, listę informacji, wymiary i zdjęcie lokalizacji. Potrzebna będzie również akceptacja projektu i uzgodnienie szczegółów przed realizacją.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/scianki-reklamowe/",
+    "seo_title": "Ścianki reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Ścianki reklamowe z grafiką firmową na targi, konferencje i wydarzenia. YOONA: projekt i wykonanie. Zapytaj o format dopasowany do ekspozycji.",
+    "expected_content_sha256": "acd23a140fcc11ec35bb982e58113d3c870613bd92f73e1bca7514aa1a763e08",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Grafika na wydarzenia i stoiska</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "b9fc19d0c81c0ab025399cd9067aafa0f55e6ab2a80e70e361e55ee16a4720cd",
+        "html": "<h1>Ścianki <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "c4344423a8eb97490f8af916ed344b6f38d875f92bfefa67fa5f1ea765791e03",
+        "html": "<p><span style=\"color: #000000\">Ścianka reklamowa tworzy tło dla stoiska, prezentacji lub zdjęć podczas wydarzenia. Może zawierać logo, nazwę firmy i krótki komunikat dopasowany do odbiorców.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy projekt i wykonanie ścianek dla klientów z Olsztyna i Ostródy. Zakres realizacji ustalamy na podstawie planowanego sposobu użycia.</span></p>\n\n\n\n"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "54dc0066dcfc376334632b1fba5077fa8aa048ac17fd2e8193c1b29ec2fbac74",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Czytelny projekt tła</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "c9504327ff1337680397d4b5323dfcc07acc0a4bdb5c893762a84ef8c5deffc9",
+        "html": "<h2>Jak zaplanować <span style=\"color: #f36f21\">grafikę?</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "cd3780e305247b71dcf5a82814e5a62181e56f1dbf8f44075bbf9485c45bcc2f",
+        "html": "<p>Przy projektowaniu tła liczą się proporcje grafiki i widoczność znaków. Warto uwzględnić, że część powierzchni mogą zasłaniać uczestnicy, meble lub wyposażenie stoiska.</p>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "4bc5fcb1bc1ac46122c99b8c25c9a32478fde431533ba5ad179e396bd726b1cf",
+        "html": "<h2>Dopasowanie do <span style=\"color: #f36f21\">ekspozycji</span></h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "82d14b8ee429f4693c360607ce996fac08a4ed6faaceb46a88e14f9f788b7b47",
+        "html": "<p>Zaczynamy od wymiarów dostępnego miejsca i materiałów graficznych firmy. Następnie dopasowujemy układ informacji do formatu ścianki i charakteru wydarzenia.</p>\n<p>Jeśli masz już konstrukcję, prześlij jej model oraz wymiary powierzchni graficznej. Pozwoli to sprawdzić wymagania dotyczące przygotowania wydruku.</p>\n\n\n"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "d63447a06788e731035a01641e805168049a710a3a9ebf0aee675c90aba7e84d",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "bc44e399cc0db433ac7ace29262dc8a3c573783e770ee1092aca526664b79854",
+        "html": "<h2>Zapytaj o ściankę dla swojej <span style=\"color: #f36f21\">firmy</span></h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "1a8db07fcec23e7f27f04b63562a49eef7129c836d66290d6d333d28b5f59082",
+        "html": "<p>Do wyceny potrzebujemy planowanego rozmiaru, liczby sztuk oraz terminu wydarzenia. Dołącz logo i opis miejsca ekspozycji.</p>\n<p>Napisz, czy chodzi o nowy zestaw, czy o grafikę do posiadanej konstrukcji. Omówimy możliwości wykonania i przygotowania projektu.</p>\n\n\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "35852541d94dfcd54b5d911a88826b3431853ba5e3ca3f59f54b94970336cd85",
+        "html": "<p>Przygotowujemy projekty i wykonanie ścianek z grafiką firmową. Zakres ustalamy na podstawie wymiarów i sposobu ekspozycji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8a8b5d1ccd671e2a8c8de2c047d0b8e7a75a94df79ae616174709a8d125a1c6e",
+        "html": "<p>Ustalamy format, materiały marki i treść. Następnie przygotowujemy układ grafiki do uzgodnienia przed wykonaniem.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "76fb9c352717ed5debcd2e40fa91deaf03ed11ef5897e772b6d0e77a949ac202",
+        "html": "<p>Przykłady wykonanych prac można obejrzeć w galerii realizacji na stronie. Jeśli szukasz przykładu podobnego do swojego zamówienia, opisz planowany zakres — wskażemy odpowiednie materiały.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b187b980f07693196979f47daa917b1f5d920ec635974850251d81d85110191a",
+        "html": "<p>Koszt ścianek reklamowych ustalamy indywidualnie, uwzględniając format, nakład, konstrukcję i zakres przygotowania grafiki. Wycenę przygotowujemy dla uzgodnionego zakresu prac.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "a936e30cd575605b82253772f02fab4dce8a906321b619f4faa302ae80f3f0cc",
+        "html": "<p>Przygotuj logo, treści, rozmiar, liczbę sztuk i termin wydarzenia. Potrzebna będzie również akceptacja projektu i uzgodnienie szczegółów przed realizacją.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/oklejanie-przyczep-gastronomicznych/",
+    "seo_title": "Oklejanie przyczep gastronomicznych | YOONA",
+    "meta_description": "Oklejanie przyczep gastronomicznych i food trucków. YOONA: projekt, druk i aplikacja grafiki. Olsztyn i Ostróda — prześlij zdjęcia do wyceny.",
+    "expected_content_sha256": "1aaa947d6deb9e02032fd108053e3091b65c922128bc1c0576f850f230c47e9b",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Projekt, druk i aplikacja grafiki</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "34b149d7ea31168264fbe61bf354eb4427c80e4820e9b290bfee27d7c938a70e",
+        "html": "<h1>Oklejanie przyczep <span style=\"color: #f36f21\">gastronomicznych</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "4411f20da7fe7abedbff6f12251088b27fcc9b8e22118502aa28fb5193da9ae2",
+        "html": "<p><span style=\"color: #000000\">Oklejenie przyczepy gastronomicznej pomaga pokazać nazwę lokalu i charakter serwowanej kuchni. Projekt powinien być czytelny zarówno podczas przejazdu, jak i obsługi klientów.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy projekty, druk i aplikację grafiki na przyczepach oraz food truckach. Obsługujemy klientów z Olsztyna i Ostródy.</span></p>\n<p><span style=\"color: #000000\">Rozmieszczenie logo, zdjęć i napisów dopasowujemy do okienka sprzedażowego, drzwi oraz wyposażenia pojazdu. Elementy otwierane nie powinny zasłaniać najważniejszych informacji w czasie pracy.</span></p>\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "70d54d9797e18f996db1d205675019f60998214648822c1904ef020f00a9ea7e",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Grafika dopasowana do przyczepy</h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "69fa236a6792c74fa5f446de3e3936df245d2608098a445ff768f7aaa598aff7",
+        "html": "<h2>Jak przygotować <span style=\"color: #f36f21\">realizację?</span></h2>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "757b28100e50beff4d402b2a6f85c7c3318cccd2ec20c9c635d2ac1815dd8cd6",
+        "html": "<p><span style=\"color: #000000\">Przed realizacją ustalamy zakres oklejenia i dobieramy folię do powierzchni przyczepy. Stan poszycia oraz wcześniejsze oklejenie mogą wpływać na przygotowanie i koszt aplikacji.</span></p>\n<p><span style=\"color: #000000\">Do wyceny prześlij zdjęcia wszystkich boków, wymiary przyczepy oraz logo. Napisz, czy masz gotowy projekt i jaki zakres powierzchni chcesz okleić.</span></p>\n<p><span style=\"color: #000000\">Termin i sposób przygotowania przyczepy do prac ustalimy po ocenie materiałów. Warto uwzględnić czas potrzebny na zatwierdzenie projektu przed drukiem.</span></p>\n\n\n\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "35852541d94dfcd54b5d911a88826b3431853ba5e3ca3f59f54b94970336cd85",
+        "html": "<p>Projektujemy, drukujemy i aplikujemy grafikę na przyczepach gastronomicznych oraz pojazdach.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8a8b5d1ccd671e2a8c8de2c047d0b8e7a75a94df79ae616174709a8d125a1c6e",
+        "html": "<p>Zbieramy zdjęcia i wymiary, ustalamy zakres grafiki, uzgadniamy projekt, a następnie planujemy przygotowanie i aplikację folii.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "76fb9c352717ed5debcd2e40fa91deaf03ed11ef5897e772b6d0e77a949ac202",
+        "html": "<p>Przykłady wykonanych prac można obejrzeć w galerii realizacji na stronie. Jeśli szukasz przykładu podobnego do swojego zamówienia, opisz planowany zakres — wskażemy odpowiednie materiały.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b187b980f07693196979f47daa917b1f5d920ec635974850251d81d85110191a",
+        "html": "<p>Koszt oklejania przyczep gastronomicznych ustalamy indywidualnie, uwzględniając wielkość powierzchni, rodzaj folii, stan poszycia i zakres projektu. Wycenę przygotowujemy dla uzgodnionego zakresu prac.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "a936e30cd575605b82253772f02fab4dce8a906321b619f4faa302ae80f3f0cc",
+        "html": "<p>Przygotuj logo, zdjęcia wszystkich boków przyczepy, wymiary i oczekiwany zakres oklejenia. Potrzebna będzie również akceptacja projektu i uzgodnienie szczegółów przed realizacją.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/mobilna-reklama/",
+    "seo_title": "Reklama na pojazdach Olsztyn i Ostróda | YOONA",
+    "meta_description": "Reklama mobilna na samochodach, autobusach i przyczepach. YOONA: projekt i oklejanie pojazdów w Olsztynie i Ostródzie. Zapytaj o wycenę.",
+    "expected_content_sha256": "2b91584cc55649f42a9acfb99a2db73fc6b876c84780942e8acdb48f6854a3f2",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oklejanie aut i oznakowanie flot</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "337028df92a1253ada57511b1189839a9895b4f95f95e03fdf0d5458272df18c",
+        "html": "<h1>Reklama mobilna na <span style=\"color: #f36f21\">pojazdach</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "f84104308184de448eb10a2e7f73baa0d1b49966ced3135ff59abdc6f1ee122a",
+        "html": "\n<p><span style=\"color: #000000\">Reklama na pojeździe pokazuje nazwę firmy, zakres usług i dane kontaktowe podczas codziennych przejazdów. Przygotowujemy projekty oraz oklejenia aut osobowych, dostawczych, autobusów i przyczep.</span></p>\n<p><span style=\"color: #000000\">W YOONA obsługujemy klientów z Olsztyna i Ostródy. Zakres oklejenia dobieramy do kształtu pojazdu i ilości informacji, które mają znaleźć się na karoserii.</span></p>\n<div><span style=\"color: #000000;font-family: arial, sans-serif\"></span></div>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "4bff5d49d825242f7f480d24516c77017400c57367a34604ce78763bb5c6eb2c",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Od projektu do aplikacji</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "c25844b048ec99328d6420a6d43e23258813a992a96b5e7cafff7b17c13a3d17",
+        "html": "<h2>Jak <span style=\"color: #f36f21\">pracujemy?</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "3d05b4627329e159a25838078c94faf135898decaa7d240a1cd7f2f53e95074c",
+        "html": "<p>Projekt, materiał i aplikacja dopasowane do pojazdu.</p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "12360236d11711de1734917abdb3e65050bd6693d97be0415550c3b71b3e00f5",
+        "html": "<p>Zaczynamy od zdjęć, wymiarów pojazdu i materiałów firmy. Ustalamy układ logo, treści oraz obszarów do oklejenia, a następnie dobieramy odpowiednią folię.</p>\n<p>Przed drukiem uzgadniamy wizualizację. Stan lakieru, istniejąca grafika i kształt powierzchni mogą wpływać na przygotowanie auta oraz przebieg prac.</p>\n\n\n\n"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "26031cfb9b4518434b7579fd2ff88bf357f21b1f179c06af603a8c8bcb660019",
+        "html": "<p><a href=\"https://yoona.pl/oklejanie-samochodow-osobowych/\" title=\"oklejanie samochodów olsztyn\">Oklejanie samochodów</a> obejmuje proste napisy, logo oraz bardziej rozbudowane grafiki. Projekt warto ograniczyć do informacji, które da się szybko odczytać.</p>\n<p>Sprawdź <a class=\"Hyperlink SCXW89527369 BCX8\" href=\"https://yoona.pl/oklejanie-samochodow/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"logo na auto olsztyn\">ofertę oklejania pojazdów</a> oraz <a class=\"Hyperlink SCXW89527369 BCX8\" href=\"https://yoona.pl/pelna-oferta\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"szeroka oferta reklamy olsztyn\">pozostałe usługi YOONA</a>.</p>\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "20cb8e0b0c396a66f229b06cfa07d39717cb9c74fec885b170f7ecf9a8e31871",
+        "html": "<p><span style=\"color: #000000\"><a href=\"https://yoona.pl/oklejanie-samochodow-osobowych/\" title=\"oklejanie samochodów osobowych\" style=\"color: #000000\">Samochód osobowy</a> może otrzymać oznakowanie firmowe dopasowane do nadwozia. Układ grafiki uwzględnia podział na drzwi, maskę, tył i pozostałe powierzchnie.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "aeecca76338b941b03413b03a2cb13fb22afbe013685eb151fa91e0846c947cd",
+        "html": "<p><a href=\"https://yoona.pl/zmiana-koloru-samochodu/\">Zmiana koloru auta folią</a> to odrębny zakres prac od naniesienia reklamy. Wybór koloru, wykończenia i zakresu oklejenia ustalamy dla konkretnego pojazdu.</p>\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "448bf328aa7673823ce23d2ce3b05b189183dcc1d2669694aa20cf184aa45f5e",
+        "html": "<p>Przy <a href=\"https://yoona.pl/oklejanie-przyczep-gastronomicznych/\">oklejaniu przyczepy gastronomicznej</a> uwzględniamy okienko sprzedażowe i elementy otwierane. Najważniejsze informacje powinny pozostać widoczne w czasie obsługi klientów.</p>\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "1777675e541ef3686d78c5a947d2f8369c517268710e9d51629c2c949a491ca4",
+        "html": "<p><a href=\"https://yoona.pl/oklejanie-autobusow/\">Reklama na autobusie</a> wymaga projektu dopasowanego do dużej powierzchni, drzwi i przeszkleń. Zakres grafiki oraz dobór materiału omawiamy dla danego modelu.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "c71c666d0d33763c3562cc317ae34da0f9f054d5921b499770117a9715d0e817",
+        "html": "<p><a href=\"https://yoona.pl/oklejanie-samochodow-ciezarowych/\">Oklejanie samochodów ciężarowych</a> pozwala wykorzystać boki pojazdu i naczepy do prezentacji marki. Dla floty warto ustalić wspólny układ oznakowania i dostosować go do poszczególnych nadwozi.</p>\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "602cfe5d559893500eaf75f79ee76186231e7800409260adc03590792969c4d1",
+        "html": "<p><span style=\"color: #000000\">Prześlij markę i model pojazdu, zdjęcia oraz logo. Napisz, czy potrzebujesz projektu i jaką powierzchnię chcesz okleić.</span></p>\n"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "25082587c38bb164508059c5c809f89a58b7bc226e2b6bc3d87265832bd53ae3",
+        "html": "<p>Na podstawie tych informacji przygotujemy zakres prac i wycenę. Sposób przygotowania auta oraz termin aplikacji ustalimy przed realizacją.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "b512c250bb59198b498370dd751c363c4aef7b08f0841ca151c3fc52aaa6bb14",
+        "html": "<p>Przygotowujemy projekty i grafiki na pojazdy, od logo i napisów po większy zakres oklejenia. Dobieramy materiał do nadwozia oraz planowanego sposobu użytkowania.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "9c419de7b1ba89c36260e0cde30d2d0d69ce06d9399beebbf4370cfc1fe3599c",
+        "html": "<p>Zmiana koloru folią wymaga ustalenia zakresu prac, wykończenia oraz oceny stanu lakieru. Prześlij model auta i zdjęcia, aby omówić możliwości realizacji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "7bac398a40ef09385a7b0844e12752fb256caff11e342699a071ddf6c733327d",
+        "html": "<p>Projekt reklamy dopasowujemy do modelu autobusu, powierzchni nadwozia, drzwi i przeszkleń. Zakres aplikacji i rodzaj folii ustalamy na etapie wyceny.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b16588d5d45a53f26129ce2fac178e8e9254db3f9258dd2ea2af5cbaa145f12e",
+        "html": "<p>Oznakowanie auta osobowego może obejmować logo, dane kontaktowe lub indywidualną grafikę. Przed aplikacją należy ocenić stan lakieru i dobrać odpowiednią folię; folia reklamowa nie zastępuje naprawy powłoki.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "93e071fd60982e0a3ed6af88543eb6fed282cefdc3568f93db7a8420edada311",
+        "html": "<p>Grafikę przyczepy dopasowujemy do okienka sprzedażowego i elementów otwieranych. Do wyceny przydadzą się zdjęcia wszystkich boków, wymiary i logo.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 5,
+        "expected_html_sha256": "da45f48ddd1624be28c52493728ea4b6106911a51a8e08e6e691ddcbb6aed900",
+        "html": "<p>Przy reklamie na ciężarówce lub naczepie uwzględniamy rodzaj poszycia i wymiary. Dla floty można zaplanować spójny układ grafiki dopasowany do kilku modeli pojazdów.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/ledony/",
+    "seo_title": "Ledony reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Ledony z logo i napisy LED dla firm. YOONA: projekt, wykonanie oraz montaż w Olsztynie i Ostródzie. Prześlij pomysł i zapytaj o wycenę.",
+    "expected_content_sha256": "4c01339e209a498b9e2a738edf35eff9e69fb314a1e1d74cfb38624e5877a93d",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "e9707a0f680b2cc3f92edf6f7078ba94de90253ff93b784e18a4a8ed59d38db2",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Świecące napisy i logotypy</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "3b0dfee6a8fc6f353b3fbbab129fedd0af923fc81af6f03e42472f6357375fdb",
+        "html": "<h1>Ledony <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "7b1a3ca3dbf76a8351a7ca7ab7631b1db5d011b92445b83e404eb28eab7e8d10",
+        "html": "<p><span style=\"color: #000000\">Ledon to świecący napis, logo lub grafika wykonana w technologii LED. Może uzupełniać oznakowanie lokalu albo stanowić element wystroju wnętrza.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy ledony na zamówienie dla firm z Olsztyna i Ostródy. Projekt dopasowujemy do znaku marki oraz planowanego miejsca ekspozycji.</span></p>\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "f6b11ac0c69bf3f0fef8e59617c13c5167bf0359dbaa3652c9d668341a1ba526",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Projekt i miejsce ekspozycji</h2>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "59048c3efb635111937f0ac0bf0cda8b76a4c36d694c6f9969da2e38ce985487",
+        "html": "<h2>Ledon dopasowany do <span style=\"color: #f36f21\">przestrzeni</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "17c0a33d858e68c2645f6ee086668b2391b0a68532ba23394d782a5c7a3a5c41",
+        "html": "<p>O wyglądzie ledonu decydują kształt, kolor światła i rozmiar. Drobne elementy logo mogą wymagać uproszczenia, dlatego warto ocenić czytelność projektu przed produkcją.</p>\n<p>Sposób mocowania i zasilania planujemy wraz z projektem. Jeżeli ledon ma znaleźć się na zewnątrz, trzeba dobrać wykonanie przeznaczone do takich warunków.</p>\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "4a4ad0d7e4baacd361a3af0fb11d5fe6d1ec82a1478160b489c06ac398d7acf1",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oznakowanie z własnym logo</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "0f15e96b072456230165aae1d78169cd0d37b6cd53b8a699bdb06599dedf4c5c",
+        "html": "<h2>Wygląd i sposób <span style=\"color: #f36f21\">użytkowania</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "bf0527f1a2c237dee03d98882176bb3bc463d287c7b0b19e21a9fa1af2dd4890",
+        "html": "<h2>Co warto ustalić?</h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "ca4394f4757168aae2abc3a891717e2b4a7c10228e90cb0541151bbfdd156075",
+        "html": "<p>Podświetlony napis może pomóc wyeksponować nazwę lokalu lub wskazać miejsce obsługi. Dobieramy jego wielkość do wnętrza i odległości, z której będzie oglądany.</p>\n\n\n\n"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "e393b5378174adf26d972d6a9e633d05456b6bd7b65d4046beadef045a5628c5",
+        "html": "<p>Przy wyborze rozwiązania omawiamy kolor światła, sposób montażu i warunki pracy. Zużycie energii zależy od wielkości oraz mocy konkretnej realizacji.</p>\n\n"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "a67a541778d9400efd7b27830dc44fea6bacaefce1a6562aafc792ddd23b4ea4",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "e7b76169e9a675def36eac9b35363e9f85a9ea79a7f47bc6c5a45145aa3efbec",
+        "html": "<h2>Zapytaj o ledon z własnym <span style=\"color: #f36f21\">napisem</span></h2>"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "89c7ddd905fa76d9447227adebfba29a13f59f93750ca32105cd94653ca434e2",
+        "html": "<p>Do wyceny prześlij logo lub szkic napisu, planowany rozmiar i zdjęcie miejsca montażu. Napisz, czy chodzi o wnętrze, witrynę czy elewację.</p>\n<p>Po uzgodnieniu projektu ustalimy wykonanie, zakres montażu i termin. Warunki użytkowania oraz pielęgnacji zależą od dobranych podzespołów i miejsca ekspozycji.</p>\n\n\n\n\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "75af55d7ae20e7eb1ff0eee53a8448ba1e54efa106082505b7be785221b027fd",
+        "html": "<p>Ledon to napis, logo lub grafika z podświetleniem LED. Może służyć do oznakowania lokalu albo dekoracji wnętrza; wykonanie dobieramy do miejsca ekspozycji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "7c94c5464f01f794113bcd6ef4e437cc04c7c5b0bf909a828715ab3e4dc53b17",
+        "html": "<p>Termin zależy od projektu, wielkości zamówienia i dostępności elementów. Potwierdzamy go po ustaleniu zakresu prac oraz akceptacji projektu.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "f71c8a142c9f2a889fa5796f1f83976f49b02a84dfdfc17d60770d15453c424f",
+        "html": "<p>Pobór energii zależy od mocy i rozmiaru konkretnego ledonu oraz czasu świecenia. Parametry ustalamy przy doborze podzespołów.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b2b57c686d9c4f93c97a869a0880ca01ef6829e4fc802a198bc649f9b09853da",
+        "html": "<p>Tak, zakres zamówienia może obejmować projekt, wykonanie oraz montaż. Do ustalenia sposobu mocowania potrzebne są informacje o miejscu instalacji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "12381bd4a332dff9d3b662e2b9b78f26eedcab470a4f7fe57cb927c2e4bcf72d",
+        "html": "<p>Okres użytkowania zależy od podzespołów, warunków pracy i sposobu eksploatacji. Nie można przyjąć jednej trwałości dla każdego ledonu; szczegóły omawiamy dla wybranej realizacji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 5,
+        "expected_html_sha256": "e094a2ddeb084e21fcd8601561e4d15a49b2200a7d1729dc69cf44a0dc2b33b3",
+        "html": "<p>Podświetlony znak może ułatwić zauważenie lokalu i odczytanie jego nazwy. Liczba klientów zależy również od lokalizacji, oferty i innych działań firmy, dlatego ledon nie gwarantuje wzrostu sprzedaży.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 6,
+        "expected_html_sha256": "b41432fe7ee27cd9766eb84964043fc34d773eb3642f21c70c74cdc7a72d715a",
+        "html": "<p>Wycena zależy od wielkości, kształtu, podświetlenia i montażu. Prześlij logo lub szkic, planowane wymiary i zdjęcie miejsca ekspozycji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 7,
+        "expected_html_sha256": "c2533561a8ec2b12d7f4f1fecc7c98ff4e363c57586e035d28f7270e059c7663",
+        "html": "<p>Do ekspozycji zewnętrznej trzeba dobrać odpowiednie wykonanie oraz podzespoły. Podaj miejsce montażu już przy zapytaniu, aby można było ustalić właściwe rozwiązanie.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 8,
+        "expected_html_sha256": "a0e34dec84bb73a190a32855fa38e989195d1f4e91ddc2e946e59cb57dcc4a6c",
+        "html": "<p>Tak. Możesz przekazać logo, gotowy projekt lub pomysł na napis. Przed produkcją sprawdzamy możliwości odwzorowania kształtu i uzgadniamy projekt.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 9,
+        "expected_html_sha256": "e43e807385abbbd47f6839d9265deb204d90265d148b22cd2703b5e38db29361",
+        "html": "<p>Kolor światła ustalamy podczas projektowania, w zależności od dostępnych podzespołów i oczekiwanego efektu. Wybrany wariant warto uzgodnić przed produkcją.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 10,
+        "expected_html_sha256": "a5a1767034d4be42e26a35ce379be94c4934340ba811b33039369f6fab8654ff",
+        "html": "<p>Ledon wymaga użytkowania i czyszczenia zgodnie z zaleceniami dla konkretnego wykonania. Zakres kontroli i pielęgnacji zależy od miejsca montażu oraz warunków pracy.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 11,
+        "expected_html_sha256": "d2e9c3451c0d5b2cce0467127c0264158fdbca103417ff2d49bd23c7c5d5ced3",
+        "html": "<p>Prześlij logo lub treść napisu, orientacyjne wymiary i zdjęcie miejsca montażu. Omówimy projekt, wykonanie, zakres montażu oraz wycenę.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/tabliczki-informacyjne/",
+    "seo_title": "Tabliczki informacyjne Olsztyn i Ostróda | YOONA",
+    "meta_description": "Tabliczki na drzwi, oznakowanie pomieszczeń i systemy informacji. YOONA w Olsztynie i Ostródzie — projekt oraz wykonanie dla firm i instytucji.",
+    "expected_content_sha256": "4f4baa4988c14b8c5001b56c6541acf3505b28f7b0b62a5b42b5777006f1a673",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oznakowanie wewnętrzne i zewnętrzne</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "dea2790010d0e1c7efedebcd1d21e93f8fdca51c7b224e17ad67f254d53427b6",
+        "html": "<h1>Tabliczki <span style=\"color: #f36f21\">informacyjne</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "f9b2327c13eca23e0413cc5c8276533b7f1d149d4f15a3b1e595973a9eb0dab1",
+        "html": "<p><span style=\"color: #000000\">Tabliczki informacyjne pomagają znaleźć pomieszczenie, wskazują funkcję miejsca i porządkują poruszanie się po obiekcie. W YOONA przygotowujemy oznakowanie wewnętrzne i zewnętrzne dla firm oraz instytucji.</span></p>\n<p><span style=\"color: #000000\">Obsługujemy klientów z Olsztyna i Ostródy. Projektujemy układ informacji zgodny z identyfikacją wizualną i dopasowany do miejsca montażu.</span></p>\n\n\n\n"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "774e424c8ae0d04ca3e0e67759ba8939c0067a9e547fe6879f95edd5dfdb150a",
+        "html": "<h2>Czytelna informacja w <span style=\"color: #f36f21\">obiekcie</span></h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "cad059b69320ca56d720481089ea232b364a6f84b240cefa160870597751c55b",
+        "html": "<p><span style=\"color: #000000\">Tabliczka może zawierać nazwę firmy, numer gabinetu, nazwisko lub kierunek przejścia. Przy większej liczbie pomieszczeń warto przyjąć jeden styl, wielkość pisma i sposób numeracji.</span></p>\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "4bff5d49d825242f7f480d24516c77017400c57367a34604ce78763bb5c6eb2c",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Projekt i dobór rozwiązania</h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "c25844b048ec99328d6420a6d43e23258813a992a96b5e7cafff7b17c13a3d17",
+        "html": "<h2>Tabliczki dopasowane do <span style=\"color: #f36f21\">miejsca</span></h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "3d05b4627329e159a25838078c94faf135898decaa7d240a1cd7f2f53e95074c",
+        "html": "<h2>Spójny układ oznakowania</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "a7686cb89684d3ac5ced34589e20d56df746148ccca445bf28384f460d82c8bf",
+        "html": "<p>Dobór materiału zależy od miejsca użytkowania, podłoża i oczekiwanego wyglądu. Inne rozwiązanie będzie potrzebne na drzwi biura, a inne do oznakowania elewacji.</p>\n<p>Przed produkcją warto sprawdzić kompletność listy pomieszczeń i poprawność nazw. Ułatwia to zachowanie spójności całego systemu informacji.</p>\n\n\n"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "522f08fa228380e97420a577965e1b488af7e34dc6d69046020bba7e583e8e14",
+        "html": "<h2>Materiały i przygotowanie <span style=\"color: #f36f21\">zamówienia</span></h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "d8ce35a1cf9344cc5d5ba1a895a0eaecdd99aab2e553111c21c73acfde0d0a08",
+        "html": "<p><span style=\"color: #000000\">W oznakowaniu wykorzystuje się między innymi PVC i szkło. Materiał oraz wykończenie dobieramy do konkretnego projektu, zamiast zakładać jednakową odporność każdego wariantu.</span></p>\n<p><span style=\"color: #000000\">Do wyceny prześlij listę tabliczek z treściami, wymiary, liczbę sztuk i zdjęcia miejsc montażu. Napisz, czy zamawiasz pojedyncze oznaczenie, czy komplet do całego obiektu.</span></p>\n"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 0,
+        "expected_html_sha256": "35852541d94dfcd54b5d911a88826b3431853ba5e3ca3f59f54b94970336cd85",
+        "html": "<p>Przygotowujemy tabliczki i oznakowanie wewnętrzne oraz zewnętrzne dla firm i instytucji.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 1,
+        "expected_html_sha256": "8a8b5d1ccd671e2a8c8de2c047d0b8e7a75a94df79ae616174709a8d125a1c6e",
+        "html": "<p>Ustalamy listę oznaczeń, układ treści, materiał i wymiary. Projekt uzgadniamy przed wykonaniem.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 2,
+        "expected_html_sha256": "76fb9c352717ed5debcd2e40fa91deaf03ed11ef5897e772b6d0e77a949ac202",
+        "html": "<p>Przykłady wykonanych prac można obejrzeć w galerii realizacji na stronie. Jeśli szukasz przykładu podobnego do swojego zamówienia, opisz planowany zakres — wskażemy odpowiednie materiały.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 3,
+        "expected_html_sha256": "b187b980f07693196979f47daa917b1f5d920ec635974850251d81d85110191a",
+        "html": "<p>Koszt tabliczek informacyjnych ustalamy indywidualnie, uwzględniając materiał, format, liczbę tabliczek i montaż. Wycenę przygotowujemy dla uzgodnionego zakresu prac.</p>"
+      },
+      {
+        "module_type": "et_pb_toggle",
+        "module_index": 4,
+        "expected_html_sha256": "a936e30cd575605b82253772f02fab4dce8a906321b619f4faa302ae80f3f0cc",
+        "html": "<p>Przygotuj listę treści, liczbę sztuk, wymiary i zdjęcia miejsc montażu. Potrzebna będzie również akceptacja projektu i uzgodnienie szczegółów przed realizacją.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/nasze-realizacje/",
+    "seo_title": "Realizacje reklam i oznakowania | YOONA",
+    "meta_description": "Zobacz realizacje YOONA: reklamy i oznakowanie dla firm. Poznaj przykłady projektów i wykonania oraz skontaktuj się w sprawie własnej realizacji.",
+    "expected_content_sha256": "9972901df129b2fdd5c1a8381b0cde7e28cf113f4b24be983bc7ae75346f1981"
+  },
+  {
+    "path": "/windery/",
+    "seo_title": "Windery reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Windery z logo na wydarzenia i przed lokal. Projekt nadruku, różne formaty flag. YOONA w Olsztynie i Ostródzie — zapytaj o zestaw i wycenę.",
+    "expected_content_sha256": "4c8dcb71a3696ba1af2afd14be65b3a61e83d165a2e4495f94220a885ce56067",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Flagi na przenośnych masztach</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "a09fe144c1a1a71d4aa82bf3abc7071df7831eb30e26a097381c0d83d97a819c",
+        "html": "<h1>Windery <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "a51c1c08994fcd4cc723e1d1ab80ca2cec8837f1c68e897fa72c0597eb277349",
+        "html": "<p><span style=\"color: #000000\">Winder to flaga reklamowa rozpięta na przenośnym maszcie. Pomaga oznaczyć stoisko, wejście do lokalu lub miejsce wydarzenia bez zajmowania dużej powierzchni ekspozycji.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy windery z nadrukiem dla klientów z Olsztyna i Ostródy. Kształt oraz rozmiar flagi dopasowujemy do logo i sposobu użytkowania.</span></p>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "05831608dd114d37c9a19f2163bf405f15d4c111e3672449549245cf8e874b3d",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Druk i sposób ustawienia</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "3551aaaf7a8ffd01a0c53c9d955b210fce80515100305804dab3a5a39ba7b873",
+        "html": "<h2>Co uwzględnić w <span style=\"color: #f36f21\">projekcie?</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "16bd593f83c4e3e68eede23826ba6ea03f132514cc74885069ca2ed970ee193c",
+        "html": "<div class=\"opis-image\">\n<div class=\"opis-box-right\">\n<p>Przy druku jednostronnym grafika jest widoczna na odwrocie w odbiciu lustrzanym. Uwzględniamy to podczas projektowania układu nazwy i znaku.</p>\n<p>Wybór masztu i podstawy należy powiązać z podłożem oraz miejscem ustawienia. Warunki użytkowania zależą od konkretnego zestawu i pogody.</p>\n</div>\n</div>\n<div id=\"galeria\" class=\"galeria-header\"></div>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "2705c53af56979bd1f03e3fd34d34d703696e951e2d509b810b9434e71326db0",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Przygotowanie zamówienia</h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "2f9d6bd116653932cf97a43b7c1beeb0e69bbfab6398deedc0403d5ff162aeca",
+        "html": "<h2>Zapytaj o winder z własnym <span style=\"color: #f36f21\">logo</span></h2>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "19e45cb6635b3e8151ad78bfcf5f8d5218bad61f9e403375098fdccd160b6c49",
+        "html": "<p><span style=\"color: #000000\">Do zapytania dołącz logo, planowaną liczbę sztuk i oczekiwany rozmiar. Podaj, czy windery będą używane wewnątrz, przed lokalem czy podczas wydarzeń.</span></p>\n<p><span style=\"color: #000000\">Jeśli masz już maszt, prześlij jego model i wymiary flagi. Sprawdzimy zakres przygotowania grafiki i wykonania zamówienia.</span></p>\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/billboardy/",
+    "seo_title": "Billboardy Olsztyn i Ostróda | YOONA",
+    "meta_description": "Projekt, druk i montaż billboardów dla firm. YOONA w Olsztynie i Ostródzie — przygotuj format, lokalizację i treść reklamy do indywidualnej wyceny.",
+    "expected_content_sha256": "b2f3c60a49428ff392c5546e457443e14822ce6bbf9add776f9a8019292574b3",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Projekt i druk dużego formatu</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "ab2602d48c1189a8b35cdabd5c033bc84ea8f1c73f5a91b4bd4ee1daf1ed6fdd",
+        "html": "<h1>Billboardy reklamowe</h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "0ebf18a78264d3663b6389390ecb8847493a9e9c4b9db499757c8f99b19db505",
+        "html": "\n<p><span style=\"color: #000000\">Billboard daje miejsce na krótki komunikat widoczny z większej odległości. Przy projekcie liczą się kontrast, proste hasło i odpowiednia wielkość znaków.</span></p>\n<p><span style=\"color: #000000\">YOONA przygotowuje projekty, druk i montaż reklam dla klientów z Olsztyna i Ostródy. Zakres realizacji ustalamy na podstawie formatu oraz miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "8f690814006feeefb4d51e5a0ad3fe43250a13b7a22bb54258dd1b0d9e9a9b7f",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Czytelność z większej odległości</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "67f464f5bce685d63210e5155a11a3438823382a99ef53bc97804d1644164ea6",
+        "html": "<h2>Jak zaplanować treść?</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "962b6d2902768d74c855382903bba893e985956124d3a7ee5323a81846010ea9",
+        "html": "<p>Reklamę warto ograniczyć do najważniejszej informacji i jednego celu: rozpoznania marki, wskazania lokalizacji lub przedstawienia oferty. Nadmiar tekstu utrudnia odbiór podczas przejazdu.</p>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "84a6dad668cc6934405630006300e74569557aaca072348f76cbae452c613938",
+        "html": "<h2>Projekt do dużego <span style=\"color: #f36f21\">formatu</span></h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "b796c4d4fc9f8f4ad00f86e998427ec8c00b8093443d48aeba6e5c281381f7ad",
+        "html": "<p>Projekt graficzny dopasowujemy do proporcji powierzchni i materiałów marki. Zdjęcia oraz logo powinny mieć jakość odpowiednią do dużego wydruku.</p>\n"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie nośnika</h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Format i <span style=\"color: #f36f21\">montaż</span></h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Przed drukiem trzeba ustalić parametry nośnika i sposób montażu. Jeśli dysponujesz powierzchnią reklamową, prześlij jej wymiary i zdjęcia.</p>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Zapytaj o realizację</h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Wycena <span style=\"color: #f36f21\">billboardu</span></h2>"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Materiały potrzebne do przygotowania oferty</h2>"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Do zapytania dołącz treść, logo, oczekiwany format i lokalizację. Napisz, czy potrzebujesz projektu oraz montażu — przygotujemy zakres prac i wycenę.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/etykiety/",
+    "seo_title": "Etykiety z nadrukiem Olsztyn i Ostróda | YOONA",
+    "meta_description": "Etykiety z logo i grafiką dla produktów oraz opakowań. YOONA: projekt i wykonanie w Olsztynie i Ostródzie. Podaj format i nakład do wyceny.",
+    "expected_content_sha256": "9789475e1c21b0f57b50cda90d04ae755c65cc570017517143d768a35207ed00",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oznakowanie produktów i opakowań</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "da007f1877d86cd6e3aad9aa03a8ba3cf77aa74b151de46de910d8e59ede758b",
+        "html": "<h1>Etykiety z <span style=\"color: #f36f21\">nadrukiem</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "2b9d2302aff5b0bc7598284f7f42bca6f986cce7e84553f86e2f987fc4b5331c",
+        "html": "\n<p><span style=\"color: #000000\">Etykieta pomaga rozpoznać produkt i uporządkować informacje na opakowaniu. Projekt może obejmować logo, nazwę wariantu oraz treść dostarczoną przez zamawiającego.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy etykiety z nadrukiem dla klientów z Olsztyna i Ostródy. Zakres wykonania dopasowujemy do wymiarów i sposobu użycia.</span></p>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "8f690814006feeefb4d51e5a0ad3fe43250a13b7a22bb54258dd1b0d9e9a9b7f",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Spójność różnych wariantów</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "42a0bc30f866b6ee5f1f8bd0e426f5f6d47b4a7efee9cd8d7e1bbef7e56e0b14",
+        "html": "<h2>Grafika i czytelna <span style=\"color: #f36f21\">informacja</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "76dad19882781e227d5421659ca5a1be27353e6f883d34fe0844f4fd28fdb5f7",
+        "html": "<p><span style=\"color: #000000\">Przy kilku wariantach produktu warto zachować wspólny układ grafiki i wyraźnie odróżnić ich nazwy. Treść trzeba rozplanować tak, aby była czytelna w docelowym formacie.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "7dd5214e084c80932ee4624d517e9c0dcf229ebd69b43bcaba91d19ef5ef5aec",
+        "html": "<h2>Dobór materiału do <span style=\"color: #f36f21\">zastosowania</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "a7b25c5d74f99b368a412611fbf872b08071481575f4a1950e496975c5d08d7d",
+        "html": "<p>Materiał etykiety powinien odpowiadać powierzchni opakowania oraz warunkom użytkowania. W zapytaniu opisz, czy etykieta będzie narażona na wilgoć, ścieranie lub zmiany temperatury.</p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie do druku</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Projekt przed <span style=\"color: #f36f21\">produkcją</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Przed drukiem uzgadniamy układ i komplet treści. Informacje wymagane dla danego produktu powinien dostarczyć i zweryfikować zamawiający.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Zapytaj o <span style=\"color: #f36f21\">etykiety</span></h2>"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Podaj format, nakład i zastosowanie</h2>"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Do wyceny prześlij wymiary, kształt, liczbę sztuk i liczbę wersji graficznych. Dołącz projekt lub logo i teksty, jeśli potrzebujesz opracowania grafiki.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/naklejki/",
+    "seo_title": "Naklejki reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Naklejki z logo i grafiką dla firm. Projekt oraz wykonanie w YOONA w Olsztynie i Ostródzie. Podaj wymiary, liczbę sztuk i miejsce aplikacji.",
+    "expected_content_sha256": "dc8aef3ca45f9bda352f8e16cf2a73c2de97b63eaa66d0b2bbb0616ae1157f0c",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Grafika na wybraną powierzchnię</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "203f1fb64cba4b47698b4cdeb4bba0b8887fbb8184a5f59fb8a21ccddfa14c87",
+        "html": "<h1>Naklejki <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "54bf160798a753e89f7ff5da1a9b4931adb04fd34936ac505e8782cba5df0c01",
+        "html": "\n<p><span style=\"color: #000000\">Naklejki reklamowe mogą służyć do oznaczania wyposażenia, pakowania zamówień i promocji marki. Ich format oraz materiał warto dopasować do powierzchni, na której będą używane.</span></p>\n<p><span style=\"color: #000000\">YOONA przygotowuje naklejki z logo lub indywidualną grafiką dla klientów z Olsztyna i Ostródy. Możesz przekazać gotowy projekt albo materiały do jego opracowania.</span></p>"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "8f690814006feeefb4d51e5a0ad3fe43250a13b7a22bb54258dd1b0d9e9a9b7f",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Czytelny projekt</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "6b168ecb7c97d437411437cc36b64b30c14e99027232ba2c2543e1f4a67a34fb",
+        "html": "<h2>Logo i treść na małym <span style=\"color: #f36f21\">formacie</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "76dad19882781e227d5421659ca5a1be27353e6f883d34fe0844f4fd28fdb5f7",
+        "html": "<p><span style=\"color: #000000\">Prosty układ i wyraźny znak ułatwiają rozpoznanie marki nawet na małym formacie. Jeśli naklejka zawiera dane kontaktowe lub instrukcję, trzeba pozostawić miejsce na czytelny tekst.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "7344e7012794000b4e16acc5e2cfce25b814c336f7360634045492c11d2ac7a0",
+        "html": "<h2>Materiał a miejsce <span style=\"color: #f36f21\">aplikacji</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "a7b25c5d74f99b368a412611fbf872b08071481575f4a1950e496975c5d08d7d",
+        "html": "<p>Przed wyborem wykonania ustalamy miejsce aplikacji i warunki użytkowania. Znaczenie mają rodzaj podłoża, wilgoć i ekspozycja na zewnątrz.</p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Od projektu do wykonania</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Przygotowanie <span style=\"color: #f36f21\">naklejek</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Przed produkcją sprawdzamy wymiary projektu oraz uzgodniony układ grafiki. Liczbę wzorów i nakład ustalamy w ramach zamówienia.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Zapytaj o realizację</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Naklejki dla Twojej <span style=\"color: #f36f21\">firmy</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Format, nakład i zastosowanie</h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Prześlij wymiary, kształt, liczbę sztuk i informację o podłożu. Dołącz plik graficzny albo opisz potrzebny projekt — przygotujemy wycenę.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/potykacze/",
+    "seo_title": "Potykacze reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Potykacze z grafiką dla sklepów i gastronomii. YOONA w Olsztynie i Ostródzie — projekt oraz wykonanie. Zapytaj o oznakowanie przed lokalem.",
+    "expected_content_sha256": "305d7c733f235f334ae05da8c5198e93e3ff8a43de61925a2528ba3bc9f11488",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Informacja przed wejściem</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "012ab642765c26fd046431fb0d750d0e28794aa98ae40c40a5e1648f417863d4",
+        "html": "<h1>Potykacze <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "db5049e9d48c8b8542e5859f8e75f6d3032da61196a669e214eebc4930ae3d96",
+        "html": "<p><span style=\"color: #000000\">Potykacz reklamowy to przenośna tablica ustawiana w pobliżu lokalu. Może prezentować menu, aktualną ofertę lub wskazywać wejście.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy grafikę i wykonanie potykaczy dla klientów z Olsztyna i Ostródy. Układ treści dopasowujemy do formatu oraz planowanego miejsca ekspozycji.</span></p>\n"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "2af8d04b5e1ec28e23afaf30390926810bdbd9850d19ac62bca03532df4ef72c",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Krótki i czytelny komunikat</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "5298d10d73820da52516bacfa30ce3beba67661d57642a5eb0465031063aca69",
+        "html": "<h2>Co umieścić na <span style=\"color: #f36f21\">potykaczu?</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "6bbef5e906c16ccb3b4e17fa84c1ad4adfbc4cd382591f96fa16b647474af2d3",
+        "html": "<p><span style=\"color: #000000\">W projekcie warto wyeksponować jedną główną informację. Nazwa lokalu, krótka oferta i czytelne ceny pomagają szybko zrozumieć komunikat.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "91f31489b5c6af4d441d47f3b208e8a7c3da9942aa6401e0cd6e8e3109e0289e",
+        "html": "<h2>Dobór do codziennego <span style=\"color: #f36f21\">użytkowania</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0ee43143e3028c3a722f563a314311d7c6d33e34eaeb866adcdb33ecee9ef2ce",
+        "html": "<p><span style=\"color: #000000\">Przy wyborze potykacza uwzględniamy częstotliwość zmiany grafiki i warunki użytkowania. Wersja przeznaczona do wnętrza może mieć inne wymagania niż nośnik ustawiany przed lokalem.</span></p>\n"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Miejsce ekspozycji</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Ustawienie przed <span style=\"color: #f36f21\">lokalem</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Miejsce ustawienia trzeba uzgodnić z właścicielem lub zarządcą terenu i uwzględnić swobodne przejście. Potykacz powinien być używany zgodnie z parametrami wybranej konstrukcji.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie zamówienia</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Zapytaj o <span style=\"color: #f36f21\">potykacz</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Prześlij format i treść grafiki</h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Do wyceny podaj rozmiar, liczbę sztuk i miejsce ekspozycji. Dołącz logo oraz treść oferty, a jeśli masz już potykacz — jego model i wymiary grafiki.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/rollupy/",
+    "seo_title": "Rollupy reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Rollupy z własną grafiką na targi, konferencje i do biura. YOONA w Olsztynie i Ostródzie: projekt i wykonanie. Zapytaj o format oraz wycenę.",
+    "expected_content_sha256": "6a50ac91e39ec2936e6caec42cebd36a66fb15ce0c1d1a4b82c1e0cfb3088054",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Przenośna grafika dla firmy</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "043b25d22d5d31beb61ebe9e9dc913e090ea444753fcad91cc0e97ad68a22dea",
+        "html": "<h1>Rollupy <span style=\"color: #f36f21\">reklamowe</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "1c19f7efde0bb7bd3de06418ff34936d07375b5cde418212e433b5436c0683b6",
+        "html": "<p>Rollup to przenośny nośnik grafiki, który można wykorzystać na stoisku, konferencji lub w punkcie obsługi. Po zwinięciu zajmuje mniej miejsca podczas transportu i przechowywania.</p>\n<p>W YOONA przygotowujemy projekty i wykonanie rollupów dla klientów z Olsztyna i Ostródy. Format dobieramy do miejsca ekspozycji i ilości treści.</p>\n\n\n"
+      },
+      {
+        "module_index": 5,
+        "expected_html_sha256": "2af8d04b5e1ec28e23afaf30390926810bdbd9850d19ac62bca03532df4ef72c",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Układ i czytelność</h2>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "d31c6fe62126613697b51b20d122256b832381f83f8b4638fc81e10d6d3bc8d5",
+        "html": "<h2>Projekt <span style=\"color: #f36f21\">rollupu</span></h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "76530602bbea400a49ddd10b37bfcfb305482999139e400bb7309e9953df6887",
+        "html": "<p>W górnej części projektu warto umieścić logo i główny komunikat. Dane kontaktowe oraz dodatkowe informacje powinny pozostać czytelne z odległości, z której odbiorca ogląda nośnik.</p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "c6080ab0cc39314ea33594a48bd45aee11889af1874d9f2f729e5c2af294d770",
+        "html": "<h2>Nośnik na wydarzenia i do <span style=\"color: #f36f21\">biura</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "1d04a8dc1e22b9a09012c378e69277fd9295f3c925484734773cb37e13a44832",
+        "html": "<p>Rollup może prezentować ofertę, wskazywać stoisko albo uzupełniać oznakowanie firmy. Spójne kolory i typografia pomagają połączyć go z innymi materiałami marki.</p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Wydruk dopasowany do konstrukcji</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Nowy zestaw lub wymiana <span style=\"color: #f36f21\">grafiki</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Jeżeli masz własną kasetę, podaj jej model i wymagany wymiar grafiki. Trzeba uwzględnić także część wydruku schowaną w mechanizmie.</p>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Zapytaj o <span style=\"color: #f36f21\">rollup</span></h2>"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Podaj format, treść i nakład</h2>"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Do zapytania dołącz logo, treść, planowany format i liczbę sztuk. Napisz, czy zamawiasz kompletny rollup, czy potrzebujesz wydruku do posiadanej konstrukcji.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/polityka-prywatnosci/",
+    "seo_title": "Polityka prywatności | YOONA Creative Group",
+    "meta_description": "Informacje o przetwarzaniu danych osobowych przez YOONA Creative Group, kontakcie z administratorem i zasadach korzystania ze strony yoona.pl.",
+    "expected_content_sha256": "685b19e3bfd025a9916c7df9684dcc308c7b9080b91a33bdf23714d65e29c3be"
+  },
+  {
+    "path": "/koszulki/",
+    "seo_title": "Koszulki reklamowe Olsztyn i Ostróda | YOONA",
+    "meta_description": "Koszulki z logo dla firm, zespołów i wydarzeń. YOONA: projekt i znakowanie w Olsztynie i Ostródzie. Prześlij grafikę, rozmiary i nakład do wyceny.",
+    "expected_content_sha256": "5670896359818b8334c772edbb8acd022a247295a657d70cfd10e930491f5adf",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Odzież z identyfikacją firmy</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "eb605530c92e0f5aa4f31cb68f77bd67c441b627cbd9365d203131dfd9f06fa8",
+        "html": "<h1>Koszulki reklamowe z <span style=\"color: #f36f21\">logo</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "d21f365c67c77c7c0b2593744ca61a9a46daae488ff309b81fdcb21cd7c75f7f",
+        "html": "\n<div class=\"opis-header\">\n<p><span style=\"color: #000000\">Koszulki z logo pomagają oznaczyć zespół i zachować spójny wygląd podczas pracy lub wydarzenia. Projekt może obejmować znak firmy, napis albo indywidualną grafikę.</span></p>\n<p><span style=\"color: #000000\">W YOONA przygotowujemy koszulki reklamowe dla klientów z Olsztyna i Ostródy. Zakres znakowania dobieramy do odzieży oraz planowanego sposobu użytkowania.</span></p>\n\n</div>\n<div class=\"opis-image\"></div>"
+      },
+      {
+        "module_index": 6,
+        "expected_html_sha256": "2af8d04b5e1ec28e23afaf30390926810bdbd9850d19ac62bca03532df4ef72c",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Projekt i rozmieszczenie grafiki</h2>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "8068b72a6b4dc9e35657b6374e30428073a3f720c6ead9b24f3623407c7b8a8d",
+        "html": "<h2>Nadruk dopasowany do <span style=\"color: #f36f21\">koszulki</span></h2>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "5beadc09f1866247c7016e20a35c90554545af2b1aa8e017c71b13abb0fe4376",
+        "html": "<p>Przy projekcie ustalamy wielkość i położenie nadruku. Ten sam znak może wymagać dopasowania do różnych rozmiarów koszulek.</p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "6f1aab99acdaecbfcea8a6667ff87116e3d676ad9ffd8222339d7de360f632b3",
+        "html": "<h2>Przygotowanie <span style=\"color: #f36f21\">zamówienia</span></h2>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "60865d822f9bbb9c1ece3574d8fa71a1e4edbc6d30748f45fa02f558d11d3854",
+        "html": "<p>Przed realizacją warto zebrać listę rozmiarów, kolorów i liczby sztuk. Ułatwia to wycenę oraz przygotowanie spójnego zamówienia.</p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Materiał i sposób znakowania</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Dobór <span style=\"color: #f36f21\">wykonania</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Technologię znakowania omawiamy na podstawie grafiki i wybranego materiału. Sposób prania i pielęgnacji zależy od odzieży oraz zastosowanego nadruku.</p>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Zapytaj o realizację</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Koszulki dla Twojego <span style=\"color: #f36f21\">zespołu</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Grafika, rozmiary i liczba sztuk</h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Prześlij logo lub projekt, nakład i podział na rozmiary. Napisz, czy potrzebujesz również koszulek, czy chcesz oznakować dostarczoną odzież — potwierdzimy możliwości i zakres realizacji.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/menuboardy/",
+    "seo_title": "Menuboardy dla gastronomii Olsztyn | YOONA",
+    "meta_description": "Menuboardy i tablice menu dla restauracji, pizzerii i barów. YOONA: projekt, druk i montaż w Olsztynie i Ostródzie. Zapytaj o wycenę.",
+    "expected_content_sha256": "b8357f8c8e59d0187c08ec80e955edc769b9ec79bf4a199a469daaa8ba26342e",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Oferta czytelna przy składaniu zamówienia</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "4902d8f0281c8cb3f6c2037c6fd8521be23fa3555a750ed2ebb97748b03abd6c",
+        "html": "<h1>Menuboardy dla <span style=\"color: #f36f21\">gastronomii</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "9209eb742caae7c4bb41636bb0bdfa9b85875baf09d15248bf6baa535bc9cb8b",
+        "html": "\n<div class=\"opis-header\">\n<div class=\"opis-header\">\n<p><span style=\"color: #000000\">Menuboard prezentuje ofertę i ceny w miejscu zamawiania. Dobrze uporządkowane menu pomaga klientowi znaleźć kategorię, porównać pozycje i podjąć decyzję.</span></p>\n<p><span style=\"color: #000000\">YOONA projektuje, wykonuje i montuje menuboardy dla restauracji, pizzerii oraz lokali typu fast food w Olsztynie i Ostródzie. Wygląd tablic dopasowujemy do wnętrza i identyfikacji lokalu.</span></p>\n<div class=\"opis-header\">\n<div class=\"opis-image\">\n<div class=\"opis-box-right\">\n\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"opis-image\"></div>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "56d711b66d2de62388c4927cd266d22e28da3d34fdcf18d7fc98151f994d4d5e",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Projekt tablic menu</h2>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "1ac8821ed5d57e71fae47600cacfecadb4552044810418e3d38273cb3c3ef263",
+        "html": "<h2>Układ dopasowany do <span style=\"color: #f36f21\">oferty</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "ea3e1a3a381afd1e0f9ea650a6a04622941a5e3cca5bbbeeed968c283121b530",
+        "html": "<p>Układ menu zaczynamy od podziału na kategorie i ustalenia hierarchii informacji. Nazwy, ceny i dodatki powinny być czytelne z miejsca, w którym klient składa zamówienie.</p>\n\n"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "868f76b0b08ef414ca6713ca6b39ce8dd3b850a27002aa2b38ed90a073ec0106",
+        "html": "<h2>Od projektu do <span style=\"color: #f36f21\">montażu</span></h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "ec104b11a9b96029df6e57ba9dcf8d61055bd0b2a2a63276ee4f590f49b30fa8",
+        "html": "<p>Zakres realizacji obejmuje projekt graficzny, wykonanie elementów, druk i montaż. Możliwość późniejszej wymiany grafiki warto omówić przed wyborem konstrukcji.</p>\n\n\n"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "cf16f5ca369c6f76393d020d1275c5ab8d50952c212e815df118aa9af1f59c37",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie materiałów</h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "5fbd293bd78cf7df3d034ddd8826d2b033ef7ad3252e8ee70df0bccd080e0fa0",
+        "html": "<h2>Treść, format i miejsce <span style=\"color: #f36f21\">ekspozycji</span></h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "11f75b994a7ca7e9a3490eff985cb784c23728d8f0e402fb9324f363b3c6d627",
+        "html": "<p>Przed projektem potrzebujemy aktualnej listy dań i cen oraz wymiarów dostępnej powierzchni. Znaczenie mają także liczba tablic i odległość od stanowiska obsługi.</p>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "bb35f0d508ec3e6c73a1c92b31ed270948d730ffb5152d477fa2a1c1e101b128",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Twoje zamówienie</h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "44ec2003607386de1b3842fb6a0f5bb6d433985ac2835558ceb89528c3a8565b",
+        "html": "<h2>Zapytaj o <span style=\"color: #f36f21\">menuboardy</span></h2>"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "797206107241ecd8511fbc2457a0494a7fe78202a15a0243530c550675327034",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Prześlij menu i wymiary tablic</h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "e222dabf8c843835912c24b0e5f3ae5c4388f17e2c52a70a54e702c5d08a33a3",
+        "html": "<p>Prześlij menu, logo i zdjęcie wnętrza ze wskazaniem miejsca montażu. Podaj planowane wymiary oraz liczbę tablic — przygotujemy zakres realizacji i wycenę.</p>\n\n\n\n\n"
+      }
+    ]
+  },
+  {
+    "path": "/oklejanie-samochodu-cena/",
+    "seo_title": "Ile kosztuje oklejenie samochodu? | YOONA",
+    "meta_description": "Od czego zależy cena oklejenia samochodu? Sprawdź zakres prac i materiały do wyceny. YOONA: reklama na autach w Olsztynie i Ostródzie.",
+    "expected_content_sha256": "45d011fa7aec85b8cb89b5720cba9d8ca7feacf32922d891ffa3ee2dcf56e4d7",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "d3a679e9741fd5466a3b46a50290d3eadc1905f49db345e65b1074bc2392f561",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Indywidualna wycena oklejenia</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "df266a3779cd4cfa70ce4cba3c3b0be9aab72cfc0a6c348465cc5f5d3c622d6d",
+        "html": "<h1>Ile kosztuje oklejenie <span style=\"color: #f36f21\">samochodu?</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "2297f6205eb1721026f576d4144b975debfcbc318e4b8557ececff25bb0280f9",
+        "html": "\n<p><span style=\"color: #000000\">Cena oklejenia samochodu zależy od zakresu grafiki i przygotowania pojazdu. Proste logo z danymi kontaktowymi wymaga innej ilości materiału i pracy niż częściowe lub pełne oklejenie nadwozia.</span></p>\n<p><span style=\"color: #000000\">W wycenie uwzględniamy model auta, wielkość powierzchni, kształt elementów oraz rodzaj folii. Znaczenie mają także projekt, druk, laminowanie, usunięcie starej grafiki i ewentualny demontaż elementów.</span></p>\n<p><span style=\"color: #000000\">W YOONA wyceniamy oklejanie samochodów w Olsztynie i Ostródzie indywidualnie. Na tej stronie nie podajemy uniwersalnej ceny — potrzebujemy informacji o konkretnym pojeździe i oczekiwanym efekcie.</span></p>\n\n\n\n\n"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "071cf1a7dc24962e14a786f6542222a152f3bed38a659a6d42db5b1f76d91b28",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Od zapytania do aplikacji</h2>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "24b3e7844231a36d681ce7669e6bcaeb8849f1e223d470f35ed69d4791df9be5",
+        "html": "<h2>Jak przebiega <span style=\"color: #f36f21\">realizacja?</span></h2>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "39cc86571c9e46e2ccdcb91e6f76ac3cec2f9637e896cd96687be13bd3f610ba",
+        "html": "\n<p><span style=\"color: #000000\">Najpierw zbieramy zdjęcia, wymiary oraz materiały firmy. Ustalamy treść reklamy i obszar do oklejenia, a następnie przygotowujemy wizualizację.</span></p>\n<p><span style=\"color: #000000\">Po akceptacji projektu dobieramy materiał, przygotowujemy druk i ustalamy termin aplikacji. Auto powinno zostać dostarczone w uzgodnionym stanie; szczegóły przygotowania omawiamy przed wizytą.</span></p>\n<p><span style=\"color: #000000\">Czas prac zależy od zakresu oklejenia, kształtu nadwozia i warunków aplikacji. Dokładny termin potwierdzamy po ocenie zamówienia.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "c44decf94f7c999f0c3e9f2b60ec7772655a073cb7432784f764c9a5dde3c038",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Materiały i stan auta</h2>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "cacf1a7d40216db1a7ab26c1f4e881aa3ebf155b51221ab37194236494cc9eef",
+        "html": "<h2>Co wpływa na zakres <span style=\"color: #f36f21\">prac?</span></h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "bf5297fdf1e2165cbb0753d4457442dc1e17c4ddbc256f2d141b4b7655d79cf3",
+        "html": "<p><span style=\"color: #000000\">Dobór folii powinien uwzględniać powierzchnię i planowany czas użytkowania. Laminowanie oraz sposób wykończenia ustalamy w zależności od projektu i wybranej technologii.</span></p>\n<p><span style=\"color: #000000\">Stan lakieru i wcześniejsze naprawy mogą wpływać na możliwość aplikacji oraz demontażu folii. Warto przekazać te informacje przed wyceną i ustalić zasady pielęgnacji gotowego oklejenia.</span></p>\n\n\n\n\n"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "cba9b4969c44dbc4f78b5e4a90bc36f5c0e6f5155f453d6fb7a303466f77df31",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Pytania przed zamówieniem</h2>"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "84160ca46c862d813585c8f18e081a6c30bf58a28836393ae83596025aeb406d",
+        "html": "<h2>Cena, trwałość i przygotowanie <span style=\"color: #f36f21\">auta</span></h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "42e2dc36fcca3eb852aeddc1c3a50b6e46e434152ec4f39bd3ef30970e542ae1",
+        "html": "<p><span style=\"color: #000000\"><strong>Co przesłać do wyceny?</strong> Markę, model i rocznik auta, zdjęcia wszystkich stron, logo oraz opis zakresu oklejenia. Napisz, czy potrzebujesz projektu i usunięcia starej grafiki.</span></p>\n<p><span style=\"color: #000000\"><strong>Czy kolor samochodu ma znaczenie?</strong> Tak, warto uwzględnić go w kompozycji. Stopień zakrycia podłoża zależy od wybranej folii i projektu.</span></p>\n<p><span style=\"color: #000000\"><strong>Jak długo utrzyma się grafika?</strong> Zależy to od materiału, ekspozycji i pielęgnacji. Warunki użytkowania oraz przewidywany okres eksploatacji omawiamy dla konkretnej realizacji.</span></p>\n<p><span style=\"color: #000000\"><strong>Czy folia może uszkodzić lakier?</strong> Ryzyko zależy między innymi od stanu powłoki i wcześniejszych napraw. Przed aplikacją należy ocenić podłoże, a sposób demontażu dobrać do folii i stanu auta.</span></p>\n"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "59aa182b38591bc66baa3918572c21fff8965a76164410ef15c5505f22d182ef",
+        "html": "<p>W autach osobowych cenę kształtują między innymi zakres grafiki na drzwiach, masce i tyle oraz liczba przetłoczeń. Do wyceny potrzebny jest konkretny model nadwozia.</p>\n"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "7bed12732aba044ea5a5575b7a4665aad7d7b48b802d3db02e1e1d6932a42075",
+        "html": "<p>Duża powierzchnia samochodu dostawczego pozwala zaplanować rozbudowaną grafikę. W kalkulacji uwzględniamy wymiary boków, drzwi i pozostałych oklejanych elementów.</p>\n"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "84ba6697d9f903b5683c07d9b6f1d6f5e2c4280c14bd83e5d602191aa98504b2",
+        "html": "<p>Przy vanach sprawdzamy podział karoserii i przeszkleń. Projekt oraz rodzaj folii dopasowujemy do powierzchni przeznaczonych do oklejenia.</p>\n"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "307066ebc4ecaae843454bdfe7b43787347e99b2eded4576b02d342d9cf99997",
+        "html": "<p>W busach istotne są układ drzwi, liczba okien i wielkość nadwozia. W zapytaniu podaj wersję pojazdu, aby można było ustalić zakres grafiki.</p>\n"
+      },
+      {
+        "module_index": 20,
+        "expected_html_sha256": "8cf9bed47d5e4d5bc074abc14dab8b7e17f67e613d3160233f9516686836aee1",
+        "html": "<p>Przy ciężarówkach i naczepach wycena zależy od rodzaju poszycia i rozmiaru powierzchni. Dla kilku pojazdów warto podać modele oraz liczbę sztuk.</p>\n"
+      },
+      {
+        "module_index": 21,
+        "expected_html_sha256": "55d8de328ba055bce726fd958c92cbee71dc8b97d76d85dd1cf0882cae210a16",
+        "html": "<p><span style=\"color: #000000\">Prześlij materiały na adres podany w sekcji kontaktowej. Na ich podstawie ustalimy, jakie prace są potrzebne, i przygotujemy wycenę dla Twojego auta lub floty.</span></p>"
+      }
+    ]
+  },
+  {
+    "path": "/frezowanie-cnc/",
+    "seo_title": "Frezowanie CNC Olsztyn i Ostróda | YOONA",
+    "meta_description": "Frezowanie CNC plexi, tworzyw, MDF i sklejki. Elementy reklamowe i formatki na zamówienie. YOONA — prześlij projekt, materiał i liczbę sztuk.",
+    "expected_content_sha256": "ac70d47677efec72dcdac6bec28092adac213d32daf8318e0b8d687aab5ffe90",
+    "divi_text": [
+      {
+        "module_index": 2,
+        "expected_html_sha256": "a92e0e5e3724cb89545860c02cd11c27a9e06a5190d917dce655828f7105659f",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Obróbka na podstawie projektu</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "78ea8401e57f13b132acb0249931bd51dfa22e3be62025a213f4e8412516da40",
+        "html": "<h1>Frezowanie CNC na <span style=\"color: #f36f21\">wymiar</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "a38e0e082ea5a3b197c4fecf4ff3e36dd5b0a99152a6a307a50c725afcd2db5b",
+        "html": "<p><span style=\"color: #000000\">Frezowanie CNC pozwala wycinać i obrabiać elementy według przygotowanego projektu. W YOONA wykonujemy zamówienia dla firm i klientów z Olsztyna, Ostródy oraz okolic.</span></p>\n<p><span style=\"color: #000000\">Technologię wykorzystujemy przy produkcji reklam, elementów ekspozycyjnych i detali na wymiar. Możemy omówić wykonanie pojedynczego elementu lub większej liczby powtarzalnych części.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "aa70a6d0972ef17b9c08642160fb7ab48c2d11b9474685356455841d7389213e",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Elementy dla reklamy i ekspozycji</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "05c98a478a7e7c154e76a42b65fde346e96e02545489d3082243fbdf72fed40d",
+        "html": "<h2>Co <span style=\"color: #f36f21\">wykonujemy?</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "832b4fd1b591fc3d53a736e1a17a88b266d5e62dd5f7cd04a82ba762b65a81ad",
+        "html": "<p>Wykonujemy między innymi litery, logotypy, tablice, formatki, szablony i elementy ekspozytorów. Zakres obróbki zależy od kształtu, wymiarów oraz rodzaju materiału.</p>\n<p>Jeżeli detal ma być częścią większego produktu, warto od razu określić sposób łączenia i wymagane wykończenie.</p>\n\n"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "41b9d2920f423c7e3d8a3983fc505f22e6dc7d34e7e95688fedf2cd7a9f2a624",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Dobór materiału</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "abdfa1d61892bb15b3afe23f878af1f1339c67249f89a99e90e9e5bde742d967",
+        "html": "<h2>Plexi, tworzywa, MDF i <span style=\"color: #f36f21\">sklejka</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "083a2d80c77085030c13fcf8999887b5d5f0150d348dce4539dd278f47ba4999",
+        "html": "<p>Obrabiamy plexi, tworzywa sztuczne, MDF i sklejkę. Materiał dobieramy do przeznaczenia elementu oraz warunków, w których będzie używany.</p>\n<p>Frezowanie może być częścią realizacji reklamy łączącej wycięte elementy z drukiem, oklejaniem lub oświetleniem. Zakres dodatkowych prac ustalamy na etapie projektu.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "0df4ceca321df1bb98f10301a520d76d996bbb540c1a0105f3fc6585cb2456fe",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Przygotowanie zapytania</h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "4e82ff4faa6199b8291a4ccb3a537ecc18545d32a4f92e944c2c97c9a65646ae",
+        "html": "<h2>Projekt i dane do <span style=\"color: #f36f21\">wyceny</span></h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "257ff0dc08d52a56130c265afdd2c21174a64f80dcc1dc878109e79a8460e26c",
+        "html": "<p>Do wyceny prześlij plik lub rysunek z wymiarami, rodzaj i grubość materiału oraz liczbę sztuk. Podaj wymagania dotyczące dokładności i wykończenia.</p>\n<p>Jeżeli nie masz kompletnej dokumentacji, opisz zastosowanie i dołącz szkic. Sprawdzimy możliwości wykonania oraz zakres przygotowania projektu.</p>"
+      }
+    ]
+  },
+  {
+    "path": "/tablice-unijne/",
+    "seo_title": "Tablice unijne Olsztyn i Ostróda | YOONA",
+    "meta_description": "Tablice informacyjne projektów z dofinansowaniem UE. Projekt, druk i montaż według przekazanych wytycznych programu. YOONA — zapytaj o wycenę.",
+    "expected_content_sha256": "2433f2baee4a137b680f237ba9b3c0c344bdc5f3aaec6c7d112a3a64b06102af",
+    "divi_text": [
+      {
+        "module_index": 0,
+        "expected_html_sha256": "4545d8752048d06f143cd09b2a1fe4372a85553f0549879aae1a0395dbf879a8",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Informacja o dofinansowaniu</h2>"
+      },
+      {
+        "module_index": 2,
+        "expected_html_sha256": "46d80c34e5e541866b80641cf36a1ba7ce9885f7caea74da8a4f2624034e0816",
+        "html": "<h2><span style=\"color: #f36f21\">—</span> Tablice dla projektów z dofinansowaniem</h2>"
+      },
+      {
+        "module_index": 3,
+        "expected_html_sha256": "3cadd00e698e62fde61abdbeef9a954622bd825db51730c69c30f9ae8708b464",
+        "html": "<h1>Tablice unijne i <span style=\"color: #f36f21\">informacyjne</span></h1>"
+      },
+      {
+        "module_index": 4,
+        "expected_html_sha256": "a14328bc3588ae35a5739d37c37c04c5bad5fcd69a75b34082922a788edc6995",
+        "html": "<p><span style=\"color: #000000\">Tablica unijna informuje o projekcie wspartym ze środków europejskich. Jej treść, oznaczenia i wymiary zależą od programu oraz zasad właściwych dla danego dofinansowania.</span></p>\n<p><span style=\"color: #000000\">YOONA przygotowuje projekty, druk i montaż tablic dla firm, instytucji i samorządów. Obsługujemy klientów z Olsztyna, Ostródy i innych miejscowości.</span></p>"
+      },
+      {
+        "module_index": 7,
+        "expected_html_sha256": "a009c2ca83a3790e8d6ae6c771ecd15e58fb09e52c4889abcdeb2ac837c8a02f",
+        "html": "<h3>DRUKARNIA<br />WIELKOFORMATOWA</h3>\n<p><span>Druk banerów, folii i innych materiałów do reklamy dużego formatu.</span></p>"
+      },
+      {
+        "module_index": 8,
+        "expected_html_sha256": "33babca03f06f82d966c7833937f8fda5ae33f4f8c0c888b543cd14920de44ee",
+        "html": "<h3>OKLEJANIE<br />SAMOCHODÓW</h3>\n<p><span>Projekt i aplikacja grafiki reklamowej na samochodach firmowych.</span></p>"
+      },
+      {
+        "module_index": 9,
+        "expected_html_sha256": "0f39100918e1268b75f4c824f54d474a29345a8137a851a425393a9fb0fbcb9e",
+        "html": "<h3>OKLEJANIE<br />SZYB/WITRYN</h3>\n<p><span>Grafiki i folie do oznakowania szyb oraz witryn lokali.</span></p>"
+      },
+      {
+        "module_index": 10,
+        "expected_html_sha256": "21cb640c88dedc037abf5a1c0b4d78b5c47b0552f918c375343803e5f9c34e65",
+        "html": "<h3>REKLAMA<br />ZEWNĘTRZNA</h3>\n<p><span>Szyldy i oznakowanie dopasowane do miejsca ekspozycji.</span></p>"
+      },
+      {
+        "module_index": 11,
+        "expected_html_sha256": "48a62e5462cbdd327e2cfef70dbd05916c47ed192d84ed25a25aabc2f7bbb882",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Wytyczne właściwego programu</h2>"
+      },
+      {
+        "module_index": 12,
+        "expected_html_sha256": "05c98a478a7e7c154e76a42b65fde346e96e02545489d3082243fbdf72fed40d",
+        "html": "<h2>Projekt na podstawie <span style=\"color: #f36f21\">dokumentacji</span></h2>"
+      },
+      {
+        "module_index": 13,
+        "expected_html_sha256": "e7b3372ad52d8ebc627c561d1cf43e3578e586e8f7a5836f60c21b4e40a37bb1",
+        "html": "<p>Wykonanie zaczynamy od aktualnych wytycznych i wzoru przekazanego przez zamawiającego. Na ich podstawie ustalamy układ znaków, zakres informacji i format tablicy.</p>\n<p>Przed produkcją zamawiający powinien zweryfikować projekt z wymaganiami swojego programu. Nie ma jednego uniwersalnego wzoru tablicy odpowiedniego dla każdego rodzaju dofinansowania.</p>\n\n\n\n\n"
+      },
+      {
+        "module_index": 14,
+        "expected_html_sha256": "1111b73e783fa14cc845271d5a198088cf507169741c0385edbc12179d28b766",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Materiał i ekspozycja</h2>"
+      },
+      {
+        "module_index": 15,
+        "expected_html_sha256": "2579406c6b997a37747598dad589c99b8cf57c1b55b24c57944b355be9351691",
+        "html": "<h2>Tablica dopasowana do <span style=\"color: #f36f21\">lokalizacji</span></h2>"
+      },
+      {
+        "module_index": 16,
+        "expected_html_sha256": "5b7f556614a9d7c20dbb6fb87ed892cbd1c5ea53e32b1da2468b1f9e5e25ae6e",
+        "html": "<p>Przygotowujemy tablice informacyjne z oznaczeniami Funduszy Europejskich i Unii Europejskiej zgodnie z dostarczoną dokumentacją. Materiał oraz sposób mocowania dopasowujemy do miejsca ekspozycji.</p>\n<p>Przy tablicy zewnętrznej trzeba uwzględnić warunki otoczenia i wymagany okres prezentacji. Te informacje pomagają ustalić technologię wykonania.</p>\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "module_index": 17,
+        "expected_html_sha256": "a5d6474e8512e33e1b280b711bc13b8935518c3b9c3e03e41e40d6c1d35ade96",
+        "html": "<h2><span style=\"color: #fc3f3f\">—</span> Od projektu do montażu</h2>"
+      },
+      {
+        "module_index": 18,
+        "expected_html_sha256": "2421c96f1708bb3d872ef224f69c5dcd299fc54dc5c11378437cd93aeacc3dc0",
+        "html": "<h2>Co przesłać do <span style=\"color: #f36f21\">wyceny?</span></h2>"
+      },
+      {
+        "module_index": 19,
+        "expected_html_sha256": "3389aebce799c2be0ba7d9e8c16261d52b63ef5b5598a76d5527dde9c2622334",
+        "html": "<p>Do zapytania dołącz aktualne wytyczne programu, wymagany wzór, nazwę projektu, dane beneficjenta i wymagane znaki. Podaj wymiary, liczbę tablic oraz miejsce montażu.</p>\n<p>Po uzgodnieniu treści przygotowujemy projekt do akceptacji. Następnie realizujemy druk i wykonanie oraz montaż, jeśli obejmuje go zamówienie.</p>"
+      }
+    ]
+  }
+]

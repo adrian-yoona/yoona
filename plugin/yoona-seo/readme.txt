@@ -1,54 +1,55 @@
-=== Yoona SEO — audyt i wdrożenie treści ===
+=== Yoona SEO — poprawki Divi i Rank Math ===
 Contributors: yoona
-Tags: seo, content, backup
+Tags: seo, content, divi
 Requires at least: 6.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Podgląd zmian SEO, kontrolowane wdrożenie i cofnięcie. Eksport treści do audytu.
+Gotowe poprawki tekstów i metadanych yoona.pl, podgląd, zapis partiami oraz kopie z możliwością cofnięcia.
 
 == Description ==
 
-Wtyczka umożliwia import przygotowanego pakietu JSON, porównanie obecnych i proponowanych wartości, wybór stron i wdrożenie zmian. Zachowuje kopię poprzednich wartości. Cofnięcie jest blokowane, gdy zmieniane pola zostały później zmodyfikowane.
+Pakiet opracowano na podstawie eksportu właściciela yoona.pl z 15 października 2026 r. Obejmuje metadane 200 elementów oraz 896 zmian tekstów w 56 stronach i wpisach.
 
-Sama aktywacja nie zmienia witryny. Pusty pakiet lub pakiet z niezakończonym audytem nie może zostać zastosowany. W tej wersji dołączony pakiet pozostaje pusty, ponieważ nie udało się odczytać yoona.pl przez filtr sieciowy środowiska przygotowującego audyt. Nie zawiera jeszcze poprawionych tekstów.
+Tytuły i opisy są zapisywane w natywnych polach Rank Math. Zmiany pozostają w Rank Math również po wyłączeniu Yoona SEO. Poprawki tekstów obejmują wnętrza istniejących modułów Divi et_pb_text i odpowiedzi et_pb_toggle; shortcode, atrybuty, galerie, obrazy, przyciski oraz formularze są zachowane.
 
-W Narzędzia → Yoona SEO można pobrać diagnostykę do dalszego audytu. Eksport zawiera opublikowane treści i wybrane ustawienia witryny. Nie zawiera kont użytkowników ani hurtowego zrzutu ustawień. Traktuj pobrany plik jak kopię zawartości swojej strony i przekazuj go wyłącznie zaufanej osobie.
+Aktywacja i wybór paczki nie zmieniają witryny. Administrator sprawdza podgląd i wybiera strony. Przycisk wdrożenia wykonuje zapis partiami po 10 elementów i tworzy osobną kopię każdej partii. Historia pokazuje wszystkie partie. Hash całej treści i modułów chroni nowsze edycje; cofanie sprawdza konflikty.
 
-Wtyczka nie wysyła danych do zewnętrznych usług i nie wymaga klucza API.
+Wtyczka nie zmienia adresów, robots, canonical, danych produktów ani mediów. Nie wysyła treści do zewnętrznych usług i nie wymaga klucza API. Dostępne jest również pobranie publicznych treści i wybranych ustawień do kolejnego audytu. Eksportu nie publikuj.
 
-Metadane SEO są obsługiwane przez filtry WordPressa, Yoast SEO, Rank Math, All in One SEO i SEOPress. Inne integracje wymagają osobnego sprawdzenia. Wtyczka musi pozostać aktywna, aby jej metadane były emitowane.
-
-Zmiany całej treści wymagają zgodnego odcisku SHA-256 poprzedniej treści. Kreatory takie jak Elementor, Divi i WPBakery nie są obsługiwane do nadpisywania całej treści. Wtyczka nie zmienia adresów URL, canonical ani ustawień indeksowania i nie tworzy nowych stron.
+Audyt oparto na eksporcie. Nie potwierdza pozycji w Google, indeksacji, szybkości ani wyglądu licencjonowanego motywu Divi na produkcji. Nie gwarantuje rezultatów SEO.
 
 == Installation ==
 
-1. Wykonaj pełną kopię witryny w panelu hostingu.
-2. W panelu WordPressa otwórz Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
-3. Wgraj plik yoona-seo.zip i aktywuj wtyczkę.
-4. Przejdź do Narzędzia → Yoona SEO.
-5. Pobierz diagnostykę do przygotowania audytu lub wczytaj gotowy pakiet zmian, jeśli już go masz.
-6. Sprawdź podgląd i zaznacz strony. Dopiero przycisk wdrożenia zapisuje zmiany.
-7. Wyczyść cache witryny i sprawdź wynik. Do cofnięcia użyj historii w tym samym panelu.
+1. Wykonaj pełną kopię witryny w hostingu.
+2. Wgraj yoona-seo-v2.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
+3. Zastąp poprzednią wersję Yoona SEO, jeśli jest zainstalowana, i pozostaw Rank Math aktywny.
+4. Otwórz Narzędzia → Yoona SEO i sprawdź pakiet. W razie potrzeby wybierz Użyj pakietu dołączonego do wtyczki.
+5. Sprawdź podgląd, wybierz Zaznacz wszystkie gotowe i Wgraj zmiany na zaznaczone strony. Pozostaw kartę otwartą do zakończenia.
+6. Wyczyść cache i sprawdź zmienione strony na komputerze i telefonie.
 
 == Frequently Asked Questions ==
 
-= Czy aktywacja nadpisze moją stronę? =
-Nie. Do zapisu potrzebna jest poprawna paczka zmian, zakończony audyt i wybór stron przez administratora.
+= Czy sama instalacja poprawia stronę? =
+Nie. Dopiero przycisk wgrania zmian zapisuje wybrane poprawki.
 
-= Czy wyłączenie wtyczki cofnie zmiany? =
-Nie. Wyłączenie zatrzymuje jej filtry metadanych. Zmiany treści pozostają w WordPressie. Cofnij je w historii wdrożeń przed wyłączeniem, jeśli chcesz przywrócić poprzedni stan.
+= Czy mogę cofnąć zmiany? =
+Tak, w historii partii. Późniejsze zmiany objętych pól mogą spowodować konflikt, który trzeba sprawdzić. Kopie wtyczki nie zastępują pełnego backupu hostingu.
 
-= Czy kopia we wtyczce zastępuje backup hostingu? =
-Nie. Obejmuje wyłącznie zmieniane pola i własne metadane wtyczki.
+= Dlaczego strona jest zablokowana do aktualizacji? =
+Jeśli treść zmieniła się po eksporcie, kontrola hashy chroni nowszą pracę. Potrzebny jest nowy eksport i zaktualizowany pakiet. Wdrożenie wymaga aktywnego Rank Math i uprawnień administratora do edycji strony.
 
-= Czy wtyczka gwarantuje pozycję w Google? =
-Nie. Ranking i sposób prezentacji wyniku zależą również od Google i innych czynników.
+= Czy po wyłączeniu wtyczki poprawki znikną? =
+Zmiany wersji 2 pozostają w treściach oraz natywnych polach Rank Math. Aby skorzystać z historii cofania, zachowaj Yoona SEO. Starsze paczki wersji 1 mogły używać filtrów własnych metadanych i wymagać aktywnej wtyczki do ich wyświetlania.
 
 == Changelog ==
 
+= 2.0.0 =
+* Gotowy pakiet 200 metadanych i 896 zmian tekstów z eksportu właściciela.
+* Bezpośredni zapis Rank Math, kontrolowane poprawki wnętrz modułów Divi i FAQ.
+* Wdrożenie partiami, podgląd, kopie każdej partii, cofanie i kontrola konfliktów.
+
 = 1.0.0 =
-* Podgląd pakietu, wdrożenie wybranych stron, kopia zmian i cofnięcie z kontrolą konfliktów.
-* Eksport danych do audytu i integracje metadanych SEO.
+* Eksport diagnostyczny i podgląd pakietu.

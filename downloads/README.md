@@ -1,25 +1,14 @@
-# Pobierz wtyczkę Yoona SEO
+# Gotowa wtyczka Yoona SEO 2.0
 
-Plik do instalacji w WordPressie: **yoona-seo.zip** (22 KB).
+Pobierz **[yoona-seo-v2.zip](yoona-seo-v2.zip)**: otwórz plik i wybierz **Download raw file**. To właściwy ZIP do instalacji, a nie archiwum repozytorium z przycisku „Code”.
 
-Na GitHubie otwórz plik `yoona-seo.zip` i wybierz **Download raw file** (ikona pobierania). Wgraj właśnie ten ZIP, a nie archiwum całego repozytorium z przycisku „Code”.
+Pakiet zawiera **200 tytułów i opisów Rank Math oraz 896 zmian tekstów Divi w 56 stronach i wpisach**. To gotowe poprawki opracowane na podstawie eksportu yoona.pl z 15 października 2026 r.
 
-## Instalacja i eksport
+1. Zrób kopię witryny w hostingu.
+2. WordPress → **Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP i zastąp poprzednią wersję Yoona SEO. Rank Math pozostaw aktywny.
+3. **Narzędzia → Yoona SEO** → sprawdź podgląd → **Zaznacz wszystkie gotowe** → **Wgraj zmiany na zaznaczone strony**.
+4. Poczekaj na zakończenie postępu, wyczyść cache i sprawdź stronę.
 
-1. W panelu WordPressa otwórz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**.
-2. Wskaż `yoona-seo.zip`, zainstaluj i aktywuj.
-3. Przejdź do **Narzędzia → Yoona SEO**.
-4. Kliknij **Pobierz diagnostykę do audytu (JSON)**.
-5. Przekaż pobrany JSON w rozmowie, w której przygotowywany jest audyt. Nie publikuj eksportu w repozytorium.
+Sama instalacja nie zapisuje poprawek. Jeśli widzisz starą paczkę, użyj przycisku **Użyj pakietu dołączonego do wtyczki**. Po edycjach strony od czasu eksportu część zmian może wymagać nowego eksportu; kontrola hashy chroni nowsze treści.
 
-Aktywacja nie zmienia treści strony. Ta paczka **nie zawiera jeszcze poprawionych tekstów**: audyt wymaga dostępu do rzeczywistej treści yoona.pl. Po ich przygotowaniu ta sama wtyczka pozwala wczytać pakiet JSON, sprawdzić podgląd i wdrożyć obsługiwane zmiany z kopią poprzednich wartości oraz możliwością cofnięcia. Pełne nadpisanie tekstów kreatorów takich jak Elementor nie jest obsługiwane w tej wersji.
-
-Wymagania: WordPress 6.0+, PHP 7.4+, konto administratora. Testy wykonano lokalnie na WordPress 7.1.3, PHP 8.3.35 i MariaDB 11.4; nie na produkcyjnym yoona.pl. Przed wdrożeniem wykonaj pełną kopię witryny w hostingu.
-
-Kod źródłowy w tej gałęzi jest w `plugin/yoona-seo/`. Wtyczka nie wysyła treści do zewnętrznych usług i nie wymaga klucza API.
-
-SHA-256 pliku ZIP:
-
-```text
-148f39cecf7ac4e630b2cc5d65d79c3455aa79f322305a08f8b5ff1316498e4b
-```
+Kopie każdej partii są w historii wtyczki. [Pełna instrukcja](../README.md) · [Audyt SEO](../audit/AUDYT-SEO-YOONA.md) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).

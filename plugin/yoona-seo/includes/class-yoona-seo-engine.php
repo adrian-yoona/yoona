@@ -48,8 +48,8 @@ class Yoona_SEO_Engine {
 		if ( is_wp_error( $allowed ) ) {
 			return $allowed;
 		}
-		if ( ! is_array( $bundle ) || ! isset( $bundle['schema_version'] ) || 1 !== $bundle['schema_version'] ) {
-			return new WP_Error( 'yoona_bundle_version', 'Paczka musi używać schema_version: 1.' );
+		if ( ! is_array( $bundle ) || ! isset( $bundle['schema_version'] ) || ! in_array( $bundle['schema_version'], array( 1, 2 ), true ) ) {
+			return new WP_Error( 'yoona_bundle_version', 'Paczka musi używać schema_version: 1 lub 2.' );
 		}
 		if ( ! isset( $bundle['site_url'] ) || ! is_string( $bundle['site_url'] ) || ! self::site_identity( $bundle['site_url'] ) ) {
 			return new WP_Error( 'yoona_bundle_site', 'site_url musi być adresem HTTP(S) bez loginu, zapytania i fragmentu.' );
@@ -60,8 +60,13 @@ class Yoona_SEO_Engine {
 		if ( count( $bundle['pages'] ) > 500 ) {
 			return new WP_Error( 'yoona_bundle_limit', 'Jedna paczka może zawierać maksymalnie 500 stron.' );
 		}
+		$storage = isset( $bundle['seo_storage'] ) ? $bundle['seo_storage'] : 'yoona';
+		if ( ! in_array( $storage, array( 'yoona', 'rank_math' ), true ) || ( 'rank_math' === $storage && 2 !== $bundle['schema_version'] ) ) {
+			return new WP_Error( 'yoona_storage', 'Nieobsługiwany sposób zapisu SEO lub wersja paczki.' );
+		}
 		$normalized = array(
-			'schema_version' => 1,
+			'schema_version' => $bundle['schema_version'],
+			'seo_storage'    => $storage,
 			'site_url'       => untrailingslashit( $bundle['site_url'] ),
 			'audit_verified' => $bundle['audit_verified'],
 			'pages'          => array(),
@@ -79,10 +84,21 @@ class Yoona_SEO_Engine {
 				return new WP_Error( 'yoona_duplicate_path', 'Ta sama ścieżka występuje w paczce więcej niż raz: ' . $path );
 			}
 			$seen[ $path ] = true;
-			$item          = array( 'path' => $path );
-			$allowed_keys  = array( 'path', 'seo_title', 'meta_description', 'post_title', 'content', 'expected_content_sha256', 'expected_post_title' );
+			$item          = array( 'path' => $path, 'seo_storage' => $storage );
+			$allowed_keys  = array( 'path', 'seo_title', 'meta_description', 'post_title', 'content', 'expected_content_sha256', 'expected_post_title', 'seo_storage', 'divi_text' );
 			if ( array_diff( array_keys( $page ), $allowed_keys ) ) {
 				return new WP_Error( 'yoona_page_fields', 'Nieobsługiwane pola zmiany dla: ' . $path );
+			}
+			if ( isset( $page['seo_storage'] ) && $storage !== $page['seo_storage'] ) {
+				return new WP_Error( 'yoona_storage_mismatch', 'Wszystkie strony muszą używać sposobu zapisu SEO z paczki.' );
+			}
+			if ( array_key_exists( 'divi_text', $page ) ) {
+				if ( 2 !== $bundle['schema_version'] || isset( $page['content'] ) || ! is_array( $page['divi_text'] ) || ! $page['divi_text'] || count( $page['divi_text'] ) > 200 ) {
+					return new WP_Error( 'yoona_divi_shape', 'Zmiany Divi wymagają wersji 2, listy 1–200 modułów i braku pełnego content: ' . $path );
+				}
+				$patches = Yoona_SEO_Divi::validate_patches( $page['divi_text'] );
+				if ( is_wp_error( $patches ) ) { return $patches; }
+				$item['divi_text'] = $patches;
 			}
 			foreach ( array( 'seo_title' => 500, 'meta_description' => 2000 ) as $field => $limit ) {
 				if ( ! isset( $page[ $field ] ) || ! is_string( $page[ $field ] ) || '' === trim( $page[ $field ] ) || strlen( $page[ $field ] ) > $limit * 4 ) {
@@ -368,6 +384,15 @@ class Yoona_SEO_Engine {
 				return new WP_Error( 'yoona_pretty_permalinks', 'Ta ścieżka wymaga przyjaznych adresów WordPress. Wtyczka nie zmienia adresów ani slugów automatycznie.' );
 			}
 			$id = url_to_postid( trailingslashit( home_url( '/' ) ) . ltrim( $path, '/' ) );
+			// The configured posts page is an archive; url_to_postid() may
+			// return zero. Accept only its exact permalink on this website.
+			if ( ! $id && 'page' === get_option( 'show_on_front' ) && get_option( 'page_for_posts' ) ) {
+				$posts_page = (int) get_option( 'page_for_posts' );
+				$posts_url  = get_permalink( $posts_page );
+				if ( $posts_url && self::url_on_current_site( $posts_url ) && self::relative_permalink_path( $posts_url ) === $path ) {
+					$id = $posts_page;
+				}
+			}
 		}
 		$post = $id ? get_post( $id ) : null;
 		if ( ! self::is_public_post( $post ) ) {
@@ -433,9 +458,41 @@ class Yoona_SEO_Engine {
 			$blocked           = true;
 			$row['messages'][] = 'Zmiana tytułu strony wymaga expected_post_title identycznego z bieżącym tytułem. Nie nadpisano późniejszej edycji.';
 		}
-		if ( ( isset( $page['post_title'] ) || isset( $page['content'] ) ) && ! current_user_can( 'unfiltered_html' ) && ( wp_kses_post( $post->post_content ) !== $post->post_content || wp_kses_post( $post->post_excerpt ) !== $post->post_excerpt || wp_kses_post( $post->post_content_filtered ) !== $post->post_content_filtered || wp_kses( $post->post_title, 'title_save_pre' ) !== $post->post_title ) ) {
+		if ( ( isset( $page['post_title'] ) || isset( $page['content'] ) || isset( $page['divi_text'] ) ) && ! current_user_can( 'unfiltered_html' ) && ( wp_kses_post( $post->post_content ) !== $post->post_content || wp_kses_post( $post->post_excerpt ) !== $post->post_excerpt || wp_kses_post( $post->post_content_filtered ) !== $post->post_content_filtered || wp_kses( $post->post_title, 'title_save_pre' ) !== $post->post_title ) ) {
 			$blocked           = true;
 			$row['messages'][] = 'Bieżące pola wpisu zawierają HTML, którego to konto nie mogłoby odtworzyć przy przywracaniu kopii. Zmiana tytułu lub treści jest zablokowana.';
+		}
+		if ( 'rank_math' === $page['seo_storage'] && ! defined( 'RANK_MATH_VERSION' ) && ! class_exists( 'RankMath' ) ) {
+			$blocked = true;
+			$row['messages'][] = 'Ta paczka zapisuje dane bezpośrednio w Rank Math. Aktywuj Rank Math przed wdrożeniem.';
+		}
+		if ( ! $blocked && isset( $page['divi_text'] ) && self::already_applied( $post, $page ) ) {
+			$row['status'] = 'unchanged';
+			$row['messages'][] = 'Te teksty i metadane są już zapisane. Nie ma zmian do ponownego wdrożenia.';
+			return $row;
+		}
+		if ( isset( $page['divi_text'] ) ) {
+			if ( empty( $page['expected_content_sha256'] ) || ! hash_equals( $row['current']['content_sha256'], $page['expected_content_sha256'] ) || ! in_array( 'Divi', $row['builders'], true ) ) {
+				$blocked = true;
+				$row['messages'][] = 'Zmiana modułów Divi wymaga zgodnej treści źródłowej i istniejącego układu Divi. Pobierz nowy eksport, jeśli strona była edytowana.';
+			} else {
+				$patched = Yoona_SEO_Divi::prepare( $post->post_content, $page['divi_text'] );
+				if ( is_wp_error( $patched ) ) {
+					$blocked = true; $row['messages'][] = $patched->get_error_message();
+				} else {
+					$row['divi_preview'] = array();
+					$module_cache = array();
+					foreach ( $page['divi_text'] as $patch ) {
+						$type = isset( $patch['module_type'] ) ? $patch['module_type'] : 'et_pb_text';
+						if ( ! isset( $module_cache[ $type ] ) ) {
+							$module_cache[ $type ] = Yoona_SEO_Divi::extract_modules( $post->post_content, $type );
+						}
+						$modules = $module_cache[ $type ];
+						$row['divi_preview'][] = array( 'module_type' => $type, 'module_index' => $patch['module_index'], 'before' => $modules[ $patch['module_index'] ]['html'], 'after' => $patch['html'] );
+					}
+					$row['messages'][] = sprintf( 'Zmienimy tekst w %d modułach Divi. Układ, atrybuty, obrazy i pozostałe moduły są zachowane.', count( $page['divi_text'] ) );
+				}
+			}
 		}
 		if ( isset( $page['content'] ) ) {
 			if ( empty( $page['expected_content_sha256'] ) || ! hash_equals( $row['current']['content_sha256'], $page['expected_content_sha256'] ) ) {
@@ -450,8 +507,12 @@ class Yoona_SEO_Engine {
 		if ( $blocked ) {
 			return $row;
 		}
-		$before = self::capture_state( $post->ID, self::fields_for_page( $page ) );
+		$before = self::capture_state( $post->ID, self::fields_for_page( $page ), self::meta_keys_for_page( $page ) );
 		$after  = self::desired_state( $before, $page );
+		if ( is_wp_error( $after ) ) {
+			$row['messages'][] = $after->get_error_message();
+			return $row;
+		}
 		if ( $before === $after ) {
 			$row['status']     = 'unchanged';
 			$row['messages'][] = 'Wszystkie wskazane wartości są już zapisane.';
@@ -460,6 +521,27 @@ class Yoona_SEO_Engine {
 		$row['status']    = 'ready';
 		$row['can_apply'] = true;
 		return $row;
+	}
+
+	/** Recognize a completed patch without applying the old baseline again. */
+	private static function already_applied( $post, $page ) {
+		if ( isset( $page['post_title'] ) && $page['post_title'] !== $post->post_title ) { return false; }
+		$targets = 'rank_math' === $page['seo_storage']
+			? array( 'seo_title' => 'rank_math_title', 'meta_description' => 'rank_math_description' )
+			: array( 'seo_title' => self::TITLE_META, 'meta_description' => self::DESC_META );
+		foreach ( $targets as $field => $key ) {
+			$values = get_post_meta( $post->ID, $key, false );
+			if ( ! $values ) { return false; }
+			foreach ( $values as $value ) { if ( $value !== $page[ $field ] ) { return false; } }
+		}
+		if ( 'rank_math' === $page['seo_storage'] && ( metadata_exists( 'post', $post->ID, self::TITLE_META ) || metadata_exists( 'post', $post->ID, self::DESC_META ) ) ) { return false; }
+		$cache = array();
+		foreach ( $page['divi_text'] as $patch ) {
+			$type = $patch['module_type'];
+			if ( ! isset( $cache[ $type ] ) ) { $cache[ $type ] = Yoona_SEO_Divi::extract_modules( $post->post_content, $type ); }
+			if ( is_wp_error( $cache[ $type ] ) || ! isset( $cache[ $type ][ $patch['module_index'] ] ) || $cache[ $type ][ $patch['module_index'] ]['html'] !== $patch['html'] ) { return false; }
+		}
+		return true;
 	}
 
 	private static function display_meta( $value ) {
@@ -557,24 +639,30 @@ class Yoona_SEO_Engine {
 		// wp_update_post processes all these fields even for a title-only change.
 		// Keeping their baseline also catches filters which would alter a slug or
 		// sanitize legacy body/excerpt content as a side effect.
-		return array_key_exists( 'post_title', $page ) || array_key_exists( 'content', $page )
+		return array_key_exists( 'post_title', $page ) || array_key_exists( 'content', $page ) || array_key_exists( 'divi_text', $page )
 			? array( 'post_title', 'post_content', 'post_excerpt', 'post_content_filtered', 'post_name' ) : array();
 	}
 
 	/** Keep every meta value and its exact absence/presence, including duplicates. */
-	private static function capture_state( $post_id, $fields ) {
+	private static function capture_state( $post_id, $fields, $meta_keys = null ) {
 		$post  = get_post( $post_id );
 		$state = array( 'fields' => array(), 'meta' => array() );
 		foreach ( $fields as $field ) {
 			$state['fields'][ $field ] = $post ? $post->$field : null;
 		}
-		foreach ( array( self::TITLE_META, self::DESC_META ) as $key ) {
+		foreach ( null === $meta_keys ? array( self::TITLE_META, self::DESC_META ) : $meta_keys as $key ) {
 			$state['meta'][ $key ] = array(
 				'exists' => metadata_exists( 'post', $post_id, $key ),
 				'values' => get_post_meta( $post_id, $key, false ),
 			);
 		}
 		return $state;
+	}
+
+	private static function meta_keys_for_page( $page ) {
+		return 'rank_math' === $page['seo_storage']
+			? array( self::TITLE_META, self::DESC_META, 'rank_math_title', 'rank_math_description' )
+			: array( self::TITLE_META, self::DESC_META );
 	}
 
 	private static function desired_state( $before, $page ) {
@@ -584,7 +672,19 @@ class Yoona_SEO_Engine {
 				$state['fields'][ $field ] = $page[ $source ];
 			}
 		}
-		foreach ( array( 'seo_title' => self::TITLE_META, 'meta_description' => self::DESC_META ) as $source => $key ) {
+		if ( isset( $page['divi_text'] ) ) {
+			$content = Yoona_SEO_Divi::prepare( $before['fields']['post_content'], $page['divi_text'] );
+			if ( is_wp_error( $content ) ) { return $content; }
+			$state['fields']['post_content'] = $content;
+		}
+		$targets = 'rank_math' === $page['seo_storage']
+			? array( 'seo_title' => 'rank_math_title', 'meta_description' => 'rank_math_description' )
+			: array( 'seo_title' => self::TITLE_META, 'meta_description' => self::DESC_META );
+		if ( 'rank_math' === $page['seo_storage'] ) {
+			$state['meta'][ self::TITLE_META ] = array( 'exists' => false, 'values' => array() );
+			$state['meta'][ self::DESC_META ] = array( 'exists' => false, 'values' => array() );
+		}
+		foreach ( $targets as $source => $key ) {
 			$count = max( 1, count( $before['meta'][ $key ]['values'] ) );
 			$state['meta'][ $key ] = array( 'exists' => true, 'values' => array_fill( 0, $count, $page[ $source ] ) );
 		}
@@ -620,6 +720,10 @@ class Yoona_SEO_Engine {
 						return new WP_Error( 'yoona_meta_restore', 'Nie udało się odtworzyć wartości metadanych: ' . $key );
 					}
 				}
+			} elseif ( ! $snapshot['exists'] ) {
+				if ( metadata_exists( 'post', $post_id, $key ) && ! delete_post_meta( $post_id, $key ) ) {
+					return new WP_Error( 'yoona_meta_clear', 'Nie udało się usunąć poprzedniej nadpisanej wartości: ' . $key );
+				}
 			} else {
 				$value  = reset( $snapshot['values'] );
 				$result = update_post_meta( $post_id, $key, wp_slash( $value ) );
@@ -632,7 +736,7 @@ class Yoona_SEO_Engine {
 				return new WP_Error( 'yoona_meta_verify', 'Zapis metadanych nie przeszedł weryfikacji: ' . $key );
 			}
 		}
-		if ( self::capture_state( $post_id, array_keys( $state['fields'] ) ) !== $state ) {
+		if ( self::capture_state( $post_id, array_keys( $state['fields'] ), array_keys( $state['meta'] ) ) !== $state ) {
 			return new WP_Error( 'yoona_state_verify', 'Odczyt po zapisie różni się od oczekiwanych wartości.' );
 		}
 		return true;
@@ -742,10 +846,15 @@ class Yoona_SEO_Engine {
 				$results[] = self::page_result( $page['path'], $plan['post_id'], $plan['status'], implode( ' ', $plan['messages'] ) );
 				continue;
 			}
-			$before = self::capture_state( $plan['post_id'], self::fields_for_page( $page ) );
+			$before = self::capture_state( $plan['post_id'], self::fields_for_page( $page ), self::meta_keys_for_page( $page ) );
+			$after = self::desired_state( $before, $page );
+			if ( is_wp_error( $after ) ) {
+				$results[] = self::page_result( $page['path'], $plan['post_id'], 'blocked', $after->get_error_message() );
+				continue;
+			}
 			$batch['pages'][] = array(
 				'path' => $page['path'], 'post_id' => $plan['post_id'], 'status' => 'prepared',
-				'before' => $before, 'after' => self::desired_state( $before, $page ),
+				'before' => $before, 'after' => $after,
 			);
 		}
 		if ( ! $batch['pages'] ) {
@@ -758,7 +867,7 @@ class Yoona_SEO_Engine {
 		$errors  = false;
 		foreach ( $batch['pages'] as $number => $record ) {
 			$post = self::resolve_post( $record['path'] );
-			if ( ! self::owns_lock( $lock ) || is_wp_error( $post ) || (int) $post->ID !== $record['post_id'] || self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ) ) !== $record['before'] ) {
+			if ( ! self::owns_lock( $lock ) || is_wp_error( $post ) || (int) $post->ID !== $record['post_id'] || self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ), array_keys( $record['before']['meta'] ) ) !== $record['before'] ) {
 				$errors = true;
 				$batch['pages'][ $number ]['status'] = 'conflict';
 				$results[] = self::page_result( $record['path'], $record['post_id'], 'blocked', 'Stan strony lub blokada operacji zmieniły się po utworzeniu kopii. Pominięto zapis.' );
@@ -773,12 +882,12 @@ class Yoona_SEO_Engine {
 			$written = self::write_state( $record['post_id'], $record['after'] );
 			if ( is_wp_error( $written ) ) {
 				$errors   = true;
-				$actual   = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ) );
+				$actual   = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ), array_keys( $record['before']['meta'] ) );
 				$restored = self::owns_lock( $lock ) && self::known_mixture( $actual, $record['before'], $record['after'] )
 					? self::write_state( $record['post_id'], $record['before'], true )
 					: new WP_Error( 'yoona_recovery_conflict', 'W trakcie zapisu pojawiła się nieoczekiwana wartość lub utracono blokadę; automatyczne odtwarzanie zostało wstrzymane.' );
 				if ( is_wp_error( $restored ) ) {
-					$observed = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ) );
+					$observed = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ), array_keys( $record['before']['meta'] ) );
 					if ( self::known_mixture( $observed, $record['before'], $record['after'] ) ) {
 						$batch['pages'][ $number ]['status'] = 'recovery_needed';
 						$batch['pages'][ $number ]['after']  = $observed;
@@ -840,7 +949,7 @@ class Yoona_SEO_Engine {
 				continue;
 			}
 			$post = self::resolve_post( $record['path'] );
-			$current = self::capture_state( $record['post_id'], array_keys( $record['after']['fields'] ) );
+			$current = self::capture_state( $record['post_id'], array_keys( $record['after']['fields'] ), array_keys( $record['after']['meta'] ) );
 			if ( self::owns_lock( $lock ) && ! is_wp_error( $post ) && (int) $post->ID === $record['post_id'] && $current === $record['before'] ) {
 				$batch['pages'][ $number ]['status'] = 'rolled_back';
 				$results[] = self::page_result( $record['path'], $record['post_id'], 'unchanged', 'Poprzednie wartości są już odtworzone.' );
@@ -861,7 +970,7 @@ class Yoona_SEO_Engine {
 			$written = self::write_state( $record['post_id'], $record['before'], true );
 			if ( is_wp_error( $written ) ) {
 				$errors = true;
-				$observed = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ) );
+				$observed = self::capture_state( $record['post_id'], array_keys( $record['before']['fields'] ), array_keys( $record['before']['meta'] ) );
 				if ( self::known_mixture( $observed, $record['before'], $record['after'] ) ) {
 					$batch['pages'][ $number ]['status'] = 'recovery_needed';
 					$batch['pages'][ $number ]['after']  = $observed;

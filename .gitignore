@@ -1,0 +1,8 @@
+/audit/**/raw/
+/audit/**/*diagnost*.json
+/audit/private/
+/audit/access-check/
+/dist/
+__pycache__/
+*.pyc
+/tests/.wordpress-run.*
