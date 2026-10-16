@@ -1,6 +1,18 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.1.1
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.2.0
 
 Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl.
+
+## Nagłówki podstron ofertowych — wersja 3.2
+
+**543 asercje rzeczywistego WordPressa** sprawdzają wszystkie 41 rozpoznanych ofert, zarówno źródło z eksportu, jak i wariant po poprawkach SEO. Obejmują dokładne hashe i bajty treści po pierwszym banerze, renderowanie 82 wariantów z zachowaniem liczników sekcji/modułów, wykluczenie stron z hasłem, szkiców, stron prywatnych i nieobsługiwanych adresów. Zmieniony baner lub dodatkowa transformacja treści powodują zachowanie poprzedniego widoku. Sprawdzono też usunięcie tymczasowego filtra po wyjątku callbacka.
+
+Kontrola wykryła zmianę zwykłego myślnika na półpauzę przez standardowy `wptexturize()` na jednej ofercie. Rozpoznanie nadal wymaga zgodnej sumy kontrolnej źródła; dopiero po nim wyliczany jest dodatkowy hash znanej transformacji WordPressa. Nie wprowadzono dowolnej normalizacji HTML ani pomijania kontroli źródła.
+
+**44 kontrole HTTP** sprawdzają wynikowe nagłówki i pojedyncze metadane właściwego Rank Math. **162 asercje Chromium** obejmują **1440, 1920, 390 i 320 px**, trzy rzeczywiste trasy ofertowe z jawną syntetyczną treścią poniżej banera oraz dopasowanie wszystkich 41 nazw usług. Mierzona jest nie tylko szerokość elementów, lecz także prostokąty tekstu i najdłuższy niepodzielony wyraz. Dzięki temu wykryto i poprawiono łamanie słów „wielkoformatowa” i „gastronomicznych”, które nie powodowało poziomego przewijania. Sprawdzane są lokalne fonty, nazwy wielkimi literami, CTA, fotografia, zachowanie semantyki H1, fallback oraz wyłączenie wyglądu. Dokładne porównanie wszystkich rekordów wpisów i metadanych potwierdza brak zapisów podczas przeglądania. Składnia wszystkich **12 plików PHP wtyczki** jest poprawna.
+
+Raport bieżącej wersji: [offer-hero-results.txt](../tests/offer-hero-results.txt). Pełne prywatne korpusy ofert są analizowane poza tabelami obsługiwanymi przez WWW; do lokalnych tras trafia wyłącznie dotychczasowy publiczny baner i jawnie syntetyczna dalsza treść. Plik eksportu pozostaje poza katalogiem HTTP i repozytorium. Zdjęcia w Chromium są oznaczonymi obrazami SVG; oceniono układ, nie dostępność fotografii na produkcji. Model callbacków potwierdza zachowanie liczników, ale nie zastępuje licencjonowanego Divi.
+
+Pakiet `content/changes.json` i kontroler zapisu SEO z 3.1.1 zachowują identyczne bajty. Wydanie dodaje dwa pliki prezentacji; ZIP zawiera **24 pliki**, poprawne CRC i dokładny kod źródłowy wersji 3.2.0.
 
 ## Naprawa zapisu przez panel — wersja 3.1.1
 
@@ -10,7 +22,7 @@ Poprawiony skrypt czyta `form.getAttribute('action')`. Nowy test klika właściw
 
 Odpowiedzi HTML z kodami **403, 404 i 502** zatrzymują zapis z kodem HTTP, bez wykonywania otrzymanego HTML i bez automatycznego ponawiania. Oddzielna próba przepuszcza zapis pierwszych 10 pozycji, po czym zastępuje jego potwierdzenie błędem 502. Skrypt zatrzymuje się po jednym żądaniu, informuje o niepotwierdzonym stanie partii, a zapisana kopia umożliwia dokładne cofnięcie. Obie atrapy Node.js sprawdzają teraz także zasłoniętą właściwość `form.action`.
 
-Raport bieżącej poprawki: **67 asercji Chromium** w [seo-admin-browser-results.txt](../tests/seo-admin-browser-results.txt). Zaliczono też oba testy kontrolera w Node.js i kontrolę składni dziesięciu aktualnych plików PHP wtyczki oraz nowego fixture. Backend zapisu, podział po 10 pozycji, hashe źródłowych treści i pakiet zmian pozostają bez zmian. Kod CSS, fonty i szablony wyglądu nie były zmieniane w 3.1.1.
+Raport poprawki 3.1.1: **67 asercji Chromium** w [seo-admin-browser-results.txt](../tests/seo-admin-browser-results.txt). Zaliczono też oba testy kontrolera w Node.js i kontrolę składni dziesięciu ówczesnych plików PHP wtyczki oraz nowego fixture. Backend zapisu, podział po 10 pozycji, hashe źródłowych treści i pakiet zmian pozostają bez zmian. Kod CSS, fonty i szablony wyglądu nie były zmieniane w 3.1.1.
 
 ## Czytelność i typografia — wersja 3.1
 
@@ -31,7 +43,7 @@ Ponownie zaliczono **52 testy rzeczywistego HTTP z Rank Math 1.0.280**, składni
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: 22 dozwolone pliki, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.1.1.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.1.1; wcześniejsze ZIP-y pozostają poprzednimi wydaniami.
+- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Wersje 3.1 i 3.1.1 zawierają 22 dozwolone pliki, bieżąca wersja 3.2 — 24. Ogólny plik `yoona-seo.zip` wskazuje aktualne wydanie; poprzednie ZIP-y zachowano.
 
 ## Nowa warstwa wyglądu
 
@@ -58,12 +70,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.1.1.zip](../downloads/yoona-seo-v3.1.1.zip)
+Plik: [downloads/yoona-seo-v3.2.zip](../downloads/yoona-seo-v3.2.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-0fdb80df7f7087e3fbe0ab1f52414acfeef03e95a364919b7517059077fd1cda
+89b144407a0429d6a80ebfd8862fd5f75ac0e53df93ee354cb43b3362ffb02e5
 ```
 
 SHA-256 dołączonego `content/changes.json`:

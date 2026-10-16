@@ -1,0 +1,790 @@
+Yoona SEO 3.2.0 — focused offer presentation verification, 2026-10-16
+Isolated WordPress/Rank Math; no connection to production administration or database.
+Public first-banner fixtures and synthetic body; private full export stayed outside the HTTP root.
+This focused report does not replace earlier SEO importer reports or a licensed-Divi production review.
+
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+3.2.0
+1.0.280
+PASS Offer hero The curated allowlist contains 41 service pages.
+PASS Offer hero Disposable shortcode callbacks preserve section and module counter order.
+PASS Offer hero Public banner plus synthetic body fixture created for /plotki-ogrodki-piwne/
+PASS Offer hero Public banner plus synthetic body fixture created for /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Public banner plus synthetic body fixture created for /tabliczki-informacyjne/
+PASS Offer hero Safe fallback fixture created: offer-header-mismatch
+PASS Offer hero Safe fallback fixture created: offer-protected
+PASS Offer hero Safe fallback fixture created: offer-post
+Success: 8 offer fixture preparation assertions passed.
+PASS Offer hero The curated allowlist contains 41 service pages.
+PASS Offer hero The real Rank Math plugin is active.
+PASS Offer hero Allowlisted service has its exported source: /litery-3d/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /litery-3d/
+PASS Offer hero SEO patch prepares safely: /litery-3d/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /litery-3d/
+PASS Offer hero Page context resolves accepted header variant 0: /litery-3d/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /litery-3d/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /litery-3d/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /litery-3d/
+PASS Offer hero Page context resolves accepted header variant 1: /litery-3d/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /litery-3d/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /litery-3d/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /litery-3d/
+PASS Offer hero An edited banner triggers safe fallback: /litery-3d/
+PASS Offer hero Allowlisted service has its exported source: /reklamy-swietlne/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /reklamy-swietlne/
+PASS Offer hero SEO patch prepares safely: /reklamy-swietlne/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /reklamy-swietlne/
+PASS Offer hero Page context resolves accepted header variant 0: /reklamy-swietlne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /reklamy-swietlne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /reklamy-swietlne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /reklamy-swietlne/
+PASS Offer hero Page context resolves accepted header variant 1: /reklamy-swietlne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /reklamy-swietlne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /reklamy-swietlne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /reklamy-swietlne/
+PASS Offer hero An edited banner triggers safe fallback: /reklamy-swietlne/
+PASS Offer hero Allowlisted service has its exported source: /tablice-olsztyn/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /tablice-olsztyn/
+PASS Offer hero SEO patch prepares safely: /tablice-olsztyn/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /tablice-olsztyn/
+PASS Offer hero Page context resolves accepted header variant 0: /tablice-olsztyn/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /tablice-olsztyn/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /tablice-olsztyn/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /tablice-olsztyn/
+PASS Offer hero Page context resolves accepted header variant 1: /tablice-olsztyn/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /tablice-olsztyn/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /tablice-olsztyn/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /tablice-olsztyn/
+PASS Offer hero An edited banner triggers safe fallback: /tablice-olsztyn/
+PASS Offer hero Allowlisted service has its exported source: /drukarnia-wielkoformatowa/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /drukarnia-wielkoformatowa/
+PASS Offer hero SEO patch prepares safely: /drukarnia-wielkoformatowa/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /drukarnia-wielkoformatowa/
+PASS Offer hero Page context resolves accepted header variant 0: /drukarnia-wielkoformatowa/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /drukarnia-wielkoformatowa/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /drukarnia-wielkoformatowa/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /drukarnia-wielkoformatowa/
+PASS Offer hero Page context resolves accepted header variant 1: /drukarnia-wielkoformatowa/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /drukarnia-wielkoformatowa/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /drukarnia-wielkoformatowa/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /drukarnia-wielkoformatowa/
+PASS Offer hero An edited banner triggers safe fallback: /drukarnia-wielkoformatowa/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-samochodow/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow/
+PASS Offer hero SEO patch prepares safely: /oklejanie-samochodow/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-samochodow/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-samochodow/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-samochodow/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-samochodow/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-samochodow/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-samochodow/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-samochodow/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-samochodow/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-samochodow/
+PASS Offer hero Allowlisted service has its exported source: /zmiana-koloru-samochodu/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /zmiana-koloru-samochodu/
+PASS Offer hero SEO patch prepares safely: /zmiana-koloru-samochodu/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /zmiana-koloru-samochodu/
+PASS Offer hero Page context resolves accepted header variant 0: /zmiana-koloru-samochodu/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /zmiana-koloru-samochodu/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /zmiana-koloru-samochodu/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /zmiana-koloru-samochodu/
+PASS Offer hero Page context resolves accepted header variant 1: /zmiana-koloru-samochodu/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /zmiana-koloru-samochodu/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /zmiana-koloru-samochodu/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /zmiana-koloru-samochodu/
+PASS Offer hero An edited banner triggers safe fallback: /zmiana-koloru-samochodu/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-szyb/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-szyb/
+PASS Offer hero SEO patch prepares safely: /oklejanie-szyb/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-szyb/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-szyb/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-szyb/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-szyb/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-szyb/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-szyb/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-szyb/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-szyb/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-szyb/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-szyb/
+PASS Offer hero Allowlisted service has its exported source: /reklama-zewnetrzna/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /reklama-zewnetrzna/
+PASS Offer hero SEO patch prepares safely: /reklama-zewnetrzna/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /reklama-zewnetrzna/
+PASS Offer hero Page context resolves accepted header variant 0: /reklama-zewnetrzna/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /reklama-zewnetrzna/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /reklama-zewnetrzna/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /reklama-zewnetrzna/
+PASS Offer hero Page context resolves accepted header variant 1: /reklama-zewnetrzna/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /reklama-zewnetrzna/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /reklama-zewnetrzna/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /reklama-zewnetrzna/
+PASS Offer hero An edited banner triggers safe fallback: /reklama-zewnetrzna/
+PASS Offer hero Allowlisted service has its exported source: /szyldy/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /szyldy/
+PASS Offer hero SEO patch prepares safely: /szyldy/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /szyldy/
+PASS Offer hero Page context resolves accepted header variant 0: /szyldy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /szyldy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /szyldy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /szyldy/
+PASS Offer hero Page context resolves accepted header variant 1: /szyldy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /szyldy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /szyldy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /szyldy/
+PASS Offer hero An edited banner triggers safe fallback: /szyldy/
+PASS Offer hero Allowlisted service has its exported source: /banery/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /banery/
+PASS Offer hero SEO patch prepares safely: /banery/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /banery/
+PASS Offer hero Page context resolves accepted header variant 0: /banery/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /banery/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /banery/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /banery/
+PASS Offer hero Page context resolves accepted header variant 1: /banery/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /banery/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /banery/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /banery/
+PASS Offer hero An edited banner triggers safe fallback: /banery/
+PASS Offer hero Allowlisted service has its exported source: /beczki-reklamowe/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /beczki-reklamowe/
+PASS Offer hero SEO patch prepares safely: /beczki-reklamowe/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /beczki-reklamowe/
+PASS Offer hero Page context resolves accepted header variant 0: /beczki-reklamowe/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /beczki-reklamowe/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /beczki-reklamowe/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /beczki-reklamowe/
+PASS Offer hero Page context resolves accepted header variant 1: /beczki-reklamowe/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /beczki-reklamowe/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /beczki-reklamowe/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /beczki-reklamowe/
+PASS Offer hero An edited banner triggers safe fallback: /beczki-reklamowe/
+PASS Offer hero Allowlisted service has its exported source: /reklama-na-rusztowaniu/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /reklama-na-rusztowaniu/
+PASS Offer hero SEO patch prepares safely: /reklama-na-rusztowaniu/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /reklama-na-rusztowaniu/
+PASS Offer hero Page context resolves accepted header variant 0: /reklama-na-rusztowaniu/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /reklama-na-rusztowaniu/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /reklama-na-rusztowaniu/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /reklama-na-rusztowaniu/
+PASS Offer hero Page context resolves accepted header variant 1: /reklama-na-rusztowaniu/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /reklama-na-rusztowaniu/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /reklama-na-rusztowaniu/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /reklama-na-rusztowaniu/
+PASS Offer hero An edited banner triggers safe fallback: /reklama-na-rusztowaniu/
+PASS Offer hero Allowlisted service has its exported source: /reklama-na-rusztowaniu-2/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /reklama-na-rusztowaniu-2/
+PASS Offer hero SEO patch prepares safely: /reklama-na-rusztowaniu-2/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /reklama-na-rusztowaniu-2/
+PASS Offer hero Page context resolves accepted header variant 0: /reklama-na-rusztowaniu-2/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /reklama-na-rusztowaniu-2/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /reklama-na-rusztowaniu-2/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /reklama-na-rusztowaniu-2/
+PASS Offer hero Page context resolves accepted header variant 1: /reklama-na-rusztowaniu-2/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /reklama-na-rusztowaniu-2/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /reklama-na-rusztowaniu-2/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /reklama-na-rusztowaniu-2/
+PASS Offer hero An edited banner triggers safe fallback: /reklama-na-rusztowaniu-2/
+PASS Offer hero Allowlisted service has its exported source: /plotki-ogrodki-piwne/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /plotki-ogrodki-piwne/
+PASS Offer hero SEO patch prepares safely: /plotki-ogrodki-piwne/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /plotki-ogrodki-piwne/
+PASS Offer hero Page context resolves accepted header variant 0: /plotki-ogrodki-piwne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /plotki-ogrodki-piwne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /plotki-ogrodki-piwne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /plotki-ogrodki-piwne/
+PASS Offer hero Page context resolves accepted header variant 1: /plotki-ogrodki-piwne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /plotki-ogrodki-piwne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /plotki-ogrodki-piwne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /plotki-ogrodki-piwne/
+PASS Offer hero An edited banner triggers safe fallback: /plotki-ogrodki-piwne/
+PASS Offer hero Allowlisted service has its exported source: /neony/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /neony/
+PASS Offer hero SEO patch prepares safely: /neony/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /neony/
+PASS Offer hero Page context resolves accepted header variant 0: /neony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /neony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /neony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /neony/
+PASS Offer hero Page context resolves accepted header variant 1: /neony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /neony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /neony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /neony/
+PASS Offer hero An edited banner triggers safe fallback: /neony/
+PASS Offer hero Allowlisted service has its exported source: /siatka-mesh/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /siatka-mesh/
+PASS Offer hero SEO patch prepares safely: /siatka-mesh/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /siatka-mesh/
+PASS Offer hero Page context resolves accepted header variant 0: /siatka-mesh/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /siatka-mesh/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /siatka-mesh/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /siatka-mesh/
+PASS Offer hero Page context resolves accepted header variant 1: /siatka-mesh/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /siatka-mesh/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /siatka-mesh/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /siatka-mesh/
+PASS Offer hero An edited banner triggers safe fallback: /siatka-mesh/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-samochodow-osobowych/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow-osobowych/
+PASS Offer hero SEO patch prepares safely: /oklejanie-samochodow-osobowych/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow-osobowych/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-samochodow-osobowych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-samochodow-osobowych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-samochodow-osobowych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-samochodow-osobowych/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-samochodow-osobowych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-samochodow-osobowych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-samochodow-osobowych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-samochodow-osobowych/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-samochodow-osobowych/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-autobusow/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-autobusow/
+PASS Offer hero SEO patch prepares safely: /oklejanie-autobusow/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-autobusow/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-autobusow/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-autobusow/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-autobusow/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-autobusow/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-autobusow/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-autobusow/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-autobusow/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-autobusow/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-autobusow/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero SEO patch prepares safely: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-samochodow-ciezarowych/
+PASS Offer hero Allowlisted service has its exported source: /kasetony-swietlne/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /kasetony-swietlne/
+PASS Offer hero SEO patch prepares safely: /kasetony-swietlne/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /kasetony-swietlne/
+PASS Offer hero Page context resolves accepted header variant 0: /kasetony-swietlne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /kasetony-swietlne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /kasetony-swietlne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /kasetony-swietlne/
+PASS Offer hero Page context resolves accepted header variant 1: /kasetony-swietlne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /kasetony-swietlne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /kasetony-swietlne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /kasetony-swietlne/
+PASS Offer hero An edited banner triggers safe fallback: /kasetony-swietlne/
+PASS Offer hero Allowlisted service has its exported source: /pylony/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /pylony/
+PASS Offer hero SEO patch prepares safely: /pylony/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /pylony/
+PASS Offer hero Page context resolves accepted header variant 0: /pylony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /pylony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /pylony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /pylony/
+PASS Offer hero Page context resolves accepted header variant 1: /pylony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /pylony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /pylony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /pylony/
+PASS Offer hero An edited banner triggers safe fallback: /pylony/
+PASS Offer hero Allowlisted service has its exported source: /markizy-z-logo/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /markizy-z-logo/
+PASS Offer hero SEO patch prepares safely: /markizy-z-logo/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /markizy-z-logo/
+PASS Offer hero Page context resolves accepted header variant 0: /markizy-z-logo/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /markizy-z-logo/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /markizy-z-logo/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /markizy-z-logo/
+PASS Offer hero Page context resolves accepted header variant 1: /markizy-z-logo/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /markizy-z-logo/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /markizy-z-logo/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /markizy-z-logo/
+PASS Offer hero An edited banner triggers safe fallback: /markizy-z-logo/
+PASS Offer hero Allowlisted service has its exported source: /flagi/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /flagi/
+PASS Offer hero SEO patch prepares safely: /flagi/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /flagi/
+PASS Offer hero Page context resolves accepted header variant 0: /flagi/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /flagi/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /flagi/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /flagi/
+PASS Offer hero Page context resolves accepted header variant 1: /flagi/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /flagi/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /flagi/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /flagi/
+PASS Offer hero An edited banner triggers safe fallback: /flagi/
+PASS Offer hero Allowlisted service has its exported source: /fototapety/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /fototapety/
+PASS Offer hero SEO patch prepares safely: /fototapety/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /fototapety/
+PASS Offer hero Page context resolves accepted header variant 0: /fototapety/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /fototapety/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /fototapety/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /fototapety/
+PASS Offer hero Page context resolves accepted header variant 1: /fototapety/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /fototapety/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /fototapety/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /fototapety/
+PASS Offer hero An edited banner triggers safe fallback: /fototapety/
+PASS Offer hero Allowlisted service has its exported source: /totemy/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /totemy/
+PASS Offer hero SEO patch prepares safely: /totemy/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /totemy/
+PASS Offer hero Page context resolves accepted header variant 0: /totemy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /totemy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /totemy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /totemy/
+PASS Offer hero Page context resolves accepted header variant 1: /totemy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /totemy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /totemy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /totemy/
+PASS Offer hero An edited banner triggers safe fallback: /totemy/
+PASS Offer hero Allowlisted service has its exported source: /scianki-reklamowe/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /scianki-reklamowe/
+PASS Offer hero SEO patch prepares safely: /scianki-reklamowe/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /scianki-reklamowe/
+PASS Offer hero Page context resolves accepted header variant 0: /scianki-reklamowe/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /scianki-reklamowe/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /scianki-reklamowe/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /scianki-reklamowe/
+PASS Offer hero Page context resolves accepted header variant 1: /scianki-reklamowe/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /scianki-reklamowe/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /scianki-reklamowe/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /scianki-reklamowe/
+PASS Offer hero An edited banner triggers safe fallback: /scianki-reklamowe/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero SEO patch prepares safely: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-przyczep-gastronomicznych/
+PASS Offer hero Allowlisted service has its exported source: /mobilna-reklama/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /mobilna-reklama/
+PASS Offer hero SEO patch prepares safely: /mobilna-reklama/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /mobilna-reklama/
+PASS Offer hero Page context resolves accepted header variant 0: /mobilna-reklama/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /mobilna-reklama/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /mobilna-reklama/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /mobilna-reklama/
+PASS Offer hero Page context resolves accepted header variant 1: /mobilna-reklama/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /mobilna-reklama/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /mobilna-reklama/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /mobilna-reklama/
+PASS Offer hero An edited banner triggers safe fallback: /mobilna-reklama/
+PASS Offer hero Allowlisted service has its exported source: /ledony/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /ledony/
+PASS Offer hero SEO patch prepares safely: /ledony/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /ledony/
+PASS Offer hero Page context resolves accepted header variant 0: /ledony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /ledony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /ledony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /ledony/
+PASS Offer hero Page context resolves accepted header variant 1: /ledony/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /ledony/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /ledony/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /ledony/
+PASS Offer hero An edited banner triggers safe fallback: /ledony/
+PASS Offer hero Allowlisted service has its exported source: /tabliczki-informacyjne/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /tabliczki-informacyjne/
+PASS Offer hero SEO patch prepares safely: /tabliczki-informacyjne/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /tabliczki-informacyjne/
+PASS Offer hero Page context resolves accepted header variant 0: /tabliczki-informacyjne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /tabliczki-informacyjne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /tabliczki-informacyjne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /tabliczki-informacyjne/
+PASS Offer hero Page context resolves accepted header variant 1: /tabliczki-informacyjne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /tabliczki-informacyjne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /tabliczki-informacyjne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /tabliczki-informacyjne/
+PASS Offer hero An edited banner triggers safe fallback: /tabliczki-informacyjne/
+PASS Offer hero Allowlisted service has its exported source: /windery/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /windery/
+PASS Offer hero SEO patch prepares safely: /windery/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /windery/
+PASS Offer hero Page context resolves accepted header variant 0: /windery/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /windery/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /windery/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /windery/
+PASS Offer hero Page context resolves accepted header variant 1: /windery/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /windery/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /windery/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /windery/
+PASS Offer hero An edited banner triggers safe fallback: /windery/
+PASS Offer hero Allowlisted service has its exported source: /billboardy/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /billboardy/
+PASS Offer hero SEO patch prepares safely: /billboardy/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /billboardy/
+PASS Offer hero Page context resolves accepted header variant 0: /billboardy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /billboardy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /billboardy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /billboardy/
+PASS Offer hero Page context resolves accepted header variant 1: /billboardy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /billboardy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /billboardy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /billboardy/
+PASS Offer hero An edited banner triggers safe fallback: /billboardy/
+PASS Offer hero Allowlisted service has its exported source: /etykiety/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /etykiety/
+PASS Offer hero SEO patch prepares safely: /etykiety/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /etykiety/
+PASS Offer hero Page context resolves accepted header variant 0: /etykiety/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /etykiety/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /etykiety/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /etykiety/
+PASS Offer hero Page context resolves accepted header variant 1: /etykiety/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /etykiety/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /etykiety/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /etykiety/
+PASS Offer hero An edited banner triggers safe fallback: /etykiety/
+PASS Offer hero Allowlisted service has its exported source: /naklejki/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /naklejki/
+PASS Offer hero SEO patch prepares safely: /naklejki/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /naklejki/
+PASS Offer hero Page context resolves accepted header variant 0: /naklejki/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /naklejki/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /naklejki/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /naklejki/
+PASS Offer hero Page context resolves accepted header variant 1: /naklejki/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /naklejki/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /naklejki/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /naklejki/
+PASS Offer hero An edited banner triggers safe fallback: /naklejki/
+PASS Offer hero Allowlisted service has its exported source: /potykacze/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /potykacze/
+PASS Offer hero SEO patch prepares safely: /potykacze/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /potykacze/
+PASS Offer hero Page context resolves accepted header variant 0: /potykacze/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /potykacze/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /potykacze/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /potykacze/
+PASS Offer hero Page context resolves accepted header variant 1: /potykacze/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /potykacze/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /potykacze/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /potykacze/
+PASS Offer hero An edited banner triggers safe fallback: /potykacze/
+PASS Offer hero Allowlisted service has its exported source: /rollupy/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /rollupy/
+PASS Offer hero SEO patch prepares safely: /rollupy/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /rollupy/
+PASS Offer hero Page context resolves accepted header variant 0: /rollupy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /rollupy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /rollupy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /rollupy/
+PASS Offer hero Page context resolves accepted header variant 1: /rollupy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /rollupy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /rollupy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /rollupy/
+PASS Offer hero An edited banner triggers safe fallback: /rollupy/
+PASS Offer hero Allowlisted service has its exported source: /koszulki/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /koszulki/
+PASS Offer hero SEO patch prepares safely: /koszulki/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /koszulki/
+PASS Offer hero Page context resolves accepted header variant 0: /koszulki/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /koszulki/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /koszulki/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /koszulki/
+PASS Offer hero Page context resolves accepted header variant 1: /koszulki/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /koszulki/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /koszulki/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /koszulki/
+PASS Offer hero An edited banner triggers safe fallback: /koszulki/
+PASS Offer hero Allowlisted service has its exported source: /menuboardy/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /menuboardy/
+PASS Offer hero SEO patch prepares safely: /menuboardy/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /menuboardy/
+PASS Offer hero Page context resolves accepted header variant 0: /menuboardy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /menuboardy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /menuboardy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /menuboardy/
+PASS Offer hero Page context resolves accepted header variant 1: /menuboardy/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /menuboardy/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /menuboardy/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /menuboardy/
+PASS Offer hero An edited banner triggers safe fallback: /menuboardy/
+PASS Offer hero Allowlisted service has its exported source: /oklejanie-samochodu-cena/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodu-cena/
+PASS Offer hero SEO patch prepares safely: /oklejanie-samochodu-cena/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /oklejanie-samochodu-cena/
+PASS Offer hero Page context resolves accepted header variant 0: /oklejanie-samochodu-cena/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /oklejanie-samochodu-cena/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /oklejanie-samochodu-cena/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /oklejanie-samochodu-cena/
+PASS Offer hero Page context resolves accepted header variant 1: /oklejanie-samochodu-cena/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /oklejanie-samochodu-cena/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /oklejanie-samochodu-cena/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /oklejanie-samochodu-cena/
+PASS Offer hero An edited banner triggers safe fallback: /oklejanie-samochodu-cena/
+PASS Offer hero Allowlisted service has its exported source: /frezowanie-cnc/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /frezowanie-cnc/
+PASS Offer hero SEO patch prepares safely: /frezowanie-cnc/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /frezowanie-cnc/
+PASS Offer hero Page context resolves accepted header variant 0: /frezowanie-cnc/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /frezowanie-cnc/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /frezowanie-cnc/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /frezowanie-cnc/
+PASS Offer hero Page context resolves accepted header variant 1: /frezowanie-cnc/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /frezowanie-cnc/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /frezowanie-cnc/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /frezowanie-cnc/
+PASS Offer hero An edited banner triggers safe fallback: /frezowanie-cnc/
+PASS Offer hero Allowlisted service has its exported source: /tablice-unijne/
+PASS Offer hero Original banner hash accepts source and preserves exact remaining bytes: /tablice-unijne/
+PASS Offer hero SEO patch prepares safely: /tablice-unijne/
+PASS Offer hero SEO-updated banner hash accepts source and preserves exact remaining bytes: /tablice-unijne/
+PASS Offer hero Page context resolves accepted header variant 0: /tablice-unijne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 0: /tablice-unijne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 0: /tablice-unijne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 0: /tablice-unijne/
+PASS Offer hero Page context resolves accepted header variant 1: /tablice-unijne/
+PASS Offer hero Exactly the first banner output is removed after rendering variant 1: /tablice-unijne/
+PASS Offer hero Divi-style section/module counters are unchanged for variant 1: /tablice-unijne/
+PASS Offer hero Entire following rendered body stays byte-identical for variant 1: /tablice-unijne/
+PASS Offer hero An edited banner triggers safe fallback: /tablice-unijne/
+PASS Offer hero Unlisted/post/password/draft/private content is excluded: /o-nas/:page::publish
+PASS Offer hero Unlisted/post/password/draft/private content is excluded: /plotki-ogrodki-piwne/:post::publish
+PASS Offer hero Unlisted/post/password/draft/private content is excluded: /plotki-ogrodki-piwne/:page:protected:publish
+PASS Offer hero Unlisted/post/password/draft/private content is excluded: /plotki-ogrodki-piwne/:page::draft
+PASS Offer hero Unlisted/post/password/draft/private content is excluded: /plotki-ogrodki-piwne/:page::private
+PASS Offer hero A third-party content mutation retains the original rendered banner for template fallback.
+PASS Offer hero The temporary output filter is removed even if another shortcode callback throws.
+PASS Offer hero All private-source and render checks leave every post and metadata row unchanged.
+Success: 543 focused real-WordPress offer source/render assertions passed; no private body content was written to web tables.
+Success: Updated 'yoona_seo_design_enabled' option.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Success: Captured complete post and metadata baseline for offer HTTP/browser checks.
+PASS Offer HTTP /plotki-ogrodki-piwne/ serves successfully.
+PASS Offer HTTP /plotki-ogrodki-piwne/ contains one accessible premium header.
+PASS Offer HTTP /plotki-ogrodki-piwne/ omits the former separate black title strip.
+PASS Offer HTTP /plotki-ogrodki-piwne/ has exactly one H1.
+PASS Offer HTTP /plotki-ogrodki-piwne/ preserves the existing body H1 when present.
+PASS Offer HTTP /plotki-ogrodki-piwne/ retains the native Rank Math title.
+PASS Offer HTTP /plotki-ogrodki-piwne/ retains one exact native Rank Math description.
+PASS Offer HTTP /plotki-ogrodki-piwne/ retains its canonical URL.
+PASS Offer HTTP /plotki-ogrodki-piwne/ uses its own reviewed photograph URL.
+PASS Offer HTTP /plotki-ogrodki-piwne/ has an accessible prioritized image.
+PASS Offer HTTP /plotki-ogrodki-piwne/ retains the following body and working content target.
+PASS Offer HTTP /plotki-ogrodki-piwne/ keeps Divi-like section counters aligned while removing only banner output.
+PASS Offer HTTP /plotki-ogrodki-piwne/ executes the normal WordPress head, body and footer hooks once.
+PASS Offer HTTP /plotki-ogrodki-piwne/ renders shortcode content rather than exposing raw builder source.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ serves successfully.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ contains one accessible premium header.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ omits the former separate black title strip.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ has exactly one H1.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ preserves the existing body H1 when present.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ retains the native Rank Math title.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ retains one exact native Rank Math description.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ retains its canonical URL.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ uses its own reviewed photograph URL.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ has an accessible prioritized image.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ retains the following body and working content target.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ keeps Divi-like section counters aligned while removing only banner output.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ executes the normal WordPress head, body and footer hooks once.
+PASS Offer HTTP /oklejanie-przyczep-gastronomicznych/ renders shortcode content rather than exposing raw builder source.
+PASS Offer HTTP /tabliczki-informacyjne/ serves successfully.
+PASS Offer HTTP /tabliczki-informacyjne/ contains one accessible premium header.
+PASS Offer HTTP /tabliczki-informacyjne/ omits the former separate black title strip.
+PASS Offer HTTP /tabliczki-informacyjne/ has exactly one H1.
+PASS Offer HTTP /tabliczki-informacyjne/ preserves the existing body H1 when present.
+PASS Offer HTTP /tabliczki-informacyjne/ retains the native Rank Math title.
+PASS Offer HTTP /tabliczki-informacyjne/ retains one exact native Rank Math description.
+PASS Offer HTTP /tabliczki-informacyjne/ retains its canonical URL.
+PASS Offer HTTP /tabliczki-informacyjne/ uses its own reviewed photograph URL.
+PASS Offer HTTP /tabliczki-informacyjne/ has an accessible prioritized image.
+PASS Offer HTTP /tabliczki-informacyjne/ retains the following body and working content target.
+PASS Offer HTTP /tabliczki-informacyjne/ keeps Divi-like section counters aligned while removing only banner output.
+PASS Offer HTTP /tabliczki-informacyjne/ executes the normal WordPress head, body and footer hooks once.
+PASS Offer HTTP /tabliczki-informacyjne/ renders shortcode content rather than exposing raw builder source.
+PASS Offer HTTP Password protection stays active without a premium offer hero.
+PASS Offer HTTP Unknown runtime banner edits keep both fallback title and original rendered banner.
+Success: 44 focused real WordPress/Rank Math offer HTTP assertions passed.
+PASS Offer browser desktop/plotki-ogrodki-piwne: exactly one new offer header loads.
+PASS Offer browser desktop/plotki-ogrodki-piwne: both previous duplicate banners are absent.
+PASS Offer browser desktop/plotki-ogrodki-piwne: preserved following body keeps the original section index.
+PASS Offer browser desktop/plotki-ogrodki-piwne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop/plotki-ogrodki-piwne: a service-specific readable introduction is visible.
+PASS Offer browser desktop/plotki-ogrodki-piwne: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop/plotki-ogrodki-piwne: both calls to action use working contact/content targets.
+PASS Offer browser desktop/plotki-ogrodki-piwne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop/plotki-ogrodki-piwne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop/plotki-ogrodki-piwne: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop: served CSS exactly matches the current source.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: exactly one new offer header loads.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: both previous duplicate banners are absent.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: preserved following body keeps the original section index.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: a service-specific readable introduction is visible.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: both calls to action use working contact/content targets.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop/oklejanie-przyczep-gastronomicznych: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop/tabliczki-informacyjne: exactly one new offer header loads.
+PASS Offer browser desktop/tabliczki-informacyjne: both previous duplicate banners are absent.
+PASS Offer browser desktop/tabliczki-informacyjne: preserved following body keeps the original section index.
+PASS Offer browser desktop/tabliczki-informacyjne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop/tabliczki-informacyjne: a service-specific readable introduction is visible.
+PASS Offer browser desktop/tabliczki-informacyjne: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop/tabliczki-informacyjne: both calls to action use working contact/content targets.
+PASS Offer browser desktop/tabliczki-informacyjne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop/tabliczki-informacyjne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop/tabliczki-informacyjne: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop: all 41 original service titles fit, including their longest unbroken words ([]).
+PASS Offer browser desktop: a changed rendered header falls back without removing any original banner.
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /o-nas/
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /design-post/
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /offer-post/
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /offer-protected/
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_fb=1
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_pb_preview=1
+PASS Offer browser desktop: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?preview=true
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: exactly one new offer header loads.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: both previous duplicate banners are absent.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: preserved following body keeps the original section index.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: a service-specific readable introduction is visible.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: both calls to action use working contact/content targets.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop-wide/plotki-ogrodki-piwne: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop-wide: served CSS exactly matches the current source.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: exactly one new offer header loads.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: both previous duplicate banners are absent.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: preserved following body keeps the original section index.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: a service-specific readable introduction is visible.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: both calls to action use working contact/content targets.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop-wide/oklejanie-przyczep-gastronomicznych: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: exactly one new offer header loads.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: both previous duplicate banners are absent.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: preserved following body keeps the original section index.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: a service-specific readable introduction is visible.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: the accessible hero photograph is present and prioritized.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: both calls to action use working contact/content targets.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser desktop-wide/tabliczki-informacyjne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser desktop-wide/tabliczki-informacyjne: desktop photo shares a single split header with the copy.
+PASS Offer browser desktop-wide: all 41 original service titles fit, including their longest unbroken words ([]).
+PASS Offer browser desktop-wide: a changed rendered header falls back without removing any original banner.
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /o-nas/
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /design-post/
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /offer-post/
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /offer-protected/
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_fb=1
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_pb_preview=1
+PASS Offer browser desktop-wide: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?preview=true
+PASS Offer browser mobile/plotki-ogrodki-piwne: exactly one new offer header loads.
+PASS Offer browser mobile/plotki-ogrodki-piwne: both previous duplicate banners are absent.
+PASS Offer browser mobile/plotki-ogrodki-piwne: preserved following body keeps the original section index.
+PASS Offer browser mobile/plotki-ogrodki-piwne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile/plotki-ogrodki-piwne: a service-specific readable introduction is visible.
+PASS Offer browser mobile/plotki-ogrodki-piwne: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile/plotki-ogrodki-piwne: both calls to action use working contact/content targets.
+PASS Offer browser mobile/plotki-ogrodki-piwne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile/plotki-ogrodki-piwne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile/plotki-ogrodki-piwne: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile: served CSS exactly matches the current source.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: exactly one new offer header loads.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: both previous duplicate banners are absent.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: preserved following body keeps the original section index.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: a service-specific readable introduction is visible.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: both calls to action use working contact/content targets.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile/oklejanie-przyczep-gastronomicznych: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile/tabliczki-informacyjne: exactly one new offer header loads.
+PASS Offer browser mobile/tabliczki-informacyjne: both previous duplicate banners are absent.
+PASS Offer browser mobile/tabliczki-informacyjne: preserved following body keeps the original section index.
+PASS Offer browser mobile/tabliczki-informacyjne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile/tabliczki-informacyjne: a service-specific readable introduction is visible.
+PASS Offer browser mobile/tabliczki-informacyjne: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile/tabliczki-informacyjne: both calls to action use working contact/content targets.
+PASS Offer browser mobile/tabliczki-informacyjne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile/tabliczki-informacyjne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile/tabliczki-informacyjne: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile: all 41 original service titles fit, including their longest unbroken words ([]).
+PASS Offer browser mobile: a changed rendered header falls back without removing any original banner.
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /o-nas/
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /design-post/
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /offer-post/
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /offer-protected/
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_fb=1
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_pb_preview=1
+PASS Offer browser mobile: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?preview=true
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: exactly one new offer header loads.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: both previous duplicate banners are absent.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: preserved following body keeps the original section index.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: a service-specific readable introduction is visible.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: both calls to action use working contact/content targets.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile-small/plotki-ogrodki-piwne: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile-small: served CSS exactly matches the current source.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: exactly one new offer header loads.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: both previous duplicate banners are absent.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: preserved following body keeps the original section index.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: a service-specific readable introduction is visible.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: both calls to action use working contact/content targets.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile-small/oklejanie-przyczep-gastronomicznych: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile-small/tabliczki-informacyjne: exactly one new offer header loads.
+PASS Offer browser mobile-small/tabliczki-informacyjne: both previous duplicate banners are absent.
+PASS Offer browser mobile-small/tabliczki-informacyjne: preserved following body keeps the original section index.
+PASS Offer browser mobile-small/tabliczki-informacyjne: the title preserves exactly one H1 with the existing body semantics.
+PASS Offer browser mobile-small/tabliczki-informacyjne: a service-specific readable introduction is visible.
+PASS Offer browser mobile-small/tabliczki-informacyjne: the accessible hero photograph is present and prioritized.
+PASS Offer browser mobile-small/tabliczki-informacyjne: both calls to action use working contact/content targets.
+PASS Offer browser mobile-small/tabliczki-informacyjne: actual text ranges, actions and full page fit without clipping ([]).
+PASS Offer browser mobile-small/tabliczki-informacyjne: actual local fonts, uppercase title and readable body sizing are applied.
+PASS Offer browser mobile-small/tabliczki-informacyjne: mobile photo follows the text at a useful full width.
+PASS Offer browser mobile-small: all 41 original service titles fit, including their longest unbroken words ([]).
+PASS Offer browser mobile-small: a changed rendered header falls back without removing any original banner.
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /o-nas/
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /design-post/
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /offer-post/
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /offer-protected/
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_fb=1
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?et_pb_preview=1
+PASS Offer browser mobile-small: nonservice/protected/builder/preview route remains excluded: /plotki-ogrodki-piwne/?preview=true
+PASS Offer browser The visual off switch restores the theme and removes the premium offer template.
+PASS Offer browser There are no uncaught frontend JavaScript errors.
+Tested design.css SHA-256: 33588937f39548b647a9696b84ae3ab05689b47f9e7da3030b53a76ba4a38703
+Success: 162 focused real Chromium offer assertions passed.
+Screenshots: /tmp/yoona-offer-hero-screenshots (labelled synthetic photos, not production image review).
+PASS Offer hero HTTP browsing and render helpers preserve every post and metadata row exactly.
+Success: 1 offer database assertions passed.
+7.1.3
+PHP 8.3.35 (cli) (built: Sep 25 2026 17:43:50) (NTS)
+All focused offer presentation tests passed.

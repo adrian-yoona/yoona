@@ -142,3 +142,38 @@ kontenery, wolumen i sieć o tym konkretnym prefiksie.
 
 Zmienne `YOONA_TEST_WP_IMAGE`, `YOONA_TEST_CLI_IMAGE`, `YOONA_TEST_DB_IMAGE` i `YOONA_TEST_COMPOSER_IMAGE`
 pozwalają uruchomić ten sam test z innymi zgodnymi oficjalnymi obrazami.
+
+Nowa góra podstron ofertowych ma osobny test `integration-offer-hero.php`, HTTP
+oraz Chromium. Na zachowanej, lokalnej instalacji z aktywnym Rank Math uruchom:
+
+```bash
+YOONA_TEST_EXPORT_JSON=/prywatna/sciezka/eksport.json YOONA_TEST_BROWSER=1 \
+  bash tests/run-offer-hero.sh http://127.0.0.1:PORT NAZWA_KONTENERA_CLI NAZWA_KONTENERA_WEB
+```
+
+Kontenery pochodzą z `YOONA_TEST_KEEP=1 bash tests/run-wordpress.sh`. Runner jest
+ograniczony do adresu loopback i nazw kontenerów testowych. Kopiuje aktualną
+wtyczkę do tej instalacji. Prywatny eksport trafia tylko do `/tmp` kontenera CLI,
+poza katalogiem HTTP, i zostaje usunięty także przy błędzie. Wszystkie 41 stron
+są sprawdzane dla oryginalnego i zmienionego przez SEO źródła: hash pierwszego
+banneru, nienaruszone bajty dalszej treści, niezmienione liczniki shortcode i
+identyczny wynik kolejnych modułów. Te źródła są podstawiane wyłącznie do pamięci
+obiektu WordPressa; pełne treści eksportu nie trafiają do tabel WWW ani raportu.
+Fixture HTTP zawiera tylko już publiczny pierwszy banner trzech ofert oraz
+syntetyczną dalszą treść. Nie zawiera prywatnych pozostałych sekcji strony.
+
+Przeglądarka sprawdza trzy rzeczywiste trasy ofertowe, szerokości 1440/1920/390/320,
+pojedynczy nowy hero bez obu dawnych bannerów, zachowaną semantykę H1, lokalne fonty,
+wersaliki, CTA, zdjęcie oraz mierzy faktyczne zakresy tekstu i najdłuższe wyrazy
+wszystkich 41 nazw. Osobne próby sprawdzają bezpieczny powrót do dawnego nagłówka
+po nieznanej zmianie treści przez filtr, ochronę hasłem, wyłączenie wyglądu oraz
+wykluczenie wpisów, innych stron i trybów builder/preview. HTTP z prawdziwym
+Rank Math weryfikuje też niezmienione tytuły, opisy i adresy canonical. Porównanie
+bazy obejmuje każdy rekord wpisu i metadanych przed i po samych wywołaniach
+prezentacji. Liczniki shortcode są testowymi callbackami, więc nie zastępują
+kontroli z licencjonowanym Divi. Zdjęcia w Chromium są jawnie oznaczonymi SVG;
+zrzuty sprawdzają układ, a nie wygląd rzeczywistych fotografii produkcyjnych.
+
+`offer-hero-results.txt` zawiera końcowy przebieg wersji 3.2.0: 543 kontrole
+źródła i renderu, 44 HTTP z Rank Math, 162 Chromium i jedno dokładne porównanie
+wszystkich wpisów oraz metadanych po wywołaniach prezentacji.

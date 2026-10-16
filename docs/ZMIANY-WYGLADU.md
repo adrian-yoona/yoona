@@ -36,3 +36,13 @@ Licencjonowany motyw Divi i dodatki do niego nie są dołączone do testów. Po 
 Poprawiono kolejność warstw nagłówka, tak aby gradient rzeczywiście przykrywał zdjęcie i znajdował się pod tekstem. Sam plik fotografii firmy pozostaje w bibliotece: kadrowanie, stonowanie barw i przyciemnienie są odwracalną prezentacją CSS. Nie zastąpiono rzeczywistego budynku wygenerowanym obrazem.
 
 Dodano lokalny Manrope Variable do opisów i interfejsu z polskimi znakami, licencją OFL i pochodzeniem. Archivo Black zachowano dla dużych nagłówków, z mniej ujemnym odstępem liter. Zwiększono opisy, nawigację, przyciski i podpisy. Nazwy kart usług, pasek możliwości, oferta w stopce i nagłówki Pełnej Oferty są wyświetlane wielkimi literami; akapity pozostają czytelne w zwykłej pisowni. Treści w bazie i pakiet SEO pozostają bez zmian.
+
+## Nagłówki podstron ofertowych — 3.2
+
+41 rozpoznanych podstron usługowych otrzymuje jeden nagłówek w miejsce czarnego bloku tytułu i osobnego banera Divi. Czarna część tekstowa zawiera nawigację, nazwę usługi wielkimi literami, opis właściwy dla usługi oraz przejścia do wyceny i zakresu poniżej. Duża fotografia zajmuje prawą część; na telefonie występuje pod tekstem. Fonty pozostają lokalne, a kontrast tekstu nie zależy od zdjęcia.
+
+Zdjęcia pochodzą z dotychczasowych banerów. Krótkie opisy pochodzą z opracowanej paczki tekstów. Kontrola obejmuje dokładny hash pierwszej sekcji w eksporcie oraz jej wariantu po SEO, jeśli został zmieniony. Nowy nagłówek pojawia się tylko wtedy, gdy oryginalny baner został jednoznacznie rozpoznany i jego wynik udało się zastąpić. Późniejsze edycje banera powodują powrót do dotychczasowego widoku. Strona główna, Pełna Oferta, O nas, Kontakt, prywatność i wpisy realizacji nie należą do tej listy.
+
+Cała źródłowa treść nadal przechodzi przez WordPress i callbacki Divi. Wynik znanego banera jest pomijany dopiero po jego renderowaniu, aby zachować numerację modułów i odpowiadające jej style. Dalsza oferta, galerie, linki i formularze nie są wycinane. Nowy nagłówek nie dodaje H1, jeśli dalsza treść już go zawiera; nie zmienia istniejących nagłówków w bazie.
+
+Aktualizacja zachowuje naprawę zapisu SEO z 3.1.1. Do zmiany wyglądu wystarczy aktualizacja wtyczki i odświeżenie cache; nie trzeba ponawiać już zapisanych poprawek SEO.

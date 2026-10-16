@@ -1,6 +1,8 @@
-# Yoona 3.1.1 — naprawa zapisu SEO
+# Yoona 3.2 — nowa góra podstron ofertowych
 
-**[Pobierz gotową wtyczkę yoona-seo-v3.1.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.1.1.zip)**.
+**[Pobierz gotową wtyczkę yoona-seo-v3.2.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.2.zip)**.
+
+Wersja 3.2 łączy tytuł i zdjęcie w jeden duży nagłówek 41 podstron ofertowych. Dodaje krótki opis, przycisk wyceny, przejście do treści i dopracowany widok telefonu. Dalsza treść Divi pozostaje zachowana. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
 
 Wersja 3.1.1 naprawia błędny adres wysyłania zmian SEO, który powodował zatrzymanie na 0 pozycjach i pustą historię. Pokazuje też kod HTTP przy nieprawidłowej odpowiedzi serwera i nie ponawia zapisu automatycznie.
 
@@ -8,7 +10,7 @@ Wersja 3.1 poprawia czytelność zdjęcia w nagłówku, wprowadza lokalny Manrop
 
 1. Wykonaj kopię witryny.
 2. **WordPress → Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. **Odśwież Narzędzia → Yoona SEO** i sprawdź wersję **3.1.1**, aby załadować poprawiony skrypt. Wygląd można włączyć lub odświeżyć w tym panelu.
+3. **Odśwież Narzędzia → Yoona SEO**, sprawdź wersję **3.2.0** i kliknij **Odśwież wygląd i wyczyść cache**. Otwórz podstronę ofertową. Jeśli wygląd został wcześniej wyłączony, włącz go w tym panelu.
 
 Gotowe poprawki SEO dla 200 pozycji oraz 896 modułów Divi pozostają w pakiecie. Ich zapis uruchamia się osobno: **Użyj pakietu dołączonego do wtyczki → Zaznacz wszystkie gotowe → Wgraj zmiany na zaznaczone strony**. Pozostaw kartę otwartą do zakończenia. Panel pokaże, które wartości już są zapisane.
 

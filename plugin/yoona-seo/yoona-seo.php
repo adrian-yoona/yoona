@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Yoona — wygląd i SEO
  * Description: Nowy wygląd witryny Yoona, poprawki Divi i Rank Math, podgląd oraz cofanie zapisanych zmian.
- * Version: 3.1.1
+ * Version: 3.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Yoona
@@ -14,12 +14,13 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('YOONA_SEO_VERSION', '3.1.1');
+define('YOONA_SEO_VERSION', '3.2.0');
 define('YOONA_SEO_FILE', __FILE__);
 
 require_once __DIR__ . '/includes/class-yoona-seo-divi.php';
 require_once __DIR__ . '/includes/class-yoona-seo-engine.php';
 require_once __DIR__ . '/includes/class-yoona-seo-design.php';
+require_once __DIR__ . '/includes/class-yoona-seo-offer-hero.php';
 require_once __DIR__ . '/includes/class-yoona-seo-admin.php';
 
 /** Metadata is rendered only after an explicit administrator deployment. */

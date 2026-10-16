@@ -3,7 +3,7 @@ Contributors: yoona
 Tags: seo, content, divi, design
 Requires at least: 6.0
 Requires PHP: 7.4
-Stable tag: 3.1.1
+Stable tag: 3.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,6 +14,8 @@ Nowy wygląd yoona.pl według wzoru właściciela oraz poprawki tekstów Divi i 
 Wersja 3 dodaje czerń i pomarańcz, duże nagłówki, zdjęciowe karty usług, proces, realizacje i kontakt. Nowa kompozycja strony głównej oraz wspólna oprawa podstron są domyślnie włączone po aktualizacji. Stan wyglądu, odświeżenie cache i powrót do motywu są dostępne w Narzędzia → Yoona SEO.
 
 Warstwa wizualna używa szablonów wtyczki i nie zastępuje układu Divi w bazie. Stronę główną nowej kompozycji edytuje się w plikach szablonu; dotychczasowa treść Divi pozostaje dostępna po wyłączeniu wyglądu. Zdjęcia i odnośniki pochodzą z istniejącej witryny, a Archivo Black i Manrope są dostarczane lokalnie z licencjami OFL. Wygląd można wyłączyć bez cofania zapisanych metadanych.
+
+Wersja 3.2 dodaje wspólny nagłówek 41 podstron ofertowych: duże zdjęcie, nazwę usługi, krótki opis i przejście do wyceny. Zastępuje rozpoznany stary baner tylko podczas wyświetlania; pozostałe moduły Divi są renderowane w dotychczasowej kolejności. Obsługuje nagłówki przed i po zapisie paczki SEO. Jeśli stary baner został zmieniony i nie odpowiada sprawdzonemu wzorcowi, zachowany jest poprzedni widok.
 
 Pakiet opracowano na podstawie eksportu właściciela yoona.pl z 15 października 2026 r. Obejmuje metadane 200 elementów oraz 896 zmian tekstów w 56 stronach i wpisach.
 
@@ -28,9 +30,9 @@ Audyt oparto na eksporcie. Nie potwierdza pozycji w Google, indeksacji, szybkoś
 == Installation ==
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. Wgraj yoona-seo-v3.1.1.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
+2. Wgraj yoona-seo-v3.2.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
 3. Zastąp poprzednią wersję Yoona SEO, jeśli jest zainstalowana, i pozostaw Rank Math aktywny.
-4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.1.1. Odświeżenie panelu po aktualizacji jest konieczne, aby załadować poprawiony skrypt zapisu. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony.
+4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.2.0. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz podstronę ofertową. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony.
 5. Jeżeli poprawki tekstów/SEO nie są zapisane, wybierz Użyj pakietu dołączonego do wtyczki, sprawdź podgląd, wybierz Zaznacz wszystkie gotowe i Wgraj zmiany na zaznaczone strony. Pozostaw kartę otwartą do zakończenia.
 6. Sprawdź wygląd, galerie i formularze na komputerze oraz telefonie. Cache hostingu lub CDN może wymagać czyszczenia we własnym panelu.
 
@@ -52,6 +54,12 @@ Jeśli treść zmieniła się po eksporcie, kontrola hashy chroni nowszą pracę
 Warstwa wizualna zniknie. Zapisane zmiany treści i natywnych pól Rank Math pozostają. Aby skorzystać z historii cofania, zachowaj Yoona SEO. Starsze paczki wersji 1 mogły używać filtrów własnych metadanych i wymagać aktywnej wtyczki do ich wyświetlania.
 
 == Changelog ==
+
+= 3.2.0 =
+* Jeden spójny nagłówek zamiast osobnego tytułu i starego banera na 41 podstronach usługowych.
+* Duże fotografie z istniejącej witryny, opisy usług, nawigacja i przyciski wyceny; układ dostosowany do telefonu.
+* Kontrola hashy starych banerów, zachowanie liczników modułów i stylów Divi, brak zmian w bazie treści i SEO.
+* Zachowana naprawa zapisu SEO z wersji 3.1.1.
 
 = 3.1.1 =
 * Naprawiony adres wysyłania zmian SEO: pole formularza action zasłaniało właściwość action formularza i powodowało błąd 404 przed rozpoczęciem zapisu.
