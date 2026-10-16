@@ -66,7 +66,28 @@ i przeglądarki pod `/usr/bin/chromium` (ścieżkę można wskazać przez
 YOONA_TEST_BROWSER=1 bash tests/record-wordpress.sh
 ```
 
-Sprawdza widoki komputerowe 1440/1920 px i mobilne 390/320 px, brak poziomego przewijania, pojedynczy
+Ten przebieg sprawdza też prawdziwy formularz importera w Chromium. Tworzy 200
+publicznych stron testowych, w tym trzy duże strony Divi z 51 poprawkami modułów.
+W formularzu pozostaje ukryte pole `name="action"`, które zasłania natywną
+właściwość `form.action`. Test klika przycisk w panelu, sprawdza właściwy adres
+`admin-post.php`, 20 kolejnych żądań po 10 pozycji, rzeczywiste pola Rank Math,
+dostępność wszystkich 20 kopii i pełne cofnięcie dokładnych bajtów treści.
+Odpowiedzi HTML z kodami 403, 404 i 502 muszą zatrzymywać zapis z czytelnym
+komunikatem bez automatycznego ponawiania. Osobna próba podmienia potwierdzenie
+502 już po poprawnym zapisie backendu i sprawdza zachowanie działającej kopii.
+Na zachowanej instalacji można uruchomić tylko ten test:
+
+```bash
+node tests/integration-seo-admin-browser.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+```
+
+Kontener musi zawierać aktualną wtyczkę oraz katalog `tests` skopiowany do
+`/var/www/html/yoona-tests`, zgodnie z `run-wordpress.sh`; musi też być aktywny
+Rank Math. `seo-admin-browser-results.txt` zawiera celowany wynik dla wersji
+3.1.1. Historyczny raport pełnego importera pozostaje osobnym dowodem jego
+wcześniejszego sprawdzenia; celowany test nie zastępuje całego zestawu.
+
+Test wyglądu sprawdza widoki komputerowe 1440/1920 px i mobilne 390/320 px, brak poziomego przewijania, pojedynczy
 nagłówek H1, obsługę menu klawiaturą i widoczność zachowanej treści podstrony.
 Weryfikuje rzeczywiste załadowanie lokalnych fontów Archivo Black i Manrope,
 wersaliki wszystkich nazw oferty, rozmiar opisu hero i poprawne adresy nawigacji.

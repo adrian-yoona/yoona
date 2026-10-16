@@ -1,0 +1,86 @@
+Yoona SEO 3.1.1 — focused admin browser regression
+Date: 2026-10-16
+WordPress 7.1.3; PHP 8.3.35; MariaDB 11.4; actual Rank Math 1.0.280; Chromium 154.
+Test input: synthetic local public pages only; no production access or credentials.
+
+Confirmed pre-fix reproduction in real Chromium:
+  A hidden input name="action" shadows HTMLFormElement.action.
+  String(form.action) === "[object HTMLInputElement]".
+  The old controller sent POST /wp-admin/[object%20HTMLInputElement], HTTP 404.
+  The UI reported 0/3; all three fixture rows were unchanged; no backup was created.
+  form.getAttribute("action") contained the correct /wp-admin/admin-post.php URL.
+
+Post-fix checked admin PHP SHA-256: 3786a5bc059c963bfbef8ab1c6aa4bbcf54cab880a8ea5f2d4a011450d5d8d06
+
+Success: Prepared 200 real transport fixtures, including 3 large Divi pages and 51 text patches.
+PASS SEO admin browser The real hidden action input shadows the native form.action property.
+PASS SEO admin browser The real action attribute points to the authenticated WordPress endpoint.
+PASS SEO admin browser All 200 synthetic public pages are ready, including three large Divi pages.
+PASS SEO admin browser Non-JSON HTTP 403 is explained with the real status and no claimed completed write.
+PASS SEO admin browser HTTP 403 does not execute response HTML or automatically retry a write.
+PASS SEO admin browser HTTP 403 before the server leaves every fixture and the backup history unchanged.
+PASS SEO admin browser Non-JSON HTTP 404 is explained with the real status and no claimed completed write.
+PASS SEO admin browser HTTP 404 does not execute response HTML or automatically retry a write.
+PASS SEO admin browser HTTP 404 before the server leaves every fixture and the backup history unchanged.
+PASS SEO admin browser Non-JSON HTTP 502 is explained with the real status and no claimed completed write.
+PASS SEO admin browser HTTP 502 does not execute response HTML or automatically retry a write.
+PASS SEO admin browser HTTP 502 before the server leaves every fixture and the backup history unchanged.
+PASS SEO admin browser A lost acknowledgement stops once and tells the administrator that the last batch is unconfirmed.
+PASS SEO admin browser The ten writes made before the lost acknowledgement remain in one durable backup without duplicate saves.
+PASS SEO admin browser The durable backup restores the batch whose acknowledgement was lost.
+PASS SEO admin browser Recovery restores every field, native Rank Math value and original Divi byte exactly.
+Success: Prepared 200 real transport fixtures, including 3 large Divi pages and 51 text patches.
+PASS SEO admin browser Clicking the actual admin submit control completes all 200 pages.
+PASS SEO admin browser The native browser sends twenty sequential ten-page requests.
+PASS SEO admin browser Every request uses admin-post.php rather than [object HTMLInputElement].
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser A real ten-page backend request returns a successful JSON acknowledgement.
+PASS SEO admin browser Every selected path is written exactly once.
+PASS SEO admin browser All 200 Rank Math titles/descriptions and 51 Divi module replacements match their exact expected database state.
+PASS SEO admin browser All twenty batches have durable, usable backups.
+PASS SEO admin browser The real progress list acknowledges all 200 pages.
+PASS SEO admin browser Reloaded preview recognises every page as already applied.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser The backup for a real browser batch is visible in the admin history.
+PASS SEO admin browser All twenty admin rollback forms restore the exact original metadata and Divi content.
+PASS SEO admin browser History confirms all twenty batches were rolled back.
+PASS SEO admin browser The actual admin page has no uncaught JavaScript errors.
+Success: 67 real Chromium SEO admin assertions passed.
+
+Final PHP lint: all 10 current plugin PHP files and prepare-seo-transport.php passed in PHP 8.3.35.

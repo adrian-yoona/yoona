@@ -37,7 +37,7 @@ class Element {
   set innerHTML(value) { throw new Error('Dynamic messages must not be interpreted as HTML.'); }
 }
 
-async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
+async function scenario({ failAt = 0, unchangedAt = 0, nonJsonStatus = 0 } = {}) {
   const selected = Array.from({ length: 25 }, (_, index) => new Element({
     type: 'checkbox', name: 'selected_paths[]', value: '/page-' + index + '/', checked: false,
   }));
@@ -53,7 +53,12 @@ async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
   const submit = new Element({ type: 'submit' });
   const buttons = [selectAll, selectNone, refresh, submit];
   const inputs = [...hidden, ...selected, blockedChecked, blockedUnchecked];
-  const form = new Element({ action: 'https://example.invalid/wp-admin/admin-post.php', inputs });
+  const endpoint = 'https://example.invalid/wp-admin/admin-post.php';
+  const form = new Element({
+    // Native forms expose the hidden <input name="action"> as form.action.
+    action: new Element({ name: 'action', value: 'yoona_seo_apply' }), inputs,
+    getAttribute(name) { assert.equal(name, 'action'); return endpoint; },
+  });
   form.querySelectorAll = selector => {
     if (selector === 'input[name="selected_paths[]"]:not(:disabled)') return inputs.filter(input => input.name === 'selected_paths[]' && !input.disabled);
     if (selector === 'button,input[type="submit"]') return buttons;
@@ -98,7 +103,7 @@ async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
     ++active;
     peak = Math.max(peak, active);
     assert.equal(calls.length, responseRead, 'Read the previous response before sending another batch.');
-    assert.equal(url, form.action, 'All requests use the WordPress form destination.');
+    assert.equal(url, endpoint, 'Read the real form attribute even when an input shadows form.action.');
     assert.equal(options.method, 'POST');
     assert.equal(options.credentials, 'same-origin');
     assert(options.body instanceof NativeFormData, 'Payload uses native FormData.');
@@ -108,13 +113,16 @@ async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
     const batch = options.body.getAll('selected_paths[]');
     calls.push(batch);
     const number = calls.length;
+    const nonJsonFailure = nonJsonStatus && number === 2;
     await new Promise(resolve => setImmediate(resolve));
     --active;
     return {
-      ok: number !== failAt,
+      ok: number !== failAt && !nonJsonFailure,
+      status: nonJsonFailure ? nonJsonStatus : number === failAt ? 409 : 200,
       async json() {
         await new Promise(resolve => setImmediate(resolve));
         ++responseRead;
+        if (nonJsonFailure) throw new SyntaxError('Unexpected token < in HTML response');
         if (number === failAt) return { success: false, data: { message: hostileMessage } };
         return {
           success: true,
@@ -142,19 +150,25 @@ async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
   await form.emit('submit', { preventDefault() {} });
 
   assert.equal(peak, 1, 'Requests execute sequentially.');
-  assert.deepEqual(calls.map(batch => batch.length), failAt ? [10, 10] : [10, 10, 5]);
-  assert.deepEqual(calls.flat(), selected.slice(0, failAt ? 20 : 25).map(input => input.value), 'Each ready page is sent once in selection order; disabled pages are excluded.');
+  const failed = Boolean(failAt || nonJsonStatus);
+  assert.deepEqual(calls.map(batch => batch.length), failed ? [10, 10] : [10, 10, 5]);
+  assert.deepEqual(calls.flat(), selected.slice(0, failed ? 20 : 25).map(input => input.value), 'Each ready page is sent once in selection order; disabled pages are excluded.');
   assert.equal(progress.max, 25);
-  assert.equal(progress.value, failAt ? 10 : 25, 'Completed progress survives a later request failure.');
-  assert.equal(results.children.length, failAt ? 10 : 25);
+  assert.equal(progress.value, failed ? 10 : 25, 'Completed progress survives a later request failure.');
+  assert.equal(results.children.length, failed ? 10 : 25);
   assert(results.children.every(item => item.textContent.endsWith(hostileMessage)), 'Server messages remain literal text.');
   assert(results.children.every(item => item.children.length === 0), 'Server markup creates no child elements.');
   assert.equal(refresh.hidden, false, 'History refresh becomes available after completion or failure.');
   assert(buttons.every(button => !button.disabled), 'Controls become available again.');
-  if (failAt) {
+  if (failed) {
     assert.equal(calls.length, 2, 'A failed second batch prevents the third request.');
     assert(status.textContent.startsWith('Zatrzymano po 10 z 25 stron.'));
-    assert(status.textContent.endsWith(hostileMessage), 'Failure messages are also literal text.');
+    if (nonJsonStatus) {
+      assert(status.textContent.includes('HTTP ' + nonJsonStatus), 'Non-JSON errors identify the actual HTTP status.');
+      assert(!status.textContent.includes('Unexpected token'), 'A raw JSON parser error is not shown as the diagnosis.');
+    } else {
+      assert(status.textContent.endsWith(hostileMessage), 'Failure messages are also literal text.');
+    }
   } else {
     assert(status.textContent.startsWith('Zakończono. Zapisano 25 z 25 stron.'));
   }
@@ -164,5 +178,6 @@ async function scenario({ failAt = 0, unchangedAt = 0 } = {}) {
   await scenario();
   await scenario({ failAt: 2 });
   await scenario({ unchangedAt: 2 });
-  console.log('Success: actual admin script sends 25 pages in sequential 10/10/5 batches with native FormData, stops on batch-2 failure, excludes disabled inputs and renders messages as text.');
+  for (const nonJsonStatus of [403, 404, 502]) await scenario({ nonJsonStatus });
+  console.log('Success: actual admin script reads the real endpoint despite a named action input, sends native FormData in 10/10/5 batches, and safely stops on JSON or non-JSON HTTP 403/404/502 failures.');
 })().catch(error => { console.error(error); process.exitCode = 1; });

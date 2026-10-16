@@ -438,6 +438,9 @@ final class Yoona_SEO_Admin {
 			'use strict';
 			const form = document.getElementById('yoona-seo-apply-form');
 			if (!form || !window.fetch || !window.FormData) return;
+			// The hidden input named "action" shadows HTMLFormElement.action.
+			const endpoint = form.getAttribute('action');
+			if (!endpoint) return;
 			const box = document.getElementById('yoona-progress');
 			const progress = box.querySelector('progress');
 			const status = box.querySelector('[role="status"]');
@@ -468,11 +471,20 @@ final class Yoona_SEO_Admin {
 						template.forEach((value, key) => data.append(key, value));
 						data.set('yoona_json', '1');
 						paths.slice(offset, offset + 10).forEach(path => data.append('selected_paths[]', path));
-						const response = await fetch(form.action, {method: 'POST', body: data, credentials: 'same-origin'});
+						const response = await fetch(endpoint, {method: 'POST', body: data, credentials: 'same-origin'});
+						if (response.redirected && /\/wp-login\.php(?:[?#]|$)/.test(response.url || '')) throw new Error('WordPress przekierował do logowania. Zaloguj się ponownie i odśwież panel. Sprawdź historię przed ponowieniem zapisu.');
 						let payload;
-						try { payload = await response.json(); } catch (error) { throw new Error('Serwer przerwał odpowiedź. Sprawdź historię przed ponowieniem; wcześniejsze partie mają własne kopie.'); }
+						try { payload = await response.json(); } catch (error) {
+							const code = response.status ? 'HTTP ' + response.status : 'brak kodu HTTP';
+							let advice = 'Stan ostatniej partii nie jest potwierdzony. Sprawdź historię przed ponowieniem; wcześniejsze partie mają własne kopie.';
+							if (response.status === 401 || response.status === 403) advice = 'WordPress lub ochrona serwera odrzuciły żądanie. Odśwież panel i sprawdź logowanie oraz historię przed ponowieniem.';
+							if (response.status === 404) advice = 'Nie znaleziono adresu zapisu. Zaktualizuj wtyczkę i odśwież panel. Sprawdź historię przed ponowieniem.';
+							throw new Error('Nie otrzymano poprawnego potwierdzenia zapisu (' + code + '). ' + advice);
+						}
+						if (!payload || typeof payload !== 'object' || typeof payload.success !== 'boolean') throw new Error('Serwer zwrócił nierozpoznane potwierdzenie zapisu. Sprawdź historię przed ponowieniem.');
 						if (!response.ok || !payload.success) throw new Error((payload.data && payload.data.message) || 'Zapis został odrzucony. Odśwież panel i sprawdź komunikaty.');
 						const result = payload.data;
+						if (!result || typeof result !== 'object' || !Array.isArray(result.pages) || typeof result.status !== 'string') throw new Error('Odpowiedź nie zawiera wyniku dla stron. Sprawdź historię przed ponowieniem zapisu.');
 						(result.pages || []).forEach(page => { const item = document.createElement('li'); item.textContent = page.path + ': ' + page.message; results.appendChild(item); });
 						completed += (result.pages || []).filter(page => page.status === 'applied' || page.status === 'unchanged').length;
 						progress.value = completed;

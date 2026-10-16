@@ -146,6 +146,7 @@ python3 "$test_root/tests/integration-design-http.py" "$test_url" protected-home
 wp_test eval-file /var/www/html/yoona-tests/integration-design.php restore-home --skip-themes
 if [[ "${YOONA_TEST_BROWSER:-0}" == 1 ]]; then
   node "$test_root/tests/integration-design-browser.cjs" "$test_url"
+  node "$test_root/tests/integration-seo-admin-browser.cjs" "$test_url" "$test_cli"
 fi
 wp_test eval-file /var/www/html/yoona-tests/integration-design.php verify --skip-themes
 if [[ -n "${YOONA_TEST_EXPORT_JSON:-}" ]]; then

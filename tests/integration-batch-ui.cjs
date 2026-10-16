@@ -22,8 +22,11 @@ async function scenario(failAt) {
   const refresh = element();
   const selectAll = element();
   const selectNone = element();
+  const endpoint = 'http://127.0.0.1/wp-admin/admin-post.php';
   const form = Object.assign(element(), {
-    action: 'http://127.0.0.1/wp-admin/admin-post.php',
+    // A real named input shadows HTMLFormElement.action in the browser.
+    action: {value: 'yoona_seo_apply', toString() {return '[object HTMLInputElement]';}},
+    getAttribute(name) {assert.equal(name, 'action'); return endpoint;},
     querySelectorAll(selector) {return selector.startsWith('input[name=') ? paths.filter(input => !input.disabled) : controls;},
   });
   const box = Object.assign(element(), {querySelector(selector) {return selector === 'progress' ? progress : selector === 'ul' ? results : status;}});
@@ -50,7 +53,7 @@ async function scenario(failAt) {
   const fetch = async (url, options) => {
     ++concurrent;
     peak = Math.max(peak, concurrent);
-    assert.equal(url, form.action);
+    assert.equal(url, endpoint, 'The action input cannot shadow the endpoint URL.');
     assert.equal(options.method, 'POST');
     assert.equal(options.credentials, 'same-origin');
     assert.equal(options.body.get('_wpnonce'), 'test-nonce');
@@ -74,6 +77,7 @@ async function scenario(failAt) {
     const failed = failAt && calls.length === failAt;
     return {
       ok: !failed,
+      status: failed ? 409 : 200,
       async json() {
         return failed ? {success: false, data: {message: 'Deliberate request failure'}} : {
           success: true,

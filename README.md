@@ -1,8 +1,14 @@
-# Yoona — wygląd i SEO 3.1
+# Yoona — wygląd i SEO 3.1.1
 
 Wersja 3 dodaje przebudowę wyglądu według załączonego wzoru: czerń, pomarańcz, jasne tło, duża typografia, zdjęciowe karty usług, proces, realizacje i kontakt. Nowy układ strony głównej oraz wspólna oprawa podstron włączają się po aktualizacji wtyczki, o ile wcześniej nie wyłączono ich w panelu.
 
-**[Pobierz wtyczkę yoona-seo-v3.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.1.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+**[Pobierz wtyczkę yoona-seo-v3.1.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.1.1.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+
+## Naprawa zapisu SEO — wersja 3.1.1
+
+Usunięto błąd, przez który kliknięcie wgrania zmian wysyłało żądanie pod błędny adres i kończyło się komunikatem „Serwer przerwał odpowiedź” przy pustej historii. Pole formularza `action` zasłaniało właściwość o tej samej nazwie. Skrypt pobiera teraz właściwy adres z atrybutu formularza. Przy błędzie odpowiedzi pokazuje kod HTTP lub informację o przekierowaniu do logowania i zatrzymuje zapis bez automatycznego ponawiania.
+
+Po zastąpieniu wtyczki **odśwież panel Narzędzia → Yoona SEO** i sprawdź wersję **3.1.1**, zanim ponownie uruchomisz zapis. Partie po 10 pozycji, kopie i kontrola konfliktów pozostają w użyciu.
 
 ## Dopracowanie wersji 3.1
 
@@ -13,8 +19,8 @@ Nazwy usług w kartach, pasek PROJEKT / DRUK / PRODUKCJA / MONTAŻ, oferta w sto
 ## Aktualizacja wyglądu
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.1.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. Otwórz **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.1.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
+2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.1.1.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. Odśwież **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.1.1** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
 4. Otwórz stronę po aktualizacji. Jeśli nadal widzisz poprzedni układ, użyj odświeżenia wyglądu/cache w panelu. Cache hostingu lub CDN może wymagać wyczyszczenia w jego własnym panelu.
 5. Sprawdź stronę główną, ofertę, realizację i kontakt na komputerze oraz telefonie, w tym formularze i galerie.
 

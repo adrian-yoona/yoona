@@ -1,6 +1,16 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.1.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.1.1
 
 Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl.
+
+## Naprawa zapisu przez panel — wersja 3.1.1
+
+W Chromium odtworzono zgłoszony błąd: ukryte pole `name="action"` zasłaniało właściwość `form.action`. Poprzedni skrypt wysyłał POST pod `/wp-admin/[object%20HTMLInputElement]`, otrzymywał 404 i nie tworzył kopii. Wcześniejsze testy HTTP sprawdzały backend, a atrapa DOM w Node.js miała adres jako zwykły ciąg znaków, więc nie odtwarzała tego zachowania przeglądarki.
+
+Poprawiony skrypt czyta `form.getAttribute('action')`. Nowy test klika właściwy przycisk w rzeczywistym panelu WordPressa z aktywnym Rank Math. Potwierdza **200 pozycji w 20 kolejnych partiach**, poprawny adres każdego żądania, dokładny zapis natywnych tytułów i opisów oraz **51 zmian modułów na trzech dużych stronach Divi**. Sprawdza też wszystkie 20 kopii w historii, rozpoznanie już zapisanych wartości i dokładne cofnięcie przez formularze administratora. Są to jawne dane testowe; pełny eksport właściciela był wcześniej sprawdzony oddzielnym testem opisanym niżej.
+
+Odpowiedzi HTML z kodami **403, 404 i 502** zatrzymują zapis z kodem HTTP, bez wykonywania otrzymanego HTML i bez automatycznego ponawiania. Oddzielna próba przepuszcza zapis pierwszych 10 pozycji, po czym zastępuje jego potwierdzenie błędem 502. Skrypt zatrzymuje się po jednym żądaniu, informuje o niepotwierdzonym stanie partii, a zapisana kopia umożliwia dokładne cofnięcie. Obie atrapy Node.js sprawdzają teraz także zasłoniętą właściwość `form.action`.
+
+Raport bieżącej poprawki: **67 asercji Chromium** w [seo-admin-browser-results.txt](../tests/seo-admin-browser-results.txt). Zaliczono też oba testy kontrolera w Node.js i kontrolę składni dziesięciu aktualnych plików PHP wtyczki oraz nowego fixture. Backend zapisu, podział po 10 pozycji, hashe źródłowych treści i pakiet zmian pozostają bez zmian. Kod CSS, fonty i szablony wyglądu nie były zmieniane w 3.1.1.
 
 ## Czytelność i typografia — wersja 3.1
 
@@ -21,7 +31,7 @@ Ponownie zaliczono **52 testy rzeczywistego HTTP z Rank Math 1.0.280**, składni
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- ZIP wersji 3.1: 22 dozwolone pliki, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.1.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.1.0; ZIP-y wersji 2 i 3 pozostają poprzednimi wydaniami.
+- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: 22 dozwolone pliki, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.1.1.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.1.1; wcześniejsze ZIP-y pozostają poprzednimi wydaniami.
 
 ## Nowa warstwa wyglądu
 
@@ -48,12 +58,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.1.zip](../downloads/yoona-seo-v3.1.zip)
+Plik: [downloads/yoona-seo-v3.1.1.zip](../downloads/yoona-seo-v3.1.1.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-8740337b1b35a45d3396bf7e33bfdb49d422dec8180867b1c285b8a86b500bdc
+0fdb80df7f7087e3fbe0ab1f52414acfeef03e95a364919b7517059077fd1cda
 ```
 
 SHA-256 dołączonego `content/changes.json`:
