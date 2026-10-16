@@ -1,14 +1,17 @@
-# Gotowa wtyczka Yoona SEO 2.0
+# Yoona 3.0 — nowy wygląd i SEO
 
-Pobierz **[yoona-seo-v2.zip](yoona-seo-v2.zip)**: otwórz plik i wybierz **Download raw file**. To właściwy ZIP do instalacji, a nie archiwum repozytorium z przycisku „Code”.
+**[Pobierz gotową wtyczkę yoona-seo-v3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.zip)**.
 
-Pakiet zawiera **200 tytułów i opisów Rank Math oraz 896 zmian tekstów Divi w 56 stronach i wpisach**. To gotowe poprawki opracowane na podstawie eksportu yoona.pl z 15 października 2026 r.
+Wersja 3 zawiera nową oprawę według przesłanego wzoru: czerń, pomarańcz, mocne nagłówki, zdjęciowe karty usług, realizacje i kontakt. Domyślnie włącza ją po aktualizacji, z możliwością powrotu do motywu. Wersje 1–2 obejmowały teksty i SEO, bez tej przebudowy.
 
-1. Zrób kopię witryny w hostingu.
-2. WordPress → **Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP i zastąp poprzednią wersję Yoona SEO. Rank Math pozostaw aktywny.
-3. **Narzędzia → Yoona SEO** → sprawdź podgląd → **Zaznacz wszystkie gotowe** → **Wgraj zmiany na zaznaczone strony**.
-4. Poczekaj na zakończenie postępu, wyczyść cache i sprawdź stronę.
+1. Wykonaj kopię witryny.
+2. **WordPress → Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. **Narzędzia → Yoona SEO**: sprawdź wersję 3.0.0 oraz stan wyglądu. W razie potrzeby włącz go lub odśwież cache. Otwórz stronę i sprawdź widok telefonu oraz komputera.
 
-Sama instalacja nie zapisuje poprawek. Jeśli widzisz starą paczkę, użyj przycisku **Użyj pakietu dołączonego do wtyczki**. Po edycjach strony od czasu eksportu część zmian może wymagać nowego eksportu; kontrola hashy chroni nowsze treści.
+Gotowe poprawki SEO dla 200 pozycji oraz 896 modułów Divi pozostają w pakiecie. Ich zapis uruchamia się osobno: **Użyj pakietu dołączonego do wtyczki → Zaznacz wszystkie gotowe → Wgraj zmiany na zaznaczone strony**. Panel pokaże, które wartości już są zapisane.
 
-Kopie każdej partii są w historii wtyczki. [Pełna instrukcja](../README.md) · [Audyt SEO](../audit/AUDYT-SEO-YOONA.md) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
+Wygląd cofniesz przełącznikiem w panelu. Zapisane teksty i SEO cofa się osobno w historii partii. Cache hostingu/CDN może wymagać własnego czyszczenia.
+
+[Pełna instrukcja](../README.md) · [Opis wyglądu](../docs/ZMIANY-WYGLADU.md) · [Audyt SEO](../audit/AUDYT-SEO-YOONA.md) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
+
+Archiwum `yoona-seo-v2.zip` zachowano jako poprzednie wydanie bez przebudowy wyglądu. Ogólny plik `yoona-seo.zip` wskazuje najnowszą wersję.

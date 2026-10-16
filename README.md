@@ -1,60 +1,60 @@
-# Yoona SEO — gotowy pakiet poprawek
+# Yoona — wygląd i SEO 3.0
 
-Pakiet przygotowano na podstawie eksportu WordPressa yoona.pl z 15 października 2026 r.: **47 stron i 153 wpisy**. Zawiera nowe tytuły i opisy Rank Math dla wszystkich 200 pozycji oraz **896 zmian tekstów w 56 elementach**: 45 stronach i 11 realizacjach. Zmiany obejmują 716 modułów tekstowych Divi i 180 odpowiedzi FAQ.
+Wersja 3 dodaje przebudowę wyglądu według załączonego wzoru: czerń, pomarańcz, jasne tło, duża typografia, zdjęciowe karty usług, proces, realizacje i kontakt. Nowy układ strony głównej oraz wspólna oprawa podstron włączają się po aktualizacji wtyczki, o ile wcześniej nie wyłączono ich w panelu.
 
-## Pobieranie i instalacja
+**[Pobierz wtyczkę yoona-seo-v3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
 
-Gotowa wtyczka: [downloads/yoona-seo-v2.zip](downloads/yoona-seo-v2.zip). Otwórz plik na GitHubie i wybierz **Download raw file**. Nie instaluj archiwum całego repozytorium.
+## Aktualizacja wyglądu
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v2.zip` i zastąp poprzednią wersję Yoona SEO przesłaną wersją 2.0.0. Rank Math pozostaw aktywny.
-3. Otwórz **Narzędzia → Yoona SEO**. Sprawdź, czy widzisz gotowy pakiet dla 200 stron i wpisów. Jeśli wcześniej importowano inną paczkę, wybierz **Użyj pakietu dołączonego do wtyczki**.
-4. Sprawdź podgląd, kliknij **Zaznacz wszystkie gotowe**, a następnie **Wgraj zmiany na zaznaczone strony**. Pozostaw kartę otwartą do zakończenia postępu. Zapis odbywa się po 10 pozycji, z kopią każdej partii.
-5. Wyczyść cache witryny w używanej wtyczce, Divi, hostingu lub CDN i otwórz zmienione strony na komputerze oraz telefonie.
+2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. Otwórz **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.0.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
+4. Otwórz stronę po aktualizacji. Jeśli nadal widzisz poprzedni układ, użyj odświeżenia wyglądu/cache w panelu. Cache hostingu lub CDN może wymagać wyczyszczenia w jego własnym panelu.
+5. Sprawdź stronę główną, ofertę, realizację i kontakt na komputerze oraz telefonie, w tym formularze i galerie.
 
-**Aktualizacja i aktywacja wtyczki same nie zapisują poprawek. Konieczny jest przycisk wgrania zmian w jej panelu.** Nie wykonano zdalnego wdrożenia na yoona.pl.
+**Zmiana wyglądu działa osobno od zapisu SEO.** W wersjach 1–2 nie było nowej szaty graficznej. Sam zapis tytułów i opisów Rank Math nie przebudowywał układu. Panel wersji 3 pokazuje osobno wygląd oraz liczbę pozycji zgodnych z paczką, gotowych do zapisu i zablokowanych.
 
-## Co zmienia ten pakiet
+## Teksty i Rank Math
 
-- Tytuły i opisy zapisuje bezpośrednio w polach `rank_math_title` i `rank_math_description`. Po zapisaniu pozostają w Rank Math także po wyłączeniu Yoona SEO.
-- Teksty aktualizuje wyłącznie we wnętrzach wybranych modułów `et_pb_text` i odpowiedzi `et_pb_toggle`. Zachowuje pozostałe bajty źródła Divi, w tym shortcode, ich atrybuty, galerie, obrazy, przyciski i kod formularzy.
-- Usuwa mylne nagłówki i nazwy usług/klientów, pozostałości instrukcji redakcyjnych, sztuczne frazy i nieuzasadnione zapewnienia. Uporządkowuje H1 w poprawianych stronach na poziomie źródła.
-- Polityka prywatności i strona listy realizacji mają zmieniane wyłącznie metadane. W pozostałych 142 realizacjach aktualizowane są metadane, a ich treści pozostają bez zmian.
-- Nie zmienia adresów URL, przekierowań, ustawień robots/canonical, danych mediów ani globalnych szablonów Divi.
+Dołączony pakiet treści pozostaje oparty na eksporcie WordPressa yoona.pl z 15 października 2026 r.: **47 stron i 153 wpisy**. Obejmuje nowe tytuły i opisy Rank Math dla 200 pozycji oraz **896 zmian modułów w 56 elementach**: 45 stronach i 11 realizacjach. To 716 modułów tekstowych i 180 odpowiedzi FAQ Divi. Nie przeprowadzono pełnej redakcji treści pozostałych 142 realizacji.
 
-Treści wykonano na podstawie otrzymanego eksportu. Nie dopisano niepotwierdzonych cen, certyfikatów, statystyk skuteczności ani nowych usług.
+Jeśli te poprawki nie są jeszcze zapisane: w **Narzędzia → Yoona SEO** wybierz **Użyj pakietu dołączonego do wtyczki**, sprawdź podgląd, kliknij **Zaznacz wszystkie gotowe → Wgraj zmiany na zaznaczone strony**. Pozostaw kartę otwartą do końca. Zapis odbywa się po 10 pozycji, z kopią każdej partii. Nie uruchamiaj ponownie zapisu pozycji już zgodnych z pakietem.
 
-## Zabezpieczenia i cofanie
+Tytuły i opisy zapisują się w natywnych polach Rank Math. Aktualizacja tekstów obejmuje wybrane wnętrza modułów Divi i zachowuje pozostałe bajty źródła. Polityka prywatności i strona listy realizacji otrzymują tylko metadane. Hash całej treści i modułów chroni edycje wykonane po eksporcie; zablokowane strony wymagają nowego eksportu zamiast obchodzenia kontroli.
 
-Przed każdą partią powstaje trwała kopia zmienianych pól i metadanych. W sekcji **Cofnij zmiany** dostępne są wszystkie partie. Cofanie sprawdza aktualny stan i zgłasza konflikt, jeśli od wdrożenia ktoś zmienił objęte nim pola. Standardowy edytor WordPressa nie współdzieli blokady importera, dlatego zastosowano również porównanie stanu przed zapisem i odczyt po zapisie.
+## Jak działa i jak wrócić
 
-Aktualizacja tekstów wymaga zgodnego SHA-256 całej treści źródłowej i zmienianych modułów. Jeśli strona została edytowana po eksporcie z 15 października, panel zablokuje jej zmiany — wtedy potrzebny jest nowy eksport i aktualizacja pakietu. Nie obchodź tej kontroli przez usunięcie hashy.
+Nowy wygląd jest warstwą szablonów wtyczki, a nie nadpisaniem układu Divi w bazie. Strona główna korzysta z przygotowanego układu; podstrony zachowują własną treść przez standardowy mechanizm WordPressa. Stare moduły, galerie i formularze pozostają w bazie. Zdjęcia pochodzą z istniejących adresów witryny, a nagłówki korzystają z lokalnie dołączonego Archivo Black na licencji OFL.
 
-Kopia wtyczki obejmuje jej zmiany i nie zastępuje pełnego backupu hostingu. Zachowaj wtyczkę, jeśli chcesz korzystać z historii cofania.
+Wyłączenie nowego wyglądu w panelu przywraca szablony motywu. Dezaktywacja Yoona SEO również usuwa tę warstwę wizualną. Zapisane wcześniej treści oraz natywne metadane Rank Math pozostają; cofa się je osobno przez historię partii. Kopie wtyczki nie zastępują pełnego backupu hostingu.
 
-## Audyt i teksty do przeglądu
+Nowa strona główna nie jest edytowana w dotychczasowym układzie Divi. Jej strukturę i teksty zawierają szablony wtyczki; dotychczasowa zawartość Divi pozostaje dostępna po wyłączeniu nowego wyglądu. Warstwa nie zmienia adresów URL, przekierowań, robots/canonical ani globalnych ustawień Rank Math.
 
-- [Audyt wszystkich 200 elementów](audit/AUDYT-SEO-YOONA.md).
-- [Zakres poprawek w JSON](audit/zakres-poprawek.json).
-- [Teksty stron — część A](copy/STRONY-A.md), [część B](copy/STRONY-B.md).
-- [Metadane realizacji i poprawki 11 wpisów](copy/WPISY-SEO.md).
-- [Wyniki testów](docs/WYNIKI-TESTOW.md) i [instrukcja testowania](tests/README.md).
+## Audyt, zakres i testy
 
-Audyt obejmuje dane oraz treści z eksportu. Dostęp sieciowy do yoona.pl pozostawał blokowany przez środowisko, więc nie zmierzono działającej witryny, Core Web Vitals, indeksacji Google ani ruchu. Brak własnego pola Rank Math w bazie nie dowodzi braku tagu w wynikowym HTML. Nie uruchamiano licencjonowanego motywu Divi w środowisku testowym; sprawdzano zachowanie kodu źródłowego i mechanizm shortcode WordPressa, a nie wygląd produkcyjnego motywu.
+- [Opis przebudowy wyglądu](docs/ZMIANY-WYGLADU.md).
+- [Audyt SEO 200 pozycji](audit/AUDYT-SEO-YOONA.md) i [zakres poprawek treści](audit/zakres-poprawek.json).
+- [Teksty stron A](copy/STRONY-A.md), [teksty stron B](copy/STRONY-B.md), [metadane i poprawki realizacji](copy/WPISY-SEO.md).
+- [Wyniki testów](docs/WYNIKI-TESTOW.md) i [odtworzenie testów](tests/README.md).
 
-## Odtworzenie i rozwój
+Audyt obejmuje otrzymany eksport. Środowisko nie mogło odczytać produkcyjnej witryny ani jej zdjęć, więc nie zmierzono działającego HTML, Core Web Vitals, indeksacji ani ruchu. Źródłowe adresy zdjęć pochodzą z eksportu; ich aktualnej dostępności i kadru nie potwierdzono. Licencjonowany Divi nie jest zainstalowany w środowisku testowym; jego rzeczywisty wygląd, galerie i formularze trzeba sprawdzić po aktualizacji na witrynie.
 
-Wymagania wtyczki: WordPress 6.0+, PHP 7.4+, administrator oraz uprawnienia do edycji objętych stron. Testowane wersje i wyniki podaje dokument testów.
+Nie dodano niepotwierdzonych liczników lat działalności lub realizacji, cen, certyfikatów ani gwarancji wyników.
+
+## Rozwój
+
+Wymagania: WordPress 6.0+, PHP 7.4+, administrator oraz uprawnienia do edycji stron przy zapisie treści. Wersje faktycznie przetestowane podaje dokument testów.
 
 ```sh
 python3 -m unittest discover -s tests -p 'test_audit*.py' -v
 bash tests/record-wordpress.sh
+python3 tools/package_plugin.py
 ```
 
-Budowanie pakietu z prywatnego eksportu właściciela:
+Budowanie pakietu treści wymaga prywatnego eksportu właściciela:
 
 ```sh
 python3 tools/build_changes.py --source /sciezka/do/prywatnego-eksportu.json
 ```
 
-Surowego eksportu nie publikuj w repozytorium. Opublikowane pakiety zawierają nowe treści i hashe źródła, a nie kopię pełnego eksportu. Narzędzie nie przesyła danych do zewnętrznych usług.
+Surowego eksportu i danych logowania nie publikuj. Wtyczka nie potrzebuje tokena ani hasła do działania na zainstalowanym WordPressie. Publikacja ZIP-a na GitHubie nie jest zdalnym wdrożeniem na yoona.pl; właściciel aktualizuje wtyczkę na swojej witrynie.

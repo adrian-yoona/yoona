@@ -1,4 +1,4 @@
-# Wyniki sprawdzenia Yoona SEO 2.0.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.0.0
 
 Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl.
 
@@ -11,7 +11,16 @@ Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez p
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- ZIP: sześć dozwolonych plików, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Oba opublikowane archiwa ZIP zawierają tę samą wersję 2.0.0.
+- ZIP: 18 dozwolonych plików, poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Archiwa `yoona-seo-v3.zip` i `yoona-seo.zip` zawierają tę samą wersję 3.0.0; osobny ZIP wersji 2 pozostaje poprzednim wydaniem.
+
+## Nowa warstwa wyglądu
+
+- **51 asercji HTTP bez Rank Math i 52 z prawdziwym Rank Math**: nowa strona główna, wspólna oprawa podstron, zachowanie treści i shortcode, stan domyślnie włączony, włączenie/wyłączenie/odświeżenie, nonce, uprawnienia, metody HTTP, style, kanały feed, REST, osadzenia i wyłączenia edytorów. Osobna próba sprawdza pojedynczy tytuł SEO także w motywie bez własnej obsługi `title-tag`.
+- **2 asercje ochrony strony głównej hasłem** oraz ochrona treści podstrony hasłem w powyższych scenariuszach.
+- Trzy porównania wszystkich rekordów wpisów i metadanych potwierdzają, że przeglądanie i przełączanie wyglądu nie przepisuje treści w bazie. Przed pomiarem renderowany jest oryginalny motyw blokowy, aby zakończyć standardowe utworzenie przez WordPress własnego rekordu nawigacji. Nie wyłączono tego rekordu z porównania.
+- Końcowy przebieg Chromium: **60 asercji** na prawdziwych szablonach, CSS i lokalnych fontach przy szerokościach **1440, 390 i 320 px**, obejmujących menu klawiaturą, H1, geometrię kart realizacji, mieszczące się nagłówki, widoczność zachowanej treści oraz błędy JavaScript. Po pełnym przebiegu PHP/HTTP dodano dokładne sprawdzenie geometrii i ponowiono sam test przeglądarki po poprawkach CSS. [Końcowy raport przeglądarki](../tests/design-browser-results.txt) dotyczy dokładnie aktualnego CSS; wcześniejszy raport pełnej integracji zawiera 37 ówczesnych sprawdzeń przeglądarki.
+
+Zdjęcia w teście przeglądarki są zastąpione jawnie oznaczonymi lokalnymi obrazami SVG. Oceniono układ i zachowanie, nie rzeczywiste fotografie. Przegląd zrzutów wykrył i pozwolił poprawić zbyt wąskie karty realizacji na telefonie, mimo że strona nie miała poziomego przewijania. Końcowy test mierzy szerokość oraz położenie każdej karty, aby wykrywać ten problem.
 
 ## Test całej rzeczywistej paczki
 
@@ -29,12 +38,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v2.zip](../downloads/yoona-seo-v2.zip)
+Plik: [downloads/yoona-seo-v3.zip](../downloads/yoona-seo-v3.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-ab4b279fbc51cec1f7815ac35fb9e2dd5f01d682ab43a3a31d9363de7f30acad
+edc175a8f2ba316f346ec4786f5cd7336c6e84c6e3426f2d4d7266d2c918cda1
 ```
 
 SHA-256 dołączonego `content/changes.json`:
@@ -45,7 +54,7 @@ e97c45484286479ed153ab88fc7000231e1607b40f1a5d71df51f9c3401c1f85
 
 ## Granice potwierdzenia
 
-Nie wykonano wdrożenia na yoona.pl. Aktualizacja lub aktywacja wtyczki nie zapisuje poprawek; właściciel uruchamia zapis w jej panelu.
+Nie wykonano zdalnego wdrożenia na yoona.pl. Aktualizacja wersji 3 domyślnie włącza nowy wygląd, z możliwością powrotu do motywu w panelu. Nie zapisuje automatycznie pakietu tekstów i metadanych; ich zapis właściciel uruchamia osobno.
 
 Nie uruchomiono licencjonowanego motywu Divi. Zachowanie shortcode sprawdzano parserem WordPressa i testowymi callbackami; nie potwierdza to wyglądu działającego motywu. Po wdrożeniu trzeba sprawdzić widok komputerowy i mobilny, galerie oraz formularze.
 

@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "image": "https://yoona.pl/wp-content/uploads/2026/10/DJI_20260929132709_0108_D-scaled.jpg",
+    "alt": "Realizacja reklamy zewnętrznej YOONA"
+  },
+  "services": [
+    {
+      "name": "Banery i billboardy",
+      "url": "/banery/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/03/BANERY-5.png",
+      "alt": "Banery i billboardy — realizacja YOONA"
+    },
+    {
+      "name": "Beczki reklamowe",
+      "url": "/beczki-reklamowe/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/02/beczki-reklamowe-3.jpg",
+      "alt": "Beczki reklamowe — realizacja YOONA"
+    },
+    {
+      "name": "Neony i ledony",
+      "url": "/neony/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/02/neony-23.jpg",
+      "alt": "Neony i ledony — realizacja YOONA"
+    },
+    {
+      "name": "Litery 3D",
+      "url": "/litery-3d/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/02/litery-3D-29.jpg",
+      "alt": "Litery 3D — realizacja YOONA"
+    },
+    {
+      "name": "Oklejanie samochodów",
+      "url": "/oklejanie-samochodow/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/03/SAMOCHODY-1.jpg",
+      "alt": "Oklejanie samochodów — realizacja YOONA"
+    },
+    {
+      "name": "Markizy z logo",
+      "url": "/markizy-z-logo/",
+      "image": "https://yoona.pl/wp-content/uploads/2023/09/markizy-olsztyn-2.jpg",
+      "alt": "Markizy z logo — realizacja YOONA"
+    },
+    {
+      "name": "Windery i beachflagi",
+      "url": "/windery/",
+      "image": "https://yoona.pl/wp-content/uploads/2023/09/flaga-olsztyn-ostroda.jpg",
+      "alt": "Windery i beachflagi — realizacja YOONA"
+    },
+    {
+      "name": "Reklama do gastronomii",
+      "url": "/plotki-ogrodki-piwne/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/03/PLOTKI-OGRODKI-PIWNE-5.jpg",
+      "alt": "Reklama do gastronomii — realizacja YOONA"
+    }
+  ],
+  "projects": [
+    {
+      "name": "LITERY 3D - LIVA PARK",
+      "url": "/litery-3d-liva-park/",
+      "image": "https://yoona.pl/wp-content/uploads/2024/09/litery-3d-1-1-1024x768.jpg",
+      "alt": "LITERY 3D - LIVA PARK"
+    },
+    {
+      "name": "LITERY 3D - MPEC Morąg",
+      "url": "/litery-3d-mpec-morag/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/01/litery-3D-morag-4-1024x768.jpeg",
+      "alt": "LITERY 3D - MPEC Morąg"
+    },
+    {
+      "name": "Neony – Cooltura – PEPSI – GDAŃSK",
+      "url": "/neony-cooltura-pepsi-gdansk/",
+      "image": "https://yoona.pl/wp-content/uploads/2024/08/neony-gdansk-reklama-yoona-4-1024x461.jpg",
+      "alt": "Neony – Cooltura – PEPSI – GDAŃSK"
+    },
+    {
+      "name": "BECZKI - AIOLI",
+      "url": "/beczki-aioli/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/02/beczki-reklamowe-20.jpg",
+      "alt": "BECZKI - AIOLI"
+    },
+    {
+      "name": "BECZKI DREWNIANE - PEPSI",
+      "url": "/beczki-drewniane-pepsi/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/02/beczki-reklamowe-36.jpg",
+      "alt": "BECZKI DREWNIANE - PEPSI"
+    },
+    {
+      "name": "Oklejenie ciężarówki - INDYKPOL Olsztyn",
+      "url": "/oklejenie-ciezarowki-indykpol/",
+      "image": "https://yoona.pl/wp-content/uploads/2024/10/oklejanie-ciezarowki-Olsztyn-1.jpg",
+      "alt": "Oklejenie ciężarówki - INDYKPOL Olsztyn"
+    },
+    {
+      "name": "Płotki Gastronomiczne - Piekuś",
+      "url": "/plotki-gastronomiczne-piekus/",
+      "image": "https://yoona.pl/wp-content/uploads/2026/06/WhatsApp-Image-2026-05-29-at-13.19.23-1024x768.jpeg",
+      "alt": "Płotki Gastronomiczne - Piekuś"
+    },
+    {
+      "name": "LITERY 3D - MOTODOKTOR",
+      "url": "/litery-3d-motodoktor/",
+      "image": "https://yoona.pl/wp-content/uploads/2025/07/litery-3D-ostroda-1-1024x473.jpg",
+      "alt": "LITERY 3D - MOTODOKTOR"
+    }
+  ],
+  "navigation": {
+    "home": {
+      "id": 8,
+      "path": "/",
+      "title": "Strona Główna"
+    },
+    "contact": {
+      "id": 189,
+      "path": "/kontakt/",
+      "title": "Kontakt"
+    },
+    "services": {
+      "id": 226,
+      "path": "/pelna-oferta/",
+      "title": "Pełna Oferta"
+    },
+    "projects": {
+      "id": 1553,
+      "path": "/nasze-realizacje/",
+      "title": "Nasze realizacje"
+    },
+    "about": {
+      "id": 563,
+      "path": "/o-nas/",
+      "title": "O Nas"
+    },
+    "privacy": {
+      "id": 2847,
+      "path": "/polityka-prywatnosci/",
+      "title": "Polityka Prywatności"
+    }
+  },
+  "contact": {
+    "locations": [
+      {
+        "label": "Ostróda",
+        "email": "biuro@yoona.pl",
+        "telephone_display": "89 642 23 99",
+        "telephone_href": "tel:+48896422399"
+      },
+      {
+        "label": "Olsztyn",
+        "email": "wyceny@yoona.pl",
+        "telephone_display": "791 144 100",
+        "telephone_href": "tel:+48791144100"
+      }
+    ],
+    "hours_text": "od poniedziałku do piątku w godzinach 7:30-15:30"
+  },
+  "social": {
+    "Facebook": "https://www.facebook.com/yoona.creativegroup",
+    "Instagram": "https://www.instagram.com/yoonacreativegroup/",
+    "Tiktok": "https://www.tiktok.com/@yoonacreativegroup",
+    "Youtube": "https://www.youtube.com/channel/UC8vAsnKIYRgljPBt5l9TJEw"
+  },
+  "about": {
+    "image": "https://yoona.pl/wp-content/uploads/2024/10/oklejanie-ciezarowki-Olsztyn-1.jpg",
+    "alt": "Oklejenie ciężarówki — realizacja YOONA dla INDYKPOL"
+  }
+}

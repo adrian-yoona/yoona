@@ -43,12 +43,14 @@ final class Yoona_SEO_Admin {
 		$ready   = ! is_wp_error( $preview ) && ! empty( $preview['audit_verified'] ) && ! empty( $preview['site_match'] );
 		?>
 		<div class="wrap yoona-seo-admin">
-			<h1>Yoona SEO</h1>
-			<p>Tutaj sprawdzisz przygotowane teksty i ustawienia SEO, wybierzesz strony do aktualizacji i w razie potrzeby cofniesz zmiany.</p>
+			<h1>Yoona — wygląd i SEO <small style="font-size:14px">wersja <?php echo esc_html( YOONA_SEO_VERSION ); ?></small></h1>
+			<p>Wygląd witryny i zapis tekstów mają osobne ustawienia. Tutaj sprawdzisz stan obu zmian.</p>
 			<style>
 				.yoona-seo-admin{max-width:1180px}.yoona-seo-admin .yoona-card{background:#fff;border:1px solid #c3c4c7;padding:20px;margin:20px 0}.yoona-seo-admin .yoona-step{margin-top:0}.yoona-seo-admin .yoona-page{border:1px solid #dcdcde;padding:16px;margin:16px 0}.yoona-seo-admin .yoona-page h3{margin:0 0 12px}.yoona-seo-admin .yoona-compare{table-layout:fixed;width:100%;border-collapse:collapse;margin:12px 0}.yoona-seo-admin .yoona-compare th,.yoona-seo-admin .yoona-compare td{border:1px solid #dcdcde;padding:10px;vertical-align:top;text-align:left;overflow-wrap:anywhere;white-space:pre-wrap}.yoona-seo-admin .yoona-compare th:first-child{width:18%}.yoona-seo-admin textarea{width:100%;min-height:150px;white-space:pre-wrap}.yoona-seo-admin .yoona-content-columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}.yoona-seo-admin .yoona-inline-form{display:inline}.yoona-seo-admin .yoona-path{font-family:monospace;overflow-wrap:anywhere}.yoona-seo-admin .yoona-muted{color:#50575e}.yoona-seo-admin .yoona-history td{vertical-align:middle}.yoona-seo-admin details{margin:12px 0}.yoona-seo-admin summary{cursor:pointer;font-weight:600}@media(max-width:782px){.yoona-seo-admin .yoona-content-columns{grid-template-columns:1fr}.yoona-seo-admin .yoona-card{padding:12px}}
 			</style>
 			<?php self::render_notice( $notice ); ?>
+			<?php Yoona_SEO_Design::render_panel(); ?>
+			<?php self::render_deployment_status( $preview ); ?>
 			<?php if ( ! is_wp_error( $bundle ) && ! empty( $bundle['audit_verified'] ) ) : ?>
 				<div class="notice notice-info inline"><p><strong>Gotowy pakiet: <?php echo esc_html( count( $bundle['pages'] ) ); ?> stron i wpisów.</strong> <?php echo 'rank_math' === ( isset( $bundle['seo_storage'] ) ? $bundle['seo_storage'] : '' ) ? esc_html( 'Tytuły i opisy zostaną zapisane w polach Rank Math. Teksty Divi zmienią się w istniejących modułach.' ) : ''; ?></p></div>
 			<?php endif; ?>
@@ -89,7 +91,7 @@ final class Yoona_SEO_Admin {
 					<p><label for="yoona-bundle"><strong>Gotowa paczka zmian (plik JSON, do 2 MB)</strong></label></p>
 					<input id="yoona-bundle" type="file" name="yoona_bundle" accept=".json,application/json" required>
 					<?php submit_button( 'Wczytaj paczkę do podglądu', 'secondary', 'submit', false ); ?>
-					<p class="description">Import zastępuje paczkę w tym panelu. Sam import i aktywacja wtyczki nie zmieniają treści witryny. Wczytuj pliki przygotowane przez zaufaną osobę.</p>
+					<p class="description">Import zastępuje paczkę w tym panelu, bez zapisywania tekstów lub SEO. Nowy wygląd włącza się osobno po aktualizacji wtyczki. Wczytuj pliki przygotowane przez zaufaną osobę.</p>
 				</form>
 			</section>
 
@@ -202,6 +204,38 @@ final class Yoona_SEO_Admin {
 			</section>
 		</div>
 		<?php self::batch_script(); ?>
+		<?php
+	}
+
+	/** Read current values; do not mistake an installed bundle for deployed SEO. */
+	private static function render_deployment_status( $preview ) {
+		if ( is_wp_error( $preview ) ) {
+			return;
+		}
+		$counts = array( 'ready' => 0, 'unchanged' => 0, 'blocked' => 0 );
+		foreach ( $preview['pages'] as $page ) {
+			if ( 'unchanged' === $page['status'] ) {
+				++$counts['unchanged'];
+			} elseif ( ! empty( $page['can_apply'] ) ) {
+				++$counts['ready'];
+			} else {
+				++$counts['blocked'];
+			}
+		}
+		?>
+		<section class="yoona-card" aria-labelledby="yoona-deployment-status">
+			<h2 id="yoona-deployment-status" class="yoona-step">Stan tekstów i SEO</h2>
+			<p><strong><?php echo esc_html( $counts['unchanged'] ); ?> zgodnych z pakietem</strong> · <strong><?php echo esc_html( $counts['ready'] ); ?> gotowych do zapisu</strong> · <strong><?php echo esc_html( $counts['blocked'] ); ?> wymagających sprawdzenia</strong></p>
+			<?php if ( $counts['ready'] ) : ?>
+				<p>Gotowe poprawki nie są jeszcze zapisane na tych stronach. Przejdź do podglądu, zaznacz pozycje i uruchom <strong>Wgraj zmiany na zaznaczone strony</strong>.</p>
+			<?php elseif ( $counts['unchanged'] && ! $counts['blocked'] ) : ?>
+				<p>Wszystkie wartości objęte pakietem są już zapisane. Tytuły i opisy Rank Math sprawdzisz w źródle strony lub podglądzie SEO; zmiana metadanych nie przebudowuje jej układu. Wygląd kontroluje ustawienie powyżej.</p>
+			<?php endif; ?>
+			<?php if ( $counts['blocked'] ) : ?>
+				<p>Część pozycji ma blokadę. Szczegółowy powód znajdziesz przy adresie w podglądzie, np. nowszą edycję treści, brak Rank Math albo inną domenę. Nie pomijaj kontroli zgodności.</p>
+			<?php endif; ?>
+			<p><a class="button" href="#yoona-preview">Sprawdź podgląd tekstów</a></p>
+		</section>
 		<?php
 	}
 

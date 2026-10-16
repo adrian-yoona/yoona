@@ -48,6 +48,40 @@ galerii i formularzy poza zmienianymi fragmentami tekstu. Parser WordPressa jest
 uruchamiany z testowymi callbackami. Licencjonowany motyw Divi nie jest dołączony;
 te testy nie zastępują wizualnego przeglądu strony z tym motywem.
 
+Warstwa wyglądu ma osobne testy na rzeczywistych żądaniach HTTP: nowa strona
+główna, podstrona z zachowaną treścią Divi, wpis, archiwum, wyszukiwanie, błąd
+404 i formularze ochrony hasłem. Testy sprawdzają standardowe hooki WordPressa,
+pojedyncze tytuły i opisy SEO, wyłączenie wyglądu dla RSS, REST, osadzania
+i edytora Divi, a także włączanie i wyłączanie przez formularze administratora.
+Przed i po samych operacjach wyglądu porównywane są wszystkie rekordy wpisów
+oraz metadanych; zmiana szablonu nie może ich modyfikować. Przed zapisem stanu
+początkowego oryginalny motyw blokowy jest raz renderowany, aby WordPress
+utworzył własny rekord nawigacji. Porównanie nadal obejmuje wszystkie rekordy.
+
+Opcjonalny test w prawdziwym Chromium wymaga pakietu Node `playwright`
+i przeglądarki pod `/usr/bin/chromium` (ścieżkę można wskazać przez
+`YOONA_TEST_CHROMIUM`). Uruchom go wraz z pełnym przebiegiem:
+
+```bash
+YOONA_TEST_BROWSER=1 bash tests/record-wordpress.sh
+```
+
+Sprawdza widok komputerowy 1440 px i mobilny 390/320 px, brak poziomego przewijania, pojedynczy
+nagłówek H1, obsługę menu klawiaturą i widoczność zachowanej treści podstrony.
+Zrzuty trafiają do `/tmp/yoona-design-screenshots` lub katalogu wskazanego
+przez `YOONA_TEST_SCREENSHOTS`. W teście obrazki realizacji są zastępowane
+oznaczonymi lokalnymi obrazkami SVG, ponieważ nie można pobrać zdjęć z yoona.pl.
+Zrzuty potwierdzają układ i zachowanie przeglądarki, a nie wygląd prawdziwych
+zdjęć na stronie produkcyjnej. Testowe callbacki shortcode nie zastępują
+licencjonowanego motywu Divi.
+
+Po zmianie samego CSS można ponownie uruchomić test przeglądarki na zachowanej
+lokalnej instalacji testowej przez `bash tests/record-design-browser.sh ADRES`.
+Plik `design-browser-results.txt` jest podmieniany atomowo dopiero po sukcesie.
+Test porównuje hash serwowanego CSS z aktualnym źródłem oraz mierzy szerokości
+wszystkich kart galerii na telefonach, aby wykryć również ukryte lub zbyt wąskie
+kolumny. Ten osobny wynik nie zastępuje raportu testów PHP i bazy danych.
+
 Opcjonalny test rzeczywistej paczki można uruchomić z prywatnym eksportem:
 
 ```bash

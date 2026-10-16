@@ -1,0 +1,145 @@
+#!/usr/bin/env node
+'use strict';
+
+// Run the shipped frontend in Chromium. Only remote photos receive local SVG
+// fixtures because the test container cannot retrieve yoona.pl media.
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const crypto = require('node:crypto');
+const { chromium } = require('playwright');
+
+(async () => {
+  const base = process.argv[2];
+  if (!base) throw new Error('Usage: integration-design-browser.cjs http://127.0.0.1:PORT');
+  const output = process.env.YOONA_TEST_SCREENSHOTS || '/tmp/yoona-design-screenshots';
+  fs.mkdirSync(output, { recursive: true });
+  const browser = await chromium.launch({
+    executablePath: process.env.YOONA_TEST_CHROMIUM || '/usr/bin/chromium',
+    headless: true,
+    args: ['--no-sandbox'],
+  });
+  const failures = [];
+  const expectedCss = fs.readFileSync(path.join(__dirname, '../plugin/yoona-seo/assets/design.css'));
+  const expectedCssHash = crypto.createHash('sha256').update(expectedCss).digest('hex');
+  console.log(`Tested design.css SHA-256: ${expectedCssHash}`);
+  let assertions = 0;
+  const check = (condition, message) => {
+    assert(condition, message);
+    assertions += 1;
+    console.log(`PASS Design browser ${message}`);
+  };
+  try {
+    for (const [name, viewport] of [
+      ['desktop', { width: 1440, height: 1000 }],
+      ['mobile', { width: 390, height: 844 }],
+      ['mobile-small', { width: 320, height: 780 }],
+    ]) {
+      const context = await browser.newContext({ viewport, deviceScaleFactor: 1 });
+      const page = await context.newPage();
+      page.on('pageerror', error => failures.push(`${name}: ${error.message}`));
+      await page.route('**/*', async route => {
+        const request = route.request();
+        if (request.resourceType() === 'image' && (!request.url().startsWith(base) || new URL(request.url()).pathname.includes('/wp-content/uploads/'))) {
+          const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#453427"/><stop offset="1" stop-color="#141414"/></linearGradient></defs><rect width="1200" height="800" fill="url(#g)"/><rect x="190" y="140" width="800" height="490" fill="#242424" stroke="#ff7000" stroke-width="9"/><text x="250" y="390" fill="#eee" font-family="sans-serif" font-size="120" font-weight="bold">YOONA</text><text x="255" y="475" fill="#ff7000" font-family="sans-serif" font-size="33">LOCAL PHOTO FIXTURE</text></svg>';
+          await route.fulfill({ status: 200, contentType: 'image/svg+xml', body: svg });
+        } else {
+          await route.continue();
+        }
+      });
+      const response = await page.goto(base + '/', { waitUntil: 'networkidle', timeout: 45000 });
+      check(response.status() === 200, `${name}: the real homepage loads successfully.`);
+      const stylesheetUrl = await page.locator('link[href*="/assets/design.css"]').first().getAttribute('href');
+      const stylesheet = await page.request.get(stylesheetUrl);
+      const actualCssHash = crypto.createHash('sha256').update(await stylesheet.body()).digest('hex');
+      check(stylesheet.status() === 200 && actualCssHash === expectedCssHash,
+        `${name}: the frontend serves the exact current source stylesheet.`);
+      check(await page.locator('body.yn-design').count() === 1, `${name}: the visual template is active.`);
+      check(await page.locator('main#main-content').count() === 1, `${name}: one accessible main region is present.`);
+      check(await page.locator('h1').count() === 1, `${name}: the homepage has exactly one H1.`);
+      check(await page.locator('#yn-hero-title').isVisible(), `${name}: the new hero title is visible.`);
+      const geometry = await page.evaluate(() => ({
+        scroll: document.documentElement.scrollWidth,
+        client: document.documentElement.clientWidth,
+        hero: document.querySelector('#yn-hero-title').getBoundingClientRect().toJSON(),
+      }));
+      check(geometry.scroll <= geometry.client + 2, `${name}: the page has no horizontal overflow.`);
+      check(geometry.hero.x >= -1 && geometry.hero.right <= viewport.width + 1,
+        `${name}: the hero text fits inside the viewport.`);
+      if (name.startsWith('mobile')) {
+        const headings = await page.locator('main h2, .yn-contact h2').evaluateAll(elements => elements.map(element => ({
+          scroll: element.scrollWidth,
+          client: element.clientWidth,
+          text: element.textContent.trim(),
+        })));
+        check(headings.length >= 4 && headings.every(heading => heading.client > 0 && heading.scroll <= heading.client + 1),
+          `${name}: all section headings fit their own content box without clipped text.`);
+        const gallery = await page.locator('.yn-project-grid').evaluate(element => ({
+          width: element.getBoundingClientRect().width,
+          gap: parseFloat(getComputedStyle(element).columnGap),
+          cards: Array.from(element.querySelectorAll('.yn-project-card')).map(card => card.getBoundingClientRect().toJSON()),
+        }));
+        check(gallery.cards.length === 8, `${name}: the gallery has all eight project cards.`);
+        const half = (gallery.width - gallery.gap) / 2;
+        for (const index of [0, 1, 3, 4, 6, 7]) {
+          const card = gallery.cards[index];
+          check(card.width >= (viewport.width === 390 ? 130 : 100)
+            && Math.abs(card.width - half) <= 2
+            && card.left >= -1 && card.right <= viewport.width + 1,
+          `${name}: gallery card ${index + 1} keeps half width inside the viewport.`);
+        }
+        for (const index of [2, 5]) {
+          const card = gallery.cards[index];
+          check(Math.abs(card.width - gallery.width) <= 2
+            && card.left >= -1 && card.right <= viewport.width + 1,
+          `${name}: gallery card ${index + 1} keeps full width inside the viewport.`);
+        }
+        const menu = page.locator('.yn-mobile-menu');
+        const summary = menu.locator('summary');
+        check(await summary.isVisible(), 'mobile: the native keyboard-accessible menu control is visible.');
+        check(Boolean(await summary.getAttribute('aria-controls')), 'mobile: the menu control identifies its navigation target.');
+        await summary.focus();
+        await summary.press('Enter');
+        check(await menu.evaluate(element => element.open), 'mobile: Enter opens the native menu.');
+        check(await menu.locator('nav a').first().isVisible(), 'mobile: opening the menu reveals navigation links.');
+        await summary.press('Enter');
+        check(!(await menu.evaluate(element => element.open)), 'mobile: Enter closes the menu again.');
+      }
+      // Trigger every lazy image through an actual bounded viewport scroll.
+      const height = await page.evaluate(() => Math.min(document.documentElement.scrollHeight, 60000));
+      for (let offset = 0; offset < height; offset += viewport.height) {
+        await page.evaluate(y => window.scrollTo(0, y), offset);
+        await page.waitForTimeout(60);
+      }
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.waitForLoadState('networkidle');
+      await page.evaluate(() => document.fonts.ready);
+      check(await page.evaluate(() => {
+        const face = Array.from(document.fonts).find(font => font.family.replace(/["']/g, '') === 'YN Archivo' && font.status === 'loaded');
+        return Boolean(face) && getComputedStyle(document.querySelector('#yn-hero-title')).fontFamily.includes('YN Archivo');
+      }), `${name}: the shipped local display font loads and styles the hero.`);
+      await page.screenshot({ path: path.join(output, `${name}-home.png`), fullPage: true });
+      await page.screenshot({ path: path.join(output, `${name}-hero.png`), fullPage: false });
+      if (name.startsWith('mobile')) {
+        await page.locator('.yn-about').screenshot({ path: path.join(output, `${name}-about.png`) });
+      }
+      if (name === 'mobile') {
+        const secondary = await page.goto(base + '/design-fixture/', { waitUntil: 'networkidle', timeout: 45000 });
+        check(secondary.status() === 200 && await page.locator('#yoona-preserved-content').isVisible(),
+          'mobile: existing secondary content remains visible in the branded layout.');
+        check(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2),
+          'mobile: the secondary content has no horizontal overflow.');
+        await page.screenshot({ path: path.join(output, 'mobile-secondary.png'), fullPage: true });
+      }
+      await context.close();
+    }
+    check(failures.length === 0, 'The actual frontend raises no uncaught JavaScript errors.');
+    console.log(`Success: ${assertions} real Chromium visual design assertions passed.`);
+    console.log(`Screenshots: ${output} (remote media replaced with labelled local test images).`);
+  } finally {
+    await browser.close();
+  }
+})().catch(error => {
+  console.error(error.stack || error.message);
+  process.exitCode = 1;
+});

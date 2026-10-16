@@ -1,9 +1,15 @@
 Success: Shipped batching JavaScript sends 200 pages in 20 sequential requests, prevents duplicate submits, and stops safely on a failed batch.
 Generating optimized autoload files
 Generated optimized autoload files containing 422 classes
-Local WordPress test URL: http://127.0.0.1:32777
+Local WordPress test URL: http://127.0.0.1:32780
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
 No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
 No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
 No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
 No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
 No syntax errors detected in /var/www/html/yoona-tests/integration-seo-provider.php
@@ -12,6 +18,7 @@ No syntax errors detected in /var/www/html/yoona-tests/test-divi.php
 No syntax errors detected in /var/www/html/yoona-tests/integration-real-bundle.php
 No syntax errors detected in /var/www/html/yoona-tests/integration-divi-rank-math.php
 No syntax errors detected in /var/www/html/yoona-tests/integration-wordpress.php
+No syntax errors detected in /var/www/html/yoona-tests/integration-design.php
 No syntax errors detected in /var/www/html/yoona-tests/prepare-wordpress.php
 Success: WordPress installed successfully.
 Success: Prepared published, draft, private, front-page and builder fixtures.
@@ -141,6 +148,79 @@ PASS HTTP The bundled-package button resets the imported preview package.
 PASS HTTP Homepage responds with HTTP 200.
 PASS HTTP Selecting the bundled package never applies content or metadata.
 Success: 30 real HTTP integration assertions passed.
+PASS Design Known test preparation mode.
+PASS Design The requested redesign is enabled when its option has never been saved.
+PASS Design An explicit zero disables the design.
+PASS Design An explicit one enables the design.
+PASS Design The design participates in the normal WordPress template filter.
+PASS Design Test hooks and shortcode callbacks are installed only in the disposable WordPress.
+PASS Design A public page with existing Divi source is created.
+PASS Design A password-protected page is created.
+PASS Design A public post fixture is created.
+PASS Design A subscriber fixture is created.
+Success: 10 visual design preparation assertions passed.
+Warning: Regenerating a .htaccess file requires special configuration. See usage docs.
+Success: Rewrite rules flushed.
+Success: Updated 'yoona_seo_design_enabled' option.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+Success: 2 original-theme warm-up HTTP assertions passed.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Success: Captured post and metadata baseline before visual-only HTTP actions.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The new homepage hero is rendered by the real frontend.
+PASS Design HTTP The selected template enqueues the visual stylesheet.
+PASS Design HTTP The design stylesheet is registered through a normal WordPress link.
+PASS Design HTTP The actual bundled design CSS is served successfully by WordPress.
+PASS Design HTTP The homepage contains exactly one SEO title.
+PASS Design HTTP The homepage does not duplicate the SEO description.
+PASS Design HTTP The standard WordPress hook yoona-design-head-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-body-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-footer-probe executes once.
+PASS Design HTTP The branded layout offers a skip link to its main content.
+PASS Design HTTP Existing public pages receive the branded template.
+PASS Design HTTP Existing Divi content still passes through WordPress the_content and shortcode callbacks.
+PASS Design HTTP The secondary template keeps rendered existing content and its links.
+PASS Design HTTP The branded secondary template renders exactly the existing SEO title.
+PASS Design HTTP The branded secondary template renders one exact existing SEO description.
+PASS Design HTTP A theme without title-tag support still receives exactly one correct SEO title.
+PASS Design HTTP Public posts retain their original body inside the branded layout.
+PASS Design HTTP A protected public page keeps the standard WordPress password form.
+PASS Design HTTP The protected page never exposes its stored content to an anonymous visitor.
+PASS Design HTTP The category archive receives the branded layout.
+PASS Design HTTP The search results receives the branded layout.
+PASS Design HTTP Missing public content keeps HTTP 404 inside the branded layout.
+PASS Design HTTP The normal RSS feed is preserved and excludes visual templates.
+PASS Design HTTP The native embed response excludes the visual template and stylesheet.
+PASS Design HTTP The REST endpoint returns ordinary JSON without the visual template.
+PASS Design HTTP The et_fb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_bfb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_pb_preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The elementor-preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP An unauthenticated visitor cannot change the visual setting.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The real WordPress test administrator logs in.
+PASS Design HTTP The plugin panel exposes its visual design controls.
+PASS Design HTTP The design action rejects a missing nonce with HTTP 403.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A GET request cannot change the visual setting even with a valid nonce.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP An invalid visual mode is rejected safely.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The limited subscriber account logs in through WordPress.
+PASS Design HTTP A logged-in subscriber cannot use the administrator visual action.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A valid administrator POST disables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP Disabling the design restores the original theme frontend without its visual stylesheet.
+PASS Design HTTP The original theme still displays unchanged secondary content when the design is disabled.
+PASS Design HTTP A valid administrator POST re-enables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The authenticated refresh action completes without changing the selected design state.
+PASS Design HTTP The public homepage uses the requested design state.
+Success: 51 real visual design HTTP assertions passed (standalone).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
 Success: Updated 'rank_math_registration_skip' option.
 Plugin 'seo-by-rank-math' activated.
 Success: Activated 1 of 1 plugins.
@@ -223,6 +303,108 @@ Success: Actual Rank Math renders the exact native title and one description ind
 Plugin 'yoona-seo' activated.
 Success: Activated 1 of 1 plugins.
 Success: Native metadata and legacy overlays restore exactly after deactivation/reactivation.
+Success: Captured post and metadata baseline before visual-only HTTP actions.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The new homepage hero is rendered by the real frontend.
+PASS Design HTTP The selected template enqueues the visual stylesheet.
+PASS Design HTTP The design stylesheet is registered through a normal WordPress link.
+PASS Design HTTP The actual bundled design CSS is served successfully by WordPress.
+PASS Design HTTP The homepage contains exactly one SEO title.
+PASS Design HTTP The homepage does not duplicate the SEO description.
+PASS Design HTTP The standard WordPress hook yoona-design-head-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-body-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-footer-probe executes once.
+PASS Design HTTP The branded layout offers a skip link to its main content.
+PASS Design HTTP Existing public pages receive the branded template.
+PASS Design HTTP Existing Divi content still passes through WordPress the_content and shortcode callbacks.
+PASS Design HTTP The secondary template keeps rendered existing content and its links.
+PASS Design HTTP The branded secondary template renders exactly the existing SEO title.
+PASS Design HTTP The branded secondary template renders one exact existing SEO description.
+PASS Design HTTP A theme without title-tag support still receives exactly one correct SEO title.
+PASS Design HTTP The visual template retains actual Rank Math frontend output.
+PASS Design HTTP Public posts retain their original body inside the branded layout.
+PASS Design HTTP A protected public page keeps the standard WordPress password form.
+PASS Design HTTP The protected page never exposes its stored content to an anonymous visitor.
+PASS Design HTTP The category archive receives the branded layout.
+PASS Design HTTP The search results receives the branded layout.
+PASS Design HTTP Missing public content keeps HTTP 404 inside the branded layout.
+PASS Design HTTP The normal RSS feed is preserved and excludes visual templates.
+PASS Design HTTP The native embed response excludes the visual template and stylesheet.
+PASS Design HTTP The REST endpoint returns ordinary JSON without the visual template.
+PASS Design HTTP The et_fb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_bfb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_pb_preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The elementor-preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP An unauthenticated visitor cannot change the visual setting.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The real WordPress test administrator logs in.
+PASS Design HTTP The plugin panel exposes its visual design controls.
+PASS Design HTTP The design action rejects a missing nonce with HTTP 403.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A GET request cannot change the visual setting even with a valid nonce.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP An invalid visual mode is rejected safely.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The limited subscriber account logs in through WordPress.
+PASS Design HTTP A logged-in subscriber cannot use the administrator visual action.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A valid administrator POST disables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP Disabling the design restores the original theme frontend without its visual stylesheet.
+PASS Design HTTP The original theme still displays unchanged secondary content when the design is disabled.
+PASS Design HTTP A valid administrator POST re-enables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The authenticated refresh action completes without changing the selected design state.
+PASS Design HTTP The public homepage uses the requested design state.
+Success: 52 real visual design HTTP assertions passed (rank_math).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
+Success: Prepared or restored the password-protected front-page fixture.
+PASS Design HTTP A protected front page renders the WordPress password form.
+PASS Design HTTP A protected front page never exposes the marketing homepage template.
+Success: 2 protected-front-page HTTP assertions passed.
+Success: Prepared or restored the password-protected front-page fixture.
+PASS Design browser desktop: the real homepage loads successfully.
+PASS Design browser desktop: the visual template is active.
+PASS Design browser desktop: one accessible main region is present.
+PASS Design browser desktop: the homepage has exactly one H1.
+PASS Design browser desktop: the new hero title is visible.
+PASS Design browser desktop: the page has no horizontal overflow.
+PASS Design browser desktop: the hero text fits inside the viewport.
+PASS Design browser desktop: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: the real homepage loads successfully.
+PASS Design browser mobile: the visual template is active.
+PASS Design browser mobile: one accessible main region is present.
+PASS Design browser mobile: the homepage has exactly one H1.
+PASS Design browser mobile: the new hero title is visible.
+PASS Design browser mobile: the page has no horizontal overflow.
+PASS Design browser mobile: the hero text fits inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: existing secondary content remains visible in the branded layout.
+PASS Design browser mobile: the secondary content has no horizontal overflow.
+PASS Design browser mobile-small: the real homepage loads successfully.
+PASS Design browser mobile-small: the visual template is active.
+PASS Design browser mobile-small: one accessible main region is present.
+PASS Design browser mobile-small: the homepage has exactly one H1.
+PASS Design browser mobile-small: the new hero title is visible.
+PASS Design browser mobile-small: the page has no horizontal overflow.
+PASS Design browser mobile-small: the hero text fits inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile-small: the shipped local display font loads and styles the hero.
+PASS Design browser The actual frontend raises no uncaught JavaScript errors.
+Success: 37 real Chromium visual design assertions passed.
+Screenshots: /tmp/yoona-design-screenshots (remote media replaced with labelled local test images).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
 Success: WordPress installed successfully.
 Success: Updated 'rank_math_registration_skip' option.
 Plugin 'seo-by-rank-math' activated.

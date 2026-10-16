@@ -8,11 +8,11 @@ To audyt danych i treści z eksportu, nie pomiar działającej witryny. Ogranicz
 
 ## Przygotowane poprawki do wgrania
 
-Gotowy pakiet wersji 2 obejmuje **tytuły i opisy Rank Math dla wszystkich 200 elementów oraz 896 poprawek tekstów w 56 elementach** (45 stron i 11 realizacji). Z tego 716 zmian dotyczy modułów tekstowych, a 180 odpowiedzi FAQ. Metadane są zapisywane w natywnych polach Rank Math; teksty we wnętrzach istniejących modułów Divi.
+Gotowy pakiet treści, dołączony również do wersji 3 wtyczki, obejmuje **tytuły i opisy Rank Math dla wszystkich 200 elementów oraz 896 poprawek tekstów w 56 elementach** (45 stron i 11 realizacji). Z tego 716 zmian dotyczy modułów tekstowych, a 180 odpowiedzi FAQ. Metadane są zapisywane w natywnych polach Rank Math; teksty we wnętrzach istniejących modułów Divi. Wersja 3 dodaje osobną [przebudowę wyglądu](../docs/ZMIANY-WYGLADU.md) według obrazu właściciela.
 
 Poprawiono m.in. błędne nazwy usług i klientów, instrukcję redakcyjną na menuboardach, nagłówki o neonach na CNC, nieuzasadnione obietnice, naturalność fraz oraz opisy usług i procesu zamówienia. Pozostałości kodu interfejsu czatu usunięto z poprawianych modułów. Zachowano adresy URL, strukturę shortcode, media i formularze. Treść polityki prywatności i strony listy realizacji nie jest zmieniana.
 
-[Wtyczka do pobrania](../downloads/yoona-seo-v2.zip) · [Instrukcja wdrożenia](../README.md) · [Dokładny zakres adresów](zakres-poprawek.json) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
+[Wtyczka do pobrania](../downloads/yoona-seo-v3.zip) · [Instrukcja wdrożenia](../README.md) · [Dokładny zakres adresów](zakres-poprawek.json) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
 
 Pakiet nie został zdalnie wdrożony na yoona.pl. Właściciel aktualizuje wtyczkę, sprawdza podgląd i uruchamia **Wgraj zmiany na zaznaczone strony**. Pomiary i kontrole opisane w P3 pozostają do wykonania na działającej witrynie; nie zastąpiono ich analizą eksportu.
 

@@ -119,6 +119,14 @@ wp_test eval-file /var/www/html/yoona-tests/integration-wordpress.php --skip-the
 wp_test eval-file /var/www/html/yoona-tests/integration-seo-provider.php --skip-themes
 wp_test eval-file /var/www/html/yoona-tests/test-divi.php --skip-themes
 python3 "$test_root/tests/integration-http.py" "$test_url"
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php prepare --skip-themes
+wp_test rewrite flush --hard
+wp_test option update yoona_seo_design_enabled 0
+python3 "$test_root/tests/integration-design-http.py" "$test_url" warm-original
+wp_test option delete yoona_seo_design_enabled
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php snapshot --skip-themes
+python3 "$test_root/tests/integration-design-http.py" "$test_url"
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php verify --skip-themes
 wp_test option update rank_math_registration_skip 1
 wp_test plugin activate seo-by-rank-math
 wp_test plugin get seo-by-rank-math --field=version
@@ -130,6 +138,16 @@ wp_test plugin deactivate yoona-seo
 python3 "$test_root/tests/integration-native-http.py" "$test_url"
 wp_test plugin activate yoona-seo
 wp_test eval-file /var/www/html/yoona-tests/integration-native-persistence.php rollback --skip-themes
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php snapshot --skip-themes
+python3 "$test_root/tests/integration-design-http.py" "$test_url" rank_math
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php verify --skip-themes
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php protect-home --skip-themes
+python3 "$test_root/tests/integration-design-http.py" "$test_url" protected-home
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php restore-home --skip-themes
+if [[ "${YOONA_TEST_BROWSER:-0}" == 1 ]]; then
+  node "$test_root/tests/integration-design-browser.cjs" "$test_url"
+fi
+wp_test eval-file /var/www/html/yoona-tests/integration-design.php verify --skip-themes
 if [[ -n "${YOONA_TEST_EXPORT_JSON:-}" ]]; then
   test -r "$YOONA_TEST_EXPORT_JSON"
   # Private source input lives only in the CLI container, outside the shared

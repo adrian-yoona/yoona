@@ -1,0 +1,63 @@
+Tested design.css SHA-256: 9eee769e81d574436b08dfe4ceb90192276df3cc019f08249b0914eb23434a04
+PASS Design browser desktop: the real homepage loads successfully.
+PASS Design browser desktop: the frontend serves the exact current source stylesheet.
+PASS Design browser desktop: the visual template is active.
+PASS Design browser desktop: one accessible main region is present.
+PASS Design browser desktop: the homepage has exactly one H1.
+PASS Design browser desktop: the new hero title is visible.
+PASS Design browser desktop: the page has no horizontal overflow.
+PASS Design browser desktop: the hero text fits inside the viewport.
+PASS Design browser desktop: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: the real homepage loads successfully.
+PASS Design browser mobile: the frontend serves the exact current source stylesheet.
+PASS Design browser mobile: the visual template is active.
+PASS Design browser mobile: one accessible main region is present.
+PASS Design browser mobile: the homepage has exactly one H1.
+PASS Design browser mobile: the new hero title is visible.
+PASS Design browser mobile: the page has no horizontal overflow.
+PASS Design browser mobile: the hero text fits inside the viewport.
+PASS Design browser mobile: all section headings fit their own content box without clipped text.
+PASS Design browser mobile: the gallery has all eight project cards.
+PASS Design browser mobile: gallery card 1 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 2 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 4 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 5 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 7 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 8 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 3 keeps full width inside the viewport.
+PASS Design browser mobile: gallery card 6 keeps full width inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: existing secondary content remains visible in the branded layout.
+PASS Design browser mobile: the secondary content has no horizontal overflow.
+PASS Design browser mobile-small: the real homepage loads successfully.
+PASS Design browser mobile-small: the frontend serves the exact current source stylesheet.
+PASS Design browser mobile-small: the visual template is active.
+PASS Design browser mobile-small: one accessible main region is present.
+PASS Design browser mobile-small: the homepage has exactly one H1.
+PASS Design browser mobile-small: the new hero title is visible.
+PASS Design browser mobile-small: the page has no horizontal overflow.
+PASS Design browser mobile-small: the hero text fits inside the viewport.
+PASS Design browser mobile-small: all section headings fit their own content box without clipped text.
+PASS Design browser mobile-small: the gallery has all eight project cards.
+PASS Design browser mobile-small: gallery card 1 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 2 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 4 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 5 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 7 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 8 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 3 keeps full width inside the viewport.
+PASS Design browser mobile-small: gallery card 6 keeps full width inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile-small: the shipped local display font loads and styles the hero.
+PASS Design browser The actual frontend raises no uncaught JavaScript errors.
+Success: 60 real Chromium visual design assertions passed.
+Screenshots: /tmp/yoona-design-screenshots (remote media replaced with labelled local test images).

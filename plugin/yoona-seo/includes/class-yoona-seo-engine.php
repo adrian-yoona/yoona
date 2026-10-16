@@ -316,6 +316,9 @@ class Yoona_SEO_Engine {
 				'page_on_front'       => (int) get_option( 'page_on_front' ),
 				'page_for_posts'      => (int) get_option( 'page_for_posts' ),
 				'wp_version'          => get_bloginfo( 'version' ),
+				'yoona_seo_version'    => YOONA_SEO_VERSION,
+				'yoona_design_enabled' => Yoona_SEO_Design::enabled(),
+				'rank_math_active'     => defined( 'RANK_MATH_VERSION' ) || class_exists( 'RankMath' ),
 			),
 			'pages'          => $pages,
 		);
