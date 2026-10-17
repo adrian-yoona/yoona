@@ -4,15 +4,12 @@
 		<?php
 		$offer_hero = Yoona_SEO_Offer_Hero::context( get_the_ID() );
 		$offer_applied = false;
-		$offer_content = '';
-		if ( $offer_hero ) {
-			// Render the full Divi source first so its module counters and CSS stay aligned.
-			ob_start();
-			try {
-				$offer_applied = Yoona_SEO_Offer_Hero::the_content( $offer_hero );
-			} finally {
-				$offer_content = ob_get_clean();
-			}
+		// Complete Divi callbacks before omitting only the reviewed legacy blocks.
+		ob_start();
+		try {
+			$offer_applied = Yoona_SEO_Content_Cleanup::the_content( $offer_hero );
+		} finally {
+			$yn_rendered_content = ob_get_clean();
 		}
 		?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'yn-entry' ); ?>>
@@ -29,13 +26,7 @@
 			</div></header>
 			<?php endif; ?>
 			<div <?php if ( $offer_applied ) : ?>id="yn-offer-content" tabindex="-1"<?php endif; ?> class="entry-content yn-content <?php echo function_exists( 'et_pb_is_pagebuilder_used' ) && et_pb_is_pagebuilder_used( get_the_ID() ) ? 'yn-builder-content' : 'yn-container'; ?>">
-				<?php
-				if ( $offer_hero ) {
-					echo $offer_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Standard the_content output, rendered once above.
-				} else {
-					the_content();
-				}
-				?>
+				<?php echo $yn_rendered_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Standard the_content output, rendered once above. ?>
 				<?php wp_link_pages( array( 'before' => '<nav class="yn-page-links" aria-label="Części wpisu">Strony: ', 'after' => '</nav>' ) ); ?>
 			</div>
 		</article>

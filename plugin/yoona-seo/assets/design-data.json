@@ -495,5 +495,249 @@
         "abb509ca82f5ccae32cce0f3a597a074ee268b1aa552b40d9c9c91e4a84659c2"
       ]
     }
+  },
+  "removed_contact_sections": {
+    "/litery-3d/": {
+      "section_sha256": [
+        "6a08bfa12c8dbe22a8abd0acd28db24140a0ffbe0099964b439851f04e31d86e",
+        "b7089673f5ddf7602fab1ac5084f29a936870960205150c01351365cce548ab8"
+      ]
+    },
+    "/reklamy-swietlne/": {
+      "section_sha256": [
+        "7209b1509f66914473a9d5e200279786282bf16e2692442fa530927cbf3efd41",
+        "09bd4ec28603215d570a234bca61e96cfc1c5b47f5a02a91e8296769811c2107"
+      ]
+    },
+    "/kontakt/": {
+      "section_sha256": [
+        "1231847bf1d84cd2f683cbb97e34f771f740447e4df35c38c7780d19d7849c6c",
+        "8db73e006bd0970d71e34033ad1658b8dfb95a6e4ff5569a7ccd966c2c3a227a"
+      ]
+    },
+    "/pelna-oferta/": {
+      "section_sha256": [
+        "15ba7152f88c14522fa1d93d1ef44543032420f7849655411e3d88aea34fe351",
+        "ce2a78daf25856edc913cfb090d90ae5d9328410a550e9fd635a264fef298b02"
+      ]
+    },
+    "/tablice-olsztyn/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "fae85efe0e612db689ff176f86d7098155cdee8025a9716454b725da81623ca9"
+      ]
+    },
+    "/drukarnia-wielkoformatowa/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164",
+        "f5eba9f55203ebc15128f87d84843fe61162fba4105acc0cbeefab3c0ca26d06"
+      ]
+    },
+    "/oklejanie-samochodow/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "2c74ec5c10c6bc299faaf3990147766c0b81c19244722959fbd3169d351e789b"
+      ]
+    },
+    "/zmiana-koloru-samochodu/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "b41b0bd4533cf6a74eff10d6007294b9984690c520ddf655af3c11437f4196dd"
+      ]
+    },
+    "/oklejanie-szyb/": {
+      "section_sha256": [
+        "04df9b1bf6d4a8992c4419c56fc5da2925fd43b5c154327338c6670f1bdc4674",
+        "b7ce2bf1472013b227fd884fad94e140266c177a92ba632fc975051bf3029049"
+      ]
+    },
+    "/reklama-zewnetrzna/": {
+      "section_sha256": [
+        "75fc758b609323b3e7c823c9614ce4ac1053a41de7d4689774d408cade51e619",
+        "78d6c11454be857f85f062de3a3e5f84966db7f4391174c8dc90e7586963973c"
+      ]
+    },
+    "/szyldy/": {
+      "section_sha256": [
+        "79d92c5f4c55a98b8a7a7bde49e0d26016af9900f00aea6b40cad028ab7980e3",
+        "8e410fa70c3360dbfd96bd032dd2a09a8e1a5f649b544b061f12412eb1937759"
+      ]
+    },
+    "/banery/": {
+      "section_sha256": [
+        "310bae804394badef1d95d838264361506ecbd09dc28f9961546d873d6000337",
+        "ba97c24643a1f2d8b9747acaa1df1af6e62bad12d78da74956048ddeca2936cf"
+      ]
+    },
+    "/beczki-reklamowe/": {
+      "section_sha256": [
+        "2ea1319a476e8432a448a47009789705f79a09afdd37487f21845c3400c5ab56",
+        "bafbb4c36849598b44c71a79a0d69dfc2b39ef11bde7dc8f5653c0c8b20b924b"
+      ]
+    },
+    "/reklama-na-rusztowaniu/": {
+      "section_sha256": [
+        "24c9fe0bb4af8d672825c3001a9353107c9735f00d5c1d02c6e6e3c57f21bfaf",
+        "0f8614a015976a3238d00ea48e7355c98fc61e6bc5773e296c667fa548182368"
+      ]
+    },
+    "/reklama-na-rusztowaniu-2/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "c9f8c50c0d99b7fb7493ff33738866efbed60f4057b835bd90eb83e06a28fc6d"
+      ]
+    },
+    "/plotki-ogrodki-piwne/": {
+      "section_sha256": [
+        "bb8f4eb6c5aa80c76493f59668641c23f924ae7f0bd806e836bec4517aa7d6ce",
+        "e50e34c387c0e1c0c7a04793211bceda701b018fb6afda2dcf83b4c8b5254ef8"
+      ]
+    },
+    "/neony/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "dc0b0f971d0fedae8405dc5b94b323f0bd713121eb6d3416e5b298c27626b18e"
+      ]
+    },
+    "/siatka-mesh/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916",
+        "755b208e8f387b19f0b85c87a1c20495378e91ac7535cffc27c5c514f26767e1"
+      ]
+    },
+    "/o-nas/": {
+      "section_sha256": [
+        "803676444f6aa652947676a1a8216c6804ef92aca2838bb24f0ee0da322ec032",
+        "4806ff9098950a441608485d29db306f4711553c39f938643e04c2b3cf687773"
+      ]
+    },
+    "/oklejanie-samochodow-osobowych/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164",
+        "39dd5322204d2a722edf409c5a4a3f3c32367eaa09dc45fbc42f1777098af45b"
+      ]
+    },
+    "/oklejanie-autobusow/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164",
+        "73bd3c606b6f5718195b2609413fbbe8c6ccf83431001310ede4be757891ac5e"
+      ]
+    },
+    "/oklejanie-samochodow-ciezarowych/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164",
+        "b5cddf0327fa46afe1534b9a867e2d5f9cedbd2e75dca28f13114122dc452248"
+      ]
+    },
+    "/kasetony-swietlne/": {
+      "section_sha256": [
+        "9da646fba6b20e162454480456b82176e066db95480a428fc85e05d2b9f129b2"
+      ]
+    },
+    "/pylony/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916"
+      ]
+    },
+    "/markizy-z-logo/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916"
+      ]
+    },
+    "/flagi/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164"
+      ]
+    },
+    "/fototapety/": {
+      "section_sha256": [
+        "3c2a7502e98f08c474c849c0e1961a19d632b44b82636dcea281dd13c53dedfd"
+      ]
+    },
+    "/totemy/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164"
+      ]
+    },
+    "/scianki-reklamowe/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164"
+      ]
+    },
+    "/oklejanie-przyczep-gastronomicznych/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164"
+      ]
+    },
+    "/mobilna-reklama/": {
+      "section_sha256": [
+        "803676444f6aa652947676a1a8216c6804ef92aca2838bb24f0ee0da322ec032"
+      ]
+    },
+    "/ledony/": {
+      "section_sha256": [
+        "1571127fb83e75f68625a4e79111c3357f9887b6f33c0bcc546208737443742b"
+      ]
+    },
+    "/tabliczki-informacyjne/": {
+      "section_sha256": [
+        "803676444f6aa652947676a1a8216c6804ef92aca2838bb24f0ee0da322ec032"
+      ]
+    },
+    "/windery/": {
+      "section_sha256": [
+        "9574995abc8bb9ddd8cfca14b4c15926e4eccf38b5a058c18dccaaa551a4f164"
+      ]
+    },
+    "/billboardy/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/etykiety/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/naklejki/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/potykacze/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/rollupy/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/koszulki/": {
+      "section_sha256": [
+        "843c91e5139e28873a1fab3bb273995a946c69e8dc49674777994b438e3a8161"
+      ]
+    },
+    "/menuboardy/": {
+      "section_sha256": [
+        "f9ae07e9fff1c739b8bce556633a5037ae36d3e04d3a3b85d96135ae056823fa"
+      ]
+    },
+    "/oklejanie-samochodu-cena/": {
+      "section_sha256": [
+        "9ebee0a07af65165a959505f4753eee4dbb83f2fc54331641605b7d821856adb"
+      ]
+    },
+    "/frezowanie-cnc/": {
+      "section_sha256": [
+        "965bb7142f8457e7b05a24ef479a8a3b987fcd4fc9b341580e05fa6297b05916"
+      ]
+    },
+    "/tablice-unijne/": {
+      "section_sha256": [
+        "9ebee0a07af65165a959505f4753eee4dbb83f2fc54331641605b7d821856adb"
+      ]
+    }
   }
 }

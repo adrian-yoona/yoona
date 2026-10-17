@@ -48,6 +48,10 @@ final class Yoona_SEO_Design {
 		$name = 'archive.php';
 		if ( is_front_page() && ! post_password_required() ) {
 			$name = 'front-page.php';
+		} elseif ( is_home() && get_query_var( Yoona_SEO_Project_Gallery::QUERY_FLAG ) ) {
+			$name = 'projects.php';
+		} elseif ( is_page( 'pelna-oferta' ) && ! post_password_required() ) {
+			$name = 'full-offer.php';
 		} elseif ( is_singular( array( 'page', 'post' ) ) ) {
 			$name = 'content.php';
 		}
@@ -77,6 +81,10 @@ final class Yoona_SEO_Design {
 			$classes[] = is_front_page() && ! post_password_required() ? 'yn-front-page' : 'yn-inner-page';
 			if ( is_page( 'pelna-oferta' ) ) {
 				$classes[] = 'yn-offer-page';
+			}
+			if ( ( is_home() && get_query_var( Yoona_SEO_Project_Gallery::QUERY_FLAG ) )
+				|| ( is_page( 'pelna-oferta' ) && ! post_password_required() ) ) {
+				$classes[] = 'yn-collection-page';
 			}
 		}
 		return $classes;
@@ -117,6 +125,43 @@ final class Yoona_SEO_Design {
 		$fallbacks = array( 'home' => '/', 'contact' => '/kontakt/', 'services' => '/pelna-oferta/', 'projects' => '/nasze-realizacje/', 'about' => '/o-nas/', 'privacy' => '/polityka-prywatnosci/' );
 		$path = isset( $data['navigation'][ $key ]['path'] ) ? $data['navigation'][ $key ]['path'] : ( isset( $fallbacks[ $key ] ) ? $fallbacks[ $key ] : '/' );
 		return self::url( $path );
+	}
+
+	/** Public service pages, with the same leading photographs as the homepage. */
+	public static function offer_cards() {
+		$data = self::data();
+		$definitions = isset( $data['offer_heroes'] ) ? $data['offer_heroes'] : array();
+		$featured = array();
+		foreach ( $data['services'] as $service ) {
+			$featured[ $service['url'] ] = $service;
+		}
+		$paths = array_values( array_unique( array_merge( array_keys( $featured ), array_keys( $definitions ) ) ) );
+		if ( ! $paths ) {
+			return array();
+		}
+		$slugs = array_map( static function ( $path ) { return trim( $path, '/' ); }, $paths );
+		$query = new WP_Query( array(
+			'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => 0,
+			'has_password' => false, 'post_name__in' => $slugs, 'posts_per_page' => count( $paths ),
+			'no_found_rows' => true, 'update_post_meta_cache' => false, 'update_post_term_cache' => false,
+		) );
+		$pages = array();
+		foreach ( $query->posts as $page ) {
+			$pages[ '/' . $page->post_name . '/' ] = $page;
+		}
+		$cards = array();
+		foreach ( $paths as $path ) {
+			if ( ! isset( $pages[ $path ], $definitions[ $path ] ) ) {
+				continue;
+			}
+			$item = isset( $featured[ $path ] ) ? $featured[ $path ] : $definitions[ $path ];
+			$cards[] = array(
+				'id' => $pages[ $path ]->ID, 'name' => get_the_title( $pages[ $path ] ),
+				'url' => get_permalink( $pages[ $path ] ), 'image' => $item['image'],
+				'alt' => isset( $item['alt'] ) ? $item['alt'] : '',
+			);
+		}
+		return $cards;
 	}
 
 	public static function image( $item, $class = '', $eager = false ) {

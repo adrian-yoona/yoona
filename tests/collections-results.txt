@@ -1,0 +1,1551 @@
+Yoona SEO 3.3.0 — focused collections verification, 2026-10-17
+Isolated WordPress 7.1.3 / PHP 8.3.35 / MariaDB 11.4 / actual Rank Math 1.0.280.
+Private source stayed in CLI memory and /tmp outside the HTTP document root.
+Unavailable production photos use explicitly labelled SVG probes; project images are real local JPEG attachments.
+The six-viewport phase ran before the final projects-template guard. Its normal path had the query flag enabled.
+The final guard is checked afterward with hidden/protected pages plus a positive ordinary 30-project route.
+No production WordPress access or deployment is implied.
+
+=== Focused PHP, HTTP, six-viewport browser and complete database checks ===
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/full-offer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/projects.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-content-cleanup.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-gallery.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+3.3.0
+1.0.280
+PASS Collections Current presentation helper classes are loaded.
+PASS Collections Reviewed scope contains 44 repeated sections and 41 services.
+PASS Collections Local Divi-like counter probes load after older design callbacks.
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /litery-3d/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /litery-3d/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /reklamy-swietlne/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /reklamy-swietlne/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /kontakt/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /kontakt/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /pelna-oferta/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /pelna-oferta/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /tablice-olsztyn/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /tablice-olsztyn/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /drukarnia-wielkoformatowa/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /drukarnia-wielkoformatowa/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-samochodow/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-samochodow/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /zmiana-koloru-samochodu/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /zmiana-koloru-samochodu/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-szyb/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-szyb/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /reklama-zewnetrzna/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /reklama-zewnetrzna/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /szyldy/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /szyldy/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /banery/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /banery/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /beczki-reklamowe/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /beczki-reklamowe/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /reklama-na-rusztowaniu/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /reklama-na-rusztowaniu/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /reklama-na-rusztowaniu-2/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /reklama-na-rusztowaniu-2/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /plotki-ogrodki-piwne/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /plotki-ogrodki-piwne/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /neony/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /neony/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /siatka-mesh/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /siatka-mesh/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /o-nas/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /o-nas/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-samochodow-osobowych/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-samochodow-osobowych/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-autobusow/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-autobusow/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-samochodow-ciezarowych/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-samochodow-ciezarowych/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /kasetony-swietlne/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /kasetony-swietlne/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /pylony/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /pylony/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /markizy-z-logo/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /markizy-z-logo/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /flagi/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /flagi/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /fototapety/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /fototapety/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /totemy/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /totemy/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /scianki-reklamowe/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /scianki-reklamowe/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-przyczep-gastronomicznych/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /mobilna-reklama/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /mobilna-reklama/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /ledony/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /ledony/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /tabliczki-informacyjne/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /tabliczki-informacyjne/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /windery/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /windery/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /billboardy/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /billboardy/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /etykiety/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /etykiety/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /naklejki/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /naklejki/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /potykacze/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /potykacze/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /rollupy/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /rollupy/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /koszulki/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /koszulki/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /menuboardy/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /menuboardy/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /oklejanie-samochodu-cena/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /oklejanie-samochodu-cena/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /frezowanie-cnc/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /frezowanie-cnc/
+PASS Collections The public repeated-section fixture is selected by reviewed hash: /tablice-unijne/
+PASS Collections Public banner/contact plus synthetic remainder fixture created: /tablice-unijne/
+PASS Collections Exclusion fixture created: collection-protected
+PASS Collections Exclusion fixture created: collection-unlisted
+PASS Collections Native WordPress posts page is configured.
+PASS Collections A real local image attachment is created: 1
+PASS Collections Dated published project fixture created: 1
+PASS Collections A real local image attachment is created: 2
+PASS Collections Dated published project fixture created: 2
+PASS Collections A real local image attachment is created: 3
+PASS Collections Dated published project fixture created: 3
+PASS Collections A real local image attachment is created: 4
+PASS Collections Dated published project fixture created: 4
+PASS Collections A real local image attachment is created: 5
+PASS Collections Dated published project fixture created: 5
+PASS Collections A real local image attachment is created: 6
+PASS Collections Dated published project fixture created: 6
+PASS Collections A real local image attachment is created: 7
+PASS Collections Dated published project fixture created: 7
+PASS Collections A real local image attachment is created: 8
+PASS Collections Dated published project fixture created: 8
+PASS Collections A real local image attachment is created: 9
+PASS Collections Dated published project fixture created: 9
+PASS Collections A real local image attachment is created: 10
+PASS Collections Dated published project fixture created: 10
+PASS Collections A real local image attachment is created: 11
+PASS Collections Dated published project fixture created: 11
+PASS Collections A real local image attachment is created: 12
+PASS Collections Dated published project fixture created: 12
+PASS Collections A real local image attachment is created: 13
+PASS Collections Dated published project fixture created: 13
+PASS Collections A real local image attachment is created: 14
+PASS Collections Dated published project fixture created: 14
+PASS Collections A real local image attachment is created: 15
+PASS Collections Dated published project fixture created: 15
+PASS Collections A real local image attachment is created: 16
+PASS Collections Dated published project fixture created: 16
+PASS Collections A real local image attachment is created: 17
+PASS Collections Dated published project fixture created: 17
+PASS Collections A real local image attachment is created: 18
+PASS Collections Dated published project fixture created: 18
+PASS Collections A real local image attachment is created: 19
+PASS Collections Dated published project fixture created: 19
+PASS Collections A real local image attachment is created: 20
+PASS Collections Dated published project fixture created: 20
+PASS Collections A real local image attachment is created: 21
+PASS Collections Dated published project fixture created: 21
+PASS Collections A real local image attachment is created: 22
+PASS Collections Dated published project fixture created: 22
+PASS Collections A real local image attachment is created: 23
+PASS Collections Dated published project fixture created: 23
+PASS Collections A real local image attachment is created: 24
+PASS Collections Dated published project fixture created: 24
+PASS Collections A real local image attachment is created: 25
+PASS Collections Dated published project fixture created: 25
+PASS Collections A real local image attachment is created: 26
+PASS Collections Dated published project fixture created: 26
+PASS Collections A real local image attachment is created: 27
+PASS Collections Dated published project fixture created: 27
+PASS Collections A real local image attachment is created: 28
+PASS Collections Dated published project fixture created: 28
+PASS Collections A real local image attachment is created: 29
+PASS Collections Dated published project fixture created: 29
+PASS Collections A real local image attachment is created: 30
+PASS Collections Dated published project fixture created: 30
+PASS Collections A real local image attachment is created: 31
+PASS Collections Dated published project fixture created: 31
+PASS Collections A real local image attachment is created: 32
+PASS Collections Dated published project fixture created: 32
+PASS Collections A real local image attachment is created: 33
+PASS Collections Dated published project fixture created: 33
+PASS Collections A real local image attachment is created: 34
+PASS Collections Dated published project fixture created: 34
+PASS Collections A real local image attachment is created: 35
+PASS Collections Dated published project fixture created: 35
+PASS Collections A real local image attachment is created: 36
+PASS Collections Dated published project fixture created: 36
+PASS Collections A real local image attachment is created: 37
+PASS Collections Dated published project fixture created: 37
+PASS Collections A real local image attachment is created: 38
+PASS Collections Dated published project fixture created: 38
+PASS Collections A real local image attachment is created: 39
+PASS Collections Dated published project fixture created: 39
+PASS Collections A real local image attachment is created: 40
+PASS Collections Dated published project fixture created: 40
+PASS Collections A post without a photograph produces no invented photo.
+PASS Collections The photo helper rejects external input.
+PASS Collections The photo helper rejects traversal input.
+PASS Collections The photo helper rejects knob input.
+PASS Collections The photo helper rejects knob-1 input.
+PASS Collections A nonexistent attachment file and empty media URL produce no invented photograph.
+PASS Collections The featured image resolver rejects retired contact filename 1.
+PASS Collections The featured image resolver rejects retired contact filename 2.
+Success: 182 collection fixture preparation assertions passed.
+PASS Collections Current presentation helper classes are loaded.
+PASS Collections Reviewed scope contains 44 repeated sections and 41 services.
+PASS Collections Frozen SEO patches remain valid for /litery-3d/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /litery-3d/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /litery-3d/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /litery-3d/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /litery-3d/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /litery-3d/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /litery-3d/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /litery-3d/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /litery-3d/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /litery-3d/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /litery-3d/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /litery-3d/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /litery-3d/
+PASS Collections Frozen SEO patches remain valid for /reklamy-swietlne/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /reklamy-swietlne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /reklamy-swietlne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /reklamy-swietlne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /reklamy-swietlne/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /reklamy-swietlne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /reklamy-swietlne/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /reklamy-swietlne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /reklamy-swietlne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /reklamy-swietlne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /reklamy-swietlne/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /reklamy-swietlne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /reklamy-swietlne/
+PASS Collections Frozen SEO patches remain valid for /kontakt/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /kontakt/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /kontakt/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /kontakt/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /kontakt/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /kontakt/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /kontakt/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /kontakt/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /kontakt/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /kontakt/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /kontakt/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /kontakt/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /kontakt/
+PASS Collections Frozen SEO patches remain valid for /pelna-oferta/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /pelna-oferta/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /pelna-oferta/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /pelna-oferta/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /pelna-oferta/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /pelna-oferta/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /pelna-oferta/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /pelna-oferta/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /pelna-oferta/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /pelna-oferta/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /pelna-oferta/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /pelna-oferta/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /pelna-oferta/
+PASS Collections Frozen SEO patches remain valid for /tablice-olsztyn/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /tablice-olsztyn/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /tablice-olsztyn/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /tablice-olsztyn/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /tablice-olsztyn/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /tablice-olsztyn/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /tablice-olsztyn/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /tablice-olsztyn/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /tablice-olsztyn/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /tablice-olsztyn/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /tablice-olsztyn/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /tablice-olsztyn/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /tablice-olsztyn/
+PASS Collections Frozen SEO patches remain valid for /drukarnia-wielkoformatowa/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /drukarnia-wielkoformatowa/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /drukarnia-wielkoformatowa/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /drukarnia-wielkoformatowa/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /drukarnia-wielkoformatowa/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /drukarnia-wielkoformatowa/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /drukarnia-wielkoformatowa/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /drukarnia-wielkoformatowa/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /drukarnia-wielkoformatowa/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /drukarnia-wielkoformatowa/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /drukarnia-wielkoformatowa/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /drukarnia-wielkoformatowa/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /drukarnia-wielkoformatowa/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-samochodow/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-samochodow/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-samochodow/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-samochodow/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-samochodow/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-samochodow/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-samochodow/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-samochodow/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-samochodow/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-samochodow/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-samochodow/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-samochodow/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-samochodow/
+PASS Collections Frozen SEO patches remain valid for /zmiana-koloru-samochodu/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /zmiana-koloru-samochodu/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /zmiana-koloru-samochodu/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /zmiana-koloru-samochodu/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /zmiana-koloru-samochodu/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /zmiana-koloru-samochodu/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /zmiana-koloru-samochodu/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /zmiana-koloru-samochodu/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /zmiana-koloru-samochodu/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /zmiana-koloru-samochodu/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /zmiana-koloru-samochodu/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /zmiana-koloru-samochodu/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /zmiana-koloru-samochodu/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-szyb/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-szyb/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-szyb/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-szyb/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-szyb/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-szyb/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-szyb/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-szyb/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-szyb/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-szyb/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-szyb/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-szyb/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-szyb/
+PASS Collections Frozen SEO patches remain valid for /reklama-zewnetrzna/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /reklama-zewnetrzna/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /reklama-zewnetrzna/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /reklama-zewnetrzna/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /reklama-zewnetrzna/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /reklama-zewnetrzna/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /reklama-zewnetrzna/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /reklama-zewnetrzna/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /reklama-zewnetrzna/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /reklama-zewnetrzna/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /reklama-zewnetrzna/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /reklama-zewnetrzna/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /reklama-zewnetrzna/
+PASS Collections Frozen SEO patches remain valid for /szyldy/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /szyldy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /szyldy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /szyldy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /szyldy/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /szyldy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /szyldy/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /szyldy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /szyldy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /szyldy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /szyldy/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /szyldy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /szyldy/
+PASS Collections Frozen SEO patches remain valid for /banery/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /banery/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /banery/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /banery/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /banery/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /banery/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /banery/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /banery/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /banery/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /banery/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /banery/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /banery/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /banery/
+PASS Collections Frozen SEO patches remain valid for /beczki-reklamowe/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /beczki-reklamowe/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /beczki-reklamowe/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /beczki-reklamowe/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /beczki-reklamowe/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /beczki-reklamowe/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /beczki-reklamowe/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /beczki-reklamowe/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /beczki-reklamowe/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /beczki-reklamowe/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /beczki-reklamowe/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /beczki-reklamowe/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /beczki-reklamowe/
+PASS Collections Frozen SEO patches remain valid for /reklama-na-rusztowaniu/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /reklama-na-rusztowaniu/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /reklama-na-rusztowaniu/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /reklama-na-rusztowaniu/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /reklama-na-rusztowaniu/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /reklama-na-rusztowaniu/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /reklama-na-rusztowaniu/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /reklama-na-rusztowaniu/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /reklama-na-rusztowaniu/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /reklama-na-rusztowaniu/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /reklama-na-rusztowaniu/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /reklama-na-rusztowaniu/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /reklama-na-rusztowaniu/
+PASS Collections Frozen SEO patches remain valid for /reklama-na-rusztowaniu-2/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /reklama-na-rusztowaniu-2/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /reklama-na-rusztowaniu-2/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /reklama-na-rusztowaniu-2/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /reklama-na-rusztowaniu-2/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /reklama-na-rusztowaniu-2/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /reklama-na-rusztowaniu-2/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /reklama-na-rusztowaniu-2/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /reklama-na-rusztowaniu-2/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /reklama-na-rusztowaniu-2/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /reklama-na-rusztowaniu-2/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /reklama-na-rusztowaniu-2/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /reklama-na-rusztowaniu-2/
+PASS Collections Frozen SEO patches remain valid for /plotki-ogrodki-piwne/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /plotki-ogrodki-piwne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /plotki-ogrodki-piwne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /plotki-ogrodki-piwne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /plotki-ogrodki-piwne/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /plotki-ogrodki-piwne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /plotki-ogrodki-piwne/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /plotki-ogrodki-piwne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /plotki-ogrodki-piwne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /plotki-ogrodki-piwne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /plotki-ogrodki-piwne/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /plotki-ogrodki-piwne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /plotki-ogrodki-piwne/
+PASS Collections Frozen SEO patches remain valid for /neony/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /neony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /neony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /neony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /neony/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /neony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /neony/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /neony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /neony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /neony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /neony/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /neony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /neony/
+PASS Collections Frozen SEO patches remain valid for /siatka-mesh/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /siatka-mesh/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /siatka-mesh/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /siatka-mesh/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /siatka-mesh/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /siatka-mesh/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /siatka-mesh/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /siatka-mesh/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /siatka-mesh/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /siatka-mesh/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /siatka-mesh/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /siatka-mesh/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /siatka-mesh/
+PASS Collections Frozen SEO patches remain valid for /o-nas/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /o-nas/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /o-nas/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /o-nas/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /o-nas/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /o-nas/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /o-nas/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /o-nas/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /o-nas/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /o-nas/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /o-nas/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /o-nas/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /o-nas/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-samochodow-osobowych/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-samochodow-osobowych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-samochodow-osobowych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-samochodow-osobowych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-samochodow-osobowych/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-samochodow-osobowych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-samochodow-osobowych/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-samochodow-osobowych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-samochodow-osobowych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-samochodow-osobowych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-samochodow-osobowych/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-samochodow-osobowych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-samochodow-osobowych/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-autobusow/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-autobusow/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-autobusow/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-autobusow/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-autobusow/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-autobusow/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-autobusow/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-autobusow/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-autobusow/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-autobusow/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-autobusow/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-autobusow/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-autobusow/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-samochodow-ciezarowych/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-samochodow-ciezarowych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-samochodow-ciezarowych/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-samochodow-ciezarowych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-samochodow-ciezarowych/
+PASS Collections Frozen SEO patches remain valid for /kasetony-swietlne/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /kasetony-swietlne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /kasetony-swietlne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /kasetony-swietlne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /kasetony-swietlne/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /kasetony-swietlne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /kasetony-swietlne/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /kasetony-swietlne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /kasetony-swietlne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /kasetony-swietlne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /kasetony-swietlne/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /kasetony-swietlne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /kasetony-swietlne/
+PASS Collections Frozen SEO patches remain valid for /pylony/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /pylony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /pylony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /pylony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /pylony/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /pylony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /pylony/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /pylony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /pylony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /pylony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /pylony/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /pylony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /pylony/
+PASS Collections Frozen SEO patches remain valid for /markizy-z-logo/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /markizy-z-logo/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /markizy-z-logo/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /markizy-z-logo/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /markizy-z-logo/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /markizy-z-logo/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /markizy-z-logo/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /markizy-z-logo/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /markizy-z-logo/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /markizy-z-logo/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /markizy-z-logo/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /markizy-z-logo/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /markizy-z-logo/
+PASS Collections Frozen SEO patches remain valid for /flagi/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /flagi/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /flagi/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /flagi/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /flagi/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /flagi/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /flagi/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /flagi/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /flagi/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /flagi/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /flagi/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /flagi/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /flagi/
+PASS Collections Frozen SEO patches remain valid for /fototapety/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /fototapety/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /fototapety/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /fototapety/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /fototapety/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /fototapety/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /fototapety/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /fototapety/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /fototapety/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /fototapety/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /fototapety/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /fototapety/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /fototapety/
+PASS Collections Frozen SEO patches remain valid for /totemy/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /totemy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /totemy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /totemy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /totemy/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /totemy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /totemy/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /totemy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /totemy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /totemy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /totemy/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /totemy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /totemy/
+PASS Collections Frozen SEO patches remain valid for /scianki-reklamowe/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /scianki-reklamowe/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /scianki-reklamowe/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /scianki-reklamowe/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /scianki-reklamowe/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /scianki-reklamowe/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /scianki-reklamowe/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /scianki-reklamowe/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /scianki-reklamowe/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /scianki-reklamowe/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /scianki-reklamowe/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /scianki-reklamowe/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /scianki-reklamowe/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-przyczep-gastronomicznych/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-przyczep-gastronomicznych/
+PASS Collections Frozen SEO patches remain valid for /mobilna-reklama/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /mobilna-reklama/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /mobilna-reklama/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /mobilna-reklama/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /mobilna-reklama/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /mobilna-reklama/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /mobilna-reklama/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /mobilna-reklama/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /mobilna-reklama/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /mobilna-reklama/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /mobilna-reklama/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /mobilna-reklama/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /mobilna-reklama/
+PASS Collections Frozen SEO patches remain valid for /ledony/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /ledony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /ledony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /ledony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /ledony/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /ledony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /ledony/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /ledony/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /ledony/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /ledony/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /ledony/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /ledony/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /ledony/
+PASS Collections Frozen SEO patches remain valid for /tabliczki-informacyjne/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /tabliczki-informacyjne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /tabliczki-informacyjne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /tabliczki-informacyjne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /tabliczki-informacyjne/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /tabliczki-informacyjne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /tabliczki-informacyjne/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /tabliczki-informacyjne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /tabliczki-informacyjne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /tabliczki-informacyjne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /tabliczki-informacyjne/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /tabliczki-informacyjne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /tabliczki-informacyjne/
+PASS Collections Frozen SEO patches remain valid for /windery/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /windery/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /windery/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /windery/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /windery/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /windery/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /windery/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /windery/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /windery/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /windery/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /windery/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /windery/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /windery/
+PASS Collections Frozen SEO patches remain valid for /billboardy/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /billboardy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /billboardy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /billboardy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /billboardy/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /billboardy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /billboardy/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /billboardy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /billboardy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /billboardy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /billboardy/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /billboardy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /billboardy/
+PASS Collections Frozen SEO patches remain valid for /etykiety/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /etykiety/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /etykiety/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /etykiety/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /etykiety/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /etykiety/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /etykiety/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /etykiety/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /etykiety/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /etykiety/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /etykiety/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /etykiety/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /etykiety/
+PASS Collections Frozen SEO patches remain valid for /naklejki/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /naklejki/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /naklejki/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /naklejki/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /naklejki/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /naklejki/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /naklejki/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /naklejki/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /naklejki/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /naklejki/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /naklejki/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /naklejki/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /naklejki/
+PASS Collections Frozen SEO patches remain valid for /potykacze/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /potykacze/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /potykacze/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /potykacze/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /potykacze/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /potykacze/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /potykacze/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /potykacze/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /potykacze/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /potykacze/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /potykacze/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /potykacze/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /potykacze/
+PASS Collections Frozen SEO patches remain valid for /rollupy/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /rollupy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /rollupy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /rollupy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /rollupy/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /rollupy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /rollupy/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /rollupy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /rollupy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /rollupy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /rollupy/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /rollupy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /rollupy/
+PASS Collections Frozen SEO patches remain valid for /koszulki/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /koszulki/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /koszulki/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /koszulki/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /koszulki/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /koszulki/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /koszulki/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /koszulki/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /koszulki/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /koszulki/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /koszulki/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /koszulki/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /koszulki/
+PASS Collections Frozen SEO patches remain valid for /menuboardy/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /menuboardy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /menuboardy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /menuboardy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /menuboardy/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /menuboardy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /menuboardy/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /menuboardy/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /menuboardy/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /menuboardy/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /menuboardy/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /menuboardy/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /menuboardy/
+PASS Collections Frozen SEO patches remain valid for /oklejanie-samochodu-cena/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /oklejanie-samochodu-cena/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /oklejanie-samochodu-cena/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /oklejanie-samochodu-cena/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /oklejanie-samochodu-cena/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /oklejanie-samochodu-cena/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /oklejanie-samochodu-cena/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /oklejanie-samochodu-cena/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /oklejanie-samochodu-cena/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /oklejanie-samochodu-cena/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /oklejanie-samochodu-cena/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /oklejanie-samochodu-cena/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /oklejanie-samochodu-cena/
+PASS Collections Frozen SEO patches remain valid for /frezowanie-cnc/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /frezowanie-cnc/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /frezowanie-cnc/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /frezowanie-cnc/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /frezowanie-cnc/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /frezowanie-cnc/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /frezowanie-cnc/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /frezowanie-cnc/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /frezowanie-cnc/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /frezowanie-cnc/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /frezowanie-cnc/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /frezowanie-cnc/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /frezowanie-cnc/
+PASS Collections Frozen SEO patches remain valid for /tablice-unijne/
+PASS Collections Reviewed original/SEO section variant 0 resolves: /tablice-unijne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 0: /tablice-unijne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 0: /tablice-unijne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 0: /tablice-unijne/
+PASS Collections Every shortcode/module executes with identical counters for variant 0: /tablice-unijne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 0: /tablice-unijne/
+PASS Collections Reviewed original/SEO section variant 1 resolves: /tablice-unijne/
+PASS Collections Exactly one ordinary rendered contact section is captured for variant 1: /tablice-unijne/
+PASS Collections The exact counter-addressed section exists in final filtered markup for variant 1: /tablice-unijne/
+PASS Collections Only the reviewed rendered section is removed; every other byte remains for variant 1: /tablice-unijne/
+PASS Collections Every shortcode/module executes with identical counters for variant 1: /tablice-unijne/
+PASS Collections An edited contact section is preserved by safe fallback for variant 1: /tablice-unijne/
+PASS Collections Unlisted/post/password/draft/private content remains untouched: /unlisted/:page::publish
+PASS Collections Unlisted/post/password/draft/private content remains untouched: /plotki-ogrodki-piwne/:post::publish
+PASS Collections Unlisted/post/password/draft/private content remains untouched: /plotki-ogrodki-piwne/:page:secret:publish
+PASS Collections Unlisted/post/password/draft/private content remains untouched: /plotki-ogrodki-piwne/:page::draft
+PASS Collections Unlisted/post/password/draft/private content remains untouched: /plotki-ogrodki-piwne/:page::private
+PASS Collections An exported project resolves to escaped photograph markup: 2913
+PASS Collections An exported project resolves to escaped photograph markup: 3002
+PASS Collections An exported project resolves to escaped photograph markup: 3008
+PASS Collections An exported project resolves to escaped photograph markup: 3019
+PASS Collections An exported project resolves to escaped photograph markup: 3024
+PASS Collections An exported project resolves to escaped photograph markup: 3030
+PASS Collections An exported project resolves to escaped photograph markup: 3035
+PASS Collections An exported project resolves to escaped photograph markup: 3044
+PASS Collections An exported project resolves to escaped photograph markup: 3049
+PASS Collections An exported project resolves to escaped photograph markup: 3054
+PASS Collections An exported project resolves to escaped photograph markup: 3062
+PASS Collections An exported project resolves to escaped photograph markup: 3070
+PASS Collections An exported project resolves to escaped photograph markup: 3075
+PASS Collections An exported project resolves to escaped photograph markup: 3083
+PASS Collections An exported project resolves to escaped photograph markup: 3091
+PASS Collections An exported project resolves to escaped photograph markup: 3099
+PASS Collections An exported project resolves to escaped photograph markup: 3104
+PASS Collections An exported project resolves to escaped photograph markup: 3109
+PASS Collections An exported project resolves to escaped photograph markup: 3117
+PASS Collections An exported project resolves to escaped photograph markup: 3125
+PASS Collections An exported project resolves to escaped photograph markup: 3130
+PASS Collections An exported project resolves to escaped photograph markup: 3135
+PASS Collections An exported project resolves to escaped photograph markup: 3140
+PASS Collections An exported project resolves to escaped photograph markup: 3144
+PASS Collections An exported project resolves to escaped photograph markup: 3148
+PASS Collections An exported project resolves to escaped photograph markup: 3158
+PASS Collections An exported project resolves to escaped photograph markup: 3162
+PASS Collections An exported project resolves to escaped photograph markup: 3167
+PASS Collections An exported project resolves to escaped photograph markup: 3173
+PASS Collections An exported project resolves to escaped photograph markup: 3177
+PASS Collections An exported project resolves to escaped photograph markup: 3180
+PASS Collections An exported project resolves to escaped photograph markup: 3187
+PASS Collections An exported project resolves to escaped photograph markup: 3191
+PASS Collections An exported project resolves to escaped photograph markup: 3199
+PASS Collections An exported project resolves to escaped photograph markup: 3204
+PASS Collections An exported project resolves to escaped photograph markup: 3207
+PASS Collections An exported project resolves to escaped photograph markup: 3210
+PASS Collections An exported project resolves to escaped photograph markup: 3214
+PASS Collections An exported project resolves to escaped photograph markup: 3217
+PASS Collections An exported project resolves to escaped photograph markup: 3220
+PASS Collections An exported project resolves to escaped photograph markup: 3228
+PASS Collections An exported project resolves to escaped photograph markup: 3232
+PASS Collections An exported project resolves to escaped photograph markup: 3235
+PASS Collections An exported project resolves to escaped photograph markup: 3238
+PASS Collections An exported project resolves to escaped photograph markup: 3241
+PASS Collections An exported project resolves to escaped photograph markup: 3246
+PASS Collections An exported project resolves to escaped photograph markup: 3250
+PASS Collections An exported project resolves to escaped photograph markup: 3253
+PASS Collections An exported project resolves to escaped photograph markup: 3256
+PASS Collections An exported project resolves to escaped photograph markup: 3259
+PASS Collections An exported project resolves to escaped photograph markup: 3266
+PASS Collections An exported project resolves to escaped photograph markup: 3270
+PASS Collections An exported project resolves to escaped photograph markup: 3275
+PASS Collections An exported project resolves to escaped photograph markup: 3280
+PASS Collections An exported project resolves to escaped photograph markup: 3285
+PASS Collections An exported project resolves to escaped photograph markup: 3289
+PASS Collections An exported project resolves to escaped photograph markup: 3294
+PASS Collections An exported project resolves to escaped photograph markup: 3299
+PASS Collections An exported project resolves to escaped photograph markup: 3304
+PASS Collections An exported project resolves to escaped photograph markup: 3309
+PASS Collections An exported project resolves to escaped photograph markup: 3317
+PASS Collections An exported project resolves to escaped photograph markup: 3326
+PASS Collections An exported project resolves to escaped photograph markup: 3340
+PASS Collections An exported project resolves to escaped photograph markup: 3345
+PASS Collections An exported project resolves to escaped photograph markup: 3350
+PASS Collections An exported project resolves to escaped photograph markup: 3355
+PASS Collections An exported project resolves to escaped photograph markup: 3360
+PASS Collections An exported project resolves to escaped photograph markup: 3367
+PASS Collections An exported project resolves to escaped photograph markup: 3375
+PASS Collections An exported project resolves to escaped photograph markup: 3380
+PASS Collections An exported project resolves to escaped photograph markup: 3388
+PASS Collections An exported project resolves to escaped photograph markup: 3393
+PASS Collections An exported project resolves to escaped photograph markup: 3398
+PASS Collections An exported project resolves to escaped photograph markup: 3403
+PASS Collections An exported project resolves to escaped photograph markup: 3410
+PASS Collections An exported project resolves to escaped photograph markup: 3418
+PASS Collections An exported project resolves to escaped photograph markup: 3432
+PASS Collections An exported project resolves to escaped photograph markup: 3437
+PASS Collections An exported project resolves to escaped photograph markup: 3443
+PASS Collections An exported project resolves to escaped photograph markup: 3450
+PASS Collections An exported project resolves to escaped photograph markup: 3457
+PASS Collections An exported project resolves to escaped photograph markup: 3474
+PASS Collections An exported project resolves to escaped photograph markup: 3479
+PASS Collections An exported project resolves to escaped photograph markup: 3487
+PASS Collections An exported project resolves to escaped photograph markup: 3498
+PASS Collections An exported project resolves to escaped photograph markup: 3503
+PASS Collections An exported project resolves to escaped photograph markup: 3508
+PASS Collections An exported project resolves to escaped photograph markup: 3516
+PASS Collections An exported project resolves to escaped photograph markup: 3521
+PASS Collections An exported project resolves to escaped photograph markup: 3527
+PASS Collections An exported project resolves to escaped photograph markup: 3531
+PASS Collections An exported project resolves to escaped photograph markup: 3536
+PASS Collections An exported project resolves to escaped photograph markup: 3544
+PASS Collections An exported project resolves to escaped photograph markup: 3549
+PASS Collections An exported project resolves to escaped photograph markup: 3554
+PASS Collections An exported project resolves to escaped photograph markup: 3560
+PASS Collections An exported project resolves to escaped photograph markup: 3565
+PASS Collections An exported project resolves to escaped photograph markup: 3581
+PASS Collections An exported project resolves to escaped photograph markup: 3584
+PASS Collections An exported project resolves to escaped photograph markup: 3590
+PASS Collections An exported project resolves to escaped photograph markup: 3593
+PASS Collections An exported project resolves to escaped photograph markup: 3599
+PASS Collections An exported project resolves to escaped photograph markup: 3604
+PASS Collections An exported project resolves to escaped photograph markup: 3609
+PASS Collections An exported project resolves to escaped photograph markup: 3613
+PASS Collections An exported project resolves to escaped photograph markup: 3618
+PASS Collections An exported project resolves to escaped photograph markup: 3626
+PASS Collections An exported project resolves to escaped photograph markup: 3630
+PASS Collections An exported project resolves to escaped photograph markup: 3661
+PASS Collections An exported project resolves to escaped photograph markup: 3781
+PASS Collections An exported project resolves to escaped photograph markup: 3790
+PASS Collections An exported project resolves to escaped photograph markup: 3866
+PASS Collections An exported project resolves to escaped photograph markup: 3894
+PASS Collections An exported project resolves to escaped photograph markup: 3909
+PASS Collections An exported project resolves to escaped photograph markup: 3948
+PASS Collections An exported project resolves to escaped photograph markup: 3967
+PASS Collections An exported project resolves to escaped photograph markup: 3979
+PASS Collections An exported project resolves to escaped photograph markup: 3987
+PASS Collections An exported project resolves to escaped photograph markup: 3993
+PASS Collections An exported project resolves to escaped photograph markup: 4000
+PASS Collections An exported project resolves to escaped photograph markup: 4007
+PASS Collections An exported project resolves to escaped photograph markup: 4011
+PASS Collections An exported project resolves to escaped photograph markup: 4019
+PASS Collections An exported project resolves to escaped photograph markup: 4029
+PASS Collections An exported project resolves to escaped photograph markup: 4055
+PASS Collections An exported project resolves to escaped photograph markup: 4090
+PASS Collections An exported project resolves to escaped photograph markup: 4158
+PASS Collections An exported project resolves to escaped photograph markup: 4164
+PASS Collections An exported project resolves to escaped photograph markup: 4167
+PASS Collections An exported project resolves to escaped photograph markup: 4173
+PASS Collections An exported project resolves to escaped photograph markup: 4179
+PASS Collections An exported project resolves to escaped photograph markup: 4183
+PASS Collections An exported project resolves to escaped photograph markup: 4200
+PASS Collections An exported project resolves to escaped photograph markup: 4470
+PASS Collections An exported project resolves to escaped photograph markup: 4487
+PASS Collections An exported project resolves to escaped photograph markup: 4497
+PASS Collections An exported project resolves to escaped photograph markup: 4503
+PASS Collections An exported project resolves to escaped photograph markup: 4508
+PASS Collections An exported project resolves to escaped photograph markup: 5066
+PASS Collections An exported project resolves to escaped photograph markup: 5077
+PASS Collections An exported project resolves to escaped photograph markup: 5087
+PASS Collections An exported project resolves to escaped photograph markup: 5093
+PASS Collections An exported project resolves to escaped photograph markup: 5099
+PASS Collections An exported project resolves to escaped photograph markup: 5132
+PASS Collections An exported project resolves to escaped photograph markup: 5144
+PASS Collections An exported project resolves to escaped photograph markup: 5166
+PASS Collections An exported project resolves to escaped photograph markup: 5183
+PASS Collections An exported project resolves to escaped photograph markup: 5195
+PASS Collections An exported project resolves to escaped photograph markup: 5255
+PASS Collections An exported project resolves to escaped photograph markup: 5267
+PASS Collections All 153 private project sources yield 150 distinct embedded photos and exactly three source-only gaps; featured-image metadata is absent from this export.
+PASS Collections The actual MariaDB and PHP photo grammar agree: HTML first src attribute
+PASS Collections The actual MariaDB and PHP photo grammar agree: Divi first src attribute
+PASS Collections The actual MariaDB and PHP photo grammar agree: HTML additional attributes
+PASS Collections The actual MariaDB and PHP photo grammar agree: Divi additional attributes
+PASS Collections The actual MariaDB and PHP photo grammar agree: External host
+PASS Collections The actual MariaDB and PHP photo grammar agree: Deceptive host
+PASS Collections The actual MariaDB and PHP photo grammar agree: Traversal
+PASS Collections The actual MariaDB and PHP photo grammar agree: data-src is not src
+PASS Collections The actual MariaDB and PHP photo grammar agree: srcset is not src
+PASS Collections The actual MariaDB and PHP photo grammar agree: Contact knob 1
+PASS Collections The actual MariaDB and PHP photo grammar agree: Contact knob 2
+PASS Collections The temporary cleanup filter is removed even after another shortcode callback throws.
+PASS Collections All private original and SEO checks leave every stored post/meta row unchanged.
+Success: 743 private source/render assertions passed; source remains outside HTTP tables and logs.
+Success: Updated 'yoona_seo_design_enabled' option.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Success: Captured every post and metadata row before collections browsing.
+PASS Collections HTTP /litery-3d/ responds successfully.
+PASS Collections HTTP /litery-3d/ retains both surrounding content fixtures.
+PASS Collections HTTP /litery-3d/ omits the reviewed repeated contact section.
+PASS Collections HTTP /litery-3d/ retains its native Rank Math title.
+PASS Collections HTTP /litery-3d/ retains one exact native Rank Math description.
+PASS Collections HTTP /litery-3d/ retains its canonical URL.
+PASS Collections HTTP /litery-3d/ executes normal WordPress document hooks once.
+PASS Collections HTTP /litery-3d/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /reklamy-swietlne/ responds successfully.
+PASS Collections HTTP /reklamy-swietlne/ retains both surrounding content fixtures.
+PASS Collections HTTP /reklamy-swietlne/ omits the reviewed repeated contact section.
+PASS Collections HTTP /reklamy-swietlne/ retains its native Rank Math title.
+PASS Collections HTTP /reklamy-swietlne/ retains one exact native Rank Math description.
+PASS Collections HTTP /reklamy-swietlne/ retains its canonical URL.
+PASS Collections HTTP /reklamy-swietlne/ executes normal WordPress document hooks once.
+PASS Collections HTTP /reklamy-swietlne/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /kontakt/ responds successfully.
+PASS Collections HTTP /kontakt/ retains both surrounding content fixtures.
+PASS Collections HTTP /kontakt/ omits the reviewed repeated contact section.
+PASS Collections HTTP /kontakt/ retains its native Rank Math title.
+PASS Collections HTTP /kontakt/ retains one exact native Rank Math description.
+PASS Collections HTTP /kontakt/ retains its canonical URL.
+PASS Collections HTTP /kontakt/ executes normal WordPress document hooks once.
+PASS Collections HTTP /kontakt/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /pelna-oferta/ responds successfully.
+PASS Collections HTTP The full catalogue displays exactly 41 public services.
+PASS Collections HTTP The dedicated catalogue replaces the former repeated full-offer body.
+PASS Collections HTTP /pelna-oferta/ omits the reviewed repeated contact section.
+PASS Collections HTTP /pelna-oferta/ retains its native Rank Math title.
+PASS Collections HTTP /pelna-oferta/ retains one exact native Rank Math description.
+PASS Collections HTTP /pelna-oferta/ retains its canonical URL.
+PASS Collections HTTP /pelna-oferta/ executes normal WordPress document hooks once.
+PASS Collections HTTP /pelna-oferta/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /tablice-olsztyn/ responds successfully.
+PASS Collections HTTP /tablice-olsztyn/ retains both surrounding content fixtures.
+PASS Collections HTTP /tablice-olsztyn/ omits the reviewed repeated contact section.
+PASS Collections HTTP /tablice-olsztyn/ retains its native Rank Math title.
+PASS Collections HTTP /tablice-olsztyn/ retains one exact native Rank Math description.
+PASS Collections HTTP /tablice-olsztyn/ retains its canonical URL.
+PASS Collections HTTP /tablice-olsztyn/ executes normal WordPress document hooks once.
+PASS Collections HTTP /tablice-olsztyn/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ responds successfully.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ retains both surrounding content fixtures.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ omits the reviewed repeated contact section.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ retains its native Rank Math title.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ retains one exact native Rank Math description.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ retains its canonical URL.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ executes normal WordPress document hooks once.
+PASS Collections HTTP /drukarnia-wielkoformatowa/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-samochodow/ responds successfully.
+PASS Collections HTTP /oklejanie-samochodow/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-samochodow/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-samochodow/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-samochodow/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-samochodow/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-samochodow/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-samochodow/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /zmiana-koloru-samochodu/ responds successfully.
+PASS Collections HTTP /zmiana-koloru-samochodu/ retains both surrounding content fixtures.
+PASS Collections HTTP /zmiana-koloru-samochodu/ omits the reviewed repeated contact section.
+PASS Collections HTTP /zmiana-koloru-samochodu/ retains its native Rank Math title.
+PASS Collections HTTP /zmiana-koloru-samochodu/ retains one exact native Rank Math description.
+PASS Collections HTTP /zmiana-koloru-samochodu/ retains its canonical URL.
+PASS Collections HTTP /zmiana-koloru-samochodu/ executes normal WordPress document hooks once.
+PASS Collections HTTP /zmiana-koloru-samochodu/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-szyb/ responds successfully.
+PASS Collections HTTP /oklejanie-szyb/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-szyb/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-szyb/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-szyb/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-szyb/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-szyb/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-szyb/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /reklama-zewnetrzna/ responds successfully.
+PASS Collections HTTP /reklama-zewnetrzna/ retains both surrounding content fixtures.
+PASS Collections HTTP /reklama-zewnetrzna/ omits the reviewed repeated contact section.
+PASS Collections HTTP /reklama-zewnetrzna/ retains its native Rank Math title.
+PASS Collections HTTP /reklama-zewnetrzna/ retains one exact native Rank Math description.
+PASS Collections HTTP /reklama-zewnetrzna/ retains its canonical URL.
+PASS Collections HTTP /reklama-zewnetrzna/ executes normal WordPress document hooks once.
+PASS Collections HTTP /reklama-zewnetrzna/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /szyldy/ responds successfully.
+PASS Collections HTTP /szyldy/ retains both surrounding content fixtures.
+PASS Collections HTTP /szyldy/ omits the reviewed repeated contact section.
+PASS Collections HTTP /szyldy/ retains its native Rank Math title.
+PASS Collections HTTP /szyldy/ retains one exact native Rank Math description.
+PASS Collections HTTP /szyldy/ retains its canonical URL.
+PASS Collections HTTP /szyldy/ executes normal WordPress document hooks once.
+PASS Collections HTTP /szyldy/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /banery/ responds successfully.
+PASS Collections HTTP /banery/ retains both surrounding content fixtures.
+PASS Collections HTTP /banery/ omits the reviewed repeated contact section.
+PASS Collections HTTP /banery/ retains its native Rank Math title.
+PASS Collections HTTP /banery/ retains one exact native Rank Math description.
+PASS Collections HTTP /banery/ retains its canonical URL.
+PASS Collections HTTP /banery/ executes normal WordPress document hooks once.
+PASS Collections HTTP /banery/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /beczki-reklamowe/ responds successfully.
+PASS Collections HTTP /beczki-reklamowe/ retains both surrounding content fixtures.
+PASS Collections HTTP /beczki-reklamowe/ omits the reviewed repeated contact section.
+PASS Collections HTTP /beczki-reklamowe/ retains its native Rank Math title.
+PASS Collections HTTP /beczki-reklamowe/ retains one exact native Rank Math description.
+PASS Collections HTTP /beczki-reklamowe/ retains its canonical URL.
+PASS Collections HTTP /beczki-reklamowe/ executes normal WordPress document hooks once.
+PASS Collections HTTP /beczki-reklamowe/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /reklama-na-rusztowaniu/ responds successfully.
+PASS Collections HTTP /reklama-na-rusztowaniu/ retains both surrounding content fixtures.
+PASS Collections HTTP /reklama-na-rusztowaniu/ omits the reviewed repeated contact section.
+PASS Collections HTTP /reklama-na-rusztowaniu/ retains its native Rank Math title.
+PASS Collections HTTP /reklama-na-rusztowaniu/ retains one exact native Rank Math description.
+PASS Collections HTTP /reklama-na-rusztowaniu/ retains its canonical URL.
+PASS Collections HTTP /reklama-na-rusztowaniu/ executes normal WordPress document hooks once.
+PASS Collections HTTP /reklama-na-rusztowaniu/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ responds successfully.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ retains both surrounding content fixtures.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ omits the reviewed repeated contact section.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ retains its native Rank Math title.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ retains one exact native Rank Math description.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ retains its canonical URL.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ executes normal WordPress document hooks once.
+PASS Collections HTTP /reklama-na-rusztowaniu-2/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /plotki-ogrodki-piwne/ responds successfully.
+PASS Collections HTTP /plotki-ogrodki-piwne/ retains both surrounding content fixtures.
+PASS Collections HTTP /plotki-ogrodki-piwne/ omits the reviewed repeated contact section.
+PASS Collections HTTP /plotki-ogrodki-piwne/ retains its native Rank Math title.
+PASS Collections HTTP /plotki-ogrodki-piwne/ retains one exact native Rank Math description.
+PASS Collections HTTP /plotki-ogrodki-piwne/ retains its canonical URL.
+PASS Collections HTTP /plotki-ogrodki-piwne/ executes normal WordPress document hooks once.
+PASS Collections HTTP /plotki-ogrodki-piwne/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /neony/ responds successfully.
+PASS Collections HTTP /neony/ retains both surrounding content fixtures.
+PASS Collections HTTP /neony/ omits the reviewed repeated contact section.
+PASS Collections HTTP /neony/ retains its native Rank Math title.
+PASS Collections HTTP /neony/ retains one exact native Rank Math description.
+PASS Collections HTTP /neony/ retains its canonical URL.
+PASS Collections HTTP /neony/ executes normal WordPress document hooks once.
+PASS Collections HTTP /neony/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /siatka-mesh/ responds successfully.
+PASS Collections HTTP /siatka-mesh/ retains both surrounding content fixtures.
+PASS Collections HTTP /siatka-mesh/ omits the reviewed repeated contact section.
+PASS Collections HTTP /siatka-mesh/ retains its native Rank Math title.
+PASS Collections HTTP /siatka-mesh/ retains one exact native Rank Math description.
+PASS Collections HTTP /siatka-mesh/ retains its canonical URL.
+PASS Collections HTTP /siatka-mesh/ executes normal WordPress document hooks once.
+PASS Collections HTTP /siatka-mesh/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /o-nas/ responds successfully.
+PASS Collections HTTP /o-nas/ retains both surrounding content fixtures.
+PASS Collections HTTP /o-nas/ omits the reviewed repeated contact section.
+PASS Collections HTTP /o-nas/ retains its native Rank Math title.
+PASS Collections HTTP /o-nas/ retains one exact native Rank Math description.
+PASS Collections HTTP /o-nas/ retains its canonical URL.
+PASS Collections HTTP /o-nas/ executes normal WordPress document hooks once.
+PASS Collections HTTP /o-nas/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ responds successfully.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-samochodow-osobowych/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-autobusow/ responds successfully.
+PASS Collections HTTP /oklejanie-autobusow/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-autobusow/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-autobusow/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-autobusow/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-autobusow/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-autobusow/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-autobusow/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ responds successfully.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-samochodow-ciezarowych/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /kasetony-swietlne/ responds successfully.
+PASS Collections HTTP /kasetony-swietlne/ retains both surrounding content fixtures.
+PASS Collections HTTP /kasetony-swietlne/ omits the reviewed repeated contact section.
+PASS Collections HTTP /kasetony-swietlne/ retains its native Rank Math title.
+PASS Collections HTTP /kasetony-swietlne/ retains one exact native Rank Math description.
+PASS Collections HTTP /kasetony-swietlne/ retains its canonical URL.
+PASS Collections HTTP /kasetony-swietlne/ executes normal WordPress document hooks once.
+PASS Collections HTTP /kasetony-swietlne/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /pylony/ responds successfully.
+PASS Collections HTTP /pylony/ retains both surrounding content fixtures.
+PASS Collections HTTP /pylony/ omits the reviewed repeated contact section.
+PASS Collections HTTP /pylony/ retains its native Rank Math title.
+PASS Collections HTTP /pylony/ retains one exact native Rank Math description.
+PASS Collections HTTP /pylony/ retains its canonical URL.
+PASS Collections HTTP /pylony/ executes normal WordPress document hooks once.
+PASS Collections HTTP /pylony/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /markizy-z-logo/ responds successfully.
+PASS Collections HTTP /markizy-z-logo/ retains both surrounding content fixtures.
+PASS Collections HTTP /markizy-z-logo/ omits the reviewed repeated contact section.
+PASS Collections HTTP /markizy-z-logo/ retains its native Rank Math title.
+PASS Collections HTTP /markizy-z-logo/ retains one exact native Rank Math description.
+PASS Collections HTTP /markizy-z-logo/ retains its canonical URL.
+PASS Collections HTTP /markizy-z-logo/ executes normal WordPress document hooks once.
+PASS Collections HTTP /markizy-z-logo/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /flagi/ responds successfully.
+PASS Collections HTTP /flagi/ retains both surrounding content fixtures.
+PASS Collections HTTP /flagi/ omits the reviewed repeated contact section.
+PASS Collections HTTP /flagi/ retains its native Rank Math title.
+PASS Collections HTTP /flagi/ retains one exact native Rank Math description.
+PASS Collections HTTP /flagi/ retains its canonical URL.
+PASS Collections HTTP /flagi/ executes normal WordPress document hooks once.
+PASS Collections HTTP /flagi/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /fototapety/ responds successfully.
+PASS Collections HTTP /fototapety/ retains both surrounding content fixtures.
+PASS Collections HTTP /fototapety/ omits the reviewed repeated contact section.
+PASS Collections HTTP /fototapety/ retains its native Rank Math title.
+PASS Collections HTTP /fototapety/ retains one exact native Rank Math description.
+PASS Collections HTTP /fototapety/ retains its canonical URL.
+PASS Collections HTTP /fototapety/ executes normal WordPress document hooks once.
+PASS Collections HTTP /fototapety/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /totemy/ responds successfully.
+PASS Collections HTTP /totemy/ retains both surrounding content fixtures.
+PASS Collections HTTP /totemy/ omits the reviewed repeated contact section.
+PASS Collections HTTP /totemy/ retains its native Rank Math title.
+PASS Collections HTTP /totemy/ retains one exact native Rank Math description.
+PASS Collections HTTP /totemy/ retains its canonical URL.
+PASS Collections HTTP /totemy/ executes normal WordPress document hooks once.
+PASS Collections HTTP /totemy/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /scianki-reklamowe/ responds successfully.
+PASS Collections HTTP /scianki-reklamowe/ retains both surrounding content fixtures.
+PASS Collections HTTP /scianki-reklamowe/ omits the reviewed repeated contact section.
+PASS Collections HTTP /scianki-reklamowe/ retains its native Rank Math title.
+PASS Collections HTTP /scianki-reklamowe/ retains one exact native Rank Math description.
+PASS Collections HTTP /scianki-reklamowe/ retains its canonical URL.
+PASS Collections HTTP /scianki-reklamowe/ executes normal WordPress document hooks once.
+PASS Collections HTTP /scianki-reklamowe/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ responds successfully.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-przyczep-gastronomicznych/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /mobilna-reklama/ responds successfully.
+PASS Collections HTTP /mobilna-reklama/ retains both surrounding content fixtures.
+PASS Collections HTTP /mobilna-reklama/ omits the reviewed repeated contact section.
+PASS Collections HTTP /mobilna-reklama/ retains its native Rank Math title.
+PASS Collections HTTP /mobilna-reklama/ retains one exact native Rank Math description.
+PASS Collections HTTP /mobilna-reklama/ retains its canonical URL.
+PASS Collections HTTP /mobilna-reklama/ executes normal WordPress document hooks once.
+PASS Collections HTTP /mobilna-reklama/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /ledony/ responds successfully.
+PASS Collections HTTP /ledony/ retains both surrounding content fixtures.
+PASS Collections HTTP /ledony/ omits the reviewed repeated contact section.
+PASS Collections HTTP /ledony/ retains its native Rank Math title.
+PASS Collections HTTP /ledony/ retains one exact native Rank Math description.
+PASS Collections HTTP /ledony/ retains its canonical URL.
+PASS Collections HTTP /ledony/ executes normal WordPress document hooks once.
+PASS Collections HTTP /ledony/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /tabliczki-informacyjne/ responds successfully.
+PASS Collections HTTP /tabliczki-informacyjne/ retains both surrounding content fixtures.
+PASS Collections HTTP /tabliczki-informacyjne/ omits the reviewed repeated contact section.
+PASS Collections HTTP /tabliczki-informacyjne/ retains its native Rank Math title.
+PASS Collections HTTP /tabliczki-informacyjne/ retains one exact native Rank Math description.
+PASS Collections HTTP /tabliczki-informacyjne/ retains its canonical URL.
+PASS Collections HTTP /tabliczki-informacyjne/ executes normal WordPress document hooks once.
+PASS Collections HTTP /tabliczki-informacyjne/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /windery/ responds successfully.
+PASS Collections HTTP /windery/ retains both surrounding content fixtures.
+PASS Collections HTTP /windery/ omits the reviewed repeated contact section.
+PASS Collections HTTP /windery/ retains its native Rank Math title.
+PASS Collections HTTP /windery/ retains one exact native Rank Math description.
+PASS Collections HTTP /windery/ retains its canonical URL.
+PASS Collections HTTP /windery/ executes normal WordPress document hooks once.
+PASS Collections HTTP /windery/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /billboardy/ responds successfully.
+PASS Collections HTTP /billboardy/ retains both surrounding content fixtures.
+PASS Collections HTTP /billboardy/ omits the reviewed repeated contact section.
+PASS Collections HTTP /billboardy/ retains its native Rank Math title.
+PASS Collections HTTP /billboardy/ retains one exact native Rank Math description.
+PASS Collections HTTP /billboardy/ retains its canonical URL.
+PASS Collections HTTP /billboardy/ executes normal WordPress document hooks once.
+PASS Collections HTTP /billboardy/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /etykiety/ responds successfully.
+PASS Collections HTTP /etykiety/ retains both surrounding content fixtures.
+PASS Collections HTTP /etykiety/ omits the reviewed repeated contact section.
+PASS Collections HTTP /etykiety/ retains its native Rank Math title.
+PASS Collections HTTP /etykiety/ retains one exact native Rank Math description.
+PASS Collections HTTP /etykiety/ retains its canonical URL.
+PASS Collections HTTP /etykiety/ executes normal WordPress document hooks once.
+PASS Collections HTTP /etykiety/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /naklejki/ responds successfully.
+PASS Collections HTTP /naklejki/ retains both surrounding content fixtures.
+PASS Collections HTTP /naklejki/ omits the reviewed repeated contact section.
+PASS Collections HTTP /naklejki/ retains its native Rank Math title.
+PASS Collections HTTP /naklejki/ retains one exact native Rank Math description.
+PASS Collections HTTP /naklejki/ retains its canonical URL.
+PASS Collections HTTP /naklejki/ executes normal WordPress document hooks once.
+PASS Collections HTTP /naklejki/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /potykacze/ responds successfully.
+PASS Collections HTTP /potykacze/ retains both surrounding content fixtures.
+PASS Collections HTTP /potykacze/ omits the reviewed repeated contact section.
+PASS Collections HTTP /potykacze/ retains its native Rank Math title.
+PASS Collections HTTP /potykacze/ retains one exact native Rank Math description.
+PASS Collections HTTP /potykacze/ retains its canonical URL.
+PASS Collections HTTP /potykacze/ executes normal WordPress document hooks once.
+PASS Collections HTTP /potykacze/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /rollupy/ responds successfully.
+PASS Collections HTTP /rollupy/ retains both surrounding content fixtures.
+PASS Collections HTTP /rollupy/ omits the reviewed repeated contact section.
+PASS Collections HTTP /rollupy/ retains its native Rank Math title.
+PASS Collections HTTP /rollupy/ retains one exact native Rank Math description.
+PASS Collections HTTP /rollupy/ retains its canonical URL.
+PASS Collections HTTP /rollupy/ executes normal WordPress document hooks once.
+PASS Collections HTTP /rollupy/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /koszulki/ responds successfully.
+PASS Collections HTTP /koszulki/ retains both surrounding content fixtures.
+PASS Collections HTTP /koszulki/ omits the reviewed repeated contact section.
+PASS Collections HTTP /koszulki/ retains its native Rank Math title.
+PASS Collections HTTP /koszulki/ retains one exact native Rank Math description.
+PASS Collections HTTP /koszulki/ retains its canonical URL.
+PASS Collections HTTP /koszulki/ executes normal WordPress document hooks once.
+PASS Collections HTTP /koszulki/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /menuboardy/ responds successfully.
+PASS Collections HTTP /menuboardy/ retains both surrounding content fixtures.
+PASS Collections HTTP /menuboardy/ omits the reviewed repeated contact section.
+PASS Collections HTTP /menuboardy/ retains its native Rank Math title.
+PASS Collections HTTP /menuboardy/ retains one exact native Rank Math description.
+PASS Collections HTTP /menuboardy/ retains its canonical URL.
+PASS Collections HTTP /menuboardy/ executes normal WordPress document hooks once.
+PASS Collections HTTP /menuboardy/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /oklejanie-samochodu-cena/ responds successfully.
+PASS Collections HTTP /oklejanie-samochodu-cena/ retains both surrounding content fixtures.
+PASS Collections HTTP /oklejanie-samochodu-cena/ omits the reviewed repeated contact section.
+PASS Collections HTTP /oklejanie-samochodu-cena/ retains its native Rank Math title.
+PASS Collections HTTP /oklejanie-samochodu-cena/ retains one exact native Rank Math description.
+PASS Collections HTTP /oklejanie-samochodu-cena/ retains its canonical URL.
+PASS Collections HTTP /oklejanie-samochodu-cena/ executes normal WordPress document hooks once.
+PASS Collections HTTP /oklejanie-samochodu-cena/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /frezowanie-cnc/ responds successfully.
+PASS Collections HTTP /frezowanie-cnc/ retains both surrounding content fixtures.
+PASS Collections HTTP /frezowanie-cnc/ omits the reviewed repeated contact section.
+PASS Collections HTTP /frezowanie-cnc/ retains its native Rank Math title.
+PASS Collections HTTP /frezowanie-cnc/ retains one exact native Rank Math description.
+PASS Collections HTTP /frezowanie-cnc/ retains its canonical URL.
+PASS Collections HTTP /frezowanie-cnc/ executes normal WordPress document hooks once.
+PASS Collections HTTP /frezowanie-cnc/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /tablice-unijne/ responds successfully.
+PASS Collections HTTP /tablice-unijne/ retains both surrounding content fixtures.
+PASS Collections HTTP /tablice-unijne/ omits the reviewed repeated contact section.
+PASS Collections HTTP /tablice-unijne/ retains its native Rank Math title.
+PASS Collections HTTP /tablice-unijne/ retains one exact native Rank Math description.
+PASS Collections HTTP /tablice-unijne/ retains its canonical URL.
+PASS Collections HTTP /tablice-unijne/ executes normal WordPress document hooks once.
+PASS Collections HTTP /tablice-unijne/ contains rendered content rather than raw shortcodes.
+PASS Collections HTTP /nasze-realizacje/ responds successfully.
+PASS Collections HTTP /nasze-realizacje/page/2/ responds successfully.
+PASS Collections HTTP The first native projects page displays exactly 30 projects.
+PASS Collections HTTP The next native projects page displays the remaining ten projects.
+PASS Collections HTTP Both projects pages have a single semantic H1.
+PASS Collections HTTP The projects page retains the actual Rank Math title.
+PASS Collections HTTP Native pagination retains the correct separate canonical URLs.
+PASS Collections HTTP Project cards expose no excerpt, body or excluded records.
+PASS Collections HTTP Every visible project has a real resolved image.
+PASS Collections HTTP Project presentation omits the legacy excerpt and date layout.
+PASS Collections HTTP /collection-protected/ responds successfully.
+PASS Collections HTTP Password-protected source remains protected.
+PASS Collections HTTP /collection-unlisted/ responds successfully.
+PASS Collections HTTP An unreviewed route keeps its original contact section.
+Success: 367 real WordPress/Rank Math collection HTTP assertions passed.
+PASS Collections browser desktop/pelna-oferta: exact requested card count renders.
+PASS Collections browser desktop/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser desktop/pelna-oferta: responsive grid has 4 columns.
+PASS Collections browser desktop/pelna-oferta: full viewport layout has equal deliberate 43.199999999999996px side margins.
+PASS Collections browser desktop/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser desktop/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser desktop/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser desktop/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser desktop/nasze-realizacje: exact requested card count renders.
+PASS Collections browser desktop/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser desktop/nasze-realizacje: responsive grid has 3 columns.
+PASS Collections browser desktop/nasze-realizacje: full viewport layout has equal deliberate 43.199999999999996px side margins.
+PASS Collections browser desktop/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser desktop/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser desktop/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser desktop/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser desktop/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser desktop/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser desktop/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser desktop/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop: an unreviewed route retains its original contact block.
+PASS Collections browser desktop: password protection is preserved.
+PASS Collections browser desktop: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser desktop: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser desktop: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser desktop-wide/pelna-oferta: exact requested card count renders.
+PASS Collections browser desktop-wide/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser desktop-wide/pelna-oferta: responsive grid has 4 columns.
+PASS Collections browser desktop-wide/pelna-oferta: full viewport layout has equal deliberate 57.599999999999994px side margins.
+PASS Collections browser desktop-wide/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser desktop-wide/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser desktop-wide/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop-wide/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop-wide/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop-wide/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser desktop-wide/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser desktop-wide/nasze-realizacje: exact requested card count renders.
+PASS Collections browser desktop-wide/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser desktop-wide/nasze-realizacje: responsive grid has 3 columns.
+PASS Collections browser desktop-wide/nasze-realizacje: full viewport layout has equal deliberate 57.599999999999994px side margins.
+PASS Collections browser desktop-wide/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser desktop-wide/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser desktop-wide/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop-wide/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop-wide/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop-wide/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser desktop-wide/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser desktop-wide/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser desktop-wide/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser desktop-wide/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser desktop-wide/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-wide/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-wide/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-wide: an unreviewed route retains its original contact block.
+PASS Collections browser desktop-wide: password protection is preserved.
+PASS Collections browser desktop-wide: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser desktop-wide: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser desktop-wide: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser desktop-ultrawide/pelna-oferta: exact requested card count renders.
+PASS Collections browser desktop-ultrawide/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser desktop-ultrawide/pelna-oferta: responsive grid has 4 columns.
+PASS Collections browser desktop-ultrawide/pelna-oferta: full viewport layout has equal deliberate 72px side margins.
+PASS Collections browser desktop-ultrawide/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser desktop-ultrawide/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser desktop-ultrawide/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop-ultrawide/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop-ultrawide/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop-ultrawide/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser desktop-ultrawide/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: exact requested card count renders.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: responsive grid has 3 columns.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: full viewport layout has equal deliberate 72px side margins.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser desktop-ultrawide/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser desktop-ultrawide/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-ultrawide/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-ultrawide/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser desktop-ultrawide: an unreviewed route retains its original contact block.
+PASS Collections browser desktop-ultrawide: password protection is preserved.
+PASS Collections browser desktop-ultrawide: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser desktop-ultrawide: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser desktop-ultrawide: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser tablet/pelna-oferta: exact requested card count renders.
+PASS Collections browser tablet/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser tablet/pelna-oferta: responsive grid has 3 columns.
+PASS Collections browser tablet/pelna-oferta: full viewport layout has equal deliberate 27px side margins.
+PASS Collections browser tablet/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser tablet/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser tablet/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser tablet/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser tablet/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser tablet/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser tablet/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser tablet/nasze-realizacje: exact requested card count renders.
+PASS Collections browser tablet/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser tablet/nasze-realizacje: responsive grid has 2 columns.
+PASS Collections browser tablet/nasze-realizacje: full viewport layout has equal deliberate 27px side margins.
+PASS Collections browser tablet/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser tablet/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser tablet/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser tablet/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser tablet/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser tablet/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser tablet/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser tablet/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser tablet/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser tablet/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser tablet/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser tablet/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser tablet/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser tablet: an unreviewed route retains its original contact block.
+PASS Collections browser tablet: password protection is preserved.
+PASS Collections browser tablet: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser tablet: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser tablet: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser mobile/pelna-oferta: exact requested card count renders.
+PASS Collections browser mobile/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser mobile/pelna-oferta: responsive grid has 1 columns.
+PASS Collections browser mobile/pelna-oferta: full viewport layout has equal deliberate 20px side margins.
+PASS Collections browser mobile/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser mobile/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser mobile/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser mobile/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser mobile/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser mobile/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser mobile/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser mobile/nasze-realizacje: exact requested card count renders.
+PASS Collections browser mobile/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser mobile/nasze-realizacje: responsive grid has 1 columns.
+PASS Collections browser mobile/nasze-realizacje: full viewport layout has equal deliberate 20px side margins.
+PASS Collections browser mobile/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser mobile/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser mobile/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser mobile/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser mobile/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser mobile/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser mobile/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser mobile/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser mobile/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser mobile/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser mobile/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile: an unreviewed route retains its original contact block.
+PASS Collections browser mobile: password protection is preserved.
+PASS Collections browser mobile: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser mobile: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser mobile: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser mobile-small/pelna-oferta: exact requested card count renders.
+PASS Collections browser mobile-small/pelna-oferta: exactly one semantic page heading.
+PASS Collections browser mobile-small/pelna-oferta: responsive grid has 1 columns.
+PASS Collections browser mobile-small/pelna-oferta: full viewport layout has equal deliberate 20px side margins.
+PASS Collections browser mobile-small/pelna-oferta: logo and navigation align with the collection margins.
+PASS Collections browser mobile-small/pelna-oferta: full page and every real title range fit without clipping.
+PASS Collections browser mobile-small/pelna-oferta: each card contains only a photograph and its accessible title.
+PASS Collections browser mobile-small/pelna-oferta: service and project titles use the consistent local uppercase font.
+PASS Collections browser mobile-small/pelna-oferta: served stylesheet exactly matches shipped source.
+PASS Collections browser mobile-small/pelna-oferta: all 41 reviewed services link exactly once to their own public pages.
+PASS Collections browser mobile-small/pelna-oferta: the catalogue replaces the former duplicate offer body.
+PASS Collections browser mobile-small/nasze-realizacje: exact requested card count renders.
+PASS Collections browser mobile-small/nasze-realizacje: exactly one semantic page heading.
+PASS Collections browser mobile-small/nasze-realizacje: responsive grid has 1 columns.
+PASS Collections browser mobile-small/nasze-realizacje: full viewport layout has equal deliberate 20px side margins.
+PASS Collections browser mobile-small/nasze-realizacje: logo and navigation align with the collection margins.
+PASS Collections browser mobile-small/nasze-realizacje: full page and every real title range fit without clipping.
+PASS Collections browser mobile-small/nasze-realizacje: each card contains only a photograph and its accessible title.
+PASS Collections browser mobile-small/nasze-realizacje: service and project titles use the consistent local uppercase font.
+PASS Collections browser mobile-small/nasze-realizacje: served stylesheet exactly matches shipped source.
+PASS Collections browser mobile-small/nasze-realizacje: native first page uses newest date and stable ID order.
+PASS Collections browser mobile-small/nasze-realizacje: excerpts, post bodies and restricted/no-photo posts are absent.
+PASS Collections browser mobile-small/nasze-realizacje: an actual local WordPress attachment loads successfully.
+PASS Collections browser mobile-small/nasze-realizacje: WordPress provides native next-page navigation.
+PASS Collections browser mobile-small/nasze-realizacje: second native page has the remaining ten unique projects.
+PASS Collections browser mobile-small/plotki-ogrodki-piwne: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile-small/o-nas: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile-small/kontakt: the repeated contact block disappears while following and preceding content remain.
+PASS Collections browser mobile-small: an unreviewed route retains its original contact block.
+PASS Collections browser mobile-small: password protection is preserved.
+PASS Collections browser mobile-small: catalogue does not override the builder/preview route ?et_fb=1
+PASS Collections browser mobile-small: catalogue does not override the builder/preview route ?et_pb_preview=1
+PASS Collections browser mobile-small: catalogue does not override the builder/preview route ?preview=true
+PASS Collections browser The design off switch restores the original theme for pelna-oferta.
+PASS Collections browser The design off switch restores the original theme for nasze-realizacje.
+PASS Collections browser The design off switch restores the original theme for plotki-ogrodki-piwne.
+PASS Collections browser No uncaught frontend JavaScript errors.
+Tested design.css SHA-256: a80d88ffd9483758203cf28c2421fae7e2f6abe9571d2209671e3334d3b57c31
+Success: 202 real Chromium collection assertions passed.
+Screenshots: /tmp/yoona-collections-screenshots (unavailable catalogue photographs are explicitly labelled synthetic probes).
+PASS Collections Every post and metadata row remains byte-identical after HTTP/browser rendering.
+Success: 1 complete database preservation assertion passed.
+7.1.3
+PHP 8.3.35 (cli) (built: Sep 25 2026 17:43:50) (NTS)
+All focused collections presentation tests passed.
+
+=== Final routing/visibility guard, normal gallery and complete database checks ===
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+PASS Collections browser Draft, private and password-protected service pages are omitted from the real catalogue.
+PASS Collections browser A password-protected full-offer page keeps its password form and excludes the catalogue.
+PASS Collections browser A protected posts-index configuration excludes the dedicated project gallery.
+PASS Collections browser After exclusions are restored, the normal native projects page selects its gallery and thirty photographs.
+PASS Collections browser The design off switch restores the original theme for pelna-oferta.
+PASS Collections browser The design off switch restores the original theme for nasze-realizacje.
+PASS Collections browser The design off switch restores the original theme for plotki-ogrodki-piwne.
+PASS Collections browser No uncaught frontend JavaScript errors.
+Tested design.css SHA-256: a80d88ffd9483758203cf28c2421fae7e2f6abe9571d2209671e3334d3b57c31
+Success: 8 real Chromium collection assertions passed.
+Screenshots: /tmp/yoona-collections-screenshots (unavailable catalogue photographs are explicitly labelled synthetic probes).
+PASS Collections Every post and metadata row remains byte-identical after HTTP/browser rendering.
+Success: 1 complete database preservation assertion passed.

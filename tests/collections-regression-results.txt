@@ -1,0 +1,475 @@
+Yoona SEO 3.3.0 — additional core and homepage regression, 2026-10-17
+The core suite below ran earlier in the same disposable WordPress installation.
+Final gallery-specific routing changes are verified separately in collections-results.txt.
+The updated original homepage browser suite ran after the final gallery routing change.
+Historical version reports remain unchanged.
+
+=== Original real WordPress / Rank Math core suite ===
+Plugin 'yoona-seo' activated.
+Success: Activated 1 of 1 plugins.
+PASS Plugin activated and its engine loaded.
+PASS Activation leaves post 4 and all its metadata unchanged.
+PASS Activation leaves post 5 and all its metadata unchanged.
+PASS Activation leaves post 6 and all its metadata unchanged.
+PASS Activation leaves post 7 and all its metadata unchanged.
+PASS Activation leaves post 8 and all its metadata unchanged.
+PASS Activation leaves post 9 and all its metadata unchanged.
+PASS Activation leaves post 10 and all its metadata unchanged.
+PASS Valid JSON structure is accepted.
+PASS Imported bundle is loaded.
+PASS Imported JSON takes priority over the bundled file.
+PASS Importing a bundle does not update published content or metadata.
+PASS An unverified audit cannot change any post.
+PASS An empty bundle cannot change any post.
+PASS An empty selection cannot change any post.
+PASS A bundle for another website cannot change any post.
+PASS A concurrent operation lock is respected even with a stale missing-option cache.
+PASS A rejected concurrent operation leaves all page values unchanged.
+PASS A rejected concurrent operation never replaces the other worker lock.
+PASS Executable script is rejected during import validation.
+PASS Executable script cannot update the site.
+PASS Inline event handler is rejected during import validation.
+PASS Inline event handler cannot update the site.
+PASS External absolute URL path is rejected during import validation.
+PASS External absolute URL path cannot update the site.
+PASS Path traversal is rejected during import validation.
+PASS Path traversal cannot update the site.
+PASS Duplicate paths are rejected.
+PASS Preview is generated.
+PASS The root URL maps to the configured static front page.
+PASS A normal permalink maps to the correct published page.
+PASS Preview contains the existing SEO title.
+PASS Preview is read-only.
+PASS Selected homepage update succeeds.
+PASS Deployment returns a backup batch identifier.
+PASS Selected homepage receives its exact SEO title.
+PASS Selected homepage receives its exact meta description.
+PASS An unselected page is untouched.
+PASS An SEO-only update does not replace the page body.
+PASS Backup history lists the deployment.
+PASS A second preview succeeds.
+PASS Preview detects values that are already deployed.
+PASS Rollback of SEO changes succeeds.
+PASS Rollback restores values and removes metadata that did not exist before.
+PASS A page-title change without its original title is blocked.
+PASS A page-title change cannot overwrite a newer editor title.
+PASS A stale content hash prevents all changes to the affected page.
+PASS Body replacement without an expected content hash is blocked.
+PASS Verified body and SEO changes can be deployed together.
+PASS The body deployment reports successful writes.
+PASS Deployed HTML and Polish text retain their exact bytes.
+PASS The explicit page title change is saved.
+PASS Body deployment rollback succeeds.
+PASS Rollback restores original body, page title and previous SEO metadata.
+PASS A deployment is available for conflict testing.
+PASS Rollback never overwrites a subsequent editor change.
+PASS Non-public page preview completes.
+PASS Draft and private pages cannot be deployed by public URL.
+PASS Draft and private page data remain untouched.
+PASS Builder-owned page content is protected from replacement.
+PASS A title-only edit cannot strip an existing trusted embed through KSES.
+PASS A trusted administrator can deploy a safe replacement of an embed page.
+PASS The trusted embed-page deployment succeeds.
+PASS A later administrator without unfiltered_html cannot restore a filtered or broken embed.
+PASS A trusted administrator can retry restoring the original embed.
+PASS Retried trusted rollback restores the exact original embed.
+PASS Administrator can export diagnostics.
+PASS Diagnostics contain no user password fields or test administrator password.
+PASS Diagnostics exclude private and draft content.
+PASS Diagnostics can export a site using plain query-string permalinks.
+PASS A static front page keeps its supported root path with plain permalinks.
+PASS A query-string permalink is explicitly unsupported and never exported as a false homepage path.
+PASS A subscriber cannot deploy changes.
+PASS A subscriber cannot roll back changes.
+PASS A subscriber cannot export site content.
+PASS WordPress document title receives the deployed SEO title.
+PASS Standalone description output is a single correctly escaped HTML tag.
+PASS A forced write/restore failure returns a recoverable deployment record.
+PASS A failed deployment still returns its durable backup identifier.
+PASS Failed partial writes remain explicitly available for recovery.
+PASS The admin panel offers a rollback form for the failed deployment.
+PASS Recovery can be retried after the underlying write failure is resolved.
+PASS Retried recovery restores all original page values.
+PASS An external third-value write during a failed deployment returns a reviewable record.
+PASS Immediate error recovery preserves an unexpected concurrent editor value.
+PASS A later rollback also preserves a third-value conflict for manual review.
+PASS Search and archive queries preserve their original metadata.
+PASS Search and archive queries do not receive a singular-page description tag.
+PASS Search and archive queries preserve their original metadata.
+PASS Search and archive queries do not receive a singular-page description tag.
+Success: 90 real WordPress integration assertions passed.
+Success: Existing SEO provider receives metadata without a duplicate description tag.
+Divi helper: 59 assertions passed.
+PASS HTTP Test administrator logs in through WordPress.
+PASS HTTP Authorized administrator can open the plugin panel.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A real multipart JSON upload appears in the admin preview.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP JSON upload leaves the live homepage unchanged.
+PASS HTTP An apply request without a valid nonce is rejected with HTTP 403.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A rejected request cannot change frontend metadata.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A stale preview bundle hash cannot deploy changes.
+PASS HTTP The JSON deployment endpoint also rejects a missing nonce.
+PASS HTTP A stale JSON deployment receives an explicit HTTP 409 error.
+PASS HTTP An eleven-item direct request is blocked before applying any changes.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP Rejected JSON requests leave the homepage unchanged.
+PASS HTTP A valid one-page JSON admin request deploys changes.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP The actual homepage renders the deployed SEO title.
+PASS HTTP The actual homepage renders exactly one correct meta description.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP The admin rollback form restores the previous frontend metadata.
+PASS HTTP A malformed JSON upload is rejected with a readable error.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A malformed import leaves frontend metadata unchanged.
+PASS HTTP The authenticated diagnostics button downloads real JSON.
+PASS HTTP The diagnostics download contains no password fields or test admin password.
+PASS HTTP The bundled-package button resets the imported preview package.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP Selecting the bundled package never applies content or metadata.
+Success: 30 real HTTP integration assertions passed.
+PASS Design Known test preparation mode.
+PASS Design The requested redesign is enabled when its option has never been saved.
+PASS Design An explicit zero disables the design.
+PASS Design An explicit one enables the design.
+PASS Design The design participates in the normal WordPress template filter.
+PASS Design Test hooks and shortcode callbacks are installed only in the disposable WordPress.
+PASS Design A public page with existing Divi source is created.
+PASS Design A full-offer page contains mixed-case nested service headings and competing Divi-like font styles.
+PASS Design A password-protected page is created.
+PASS Design A public post fixture is created.
+PASS Design A subscriber fixture is created.
+Success: 11 visual design preparation assertions passed.
+Warning: Regenerating a .htaccess file requires special configuration. See usage docs.
+Success: Rewrite rules flushed.
+Success: Updated 'yoona_seo_design_enabled' option.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+PASS Design HTTP The original theme is warmed before the visual-only database baseline.
+Success: 2 original-theme warm-up HTTP assertions passed.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Success: Captured post and metadata baseline before visual-only HTTP actions.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The new homepage hero is rendered by the real frontend.
+PASS Design HTTP The selected template enqueues the visual stylesheet.
+PASS Design HTTP The design stylesheet is registered through a normal WordPress link.
+PASS Design HTTP The actual bundled design CSS is served successfully by WordPress.
+PASS Design HTTP The homepage contains exactly one SEO title.
+PASS Design HTTP The homepage does not duplicate the SEO description.
+PASS Design HTTP The standard WordPress hook yoona-design-head-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-body-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-footer-probe executes once.
+PASS Design HTTP The branded layout offers a skip link to its main content.
+PASS Design HTTP Existing public pages receive the branded template.
+PASS Design HTTP Existing Divi content still passes through WordPress the_content and shortcode callbacks.
+PASS Design HTTP The secondary template keeps rendered existing content and its links.
+PASS Design HTTP The branded secondary template renders exactly the existing SEO title.
+PASS Design HTTP The branded secondary template renders one exact existing SEO description.
+PASS Design HTTP A theme without title-tag support still receives exactly one correct SEO title.
+PASS Design HTTP Public posts retain their original body inside the branded layout.
+PASS Design HTTP A protected public page keeps the standard WordPress password form.
+PASS Design HTTP The protected page never exposes its stored content to an anonymous visitor.
+PASS Design HTTP The category archive receives the branded layout.
+PASS Design HTTP The search results receives the branded layout.
+PASS Design HTTP Missing public content keeps HTTP 404 inside the branded layout.
+PASS Design HTTP The normal RSS feed is preserved and excludes visual templates.
+PASS Design HTTP The native embed response excludes the visual template and stylesheet.
+PASS Design HTTP The REST endpoint returns ordinary JSON without the visual template.
+PASS Design HTTP The et_fb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_bfb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_pb_preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The elementor-preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP An unauthenticated visitor cannot change the visual setting.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The real WordPress test administrator logs in.
+PASS Design HTTP The plugin panel exposes its visual design controls.
+PASS Design HTTP The design action rejects a missing nonce with HTTP 403.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A GET request cannot change the visual setting even with a valid nonce.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP An invalid visual mode is rejected safely.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The limited subscriber account logs in through WordPress.
+PASS Design HTTP A logged-in subscriber cannot use the administrator visual action.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A valid administrator POST disables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP Disabling the design restores the original theme frontend without its visual stylesheet.
+PASS Design HTTP The original theme still displays unchanged secondary content when the design is disabled.
+PASS Design HTTP A valid administrator POST re-enables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The authenticated refresh action completes without changing the selected design state.
+PASS Design HTTP The public homepage uses the requested design state.
+Success: 51 real visual design HTTP assertions passed (standalone).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
+Success: Updated 'rank_math_registration_skip' option.
+Plugin 'seo-by-rank-math' activated.
+Success: Activated 1 of 1 plugins.
+1.0.280
+PASS Divi/Rank Math The actual Rank Math plugin and its autoloader run in WordPress.
+PASS Divi/Rank Math Create a published synthetic Divi page.
+PASS Divi/Rank Math Create a published synthetic Divi page.
+PASS Divi/Rank Math Schema 2 imports native Rank Math metadata and indexed Divi text changes.
+PASS Divi/Rank Math Preview the native Divi deployment.
+PASS Divi/Rank Math The Divi page maps to its public URL and is ready.
+PASS Divi/Rank Math Preview separately shows both text indices and toggle index zero.
+PASS Divi/Rank Math Divi preview preserves original content and metadata.
+PASS Divi/Rank Math A stale whole-page content hash blocks body and native metadata together.
+PASS Divi/Rank Math A stale module hash blocks body and native metadata together.
+PASS Divi/Rank Math An out-of-range module index cannot change another module or metadata.
+PASS Divi/Rank Math Unsafe module HTML is rejected before import.
+PASS Divi/Rank Math A text patch cannot introduce another shortcode.
+PASS Divi/Rank Math A Divi patch cannot also replace the entire page body.
+PASS Divi/Rank Math Deploy native Rank Math fields and surgical Divi changes.
+PASS Divi/Rank Math Native Divi deployment reports success with a durable backup.
+PASS Divi/Rank Math Stored Divi content matches the exact expected bytes; attributes, images, gallery, code and form remain untouched.
+PASS Divi/Rank Math Both SEO values are stored in the real Rank Math postmeta fields.
+PASS Divi/Rank Math Native deployment removes both legacy Yoona overlays.
+PASS Divi/Rank Math Builder configuration and unrelated metadata remain unchanged.
+PASS Divi/Rank Math The real WordPress shortcode parser reaches all changed module bodies.
+PASS Divi/Rank Math The shortcode parser still reaches the original image, gallery, form and code modules.
+PASS Divi/Rank Math Preview a previously deployed schema 2 bundle.
+PASS Divi/Rank Math Re-importing the deployed Divi bundle is idempotent despite original baseline hashes.
+PASS Divi/Rank Math Reapplying unchanged Divi content creates no extra writes or backup batch.
+PASS Divi/Rank Math Rollback the native Divi deployment.
+PASS Divi/Rank Math Rollback restores exact Divi bytes, raw Rank Math templates, missing metadata and duplicate legacy overlay values.
+PASS Divi/Rank Math A native metadata-only update is supported on a Divi page.
+PASS Divi/Rank Math A metadata-only deployment preserves every Divi source byte.
+PASS Divi/Rank Math Rollback native metadata that previously did not exist.
+PASS Divi/Rank Math Rollback removes newly created native metadata and preserves absence of legacy overlays.
+PASS Divi/Rank Math Prepare a native Rank Math rollback conflict.
+PASS Divi/Rank Math Rollback preserves a later edit made directly in native Rank Math metadata.
+PASS Divi/Rank Math A schema 1 overlay deployment remains supported with Rank Math active.
+PASS Divi/Rank Math Legacy overlay deployment succeeds.
+PASS Divi/Rank Math An overlay-only backup can still be rolled back with Rank Math active.
+PASS Divi/Rank Math Legacy rollback removes its overlay and leaves untouched native Rank Math fields alone.
+Success: 37 real Divi/Rank Math integration assertions passed.
+PASS HTTP Test administrator logs in through WordPress.
+PASS HTTP Authorized administrator can open the plugin panel.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A real multipart JSON upload appears in the admin preview.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP JSON upload leaves the live homepage unchanged.
+PASS HTTP An apply request without a valid nonce is rejected with HTTP 403.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A rejected request cannot change frontend metadata.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A stale preview bundle hash cannot deploy changes.
+PASS HTTP The JSON deployment endpoint also rejects a missing nonce.
+PASS HTTP A stale JSON deployment receives an explicit HTTP 409 error.
+PASS HTTP An eleven-item direct request is blocked before applying any changes.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP Rejected JSON requests leave the homepage unchanged.
+PASS HTTP A valid one-page JSON admin request deploys changes.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP The actual homepage renders the deployed SEO title.
+PASS HTTP The actual homepage renders exactly one correct meta description.
+PASS HTTP The real Rank Math plugin renders the homepage SEO output.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP The admin rollback form restores the previous frontend metadata.
+PASS HTTP A malformed JSON upload is rejected with a readable error.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP A malformed import leaves frontend metadata unchanged.
+PASS HTTP The authenticated diagnostics button downloads real JSON.
+PASS HTTP The diagnostics download contains no password fields or test admin password.
+PASS HTTP The bundled-package button resets the imported preview package.
+PASS HTTP Homepage responds with HTTP 200.
+PASS HTTP Selecting the bundled package never applies content or metadata.
+Success: 31 real HTTP integration assertions passed.
+Success: Prepared native Rank Math title and description without Yoona overlays.
+Success: Actual Rank Math renders the exact native title and one description independently of Yoona SEO hooks.
+Plugin 'yoona-seo' deactivated.
+Success: Deactivated 1 of 1 plugins.
+Success: Actual Rank Math renders the exact native title and one description independently of Yoona SEO hooks.
+Plugin 'yoona-seo' activated.
+Success: Activated 1 of 1 plugins.
+Success: Native metadata and legacy overlays restore exactly after deactivation/reactivation.
+Success: Captured post and metadata baseline before visual-only HTTP actions.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The new homepage hero is rendered by the real frontend.
+PASS Design HTTP The selected template enqueues the visual stylesheet.
+PASS Design HTTP The design stylesheet is registered through a normal WordPress link.
+PASS Design HTTP The actual bundled design CSS is served successfully by WordPress.
+PASS Design HTTP The homepage contains exactly one SEO title.
+PASS Design HTTP The homepage does not duplicate the SEO description.
+PASS Design HTTP The standard WordPress hook yoona-design-head-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-body-probe executes once.
+PASS Design HTTP The standard WordPress hook yoona-design-footer-probe executes once.
+PASS Design HTTP The branded layout offers a skip link to its main content.
+PASS Design HTTP Existing public pages receive the branded template.
+PASS Design HTTP Existing Divi content still passes through WordPress the_content and shortcode callbacks.
+PASS Design HTTP The secondary template keeps rendered existing content and its links.
+PASS Design HTTP The branded secondary template renders exactly the existing SEO title.
+PASS Design HTTP The branded secondary template renders one exact existing SEO description.
+PASS Design HTTP A theme without title-tag support still receives exactly one correct SEO title.
+PASS Design HTTP The visual template retains actual Rank Math frontend output.
+PASS Design HTTP Public posts retain their original body inside the branded layout.
+PASS Design HTTP A protected public page keeps the standard WordPress password form.
+PASS Design HTTP The protected page never exposes its stored content to an anonymous visitor.
+PASS Design HTTP The category archive receives the branded layout.
+PASS Design HTTP The search results receives the branded layout.
+PASS Design HTTP Missing public content keeps HTTP 404 inside the branded layout.
+PASS Design HTTP The normal RSS feed is preserved and excludes visual templates.
+PASS Design HTTP The native embed response excludes the visual template and stylesheet.
+PASS Design HTTP The REST endpoint returns ordinary JSON without the visual template.
+PASS Design HTTP The et_fb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_bfb editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The et_pb_preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP The elementor-preview editor request keeps its original theme template and stylesheet.
+PASS Design HTTP An unauthenticated visitor cannot change the visual setting.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The real WordPress test administrator logs in.
+PASS Design HTTP The plugin panel exposes its visual design controls.
+PASS Design HTTP The design action rejects a missing nonce with HTTP 403.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A GET request cannot change the visual setting even with a valid nonce.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP An invalid visual mode is rejected safely.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The limited subscriber account logs in through WordPress.
+PASS Design HTTP A logged-in subscriber cannot use the administrator visual action.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP A valid administrator POST disables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP Disabling the design restores the original theme frontend without its visual stylesheet.
+PASS Design HTTP The original theme still displays unchanged secondary content when the design is disabled.
+PASS Design HTTP A valid administrator POST re-enables the visual layer.
+PASS Design HTTP The public homepage uses the requested design state.
+PASS Design HTTP The authenticated refresh action completes without changing the selected design state.
+PASS Design HTTP The public homepage uses the requested design state.
+Success: 52 real visual design HTTP assertions passed (rank_math).
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
+Success: Prepared or restored the password-protected front-page fixture.
+PASS Design HTTP A protected front page renders the WordPress password form.
+PASS Design HTTP A protected front page never exposes the marketing homepage template.
+Success: 2 protected-front-page HTTP assertions passed.
+Success: Prepared or restored the password-protected front-page fixture.
+PASS Design Browsing, enabling and disabling the design preserve every post row and all metadata exactly.
+Success: 1 visual design database assertions passed.
+7.1.3
+PHP 8.3.35 (cli) (built: Sep 25 2026 17:43:50) (NTS)
+All real WordPress integration tests passed.
+
+=== Updated original homepage/browser regression and complete database check ===
+Tested design.css SHA-256: a80d88ffd9483758203cf28c2421fae7e2f6abe9571d2209671e3334d3b57c31
+PASS Design browser desktop: the real homepage loads successfully.
+PASS Design browser desktop: the frontend serves the exact current source stylesheet.
+PASS Design browser desktop: the visual template is active.
+PASS Design browser desktop: one accessible main region is present.
+PASS Design browser desktop: the homepage has exactly one H1.
+PASS Design browser desktop: the new hero title is visible.
+PASS Design browser desktop: the page has no horizontal overflow.
+PASS Design browser desktop: the hero text fits inside the viewport.
+PASS Design browser desktop: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser desktop: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser desktop: the hero description retains a readable minimum font size.
+PASS Design browser desktop: the header navigation keeps valid internal URLs and existing anchor targets.
+PASS Design browser desktop: the shipped local display font loads and styles the hero.
+PASS Design browser desktop: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser desktop: hero text stays readable over a white photo (#yn-hero-title 15.22:1, #yn-hero-title 16.38:1, #yn-hero-title span 4.49:1, .yn-hero-description 13.84:1, .yn-hero-description 14.20:1).
+PASS Design browser desktop: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser desktop: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser desktop: the actual full-offer route receives its scoped offer styling.
+PASS Design browser desktop: full-offer catalogue includes both prepared public service links, one photograph per title and consistent uppercase local fonts instead of the former body.
+PASS Design browser desktop: long full-offer labels fit their available width.
+PASS Design browser desktop-wide: the real homepage loads successfully.
+PASS Design browser desktop-wide: the frontend serves the exact current source stylesheet.
+PASS Design browser desktop-wide: the visual template is active.
+PASS Design browser desktop-wide: one accessible main region is present.
+PASS Design browser desktop-wide: the homepage has exactly one H1.
+PASS Design browser desktop-wide: the new hero title is visible.
+PASS Design browser desktop-wide: the page has no horizontal overflow.
+PASS Design browser desktop-wide: the hero text fits inside the viewport.
+PASS Design browser desktop-wide: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser desktop-wide: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser desktop-wide: the hero description retains a readable minimum font size.
+PASS Design browser desktop-wide: the header navigation keeps valid internal URLs and existing anchor targets.
+PASS Design browser desktop-wide: the shipped local display font loads and styles the hero.
+PASS Design browser desktop-wide: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser desktop-wide: hero text stays readable over a white photo (#yn-hero-title 14.46:1, #yn-hero-title 15.24:1, #yn-hero-title span 4.30:1, .yn-hero-description 13.33:1, .yn-hero-description 13.69:1).
+PASS Design browser desktop-wide: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser desktop-wide: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser desktop-wide: the actual full-offer route receives its scoped offer styling.
+PASS Design browser desktop-wide: full-offer catalogue includes both prepared public service links, one photograph per title and consistent uppercase local fonts instead of the former body.
+PASS Design browser desktop-wide: long full-offer labels fit their available width.
+PASS Design browser mobile: the real homepage loads successfully.
+PASS Design browser mobile: the frontend serves the exact current source stylesheet.
+PASS Design browser mobile: the visual template is active.
+PASS Design browser mobile: one accessible main region is present.
+PASS Design browser mobile: the homepage has exactly one H1.
+PASS Design browser mobile: the new hero title is visible.
+PASS Design browser mobile: the page has no horizontal overflow.
+PASS Design browser mobile: the hero text fits inside the viewport.
+PASS Design browser mobile: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser mobile: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser mobile: the hero description retains a readable minimum font size.
+PASS Design browser mobile: the header navigation keeps valid internal URLs and existing anchor targets.
+PASS Design browser mobile: all section headings fit their own content box without clipped text.
+PASS Design browser mobile: the gallery has all eight project cards.
+PASS Design browser mobile: gallery card 1 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 2 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 4 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 5 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 7 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 8 keeps half width inside the viewport.
+PASS Design browser mobile: gallery card 3 keeps full width inside the viewport.
+PASS Design browser mobile: gallery card 6 keeps full width inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile: the shipped local display font loads and styles the hero.
+PASS Design browser mobile: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser mobile: hero text stays readable over a white photo (#yn-hero-title 14.85:1, #yn-hero-title 15.24:1, #yn-hero-title span 4.37:1, .yn-hero-description 12.23:1, .yn-hero-description 11.88:1, .yn-hero-description 14.96:1).
+PASS Design browser mobile: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser mobile: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser mobile: the actual full-offer route receives its scoped offer styling.
+PASS Design browser mobile: full-offer catalogue includes both prepared public service links, one photograph per title and consistent uppercase local fonts instead of the former body.
+PASS Design browser mobile: long full-offer labels fit their available width.
+PASS Design browser mobile: existing secondary content remains visible in the branded layout.
+PASS Design browser mobile: the secondary content has no horizontal overflow.
+PASS Design browser mobile-small: the real homepage loads successfully.
+PASS Design browser mobile-small: the frontend serves the exact current source stylesheet.
+PASS Design browser mobile-small: the visual template is active.
+PASS Design browser mobile-small: one accessible main region is present.
+PASS Design browser mobile-small: the homepage has exactly one H1.
+PASS Design browser mobile-small: the new hero title is visible.
+PASS Design browser mobile-small: the page has no horizontal overflow.
+PASS Design browser mobile-small: the hero text fits inside the viewport.
+PASS Design browser mobile-small: headings, service labels and captions fit their boxes and actual text ranges ([]).
+PASS Design browser mobile-small: all eight offer cards, four capabilities and eight footer offer labels display uppercase.
+PASS Design browser mobile-small: the hero description retains a readable minimum font size.
+PASS Design browser mobile-small: the header navigation keeps valid internal URLs and existing anchor targets.
+PASS Design browser mobile-small: all section headings fit their own content box without clipped text.
+PASS Design browser mobile-small: the gallery has all eight project cards.
+PASS Design browser mobile-small: gallery card 1 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 2 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 4 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 5 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 7 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 8 keeps half width inside the viewport.
+PASS Design browser mobile-small: gallery card 3 keeps full width inside the viewport.
+PASS Design browser mobile-small: gallery card 6 keeps full width inside the viewport.
+PASS Design browser mobile: the native keyboard-accessible menu control is visible.
+PASS Design browser mobile: the menu control identifies its navigation target.
+PASS Design browser mobile: Enter opens the native menu.
+PASS Design browser mobile: opening the menu reveals navigation links.
+PASS Design browser mobile: Enter closes the menu again.
+PASS Design browser mobile-small: the shipped local display font loads and styles the hero.
+PASS Design browser mobile-small: the shipped local Manrope font loads for body, description, navigation and offer labels.
+PASS Design browser mobile-small: hero text stays readable over a white photo (#yn-hero-title 14.25:1, #yn-hero-title 14.99:1, #yn-hero-title span 3.75:1, .yn-hero-description 12.80:1, .yn-hero-description 11.20:1, .yn-hero-description 12.23:1, .yn-hero-description 15.43:1).
+PASS Design browser mobile-small: the photo remains visible while the text area receives a stronger overlay.
+PASS Design browser mobile-small: all orange heading highlights on the light paper background retain at least 4.5:1 contrast.
+PASS Design browser mobile-small: the actual full-offer route receives its scoped offer styling.
+PASS Design browser mobile-small: full-offer catalogue includes both prepared public service links, one photograph per title and consistent uppercase local fonts instead of the former body.
+PASS Design browser mobile-small: long full-offer labels fit their available width.
+PASS Design browser The actual frontend raises no uncaught JavaScript errors.
+Success: 113 real Chromium visual design assertions passed.
+Screenshots: /tmp/yoona-home-regression-screenshots (remote media replaced with labelled local test images).
+PASS Collections Every post and metadata row remains byte-identical after HTTP/browser rendering.
+Success: 1 complete database preservation assertion passed.

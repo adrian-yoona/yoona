@@ -14,9 +14,12 @@ def main() -> None:
         "includes/class-yoona-seo-divi.php",
         "includes/class-yoona-seo-design.php",
         "includes/class-yoona-seo-offer-hero.php",
+        "includes/class-yoona-seo-content-cleanup.php",
+        "includes/class-yoona-seo-project-gallery.php",
         "templates/header.php", "templates/footer.php", "templates/front-page.php",
         "templates/content.php", "templates/archive.php",
         "templates/offer-hero.php",
+        "templates/full-offer.php", "templates/projects.php",
         "assets/design.css", "assets/design-data.json",
         "assets/fonts/archivo-black-latin-400-normal.woff2",
         "assets/fonts/archivo-black-latin-ext-400-normal.woff2",
@@ -28,7 +31,7 @@ def main() -> None:
     actual = {path.relative_to(source).as_posix() for path in source.rglob("*") if path.is_file()}
     if actual != expected:
         raise ValueError(f"Unexpected plugin files: {actual ^ expected}")
-    target = root / "downloads" / "yoona-seo-v3.2.zip"
+    target = root / "downloads" / "yoona-seo-v3.3.zip"
     target.parent.mkdir(exist_ok=True)
     with ZipFile(target, "w", ZIP_DEFLATED, compresslevel=9) as archive:
         for relative in sorted(expected):

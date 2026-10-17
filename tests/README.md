@@ -98,10 +98,10 @@ kontrast minimum 3:1 dla dużych nagłówków i 4,5:1 dla opisu. Sprawdza też, 
 fotografia pozostaje widoczna poza mocniej przyciemnioną częścią pod tekstem.
 Ten test wykrywa zasłonę umieszczoną przypadkowo pod zdjęciem, nawet gdy ciemny
 obraz testowy maskowałby taki błąd.
-Osobny fixture `/pelna-oferta/` sprawdza ograniczoną do tej strony klasę CSS,
-nazwy usług w nagłówkach H3–H6 oraz zagnieżdżonych span/link. Konkurencyjne
-reguły serif z `!important` symulują ustawienia fontów Divi; test sprawdza
-wynikowe Manrope i wersaliki we wszystkich czterech szerokościach.
+Osobny fixture `/pelna-oferta/` sprawdza ograniczoną do tej strony klasę CSS
+oraz fotograficzny katalog dwóch publicznych stron usługowych, lokalny Manrope,
+wersaliki i długie tytuły we wszystkich czterech szerokościach. Dawna treść
+H3–H6 jest zachowana w bazie i wraca po wyłączeniu warstwy wyglądu.
 Zrzuty trafiają do `/tmp/yoona-design-screenshots` lub katalogu wskazanego
 przez `YOONA_TEST_SCREENSHOTS`. W teście obrazki realizacji są zastępowane
 oznaczonymi lokalnymi obrazkami SVG, ponieważ nie można pobrać zdjęć z yoona.pl.
@@ -177,3 +177,50 @@ zrzuty sprawdzają układ, a nie wygląd rzeczywistych fotografii produkcyjnych.
 `offer-hero-results.txt` zawiera końcowy przebieg wersji 3.2.0: 543 kontrole
 źródła i renderu, 44 HTTP z Rank Math, 162 Chromium i jedno dokładne porównanie
 wszystkich wpisów oraz metadanych po wywołaniach prezentacji.
+
+## Katalog oferty i realizacji — 3.3
+
+Na zachowanej, jednorazowej instalacji testowej uruchom:
+
+```bash
+YOONA_TEST_EXPORT_JSON=/prywatna/sciezka/diagnostyka.json YOONA_TEST_BROWSER=1 \
+  bash tests/run-collections.sh http://127.0.0.1:PORT NAZWA_KONTENERA_CLI NAZWA_KONTENERA_WWW
+```
+
+Skrypt przyjmuje wyłącznie adres loopback i kontenery `yoona-seo-test-*`.
+Prywatny eksport znajduje się w `/tmp` kontenera CLI i jest usuwany po zakończeniu,
+również przy błędzie. Wszystkie 44 podstrony są sprawdzane w pamięci dla oryginalnych
+oraz zmienionych przez SEO sekcji kontaktowych. Sprawdzany jest dokładny wynik
+całego renderu poza usuwaną sekcją, pełne liczniki modułów i bezpieczne zachowanie
+zmienionych sekcji. Treści źródłowe nie są drukowane ani zapisywane do tabel WWW.
+Osobna próba sprawdza wszystkie 153 źródła realizacji: 150 różnych zdjęć osadzonych
+w treści i trzy wpisy bez takiego zdjęcia; eksport nie zawiera metadanych załączników.
+Próby MariaDB i PHP porównują gramatykę adresów obrazów, w tym pierwszy atrybut
+`src`, cudze domeny, ścieżki z `..` i oba warianty usuwanego zdjęcia kontaktowego.
+
+Publiczne fixture zawierają 41 usług, ich już publiczne bannery i wspólną sekcję
+kontaktową oraz syntetyczną pozostałą treść. Powstaje 40 syntetycznych realizacji
+z prawdziwymi lokalnymi załącznikami JPEG, naprzemiennie jako zdjęcie wyróżniające
+i obraz Divi. Błędne zdjęcia, wpisy chronione, szkice i wpisy prywatne nie mogą wejść
+do katalogu. Przeglądarka sprawdza 30 kart na pierwszej stronie i dziesięć unikalnych
+na drugiej, porządek daty i ID, wyłącznie zdjęcie i tytuł, trzy kolumny na komputerze,
+responsywny układ, równe szerokie marginesy, fonty i rzeczywiste zakresy tekstu.
+Widoki obejmują 320, 390, 900, 1440, 1920 i 2560 px. Test porównuje dokładny hash
+serwowanego CSS z plikiem wtyczki. Rank Math zachowuje tytuły, opisy i canonical
+również na drugiej stronie paginacji. Końcowe porównanie obejmuje wszystkie wpisy
+i metadane bez wyjątków. Niedostępne zdjęcia produkcyjne w Chromium zastępują
+jawnie opisane SVG; zdjęcia realizacji są prawdziwymi lokalnymi załącznikami.
+
+Końcowe próby zmieniają wyłącznie tymczasowe fixture i przywracają dokładne pola
+statusu oraz hasła: szkice, strony prywatne i chronione wypadają z katalogu,
+chroniona strona pełnej oferty zachowuje formularz hasła, a chroniona konfiguracja
+indeksu wpisów nie dostaje nowego szablonu galerii. Przywrócony zwykły indeks nadal
+pokazuje 30 zdjęć. Wyłączenie wyglądu przywraca motyw na obu katalogach i usłudze.
+
+`collections-results.txt` zawiera rzeczywiste wyniki wersji 3.3.0: 16 plików PHP,
+182 kontroli przygotowania fixture, 743 prywatnego źródła/renderu, 367 HTTP,
+202 kontrole Chromium w sześciu szerokościach oraz 8 końcowych prób widoczności
+i routingu. Raport rozdziela te fazy i zapisuje porównania wszystkich wpisów oraz
+metadanych. `collections-regression-results.txt` zawiera pełny log bazowego rdzenia
+WordPress/Rank Math z tej sesji, a następnie 113 końcowych kontroli strony głównej
+w Chromium i dodatkowe porównanie bazy. Starsze raporty pozostają historyczne.

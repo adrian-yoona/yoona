@@ -1,6 +1,20 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.2.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.3.0
 
-Data: 16 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl.
+Ostatnia aktualizacja: 17 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## Katalog usług, galeria i stary kontakt — wersja 3.3
+
+**743 kontrole źródła i renderowania** obejmują pomijanie powtarzanego bloku kontaktowego na wszystkich **44 rozpoznanych podstronach**, w oryginalnym źródle i po poprawkach SEO. Kontrola obejmuje 66 znanych hashy sekcji, dokładne zachowanie pozostałego wynikowego HTML i liczników modułów, bezpieczny fallback po edycji oraz usunięcie tymczasowego filtra po wyjątku. Pełne źródła są podstawiane wyłącznie do pamięci procesu CLI; nie trafiają do tabel WWW ani raportu.
+
+Weryfikacja fotografii obejmuje wszystkie **153 źródłowe realizacje**: 150 zawiera własne zdjęcie, trzy wymagają zdjęcia wyróżniającego skonfigurowanego na witrynie. Eksport nie zawierał tych ustawień mediów. Zapytanie pomija rzeczywiście pozbawione zdjęcia wpisy przed obliczeniem liczby stron. Sprawdzana jest zgodność reguły SQL z parserem obrazów, w tym zdjęcia wyróżniające, obrazy Gutenberg i Divi, niepoprawne adresy, ścieżki nadrzędne, brak mediów i oba warianty starej fotografii kontaktowej.
+
+**367 kontroli HTTP** z aktywnym Rank Math sprawdza katalog 41 usług, po 30 realizacji, kolejne strony bez powtórzeń, tytuły, opisy i canonical. **202 asercje Chromium** mierzą siatki, rzeczywiste zakresy tekstu, fonty, odstępy i szerokość marginesów przy **320, 390, 900, 1440, 1920 i 2560 px**. Karty realizacji zawierają wyłącznie zdjęcie i tytuł. Oddzielne próby obejmują ochronę hasłem, brak zmian w trybach edytora, wyłączenie wyglądu i zachowanie pozostałych archiwów oraz RSS. Ścisłe porównanie wszystkich wpisów i metadanych potwierdza brak zmian treści podczas przeglądania.
+
+Dodatkowa kontrola wykryła wybór szablonu galerii przy chronionej stronie indeksu wpisów, dla której zapytanie galerii było wyłączone. Wybór szablonu i szerokiej oprawy zależy teraz również od flagi głównego zapytania galerii. Końcowe **8 asercji** sprawdza ten fallback, ochronę katalogu usług, wykluczenie niepublicznych usług oraz normalne 30 kart po przywróceniu ustawień. Zaktualizowany test strony głównej zaliczył **113 kontroli**; dawny przypadek treści Pełnej Oferty sprawdza teraz zamówione karty usług. Wynik rdzenia WordPress/Rank Math i tej regresji: [collections-regression-results.txt](../tests/collections-regression-results.txt).
+
+Raport bieżącego przebiegu: [collections-results.txt](../tests/collections-results.txt). Zdjęcia w Chromium są jawnie oznaczonymi lokalnymi SVG; potwierdzają geometrię układu, a nie aktualny stan fotografii produkcyjnych. Próba pobrania zdjęcia z yoona.pl w tej maszynie nadal kończyła się blokadą proxy CONNECT 403. Licencjonowany Divi nie jest zainstalowany; numerację jego modułów sprawdzają testowe callbacki.
+
+Kontroler zapisu, silnik SEO, helper zmian tekstów i `content/changes.json` zachowują identyczne bajty względem wersji 3.2. Wydanie 3.3 zawiera **28 plików** z zamkniętej listy. Wcześniejsze wyniki pozostają osobnymi raportami; nie nadpisano ich wynikami tego przebiegu.
 
 ## Nagłówki podstron ofertowych — wersja 3.2
 
@@ -43,7 +57,7 @@ Ponownie zaliczono **52 testy rzeczywistego HTTP z Rank Math 1.0.280**, składni
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Wersje 3.1 i 3.1.1 zawierają 22 dozwolone pliki, bieżąca wersja 3.2 — 24. Ogólny plik `yoona-seo.zip` wskazuje aktualne wydanie; poprzednie ZIP-y zachowano.
+- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Wersje 3.1 i 3.1.1 zawierają 22 dozwolone pliki, 3.2 — 24, a bieżąca 3.3 — 28. Ogólny plik `yoona-seo.zip` wskazuje aktualne wydanie; poprzednie ZIP-y zachowano.
 
 ## Nowa warstwa wyglądu
 
@@ -70,12 +84,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.2.zip](../downloads/yoona-seo-v3.2.zip)
+Plik: [downloads/yoona-seo-v3.3.zip](../downloads/yoona-seo-v3.3.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-89b144407a0429d6a80ebfd8862fd5f75ac0e53df93ee354cb43b3362ffb02e5
+bbbc0a6dc1a936986d57a1d6f3cc66ff27dc7c9864e2038dd7fbcb15fd186496
 ```
 
 SHA-256 dołączonego `content/changes.json`:

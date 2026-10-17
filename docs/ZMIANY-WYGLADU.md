@@ -46,3 +46,13 @@ Zdjęcia pochodzą z dotychczasowych banerów. Krótkie opisy pochodzą z opraco
 Cała źródłowa treść nadal przechodzi przez WordPress i callbacki Divi. Wynik znanego banera jest pomijany dopiero po jego renderowaniu, aby zachować numerację modułów i odpowiadające jej style. Dalsza oferta, galerie, linki i formularze nie są wycinane. Nowy nagłówek nie dodaje H1, jeśli dalsza treść już go zawiera; nie zmienia istniejących nagłówków w bazie.
 
 Aktualizacja zachowuje naprawę zapisu SEO z 3.1.1. Do zmiany wyglądu wystarczy aktualizacja wtyczki i odświeżenie cache; nie trzeba ponawiać już zapisanych poprawek SEO.
+
+## Oferta, realizacje i usunięcie starego kontaktu — 3.3
+
+Pełna Oferta ma własną listę 41 publicznych podstron usługowych. Pierwsze osiem kart odpowiada zdjęciom i kolejności ze strony głównej, a dalsze korzystają ze zdjęć dotychczasowych nagłówków. Widoczne są zdjęcie i nazwa usługi; cała karta prowadzi do podstrony. Strony niepubliczne i chronione hasłem nie są pokazywane.
+
+Nasze realizacje korzystają z głównego zapytania wpisów WordPressa. Na każdej stronie jest do 30 fotografii z tytułami, w trzech kolumnach na komputerze, dwóch na tablecie i jednej na telefonie. Nie ma opisów, dat, kategorii ani dodatkowych przycisków na kartach. Natywna paginacja prowadzi do dalszych prac. Zapytanie pomija wpisy bez zdjęcia, szkice i wpisy chronione hasłem; zachowuje kolejność od najnowszych z rozstrzygnięciem identycznych dat przez ID.
+
+Oba widoki wykorzystują całą dostępną szerokość z marginesami od 20 do 72 px i równymi odstępami. Zdjęcia mają stałe proporcje i spokojne powiększenie przy najechaniu. Fonty są lokalne; zdjęcia realizacji pochodzą ze zdjęcia wyróżniającego lub pierwszego odpowiedniego obrazu w treści.
+
+Rozpoznany blok Masz pytanie? Kontakt z fotografią czarnego pokrętła jest pomijany na 44 podstronach. Kontrola obejmuje 66 dokładnych hashy sekcji oryginalnych i po SEO. Sekcja nadal przechodzi przez callbacki Divi, aby zachować numerację pozostałych modułów i ich style; usuwany jest tylko jej wynik. Źródło strony i metadane pozostają w bazie. Nowa stopka z kontaktem pozostaje dostępna.

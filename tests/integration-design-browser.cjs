@@ -217,12 +217,12 @@ const { chromium } = require('playwright');
       const offerResponse = await page.goto(base + '/pelna-oferta/', { waitUntil: 'networkidle', timeout: 45000 });
       check(offerResponse.status() === 200 && await page.locator('body.yn-offer-page').count() === 1,
         `${name}: the actual full-offer route receives its scoped offer styling.`);
-      const offerHeadings = await page.locator('.design-offer-sample :is(h3,h4,h5,h6), .design-offer-sample :is(h3,h4,h5,h6) :is(span,a)').evaluateAll(elements => elements.map(element => ({
+      const offerHeadings = await page.locator('.yn-catalog-card h2').evaluateAll(elements => elements.map(element => ({
         font: getComputedStyle(element).fontFamily, transform: getComputedStyle(element).textTransform,
         scroll: element.scrollWidth, client: element.clientWidth, display: getComputedStyle(element).display,
       })));
-      check(offerHeadings.length === 6 && offerHeadings.every(element => element.font.includes('YN Manrope') && element.transform === 'uppercase'),
-        `${name}: full-offer headings and nested labels override conflicting serif fonts and display uppercase.`);
+      check(offerHeadings.length >= 2 && offerHeadings.every(element => element.font.includes('YN Manrope') && element.transform === 'uppercase') && await page.locator('.yn-catalog-card img').count() === offerHeadings.length && await page.locator('.yn-catalog-card a[href$="/banery/"],.yn-catalog-card a[href$="/oklejanie-przyczep-gastronomicznych/"]').count() === 2 && await page.locator('.design-offer-sample').count() === 0,
+        `${name}: full-offer catalogue includes both prepared public service links, one photograph per title and consistent uppercase local fonts instead of the former body.`);
       check(offerHeadings.filter(element => element.display !== 'inline').every(element => element.scroll <= element.client + 2),
         `${name}: long full-offer labels fit their available width.`);
       if (name === 'mobile') {

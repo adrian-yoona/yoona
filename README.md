@@ -1,8 +1,17 @@
-# Yoona — wygląd i SEO 3.2
+# Yoona — wygląd i SEO 3.3
 
 Wersja 3 dodaje przebudowę wyglądu według załączonego wzoru: czerń, pomarańcz, jasne tło, duża typografia, zdjęciowe karty usług, proces, realizacje i kontakt. Nowy układ strony głównej oraz wspólna oprawa podstron włączają się po aktualizacji wtyczki, o ile wcześniej nie wyłączono ich w panelu.
 
-**[Pobierz wtyczkę yoona-seo-v3.2.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.2.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+**[Pobierz wtyczkę yoona-seo-v3.3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+
+## Oferta i realizacje — wersja 3.3
+
+- **Pełna Oferta**: zdjęciowe karty wszystkich 41 dostępnych podstron usługowych, w stylu strony głównej. Pierwsze osiem kart korzysta z tych samych zdjęć co strona główna. Strony niepubliczne i zabezpieczone hasłem są pomijane.
+- **Nasze realizacje**: po 30 prac na stronę, trzy kolumny na komputerze, samo zdjęcie i tytuł. Kolejne realizacje są dostępne przez standardową nawigację WordPressa. Zdjęcie wyróżniające ma pierwszeństwo przed zdjęciem z treści; wpisy bez zdjęcia są pomijane.
+- Szerokie siatki z równymi marginesami, od 20 px na telefonie do 72 px na dużym ekranie, bez dawnego ograniczenia szerokości do 1180 px.
+- Stary blok **Masz pytanie? Kontakt** ze zdjęciem pokrętła jest pomijany na 44 rozpoznanych podstronach. Aktualne dane kontaktowe i nowa stopka pozostają dostępne.
+
+Te zmiany działają po aktualizacji wtyczki i odświeżeniu wyglądu/cache. Nie wymagają ponownego wgrywania SEO i nie kasują treści w bazie. Wyłączenie nowego wyglądu przywraca dotychczasowy układ. Rozpoznanie starego bloku obejmuje oryginał oraz wariant po dołączonych poprawkach tekstów.
 
 ## Nowa góra podstron ofertowych — wersja 3.2
 
@@ -14,7 +23,7 @@ Zmiana działa po aktualizacji i odświeżeniu wyglądu, bez ponownego zapisu SE
 
 Usunięto błąd, przez który kliknięcie wgrania zmian wysyłało żądanie pod błędny adres i kończyło się komunikatem „Serwer przerwał odpowiedź” przy pustej historii. Pole formularza `action` zasłaniało właściwość o tej samej nazwie. Skrypt pobiera teraz właściwy adres z atrybutu formularza. Przy błędzie odpowiedzi pokazuje kod HTTP lub informację o przekierowaniu do logowania i zatrzymuje zapis bez automatycznego ponawiania.
 
-Naprawa jest również w wersji 3.2. Po zastąpieniu wtyczki odśwież panel przed uruchomieniem zapisu. Partie po 10 pozycji, kopie i kontrola konfliktów pozostają w użyciu.
+Naprawa jest również w wersji 3.3. Po zastąpieniu wtyczki odśwież panel przed uruchomieniem zapisu. Partie po 10 pozycji, kopie i kontrola konfliktów pozostają w użyciu.
 
 ## Dopracowanie wersji 3.1
 
@@ -25,10 +34,10 @@ Nazwy usług w kartach, pasek PROJEKT / DRUK / PRODUKCJA / MONTAŻ, oferta w sto
 ## Aktualizacja wyglądu
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.2.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. Odśwież **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.2.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
+2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.3.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. Odśwież **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.3.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
 4. Otwórz stronę po aktualizacji. Jeśli nadal widzisz poprzedni układ, użyj odświeżenia wyglądu/cache w panelu. Cache hostingu lub CDN może wymagać wyczyszczenia w jego własnym panelu.
-5. Sprawdź stronę główną, ofertę, realizację i kontakt na komputerze oraz telefonie, w tym formularze i galerie.
+5. Sprawdź Pełną Ofertę, listę realizacji wraz z kolejną stroną oraz typową usługę i kontakt na komputerze oraz telefonie.
 
 **Zmiana wyglądu działa osobno od zapisu SEO.** W wersjach 1–2 nie było nowej szaty graficznej. Sam zapis tytułów i opisów Rank Math nie przebudowywał układu. Panel wersji 3 pokazuje osobno wygląd oraz liczbę pozycji zgodnych z paczką, gotowych do zapisu i zablokowanych.
 

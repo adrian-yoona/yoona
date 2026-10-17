@@ -119,6 +119,10 @@ $offer = wp_insert_post(wp_slash(array(
 )), true);
 $check(!is_wp_error($offer), 'A full-offer page contains mixed-case nested service headings and competing Divi-like font styles.');
 update_post_meta($offer, '_et_pb_use_builder', 'on');
+foreach (array('banery' => 'Banery i billboardy', 'oklejanie-przyczep-gastronomicznych' => 'Oklejanie przyczep gastronomicznych i zabudowy reklamowe') as $slug => $title) {
+    $service = wp_insert_post(array('post_type' => 'page', 'post_status' => 'publish', 'post_name' => $slug, 'post_title' => $title, 'post_content' => '<p>Synthetic public service catalogue fixture.</p>'), true);
+    $check(!is_wp_error($service), 'A published service page is available to the curated photographic catalogue: ' . $slug);
+}
 $protected = wp_insert_post(array(
     'post_type' => 'page', 'post_status' => 'publish', 'post_name' => 'design-protected',
     'post_title' => 'Protected design fixture', 'post_password' => 'local-design-test-password',
