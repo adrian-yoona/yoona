@@ -81,7 +81,7 @@ const { chromium } = require('playwright');
         check(await page.locator('#collection-preserved-before').count()===1 && await page.locator('#collection-preserved-after').count()===1 && !/MASZ PYTANIE/i.test(await page.locator('main').innerText()),name+'/'+slug+': the repeated contact block disappears while following and preceding content remain.');
       }
       await page.goto(base+'/collection-unlisted/',{waitUntil:'networkidle'});
-      check(/MASZ PYTANIE/i.test(await page.locator('main').innerText()),name+': an unreviewed route retains its original contact block.');
+      check(!/MASZ PYTANIE/i.test(await page.locator('main').innerText()) && /UNLISTED SECRET BODY/.test(await page.locator('main').innerText()),name+': a newly created route removes the repeated block and retains unrelated content.');
       await page.goto(base+'/collection-protected/',{waitUntil:'networkidle'});
       check(await page.locator('.post-password-form').count()===1 && !/UNLISTED SECRET BODY/.test(await page.locator('main').innerText()),name+': password protection is preserved.');
       for(const query of ['?et_fb=1','?et_pb_preview=1','?preview=true']) {

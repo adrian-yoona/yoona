@@ -56,3 +56,11 @@ Nasze realizacje korzystają z głównego zapytania wpisów WordPressa. Na każd
 Oba widoki wykorzystują całą dostępną szerokość z marginesami od 20 do 72 px i równymi odstępami. Zdjęcia mają stałe proporcje i spokojne powiększenie przy najechaniu. Fonty są lokalne; zdjęcia realizacji pochodzą ze zdjęcia wyróżniającego lub pierwszego odpowiedniego obrazu w treści.
 
 Rozpoznany blok Masz pytanie? Kontakt z fotografią czarnego pokrętła jest pomijany na 44 podstronach. Kontrola obejmuje 66 dokładnych hashy sekcji oryginalnych i po SEO. Sekcja nadal przechodzi przez callbacki Divi, aby zachować numerację pozostałych modułów i ich style; usuwany jest tylko jej wynik. Źródło strony i metadane pozostają w bazie. Nowa stopka z kontaktem pozostaje dostępna.
+
+## Poprawka usuwania starego kontaktu — 3.3.1
+
+Mechanizm 3.3 był zbyt wąski: wymagał jednej z 44 ścieżek oraz dokładnego hasha całej sekcji. Dlatego sekcja po edycji lub pod nowym adresem pozostawała widoczna. W 3.3.1 rozpoznawana jest para: charakterystyczny plik zdjęcia pokrętła oraz treść kontaktowa. Działa na wszystkich publicznych podstronach i wpisach, także po zmianie tekstów lub ustawień Divi, bez zależności od listy adresów.
+
+Obsługiwane są standardowe shortcode WordPressa, bezpośredni filtr wyjściowy Divi oraz gotowe sekcje HTML w treści. Usuwana jest kompletna najbliższa sekcja et_pb_section, bez ponownego serializowania pozostałego HTML i bez przesuwania liczników modułów. Komponent jest rozpoznawany również przy miniaturach WordPressa i zoptymalizowanych wariantach pliku zdjęcia. Sam nagłówek kontaktowy albo samo zdjęcie nie wystarczają do usunięcia sekcji. Tryby edytorów, podglądy i treści niepubliczne zachowują poprzednie działanie.
+
+Aktualizacja nie zmienia źródeł stron, metadanych Rank Math, galerii ani pakietu SEO. Nowa stopka i podstrona Kontakt pozostają dostępne. Po zastąpieniu wtyczki należy odświeżyć wygląd i pamięć podręczną; ponowne wgrywanie SEO nie jest potrzebne.

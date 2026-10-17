@@ -66,5 +66,5 @@ check(len(first_doc.classes('yn-archive-excerpt')) == 0 and len(first_doc.find('
 _, protected = get('/collection-protected/')
 check(bool(protected.classes('post-password-form')), 'Password-protected source remains protected.')
 unlisted, _ = get('/collection-unlisted/')
-check(bool(re.search(r'MASZ\s+PYTANIE', re.sub('<[^>]+>', ' ', unlisted), re.I)), 'An unreviewed route keeps its original contact section.')
+check(not re.search(r'MASZ\s+PYTANIE', re.sub('<[^>]+>', ' ', unlisted), re.I) and 'UNLISTED SECRET BODY' in unlisted, 'A newly created public route removes the repeated block and retains unrelated content.')
 print(f'Success: {assertions} real WordPress/Rank Math collection HTTP assertions passed.')

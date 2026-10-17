@@ -1,0 +1,176 @@
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/full-offer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/projects.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-content-cleanup.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-gallery.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+3.3.1
+1.0.280
+PASS Contact cleanup Synthetic shared-component and render-transform probes are installed.
+PASS Contact cleanup A public synthetic route is created: cleanup-new-page
+PASS Contact cleanup A public synthetic route is created: cleanup-project
+PASS Contact cleanup A public synthetic route is created: cleanup-edited
+PASS Contact cleanup A public synthetic route is created: cleanup-global
+PASS Contact cleanup A public synthetic route is created: cleanup-html
+PASS Contact cleanup A public synthetic route is created: cleanup-unrelated
+Success: 7 synthetic cleanup fixture assertions passed.
+Success: Updated 'yoona_seo_design_enabled' option.
+Warmed original-theme and builder/preview fixture responses before strict snapshots.
+Success: Deleted 'yoona_seo_design_enabled' option.
+Warmed current-presentation and transformed fixture responses before strict snapshots.
+PASS Contact cleanup Only the complete retired contact block is omitted: new public page route.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: new public page route.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: new public page route.
+PASS Contact cleanup Only the complete retired contact block is omitted: public project post route.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: public project post route.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: public project post route.
+PASS Contact cleanup Only the complete retired contact block is omitted: independently edited Divi attributes and contact copy.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: independently edited Divi attributes and contact copy.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: independently edited Divi attributes and contact copy.
+PASS Contact cleanup Only the complete retired contact block is omitted: image URL query and fragment.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: image URL query and fragment.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: image URL query and fragment.
+PASS Contact cleanup Only the complete retired contact block is omitted: WordPress resized retired image.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: WordPress resized retired image.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: WordPress resized retired image.
+PASS Contact cleanup Only the complete retired contact block is omitted: optimized WebP retired image.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: optimized WebP retired image.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: optimized WebP retired image.
+PASS Contact cleanup Only the complete retired contact block is omitted: optimized AVIF retired image.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: optimized AVIF retired image.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: optimized AVIF retired image.
+PASS Contact cleanup Only the complete retired contact block is omitted: other retired knob basename.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: other retired knob basename.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: other retired knob basename.
+PASS Contact cleanup Only the complete retired contact block is omitted: edited question with both original office mailto links.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: edited question with both original office mailto links.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: edited question with both original office mailto links.
+PASS Contact cleanup Only the complete retired contact block is omitted: heading typography and email entities.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: heading typography and email entities.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: heading typography and email entities.
+PASS Contact cleanup Only the complete retired contact block is omitted: reordered columns.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: reordered columns.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: reordered columns.
+PASS Contact cleanup Only the complete retired contact block is omitted: shared/global shortcode content.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: shared/global shortcode content.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: shared/global shortcode content.
+PASS Contact cleanup Only the complete retired contact block is omitted: two repeated sections.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: two repeated sections.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: two repeated sections.
+PASS Contact cleanup Only the complete retired contact block is omitted: pre-rendered native HTML section.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: pre-rendered native HTML section.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: pre-rendered native HTML section.
+PASS Contact cleanup Only the complete retired contact block is omitted: quoted HTML boundary characters.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: quoted HTML boundary characters.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: quoted HTML boundary characters.
+PASS Contact cleanup Only the complete retired contact block is omitted: lazy-loaded image attributes.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: lazy-loaded image attributes.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: lazy-loaded image attributes.
+PASS Contact cleanup Only the complete retired contact block is omitted: responsive picture source.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: responsive picture source.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: responsive picture source.
+PASS Contact cleanup Only the complete retired contact block is omitted: Divi inline background image.
+PASS Contact cleanup Every shortcode callback still executes with identical counters: Divi inline background image.
+PASS Contact cleanup Ordinary WordPress the_content also removes the component: Divi inline background image.
+PASS Contact cleanup Unrelated content remains byte-identical: same headings with another real photograph.
+PASS Contact cleanup Unrelated content remains byte-identical: retired image alone used in content.
+PASS Contact cleanup Unrelated content remains byte-identical: deceptively similar image basename.
+PASS Contact cleanup Unrelated content remains byte-identical: heading and image in different sibling sections.
+PASS Contact cleanup Unrelated content remains byte-identical: knob URL occurs only in a hyperlink.
+PASS Contact cleanup Unrelated content remains byte-identical: knob image appears only inside an HTML comment.
+PASS Contact cleanup Unrelated content remains byte-identical: knob image appears only inside script text.
+PASS Contact cleanup Unrelated content remains byte-identical: knob image appears only inside an HTML template.
+PASS Contact cleanup Unrelated content remains byte-identical: knob filename appears only in plain text.
+PASS Contact cleanup Unrelated content remains byte-identical: heading and image in different nested child sections.
+PASS Contact cleanup The actual Divi section-output hook suppresses a matching complete component.
+PASS Contact cleanup Divi row/module output is not filtered as a section.
+PASS Contact cleanup The normal WordPress shortcode-output hook suppresses a matching section without source hashes.
+PASS Contact cleanup A Theme Builder library post becoming current does not hide the public page context.
+PASS Contact cleanup Only the innermost matching Divi section is removed from a larger layout.
+PASS Contact cleanup Malformed unclosed layout markup is retained without guessing removal boundaries.
+PASS Contact cleanup Earlier the_content shortcode rendering cannot preserve the retired block.
+PASS Contact cleanup Later rendered typography and email transformations cannot preserve the retired block.
+PASS Contact cleanup Synthetic render checks leave every stored post and metadata row unchanged.
+Success: 73 semantic cleanup regression assertions passed.
+Success: Captured all post and metadata rows.
+PASS Contact cleanup browser 320/cleanup-new-page: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 320/cleanup-new-page: both adjacent sections remain.
+PASS Contact cleanup browser 320/cleanup-new-page: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 320/cleanup-project: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 320/cleanup-project: both adjacent sections remain.
+PASS Contact cleanup browser 320/cleanup-project: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 320/cleanup-edited: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 320/cleanup-edited: both adjacent sections remain.
+PASS Contact cleanup browser 320/cleanup-edited: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 320/cleanup-global: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 320/cleanup-global: both adjacent sections remain.
+PASS Contact cleanup browser 320/cleanup-global: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 320/cleanup-html: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 320/cleanup-html: both adjacent sections remain.
+PASS Contact cleanup browser 320/cleanup-html: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 320?cleanup_early_shortcode=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 320?cleanup_rendered_transform=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 320?cleanup_early_shortcode=1&cleanup_rendered_transform=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 320: legitimate different contact section stays visible.
+PASS Contact cleanup browser 320?et_fb=1: builder and preview keep the editable source component.
+PASS Contact cleanup browser 320?et_pb_preview=1: builder and preview keep the editable source component.
+PASS Contact cleanup browser 320?preview=true: builder and preview keep the editable source component.
+PASS Contact cleanup browser 1440/cleanup-new-page: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 1440/cleanup-new-page: both adjacent sections remain.
+PASS Contact cleanup browser 1440/cleanup-new-page: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 1440/cleanup-project: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 1440/cleanup-project: both adjacent sections remain.
+PASS Contact cleanup browser 1440/cleanup-project: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 1440/cleanup-edited: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 1440/cleanup-edited: both adjacent sections remain.
+PASS Contact cleanup browser 1440/cleanup-edited: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 1440/cleanup-global: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 1440/cleanup-global: both adjacent sections remain.
+PASS Contact cleanup browser 1440/cleanup-global: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 1440/cleanup-html: no retired contact block remains in the rendered DOM.
+PASS Contact cleanup browser 1440/cleanup-html: both adjacent sections remain.
+PASS Contact cleanup browser 1440/cleanup-html: no retired knob image is downloaded from main content.
+PASS Contact cleanup browser 1440?cleanup_early_shortcode=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 1440?cleanup_rendered_transform=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 1440?cleanup_early_shortcode=1&cleanup_rendered_transform=1: earlier and later content filters cannot restore the block.
+PASS Contact cleanup browser 1440: legitimate different contact section stays visible.
+PASS Contact cleanup browser 1440?et_fb=1: builder and preview keep the editable source component.
+PASS Contact cleanup browser 1440?et_pb_preview=1: builder and preview keep the editable source component.
+PASS Contact cleanup browser 1440?preview=true: builder and preview keep the editable source component.
+PASS Contact cleanup browser The design off switch restores the full original component.
+PASS Contact cleanup browser Enabling the design again removes the component without a content rewrite.
+PASS Contact cleanup browser No uncaught frontend JavaScript errors.
+Success: 47 real Chromium semantic cleanup assertions passed.
+PASS Contact cleanup Every post and metadata row remains byte-identical after HTTP and browser rendering.
+Success: 1 database preservation assertion passed.
+All focused contact cleanup tests passed.
+
+Environment: WordPress7.1.3 / PHP8.3.35 / MariaDB11.4 / RankMath1.0.280.
+Actual plugin version3.3.1; real Chromium154 at320px and1440px.
+No production access. Divi callback probes are synthetic, not the proprietary
+Divi renderer; its actual et_module_shortcode_output filter is exercised.
+All stored post and metadata rows are compared exactly, without exclusions.
+RankMath's first-render OG-content-image cache is warmed before snapshots.
+Initial observations and diagnosis are retained separately in:
+contact-cleanup-initial-failure.txt
+contact-cleanup-browser-database-failure-results.txt
+
+Final source-copy verification:
+PASS all28tested plugin files are byte-identical to current source.
+includes/class-yoona-seo-content-cleanup.php SHA256
+98d86828bddd6e3a1b4df78728ea9df13b20003c2135881c234c9cff4fbbfc71
+yoona-seo.php SHA256
+68bbadebeaf147323df827bc484102babf0acbb8b5f2e001591b6bacddbd9d00
+Final affected collections private phase:835assertions PASS, including exact
+post/meta preservation, callback priority/arguments and recovery after throw.
+Previously completed HTTP phase:367assertions PASS, including/beczki-reklamowe/.

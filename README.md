@@ -1,17 +1,17 @@
-# Yoona — wygląd i SEO 3.3
+# Yoona — wygląd i SEO 3.3.1
 
 Wersja 3 dodaje przebudowę wyglądu według załączonego wzoru: czerń, pomarańcz, jasne tło, duża typografia, zdjęciowe karty usług, proces, realizacje i kontakt. Nowy układ strony głównej oraz wspólna oprawa podstron włączają się po aktualizacji wtyczki, o ile wcześniej nie wyłączono ich w panelu.
 
-**[Pobierz wtyczkę yoona-seo-v3.3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
+**[Pobierz wtyczkę yoona-seo-v3.3.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.1.zip)**. To archiwum instalacyjne wtyczki, a nie ZIP całego repozytorium.
 
-## Oferta i realizacje — wersja 3.3
+## Oferta i realizacje — wersja 3.3.1
 
 - **Pełna Oferta**: zdjęciowe karty wszystkich 41 dostępnych podstron usługowych, w stylu strony głównej. Pierwsze osiem kart korzysta z tych samych zdjęć co strona główna. Strony niepubliczne i zabezpieczone hasłem są pomijane.
 - **Nasze realizacje**: po 30 prac na stronę, trzy kolumny na komputerze, samo zdjęcie i tytuł. Kolejne realizacje są dostępne przez standardową nawigację WordPressa. Zdjęcie wyróżniające ma pierwszeństwo przed zdjęciem z treści; wpisy bez zdjęcia są pomijane.
 - Szerokie siatki z równymi marginesami, od 20 px na telefonie do 72 px na dużym ekranie, bez dawnego ograniczenia szerokości do 1180 px.
-- Stary blok **Masz pytanie? Kontakt** ze zdjęciem pokrętła jest pomijany na 44 rozpoznanych podstronach. Aktualne dane kontaktowe i nowa stopka pozostają dostępne.
+- Stary blok **Masz pytanie? Kontakt** ze zdjęciem pokrętła jest pomijany na wszystkich publicznych podstronach, również po zmianie ich adresu lub treści sekcji. Aktualne dane kontaktowe i nowa stopka pozostają dostępne.
 
-Te zmiany działają po aktualizacji wtyczki i odświeżeniu wyglądu/cache. Nie wymagają ponownego wgrywania SEO i nie kasują treści w bazie. Wyłączenie nowego wyglądu przywraca dotychczasowy układ. Rozpoznanie starego bloku obejmuje oryginał oraz wariant po dołączonych poprawkach tekstów.
+Te zmiany działają po aktualizacji wtyczki i odświeżeniu wyglądu/cache. Nie wymagają ponownego wgrywania SEO i nie kasują treści w bazie. Wyłączenie nowego wyglądu przywraca dotychczasowy układ. Rozpoznanie starego bloku nie zależy od dokładnego hasha sekcji ani listy adresów. Obsługuje zmiany w edytorze, kopie stron, bezpośrednie renderowanie Divi i gotowy HTML.
 
 ## Nowa góra podstron ofertowych — wersja 3.2
 
@@ -34,8 +34,8 @@ Nazwy usług w kartach, pasek PROJEKT / DRUK / PRODUKCJA / MONTAŻ, oferta w sto
 ## Aktualizacja wyglądu
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.3.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. Odśwież **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.3.0** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
+2. W WordPressie wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**. Wgraj `yoona-seo-v3.3.1.zip`, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
+3. Odśwież **Narzędzia → Yoona SEO**. U góry powinna być **wersja 3.3.1** i stan nowego wyglądu. Jeśli wygląd jest wyłączony, włącz go w tym panelu.
 4. Otwórz stronę po aktualizacji. Jeśli nadal widzisz poprzedni układ, użyj odświeżenia wyglądu/cache w panelu. Cache hostingu lub CDN może wymagać wyczyszczenia w jego własnym panelu.
 5. Sprawdź Pełną Ofertę, listę realizacji wraz z kolejną stroną oraz typową usługę i kontakt na komputerze oraz telefonie.
 

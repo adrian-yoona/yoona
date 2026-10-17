@@ -1,8 +1,20 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.3.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.3.1
 
 Ostatnia aktualizacja: 17 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
 
-## Katalog usług, galeria i stary kontakt — wersja 3.3
+## Usunięcie starego kontaktu ze wszystkich podstron — 3.3.1
+
+Poprawka zastępuje zależność od 44 adresów i dokładnych hashy rozpoznaniem samego komponentu: charakterystycznego zdjęcia oraz treści kontaktowej. Testy obejmują WordPress `do_shortcode_tag`, bezpośredni filtr Divi `et_module_shortcode_output` oraz gotowe sekcje HTML. Liczniki modułów pozostają zachowane, a usuwany jest tylko kompletny blok; otaczający HTML pozostaje identyczny.
+
+Ponowiono pełny bazowy zestaw WordPress/Rank Math. **835 kontroli źródła i renderowania** obejmuje wszystkie 44 podstrony, w tym `/beczki-reklamowe/`, edycje sekcji, nowe adresy, wpisy i zachowanie zarejestrowanych filtrów po wyjątku. **367 kontroli HTTP** potwierdza także karty usług, 30 realizacji i natywne metadane Rank Math. **73 nowe kontrole syntetyczne** sprawdzają zmienione teksty, wspólne shortcode, Theme Builder, miniatury, WebP/AVIF, lazy loading, tła, zagnieżdżenia oraz precyzyjne granice HTML. Komentarze, skrypty i przykłady szablonów nie mogą powodować usuwania niezwiązanego bloku.
+
+**47 kontroli Chromium przy 320 i 1440 px** potwierdza brak całego bloku i jego zdjęcia w DOM oraz zachowanie sąsiednich sekcji, pozostałych kontaktów, trybów edytora i wyłączenia wyglądu. Testy korzystają z prawdziwego WordPressa i Rank Math; callbacki Divi są jawnymi odpowiednikami testowymi, a licencjonowany motyw nadal nie jest zainstalowany.
+
+Pierwszy pełny test przeglądarki wykrył dodatkowy rekord `rank_math_og_content_image` na nowym fixture z gotowym HTML. To pamięć podręczna zdjęcia podglądu linku tworzona przy pierwszym renderowaniu przez Rank Math. Runner otwiera teraz wszystkie nowe fixture przed wykonaniem ścisłej kopii porównawczej. Porównanie nadal obejmuje wszystkie wpisy i metadane bez wyjątków. Raport zachowuje nieudany przebieg i diagnozę; szczegóły wcześniejszej nieodtworzonej różnicy CLI opisano w raporcie.
+
+Bieżące dowody: [bazowa integracja](../tests/contact-cleanup-baseline-results.txt), [44 podstrony i katalogi](../tests/contact-cleanup-collections-results.txt), [rozpoznawanie, Chromium i baza](../tests/contact-cleanup-results.txt). Pakiet SEO, jego kontroler, silnik zapisu, CSS i zapytania galerii zachowują identyczne bajty względem 3.3.0. ZIP zawiera te same 28 dozwolonych plików, sprawdzonych bajt po bajcie i przez CRC. Nie wykonano zdalnej instalacji na yoona.pl.
+
+## Poprzednie wydanie: katalog usług, galeria i stary kontakt — wersja 3.3.0
 
 **743 kontrole źródła i renderowania** obejmują pomijanie powtarzanego bloku kontaktowego na wszystkich **44 rozpoznanych podstronach**, w oryginalnym źródle i po poprawkach SEO. Kontrola obejmuje 66 znanych hashy sekcji, dokładne zachowanie pozostałego wynikowego HTML i liczników modułów, bezpieczny fallback po edycji oraz usunięcie tymczasowego filtra po wyjątku. Pełne źródła są podstawiane wyłącznie do pamięci procesu CLI; nie trafiają do tabel WWW ani raportu.
 
@@ -84,12 +96,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.3.zip](../downloads/yoona-seo-v3.3.zip)
+Plik: [downloads/yoona-seo-v3.3.1.zip](../downloads/yoona-seo-v3.3.1.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-bbbc0a6dc1a936986d57a1d6f3cc66ff27dc7c9864e2038dd7fbcb15fd186496
+c1b2bb1385cf183ebdd1a8dec3c3f5045bccab3c3ae2c2deda80b31895dcd113
 ```
 
 SHA-256 dołączonego `content/changes.json`:

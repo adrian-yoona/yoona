@@ -191,8 +191,8 @@ Skrypt przyjmuje wyłącznie adres loopback i kontenery `yoona-seo-test-*`.
 Prywatny eksport znajduje się w `/tmp` kontenera CLI i jest usuwany po zakończeniu,
 również przy błędzie. Wszystkie 44 podstrony są sprawdzane w pamięci dla oryginalnych
 oraz zmienionych przez SEO sekcji kontaktowych. Sprawdzany jest dokładny wynik
-całego renderu poza usuwaną sekcją, pełne liczniki modułów i bezpieczne zachowanie
-zmienionych sekcji. Treści źródłowe nie są drukowane ani zapisywane do tabel WWW.
+całego renderu poza usuwaną sekcją i pełne liczniki modułów. Od poprawki 3.3.1
+zmienione atrybuty sekcji oraz nowe publiczne ścieżki również muszą usuwać stary kontakt. Treści źródłowe nie są drukowane ani zapisywane do tabel WWW.
 Osobna próba sprawdza wszystkie 153 źródła realizacji: 150 różnych zdjęć osadzonych
 w treści i trzy wpisy bez takiego zdjęcia; eksport nie zawiera metadanych załączników.
 Próby MariaDB i PHP porównują gramatykę adresów obrazów, w tym pierwszy atrybut
@@ -224,3 +224,31 @@ i routingu. Raport rozdziela te fazy i zapisuje porównania wszystkich wpisów o
 metadanych. `collections-regression-results.txt` zawiera pełny log bazowego rdzenia
 WordPress/Rank Math z tej sesji, a następnie 113 końcowych kontroli strony głównej
 w Chromium i dodatkowe porównanie bazy. Starsze raporty pozostają historyczne.
+
+
+## Usunięcie starego kontaktu na wszystkich podstronach — 3.3.1
+
+Na tej samej odizolowanej instalacji WordPressa:
+
+```bash
+bash tests/run-contact-cleanup.sh http://127.0.0.1:PORT NAZWA_KONTENERA_CLI NAZWA_KONTENERA_WWW
+```
+
+Test używa wyłącznie syntetycznej treści. Sprawdza publiczne strony i wpisy pod
+nowymi adresami, edytowane atrybuty i teksty, shortcode wspólnego komponentu,
+bezpośredni hook wyjściowy Divi, inny bieżący wpis Theme Builder, wczesne wykonanie
+shortcode i gotowy HTML. Obejmuje miniatury, WebP/AVIF, lazy loading, tło oraz
+zagnieżdżone sekcje. Komentarze, skrypty, szablony i cytowane przykłady HTML nie
+mogą stanowić dowodu widocznego zdjęcia. Samo zdjęcie, sam nagłówek ani elementy
+rozłożone pomiędzy różnymi sekcjami nie mogą usuwać pozostałej treści.
+
+Chromium sprawdza wynikowy DOM przy 320 i 1440 px, brak zdjęcia starego bloku,
+zachowanie sąsiednich sekcji, tryby edytora i wyłączenie wyglądu. Ostateczne
+porównanie obejmuje wszystkie rekordy wpisów i metadanych bez wyjątków.
+Licencjonowany motyw Divi nie jest dołączony; jego publiczny hook jest wywoływany
+bezpośrednio, a callbacki shortcode stanowią jawne testowe odpowiedniki.
+
+Nowe raporty: `contact-cleanup-baseline-results.txt` (pełna integracja WordPress/Rank Math),
+`contact-cleanup-collections-results.txt` (44 oryginały, SEO, edycje i HTTP)
+oraz `contact-cleanup-results.txt` (rozpoznawanie komponentu, Chromium i baza).
+Raporty poprzednich wersji pozostają niezmienione.

@@ -166,6 +166,20 @@ $ids = get_option('yoona_test_collection_ids');
 $fixture_id = (int) $ids['/plotki-ogrodki-piwne/'];
 $saved_post = get_post($fixture_id);
 $saved_query = $wp_query;
+$ordinary_render = static function () {
+    $disabled = array();
+    foreach (array('do_shortcode_tag' => 'filter_shortcode', 'et_module_shortcode_output' => 'filter_divi', 'the_content' => 'filter_content') as $hook => $method) {
+        $callback = array('Yoona_SEO_Content_Cleanup', $method);
+        $priority = has_filter($hook, $callback);
+        if ($priority !== false) {
+            foreach ($GLOBALS['wp_filter'][$hook]->callbacks[$priority] as $item) if ($item['function'] === $callback) $disabled[] = array($hook, $callback, $priority, $item['accepted_args']);
+            remove_filter($hook, $callback, $priority);
+        }
+    }
+    ob_start();
+    try { the_content(); return ob_get_contents(); }
+    finally { ob_end_clean(); foreach ($disabled as $item) add_filter($item[0], $item[1], $item[2], $item[3]); }
+};
 $set_context = static function ($path, $content, $type = 'page', $password = '', $status = 'publish') use ($fixture_id) {
     global $post, $wp_query;
     $record = get_post($fixture_id, ARRAY_A);
@@ -191,7 +205,7 @@ foreach ($data['removed_contact_sections'] as $path => $definition) {
             return $output;
         };
         add_filter('do_shortcode_tag', $capture, 100, 4);
-        ob_start(); the_content(); $ordinary = ob_get_clean();
+        $ordinary = $ordinary_render();
         remove_filter('do_shortcode_tag', $capture, 100);
         $counters = $GLOBALS['yoona_collection_counters'];
         ob_start(); Yoona_SEO_Content_Cleanup::the_content(); $cleaned = ob_get_clean();
@@ -208,17 +222,23 @@ foreach ($data['removed_contact_sections'] as $path => $definition) {
         $check($GLOBALS['yoona_collection_counters'] === $counters, 'Every shortcode/module executes with identical counters for variant ' . $variant . ': ' . $path);
         $changed = str_replace($known, substr_replace($known, 'edited-section', 40, 0), $content);
         $set_context($path, $changed);
-        ob_start(); the_content(); $expected = ob_get_clean();
+        $ordinary_edited = $ordinary_render();
+        $edited_counters = $GLOBALS['yoona_collection_counters'];
         ob_start(); Yoona_SEO_Content_Cleanup::the_content(); $actual = ob_get_clean();
-        $check($actual === $expected, 'An edited contact section is preserved by safe fallback for variant ' . $variant . ': ' . $path);
+        $check(!preg_match('/MASZ\s+PYTANIE/i', strip_tags($actual)) && strlen($actual) < strlen($ordinary_edited), 'Edited attributes no longer retain the repeated contact section for variant ' . $variant . ': ' . $path);
+        $check($GLOBALS['yoona_collection_counters'] === $edited_counters, 'Edited-section cleanup preserves every executed shortcode counter for variant ' . $variant . ': ' . $path);
     }
 }
 $sample = $records['/plotki-ogrodki-piwne/']['post_content'];
 foreach (array(array('/unlisted/', 'page', '', 'publish'), array('/plotki-ogrodki-piwne/', 'post', '', 'publish'), array('/plotki-ogrodki-piwne/', 'page', 'secret', 'publish'), array('/plotki-ogrodki-piwne/', 'page', '', 'draft'), array('/plotki-ogrodki-piwne/', 'page', '', 'private')) as $spec) {
     $set_context($spec[0], $sample, $spec[1], $spec[2], $spec[3]);
-    ob_start(); the_content(); $expected = ob_get_clean();
+    $expected = $ordinary_render();
     ob_start(); Yoona_SEO_Content_Cleanup::the_content(); $actual = ob_get_clean();
-    $check($actual === $expected, 'Unlisted/post/password/draft/private content remains untouched: ' . implode(':', $spec));
+    if ($spec[2] === '' && $spec[3] === 'publish') {
+        $check(!preg_match('/MASZ\s+PYTANIE/i', strip_tags($actual)) && strlen($actual) < strlen($expected), 'Public new routes and project posts remove the same repeated contact section: ' . implode(':', $spec));
+    } else {
+        $check($actual === $expected, 'Password/draft/private content remains protected and unchanged: ' . implode(':', $spec));
+    }
 }
 $resolved = array();
 $unresolved = array();
@@ -257,7 +277,7 @@ foreach ($cases as $label => $case) {
     $check(($image !== '') === $case[1] && $sql_match === $case[1], 'The actual MariaDB and PHP photo grammar agree: ' . $label);
 }
 $set_context('/plotki-ogrodki-piwne/', $sample);
-$callback_count = static function () { return isset($GLOBALS['wp_filter']['do_shortcode_tag']->callbacks[10]) ? count($GLOBALS['wp_filter']['do_shortcode_tag']->callbacks[10]) : 0; };
+$callback_count = static function () { return isset($GLOBALS['wp_filter']['do_shortcode_tag']) ? $GLOBALS['wp_filter']['do_shortcode_tag']->callbacks : array(); };
 $before_filters = $callback_count();
 $throw = static function ($output, $tag) { if ($tag === 'et_pb_section') throw new RuntimeException('Deliberate local render exception.'); return $output; };
 add_filter('do_shortcode_tag', $throw, 5, 2);
@@ -265,7 +285,15 @@ ob_start();
 try { Yoona_SEO_Content_Cleanup::the_content(); } catch (RuntimeException $error) { /* Expected local test failure. */ }
 ob_end_clean();
 remove_filter('do_shortcode_tag', $throw, 5);
-$check($callback_count() === $before_filters, 'The temporary cleanup filter is removed even after another shortcode callback throws.');
+$check($callback_count() === $before_filters, 'All registered cleanup and unrelated filters remain intact after another shortcode callback throws.');
+foreach (array('do_shortcode_tag' => array('filter_shortcode', 1000, 4), 'et_module_shortcode_output' => array('filter_divi', 1000, 3), 'the_content' => array('filter_content', PHP_INT_MAX, 1)) as $hook => $definition) {
+    $callback = array('Yoona_SEO_Content_Cleanup', $definition[0]);
+    $priority = has_filter($hook, $callback); $accepted = false;
+    if ($priority !== false) foreach ($GLOBALS['wp_filter'][$hook]->callbacks[$priority] as $item) if ($item['function'] === $callback) $accepted = $item['accepted_args'];
+    $check($priority === $definition[1] && $accepted === $definition[2], 'The registered ' . $hook . ' cleanup callback preserves its priority and accepted arguments after a render exception.');
+}
+ob_start(); the_content(); $after_exception = ob_get_clean();
+$check(!preg_match('/MASZ\s+PYTANIE/i', strip_tags($after_exception)), 'The next ordinary render still removes the contact block after a previous callback exception.');
 wp_cache_delete($fixture_id, 'post_meta');
 wp_cache_delete($fixture_id, 'posts'); $post = $saved_post; $wp_query = $saved_query; wp_reset_postdata();
 $check($snapshot() === $before, 'All private original and SEO checks leave every stored post/meta row unchanged.');

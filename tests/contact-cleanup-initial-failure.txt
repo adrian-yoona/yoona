@@ -1,0 +1,23 @@
+Initial focused test observation — 2026-10-17
+
+The first synthetic cleanup run reached the final strict posts/postmeta snapshot
+assertion after passing its semantic removal, preservation, callback and counter
+checks. That final assertion failed:
+
+PASS Contact cleanup Earlier the_content shortcode rendering cannot preserve the retired block.
+PASS Contact cleanup Later rendered typography and email transformations cannot preserve the retired block.
+Error: Contact cleanup: Synthetic render checks leave every stored post and metadata row unchanged.
+
+The original full log was accidentally replaced when the focused runner was
+started again at the same output path. The three lines above were retained from
+the tool output. The first before-snapshot was held in memory only; the changed
+row/column cannot be identified retrospectively. No other process was reported
+to have changed the disposable database. The initial difference remains
+unexplained and is not classified as a product fix or a passing assertion.
+
+Diagnostics now persist the complete exact private-phase pre-snapshot to the
+local test database and report only differing table/row/column identifiers, with
+values withheld. No rows, columns or metadata keys are excluded from equality.
+Without a plugin-code change, the diagnostic private rerun and a fresh focused
+prepare/private run both passed all 73 assertions, including exact equality of
+every post and metadata row. Final run output is retained separately.

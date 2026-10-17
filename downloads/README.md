@@ -1,8 +1,8 @@
-# Yoona 3.3 — oferta i realizacje
+# Yoona 3.3.1 — oferta i realizacje
 
-**[Pobierz gotową wtyczkę yoona-seo-v3.3.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.zip)**.
+**[Pobierz gotową wtyczkę yoona-seo-v3.3.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.1.zip)**.
 
-Pełna Oferta ma zdjęciowe karty usług w stylu strony głównej. Nasze realizacje pokazują po 30 zdjęć z tytułami na stronę w trzech kolumnach na komputerze. Oba widoki mają szeroki układ z równymi marginesami. Stary blok Masz pytanie? Kontakt ze zdjęciem pokrętła znika z 44 rozpoznanych podstron. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
+Pełna Oferta ma zdjęciowe karty usług w stylu strony głównej. Nasze realizacje pokazują po 30 zdjęć z tytułami na stronę w trzech kolumnach na komputerze. Oba widoki mają szeroki układ z równymi marginesami. Stary blok Masz pytanie? Kontakt ze zdjęciem pokrętła znika ze wszystkich publicznych podstron, również po edycji lub skopiowaniu sekcji. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
 
 Wersja 3.2 łączy tytuł i zdjęcie w jeden duży nagłówek 41 podstron ofertowych. Dodaje krótki opis, przycisk wyceny, przejście do treści i dopracowany widok telefonu. Dalsza treść Divi pozostaje zachowana. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
 
@@ -12,7 +12,7 @@ Wersja 3.1 poprawia czytelność zdjęcia w nagłówku, wprowadza lokalny Manrop
 
 1. Wykonaj kopię witryny.
 2. **WordPress → Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. **Odśwież Narzędzia → Yoona SEO**, sprawdź wersję **3.3.0** i kliknij **Odśwież wygląd i wyczyść cache**. Otwórz Pełną Ofertę i Nasze realizacje. Jeśli wygląd został wcześniej wyłączony, włącz go w tym panelu.
+3. **Odśwież Narzędzia → Yoona SEO**, sprawdź wersję **3.3.1** i kliknij **Odśwież wygląd i wyczyść cache**. Otwórz Pełną Ofertę i Nasze realizacje. Jeśli wygląd został wcześniej wyłączony, włącz go w tym panelu.
 
 Gotowe poprawki SEO dla 200 pozycji oraz 896 modułów Divi pozostają w pakiecie. Ich zapis uruchamia się osobno: **Użyj pakietu dołączonego do wtyczki → Zaznacz wszystkie gotowe → Wgraj zmiany na zaznaczone strony**. Pozostaw kartę otwartą do zakończenia. Panel pokaże, które wartości już są zapisane.
 
