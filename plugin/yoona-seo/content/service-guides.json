@@ -1,0 +1,2165 @@
+{
+  "/litery-3d/": {
+    "title": "Litery 3D i logotypy przestrzenne",
+    "lead": "Litery 3D nadają nazwie firmy czytelną, przestrzenną formę. Projektujemy, wykonujemy i montujemy oznakowanie z podświetleniem lub bez — dla klientów z Olsztyna, Ostródy i regionu.",
+    "overview": "Na elewacji liczą się proporcje i widoczność z ulicy, a w recepcji także detale oglądane z bliska. Dlatego materiał, grubość i sposób mocowania dobieramy do miejsca ekspozycji. Możemy przygotować cały logotyp albo sam napis. W wersji świetlnej ustalamy, czy światło ma przechodzić przez lico, czy tworzyć poświatę za literami. Wizualizacja pomaga ocenić efekt przed rozpoczęciem produkcji.",
+    "materials": [
+      "Aluminium i plexi do przestrzennych znaków oraz liter z podświetleniem.",
+      "PCV do frezowanych napisów i elementów identyfikacji.",
+      "Styrodur, także z licem z plexi, gdy ważna jest przestrzenna forma."
+    ],
+    "applications": [
+      "Nazwy firm na elewacjach i nad wejściem.",
+      "Logotypy w recepcjach, biurach i showroomach.",
+      "Napisy do punktów usługowych oraz ekspozycji."
+    ],
+    "process": [
+      "Analizujemy logo, wielkość napisu, odległość oglądania i zdjęcie miejsca montażu.",
+      "Przygotowujemy układ oraz ustalamy materiał, kolor, podświetlenie i sposób mocowania.",
+      "Po akceptacji wykonujemy elementy i realizujemy uzgodniony zakres montażu."
+    ],
+    "pricing": [
+      "Liczba znaków, ich wielkość oraz złożoność logotypu.",
+      "Materiał, głębokość liter i rodzaj podświetlenia.",
+      "Dostęp do elewacji, podłoże i przygotowanie mocowania."
+    ],
+    "quote": [
+      "Logo w pliku wektorowym i planowana szerokość napisu.",
+      "Zdjęcie elewacji lub ściany z orientacyjnymi wymiarami.",
+      "Lokalizacja, oczekiwany efekt i informacja o dostępności zasilania."
+    ],
+    "faq": [
+      {
+        "q": "Czy litery 3D muszą być podświetlane?",
+        "a": "Nie. Wykonujemy również litery bez podświetlenia. Wybór zależy od pory działania lokalu, istniejącego oświetlenia oraz wyglądu, jaki chcesz uzyskać."
+      },
+      {
+        "q": "Czy można zamówić sam logotyp do wnętrza?",
+        "a": "Tak. Na podstawie pliku i zdjęcia ściany dobierzemy formę logotypu oraz ustalimy sposób jego mocowania."
+      }
+    ],
+    "related": [
+      "/reklamy-swietlne/",
+      "/kasetony-swietlne/",
+      "/frezowanie-cnc/"
+    ]
+  },
+  "/reklamy-swietlne/": {
+    "title": "Reklamy świetlne dla firm",
+    "lead": "Reklama świetlna ułatwia odnalezienie lokalu po zmroku i porządkuje jego oznakowanie. YOONA przygotowuje projekt, produkcję oraz montaż reklam w Olsztynie i Ostródzie.",
+    "overview": "Punktem wyjścia jest miejsce: elewacja sklepu, wejście do biura, witryna lub wnętrze restauracji. Do niego dobieramy litery LED, kaseton, neon albo większy nośnik. Ocenimy czytelność logo, tło oraz miejsce prowadzenia instalacji. Zamiast powiększać każdy element projektu, ustalamy jeden wyraźny komunikat. Dzięki temu oznakowanie zachowuje dobry wygląd także w dzień, kiedy podświetlenie nie jest jego głównym atutem.",
+    "materials": [
+      "Litery przestrzenne z podświetleniem licowym lub poświatą.",
+      "Kasetony z materiałem lica dopasowanym do grafiki.",
+      "Neony, ledony oraz podświetlane pylony i totemy."
+    ],
+    "applications": [
+      "Oznakowanie sklepów i lokali przy ulicy.",
+      "Identyfikacja biurowców, hoteli i punktów usługowych.",
+      "Świetlne logo oraz napisy we wnętrzach."
+    ],
+    "process": [
+      "Ustalamy kierunek oglądania, wielkość reklamy, godziny działania i miejsce montażu.",
+      "Dobieramy technologię oraz przygotowujemy projekt do akceptacji przed produkcją.",
+      "Wykonujemy reklamę i uzgadniamy mocowanie oraz przygotowanie zasilania na miejscu."
+    ],
+    "pricing": [
+      "Rodzaj nośnika, format i kształt elementów.",
+      "Materiał lica, sposób świecenia i zakres instalacji.",
+      "Warunki montażu, dostęp do reklamy oraz podłoże."
+    ],
+    "quote": [
+      "Logo, zdjęcie budynku i proponowane miejsce reklamy.",
+      "Orientacyjne wymiary oraz adres realizacji.",
+      "Informacja o zasilaniu i planowanym zakresie prac."
+    ],
+    "faq": [
+      {
+        "q": "Co wybrać: kaseton czy litery świetlne?",
+        "a": "Kaseton pozwala umieścić grafikę na wspólnym tle, a litery zachowują osobne kształty znaków. Dobór zależy od logo, elewacji i oczekiwanego efektu."
+      },
+      {
+        "q": "Czy przed wyceną potrzebny jest gotowy projekt?",
+        "a": "Nie. Wystarczą logo, zdjęcie miejsca i orientacyjny format. Ustalimy, jakie dane trzeba uzupełnić, aby przygotować konkretną propozycję."
+      }
+    ],
+    "related": [
+      "/litery-3d/",
+      "/kasetony-swietlne/",
+      "/ledony/"
+    ]
+  },
+  "/tablice-olsztyn/": {
+    "title": "Tablice reklamowe i informacyjne",
+    "lead": "Wykonujemy tablice reklamowe na budynki, ogrodzenia i konstrukcje wolnostojące. Dobieramy podłoże, format oraz sposób oznakowania do lokalizacji w Olsztynie, Ostródzie i okolicach.",
+    "overview": "Dobra tablica ma przekazać najważniejszą informację bez szukania jej w drobnym tekście. Projekt zaczynamy od tego, skąd odbiorca zobaczy reklamę i ile czasu będzie miał na jej odczytanie. Inaczej układamy szyld nad wejściem, inaczej tablicę przy dojeździe. Uwzględniamy również podłoże, planowany okres ekspozycji i możliwość późniejszej aktualizacji treści, aby forma odpowiadała sposobowi korzystania z oznakowania.",
+    "materials": [
+      "Sztywne płyty reklamowe dobierane do formatu i podłoża.",
+      "Drukowana lub wycinana grafika dopasowana do projektu.",
+      "Mocowanie do ściany albo uzgodnionej konstrukcji."
+    ],
+    "applications": [
+      "Tablice z nazwą firmy, ofertą i danymi kontaktowymi.",
+      "Oznakowanie wjazdów, parkingów i punktów obsługi.",
+      "Informacje przy inwestycjach oraz wewnątrz obiektów."
+    ],
+    "process": [
+      "Zbieramy treści, wymiary i zdjęcia miejsca planowanej ekspozycji.",
+      "Ustalamy materiał, czytelny układ informacji oraz sposób mocowania.",
+      "Po zatwierdzeniu projektu produkujemy tablicę i realizujemy uzgodniony montaż."
+    ],
+    "pricing": [
+      "Powierzchnia tablicy, rodzaj płyty i liczba egzemplarzy.",
+      "Zakres projektu graficznego oraz wykończenie nadruku.",
+      "Konstrukcja, wysokość i dostęp do miejsca instalacji."
+    ],
+    "quote": [
+      "Treść tablicy oraz logo w możliwie dobrej jakości.",
+      "Szerokość, wysokość i zdjęcie miejsca montażu.",
+      "Adres, termin i informacja, czy istnieje gotowa konstrukcja."
+    ],
+    "faq": [
+      {
+        "q": "Czy można wymienić tylko grafikę na istniejącej tablicy?",
+        "a": "Możliwość aktualizacji zależy od stanu i rodzaju podłoża. Prześlij zdjęcia obecnej tablicy, a ocenimy zakres prac przed przygotowaniem wyceny."
+      },
+      {
+        "q": "Czy tablica może wskazywać drogę do firmy?",
+        "a": "Tak. Przy tablicy kierunkowej szczególnie ważne są krótka treść, czytelna strzałka i dobrze wybrane miejsce ekspozycji."
+      }
+    ],
+    "related": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/",
+      "/tablice-unijne/"
+    ]
+  },
+  "/drukarnia-wielkoformatowa/": {
+    "title": "Druk wielkoformatowy",
+    "lead": "Drukujemy banery reklamowe, siatki mesh i grafiki na foliach. Nasza drukarnia wielkoformatowa obsługuje firmy z Olsztyna i Ostródy — od przygotowania projektu po uzgodniony montaż.",
+    "overview": "Wielki format wymaga czegoś więcej niż powiększenia małego projektu. Rozdzielczość zdjęć, kontrast i wielkość napisów dobieramy do rzeczywistej odległości oglądania. Materiał zależy od tego, czy reklama trafi na ogrodzenie, rusztowanie, szybę czy inną powierzchnię. Przed drukiem ustalamy również wykończenie i sposób mocowania. Pozwala to przygotować wydruk dopasowany do miejsca, zamiast szukać sposobu instalacji dopiero po jego wykonaniu.",
+    "materials": [
+      "Baner PVC do wielu rodzajów ekspozycji reklamowej.",
+      "Perforowana siatka mesh do wybranych zastosowań wielkoformatowych.",
+      "Folie samoprzylepne do oklejania i oznakowania powierzchni."
+    ],
+    "applications": [
+      "Kampanie na elewacjach, ogrodzeniach i rusztowaniach.",
+      "Grafiki do witryn, lokali oraz punktów sprzedaży.",
+      "Oznakowanie wydarzeń i sezonowe materiały promocyjne."
+    ],
+    "process": [
+      "Sprawdzamy przeznaczenie, format reklamy i jakość materiałów graficznych.",
+      "Dobieramy podłoże, przygotowujemy plik oraz uzgadniamy wykończenie wydruku.",
+      "Drukujemy i przekazujemy materiał albo wykonujemy ustalony zakres aplikacji."
+    ],
+    "pricing": [
+      "Rodzaj podłoża, powierzchnia i liczba wydruków.",
+      "Przygotowanie projektu, obróbka plików oraz wykończenie.",
+      "Zakres dostawy, aplikacji lub prac montażowych."
+    ],
+    "quote": [
+      "Docelowy format, liczbę sztuk i miejsce ekspozycji.",
+      "Gotowy plik albo logo, zdjęcia i treści do projektu.",
+      "Informację o sposobie mocowania oraz potrzebnym terminie."
+    ],
+    "faq": [
+      {
+        "q": "Czy każde zdjęcie nadaje się do dużego wydruku?",
+        "a": "Nie zawsze. Ocenimy plik w odniesieniu do formatu i odległości oglądania. Samo zwiększenie rozdzielczości nie odtworzy brakujących szczegółów zdjęcia."
+      },
+      {
+        "q": "Czy można zamówić sam druk z gotowego pliku?",
+        "a": "Tak. Przed produkcją ustalimy wymagania pliku, materiał i wykończenie. Jeżeli projekt wymaga korekty, określimy jej zakres."
+      }
+    ],
+    "related": [
+      "/banery/",
+      "/siatka-mesh/",
+      "/naklejki/"
+    ]
+  },
+  "/oklejanie-samochodow/": {
+    "title": "Oklejanie samochodów reklamą",
+    "lead": "Projektujemy i wykonujemy reklamę na samochodach osobowych, dostawczych oraz flotach. Oklejanie samochodów w YOONA obejmuje dobór folii, przygotowanie grafiki i aplikację w Olsztynie lub Ostródzie.",
+    "overview": "Na samochodzie odbiorca ma zwykle chwilę na odczytanie przekazu. Dlatego eksponujemy nazwę, najważniejszą usługę i łatwy kontakt, zamiast wypełniać karoserię całą ofertą. Projekt dopasowujemy do przetłoczeń, klamek, szyb i koloru nadwozia. Możesz wybrać same napisy, częściowe oklejenie albo szerszą grafikę. Przed aplikacją ustalamy stan powierzchni, przygotowanie pojazdu oraz termin wyłączenia go z codziennej pracy.",
+    "materials": [
+      "Folie do liter i znaków wycinanych ploterowo.",
+      "Folie z nadrukiem dobierane do kształtu nadwozia.",
+      "Laminowanie wydruków zależnie od materiału i zastosowania."
+    ],
+    "applications": [
+      "Samochody firmowe i pojazdy ekip usługowych.",
+      "Auta dostawcze oraz spójne oznakowanie floty.",
+      "Kampanie wymagające częściowej lub większej grafiki."
+    ],
+    "process": [
+      "Oglądamy zdjęcia auta i ustalamy zakres oklejenia oraz najważniejszy komunikat.",
+      "Przygotowujemy wizualizację, dobieramy materiał i akceptujemy projekt przed drukiem.",
+      "Uzgadniamy przygotowanie samochodu, wykonujemy aplikację i przekazujemy zalecenia pielęgnacji."
+    ],
+    "pricing": [
+      "Model auta, wielkość grafiki i trudność aplikacji.",
+      "Rodzaj folii, laminowanie oraz przygotowanie projektu.",
+      "Usuwanie starej reklamy i stan powierzchni pojazdu."
+    ],
+    "quote": [
+      "Markę, model, rocznik oraz zdjęcia auta z kilku stron.",
+      "Logo, dane kontaktowe i wybrany zakres oklejenia.",
+      "Liczbę pojazdów, stan obecnej grafiki i oczekiwany termin."
+    ],
+    "faq": [
+      {
+        "q": "Czy trzeba oklejać cały samochód?",
+        "a": "Nie. Często wystarczają czytelne napisy i logo na wybranych elementach. Zakres dobierzemy do nadwozia, celu reklamy oraz budżetu."
+      },
+      {
+        "q": "Czy okleicie kilka różnych modeli jedną grafiką?",
+        "a": "Możemy zachować wspólny styl floty, ale układ dopasowujemy osobno do każdego nadwozia. Przetłoczenia i podziały elementów wpływają na rozmieszczenie treści."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodu-cena/",
+      "/oklejanie-samochodow-osobowych/",
+      "/mobilna-reklama/"
+    ]
+  },
+  "/zmiana-koloru-samochodu/": {
+    "title": "Zmiana koloru samochodu folią",
+    "lead": "Folia pozwala zmienić wygląd samochodu i dobrać wykończenie do własnego stylu. W YOONA omawiamy zakres oklejenia oraz dobór materiału z klientami z Olsztyna i Ostródy.",
+    "overview": "Możesz zmienić kolor całego nadwozia albo zaakcentować wybrane elementy, na przykład dach lub lusterka. Efekt zależy od wybranej folii, geometrii karoserii oraz stanu lakieru. Przed rozpoczęciem prac ustalamy oczekiwany zakres, wygląd krawędzi i elementy wymagające dodatkowego przygotowania. Folia nie usuwa wgnieceń ani usterek powłoki, dlatego oględziny samochodu są ważną częścią planowania realizacji i rzetelnej wyceny.",
+    "materials": [
+      "Folie kolorowe przeznaczone do zmiany wyglądu nadwozia.",
+      "Warianty matowe, błyszczące lub inne dostępne wykończenia.",
+      "Materiał dobierany do elementów i kształtu konkretnego auta."
+    ],
+    "applications": [
+      "Całościowa zmiana wyglądu samochodu osobowego.",
+      "Kontrastowy dach, lusterka i wybrane detale.",
+      "Spójna kolorystyka aut wykorzystywanych przez firmę."
+    ],
+    "process": [
+      "Oglądamy pojazd, omawiamy stan lakieru i zakres planowanej zmiany.",
+      "Wybieramy folię, potwierdzamy wykończenie oraz przygotowanie auta do aplikacji.",
+      "Wykonujemy oklejenie i ustalamy zasady mycia oraz dalszej pielęgnacji."
+    ],
+    "pricing": [
+      "Wielkość auta, kształt elementów i zakres oklejenia.",
+      "Wybrana folia, jej wykończenie i zużycie materiału.",
+      "Stan powierzchni, demontaże i usuwanie wcześniejszej folii."
+    ],
+    "quote": [
+      "Markę, model, rocznik i aktualne zdjęcia samochodu.",
+      "Oczekiwany kolor, wykończenie i listę oklejanych elementów.",
+      "Informację o naprawach lakierniczych oraz dotychczasowej folii."
+    ],
+    "faq": [
+      {
+        "q": "Czy folia zamaskuje uszkodzenia lakieru?",
+        "a": "Nierówności i uszkodzenia mogą pozostać widoczne, a słaba powłoka utrudnia aplikację. Stan podłoża oceniamy przed przyjęciem ostatecznego zakresu prac."
+      },
+      {
+        "q": "Czy zdjęcie koloru wystarczy do wyboru folii?",
+        "a": "Zdjęcie pomaga wskazać kierunek, ale ekran i oświetlenie zmieniają odbiór barwy. Ostateczny wariant warto potwierdzić na dostępnym wzorniku."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodow/",
+      "/oklejanie-samochodu-cena/",
+      "/oklejanie-samochodow-osobowych/"
+    ]
+  },
+  "/oklejanie-szyb/": {
+    "title": "Oklejanie szyb i witryn",
+    "lead": "Oklejamy witryny sklepowe, przeszklenia biur i szyby lokali usługowych. W Olsztynie oraz Ostródzie przygotowujemy projekt, druk i aplikację folii dopasowanej do funkcji przeszklenia.",
+    "overview": "Witryna może pokazywać ofertę, oznaczać wejście lub ograniczać wgląd do wnętrza. Najpierw ustalamy, które z tych zadań jest najważniejsze i ile światła ma pozostać w lokalu. Inaczej projektujemy grafikę na całej szybie, a inaczej dyskretne logo na drzwiach. Uwzględniamy podziały przeszklenia, widoczność klamek i kierunek oglądania. Dobór folii konsultujemy z rodzajem szyby oraz warunkami ekspozycji.",
+    "materials": [
+      "Folie ploterowe do napisów, godzin otwarcia i logotypów.",
+      "Folie z nadrukiem oraz perforowana folia OWV.",
+      "Folie szronione do dekoracji i wydzielania przestrzeni."
+    ],
+    "applications": [
+      "Witryny sklepów, restauracji oraz salonów usługowych.",
+      "Sale spotkań, gabinety i szklane ścianki biurowe.",
+      "Logo, informacje wejściowe oraz okresowe promocje."
+    ],
+    "process": [
+      "Zbieramy wymiary każdej szyby, zdjęcia i założenia dotyczące prywatności.",
+      "Wybieramy folię oraz przygotowujemy projekt uwzględniający podziały witryny.",
+      "Po akceptacji produkujemy grafikę i wykonujemy aplikację na przygotowanym szkle."
+    ],
+    "pricing": [
+      "Łączna powierzchnia, liczba szyb i rodzaj folii.",
+      "Druk, wycinanie grafiki oraz przygotowanie projektu.",
+      "Dostęp, wysokość montażu i usuwanie starego oklejenia."
+    ],
+    "quote": [
+      "Zdjęcie całej witryny i wymiary poszczególnych szyb.",
+      "Logo, treść oraz oczekiwany stopień zasłonięcia wnętrza.",
+      "Adres i informację o starej folii lub ograniczeniach dostępu."
+    ],
+    "faq": [
+      {
+        "q": "Czy folia OWV zapewnia prywatność również wieczorem?",
+        "a": "Efekt zależy od różnicy oświetlenia po obu stronach szyby. Przy mocno oświetlonym wnętrzu nie należy zakładać takiej samej prywatności jak za dnia."
+      },
+      {
+        "q": "Czy można wykonać sam napis na drzwiach?",
+        "a": "Tak. Logo, godziny otwarcia i dane kontaktowe mogą być wycięte z folii bez zakrywania całego przeszklenia."
+      }
+    ],
+    "related": [
+      "/naklejki/",
+      "/szyldy/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/reklama-zewnetrzna/": {
+    "title": "Reklama zewnętrzna od projektu do montażu",
+    "lead": "Reklama zewnętrzna powinna pasować do budynku i pomagać znaleźć Twoją firmę. Projektujemy oraz wykonujemy oznakowanie dla przedsiębiorstw z Olsztyna, Ostródy i Warmii i Mazur.",
+    "overview": "Łączymy różne nośniki w spójną całość: szyld nad wejściem, tablicę przy wjeździe, oznakowanie witryny czy reklamę świetlną. Dzięki temu nazwa, kolory i sposób komunikacji pozostają czytelne na całej drodze klienta. Dobór zaczynamy od lokalizacji, widoczności i zakresu informacji. Przy planowaniu montażu uwzględniamy podłoże oraz wymagania dotyczące danego miejsca, zamiast wybierać technologię wyłącznie na podstawie zdjęcia inspiracyjnego.",
+    "materials": [
+      "Szyldy, tablice i banery dopasowane do ekspozycji.",
+      "Litery 3D oraz kasetony z podświetleniem lub bez.",
+      "Pylony, totemy i oznakowanie kierunkowe dla obiektów."
+    ],
+    "applications": [
+      "Nowe siedziby, sklepy i lokale usługowe.",
+      "Ujednolicenie oznakowania kilku punktów firmy.",
+      "Odświeżenie elewacji i zmiana identyfikacji marki."
+    ],
+    "process": [
+      "Analizujemy zdjęcia obiektu, drogę dojścia klienta i obecne oznakowanie.",
+      "Proponujemy zestaw nośników, projekt oraz zakres wykonania i montażu.",
+      "Po akceptacji produkujemy elementy i ustalamy kolejność prac na miejscu."
+    ],
+    "pricing": [
+      "Liczba nośników, wymiary oraz wybrane technologie wykonania.",
+      "Projekt identyfikacji, oświetlenie i przygotowanie konstrukcji.",
+      "Warunki instalacji oraz ewentualne usunięcie starych reklam."
+    ],
+    "quote": [
+      "Zdjęcia budynku, wejść i miejsca planowanej reklamy.",
+      "Logo, opis działalności i najważniejsze informacje dla klienta.",
+      "Adres, orientacyjny zakres oraz termin uruchomienia lokalu."
+    ],
+    "faq": [
+      {
+        "q": "Czy mogę zamówić całe oznakowanie firmy w jednym miejscu?",
+        "a": "Tak. Ustalimy wspólny projekt i zakres poszczególnych elementów, aby szyld, witryna i tablice tworzyły spójną identyfikację."
+      },
+      {
+        "q": "Czy montaż reklamy wymaga zgód?",
+        "a": "Zależy to od lokalizacji, obiektu i rodzaju nośnika. Przed realizacją należy sprawdzić właściwe zasady oraz uzgodnienia z właścicielem lub zarządcą."
+      }
+    ],
+    "related": [
+      "/szyldy/",
+      "/reklamy-swietlne/",
+      "/tablice-olsztyn/"
+    ]
+  },
+  "/szyldy/": {
+    "title": "Szyldy reklamowe dla lokali i firm",
+    "lead": "Szyld przedstawia firmę już przy pierwszym kontakcie z budynkiem. YOONA projektuje, wykonuje i montuje szyldy dla sklepów, biur oraz gastronomii w Olsztynie i Ostródzie.",
+    "overview": "Najważniejsze są nazwa, charakter działalności i łatwe odnalezienie wejścia. Projektujemy szyldy płaskie, przestrzenne i podświetlane, zależnie od logo oraz wyglądu elewacji. Sprawdzamy, z jakiej strony przychodzą klienci i czy oznakowanie ma działać po zmroku. Forma może nawiązywać do wnętrza lokalu, ale musi pozostać czytelna na tle budynku. Wspólnie ustalamy również sposób mocowania i dostępne miejsce.",
+    "materials": [
+      "Tablice z grafiką na sztywnym podłożu.",
+      "Litery i logotypy przestrzenne o indywidualnym kształcie.",
+      "Kasetony oraz rozwiązania podświetlane do uzgodnionych zastosowań."
+    ],
+    "applications": [
+      "Oznakowanie wejścia do sklepu i punktu usługowego.",
+      "Nazwy restauracji, kawiarni oraz biur.",
+      "Szyldy kierunkowe pomagające odnaleźć lokal."
+    ],
+    "process": [
+      "Omawiamy nazwę firmy, identyfikację wizualną i warunki na elewacji.",
+      "Dobieramy typ szyldu, proporcje, materiał oraz ewentualne podświetlenie.",
+      "Zatwierdzamy projekt, wykonujemy oznakowanie i realizujemy uzgodniony zakres montażu."
+    ],
+    "pricing": [
+      "Format, materiał i liczba elementów szyldu.",
+      "Rodzaj grafiki, efekt przestrzenny oraz oświetlenie.",
+      "Wysokość, podłoże i dostęp do miejsca montażu."
+    ],
+    "quote": [
+      "Logo, nazwę firmy i krótki opis działalności.",
+      "Zdjęcie elewacji z wymiarem dostępnej przestrzeni.",
+      "Adres oraz informację o istniejącym mocowaniu i zasilaniu."
+    ],
+    "faq": [
+      {
+        "q": "Czy potrzebuję podświetlanego szyldu?",
+        "a": "Warto go rozważyć, jeśli lokal obsługuje klientów po zmroku lub znajduje się w słabiej oświetlonym miejscu. W innych warunkach sprawdzi się również szyld bez podświetlenia."
+      },
+      {
+        "q": "Czy można dopasować szyld do identyfikacji sieci?",
+        "a": "Tak. Prześlij księgę znaku lub wytyczne marki. Układ i wykonanie dostosujemy do dostępnego miejsca na konkretnym budynku."
+      }
+    ],
+    "related": [
+      "/litery-3d/",
+      "/kasetony-swietlne/",
+      "/tablice-olsztyn/"
+    ]
+  },
+  "/banery/": {
+    "title": "Banery reklamowe na wymiar",
+    "lead": "Projektujemy, drukujemy i montujemy banery reklamowe do kampanii, oznakowania firm i promocji wydarzeń. Dobieramy materiał oraz wykończenie do miejsca ekspozycji w Olsztynie i Ostródzie.",
+    "overview": "Baner ma przekazać jedną wyraźną wiadomość z odpowiedniej odległości. Dlatego porządkujemy tekst, wybieramy kontrast i dopasowujemy proporcje grafiki do docelowego formatu. Materiał oraz rozmieszczenie mocowań ustalamy z uwzględnieniem podłoża i warunków na miejscu. Na ogrodzeniu, ścianie i konstrukcji reklamowej potrzebne mogą być różne rozwiązania. Przed drukiem potwierdzamy wymiary, aby gotowa reklama pasowała do przygotowanej przestrzeni.",
+    "materials": [
+      "Baner PVC dobierany do planowanej ekspozycji.",
+      "Siatka mesh jako wariant dla wybranych lokalizacji.",
+      "Wykończenie krawędzi i oczkowanie zgodnie ze sposobem mocowania."
+    ],
+    "applications": [
+      "Reklama na ogrodzeniach i przy siedzibie firmy.",
+      "Promocje sklepów, otwarcia lokali i wydarzenia.",
+      "Oznakowanie inwestycji oraz ekspozycje sezonowe."
+    ],
+    "process": [
+      "Określamy wymiary, lokalizację i najważniejszą treść reklamy.",
+      "Przygotowujemy projekt lub sprawdzamy plik oraz uzgadniamy materiał i wykończenie.",
+      "Drukujemy baner, przygotowujemy mocowania i realizujemy ustalony zakres dostawy lub montażu."
+    ],
+    "pricing": [
+      "Rodzaj materiału, powierzchnia i nakład banerów.",
+      "Projekt graficzny oraz sposób wykończenia krawędzi.",
+      "Warunki montażu i przygotowanie istniejącej konstrukcji."
+    ],
+    "quote": [
+      "Szerokość, wysokość i liczbę potrzebnych egzemplarzy.",
+      "Projekt albo logo, tekst i materiały graficzne.",
+      "Zdjęcie miejsca oraz informację o planowanym sposobie montażu."
+    ],
+    "faq": [
+      {
+        "q": "Czy baner powinien być tak duży jak całe ogrodzenie?",
+        "a": "Wymiar dobieramy do pola montażowego i konstrukcji. Warto zostawić miejsce na prawidłowe napięcie oraz mocowania, zamiast mierzyć wyłącznie powierzchnię grafiki."
+      },
+      {
+        "q": "Czy mogę zamówić baner bez projektu?",
+        "a": "Tak. Prześlij treść, logo i oczekiwany format. Przygotowanie projektu ujmiemy w zakresie wyceny przed uruchomieniem druku."
+      }
+    ],
+    "related": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/",
+      "/reklama-na-rusztowaniu/"
+    ]
+  },
+  "/beczki-reklamowe/": {
+    "title": "Beczki reklamowe z logo",
+    "lead": "Wykonujemy beczki reklamowe stalowe i drewniane do lokali, sklepów oraz stref eventowych. Mogą pełnić funkcję stołów, siedzisk lub ekspozytorów z indywidualną grafiką marki.",
+    "overview": "Beczka reklamowa łączy widoczne logo z praktycznym wyposażeniem przestrzeni. Dobór konstrukcji i wykończenia zaczynamy od tego, czy ma służyć do spotkań przy blacie, prezentacji produktu czy urządzenia strefy odpoczynku. Projekt obejmuje nie tylko oznakowanie, lecz także jego położenie względem użytkownika. Zamówienia omawiamy z klientami z Olsztyna, Ostródy i innych miejscowości, ustalając liczbę elementów oraz warunki ich późniejszego użytkowania.",
+    "materials": [
+      "Beczki stalowe znakowane zgodnie z projektem marki.",
+      "Beczki drewniane do uzgodnionych aranżacji i ekspozycji.",
+      "Blaty, siedziska i grafika dopasowane do funkcji produktu."
+    ],
+    "applications": [
+      "Wyposażenie ogródków gastronomicznych oraz stref chillout.",
+      "Stoły i elementy identyfikacji podczas wydarzeń.",
+      "Ekspozycja produktów w sklepach i lokalach."
+    ],
+    "process": [
+      "Ustalamy funkcję beczki, miejsce użytkowania i liczbę potrzebnych sztuk.",
+      "Dobieramy wariant, kolorystykę oraz rozmieszczenie logo i dodatkowego wyposażenia.",
+      "Po akceptacji przygotowujemy zamówienie i uzgadniamy jego przekazanie."
+    ],
+    "pricing": [
+      "Materiał beczki, wariant wyposażenia i nakład.",
+      "Zakres znakowania oraz złożoność grafiki.",
+      "Rodzaj blatu, siedziska i uzgodnione prace dodatkowe."
+    ],
+    "quote": [
+      "Logo, planowaną liczbę sztuk i inspirację wyglądu.",
+      "Informację, czy potrzebujesz stołu, siedziska czy ekspozytora.",
+      "Miejsce użytkowania, adres dostawy oraz oczekiwany termin."
+    ],
+    "faq": [
+      {
+        "q": "Czy na beczce można umieścić grafikę inną niż logo?",
+        "a": "Tak. Projekt może obejmować szerszą identyfikację marki. Układ dopasowujemy do kształtu powierzchni i funkcji gotowego produktu."
+      },
+      {
+        "q": "Czy beczki nadają się do ogródka gastronomicznego?",
+        "a": "Możemy przygotować wariant do takiego zastosowania. Warunki zewnętrzne i sposób przechowywania trzeba uwzględnić przy doborze materiału oraz wykończenia."
+      }
+    ],
+    "related": [
+      "/plotki-ogrodki-piwne/",
+      "/markizy-z-logo/",
+      "/menuboardy/"
+    ]
+  },
+  "/reklama-na-rusztowaniu/": {
+    "title": "Reklama na rusztowaniu",
+    "lead": "Przygotowujemy banery i siatki reklamowe na rusztowania: projekt, druk oraz uzgodniony montaż. Obsługujemy realizacje w Olsztynie, Ostródzie i innych lokalizacjach po ustaleniu zakresu prac.",
+    "overview": "Rusztowanie może stać się nośnikiem informacji o inwestycji, wykonawcy lub marce. Projekt powinien uwzględniać wielkość pola, odległość oglądania oraz czas ekspozycji. Równie ważne są warunki techniczne: rodzaj konstrukcji, sposób mocowania i dostęp do miejsca instalacji. Materiał wybieramy po omówieniu tych danych. Sam fakt zastosowania siatki mesh nie zastępuje oceny obciążeń ani ustaleń z podmiotem odpowiedzialnym za rusztowanie.",
+    "materials": [
+      "Druk na siatce mesh do uzgodnionych ekspozycji.",
+      "Baner PVC stosownie do warunków i wymagań konstrukcji.",
+      "Krawędzie oraz punkty mocowania przygotowane do planowanego montażu."
+    ],
+    "applications": [
+      "Oznakowanie remontów i modernizacji budynków.",
+      "Informacje o realizowanej inwestycji i wykonawcy.",
+      "Wielkoformatowe kampanie w przestrzeni miejskiej."
+    ],
+    "process": [
+      "Zbieramy wymiary rusztowania, zdjęcia oraz informacje o zasadach jego użytkowania.",
+      "Ustalamy materiał, podział grafiki, wykończenie i warunki bezpiecznej instalacji.",
+      "Drukujemy reklamę i uzgadniamy montaż z osobami odpowiedzialnymi za obiekt."
+    ],
+    "pricing": [
+      "Powierzchnia, rodzaj materiału i podział na bryty.",
+      "Zakres projektu oraz sposób wykończenia.",
+      "Dostęp do konstrukcji, organizacja montażu i termin ekspozycji."
+    ],
+    "quote": [
+      "Zdjęcia, lokalizację i wymiary planowanej powierzchni.",
+      "Informacje od zarządcy lub wykonawcy rusztowania.",
+      "Treść reklamy, logo i planowany okres ekspozycji."
+    ],
+    "faq": [
+      {
+        "q": "Czy każdą siatkę można zamontować na każdym rusztowaniu?",
+        "a": "Nie. Dobór materiału i mocowań musi uwzględniać konkretną konstrukcję oraz warunki ekspozycji. Potrzebne są odpowiednie uzgodnienia techniczne."
+      },
+      {
+        "q": "Czy projekt może informować o remoncie budynku?",
+        "a": "Tak. Możemy przygotować grafikę z opisem inwestycji, wizualizacją i oznaczeniami wykonawców, zgodnie z przekazanymi materiałami."
+      }
+    ],
+    "related": [
+      "/siatka-mesh/",
+      "/banery/",
+      "/reklama-na-rusztowaniu-2/"
+    ]
+  },
+  "/reklama-na-rusztowaniu-2/": {
+    "title": "Megaboardy i reklama wielkoformatowa",
+    "lead": "Megaboard daje dużą przestrzeń na prosty komunikat marki. YOONA omawia lokalizację, projekt, druk oraz zakres wykonania reklamy wielkoformatowej w rejonie Olsztyna, Ostródy i trasy S7.",
+    "overview": "Przy dużym nośniku najważniejsze jest to, co odbiorca zdąży zobaczyć z drogi. Projekt opieramy na krótkim haśle, mocnym motywie i czytelnym oznaczeniu marki. Dopasowujemy grafikę do proporcji rzeczywistej powierzchni, kierunku ruchu i odległości oglądania. Osobno ustalamy dostępność lokalizacji, stan konstrukcji oraz warunki ekspozycji. Przed uruchomieniem produkcji trzeba potwierdzić, czy realizacja obejmuje sam wydruk, czy także przygotowanie i obsługę nośnika.",
+    "materials": [
+      "Wielkoformatowy wydruk na podłożu dobranym do nośnika.",
+      "Baner lub siatka stosownie do wymagań ekspozycji.",
+      "Wykończenie i mocowanie zgodne z uzgodnioną konstrukcją."
+    ],
+    "applications": [
+      "Kampanie przy trasach i ważnych dojazdach.",
+      "Duże komunikaty inwestycji, firm i marek.",
+      "Ekspozycje wymagające czytelności z większej odległości."
+    ],
+    "process": [
+      "Weryfikujemy lokalizację, format, dostępność oraz planowany okres kampanii.",
+      "Przygotowujemy projekt i ustalamy zakres produkcji, konstrukcji oraz montażu.",
+      "Po zatwierdzeniu uzgodnień wykonujemy reklamę i organizujemy przewidziane prace."
+    ],
+    "pricing": [
+      "Powierzchnia wydruku oraz rodzaj i wykończenie materiału.",
+      "Lokalizacja, okres kampanii i dostępność nośnika.",
+      "Zakres prac konstrukcyjnych, montażowych i projektowych."
+    ],
+    "quote": [
+      "Planowaną lokalizację lub informację, że szukasz nośnika.",
+      "Termin, okres ekspozycji i główny cel kampanii.",
+      "Logo, treść reklamy i orientacyjny format."
+    ],
+    "faq": [
+      {
+        "q": "Czy macie wolną powierzchnię przy S7?",
+        "a": "Dostępność konkretnego nośnika i terminu wymaga indywidualnego potwierdzenia. W zapytaniu podaj planowany okres kampanii oraz interesujący odcinek trasy."
+      },
+      {
+        "q": "Czy na megaboardzie warto umieszczać pełną ofertę?",
+        "a": "Zwykle lepiej wybrać jeden komunikat. Dużo drobnego tekstu ogranicza czytelność, szczególnie gdy odbiorca widzi reklamę podczas jazdy."
+      }
+    ],
+    "related": [
+      "/billboardy/",
+      "/reklama-na-rusztowaniu/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/plotki-ogrodki-piwne/": {
+    "title": "Płotki gastronomiczne i ogródki piwne",
+    "lead": "Przygotowujemy płotki gastronomiczne z logo do ogródków restauracji, kawiarni i lokali sezonowych. Pomagamy uporządkować przestrzeń oraz dopasować oznakowanie do identyfikacji marki.",
+    "overview": "Przęsła wyznaczają granice ogródka i jednocześnie tworzą miejsce na nazwę lokalu lub grafikę. Projekt zaczynamy od wymiarów przestrzeni, układu stolików i przejść. Ważne jest, aby oznakowanie nie utrudniało wejścia ani codziennej obsługi gości. Kolory i rozmieszczenie nadruku można skoordynować z markizą, menu oraz pozostałym wyposażeniem. Obsługujemy zamówienia z Olsztyna i Ostródy, ustalając formę płotków oraz zakres montażu.",
+    "materials": [
+      "Przęsła i elementy wygrodzenia dobierane do układu ogródka.",
+      "Powierzchnie z logo lub indywidualną grafiką lokalu.",
+      "Mocowanie i wykończenie zgodne z planowanym użytkowaniem."
+    ],
+    "applications": [
+      "Ogródki piwne i tarasy restauracji.",
+      "Wydzielanie stref przed kawiarnią lub barem.",
+      "Spójne oznakowanie sezonowych punktów gastronomicznych."
+    ],
+    "process": [
+      "Omawiamy plan ogródka, wymiary oraz sposób korzystania z przestrzeni.",
+      "Ustalamy układ przęseł, kolorystykę i projekt oznakowania.",
+      "Przygotowujemy elementy oraz realizujemy uzgodniony zakres przekazania i montażu."
+    ],
+    "pricing": [
+      "Liczba i wymiary przęseł oraz układ wygrodzenia.",
+      "Rodzaj konstrukcji, powierzchnia grafiki i wykończenie.",
+      "Warunki podłoża oraz zakres prac na miejscu."
+    ],
+    "quote": [
+      "Plan lub szkic ogródka z wymiarami i wejściami.",
+      "Zdjęcia przestrzeni, logo oraz oczekiwaną stylistykę.",
+      "Liczbę przęseł, jeśli jest znana, oraz miejsce realizacji."
+    ],
+    "faq": [
+      {
+        "q": "Czy płotki mogą mieć logo po obu stronach?",
+        "a": "Rozmieszczenie grafiki ustalamy w projekcie. Warto uwzględnić zarówno widok od ulicy, jak i perspektywę gości siedzących w ogródku."
+      },
+      {
+        "q": "Czy pomożecie zaplanować układ ogródka?",
+        "a": "Możemy uzgodnić rozmieszczenie elementów na podstawie wymiarów i zdjęć. Dostępne miejsce, przejścia oraz wymagania zarządcy trzeba potwierdzić przed realizacją."
+      }
+    ],
+    "related": [
+      "/markizy-z-logo/",
+      "/beczki-reklamowe/",
+      "/menuboardy/"
+    ]
+  },
+  "/neony/": {
+    "title": "Neony i napisy świetlne",
+    "lead": "Projektujemy neony z napisami, symbolami i logotypami do lokali oraz wnętrz firmowych. YOONA pomaga dobrać wygląd i technologię wykonania dla realizacji w Olsztynie i Ostródzie.",
+    "overview": "Neon może być znakiem nad barem, dekoracją ściany albo charakterystycznym elementem identyfikacji lokalu. Przy projekcie liczą się przebieg linii, czytelność liter i tło, na którym pojawi się światło. Efekt klasycznego neonu i rozwiązania LED różni się budową oraz sposobem prezentacji. Dlatego ustalamy oczekiwany wygląd i warunki użytkowania przed wyborem technologii. Ze zdjęciem miejsca łatwiej ocenić wielkość napisu i jego położenie.",
+    "materials": [
+      "Forma liniowa dobrana do kroju liter i symbolu.",
+      "Technologia świetlna uzgadniana dla konkretnego projektu.",
+      "Podłoże i elementy mocowania dopasowane do miejsca ekspozycji."
+    ],
+    "applications": [
+      "Napisy w restauracjach, kawiarniach i barach.",
+      "Logo na ścianach recepcji i salonów usługowych.",
+      "Dekoracja ekspozycji oraz firmowych stref zdjęciowych."
+    ],
+    "process": [
+      "Omawiamy treść, kolor światła i wygląd planowanego napisu.",
+      "Sprawdzamy możliwość odwzorowania projektu oraz dobieramy format i sposób montażu.",
+      "Po akceptacji wykonujemy reklamę i uzgadniamy jej instalację oraz zasilanie."
+    ],
+    "pricing": [
+      "Wielkość napisu, długość linii i złożoność kształtu.",
+      "Wybrana technologia, podkład i kolorystyka.",
+      "Miejsce ekspozycji, montaż oraz przygotowanie zasilania."
+    ],
+    "quote": [
+      "Tekst lub logo i zdjęcie ściany.",
+      "Orientacyjne wymiary oraz preferowany kolor światła.",
+      "Informację, czy reklama będzie wewnątrz, czy na zewnątrz."
+    ],
+    "faq": [
+      {
+        "q": "Czy neon i ledon to ten sam produkt?",
+        "a": "Nie. Efekt wizualny może być zbliżony, ale budowa i właściwości zależą od technologii. Przy wycenie ustalamy konkretny wariant wykonania."
+      },
+      {
+        "q": "Czy z każdego kroju pisma powstanie czytelny neon?",
+        "a": "Nie każdy projekt da się przenieść bez zmian. Zbyt małe detale lub ciasne połączenia mogą wymagać uproszczenia i dopasowania rozmiaru."
+      }
+    ],
+    "related": [
+      "/ledony/",
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
+  },
+  "/siatka-mesh/": {
+    "title": "Druk na siatce mesh",
+    "lead": "Siatka mesh to perforowany materiał do wybranych reklam wielkoformatowych. Drukujemy grafiki na ogrodzenia, budynki i rusztowania dla klientów z Olsztyna, Ostródy oraz innych lokalizacji.",
+    "overview": "Perforowana struktura przepuszcza część powietrza i światła, ale wpływa też na odbiór grafiki. Projekt powinien mieć wyraźny kontrast i elementy czytelne z planowanej odległości. Mesh dobieramy do miejsca ekspozycji, wielkości reklamy oraz dostępnego mocowania. Przy dużych powierzchniach omawiamy podział na części i połączenia. Zastosowanie siatki wymaga odpowiednich uzgodnień z osobą odpowiedzialną za konstrukcję, tak samo jak inne formy reklamy wielkoformatowej.",
+    "materials": [
+      "Siatka reklamowa z perforacją i indywidualnym nadrukiem.",
+      "Wykończenie krawędzi dopasowane do sposobu montażu.",
+      "Punkty mocowania rozmieszczone według uzgodnionego projektu."
+    ],
+    "applications": [
+      "Grafiki na ogrodzeniach inwestycji i terenów firmowych.",
+      "Reklamy na rusztowaniach oraz wybranych elewacjach.",
+      "Wielkoformatowa informacja o wydarzeniach i inwestycjach."
+    ],
+    "process": [
+      "Zbieramy format, zdjęcia lokalizacji i informacje o istniejącym mocowaniu.",
+      "Ustalamy projekt, ewentualne podziały wydruku i wymagane wykończenie.",
+      "Drukujemy materiał oraz realizujemy uzgodniony zakres dostawy lub montażu."
+    ],
+    "pricing": [
+      "Powierzchnia siatki, nakład i przygotowanie pliku.",
+      "Podział na bryty, łączenie i wykończenie krawędzi.",
+      "Dostęp do konstrukcji oraz organizacja instalacji."
+    ],
+    "quote": [
+      "Docelowy wymiar, liczbę sztuk i miejsce ekspozycji.",
+      "Projekt albo komplet materiałów do opracowania grafiki.",
+      "Zdjęcie konstrukcji i informacje o planowanym okresie użytkowania."
+    ],
+    "faq": [
+      {
+        "q": "Czy mesh całkowicie eliminuje obciążenie od wiatru?",
+        "a": "Nie. Perforacja nie zwalnia z oceny warunków technicznych, nośności konstrukcji i właściwego mocowania. Zakres należy ustalić przed zamówieniem reklamy."
+      },
+      {
+        "q": "Czy bardzo drobny tekst będzie czytelny na siatce?",
+        "a": "Perforacja i odległość oglądania ograniczają szczegółowość przekazu. Do dużych ekspozycji lepiej przygotować prostą grafikę z większymi napisami."
+      }
+    ],
+    "related": [
+      "/reklama-na-rusztowaniu/",
+      "/banery/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/oklejanie-samochodow-osobowych/": {
+    "title": "Reklama na samochodach osobowych",
+    "lead": "Oznakowanie auta osobowego może być dyskretne albo wyraziste. Wykonujemy napisy, logo i grafikę reklamową na samochodach firmowych w Olsztynie oraz Ostródzie.",
+    "overview": "W aucie osobowym powierzchnia reklamy jest ograniczona, dlatego wybieramy informacje, które naprawdę pomagają rozpoznać firmę. Kolor karoserii może stać się częścią projektu, a logo i dane kontaktowe powinny pozostać czytelne przy zamkniętych drzwiach. Układ dopasowujemy do modelu i przetłoczeń. Jeżeli samochód służy także prywatnie, możemy zaproponować mniejszy zakres grafiki zamiast całościowego oklejenia. Wycena uwzględnia stan lakieru oraz przygotowanie powierzchni.",
+    "materials": [
+      "Napisy i symbole wycinane z folii ploterowej.",
+      "Grafika drukowana na folii odpowiedniej do nadwozia.",
+      "Wykończenie oraz laminowanie dobierane do zastosowania."
+    ],
+    "applications": [
+      "Auta właścicieli firm i przedstawicieli handlowych.",
+      "Samochody ekip dojeżdżających do klientów.",
+      "Ujednolicenie oznakowania kilku aut osobowych."
+    ],
+    "process": [
+      "Zbieramy zdjęcia samochodu, logo i listę najważniejszych informacji.",
+      "Przygotowujemy układ na konkretnym nadwoziu oraz uzgadniamy materiał i zakres.",
+      "Po akceptacji produkujemy grafikę i aplikujemy ją na przygotowanym aucie."
+    ],
+    "pricing": [
+      "Model auta, liczba oklejanych elementów i powierzchnia.",
+      "Rodzaj folii, druk, laminowanie oraz projekt.",
+      "Stan podłoża i usunięcie wcześniejszych naklejek."
+    ],
+    "quote": [
+      "Markę, model, rocznik oraz zdjęcia boków i tyłu.",
+      "Logo, dane kontaktowe i inspirację zakresu oklejenia.",
+      "Liczbę aut oraz informację o obecnej reklamie."
+    ],
+    "faq": [
+      {
+        "q": "Czy niewielkie logo na drzwiach ma sens?",
+        "a": "Może być dobrym rozwiązaniem, jeśli jest czytelne i pasuje do proporcji auta. Układ oceniamy razem z kolorem nadwozia oraz pozostałymi informacjami."
+      },
+      {
+        "q": "Czy można oznakować auta w różnych kolorach?",
+        "a": "Tak. Zachowamy wspólną identyfikację, a kontrast i wariant grafiki dostosujemy do poszczególnych samochodów, aby nazwa pozostawała widoczna."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodow/",
+      "/oklejanie-samochodu-cena/",
+      "/zmiana-koloru-samochodu/"
+    ]
+  },
+  "/oklejanie-autobusow/": {
+    "title": "Oklejanie autobusów",
+    "lead": "Przygotowujemy reklamę na autobusach: projekt dopasowany do nadwozia, druk i aplikację folii. Zlecenia dla przewoźników oraz firm omawiamy w Olsztynie i Ostródzie.",
+    "overview": "Duża powierzchnia autobusu pozwala pokazać markę wyraźnie, ale projekt musi uwzględniać okna, drzwi, kratki i elementy eksploatacyjne. Ważne informacje nie powinny znikać w podziałach karoserii. Przed wyborem materiału ustalamy długość kampanii, zakres grafiki oraz warunki korzystania z pojazdu. Oznakowanie musi uwzględniać wymagania operatora i dostęp do obowiązkowych oznaczeń. W przypadku kilku autobusów projekt dostosowujemy do ich rzeczywistych wersji nadwozia.",
+    "materials": [
+      "Folie reklamowe dobierane do powierzchni autobusu.",
+      "Napisy ploterowe oraz drukowane motywy kampanii.",
+      "Materiały na przeszklenia wyłącznie w uzgodnionym zakresie."
+    ],
+    "applications": [
+      "Identyfikacja wizualna autobusów przewoźnika.",
+      "Kampanie reklamowe na wybranych powierzchniach nadwozia.",
+      "Ujednolicenie wyglądu kilku pojazdów we flocie."
+    ],
+    "process": [
+      "Analizujemy model autobusu, zdjęcia i wytyczne właściciela lub operatora.",
+      "Przygotowujemy układ, dobieramy materiał i uzgadniamy termin dostępności pojazdu.",
+      "Po zatwierdzeniu drukujemy grafikę oraz realizujemy ustaloną aplikację."
+    ],
+    "pricing": [
+      "Wielkość powierzchni, liczba pojazdów i złożoność układu.",
+      "Typ folii, wykończenie oraz przygotowanie projektu.",
+      "Usuwanie starej reklamy i warunki organizacji prac."
+    ],
+    "quote": [
+      "Model, wersję autobusu i zdjęcia wszystkich oklejanych stron.",
+      "Logo, materiały kampanii i wytyczne operatora.",
+      "Liczbę pojazdów, zakres reklamy i planowany okres ekspozycji."
+    ],
+    "faq": [
+      {
+        "q": "Czy można zakleić dowolną szybę autobusu?",
+        "a": "Nie należy tego zakładać. Zakres musi uwzględniać widoczność, wymagania operatora oraz obowiązujące zasady dotyczące pojazdu i jego oznaczeń."
+      },
+      {
+        "q": "Czy realizacja obejmuje wynajem powierzchni na autobusie?",
+        "a": "Zakres trzeba potwierdzić w zapytaniu. Przygotowanie i aplikacja reklamy to odrębna kwestia od dostępności pojazdu oraz umowy na ekspozycję."
+      }
+    ],
+    "related": [
+      "/mobilna-reklama/",
+      "/oklejanie-samochodow/",
+      "/oklejanie-samochodow-ciezarowych/"
+    ]
+  },
+  "/oklejanie-samochodow-ciezarowych/": {
+    "title": "Oklejanie samochodów ciężarowych i naczep",
+    "lead": "Wykonujemy oznakowanie samochodów ciężarowych i naczep dla firm transportowych oraz handlowych. YOONA przygotowuje projekt, druk i aplikację grafiki, obsługując klientów z Olsztyna i Ostródy.",
+    "overview": "Kabina, zabudowa i naczepa tworzą różne pola reklamowe, dlatego układ dopasowujemy do ich konstrukcji. Projekt uwzględnia przetłoczenia, podziały, zamki i oznaczenia pojazdu. Krótki przekaz oraz duże logo lepiej wykorzystują odległość oglądania niż rozbudowany katalog usług. Przed doborem folii ustalamy rodzaj podłoża — sztywna zabudowa i plandeka wymagają osobnej oceny. Plan prac dopasowujemy do dostępności pojazdów, aby można było zaplanować ich postoje.",
+    "materials": [
+      "Napisy i logotypy wycinane z folii.",
+      "Drukowane grafiki na podłoże dobrane do zabudowy.",
+      "Wykończenie i laminowanie zależne od zastosowania."
+    ],
+    "applications": [
+      "Identyfikacja kabin i pojazdów transportowych.",
+      "Grafiki na sztywnych zabudowach oraz naczepach.",
+      "Spójne oznakowanie nowych i istniejących flot."
+    ],
+    "process": [
+      "Zbieramy dane o pojazdach, zdjęcia podłoża i wymagany zakres oznakowania.",
+      "Dopasowujemy projekt do każdej zabudowy i ustalamy materiały oraz harmonogram.",
+      "Produkujemy grafikę i wykonujemy aplikację po przygotowaniu powierzchni."
+    ],
+    "pricing": [
+      "Łączna powierzchnia, liczba pojazdów i typ zabudowy.",
+      "Materiał, złożoność projektu oraz sposób aplikacji.",
+      "Demontaż starej grafiki i zakres przygotowania podłoża."
+    ],
+    "quote": [
+      "Zdjęcia kabiny, boków i tyłu oraz wymiary zabudowy.",
+      "Informację o rodzaju powierzchni i obecnym oznakowaniu.",
+      "Logo, treści i liczbę pojazdów do wykonania."
+    ],
+    "faq": [
+      {
+        "q": "Czy ta sama folia nadaje się na kabinę i plandekę?",
+        "a": "Nie należy traktować tych podłoży jednakowo. Materiał oraz metodę oznakowania dobieramy po ocenie konkretnej powierzchni i sposobu jej użytkowania."
+      },
+      {
+        "q": "Czy można oznakować flotę etapami?",
+        "a": "Harmonogram ustalamy indywidualnie. Informacja o liczbie aut i ich dostępności pozwala zaplanować projekt, produkcję oraz kolejne aplikacje."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodow/",
+      "/mobilna-reklama/",
+      "/oklejanie-samochodu-cena/"
+    ]
+  },
+  "/kasetony-swietlne/": {
+    "title": "Kasetony świetlne z logo",
+    "lead": "Kaseton świetlny łączy nazwę firmy i grafikę na wspólnym, podświetlanym tle. Projektujemy, produkujemy i montujemy kasetony dla lokali z Olsztyna, Ostródy oraz regionu.",
+    "overview": "Forma kasetonu zależy od elewacji, proporcji logo i kierunku, z którego nadchodzą klienci. Może eksponować całe lico albo wybrane elementy grafiki. Ustalamy kolor tła, sposób świecenia oraz wielkość napisu, aby reklama była czytelna w dzień i po zmroku. Przy montażu ważne są również podłoże, dostęp do zasilania i możliwość późniejszego dostępu do urządzenia. Te dane pozwalają przygotować spójny projekt oraz zakres prac.",
+    "materials": [
+      "Dibond i plexi wykorzystywane w konstrukcji oraz licu.",
+      "Podświetlenie LED dopasowane do wybranego wariantu.",
+      "Grafika i mocowanie zgodne z miejscem ekspozycji."
+    ],
+    "applications": [
+      "Szyldy sklepów, biur oraz lokali usługowych.",
+      "Oznakowanie restauracji i punktów działających wieczorem.",
+      "Elementy identyfikacji na elewacjach i we wnętrzach."
+    ],
+    "process": [
+      "Analizujemy logo, dostępny format oraz zdjęcia miejsca planowanego montażu.",
+      "Dobieramy budowę, kolorystykę i efekt podświetlenia, następnie zatwierdzamy projekt.",
+      "Produkujemy kaseton i realizujemy uzgodniony zakres instalacji."
+    ],
+    "pricing": [
+      "Format, kształt i rodzaj lica kasetonu.",
+      "Zakres grafiki, komponenty świetlne i wykończenie.",
+      "Dostęp do elewacji, mocowanie i przygotowanie zasilania."
+    ],
+    "quote": [
+      "Logo w pliku wektorowym i orientacyjny wymiar reklamy.",
+      "Zdjęcie elewacji lub ściany z miejscem montażu.",
+      "Adres oraz informację o dostępnym przyłączu elektrycznym."
+    ],
+    "faq": [
+      {
+        "q": "Czym kaseton różni się od liter świetlnych?",
+        "a": "Kaseton ma wspólne tło i obudowę, a litery tworzą osobne znaki. Dobór zależy od wyglądu logo, miejsca oraz oczekiwanego efektu."
+      },
+      {
+        "q": "Czy kaseton może mieć inny kształt niż prostokąt?",
+        "a": "Możliwość wykonania ustalamy na podstawie projektu. Kształt wpływa na konstrukcję, sposób podświetlenia i cenę reklamy."
+      }
+    ],
+    "related": [
+      "/reklamy-swietlne/",
+      "/litery-3d/",
+      "/szyldy/"
+    ]
+  },
+  "/pylony/": {
+    "title": "Pylony reklamowe",
+    "lead": "Pylon reklamowy oznacza siedzibę i pomaga zauważyć wjazd do obiektu. YOONA przygotowuje projekt, produkcję oraz uzgodniony montaż pylonów dla firm z Olsztyna i Ostródy.",
+    "overview": "Wysoki, samodzielny nośnik warto zaplanować razem z otoczeniem budynku. Sprawdzamy kierunki dojazdu, odległość oglądania i miejsce ustawienia. Pylon może prezentować jedną markę albo porządkować oznaczenia kilku najemców. Przygotowanie konstrukcji i posadowienia wymaga danych dotyczących lokalizacji oraz warunków na miejscu. Projekt graficzny powinien pozostawić wystarczająco dużo miejsca na czytelne logo, zamiast gromadzić wszystkie informacje z materiałów firmowych.",
+    "materials": [
+      "Konstrukcja i okładziny dobierane do konkretnego projektu.",
+      "Grafika jedno- lub wielomarkowa z czytelnym podziałem informacji.",
+      "Wariant podświetlany lub bez podświetlenia według ustaleń."
+    ],
+    "applications": [
+      "Oznakowanie wjazdów do firm i zakładów.",
+      "Identyfikacja parków handlowych oraz obiektów usługowych.",
+      "Prezentacja najemców większego budynku lub kompleksu."
+    ],
+    "process": [
+      "Analizujemy teren, kierunki oglądania oraz planowaną wysokość i funkcję pylonu.",
+      "Ustalamy projekt, konstrukcję, warunki posadowienia i wymagane uzgodnienia.",
+      "Po akceptacji produkujemy elementy oraz realizujemy ustalony zakres prac na miejscu."
+    ],
+    "pricing": [
+      "Wymiary, konstrukcja i sposób posadowienia nośnika.",
+      "Liczba oznaczeń, materiały oraz ewentualne podświetlenie.",
+      "Warunki terenowe, dostęp i zakres instalacji."
+    ],
+    "quote": [
+      "Zdjęcia lokalizacji oraz plan lub szkic miejsca ustawienia.",
+      "Logo, listę prezentowanych firm i preferowany format.",
+      "Informacje o terenie, zasilaniu i dostępnych uzgodnieniach."
+    ],
+    "faq": [
+      {
+        "q": "Czy pylon zawsze musi być podświetlany?",
+        "a": "Nie. Wariant dobieramy do godzin działania obiektu, otoczenia i oczekiwanej widoczności. Podświetlenie zmienia zakres konstrukcji oraz instalacji."
+      },
+      {
+        "q": "Czy można wykonać pylon dla kilku najemców?",
+        "a": "Tak. W projekcie ustalamy podział pól, hierarchię informacji i możliwość przyszłych zmian oznaczeń, aby całość pozostała czytelna."
+      }
+    ],
+    "related": [
+      "/totemy/",
+      "/reklama-zewnetrzna/",
+      "/kasetony-swietlne/"
+    ]
+  },
+  "/markizy-z-logo/": {
+    "title": "Markizy SELT i markizy z logo",
+    "lead": "Dobieramy markizy SELT do tarasów domowych oraz gastronomii. Oferujemy markizy montowane do budynku, wolnostojące dwustronne DUO i znakowanie poszycia zgodnie z projektem.",
+    "overview": "Markiza ma pasować do przestrzeni i sposobu korzystania z tarasu. Przy budynku ważne są podłoże oraz miejsce mocowania, a przy systemie DUO — dostępna powierzchnia i możliwość prawidłowego ustawienia konstrukcji. Obsługujemy klientów indywidualnych, restauracje, kawiarnie i hotele. Logo można włączyć do identyfikacji ogródka, zachowując czytelny wygląd poszycia. Pracujemy z klientami z Olsztyna i Ostródy oraz przyjmujemy zapytania z całej Polski, w tym województw pomorskiego, mazowieckiego, kujawsko-pomorskiego i podlaskiego. Zakres dostawy i montażu ustalamy dla konkretnej lokalizacji.",
+    "materials": [
+      "Markizy SELT montowane do budynku, dobrane do dostępnego podłoża.",
+      "Dwustronne markizy wolnostojące DUO do uzgodnionych przestrzeni.",
+      "Kolorystyka poszycia i znakowanie ustalane dla wybranego modelu."
+    ],
+    "applications": [
+      "Tarasy przy domach i przestrzenie wypoczynkowe.",
+      "Ogródki restauracyjne, kawiarniane i hotelowe.",
+      "Spójne oznakowanie stref gastronomicznych oraz sezonowych."
+    ],
+    "process": [
+      "Zbieramy wymiary, zdjęcia miejsca oraz oczekiwania dotyczące osłony i obsługi.",
+      "Dobieramy rozwiązanie SELT, ustalamy mocowanie lub ustawienie DUO oraz projekt logo.",
+      "Po potwierdzeniu konfiguracji uzgadniamy realizację, dostawę i ewentualny montaż."
+    ],
+    "pricing": [
+      "Model, rozmiar, konfiguracja i wybrane wyposażenie markizy.",
+      "Poszycie, zakres znakowania i przygotowanie projektu.",
+      "Konstrukcja, warunki lokalne oraz zakres dostawy i montażu."
+    ],
+    "quote": [
+      "Szerokość i głębokość osłanianej przestrzeni oraz zdjęcia otoczenia.",
+      "Rodzaj podłoża albo informację o potrzebie rozwiązania wolnostojącego.",
+      "Kod pocztowy, sposób użytkowania, logo i oczekiwany termin."
+    ],
+    "faq": [
+      {
+        "q": "Czy DUO wymaga ściany budynku?",
+        "a": "To rozwiązanie wolnostojące i dwustronne. Sposób ustawienia oraz wymagania dla podłoża ustalamy zgodnie z konfiguracją wybranego systemu."
+      },
+      {
+        "q": "Czy realizujecie markizy poza Warmią i Mazurami?",
+        "a": "Przyjmujemy zapytania z całej Polski. Dostępność konkretnego modelu oraz zakres dostawy i montażu potwierdzamy dla podanego adresu."
+      },
+      {
+        "q": "Czy można zamówić markizę bez logo?",
+        "a": "Tak. Obsługujemy również klientów indywidualnych. Znakowanie jest opcją, a model i kolorystykę dobieramy do tarasu oraz oczekiwanego wyglądu."
+      }
+    ],
+    "related": [
+      "/plotki-ogrodki-piwne/",
+      "/beczki-reklamowe/",
+      "/menuboardy/"
+    ],
+    "children": [
+      "/markizy-tarasowe/",
+      "/markizy-wolnostojace-duo/",
+      "/znakowanie-markiz/"
+    ]
+  },
+  "/flagi/": {
+    "title": "Flagi reklamowe z nadrukiem",
+    "lead": "Przygotowujemy flagi z logo i grafiką dla firm, obiektów oraz wydarzeń. Dobieramy kształt, format i sposób mocowania do miejsca ekspozycji w Olsztynie, Ostródzie i regionie.",
+    "overview": "Flaga powinna odpowiadać rodzajowi masztu oraz sposobowi użytkowania. Inaczej planujemy wysoką ekspozycję przy siedzibie, a inaczej mobilny zestaw na wydarzenie. Projekt musi zachować czytelność, kiedy tkanina porusza się i częściowo układa w fałdy. Dlatego ograniczamy drobne napisy i wyraźnie eksponujemy znak marki. Przed produkcją potwierdzamy także, jak grafika będzie widoczna po drugiej stronie materiału i jakie wykończenie pasuje do mocowania.",
+    "materials": [
+      "Tkanina flagowa z nadrukiem dopasowanym do projektu.",
+      "Kształt i format zgodne z wybranym systemem ekspozycji.",
+      "Wykończenie do istniejącego lub uzgodnionego masztu."
+    ],
+    "applications": [
+      "Flagi przy siedzibach, hotelach i obiektach handlowych.",
+      "Oznakowanie wydarzeń, targów i punktów promocyjnych.",
+      "Zestawy identyfikacyjne dla kilku lokalizacji firmy."
+    ],
+    "process": [
+      "Ustalamy miejsce użytkowania, rodzaj masztu oraz planowany format flagi.",
+      "Przygotowujemy projekt z uwzględnieniem ruchu tkaniny i sposobu druku.",
+      "Po akceptacji wykonujemy flagi i uzgadniamy zakres potrzebnych akcesoriów."
+    ],
+    "pricing": [
+      "Format, kształt, rodzaj materiału i liczba flag.",
+      "Przygotowanie grafiki oraz sposób wykończenia.",
+      "Potrzebny maszt, podstawa i elementy zestawu."
+    ],
+    "quote": [
+      "Logo, treść oraz liczbę potrzebnych sztuk.",
+      "Wymiary i zdjęcie istniejącego masztu lub mocowania.",
+      "Miejsce ekspozycji i informację, czy potrzebujesz kompletnego zestawu."
+    ],
+    "faq": [
+      {
+        "q": "Czy nadruk jest identyczny po obu stronach flagi?",
+        "a": "Przy druku jednostronnym grafika widoczna po drugiej stronie ma formę odbicia lustrzanego. Oczekiwany efekt ustalamy przed wyborem sposobu wykonania."
+      },
+      {
+        "q": "Czy można zamówić flagę do posiadanego masztu?",
+        "a": "Tak, po potwierdzeniu wymiarów i sposobu mocowania. Zdjęcie obecnej flagi oraz końcówek masztu pomoże dobrać wykończenie."
+      }
+    ],
+    "related": [
+      "/windery/",
+      "/scianki-reklamowe/",
+      "/rollupy/"
+    ]
+  },
+  "/fototapety/": {
+    "title": "Fototapety na wymiar",
+    "lead": "Drukujemy fototapety z wybraną grafiką do domu, biura oraz lokalu usługowego. YOONA pomaga przygotować projekt na konkretną ścianę klientom z Olsztyna i Ostródy.",
+    "overview": "Fototapeta powinna uwzględniać nie tylko szerokość i wysokość ściany, ale również drzwi, meble, gniazdka i miejsce oglądania. Dopasowujemy kadr, aby ważny motyw nie trafił za wyposażenie lub na połączenie. Przed drukiem oceniamy jakość zdjęcia w docelowym rozmiarze. Materiał i podział wydruku ustalamy z uwzględnieniem wnętrza oraz przygotowania podłoża. Jeśli korzystasz z cudzej grafiki, potrzebne jest prawo do jej użycia w planowanym zakresie.",
+    "materials": [
+      "Podłoże do fototapety dobierane do wnętrza i sposobu aplikacji.",
+      "Własne zdjęcie lub grafika z odpowiednim prawem wykorzystania.",
+      "Podział na bryty przygotowany do docelowego wymiaru ściany."
+    ],
+    "applications": [
+      "Aranżacja mieszkań i domowych stref wypoczynku.",
+      "Ściany biur, recepcji i sal spotkań.",
+      "Wnętrza restauracji, sklepów oraz salonów usługowych."
+    ],
+    "process": [
+      "Zbieramy dokładne wymiary, zdjęcie ściany i materiał graficzny.",
+      "Sprawdzamy plik, dopasowujemy kadr oraz ustalamy podłoże i podział wydruku.",
+      "Po zatwierdzeniu projektu drukujemy fototapetę i uzgadniamy sposób przekazania."
+    ],
+    "pricing": [
+      "Powierzchnia, rodzaj podłoża oraz liczba brytów.",
+      "Przygotowanie grafiki, kadrowanie i ewentualne opracowanie projektu.",
+      "Uzgodniony zakres dodatkowych prac lub aplikacji."
+    ],
+    "quote": [
+      "Wymiary ściany i zdjęcie uwzględniające otwory oraz wyposażenie.",
+      "Plik zdjęcia albo propozycję motywu.",
+      "Informację o podłożu, przeznaczeniu wnętrza i planowanym terminie."
+    ],
+    "faq": [
+      {
+        "q": "Czy zdjęcie z telefonu nadaje się na fototapetę?",
+        "a": "To zależy od jego jakości, kadru i wielkości ściany. Przed produkcją ocenimy oryginalny plik; zrzut ekranu zwykle nie wystarcza."
+      },
+      {
+        "q": "Czy trzeba wcześniej przygotować ścianę?",
+        "a": "Tak. Wymagania zależą od materiału i sposobu aplikacji. Stan podłoża należy ustalić przed montażem, aby nie przenosiło nierówności na gotową grafikę."
+      }
+    ],
+    "related": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/",
+      "/naklejki/"
+    ]
+  },
+  "/totemy/": {
+    "title": "Totemy reklamowe i informacyjne",
+    "lead": "Totem porządkuje informacje i kieruje klienta we właściwe miejsce. Przygotowujemy projekt oraz wykonanie oznakowania dla biur, obiektów usługowych i firm z Olsztyna oraz Ostródy.",
+    "overview": "Punktem wyjścia jest funkcja: prezentacja marki, lista najemców czy wskazanie drogi w obiekcie. Od niej zależą wysokość, podział informacji i sposób ustawienia. Totem może uzupełniać oznakowanie przy wejściu albo stanowić samodzielny element identyfikacji. Projektujemy go w relacji do otoczenia, aby nie konkurował z istniejącymi szyldami. W przypadku wielu komunikatów ustalamy ich hierarchię i potrzebę późniejszej wymiany poszczególnych oznaczeń.",
+    "materials": [
+      "Obudowa oraz konstrukcja dopasowane do miejsca ekspozycji.",
+      "Pola informacyjne z indywidualną grafiką.",
+      "Warianty z podświetleniem lub bez, według ustalonego projektu."
+    ],
+    "applications": [
+      "Informacja przy recepcjach, wejściach i punktach obsługi.",
+      "Prezentacja najemców i kierunków w obiekcie.",
+      "Oznaczenie firmy w otoczeniu budynku."
+    ],
+    "process": [
+      "Omawiamy funkcję totemu, liczbę komunikatów i miejsce ustawienia.",
+      "Ustalamy format, podział treści, materiały i sposób mocowania.",
+      "Po akceptacji wykonujemy oznakowanie oraz realizujemy uzgodniony zakres instalacji."
+    ],
+    "pricing": [
+      "Format, konstrukcja oraz przeznaczenie wewnętrzne lub zewnętrzne.",
+      "Liczba pól informacyjnych i sposób ich aktualizacji.",
+      "Podświetlenie, warunki ustawienia oraz prace montażowe."
+    ],
+    "quote": [
+      "Zdjęcia otoczenia i orientacyjną wielkość planowanego nośnika.",
+      "Logo oraz pełną listę informacji do pokazania.",
+      "Adres i wymagania dotyczące ewentualnych zmian treści."
+    ],
+    "faq": [
+      {
+        "q": "Czym totem różni się od pylonu?",
+        "a": "Nazwy bywają używane zamiennie. Ważniejsze jest ustalenie funkcji, wymiaru, konstrukcji i warunków ustawienia niż sama nazwa nośnika."
+      },
+      {
+        "q": "Czy później można zmieniać nazwy najemców?",
+        "a": "Warto zaplanować taką potrzebę już przy projekcie. Sposób aktualizacji zależy od budowy pól i wybranej technologii wykonania."
+      }
+    ],
+    "related": [
+      "/pylony/",
+      "/tabliczki-informacyjne/",
+      "/tablice-olsztyn/"
+    ]
+  },
+  "/scianki-reklamowe/": {
+    "title": "Ścianki reklamowe na wydarzenia",
+    "lead": "Przygotowujemy ścianki reklamowe z grafiką firmową na targi, konferencje i spotkania. Pomagamy dobrać format oraz układ materiałów klientom z Olsztyna i Ostródy.",
+    "overview": "Ścianka może tworzyć tło stoiska, punktu rejestracji lub zdjęć uczestników. Projekt zależy od tego, czy odbiorca ma oglądać ją bezpośrednio, czy przede wszystkim na fotografiach. W drugim przypadku uwzględniamy miejsce ustawienia osób i widoczność logotypów nad nimi. Format dopasowujemy do dostępnej przestrzeni oraz sposobu przewożenia. Wcześniejsze ustalenie wymagań organizatora ułatwia przygotowanie rozwiązania pasującego do konkretnego wydarzenia.",
+    "materials": [
+      "System ekspozycyjny dobierany do formatu i sposobu użytkowania.",
+      "Wydruk z logo, tłem lub pełną grafiką wydarzenia.",
+      "Uzgodnione elementy zestawu i wykończenie ekspozycji."
+    ],
+    "applications": [
+      "Stoiska targowe i firmowe punkty promocyjne.",
+      "Tło konferencji, rejestracji oraz wystąpień.",
+      "Ścianki do zdjęć i identyfikacji partnerów wydarzenia."
+    ],
+    "process": [
+      "Zbieramy wymiary miejsca, cel ekspozycji i wymagania organizatora.",
+      "Dobieramy format oraz przygotowujemy projekt dopasowany do oglądania i fotografowania.",
+      "Po akceptacji wykonujemy grafikę i uzgadniamy kompletację zestawu."
+    ],
+    "pricing": [
+      "Format, typ systemu i liczba potrzebnych zestawów.",
+      "Zakres projektu oraz rodzaj i powierzchnia wydruku.",
+      "Akcesoria i wymagania związane z transportem lub ustawieniem."
+    ],
+    "quote": [
+      "Logo, listę partnerów i treść do umieszczenia.",
+      "Dostępny wymiar stoiska lub miejsca ustawienia.",
+      "Termin wydarzenia i informację, czy masz własny system."
+    ],
+    "faq": [
+      {
+        "q": "Czy wykonacie samą grafikę do posiadanej ścianki?",
+        "a": "Możliwość trzeba potwierdzić na podstawie modelu, wymiarów i sposobu mocowania wydruku. Sam zewnętrzny rozmiar konstrukcji może nie wystarczyć."
+      },
+      {
+        "q": "Jak zaplanować ściankę do zdjęć?",
+        "a": "Logo i ważne informacje powinny pozostawać widoczne obok fotografowanych osób. Układ warto sprawdzić w odniesieniu do kadru i przewidywanej liczby uczestników."
+      }
+    ],
+    "related": [
+      "/rollupy/",
+      "/flagi/",
+      "/windery/"
+    ]
+  },
+  "/oklejanie-przyczep-gastronomicznych/": {
+    "title": "Oklejanie przyczep gastronomicznych i food trucków",
+    "lead": "Projektujemy i wykonujemy grafikę na przyczepach gastronomicznych oraz food truckach. YOONA obsługuje klientów z Olsztyna i Ostródy: od koncepcji wyglądu po aplikację folii.",
+    "overview": "Przyczepa jest jednocześnie pojazdem, lokalem i reklamą. Projekt powinien dobrze wyglądać podczas jazdy, a po otwarciu okna sprzedażowego pomagać gościom rozpoznać ofertę. Uwzględniamy klapy, drzwi, kratki wentylacyjne i miejsca prowadzenia instalacji. Najważniejsze są nazwa oraz charakter kuchni; rozbudowane menu może otrzymać osobny nośnik. Dobór materiału poprzedza ocena poszycia, jego stanu i warunków użytkowania, w tym powierzchni narażonych na zabrudzenia.",
+    "materials": [
+      "Folie z nadrukiem dobrane do konkretnego poszycia.",
+      "Napisy ploterowe i elementy logo zgodne z identyfikacją.",
+      "Wykończenie grafiki dopasowane do miejsc aplikacji."
+    ],
+    "applications": [
+      "Nowe food trucki przed rozpoczęciem sprzedaży.",
+      "Odświeżenie wyglądu działającej przyczepy gastronomicznej.",
+      "Spójna identyfikacja kilku mobilnych punktów marki."
+    ],
+    "process": [
+      "Analizujemy zdjęcia przyczepy z zamkniętymi i otwartymi klapami.",
+      "Przygotowujemy układ grafiki, dobieramy folię i zatwierdzamy wygląd przed drukiem.",
+      "Po przygotowaniu poszycia wykonujemy aplikację w ustalonym zakresie."
+    ],
+    "pricing": [
+      "Wymiary przyczepy, liczba elementów i powierzchnia oklejenia.",
+      "Stan poszycia, usuwanie starej folii i przygotowanie.",
+      "Projekt, rodzaj materiału oraz trudność aplikacji."
+    ],
+    "quote": [
+      "Zdjęcia wszystkich stron przyczepy i orientacyjne wymiary.",
+      "Logo, rodzaj kuchni, materiały marki i inspiracje.",
+      "Informację o starej grafice oraz terminie uruchomienia punktu."
+    ],
+    "faq": [
+      {
+        "q": "Czy projekt uwzględni otwarte okno sprzedażowe?",
+        "a": "Tak. Warto przesłać zdjęcia obu stanów. Logo i najważniejsze informacje nie powinny znikać po podniesieniu klapy."
+      },
+      {
+        "q": "Czy można połączyć oklejenie z nowym menu?",
+        "a": "Możemy przygotować spójny projekt grafiki przyczepy oraz osobnych nośników menu. Ich zakres i wykonanie ustalamy w wycenie."
+      }
+    ],
+    "related": [
+      "/menuboardy/",
+      "/mobilna-reklama/",
+      "/oklejanie-samochodow/"
+    ]
+  },
+  "/mobilna-reklama/": {
+    "title": "Reklama mobilna na pojazdach",
+    "lead": "Reklama mobilna wykorzystuje powierzchnię pojazdów do prezentacji marki. W YOONA przygotowujemy projekt i oznakowanie samochodów, autobusów oraz przyczep dla firm z Olsztyna i Ostródy.",
+    "overview": "Zaczynamy od tego, gdzie i jak pojazd pracuje: dojeżdża do klientów, przewozi towary czy obsługuje wydarzenia. Na tej podstawie ustalamy hierarchię informacji i zakres grafiki. Duża powierzchnia nie oznacza konieczności umieszczania całej oferty. Czytelne logo, krótka informacja o działalności i prosty kontakt tworzą spójną identyfikację także wtedy, gdy firma ma kilka różnych typów pojazdów. Każdy układ dopasowujemy do rzeczywistego nadwozia.",
+    "materials": [
+      "Napisy i logotypy z folii wycinanej ploterowo.",
+      "Drukowane grafiki na samochody oraz uzgodnione zabudowy.",
+      "Materiały dobierane do podłoża i okresu użytkowania."
+    ],
+    "applications": [
+      "Identyfikacja pojazdów ekip usługowych i handlowych.",
+      "Oznakowanie flot, autobusów i samochodów dostawczych.",
+      "Grafiki mobilnych punktów sprzedaży oraz przyczep."
+    ],
+    "process": [
+      "Ustalamy cel oznakowania, rodzaje pojazdów i zakres potrzebnych informacji.",
+      "Opracowujemy wspólny styl oraz warianty na poszczególne nadwozia.",
+      "Produkujemy grafikę i planujemy aplikacje zgodnie z dostępnością pojazdów."
+    ],
+    "pricing": [
+      "Liczba i rodzaj pojazdów oraz powierzchnia reklamy.",
+      "Zakres projektu, typ folii i sposób wykończenia.",
+      "Stan podłoża, demontaż grafiki i organizacja aplikacji."
+    ],
+    "quote": [
+      "Listę pojazdów ze zdjęciami i podstawowymi wymiarami.",
+      "Logo, dane kontaktowe i najważniejszą usługę marki.",
+      "Liczbę egzemplarzy oraz planowany termin oznakowania."
+    ],
+    "faq": [
+      {
+        "q": "Czy reklama mobilna oznacza wynajem samochodu z kierowcą?",
+        "a": "W tej ofercie chodzi o projekt i oznakowanie pojazdów. Ewentualną organizację ekspozycji lub wynajem nośnika trzeba ustalić jako osobny zakres."
+      },
+      {
+        "q": "Jak zachować jeden styl na różnych pojazdach?",
+        "a": "Wspólne kolory, typografia i układ informacji tworzą rozpoznawalny zestaw. Rozmiar oraz położenie grafiki dopasowujemy osobno do każdego nadwozia."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodow/",
+      "/oklejanie-autobusow/",
+      "/oklejanie-przyczep-gastronomicznych/"
+    ]
+  },
+  "/ledony/": {
+    "title": "Ledony z logo i napisy LED",
+    "lead": "Ledon odwzorowuje napis lub symbol za pomocą elastycznej linii świetlnej LED. Projektujemy oraz wykonujemy ledony do lokali i wnętrz firmowych w Olsztynie oraz Ostródzie.",
+    "overview": "Taki znak może podkreślić charakter restauracji, salonu lub recepcji. Projektowanie zaczynamy od przebiegu linii i minimalnej czytelności detali w planowanym formacie. Kolor światła, tło i sposób mocowania ustalamy razem, bo każdy z tych elementów wpływa na wygląd całości. Jeżeli logo zawiera bardzo drobne szczegóły, proponujemy dostosowanie układu. Przeznaczenie do wnętrza albo na zewnątrz trzeba określić przed wyborem wariantu i przygotowaniem instalacji.",
+    "materials": [
+      "Linia świetlna LED dopasowana do kształtu projektu.",
+      "Podkład i układ mocowań dobierane do ekspozycji.",
+      "Kolorystyka oraz konfiguracja ustalane indywidualnie."
+    ],
+    "applications": [
+      "Logotypy w salonach, recepcjach i punktach obsługi.",
+      "Napisy nad barem lub na ścianie restauracji.",
+      "Dekoracyjne symbole do ekspozycji i stref zdjęciowych."
+    ],
+    "process": [
+      "Zbieramy tekst lub plik logo oraz zdjęcie planowanego miejsca.",
+      "Ustalamy przebieg linii, wielkość, kolor światła i wariant podkładu.",
+      "Po akceptacji wykonujemy ledon i uzgadniamy jego montaż oraz zasilanie."
+    ],
+    "pricing": [
+      "Długość linii, liczba detali i wielkość napisu.",
+      "Kolory, podkład i konfiguracja elementów świetlnych.",
+      "Przeznaczenie, sposób mocowania i zakres instalacji."
+    ],
+    "quote": [
+      "Tekst, krój pisma lub plik znaku firmowego.",
+      "Oczekiwaną szerokość, kolor i zdjęcie tła.",
+      "Miejsce użytkowania oraz informację o dostępie do zasilania."
+    ],
+    "faq": [
+      {
+        "q": "Czy ledon można wykonać według odręcznego napisu?",
+        "a": "Możemy wykorzystać go jako podstawę projektu. Kształt trzeba sprawdzić i dostosować do możliwości odwzorowania linią świetlną."
+      },
+      {
+        "q": "Czy ledon nadaje się na zewnątrz?",
+        "a": "Nie każdy wariant. Planowane warunki ekspozycji trzeba podać przed wyceną, aby dobrać odpowiednią konstrukcję oraz komponenty."
+      }
+    ],
+    "related": [
+      "/neony/",
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
+  },
+  "/tabliczki-informacyjne/": {
+    "title": "Tabliczki informacyjne i oznakowanie pomieszczeń",
+    "lead": "Wykonujemy tabliczki na drzwi, oznaczenia pomieszczeń i systemy informacji. Obsługujemy biura, firmy oraz instytucje z Olsztyna i Ostródy, dbając o spójny układ oznakowania.",
+    "overview": "Dobry system pomaga poruszać się po budynku bez domyślania się, gdzie znajduje się właściwy pokój lub punkt obsługi. Porządkujemy numerację, nazwy i kierunki, a projekt dopasowujemy do wnętrza. Ważna jest czytelność z odpowiedniej odległości oraz możliwość wymiany informacji, jeśli zmieniają się użytkownicy pomieszczeń. Przy większym zamówieniu warto przygotować pełną listę tabliczek, aby zachować jeden styl i uniknąć braków podczas montażu.",
+    "materials": [
+      "Plexi i inne sztywne podłoża dobierane do projektu.",
+      "Nadruk, folia lub uzgodniona technologia oznaczeń.",
+      "Mocowanie dopasowane do drzwi, ściany i warunków użytkowania."
+    ],
+    "applications": [
+      "Numery pokoi i nazwy działów w biurach.",
+      "Oznakowanie gabinetów i punktów obsługi klienta.",
+      "Informacja kierunkowa oraz oznaczenia wewnątrz obiektów."
+    ],
+    "process": [
+      "Zbieramy listę pomieszczeń, treści i zdjęcia miejsc mocowania.",
+      "Ustalamy wspólny format, typografię, materiały oraz zasady aktualizacji informacji.",
+      "Po zatwierdzeniu zestawienia produkujemy tabliczki i uzgadniamy montaż."
+    ],
+    "pricing": [
+      "Liczba tabliczek, formaty oraz wybrane materiały.",
+      "Rodzaj grafiki i potrzeba wymiennych pól.",
+      "Mocowania, personalizacja oraz zakres instalacji."
+    ],
+    "quote": [
+      "Listę treści przypisaną do konkretnych pomieszczeń.",
+      "Logo, orientacyjny rozmiar i zdjęcia drzwi lub ścian.",
+      "Informację, które dane mają być później zmieniane."
+    ],
+    "faq": [
+      {
+        "q": "Czy każda tabliczka może mieć inną nazwę?",
+        "a": "Tak. Przy większym zamówieniu najlepiej przesłać uporządkowaną tabelę z numerem, nazwą i liczbą egzemplarzy dla każdego oznaczenia."
+      },
+      {
+        "q": "Czy wykonacie tabliczki do istniejącego systemu?",
+        "a": "Możliwość dopasowania ocenimy na podstawie zdjęć, wymiarów i materiału. Jeżeli system ma wymienne wkłady, potrzebne będą również ich dokładne parametry."
+      }
+    ],
+    "related": [
+      "/totemy/",
+      "/tablice-olsztyn/",
+      "/szyldy/"
+    ]
+  },
+  "/windery/": {
+    "title": "Windery reklamowe z logo",
+    "lead": "Windery to mobilne flagi, które pomagają oznaczyć punkt sprzedaży lub wydarzenie. Przygotowujemy projekt i wykonanie zestawów dla klientów z Olsztyna, Ostródy i okolic.",
+    "overview": "Winder powinien być rozpoznawalny także wtedy, gdy materiał porusza się na wietrze. Dlatego logo i krótka treść potrzebują odpowiedniej skali, a drobne dane lepiej przenieść na inny nośnik. Dobieramy kształt, rozmiar i podstawę do miejsca ustawienia. Inne wymagania ma ekspozycja na twardej nawierzchni, inne na terenie zielonym. Jeśli masz już maszt, przed wykonaniem nowej flagi trzeba potwierdzić jego model i sposób mocowania.",
+    "materials": [
+      "Flaga z indywidualną grafiką w uzgodnionym kształcie.",
+      "Maszt dopasowany do formatu i konkretnego systemu.",
+      "Podstawa lub mocowanie dobierane do miejsca użytkowania."
+    ],
+    "applications": [
+      "Oznakowanie przed lokalem i punktem sprzedaży.",
+      "Imprezy plenerowe, targi oraz akcje promocyjne.",
+      "Identyfikacja stref partnerów i sponsorów wydarzenia."
+    ],
+    "process": [
+      "Ustalamy miejsce ekspozycji, wysokość zestawu i rodzaj nawierzchni.",
+      "Przygotowujemy czytelny projekt oraz potwierdzamy maszt i podstawę.",
+      "Po akceptacji wykonujemy flagę i kompletujemy ustalony zestaw."
+    ],
+    "pricing": [
+      "Rozmiar, kształt flagi i liczba zestawów.",
+      "Rodzaj masztu, podstawy oraz elementów mocujących.",
+      "Projekt, sposób druku i wykończenie tkaniny."
+    ],
+    "quote": [
+      "Logo, krótką treść i liczbę egzemplarzy.",
+      "Miejsce ustawienia oraz rodzaj nawierzchni.",
+      "Zdjęcie i model posiadanego masztu, jeśli zamawiasz samą flagę."
+    ],
+    "faq": [
+      {
+        "q": "Czy jedna podstawa nadaje się do każdego miejsca?",
+        "a": "Nie. Wybór zależy od systemu, nawierzchni i warunków użytkowania. Przed zamówieniem warto wskazać, gdzie zestaw będzie najczęściej ustawiany."
+      },
+      {
+        "q": "Czy po drugiej stronie flaga będzie miała odbicie lustrzane?",
+        "a": "Przy druku jednostronnym taki efekt jest naturalny. Oczekiwany wygląd obu stron potwierdzamy przed przygotowaniem projektu i wyborem technologii."
+      }
+    ],
+    "related": [
+      "/flagi/",
+      "/rollupy/",
+      "/scianki-reklamowe/"
+    ]
+  },
+  "/billboardy/": {
+    "title": "Billboardy reklamowe",
+    "lead": "Przygotowujemy projekt, druk i uzgodniony montaż reklamy billboardowej. Obsługujemy firmy z Olsztyna oraz Ostródy, dopasowując komunikat do nośnika i warunków oglądania.",
+    "overview": "Na billboardzie odbiorca powinien szybko rozpoznać markę i główną informację. Dlatego pracujemy nad krótkim hasłem, czytelną kompozycją i jednym wyraźnym motywem. Dokładny format oraz technologia wydruku zależą od istniejącego nośnika. Ustalamy, czy potrzebujesz samej grafiki i produkcji, czy także pomocy w organizacji ekspozycji. Dostępność lokalizacji i termin kampanii wymagają osobnego potwierdzenia przed zaplanowaniem prac montażowych.",
+    "materials": [
+      "Wydruk na materiale zgodnym z wymaganiami nośnika.",
+      "Projekt dopasowany do rzeczywistych proporcji powierzchni.",
+      "Wykończenie przewidziane dla uzgodnionego sposobu montażu."
+    ],
+    "applications": [
+      "Lokalne kampanie firm, sklepów i usług.",
+      "Promocja inwestycji, wydarzeń oraz nowych punktów.",
+      "Sezonowe komunikaty na istniejących powierzchniach reklamowych."
+    ],
+    "process": [
+      "Potwierdzamy lokalizację, termin kampanii, format i wymagania operatora nośnika.",
+      "Opracowujemy projekt oraz ustalamy materiał i zakres produkcji.",
+      "Po akceptacji drukujemy reklamę i realizujemy uzgodniony montaż."
+    ],
+    "pricing": [
+      "Format, technologia wydruku i liczba egzemplarzy.",
+      "Zakres projektu oraz przygotowanie materiałów graficznych.",
+      "Montaż, lokalizacja i ewentualna organizacja ekspozycji."
+    ],
+    "quote": [
+      "Wymiary nośnika i jego lokalizację lub dane operatora.",
+      "Cel reklamy, logo i najważniejszą treść kampanii.",
+      "Planowany termin oraz informację, jaki zakres obsługi jest potrzebny."
+    ],
+    "faq": [
+      {
+        "q": "Czy cena druku obejmuje wynajem billboardu?",
+        "a": "Nie należy tego zakładać. Druk, montaż i udostępnienie powierzchni to osobne elementy, które powinny być wyraźnie określone w ofercie."
+      },
+      {
+        "q": "Czy warto dodać listę wszystkich usług?",
+        "a": "Na nośniku oglądanym z drogi zwykle lepiej działa jeden temat i czytelna marka. Szczegóły oferty można pokazać na stronie wskazanej w reklamie."
+      }
+    ],
+    "related": [
+      "/reklama-na-rusztowaniu-2/",
+      "/banery/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/etykiety/": {
+    "title": "Etykiety na produkty i opakowania",
+    "lead": "Etykieta identyfikuje produkt i porządkuje informacje na opakowaniu. Przygotowujemy projekt oraz wykonanie etykiet dla firm z Olsztyna, Ostródy i regionu.",
+    "overview": "Przy wyborze materiału ważny jest rodzaj opakowania, warunki przechowywania i sposób aplikacji. Etykieta na kartonie może wymagać innego rozwiązania niż oznaczenie butelki lub pojemnika używanego w wilgotnym otoczeniu. Projekt dopasowujemy do kształtu, wymiarów i liczby wariantów produktu. Dbamy o układ graficzny, natomiast obowiązkowe informacje branżowe powinien przekazać i zatwierdzić zamawiający. Pozwala to oddzielić opracowanie wyglądu od merytorycznej treści oznaczeń.",
+    "materials": [
+      "Materiał samoprzylepny dobierany do podłoża oraz użytkowania.",
+      "Druk z logo, informacjami i wariantami produktu.",
+      "Kształt i wykończenie zgodne z wymaganiami zamówienia."
+    ],
+    "applications": [
+      "Produkty lokalnych marek i serie opakowań.",
+      "Oznaczanie wariantów, zestawów i materiałów firmowych.",
+      "Identyfikacja opakowań promocyjnych oraz sezonowych."
+    ],
+    "process": [
+      "Zbieramy dane o produkcie, opakowaniu i warunkach użytkowania etykiety.",
+      "Ustalamy format, materiał oraz układ zatwierdzonych informacji.",
+      "Po sprawdzeniu projektu wykonujemy etykiety w uzgodnionym nakładzie."
+    ],
+    "pricing": [
+      "Format, kształt, rodzaj podłoża i nakład.",
+      "Liczba wersji graficznych oraz zakres personalizacji.",
+      "Przygotowanie projektu i sposób wykończenia etykiet."
+    ],
+    "quote": [
+      "Wymiary etykiety, zdjęcie opakowania i liczbę sztuk.",
+      "Logo oraz zatwierdzoną treść dla każdego wariantu.",
+      "Warunki przechowywania i informację o sposobie naklejania."
+    ],
+    "faq": [
+      {
+        "q": "Czy jedna etykieta pasuje do każdego opakowania?",
+        "a": "Nie. Klejenie zależy między innymi od podłoża, jego kształtu i warunków użytkowania. Przed doborem materiału potrzebujemy informacji o konkretnym opakowaniu."
+      },
+      {
+        "q": "Czy przygotujecie kilka wersji tego samego projektu?",
+        "a": "Tak. Przekaż listę wariantów oraz przypisaną im treść. Wspólny układ może zachować spójny wygląd całej serii produktów."
+      }
+    ],
+    "related": [
+      "/naklejki/",
+      "/drukarnia-wielkoformatowa/",
+      "/tabliczki-informacyjne/"
+    ]
+  },
+  "/naklejki/": {
+    "title": "Naklejki reklamowe z własną grafiką",
+    "lead": "Wykonujemy naklejki z logo, grafiką i oznaczeniami dla firm. W YOONA dobieramy format oraz materiał do powierzchni i zastosowania, obsługując Olsztyn i Ostródę.",
+    "overview": "Najpierw ustalamy, gdzie naklejka trafi i jak długo ma być używana. Inny materiał sprawdzi się na gładkim opakowaniu, inny przy oznakowaniu witryny czy wyposażenia. Możesz zamówić prostokątną grafikę albo kształt dopasowany do znaku marki. Projekt powinien uwzględniać czytelność w rzeczywistym rozmiarze i miejsce cięcia. Warunki zewnętrzne, kontakt z wilgocią lub potrzeba późniejszego usunięcia wymagają osobnego ustalenia przed wyborem folii.",
+    "materials": [
+      "Folie samoprzylepne dobierane do podłoża i ekspozycji.",
+      "Nadruk oraz cięcie zgodnie z uzgodnionym kształtem.",
+      "Dodatkowe wykończenie, jeśli wymaga go zastosowanie."
+    ],
+    "applications": [
+      "Naklejki firmowe i materiały rozdawane klientom.",
+      "Oznaczanie opakowań, wyposażenia i punktów sprzedaży.",
+      "Grafiki informacyjne oraz promocyjne na powierzchniach."
+    ],
+    "process": [
+      "Zbieramy format, nakład, zdjęcie podłoża i oczekiwany okres użytkowania.",
+      "Dobieramy materiał oraz przygotowujemy grafikę i linię cięcia.",
+      "Po akceptacji wykonujemy naklejki w ustalonej formie przekazania."
+    ],
+    "pricing": [
+      "Wielkość, kształt, rodzaj folii i liczba egzemplarzy.",
+      "Powierzchnia druku oraz ewentualne laminowanie.",
+      "Projekt, personalizacja i sposób przygotowania do aplikacji."
+    ],
+    "quote": [
+      "Logo lub plik projektu oraz docelowe wymiary.",
+      "Liczbę sztuk i opis powierzchni naklejania.",
+      "Informację o warunkach użytkowania i potrzebie późniejszego usunięcia."
+    ],
+    "faq": [
+      {
+        "q": "Czy można wyciąć naklejkę po obrysie logo?",
+        "a": "Możliwość zależy od wielkości i szczegółowości kształtu. Sprawdzimy projekt oraz ustalimy linię cięcia przed uruchomieniem produkcji."
+      },
+      {
+        "q": "Czy naklejka zewnętrzna zawsze nadaje się na samochód?",
+        "a": "Nie. Folia musi odpowiadać konkretnemu podłożu i geometrii. Do oklejania nadwozia dobieramy materiał samochodowy oraz odpowiednią metodę aplikacji."
+      }
+    ],
+    "related": [
+      "/etykiety/",
+      "/oklejanie-szyb/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/potykacze/": {
+    "title": "Potykacze reklamowe przed lokal",
+    "lead": "Potykacz pomaga pokazać ofertę blisko wejścia do lokalu. Przygotowujemy projekt oraz wykonanie oznakowania dla sklepów, gastronomii i usług w Olsztynie oraz Ostródzie.",
+    "overview": "Na potykaczu warto wyeksponować to, co jest aktualne: menu dnia, konkretną usługę lub informację o wejściu. Komunikat powinien być czytelny dla przechodnia bez zatrzymywania się przy drobnym tekście. Formę nośnika dobieramy do miejsca ustawienia, częstotliwości zmian oraz warunków użytkowania. Jeżeli ekspozycja ma stać przy ciągu pieszym, trzeba uwzględnić przejście i zasady korzystania z terenu. Projekt łączymy ze stylem szyldu oraz pozostałej identyfikacji.",
+    "materials": [
+      "Konstrukcja dobierana do wnętrza lub uzgodnionej ekspozycji zewnętrznej.",
+      "Powierzchnia z grafiką albo informacją przewidzianą do aktualizacji.",
+      "Format i sposób prezentacji dopasowane do treści."
+    ],
+    "applications": [
+      "Menu dnia przy restauracjach i kawiarniach.",
+      "Krótkie promocje sklepów oraz punktów usługowych.",
+      "Informacje kierunkowe przy wejściach do lokali."
+    ],
+    "process": [
+      "Ustalamy miejsce ustawienia, częstotliwość zmian i planowaną treść.",
+      "Dobieramy wariant nośnika oraz przygotowujemy czytelny układ grafiki.",
+      "Po zatwierdzeniu wykonujemy oznakowanie i uzgadniamy jego przekazanie."
+    ],
+    "pricing": [
+      "Format, rodzaj konstrukcji i liczba egzemplarzy.",
+      "Stała grafika lub sposób późniejszej aktualizacji.",
+      "Zakres projektu oraz wybrane wykończenie."
+    ],
+    "quote": [
+      "Logo, treść reklamy i miejsce ustawienia.",
+      "Oczekiwany format oraz liczbę potrzebnych sztuk.",
+      "Informację, czy oferta ma zmieniać się codziennie lub okresowo."
+    ],
+    "faq": [
+      {
+        "q": "Czy potykacz może stać na każdym chodniku?",
+        "a": "Możliwość ustawienia trzeba sprawdzić dla konkretnego terenu. Nośnik nie powinien utrudniać przejścia, a lokalizacja może wymagać uzgodnienia z zarządcą."
+      },
+      {
+        "q": "Czy można później zmienić reklamę?",
+        "a": "Zależy to od wybranego wariantu. Jeżeli planujesz częste zmiany, warto uwzględnić sposób aktualizacji już przy zamówieniu."
+      }
+    ],
+    "related": [
+      "/menuboardy/",
+      "/szyldy/",
+      "/tablice-olsztyn/"
+    ]
+  },
+  "/rollupy/": {
+    "title": "Rollupy reklamowe",
+    "lead": "Rollup to zwijany nośnik grafiki na targi, konferencje i do punktów obsługi. Projektujemy oraz wykonujemy rollupy dla klientów z Olsztyna i Ostródy.",
+    "overview": "Na pionowym formacie najważniejsze informacje powinny znaleźć się w obszarze dobrze widocznym ponad stołem lub wyposażeniem stoiska. Projektujemy hierarchię: marka, główna wiadomość i prosty kontakt. Dobieramy rozmiar do miejsca ustawienia oraz sposobu transportu. Wydruk musi uwzględniać konstrukcję kasety i wymagany obszar techniczny, dlatego do produkcji potrzebny jest właściwy szablon. Jeśli masz gotowy plik, sprawdzimy go przed uruchomieniem realizacji.",
+    "materials": [
+      "Kaseta i maszt w uzgodnionym formacie systemu.",
+      "Materiał do grafiki zwijanej wewnątrz kasety.",
+      "Projekt oraz druk dopasowane do parametrów nośnika."
+    ],
+    "applications": [
+      "Stoiska targowe i prezentacje podczas konferencji.",
+      "Recepcje, biura oraz punkty obsługi klientów.",
+      "Szkolenia, wydarzenia firmowe i akcje promocyjne."
+    ],
+    "process": [
+      "Ustalamy format, miejsce prezentacji i najważniejszą treść reklamy.",
+      "Przygotowujemy projekt lub sprawdzamy plik zgodnie z wymaganiami systemu.",
+      "Drukujemy grafikę i kompletujemy rollup w uzgodnionym wariancie."
+    ],
+    "pricing": [
+      "Rozmiar, wariant systemu oraz liczba zestawów.",
+      "Rodzaj materiału i przygotowanie grafiki.",
+      "Zakres projektu lub wymiana istniejącego wydruku."
+    ],
+    "quote": [
+      "Logo, krótką treść i materiały graficzne.",
+      "Oczekiwany format, liczbę sztuk i termin wydarzenia.",
+      "Model posiadanej kasety, jeśli potrzebujesz samej grafiki."
+    ],
+    "faq": [
+      {
+        "q": "Czy mogę wykorzystać projekt ulotki na rollup?",
+        "a": "Zwykle wymaga on przebudowania. Pionowy format i oglądanie z większej odległości oznaczają inne proporcje tekstu, zdjęć oraz danych kontaktowych."
+      },
+      {
+        "q": "Czy wymienicie wydruk w starej kasecie?",
+        "a": "Możliwość zależy od systemu i jego stanu. Prześlij model oraz zdjęcie kasety, abyśmy mogli potwierdzić zakres prac."
+      }
+    ],
+    "related": [
+      "/scianki-reklamowe/",
+      "/windery/",
+      "/flagi/"
+    ]
+  },
+  "/koszulki/": {
+    "title": "Koszulki reklamowe i odzież z logo",
+    "lead": "Przygotowujemy koszulki z logo dla pracowników, zespołów i wydarzeń. YOONA dobiera projekt oraz sposób znakowania do odzieży i nakładu klientów z Olsztyna oraz Ostródy.",
+    "overview": "Spójna odzież pomaga rozpoznać zespół w lokalu, na stoisku lub podczas pracy u klienta. Projekt ustalamy razem z krojem, kolorem i rozmiarem odzieży. Drobny napis na piersi i duża grafika na plecach mają inne wymagania wykonania. W zależności od materiału, nakładu oraz detali znaku dobieramy nadruk, haft lub inne uzgodnione oznakowanie. Przed zamówieniem porządkujemy tabelę rozmiarów i wariantów, aby uniknąć pomyłek przy kompletowaniu.",
+    "materials": [
+      "Koszulki i uzgodnione elementy odzieży firmowej.",
+      "Nadruki dobierane do tkaniny, grafiki oraz nakładu.",
+      "Haft, naszywki lub aplikacje w odpowiednich zastosowaniach."
+    ],
+    "applications": [
+      "Odzież zespołu sklepu, gastronomii i usług.",
+      "Koszulki na targi, wydarzenia oraz akcje promocyjne.",
+      "Identyfikacja ekip i firmowych zespołów."
+    ],
+    "process": [
+      "Ustalamy rodzaj odzieży, kolory oraz pełne zestawienie rozmiarów.",
+      "Dobieramy technikę i wielkość znakowania oraz zatwierdzamy rozmieszczenie grafiki.",
+      "Po akceptacji wykonujemy zamówienie i kompletujemy uzgodnione warianty."
+    ],
+    "pricing": [
+      "Rodzaj odzieży, liczba sztuk i warianty rozmiarowe.",
+      "Technika znakowania, liczba miejsc i wielkość grafiki.",
+      "Stopień szczegółowości logo oraz przygotowanie projektu."
+    ],
+    "quote": [
+      "Logo w dobrej jakości oraz wskazanie miejsc znakowania.",
+      "Liczbę sztuk z podziałem na rozmiary i kolory.",
+      "Przeznaczenie odzieży oraz oczekiwany termin odbioru."
+    ],
+    "faq": [
+      {
+        "q": "Co wybrać: haft czy nadruk?",
+        "a": "Wybór zależy od tkaniny, wielkości grafiki i szczegółowości logo. Na podstawie projektu oraz przeznaczenia odzieży zaproponujemy odpowiednią technikę."
+      },
+      {
+        "q": "Czy można znakować odzież dostarczoną przez klienta?",
+        "a": "Możliwość należy potwierdzić przed zamówieniem. Potrzebne są informacje o składzie, konstrukcji i stanie odzieży oraz o oczekiwanym oznakowaniu."
+      }
+    ],
+    "related": [
+      "/flagi/",
+      "/scianki-reklamowe/",
+      "/naklejki/"
+    ]
+  },
+  "/menuboardy/": {
+    "title": "Menuboardy i tablice menu",
+    "lead": "Projektujemy i wykonujemy menuboardy dla restauracji, pizzerii, kawiarni oraz barów. W Olsztynie i Ostródzie pomagamy uporządkować ofertę lokalu, przygotować grafikę i uzgodnić montaż.",
+    "overview": "Klient powinien szybko znaleźć kategorię dań, wariant i cenę. Dlatego układ menu zaczynamy od uporządkowania treści, a dopiero potem wybieramy zdjęcia i ozdobniki. Format dopasowujemy do odległości od klienta, miejsca nad ladą oraz oświetlenia. Jeśli oferta zmienia się sezonowo, ustalamy sposób wymiany wydruków. Spójna typografia ułatwia późniejsze aktualizacje i pozwala zachować czytelność nawet wtedy, gdy lokal ma kilka plansz lub punktów sprzedaży.",
+    "materials": [
+      "Tablice i konstrukcje do uzgodnionego miejsca ekspozycji.",
+      "Wydruki menu dopasowane do formatu poszczególnych pól.",
+      "Wariant z możliwością wymiany grafiki według wybranego systemu."
+    ],
+    "applications": [
+      "Menu nad ladą w barze i punkcie szybkiej obsługi.",
+      "Tablice z ofertą pizzerii, kawiarni i restauracji.",
+      "Plansze sezonowe oraz ujednolicenie menu kilku lokali."
+    ],
+    "process": [
+      "Zbieramy uporządkowaną kartę, ceny oraz wymiary miejsca ekspozycji.",
+      "Projektujemy podział kategorii, czytelną typografię i sposób aktualizacji grafiki.",
+      "Po akceptacji wykonujemy elementy oraz realizujemy uzgodniony montaż."
+    ],
+    "pricing": [
+      "Liczba plansz, format i rodzaj konstrukcji.",
+      "Zakres opracowania menu, zdjęć i układu graficznego.",
+      "Sposób wymiany wydruków oraz warunki instalacji."
+    ],
+    "quote": [
+      "Aktualną kartę z cenami i podziałem na kategorie.",
+      "Logo, zdjęcia potraw i zdjęcie miejsca nad ladą.",
+      "Wymiary, liczbę plansz oraz częstotliwość zmian oferty."
+    ],
+    "faq": [
+      {
+        "q": "Czy po zmianie cen trzeba robić całe menu od nowa?",
+        "a": "Przy odpowiednio dobranym systemie można wymienić wybrane wydruki. Potrzebę częstych aktualizacji warto zgłosić przed zaprojektowaniem nośnika."
+      },
+      {
+        "q": "Czy przygotujecie treść menu z roboczej listy?",
+        "a": "Możemy uporządkować układ przekazanych informacji. Nazwy, ceny, opisy i wymagane dane o potrawach powinien zatwierdzić lokal przed drukiem."
+      }
+    ],
+    "related": [
+      "/potykacze/",
+      "/oklejanie-przyczep-gastronomicznych/",
+      "/szyldy/"
+    ]
+  },
+  "/oklejanie-samochodu-cena/": {
+    "title": "Ile kosztuje oklejenie samochodu?",
+    "lead": "Cena oklejenia samochodu zależy od nadwozia, materiału i zakresu grafiki. Przygotowujemy indywidualne wyceny oznakowania aut osobowych, dostawczych i flot w Olsztynie oraz Ostródzie.",
+    "overview": "Porównując oferty, warto sprawdzić, co obejmują: projekt, rodzaj folii, laminowanie, aplikację oraz ewentualne zdjęcie starej reklamy. Same napisy na drzwiach i pełna grafika na nadwoziu to różne zakresy prac. Na koszt wpływa też geometria pojazdu, stan powierzchni i liczba egzemplarzy. Zdjęcia auta oraz krótki opis oczekiwanego efektu pozwalają przygotować bardziej użyteczną propozycję niż cena podana wyłącznie na podstawie nazwy modelu.",
+    "materials": [
+      "Napisy ploterowe jako jeden z wariantów zakresu.",
+      "Częściowe albo szersze oklejenie folią drukowaną.",
+      "Folie do zmiany koloru, wyceniane według osobnej konfiguracji."
+    ],
+    "applications": [
+      "Porównanie kilku wariantów reklamy na jednym aucie.",
+      "Planowanie budżetu oznakowania samochodów firmowych.",
+      "Ustalenie zakresu oklejenia nowej lub istniejącej floty."
+    ],
+    "process": [
+      "Przesyłasz zdjęcia, dane pojazdu i przybliżony zakres potrzebnej reklamy.",
+      "Ustalamy materiał, projekt, przygotowanie podłoża oraz elementy objęte ofertą.",
+      "Po wyborze wariantu zatwierdzamy grafikę i umawiamy termin aplikacji."
+    ],
+    "pricing": [
+      "Powierzchnia oklejenia i liczba samochodów.",
+      "Typ folii, druk, laminowanie i stopień złożoności.",
+      "Projekt, usuwanie grafiki oraz przygotowanie nadwozia."
+    ],
+    "quote": [
+      "Markę, model, rocznik i zdjęcia z kilku stron.",
+      "Logo oraz przykład oczekiwanej ilości grafiki.",
+      "Stan obecnej folii i liczbę pojazdów do realizacji."
+    ],
+    "faq": [
+      {
+        "q": "Dlaczego nie ma jednej ceny za oklejenie auta?",
+        "a": "Zakres może obejmować małe logo albo duże powierzchnie o skomplikowanym kształcie. Różnią się zużycie materiału, czas przygotowania oraz praca przy aplikacji."
+      },
+      {
+        "q": "Czy wycena może zawierać kilka opcji?",
+        "a": "Tak. Warto wskazać cel i orientacyjny zakres. Możemy porównać na przykład same napisy z częściową grafiką, określając, co obejmuje każdy wariant."
+      }
+    ],
+    "related": [
+      "/oklejanie-samochodow/",
+      "/oklejanie-samochodow-osobowych/",
+      "/zmiana-koloru-samochodu/"
+    ]
+  },
+  "/frezowanie-cnc/": {
+    "title": "Frezowanie CNC plexi, dibondu i elementów reklamowych",
+    "lead": "Wykonujemy frezowanie CNC na wymiar dla firm, producentów reklam i klientów indywidualnych. Przygotowujemy pojedyncze detale oraz serie elementów według dokumentacji, obsługując Olsztyn, Ostródę i region.",
+    "overview": "CNC pozwala mechanicznie wycinać kontury, otwory i powtarzalne kształty według przygotowanego projektu. W reklamie wykorzystujemy je do liter, logotypów, szyldów, tablic i komponentów kasetonów. Element może być gotowym detalem albo półproduktem do klejenia, składania, oklejania czy montażu. Przed rozpoczęciem prac sprawdzamy materiał, grubość, geometrię i przeznaczenie. Wąskie wycięcia oraz wewnętrzne narożniki zależą od możliwości narzędzia, dlatego dokumentacja wymaga oceny pod kątem obróbki. Sposób wykończenia krawędzi ustalamy osobno od samego frezowania.",
+    "materials": [
+      "Plexi PMMA do logotypów, paneli oraz elementów ekspozycyjnych.",
+      "Dibond i inne uzgodnione materiały do tablic i szyldów.",
+      "Tworzywa, MDF i sklejka po potwierdzeniu parametrów konkretnego zlecenia."
+    ],
+    "applications": [
+      "Litery, symbole oraz elementy identyfikacji wizualnej.",
+      "Formatki, otwory montażowe i komponenty reklam.",
+      "Szablony, dekoracje i powtarzalne serie detali."
+    ],
+    "process": [
+      "Analizujemy plik wektorowy lub CAD, wymiary, materiał i wymagania wykończenia.",
+      "Uzgadniamy możliwość wykonania, przygotowanie produkcji oraz zakres dalszej obróbki.",
+      "Frezujemy zaakceptowany projekt i przekazujemy detale według ustalonej specyfikacji."
+    ],
+    "pricing": [
+      "Rodzaj i grubość materiału oraz wielkość elementów.",
+      "Długość konturów, szczegółowość geometrii i liczba sztuk.",
+      "Przygotowanie plików, wykończenie i dodatkowe etapy produkcji."
+    ],
+    "quote": [
+      "Plik wektorowy lub CAD z wymiarami i zamkniętymi konturami.",
+      "Materiał, grubość, liczbę sztuk oraz przeznaczenie detali.",
+      "Wymagania dotyczące otworów, krawędzi i dalszego montażu."
+    ],
+    "faq": [
+      {
+        "q": "Czy przyjmujecie zlecenia od innych agencji reklamowych?",
+        "a": "Tak. Możemy przygotować komponenty przeznaczone do dalszej produkcji. Istotne są dokumentacja, powtarzalność serii i jednoznaczny zakres wykończenia."
+      },
+      {
+        "q": "Czy frezujecie pojedynczy element?",
+        "a": "Takie zlecenia również omawiamy. Możliwość wykonania i koszt zależą od materiału, geometrii oraz przygotowania produkcji."
+      },
+      {
+        "q": "Czy krawędź frezowanej plexi będzie optycznie przezroczysta?",
+        "a": "Samo frezowanie nie oznacza polerowania. Jeżeli ważny jest konkretny wygląd krawędzi, trzeba go wskazać i uzgodnić sposób wykończenia."
+      }
+    ],
+    "related": [
+      "/litery-3d/",
+      "/tablice-olsztyn/",
+      "/kasetony-swietlne/"
+    ],
+    "children": [
+      "/frezowanie-plexi/",
+      "/frezowanie-dibondu/",
+      "/frezowanie-elementow-reklamowych/"
+    ]
+  },
+  "/tablice-unijne/": {
+    "title": "Tablice unijne i oznakowanie projektów",
+    "lead": "Przygotowujemy tablice informacyjne dla projektów dofinansowanych z Funduszy Europejskich. YOONA wykonuje projekt, druk i uzgodniony montaż dla firm oraz instytucji z Olsztyna i Ostródy.",
+    "overview": "Wygląd tablicy musi wynikać z aktualnych zasad konkretnego programu. Potrzebne są właściwe oznaczenia, nazwa projektu, dane beneficjenta i obowiązujący wzór. Na ich podstawie opracowujemy czytelny układ oraz dobieramy materiał do miejsca i okresu ekspozycji. Przed produkcją zamawiający zatwierdza treść i zgodność z dokumentacją dofinansowania. Nie ma jednego uniwersalnego projektu odpowiedniego dla wszystkich funduszy, dlatego warto przekazać wytyczne już przy pierwszym zapytaniu.",
+    "materials": [
+      "Sztywne podłoże dobierane do wnętrza lub ekspozycji zewnętrznej.",
+      "Druk z oznaczeniami wskazanymi w dokumentacji programu.",
+      "Mocowanie do ściany albo uzgodnionej konstrukcji."
+    ],
+    "applications": [
+      "Oznakowanie inwestycji i miejsc realizacji projektów.",
+      "Tablice dla przedsiębiorców, samorządów oraz instytucji.",
+      "Informacja przy zakupach wyposażenia i modernizacjach."
+    ],
+    "process": [
+      "Zbieramy wzór, wytyczne, dane beneficjenta i dokładną treść tablicy.",
+      "Przygotowujemy projekt oraz ustalamy wymiary, materiał i sposób mocowania.",
+      "Po zatwierdzeniu wykonujemy tablicę i realizujemy uzgodniony montaż."
+    ],
+    "pricing": [
+      "Format, rodzaj podłoża i liczba egzemplarzy.",
+      "Projekt na podstawie przekazanych zasad oraz druk.",
+      "Konstrukcja, miejsce ekspozycji i zakres instalacji."
+    ],
+    "quote": [
+      "Aktualne wytyczne lub link do dokumentacji programu.",
+      "Nazwę projektu, dane beneficjenta i wymagane oznaczenia.",
+      "Format, zdjęcie miejsca montażu oraz termin realizacji."
+    ],
+    "faq": [
+      {
+        "q": "Czy każda tablica unijna ma takie same wymiary?",
+        "a": "Nie. Wymiary i zakres informacji zależą od programu oraz zasad właściwych dla projektu. Należy je potwierdzić przed zamówieniem."
+      },
+      {
+        "q": "Czy dobierzecie materiał do tablicy zewnętrznej?",
+        "a": "Tak. Uwzględnimy format, podłoże montażowe i planowany okres ekspozycji. Wygląd tablicy nadal musi odpowiadać przekazanym wytycznym."
+      }
+    ],
+    "related": [
+      "/tablice-olsztyn/",
+      "/tabliczki-informacyjne/",
+      "/drukarnia-wielkoformatowa/"
+    ]
+  },
+  "/frezowanie-plexi/": {
+    "title": "Frezowanie plexi na wymiar",
+    "lead": "Frezujemy plexi PMMA do liter, logotypów, tablic i ekspozycji. YOONA przygotowuje pojedyncze elementy oraz serie według projektu dla klientów z Olsztyna, Ostródy i regionu.",
+    "overview": "Plexi pozwala połączyć indywidualny kształt z kolorem lub przezroczystością materiału. Przy frezowaniu planujemy kontur, otwory i sposób późniejszego mocowania. Ważne są grubość płyty, odległości między detalami i wygląd krawędzi. Nie każdy wąski detal da się wykonać bez zmiany geometrii, dlatego plik oceniamy przed wyceną. Możemy przygotować element do dalszego składania reklamy albo uzgodnić kolejne prace. Samo frezowanie nie daje automatycznie efektu optycznie polerowanej krawędzi — wymagane wykończenie trzeba wskazać w specyfikacji.",
+    "materials": [
+      "Plexi przezroczysta, kolorowa lub inny uzgodniony wariant PMMA.",
+      "Grubość płyty dobierana do zastosowania oraz konstrukcji elementu.",
+      "Krawędzie i powierzchnie wykańczane według potwierdzonego zakresu."
+    ],
+    "applications": [
+      "Logotypy oraz litery do oznakowania wnętrz.",
+      "Panele, tablice i części ekspozytorów.",
+      "Elementy reklam podświetlanych po uzgodnieniu projektu."
+    ],
+    "process": [
+      "Sprawdzamy kontury, wymiary, otwory i warunki wykorzystania gotowego detalu.",
+      "Ustalamy rodzaj plexi oraz wymagania dotyczące krawędzi i mocowania.",
+      "Przygotowujemy produkcję, frezujemy elementy i przekazujemy uzgodniony komplet."
+    ],
+    "pricing": [
+      "Wariant i grubość plexi oraz wielkość formatki.",
+      "Złożoność konturu, liczba otworów i nakład.",
+      "Przygotowanie dokumentacji oraz dodatkowe wykończenie krawędzi."
+    ],
+    "quote": [
+      "Plik wektorowy lub CAD z wymiarami elementów.",
+      "Rodzaj plexi, jej grubość i liczbę sztuk.",
+      "Informację o widocznych krawędziach oraz sposobie montażu."
+    ],
+    "faq": [
+      {
+        "q": "Czy frezowana plexi może być przezroczysta na krawędziach?",
+        "a": "Oczekiwany efekt trzeba uzgodnić osobno. Powierzchnia po frezowaniu różni się od krawędzi optycznie polerowanej i może wymagać dodatkowej obróbki."
+      },
+      {
+        "q": "Czy można wykonać otwory montażowe w tym samym procesie?",
+        "a": "Możliwość oceniamy z projektu. Potrzebne są wymiary i położenie otworów oraz informacja, jak element będzie mocowany i obciążany."
+      },
+      {
+        "q": "Czy wykonacie identyczną serię logotypów?",
+        "a": "Frezowanie CNC sprawdza się przy powtarzalnych kształtach. Liczbę sztuk, materiał i dopuszczalne wymagania wymiarowe ustalamy przed rozpoczęciem produkcji."
+      }
+    ],
+    "related": [
+      "/frezowanie-cnc/",
+      "/frezowanie-dibondu/",
+      "/litery-3d/"
+    ],
+    "image_source_path": "/frezowanie-cnc/"
+  },
+  "/frezowanie-dibondu/": {
+    "title": "Frezowanie dibondu i płyt kompozytowych",
+    "lead": "Przygotowujemy formatki, kontury i otwory w dibondzie do tablic, szyldów oraz oznakowania. Zlecenia frezowania omawiamy z firmami z Olsztyna, Ostródy i innych miejscowości regionu.",
+    "overview": "Dibond to płyta kompozytowa z zewnętrznymi warstwami aluminium i rdzeniem pomiędzy nimi. W reklamie wykorzystuje się ją do płaskich oznaczeń i elementów o indywidualnym kształcie. Projekt frezowania powinien uwzględniać nie tylko obrys, lecz także otwory, podparcie i sposób późniejszego łączenia. Jeżeli element ma być gięty lub składany przestrzennie, potrzebna jest odrębna specyfikacja nacięć oraz konstrukcji. Typ i grubość płyty potwierdzamy dla danego zastosowania, zamiast zakładać jednakowe właściwości wszystkich materiałów kompozytowych.",
+    "materials": [
+      "Dibond w uzgodnionym wariancie powierzchni i grubości.",
+      "Inne płyty kompozytowe wyłącznie po potwierdzeniu możliwości obróbki.",
+      "Wykończenie konturu i otworów zgodnie z projektem."
+    ],
+    "applications": [
+      "Tablice firmowe i szyldy o indywidualnym obrysie.",
+      "Panele informacyjne oraz elementy identyfikacji obiektów.",
+      "Formatki przeznaczone do dalszego druku i składania."
+    ],
+    "process": [
+      "Analizujemy rysunek, wymiary, grubość i sposób wykorzystania płyty.",
+      "Uzgadniamy kontury, otwory, ewentualne nacięcia i wymagania montażowe.",
+      "Frezujemy zaakceptowane elementy oraz przekazujemy je do kolejnego etapu realizacji."
+    ],
+    "pricing": [
+      "Rodzaj płyty, jej grubość i powierzchnia elementów.",
+      "Liczba detali, długość konturów i zakres otworów.",
+      "Przygotowanie pliku oraz ewentualne dodatkowe operacje."
+    ],
+    "quote": [
+      "Projekt wektorowy lub CAD z kompletem wymiarów.",
+      "Dokładny materiał, grubość i liczbę elementów.",
+      "Specyfikację mocowania, nacięć i dalszych prac wykończeniowych."
+    ],
+    "faq": [
+      {
+        "q": "Czy dibond można wyfrezować po obrysie logo?",
+        "a": "Możliwość zależy od wymiaru i geometrii. Zbyt drobne połączenia mogą wymagać zmiany projektu, dlatego ocenimy plik przed potwierdzeniem wykonania."
+      },
+      {
+        "q": "Czy wykonujecie nacięcia do gięcia płyty?",
+        "a": "Taki zakres trzeba opisać i uzgodnić na podstawie dokumentacji. Rodzaj nacięcia oraz późniejsze składanie zależą od konkretnej płyty i konstrukcji."
+      },
+      {
+        "q": "Czy można zamówić same formatki bez grafiki?",
+        "a": "Tak, zapytanie może dotyczyć wyłącznie obróbki materiału. Druk, oklejanie i montaż określamy jako osobne elementy zakresu."
+      }
+    ],
+    "related": [
+      "/frezowanie-cnc/",
+      "/tablice-olsztyn/",
+      "/frezowanie-elementow-reklamowych/"
+    ],
+    "image_source_path": "/frezowanie-cnc/"
+  },
+  "/frezowanie-elementow-reklamowych/": {
+    "title": "Frezowanie elementów reklamowych",
+    "lead": "Wykonujemy frezowane litery, symbole i komponenty do produkcji reklam. Współpracujemy z firmami oraz agencjami z Olsztyna, Ostródy i regionu przy pojedynczych projektach oraz seriach.",
+    "overview": "W gotowej reklamie poszczególne części muszą pasować do siebie i zachować proporcje znaku. Dlatego przygotowanie CNC łączymy z wiedzą o późniejszym klejeniu, składaniu, podświetleniu i montażu. Możemy wykonać sam półprodukt albo uzgodnić dalszy zakres produkcji. Dla zleceń powtarzalnych ważna jest jednoznaczna wersja dokumentacji oraz opis materiału. Przed uruchomieniem prac sprawdzamy otwory, obrysy i detale, które mogą utrudnić obróbkę lub dopasowanie komponentów w większej konstrukcji.",
+    "materials": [
+      "Plexi i tworzywa dobrane do funkcji komponentu.",
+      "Dibond do tablic, paneli oraz uzgodnionych części.",
+      "MDF i sklejka w odpowiednich zastosowaniach ekspozycyjnych."
+    ],
+    "applications": [
+      "Litery, logotypy i symbole identyfikacji wizualnej.",
+      "Części tablic, szyldów oraz kasetonów reklamowych.",
+      "Szablony, dekoracje i elementy ekspozytorów."
+    ],
+    "process": [
+      "Zbieramy dokumentację, opis gotowego produktu oraz wymagania dopasowania elementów.",
+      "Ustalamy materiał, zakres frezowania i odpowiedzialność za dalsze etapy produkcji.",
+      "Wykonujemy komponenty według zaakceptowanej wersji projektu oraz uzgodnionej liczby sztuk."
+    ],
+    "pricing": [
+      "Liczba elementów, rodzaj materiału i jego grubość.",
+      "Stopień skomplikowania konturów oraz czas przygotowania.",
+      "Wykończenie i połączenie z innymi etapami realizacji."
+    ],
+    "quote": [
+      "Pliki wektorowe lub CAD i zestawienie elementów.",
+      "Materiał, grubość, liczbę sztuk oraz oczekiwane wymiary.",
+      "Informację o klejeniu, podświetleniu i montażu w gotowej reklamie."
+    ],
+    "faq": [
+      {
+        "q": "Czy zlecę tylko frezowanie do własnej produkcji?",
+        "a": "Tak. Możemy przygotować półprodukty do dalszego wykorzystania przez Twoją firmę. Zakres przekazania i wykończenia ustalamy przed wyceną."
+      },
+      {
+        "q": "Czy wykonacie pełne litery 3D?",
+        "a": "Możemy połączyć frezowanie z produkcją reklamy. Gotowe litery wymagają osobnego uzgodnienia materiałów, budowy, wykończenia i ewentualnego podświetlenia."
+      },
+      {
+        "q": "Co przekazać przy kolejnym zamówieniu tej samej serii?",
+        "a": "Wskaż zatwierdzoną wersję projektu, materiał, grubość i liczbę sztuk. Każdą zmianę geometrii lub wykończenia warto wyraźnie oznaczyć."
+      }
+    ],
+    "related": [
+      "/frezowanie-cnc/",
+      "/litery-3d/",
+      "/kasetony-swietlne/"
+    ],
+    "image_source_path": "/frezowanie-cnc/"
+  },
+  "/markizy-tarasowe/": {
+    "title": "Markizy tarasowe SELT do domów i lokali",
+    "lead": "Dobieramy markizy SELT montowane do budynku dla klientów indywidualnych i gastronomii. Obsługujemy Olsztyn, Ostródę oraz zapytania z całej Polski, ustalając zakres dla konkretnego adresu.",
+    "overview": "Przy markizie tarasowej ważne są szerokość osłanianej przestrzeni, potrzebny wysięg i możliwość prawidłowego mocowania. Zdjęcia elewacji pomagają ocenić położenie okien, drzwi i innych przeszkód, ale nie zastępują potwierdzenia warunków technicznych. Model, kolorystykę oraz sposób obsługi ustalamy w odniesieniu do oczekiwań domowników lub działania lokalu. Markiza nie powinna być dobierana wyłącznie na podstawie wyglądu. Wymagania użytkowania, ograniczenia pogodowe i dostępne wyposażenie wynikają z wybranego systemu oraz dokumentacji producenta.",
+    "materials": [
+      "Markizy SELT w konfiguracji dobranej do tarasu.",
+      "Kolorystyka konstrukcji i poszycia według uzgodnionego wariantu.",
+      "Opcjonalne znakowanie dla restauracji, kawiarni i innych firm."
+    ],
+    "applications": [
+      "Tarasy przy domach i prywatne strefy wypoczynku.",
+      "Przestrzeń przy kawiarni, restauracji albo hotelu.",
+      "Uzupełnienie identyfikacji ogródka gastronomicznego."
+    ],
+    "process": [
+      "Analizujemy wymiary tarasu, zdjęcia budynku oraz oczekiwany zakres osłony.",
+      "Dobieramy wariant SELT, sposób obsługi i wymagania dotyczące mocowania.",
+      "Po potwierdzeniu konfiguracji uzgadniamy realizację, dostawę i ewentualny montaż."
+    ],
+    "pricing": [
+      "Model, szerokość, wysięg i wybrane wyposażenie.",
+      "Poszycie, kolorystyka i ewentualna grafika reklamowa.",
+      "Podłoże montażowe, dostęp oraz zakres prac na miejscu."
+    ],
+    "quote": [
+      "Szerokość tarasu i potrzebną głębokość osłony.",
+      "Zdjęcia elewacji, opis podłoża i miejsce planowanego mocowania.",
+      "Kod pocztowy oraz informację o preferowanej obsłudze i logo."
+    ],
+    "faq": [
+      {
+        "q": "Czy markizę można zamocować na każdej elewacji?",
+        "a": "Nie należy tego zakładać. Podłoże, konstrukcję ściany i sposób mocowania trzeba ocenić przed potwierdzeniem konfiguracji oraz zakresu montażu."
+      },
+      {
+        "q": "Czy markiza tarasowa jest tylko dla gastronomii?",
+        "a": "Nie. Przyjmujemy również zamówienia klientów indywidualnych. Logo jest opcją, a wygląd markizy dopasowujemy do budynku i oczekiwań użytkownika."
+      },
+      {
+        "q": "Czy markiza zastępuje stałe zadaszenie na każdą pogodę?",
+        "a": "Nie należy traktować jej w ten sposób. Dopuszczalne warunki pracy i zasady obsługi wynikają z dokumentacji konkretnego modelu."
+      }
+    ],
+    "related": [
+      "/markizy-z-logo/",
+      "/markizy-wolnostojace-duo/",
+      "/znakowanie-markiz/"
+    ],
+    "image_source_path": "/markizy-z-logo/"
+  },
+  "/markizy-wolnostojace-duo/": {
+    "title": "Markizy wolnostojące dwustronne DUO",
+    "lead": "Dwustronna markiza DUO pozwala zaplanować osłonę niezależnie od ściany budynku. Dobieramy rozwiązania SELT do ogródków gastronomicznych oraz prywatnych przestrzeni wypoczynku.",
+    "overview": "System wolnostojący warto rozważyć tam, gdzie markiza elewacyjna nie pasuje do układu terenu lub brakuje odpowiedniego miejsca mocowania. Najpierw analizujemy całą przestrzeń: przejścia, stoliki, kierunki dojścia i warunki ustawienia konstrukcji. Sposób posadowienia oraz wymagania podłoża muszą odpowiadać wybranemu wariantowi. Przy realizacjach gastronomicznych można skoordynować markizę z płotkami i oznakowaniem lokalu. Zapytania przyjmujemy z Olsztyna, Ostródy i całej Polski; dostępność konfiguracji oraz zakres dostawy i montażu potwierdzamy indywidualnie.",
+    "materials": [
+      "Dwustronny system markizy DUO marki SELT.",
+      "Konstrukcja i poszycie w potwierdzonej konfiguracji.",
+      "Opcjonalne oznakowanie dopasowane do modelu i projektu."
+    ],
+    "applications": [
+      "Ogródki restauracyjne i kawiarniane poza elewacją.",
+      "Strefy wypoczynku na terenach hotelowych.",
+      "Prywatne tarasy i uzgodnione przestrzenie wolnostojące."
+    ],
+    "process": [
+      "Zbieramy plan terenu, wymiary oraz informacje o nawierzchni i użytkowaniu.",
+      "Dobieramy konfigurację, miejsce ustawienia i wymagania dotyczące podłoża.",
+      "Potwierdzamy projekt, zakres dostawy oraz organizację ewentualnego montażu."
+    ],
+    "pricing": [
+      "Wymiary, konfiguracja systemu i wybrane wyposażenie.",
+      "Rodzaj konstrukcji, poszycia oraz opcjonalnego znakowania.",
+      "Warunki posadowienia, dojazdu i prac na miejscu."
+    ],
+    "quote": [
+      "Szkic przestrzeni z wymiarami, przejściami i ustawieniem wyposażenia.",
+      "Zdjęcia nawierzchni oraz opis podłoża.",
+      "Adres, planowane zastosowanie i ewentualne logo lokalu."
+    ],
+    "faq": [
+      {
+        "q": "Czy system DUO trzeba mocować do ściany?",
+        "a": "To rozwiązanie wolnostojące. Nie oznacza to jednak dowolności ustawienia: wymagania konstrukcji i podłoża ustalamy dla wybranego wariantu."
+      },
+      {
+        "q": "Czy DUO nadaje się do ogródka restauracji?",
+        "a": "Może być rozważany do takiej przestrzeni. Potrzebne są jej wymiary, układ stolików i dane o podłożu, aby ocenić właściwą konfigurację."
+      },
+      {
+        "q": "Czy zamówienie może obejmować logo na markizie?",
+        "a": "Taką opcję omawiamy wraz z doborem poszycia i modelu. Przed realizacją potwierdzamy obszar znakowania, technologię i projekt graficzny."
+      }
+    ],
+    "related": [
+      "/markizy-z-logo/",
+      "/markizy-tarasowe/",
+      "/plotki-ogrodki-piwne/"
+    ],
+    "image_source_path": "/markizy-z-logo/"
+  },
+  "/znakowanie-markiz/": {
+    "title": "Znakowanie markiz i logo na poszyciu",
+    "lead": "Logo na markizie łączy osłonę tarasu z identyfikacją lokalu. Przygotowujemy projekt znakowania dopasowany do markiz SELT oraz uzgodnionych warunków wykonania.",
+    "overview": "Najważniejsze są czytelność z ulicy i zgodność grafiki z konstrukcją markizy. Napis nie powinien ginąć w podziałach ani po zwinięciu poszycia. Ocenimy proporcje logo, kolor tkaniny i miejsce oznakowania, na przykład falbanę, jeśli dany wariant ją przewiduje. Możliwość znakowania zależy od materiału, jego stanu i wybranej technologii. Obsługujemy zapytania z Olsztyna, Ostródy oraz całej Polski. Przy istniejącej markizie potrzebne są dodatkowe informacje, aby potwierdzić zakres bez obiecywania wykonania na każdym poszyciu.",
+    "materials": [
+      "Poszycie markizy w potwierdzonym rodzaju i kolorze.",
+      "Grafika przygotowana według identyfikacji wizualnej lokalu.",
+      "Technologia znakowania dobierana do materiału i zakresu."
+    ],
+    "applications": [
+      "Nazwy i logo restauracji, kawiarni oraz hoteli.",
+      "Oznakowanie markiz przy sklepach i lokalach usługowych.",
+      "Spójna identyfikacja markizy, płotków i pozostałego wyposażenia."
+    ],
+    "process": [
+      "Zbieramy dane o markizie, materiał poszycia i zdjęcia planowanego obszaru.",
+      "Ustalamy możliwość wykonania, rozmieszczenie znaku, kolor oraz technologię.",
+      "Po akceptacji projektu realizujemy uzgodniony zakres znakowania."
+    ],
+    "pricing": [
+      "Wielkość grafiki, liczba miejsc i liczba markiz.",
+      "Materiał poszycia, jego stan i sposób wykonania.",
+      "Przygotowanie projektu oraz ewentualne prace związane z dostępem."
+    ],
+    "quote": [
+      "Logo w pliku wektorowym i oczekiwany wymiar znaku.",
+      "Model markizy, kolor i informacje o tkaninie.",
+      "Zdjęcia poszycia oraz informację, czy markiza jest nowa czy używana."
+    ],
+    "faq": [
+      {
+        "q": "Czy można oznakować markizę, którą już mam?",
+        "a": "Możliwość trzeba potwierdzić po poznaniu materiału i stanu poszycia. Zdjęcia oraz dane modelu pomogą ustalić, czy i w jakim zakresie wykonamy znakowanie."
+      },
+      {
+        "q": "Czy logo musi zajmować całe poszycie?",
+        "a": "Nie. Często lepiej wybrać mniejszy, czytelny obszar. Miejsce i wielkość uzgadniamy na wizualizacji z uwzględnieniem koloru tkaniny oraz widoku od ulicy."
+      },
+      {
+        "q": "Czy przygotujecie projekt razem z doborem markizy?",
+        "a": "Tak. Wspólne ustalenie modelu, tkaniny i grafiki pozwala ocenić docelowy wygląd jeszcze przed potwierdzeniem zamówienia."
+      }
+    ],
+    "related": [
+      "/markizy-z-logo/",
+      "/markizy-tarasowe/",
+      "/markizy-wolnostojace-duo/"
+    ],
+    "image_source_path": "/markizy-z-logo/"
+  }
+}

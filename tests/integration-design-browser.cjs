@@ -83,13 +83,14 @@ const { chromium } = require('playwright');
       }));
       const clipped = textFit.filter(element => element.width <= 0 || (element.client > 0 && element.scroll > element.client + 2)
         || element.text.some(rect => rect.left < element.left - 2 || rect.right > element.right + 2));
-      check(textFit.length >= 25 && clipped.length === 0,
+      check(textFit.length >= (await page.locator('.yn-service-card').count()) + 20 && clipped.length === 0,
         `${name}: headings, service labels and captions fit their boxes and actual text ranges (${JSON.stringify(clipped)}).`);
       const uppercase = await page.locator('.yn-service-card h3, .yn-capability-grid strong, .yn-footer-services a').evaluateAll(elements => elements.map(element => ({
         text: element.textContent.trim(), transform: getComputedStyle(element).textTransform,
       })));
-      check(uppercase.length === 20 && uppercase.every(element => element.transform === 'uppercase'),
-        `${name}: all eight offer cards, four capabilities and eight footer offer labels display uppercase.`);
+      const visibleServiceCards = await page.locator('.yn-service-card').count();
+      check(visibleServiceCards >= 2 && visibleServiceCards <= 8 && uppercase.length === visibleServiceCards + 13 && uppercase.every(element => element.transform === 'uppercase'),
+        `${name}: every available public offer card, four capabilities, the full-offer footer link and eight footer offer labels display uppercase.`);
       check(await page.locator('.yn-hero-description').evaluate((element, minimum) => parseFloat(getComputedStyle(element).fontSize) >= minimum,
         name.startsWith('mobile') ? 15 : 16), `${name}: the hero description retains a readable minimum font size.`);
       const links = await page.locator('.yn-desktop-nav a').evaluateAll(elements => elements.map(element => {

@@ -1,23 +1,13 @@
-# Yoona 3.3.1 — oferta i realizacje
+# Wtyczka YOONA 3.4
 
-**[Pobierz gotową wtyczkę yoona-seo-v3.3.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.3.1.zip)**.
+**[Pobierz yoona-seo-v3.4.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.zip)**.
 
-Pełna Oferta ma zdjęciowe karty usług w stylu strony głównej. Nasze realizacje pokazują po 30 zdjęć z tytułami na stronę w trzech kolumnach na komputerze. Oba widoki mają szeroki układ z równymi marginesami. Stary blok Masz pytanie? Kontakt ze zdjęciem pokrętła znika ze wszystkich publicznych podstron, również po edycji lub skopiowaniu sekcji. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
+Aktualizacja zawiera uporządkowane treści 41 ofert, 150 opisów realizacji, równorzędne kontakty obu miast, wszystkie kategorie na głównej i mniejsze odstępy. Sześć nowych usług CNC i markiz tworzy osobny przycisk w panelu.
 
-Wersja 3.2 łączy tytuł i zdjęcie w jeden duży nagłówek 41 podstron ofertowych. Dodaje krótki opis, przycisk wyceny, przejście do treści i dopracowany widok telefonu. Dalsza treść Divi pozostaje zachowana. Zmiana wyglądu nie wymaga ponownego zapisu SEO.
+1. Wgraj ZIP w **Wtyczki → Dodaj nową → Wyślij wtyczkę** i zastąp poprzednią Yoona SEO.
+2. Sprawdź **3.4.0** w **Narzędzia → Yoona SEO** i kliknij **Odśwież wygląd i wyczyść cache**.
+3. Kliknij **Dodaj 6 podstron CNC i markiz**.
 
-Wersja 3.1.1 naprawia błędny adres wysyłania zmian SEO, który powodował zatrzymanie na 0 pozycjach i pustą historię. Pokazuje też kod HTTP przy nieprawidłowej odpowiedzi serwera i nie ponawia zapisu automatycznie.
+Ponowne wgrywanie starego SEO nie jest potrzebne. Rank Math pozostaje aktywny. [Pełna instrukcja i ograniczenia](../README.md).
 
-Wersja 3.1 poprawia czytelność zdjęcia w nagłówku, wprowadza lokalny Manrope i ujednolica ofertę wielkimi literami. Zawiera oprawę według przesłanego wzoru: czerń, pomarańcz, mocne nagłówki, zdjęciowe karty usług, realizacje i kontakt. Domyślnie włącza ją po aktualizacji, z możliwością powrotu do motywu. Wersje 1–2 obejmowały teksty i SEO, bez tej przebudowy.
-
-1. Wykonaj kopię witryny.
-2. **WordPress → Wtyczki → Dodaj nową → Wyślij wtyczkę**. Wgraj ZIP, zastąp poprzednią Yoona SEO i upewnij się, że jest aktywna. Rank Math pozostaw aktywny.
-3. **Odśwież Narzędzia → Yoona SEO**, sprawdź wersję **3.3.1** i kliknij **Odśwież wygląd i wyczyść cache**. Otwórz Pełną Ofertę i Nasze realizacje. Jeśli wygląd został wcześniej wyłączony, włącz go w tym panelu.
-
-Gotowe poprawki SEO dla 200 pozycji oraz 896 modułów Divi pozostają w pakiecie. Ich zapis uruchamia się osobno: **Użyj pakietu dołączonego do wtyczki → Zaznacz wszystkie gotowe → Wgraj zmiany na zaznaczone strony**. Pozostaw kartę otwartą do zakończenia. Panel pokaże, które wartości już są zapisane.
-
-Wygląd cofniesz przełącznikiem w panelu. Zapisane teksty i SEO cofa się osobno w historii partii. Cache hostingu/CDN może wymagać własnego czyszczenia.
-
-[Pełna instrukcja](../README.md) · [Opis wyglądu](../docs/ZMIANY-WYGLADU.md) · [Audyt SEO](../audit/AUDYT-SEO-YOONA.md) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
-
-Archiwa wcześniejszych wersji zachowano. Ogólny plik `yoona-seo.zip` wskazuje najnowszą wersję.
+Plik yoona-seo.zip wskazuje to samo bieżące wydanie. Wcześniejsze ZIP-y zachowano.

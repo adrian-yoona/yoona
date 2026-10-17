@@ -52,6 +52,12 @@ final class Yoona_SEO_Design {
 			$name = 'projects.php';
 		} elseif ( is_page( 'pelna-oferta' ) && ! post_password_required() ) {
 			$name = 'full-offer.php';
+		} elseif ( Yoona_SEO_Service_Guides::context( get_queried_object_id() ) ) {
+			$name = 'service-guide.php';
+		} elseif ( Yoona_SEO_Project_Guides::context( get_queried_object_id() ) ) {
+			$name = 'project-guide.php';
+		} elseif ( is_page( 'kontakt' ) && ! post_password_required() ) {
+			$name = 'contact.php';
 		} elseif ( is_singular( array( 'page', 'post' ) ) ) {
 			$name = 'content.php';
 		}
@@ -73,6 +79,7 @@ final class Yoona_SEO_Design {
 			return;
 		}
 		wp_enqueue_style( 'yoona-design', plugins_url( 'assets/design.css', YOONA_SEO_FILE ), array(), YOONA_SEO_VERSION );
+		wp_enqueue_script( 'yoona-contact-events', plugins_url( 'assets/measurement.js', YOONA_SEO_FILE ), array(), YOONA_SEO_VERSION, true );
 	}
 
 	public static function body_class( $classes ) {
@@ -130,7 +137,7 @@ final class Yoona_SEO_Design {
 	/** Public service pages, with the same leading photographs as the homepage. */
 	public static function offer_cards() {
 		$data = self::data();
-		$definitions = isset( $data['offer_heroes'] ) ? $data['offer_heroes'] : array();
+		$definitions = array_merge( isset( $data['offer_heroes'] ) ? $data['offer_heroes'] : array(), Yoona_SEO_Service_Guides::child_definitions() );
 		$featured = array();
 		foreach ( $data['services'] as $service ) {
 			$featured[ $service['url'] ] = $service;

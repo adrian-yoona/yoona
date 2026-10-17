@@ -1,6 +1,26 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.3.1
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.0
 
 Ostatnia aktualizacja: 17 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## Treści, kontakty i nowe usługi — 3.4.0
+
+Przygotowano 47 poradników usługowych: 41 istniejących ofert i sześć nowych stron CNC oraz markiz. Nowy szablon prezentuje materiały, zastosowanie, proces, czynniki ceny, checklistę wyceny i FAQ. Wszystkie kategorie są dostępne na głównej. Olsztyn oraz Ostróda mają równorzędny kontakt także przy 320 px.
+
+**50 kontroli przygotowania fixture** i **135 kontroli kontekstu oraz zapisu** obejmują wszystkie oferty, brak automatycznych zapisów podczas aktywacji i odczytu, uprawnienia, blokadę równoległych operacji, błędną historię, kolizje z istniejącymi stronami i duplikatami metadanych, powtórzenie instalacji, cofanie wyłącznie niezmienionych stron i zachowanie późniejszych edycji. Sześć nowych stron ma lokalne tytuły i opisy Rank Math oraz normalną treść działającą bez wtyczki.
+
+**792 kontrole prywatnego źródła** sprawdzają 150 opisów realizacji i dziesięć stanów po SEO. Niezgodna późniejsza treść lub tytuł powodują standardowy widok. Testy parsera zachowują kolejność i komplet zdjęć we wszystkich 160 wariantach oraz całe zagnieżdżone galerie, natywne obrazy i formularze Divi. Pełne źródła występują tylko w pamięci CLI; nie trafiają do tabel obsługiwanych przez WWW ani do raportu.
+
+**637 kontroli Chromium** sprawdza rzeczywiste szablony WordPressa i Rank Math przy 1440, 390 i 320 px: wszystkie 47 usług na komputerze, długie tytuły na telefonie, pojedyncze H1, metadane, 47 linków głównej, osiem kart zdjęciowych, 39 pozostałych kategorii, równe kontakty w nagłówku/stopce/Kontakcie, fotografie i formularze, pełną szerokość galerii oraz brak pustej połowy ostatniego rzędu paneli. Dodatkowe **91 asercji Node VM** wykonuje rzeczywisty skrypt pomiaru. Osobne kontrole Chromium sprawdzają kliknięcia kontaktowe przez istniejące gtag Site Kit albo wariant GTM, bez podwójnej wysyłki i danych formularzy, z odmową oraz brakiem zgody, tryby edytora, wyłączenie wyglądu oraz POST i nonce instalatora. Pełne porównanie wpisów i metadanych sprawdza brak zmian podczas przeglądania.
+
+Test wykrył przycinanie słowa „gastronomicznych” w H2 przy 320 px. Zmniejszono minimum nagłówka oraz dodano bezpieczne łamanie długich słów. Oddzielnie skorygowano próbę testową etykiet, która porównywała tekst po wizualnym uppercase, oraz uprawnienia lokalnego pliku CSS po ręcznym kopiowaniu do kontenera. Nie wyłączano kontroli dopasowania tekstu, źródłowego CSS ani ochrony bazy.
+
+Środowisko: WordPress 7.1.3, PHP 8.3.35, MariaDB 11.4, Rank Math 1.0.280 i Chromium 154. Licencjonowany Divi nie jest zainstalowany; jego shortcode zastępują jawne callbacki testowe. Fotografie produkcyjne pozostają niedostępne, więc przegląd geometrii używa oznaczonych obrazów lokalnych. Raport bieżący: [growth-results.txt](../tests/growth-results.txt). [growth-baseline-results.txt](../tests/growth-baseline-results.txt) dotyczy poprzedniej 3.3.1, użytej do przygotowania izolowanej instalacji; nie jest przedstawiany jako pełny przebieg 3.4.
+
+Ponownie przeszło 17 testów audytu Python i oba scenariusze rzeczywistego skryptu zapisu partiami w Node.js. Silnik zapisu, helper Divi oraz `content/changes.json` zachowują identyczne bajty; w kontrolerze admina dodano tylko panel nowych usług. Lista paczki obejmuje 37 plików; CRC, wersję i zgodność wszystkich plików ze źródłem sprawdza narzędzie pakowania.
+
+Końcowa [regresja strony głównej](../tests/growth-home-regression-results.txt) zaliczyła **113 kontroli Chromium**, obejmujących fonty, kontrast i rzeczywiste zakresy tekstu. Po niej ponownie porównano wszystkie wpisy i metadane bez wyłączeń — bez zmian. Wszystkie 37 plików wtyczki serwowanych przez testowy WordPress jest identyczne bajt po bajcie ze źródłami końcowej paczki.
+
+Analiza Google dotyczy dostarczonych eksportów, nie uprawnień do kont. Szczegółowe liczby i raporty pozostają poza repozytorium. Nie wykonano zmian w Google, pomiaru produkcyjnych Core Web Vitals, sprawdzenia indeksacji ani aktualnych konkurentów. Proxy blokuje publiczne odczyty, a zrzut cyber_Folks nie został dostarczony.
 
 ## Usunięcie starego kontaktu ze wszystkich podstron — 3.3.1
 
@@ -69,7 +89,7 @@ Ponownie zaliczono **52 testy rzeczywistego HTTP z Rank Math 1.0.280**, składni
 - **30 asercji rzeczywistego HTTP bez Rank Math i 31 z aktywnym Rank Math**: logowanie, panel, wysłanie JSON, nonce, nieaktualna paczka, limity partii, zapis i cofanie. Wynikowy HTML zawiera właściwy tytuł i pojedynczy opis.
 - Osobny test natywnego zapisu: metadane pozostają poprawne w wynikowym HTML po wyłączeniu Yoona SEO, a ponowne włączenie umożliwia dokładne cofnięcie wartości. Wcześniejszy test symulowanych filtrów Yoast nie jest testem instalacji Yoast SEO.
 - Wykonanie skryptu panelu w Node.js: **200 pozycji w 20 kolejnych partiach**, ochrona przed podwójnym wysłaniem i zatrzymanie po błędzie. Drugi scenariusz z natywnym FormData sprawdza podział 25 pozycji na 10/10/5, pomijanie wyłączonych pól i zachowanie postępu przy błędzie.
-- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Wersje 3.1 i 3.1.1 zawierają 22 dozwolone pliki, 3.2 — 24, a bieżąca 3.3 — 28. Ogólny plik `yoona-seo.zip` wskazuje aktualne wydanie; poprzednie ZIP-y zachowano.
+- Kontrola paczki wykonywana jest osobno przy każdym wydaniu: poprawne CRC i zgodność bajt po bajcie z kodem źródłowym. Wersje 3.1 i 3.1.1 zawierają 22 dozwolone pliki, 3.2 — 24, a 3.3 — 28. Ogólny plik `yoona-seo.zip` wskazuje aktualne wydanie; poprzednie ZIP-y zachowano.
 
 ## Nowa warstwa wyglądu
 
@@ -96,12 +116,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.3.1.zip](../downloads/yoona-seo-v3.3.1.zip)
+Plik: [downloads/yoona-seo-v3.4.zip](../downloads/yoona-seo-v3.4.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-c1b2bb1385cf183ebdd1a8dec3c3f5045bccab3c3ae2c2deda80b31895dcd113
+095a71011b2ac1109c0c7e4055cd66f85280d3e242d6a7dcbc2fc95d5c4fb6af
 ```
 
 SHA-256 dołączonego `content/changes.json`:
@@ -116,4 +136,4 @@ Nie wykonano zdalnego wdrożenia na yoona.pl. Aktualizacja wersji 3 domyślnie w
 
 Nie uruchomiono licencjonowanego motywu Divi. Zachowanie shortcode sprawdzano parserem WordPressa i testowymi callbackami; nie potwierdza to wyglądu działającego motywu. Po wdrożeniu trzeba sprawdzić widok komputerowy i mobilny, galerie oraz formularze.
 
-Filtr sieciowy środowiska blokował odczyt yoona.pl. Audyt obejmuje pełny otrzymany eksport, bez pomiarów produkcyjnego HTML, indeksacji, szybkości, Core Web Vitals, Search Console lub ruchu. Testy nie dowodzą wzrostu pozycji w Google.
+Filtr sieciowy środowiska blokował odczyt yoona.pl. Audyt obejmuje otrzymany eksport WordPressa oraz analizę dostarczonych raportów Search Console, Analytics i zasięgu reklam. Nie wykonano odczytu produkcyjnego HTML, pomiarów indeksacji, szybkości i Core Web Vitals ani bezpośredniego połączenia z kontami Google. Testy nie dowodzą wzrostu pozycji w Google.

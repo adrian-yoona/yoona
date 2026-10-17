@@ -252,3 +252,49 @@ Nowe raporty: `contact-cleanup-baseline-results.txt` (pełna integracja WordPres
 `contact-cleanup-collections-results.txt` (44 oryginały, SEO, edycje i HTTP)
 oraz `contact-cleanup-results.txt` (rozpoznawanie komponentu, Chromium i baza).
 Raporty poprzednich wersji pozostają niezmienione.
+
+
+## Treści usług i realizacji — 3.4
+
+Pomiar istniejącego Site Kit i warunków zgody można sprawdzić bez usług:
+
+```bash
+node tests/test-contact-measurement.cjs
+```
+
+Na własnej zachowanej instalacji bazowej (`YOONA_TEST_KEEP=1 bash tests/run-wordpress.sh`):
+
+```bash
+YOONA_TEST_EXPORT_JSON=/prywatna/sciezka/diagnostyka.json YOONA_TEST_BROWSER=1 \
+  bash tests/run-growth.sh http://127.0.0.1:PORT NAZWA_KONTENERA_CLI NAZWA_KONTENERA_WWW
+```
+
+Prywatny eksport jest opcjonalny; umożliwia sprawdzenie rzeczywistych 150 źródeł
+i dziesięciu stanów po SEO. Runner przenosi go tylko do `/tmp` kontenera CLI
+i usuwa również przy błędzie. Źródła są podstawiane do pamięci obiektów WP;
+nie trafiają do publicznych tabel i nie są logowane. Publiczne fixture mają
+syntetyczną treść, zdjęcia i formularze. Komponent opisów korzysta z publicznych
+faktów dołączonych do wtyczki; kontekst i skróty rzeczywistych źródeł weryfikuje
+osobna faza CLI.
+
+Faza zapisu sprawdza uprawnienia, nonce, blokadę, sześć stron, pomijanie zajętych
+adresów, brak duplikatów, zachowanie istniejącego SEO i cofanie tylko całkowicie
+niezmienionych stron. Metadane innej wtyczki także mogą zablokować cofnięcie.
+Pierwszy render Rank Math może tworzyć cache zdjęcia OG; jeżeli fixture tego
+wymaga, odpowiedzi należy rozgrzać przed ścisłym snapshotem, bez wykluczania
+żadnych wierszy lub kluczy.
+
+Przeglądarka porównuje dokładny CSS, wszystkie 47 kategorii, materiały i FAQ,
+metadane, formularze, fotografie, równość kontaktów i rzeczywiste zakresy tekstu.
+Weryfikuje także, że zdarzenia kontaktowe są intencją, nie potwierdzonym leadem,
+i że payload nie zawiera telefonu, e-maila, wartości formularza ani query.
+Wariant Site Kit używa istniejącego gtag i zgód CookieYes/WP Consent API;
+wariant GTM jest wybierany przy braku gtag, bez podwójnej wysyłki.
+Odmowa oraz brak rozpoznanej zgody nie wysyłają ani nie odkładają zdarzeń.
+Obrazy lokalne są oznaczone jako testowe. Nie są to zdjęcia modeli SELT.
+
+Raport bieżący to `growth-results.txt`. `growth-baseline-results.txt` zachowuje
+wcześniejszy bazowy przebieg 3.3.1 i wyraźnie opisuje swój zakres. Historycznych
+raportów innych wydań nie nadpisano. Pełne archiwum instalacyjne ma teraz
+37 dozwolonych plików. Sześć nowych stron tworzy osobny przycisk administratora;
+sama aktywacja ani wyświetlenie panelu nie wykonują zapisu.

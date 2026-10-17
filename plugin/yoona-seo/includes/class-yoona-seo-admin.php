@@ -50,6 +50,7 @@ final class Yoona_SEO_Admin {
 			</style>
 			<?php self::render_notice( $notice ); ?>
 			<?php Yoona_SEO_Design::render_panel(); ?>
+			<?php Yoona_SEO_Growth_Pages::render_panel(); ?>
 			<?php self::render_deployment_status( $preview ); ?>
 			<?php if ( ! is_wp_error( $bundle ) && ! empty( $bundle['audit_verified'] ) ) : ?>
 				<div class="notice notice-info inline"><p><strong>Gotowy pakiet: <?php echo esc_html( count( $bundle['pages'] ) ); ?> stron i wpisów.</strong> <?php echo 'rank_math' === ( isset( $bundle['seo_storage'] ) ? $bundle['seo_storage'] : '' ) ? esc_html( 'Tytuły i opisy zostaną zapisane w polach Rank Math. Teksty Divi zmienią się w istniejących modułach.' ) : ''; ?></p></div>

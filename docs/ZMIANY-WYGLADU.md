@@ -64,3 +64,28 @@ Mechanizm 3.3 był zbyt wąski: wymagał jednej z 44 ścieżek oraz dokładnego 
 Obsługiwane są standardowe shortcode WordPressa, bezpośredni filtr wyjściowy Divi oraz gotowe sekcje HTML w treści. Usuwana jest kompletna najbliższa sekcja et_pb_section, bez ponownego serializowania pozostałego HTML i bez przesuwania liczników modułów. Komponent jest rozpoznawany również przy miniaturach WordPressa i zoptymalizowanych wariantach pliku zdjęcia. Sam nagłówek kontaktowy albo samo zdjęcie nie wystarczają do usunięcia sekcji. Tryby edytorów, podglądy i treści niepubliczne zachowują poprzednie działanie.
 
 Aktualizacja nie zmienia źródeł stron, metadanych Rank Math, galerii ani pakietu SEO. Nowa stopka i podstrona Kontakt pozostają dostępne. Po zastąpieniu wtyczki należy odświeżyć wygląd i pamięć podręczną; ponowne wgrywanie SEO nie jest potrzebne.
+
+
+## Treści i widoczność obu lokalizacji — 3.4
+
+Nowy widok obejmuje 41 ofert, 150 rozpoznanych realizacji oraz sześć dodatkowych
+usług CNC i markiz po osobnym kliknięciu administratora. Opisy ofert prezentuje
+wtyczka z uporządkowanego zestawu treści; zapisane Divi pozostaje w bazie.
+Wszystkie callbacki oryginalnego źródła wykonują się raz, a z końcowego HTML
+zachowywane są pełne, zbalansowane kontenery zdjęć, galerii i formularzy. Dzięki
+temu działają późne atrybuty obrazów i nie powstają duplikaty dwóch hooków Divi.
+
+Opisy realizacji wymagają zgodności całego źródła z rozpoznanym skrótem. Przy
+nowej edycji pozostaje zwykła treść. Nowe strony mają normalną treść WordPressa
+i natywne SEO; ich późniejsza edycja również powoduje standardowy widok.
+Cofanie obejmuje wyłącznie całkowicie niezmienione, utworzone strony.
+
+Główna pokazuje osiem zdjęciowych kart oraz wszystkie pozostałe kategorie bez
+powtórzeń i ukrywania w akordeonie. Menu ma jasny link Pełna oferta. Równe
+kontakty obu miast są w nagłówku, stopce oraz na stronie Kontakt. Mniejsze
+nagłówki, odstępy i pełna szerokość ostatniego panelu ograniczają pustą przestrzeń.
+Nie usunięto formularza ani mapy z oryginalnego kontaktu.
+
+Pomiar przekazuje intencje kontaktowe przez istniejące gtag Site Kit po
+rozpoznanej zgodzie CookieYes/WP Consent API; nie ładuje drugiego tagu ani
+nie zmienia konfiguracji kont. Wariant GTM jest osobną ścieżką przy braku gtag. Szczegóły w GOOGLE-POMIAR-I-ADS.md.

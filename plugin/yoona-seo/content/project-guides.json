@@ -1,0 +1,2024 @@
+{
+  "/megaboard-delta/": {
+    "title": "MEGABOARD – DELTA",
+    "summary": "Dla firmy DELTA przygotowaliśmy megaboard eksponowany przy trasie prowadzącej do Elbląga. Realizacja obejmowała projekt i druk banera o wymiarach 12 × 6 m, wykonanie konstrukcji oraz montaż.",
+    "scope": [
+      "Projekt banera 12 × 6 m",
+      "Druk wielkoformatowy",
+      "Wykonanie konstrukcji i montaż"
+    ],
+    "service_path": "/reklama-na-rusztowaniu-2/",
+    "source_sha256": [
+      "c7478120416e044a15e3489fcfb2413ef335083409e6445ec9a0652984636771"
+    ],
+    "location": "Przy trasie w kierunku Elbląga"
+  },
+  "/ippon-group-banery-olsztyn/": {
+    "title": "IPPON GROUP – BANERY – OLSZTYN",
+    "summary": "Dla IPPON GROUP wykonaliśmy banery promujące osiedle mieszkaniowe w Olsztynie. Zakres prac obejmował przygotowanie grafiki, druk wielkoformatowy oraz montaż reklam.",
+    "scope": [
+      "Projekt graficzny",
+      "Druk banerów",
+      "Montaż"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "1dc7db80d43b04902c82fc6934f55c0b18dcd41a0b632572fdda2a0ca7f75e04"
+    ],
+    "location": "Olsztyn"
+  },
+  "/zmiana-koloru-auta-ostroda/": {
+    "title": "ZMIANA KOLORU AUTA – OSTRÓDA",
+    "summary": "Dodge RAM 1500 zmienił kolor z czarnego na srebrno-zielony dzięki oklejeniu folią AVERY SWF ColorFlow Gloss Urban Jungle Silver/Green. Projekt pokazuje zmianę wyglądu auta przy użyciu folii samochodowej.",
+    "scope": [
+      "Przygotowanie karoserii",
+      "Oklejenie samochodu folią do zmiany koloru"
+    ],
+    "service_path": "/zmiana-koloru-samochodu/",
+    "source_sha256": [
+      "512ecbf10414c4dac6bc4b8ae51bdc7db6271db5b058701af742c1b7f117c739"
+    ],
+    "location": "Ostróda",
+    "materials": [
+      "AVERY SWF ColorFlow Gloss Urban Jungle Silver/Green"
+    ]
+  },
+  "/banery-wso-ostroda/": {
+    "title": "BANERY – WSO – OSTRÓDA",
+    "summary": "Dla WSO w Ostródzie przygotowaliśmy banery wielkoformatowe. Odpowiadaliśmy za projekt graficzny, druk oraz zamocowanie gotowych reklam.",
+    "scope": [
+      "Projekt graficzny",
+      "Druk banerów",
+      "Montaż"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "5d1ceffa40a978c2d7849d17848bef4b56a77beb15248a443c0116c094990283"
+    ],
+    "location": "Ostróda"
+  },
+  "/markizy-angelo-pepsi-lodz/": {
+    "title": "MARKIZY – ANGELO – PEPSI – ŁÓDŹ",
+    "summary": "Dla restauracji Angelo w Łodzi wykonaliśmy markizę nad wejściem do lokalu. Oznakowanie uwzględniało identyfikację restauracji oraz marki Pepsi.",
+    "scope": [
+      "Projekt markizy",
+      "Produkcja",
+      "Montaż nad wejściem"
+    ],
+    "service_path": "/markizy-z-logo/",
+    "source_sha256": [
+      "06c213587b4844412c0ca55e6032abe901764c6eb3d27e340eb1221bd8ce5e1a"
+    ],
+    "location": "Łódź"
+  },
+  "/litery-3d-stacja-ostroda/": {
+    "title": "LITERY 3D – STACJA OSTRÓDA",
+    "summary": "Dla Stacji Ostróda wykonaliśmy oznakowanie przestrzenne nad wejściem do lokalu. Zakres obejmował przygotowanie projektu, produkcję elementu 3D oraz montaż.",
+    "scope": [
+      "Projekt oznakowania",
+      "Wykonanie elementu przestrzennego",
+      "Montaż nad wejściem"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "69062218576e25f793da71259a8051b25a41795d26e37d2235516a53d435c887"
+    ],
+    "location": "Ostróda"
+  },
+  "/pylon-bursztynowy-sen-pepsi-stegna/": {
+    "title": "PYLON – BURSZTYNOWY SEN – PEPSI – STEGNA",
+    "summary": "Dla hotelu Bursztynowy Sen & Spa w Stegnie przygotowaliśmy dwustronny pylon z oznakowaniem hotelu i Pepsi. Dodatkowy element od strony wjazdu stanowiła tablica ze złotego dibondu oklejona czarną folią.",
+    "scope": [
+      "Projekt dwustronnego pylonu",
+      "Wykonanie oznakowania",
+      "Tablica przy wjeździe"
+    ],
+    "service_path": "/pylony/",
+    "source_sha256": [
+      "dcaa0b74de690786fef6048e46655bc782a0a83e441b87b24c8077f8a6bcd1aa"
+    ],
+    "location": "Stegna",
+    "materials": [
+      "Złoty dibond",
+      "Czarna folia"
+    ]
+  },
+  "/oklejanie-szyb-totalizator-mlawa/": {
+    "title": "OKLEJANIE SZYB – TOTALIZATOR – MŁAWA",
+    "summary": "Dla punktu Totalizatora Sportowego w Mławie przy ul. Żwirki 24 wykonaliśmy oklejenie szyb zewnętrznych i drzwi wewnętrznych. Grafika została przygotowana zgodnie z identyfikacją punktu.",
+    "scope": [
+      "Przygotowanie wizualizacji",
+      "Oklejenie szyb zewnętrznych",
+      "Oklejenie drzwi wewnętrznych"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "d3deba18579f59d9836d11c40d4264f29c7d3e2ad2a2ac66a267cda0f5e129bd"
+    ],
+    "location": "Mława",
+    "materials": [
+      "Folia mrożona na szybach zewnętrznych",
+      "Folia z nadrukiem na drzwiach wewnętrznych"
+    ]
+  },
+  "/oklejanie-busow-rabata-olsztyn/": {
+    "title": "OKLEJANIE BUSÓW – RABATA – OLSZTYN",
+    "summary": "Dla firmy Rabata z Olsztyna przygotowaliśmy projekt i oklejenie samochodu firmowego. Grafika nawiązywała do działalności związanej z ogrodami i zawierała dane kontaktowe marki.",
+    "scope": [
+      "Projekt grafiki samochodowej",
+      "Oklejenie pojazdu firmowego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "ccd788cc5db37f067dfe623eba60b9a885e88f08879b41cde93f7dc95fec9af0"
+    ],
+    "location": "Olsztyn"
+  },
+  "/tablice-szyldy-narie-pepsi-kretowiny/": {
+    "title": "TABLICE/SZYLDY – NARIE – PEPSI – KRETOWINY",
+    "summary": "Dla Tarasów Narie w Kretowinach przygotowaliśmy tablice reklamowe z grafiką oferty lokalu i oznakowaniem Pepsi. Realizacja obejmowała projekt, druk i montaż tablic.",
+    "scope": [
+      "Projekt tablic",
+      "Druk",
+      "Montaż"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "2397435f06159b6ffce720f8d564ac344704982adfb276f9af3f2f8f822c040e"
+    ],
+    "location": "Kretowiny"
+  },
+  "/oklejanie-lodzi-ostroda/": {
+    "title": "OKLEJANIE ŁODZI – OSTRÓDA",
+    "summary": "Realizacja w Ostródzie obejmowała oklejenie łodzi NORTHMASTER. Folia została dopasowana do powierzchni jednostki, tworząc nowe wykończenie jej zewnętrznych elementów.",
+    "scope": [
+      "Przygotowanie powierzchni łodzi",
+      "Aplikacja folii"
+    ],
+    "service_path": "/pelna-oferta/",
+    "source_sha256": [
+      "c7c35c42954f4da888dd0243f2f3c458255daf33cd0def168a571aaeb3d45d96"
+    ],
+    "location": "Ostróda"
+  },
+  "/kaseton-tablica-wiking-pepsi-stegna/": {
+    "title": "KASETON/TABLICA – WIKING – PEPSI – STEGNA",
+    "summary": "Dla smażalni Wiking w Stegnie wykonaliśmy kasetony reklamowe oraz tablicę menu. Oznakowanie powstało z uwzględnieniem identyfikacji lokalu i Pepsi.",
+    "scope": [
+      "Projekt oznakowania",
+      "Wykonanie kasetonów",
+      "Przygotowanie tablicy menu"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "7f8d1063297bd0c1873ef97ed82f5cbd8501e017a9e58aad016ba877def1550b"
+    ],
+    "location": "Stegna"
+  },
+  "/oklejanie-kontenerow-bujalski-dywity/": {
+    "title": "OKLEJANIE KONTENERÓW – BUJALSKI – DYWITY",
+    "summary": "Dla firmy Bujalski w Dywitach przygotowaliśmy oklejenie kontenera budowlanego. Powierzchnia kontenera została wykorzystana do ekspozycji oznakowania firmy.",
+    "scope": [
+      "Przygotowanie grafiki",
+      "Oklejenie kontenera budowlanego"
+    ],
+    "service_path": "/reklama-zewnetrzna/",
+    "source_sha256": [
+      "63d9b3a94a58e5ac76ac47c325f9a235c0eb302087f184309fae3287eedbb2f4"
+    ],
+    "location": "Dywity"
+  },
+  "/tablice-12-jablek-olsztyn/": {
+    "title": "TABLICE – 12 JABŁEK – OLSZTYN",
+    "summary": "Dla Apartamentów 12 Jabłek wykonaliśmy tablicę reklamową z wydrukiem wielkoformatowym. Projekt stanowi przykład wykorzystania tablicy do prezentacji oferty obiektu noclegowego.",
+    "scope": [
+      "Projekt tablicy",
+      "Wydruk wielkoformatowy",
+      "Wykonanie tablicy reklamowej"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "a07b0a9188a63b754ccec3e6d4b711680d84e72d4ff31d613974eff221b86e8c"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-ciezarowek-koma-olsztyn/": {
+    "title": "OKLEJANIE CIĘŻARÓWEK – KOMA – OLSZTYN",
+    "summary": "Dla KOMA w Olsztynie wykonaliśmy oklejenie śmieciarki w identyfikacji firmowej. Realizacja dotyczy oznakowania pojazdu użytkowanego we flocie przedsiębiorstwa.",
+    "scope": [
+      "Przygotowanie oznakowania pojazdu",
+      "Oklejenie śmieciarki"
+    ],
+    "service_path": "/oklejanie-samochodow-ciezarowych/",
+    "source_sha256": [
+      "44fc77c8d2b5bc4dfeb088113425f65d3272c0ea217379e58a52f38b9826e9b4"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-litery-3d-studio-figura-nowe-miasto-lubawskie/": {
+    "title": "OKLEJANIE SZYB/LITERY 3D – STUDIO FIGURA – NOWE MIASTO LUBAWSKIE",
+    "summary": "Dla Studio Figura w Nowym Mieście Lubawskim wykonaliśmy oklejenie szyb, oznakowanie szafy czarną folią oraz logo ze złotej pleksi. Projekt łączył grafikę na przeszkleniach z elementem przestrzennym.",
+    "scope": [
+      "Oklejenie szyb",
+      "Logo z czarnej folii na szafie",
+      "Wykonanie logo ze złotej pleksi"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "c0fc24cf6b7abf81fd4d94888946a38c554e642c086472ec7d409fa742b94758"
+    ],
+    "location": "Nowe Miasto Lubawskie",
+    "materials": [
+      "Czarna folia",
+      "Złota pleksi"
+    ]
+  },
+  "/oklejanie-szyb-totalizator-susz/": {
+    "title": "OKLEJANIE SZYB – TOTALIZATOR – SUSZ",
+    "summary": "Dla punktu Totalizatora Sportowego przy ul. Słowiańskiej 29 w Suszu wykonaliśmy grafikę na szybach zewnętrznych i drzwiach wewnętrznych. Oznakowanie przygotowaliśmy w identyfikacji punktu Lotto.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie szyb zewnętrznych",
+      "Oklejenie drzwi wewnętrznych"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "216f3e1719d13ad0daed63c9e0d30ee791846e8145dec2834059c324191b045a"
+    ],
+    "location": "Susz"
+  },
+  "/litery-3d-swietlne-aligator-olsztyn/": {
+    "title": "LITERY 3D ŚWIETLNE – ALIGATOR – OLSZTYN",
+    "summary": "Dla ALIGATOR wykonaliśmy świetlne litery 3D w centrum handlowym Victor w Olsztynie. Oznakowanie zostało zamontowane w obiekcie przy al. Piłsudskiego 50.",
+    "scope": [
+      "Projekt oznakowania",
+      "Wykonanie świetlnych liter 3D",
+      "Montaż"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "066e7f3e2fe87fbc102eb249cda01b6d25042b574a3a00402016ba1f3338fa07"
+    ],
+    "location": "Olsztyn"
+  },
+  "/markiza-dwustronna-angelo-lodz/": {
+    "title": "MARKIZA DWUSTRONNA – ANGELO – ŁÓDŹ",
+    "summary": "Dla restauracji Angelo w Łodzi przygotowaliśmy markizę dwustronną. Projekt dotyczy zadaszenia przestrzeni restauracyjnej.",
+    "scope": [
+      "Markiza dwustronna"
+    ],
+    "service_path": "/markizy-z-logo/",
+    "source_sha256": [
+      "fb9303b221e894ce2b953c4223c3f77117e5ec2d764b6e018aca2c4d2bbacfe3"
+    ],
+    "location": "Łódź"
+  },
+  "/kasetony-neony-szyldy-gok-warminsko-mazurskie/": {
+    "title": "KASETONY NEONY SZYLDY – GOK – WARMIŃSKO MAZURSKIE",
+    "summary": "Realizacja dla GOK obejmuje oznakowanie prezentowane jako kasetony, neony i szyldy. To przykład zestawienia kilku form reklamy w identyfikacji jednego obiektu.",
+    "scope": [
+      "Kasetony reklamowe",
+      "Neony",
+      "Szyldy"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "243fa59c3f9f850f24d90e0479c9f29087fccbd5a0ab45bc1d068a2d53e96ae7"
+    ],
+    "location": "Województwo warmińsko-mazurskie"
+  },
+  "/tablice-szyldy-reklamowe-telbridge-olsztyn/": {
+    "title": "TABLICE SZYLDY REKLAMOWE – TELBRIDGE – OLSZTYN",
+    "summary": "Dla TELBRIDGE w Olsztynie przygotowaliśmy tablice i szyldy reklamowe. Realizacja pokazuje oznakowanie marki przy użyciu płaskich nośników reklamowych.",
+    "scope": [
+      "Tablice reklamowe",
+      "Szyldy"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "90decc32e375302daf9d9f8b1ad7209c3f7948bf10b6e8a0a59d009ce2fbfcf0"
+    ],
+    "location": "Olsztyn"
+  },
+  "/reklama-swietlna-ortopedzi-olsztyn/": {
+    "title": "REKLAMA ŚWIETLNA – ORTOPEDZI – OLSZTYN",
+    "summary": "Realizacja dla Ortopedzi w Olsztynie przedstawia reklamę świetlną placówki. Oznakowanie eksponuje nazwę działalności w formie podświetlanej reklamy.",
+    "scope": [
+      "Oznakowanie świetlne"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "442d48920a04721317110a44c9ebf2c2722e08749aa0ccce4e221eea9dc03423"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejenie-szyb-folia-szroniona-beauty-spa-olsztyn/": {
+    "title": "OKLEJENIE SZYB FOLIA SZRONIONA – BEAUTY SPA – OLSZTYN",
+    "summary": "Dla Beauty SPA w Olsztynie przygotowaliśmy oklejenie szyb folią szronioną. Realizacja prezentuje wykorzystanie folii dającej efekt mrożonego szkła.",
+    "scope": [
+      "Oklejenie szyb folią szronioną"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "3da799a0f9ae3fdd72ecf36aeb40682348717087ccc0e0cc0b3554e3c0028a09"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Folia szroniona"
+    ]
+  },
+  "/reklama-swietlna-beauty-spa-olsztyn/": {
+    "title": "REKLAMA ŚWIETLNA – BEAUTY SPA – OLSZTYN",
+    "summary": "Dla Beauty SPA w Olsztynie wykonaliśmy reklamę świetlną. To przykład oznakowania lokalu z wykorzystaniem podświetlenia.",
+    "scope": [
+      "Oznakowanie świetlne lokalu"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "ba5597a749cd6938502d85a81844c0699ce7bc0fd3c12a8f5313434110188e0d"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejenie-samochodow-go-steam-morag/": {
+    "title": "OKLEJENIE SAMOCHODÓW – GO STEAM- MORĄG",
+    "summary": "Dla GO STEAM z Morąga wykonaliśmy oklejenie samochodu firmowego. Realizacja prezentuje wykorzystanie nadwozia jako powierzchni do oznakowania marki.",
+    "scope": [
+      "Oklejenie samochodu firmowego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "fa44cdc52fc47e9925de16ba6dc0a85124d7aed88aa2602cb8b99cd21442e07b"
+    ],
+    "location": "Morąg"
+  },
+  "/litery-3d-wewnetrzne-itzu-olsztyn/": {
+    "title": "LITERY 3D WEWNĘTRZNE – ITZU -OLSZTYN",
+    "summary": "Dla ITZU w Olsztynie wykonaliśmy wewnętrzne litery 3D. Oznakowanie przestrzenne służy prezentacji marki we wnętrzu lokalu.",
+    "scope": [
+      "Wewnętrzne oznakowanie przestrzenne"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "880216cafc213bc5780637805ba990663e2a4e15e997141d675d68987a4822dc"
+    ],
+    "location": "Olsztyn"
+  },
+  "/litery-reklamowe-amex-baczek-falkonowo/": {
+    "title": "LITERY REKLAMOWE – AMEX BĄCZEK – FALKONOWO",
+    "summary": "Dla AMEX BĄCZEK przygotowaliśmy litery reklamowe. Realizacja prezentuje przestrzenne oznakowanie nazwy firmy.",
+    "scope": [
+      "Litery reklamowe"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "e2199c26c5883424d4a96d99aa850a820163860d3b87bd1b4067e87d475c2628"
+    ]
+  },
+  "/pylon-reklamowy-amex-baczek-falknowo/": {
+    "title": "PYLON REKLAMOWY – AMEX BĄCZEK – FALKNOWO",
+    "summary": "Dla AMEX BĄCZEK odnowiliśmy istniejący pylon reklamowy. Zakres dotyczył zmiany oznakowania na używanym już nośniku, zamiast budowy nowej konstrukcji.",
+    "scope": [
+      "Odnowienie istniejącego pylonu",
+      "Aktualizacja oznakowania"
+    ],
+    "service_path": "/pylony/",
+    "source_sha256": [
+      "134a576a5b41be7ae0c53130c12d508d54f3ae8011ca613d89f7a7cf1809c3d7"
+    ]
+  },
+  "/oklejanie-folia-szroniona-balkony-olsztyn/": {
+    "title": "OKLEJANIE FOLIĄ SZRONIONĄ – BALKONY – OLSZTYN",
+    "summary": "Realizacja w Olsztynie obejmuje oklejenie przeszkleń balkonowych folią szronioną. To zastosowanie folii mrożonej na szklanych elementach balkonu.",
+    "scope": [
+      "Oklejenie przeszkleń balkonowych"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "806ba9b87fd5ee3790dd9d64ff17f9e127335ed5ea94487c095a04e91edfc0d4"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Folia szroniona"
+    ]
+  },
+  "/litery-niepodswietlane-3d-kross/": {
+    "title": "LITERY NIEPODŚWIETLANE 3D – KROSS",
+    "summary": "Dla KROSS przygotowaliśmy niepodświetlane litery 3D do wnętrza. Elementy przestrzenne zostały wykonane ze styroduru.",
+    "scope": [
+      "Niepodświetlane litery przestrzenne",
+      "Oznakowanie wnętrza"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "4c18bd0731c231d85949f8f352a59901e2e6d8c8f9abe747d710872bc021ea44"
+    ],
+    "materials": [
+      "Styrodur"
+    ]
+  },
+  "/litery-3d-ze-styroduru-warmia-biskupiec/": {
+    "title": "LITERY 3D ZE STYRODURU – WARMIA – BISKUPIEC",
+    "summary": "Dla Warmia w Biskupcu wykonaliśmy litery 3D ze styroduru. Realizacja pokazuje oznakowanie przestrzenne wykonane z lekkiego materiału.",
+    "scope": [
+      "Litery przestrzenne ze styroduru"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "ed97f7ea99dbdfb0405fe5e2af88d55b7d0d7c4faf3203649b36b6787c6fe805"
+    ],
+    "location": "Biskupiec",
+    "materials": [
+      "Styrodur"
+    ]
+  },
+  "/markiza-z-logo-rybakowka/": {
+    "title": "MARKIZA Z LOGO – RYBAKÓWKA",
+    "summary": "Dla smażalni Rybakówka w Olsztynie przygotowaliśmy markizę z logo nadrukowanym na falbanie. Realizacja obejmowała koncepcję graficzną, produkcję i montaż.",
+    "scope": [
+      "Projekt grafiki",
+      "Markiza z logo na falbanie",
+      "Montaż"
+    ],
+    "service_path": "/markizy-z-logo/",
+    "source_sha256": [
+      "0da4a431d30f1ea5e36bb705ef0221ce2686982c46592ad66e3da4943b1f5b90"
+    ],
+    "location": "Olsztyn"
+  },
+  "/markiza-do-restauracji-z-logo-piccantino/": {
+    "title": "MARKIZA DO RESTAURACJI Z LOGO – PICCANTINO",
+    "summary": "Dla restauracji Piccantino przygotowaliśmy markizę z logo. Realizacja przedstawia połączenie zadaszenia lokalu z oznakowaniem jego marki.",
+    "scope": [
+      "Markiza z logo restauracji"
+    ],
+    "service_path": "/markizy-z-logo/",
+    "source_sha256": [
+      "c31431c171e4f92629b0cd5a0833c99c639152e6e70da34146b0d8adab896dd1"
+    ]
+  },
+  "/tablica-reklamowa-podwieszana-wabud/": {
+    "title": "TABLICA REKLAMOWA PODWIESZANA – WABUD",
+    "summary": "Dla Świata Łazienek Wabud wykonaliśmy podwieszaną tablicę reklamową. Do jej wykonania wykorzystano materiał kompozytowy obustronnie pokryty aluminium.",
+    "scope": [
+      "Wykonanie tablicy reklamowej",
+      "Oznakowanie podwieszane"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "a2e5422a4d7782b1bd5d9b836b676b1707caf5248c0031b46f1154877d8957c2"
+    ],
+    "materials": [
+      "Kompozyt obustronnie pokryty aluminium"
+    ]
+  },
+  "/reklama-zewnetrzna-willa-port/": {
+    "title": "REKLAMA ZEWNĘTRZNA – WILLA PORT",
+    "summary": "Dla hotelu Willa Port w Ostródzie wykonaliśmy zewnętrzne oznakowanie z literami 3D i szyldem. Elementy oznakowania przygotowaliśmy z taśmy aluminiowej.",
+    "scope": [
+      "Litery 3D",
+      "Szyld zewnętrzny"
+    ],
+    "service_path": "/reklama-zewnetrzna/",
+    "source_sha256": [
+      "fe8d71f2cb087abd24d60618551ba58ecb9a3a276d112a55eaa761717dbc3f62"
+    ],
+    "location": "Ostróda",
+    "materials": [
+      "Taśma aluminiowa"
+    ]
+  },
+  "/baner-reklamowy-doorsy/": {
+    "title": "BANER REKLAMOWY – DOORSY",
+    "summary": "Dla DOORSY wykonaliśmy baner reklamowy. Realizacja przedstawia wydruk wielkoformatowy przygotowany do ekspozycji oferty firmy.",
+    "scope": [
+      "Druk banera reklamowego"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "3b9557048841fafe0eeb8d9ce72c20593a189d2820b0a7825109e4254aa8551f"
+    ]
+  },
+  "/siatka-mesh-aquapark-hotel-platinum/": {
+    "title": "SIATKA MESH – AQUAPARK HOTEL PLATINUM",
+    "summary": "Dla Aqua Parku przy Hotelu Platinum w Ostródzie wykonaliśmy wydruk na siatce mesh. Realizacja prezentuje zastosowanie perforowanego materiału w reklamie wielkoformatowej.",
+    "scope": [
+      "Druk na siatce mesh"
+    ],
+    "service_path": "/siatka-mesh/",
+    "source_sha256": [
+      "7fd31f8b7567c82ab2b84bab1a787ebdaf13e10684768c8e3b8a9125f03a4014"
+    ],
+    "location": "Ostróda",
+    "materials": [
+      "Siatka mesh"
+    ]
+  },
+  "/litery-z-pleksi-hotel-platinum-ostroda/": {
+    "title": "LITERY Z PLEKSI – HOTEL PLATINUM – OSTRÓDA",
+    "summary": "Dla Hotelu Platinum w Ostródzie przygotowaliśmy litery z pleksi wycinanej laserem. Projekt dotyczy oznakowania marki za pomocą osobnych elementów literowych.",
+    "scope": [
+      "Laserowe wycinanie liter z pleksi"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "b8fad4e24d8c7a2672a614f6eed3dbd23a84062029519d79469783872d0a4702"
+    ],
+    "location": "Ostróda",
+    "materials": [
+      "Pleksi"
+    ]
+  },
+  "/reklama-swietlna-zatorzanka-olsztyn/": {
+    "title": "REKLAMA ŚWIETLNA – ZATORZANKA – OLSZTYN",
+    "summary": "Dla Zatorzanki w Olsztynie wykonaliśmy reklamę świetlną. Realizacja przedstawia podświetlane oznakowanie lokalu.",
+    "scope": [
+      "Oznakowanie świetlne"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "cc0b28641eb8b8a07361c6a5421f8c5280bf89a85fa3c23bc88a21479c9c0782"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-warmia-olsztyn/": {
+    "title": "OKLEJANIE SZYB – WARMIA – OLSZTYN",
+    "summary": "Dla Zakładów Mięsnych Warmia w Olsztynie wykonaliśmy oklejenie szyb. Przeszklenia lokalu zostały wykorzystane do prezentacji identyfikacji marki.",
+    "scope": [
+      "Oklejenie szyb lokalu"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "5bf38a5757996107c0a4f69cd8766a643eee78558323f358ce90900de8d079d2"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-warmiolandia-olsztyn/": {
+    "title": "OKLEJANIE SZYB – WARMIOLANDIA – OLSZTYN",
+    "summary": "Dla Warmiolandii w Olsztynie przygotowaliśmy grafikę na witryny. Zakres obejmował koncepcję, wizualizację, druk wielkoformatowy i oklejenie szyb.",
+    "scope": [
+      "Koncepcja i wizualizacja",
+      "Druk grafiki",
+      "Oklejenie witryn"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "351603d2e78388124623b48acf75ba8d700a93d272c7eaa6c344e9fd06b56a51"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-yasumi-olsztyn/": {
+    "title": "OKLEJANIE SZYB – YASUMI – OLSZTYN",
+    "summary": "Dla YASUMI w Olsztynie wykonaliśmy oklejenie szyb. Realizacja przedstawia oznakowanie witryn lokalu grafiką reklamową.",
+    "scope": [
+      "Oklejenie szyb lokalu"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "c7470c25d60c02822fd71f368fa260f9aa0870da95a17a426cb49c8d234a9f95"
+    ],
+    "location": "Olsztyn"
+  },
+  "/szyldy-reklama-zewnetrzna-hotel-mikolajki/": {
+    "title": "SZYLDY, REKLAMA ZEWNĘTRZNA – HOTEL MIKOŁAJKI",
+    "summary": "Dla Hotelu Mikołajki przygotowaliśmy szyldy i reklamę zewnętrzną. To przykład oznakowania obiektu hotelowego przy użyciu nośników umieszczonych na zewnątrz.",
+    "scope": [
+      "Szyldy",
+      "Oznakowanie zewnętrzne"
+    ],
+    "service_path": "/reklama-zewnetrzna/",
+    "source_sha256": [
+      "f2a742fac89f1cacb2fdb3af08f41dd0d89a3615016b75caa751c7cb1addfa63"
+    ]
+  },
+  "/litery-niepodswietlane-gifts-shop-olsztyn/": {
+    "title": "LITERY NIEPODŚWIETLANE – GIFTS SHOP – OLSZTYN",
+    "summary": "Dla Gifts Shop w Olsztynie przygotowaliśmy niepodświetlane litery reklamowe. Oznakowanie przedstawia nazwę sklepu w formie osobnych elementów literowych.",
+    "scope": [
+      "Niepodświetlane litery reklamowe"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "5ea4af62c41e3df580280ff0d9b551b8a27055f5fc1b3d5b5100fe148f28afd9"
+    ],
+    "location": "Olsztyn"
+  },
+  "/druk-wielkoformatowy-grupa-anders-mazury/": {
+    "title": "DRUK WIELKOFORMATOWY – GRUPA ANDERS – MAZURY",
+    "summary": "Dla Grupy Anders wykonaliśmy reklamę wielkoformatową na rusztowaniu. Wpis prezentuje wykorzystanie baneru jako nośnika oznakowania obiektu.",
+    "scope": [
+      "Druk wielkoformatowy",
+      "Reklama na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "46386f0cdd6189980209670b2f0dcdfa25cfb24f6a540063c065d4bdb7cb2bd1"
+    ]
+  },
+  "/szyldy-reklamowe-apro-nieruchomosci-olsztyn/": {
+    "title": "SZYLDY REKLAMOWE – APRO NIERUCHOMOŚCI – OLSZTYN",
+    "summary": "Dla Apro Nieruchomości w Olsztynie przygotowaliśmy zaginaną tablicę reklamową oraz dwustronny semafor. Realizacja łączy oznakowanie płaskie z nośnikiem wystającym poza elewację.",
+    "scope": [
+      "Zaginana tablica reklamowa",
+      "Dwustronny semafor"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "64df04a73382ed506ae406de0f0b77bc6a2134c283f7ff84b47737a3d338516d"
+    ],
+    "location": "Olsztyn"
+  },
+  "/druk-wielkoformatowy-kurpiowska-kraina-podlasie/": {
+    "title": "DRUK WIELKOFORMATOWY – KURPIOWSKA KRAINA – PODLASIE",
+    "summary": "Dla Kurpiowskiej Krainy wykonaliśmy druk na wzmacnianym banerze powlekanym oraz montaż reklamy na rusztowaniu. Projekt przedstawia duży nośnik zewnętrzny przygotowany dla obiektu.",
+    "scope": [
+      "Druk banera",
+      "Montaż reklamy na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "468c048abd747c9dac511f7b4619121950e789f51dd9dc09fe0f9a9bc47947ec"
+    ],
+    "materials": [
+      "Wzmacniany baner powlekany"
+    ]
+  },
+  "/kaseton-reklamowy-bar-familijny-olsztyn/": {
+    "title": "KASETON REKLAMOWY – BAR FAMILIJNY – OLSZTYN",
+    "summary": "Dla Baru Familijnego w Olsztynie wykonaliśmy kaseton reklamowy. Realizacja dotyczy świetlnego oznakowania lokalu gastronomicznego.",
+    "scope": [
+      "Kaseton reklamowy"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "070cac75bc3d576625ae70642b91918a13cffeb551f6e40794556edca0d36c49"
+    ],
+    "location": "Olsztyn"
+  },
+  "/reklama-swietlna-kolster-olsztyn/": {
+    "title": "REKLAMA ŚWIETLNA – KOLSTER – OLSZTYN",
+    "summary": "Dla KOLSTER przy ul. Lubelskiej w Olsztynie przygotowaliśmy świetlne litery 3D. Elementy wykonano z taśmy aluminiowej i wyposażono w oświetlenie LED.",
+    "scope": [
+      "Wykonanie liter przestrzennych",
+      "Podświetlenie LED",
+      "Montaż"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "1581d7269cef240dda5c609517572f227f5db06756181415aa065d14a5197697"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Taśma aluminiowa",
+      "Moduły LED"
+    ]
+  },
+  "/litery-swietlne-after-dark-hotel-mikolajki/": {
+    "title": "LITERY ŚWIETLNE – AFTER DARK – HOTEL MIKOŁAJKI",
+    "summary": "Dla After Dark w Mikołajkach wykonaliśmy świetlne litery 3D. Obrys liter został przygotowany z taśmy aluminiowej zgodnie z kształtem oznakowania.",
+    "scope": [
+      "Wykonanie świetlnych liter 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "573b471b67aa2cfe75f197aa132cd6857572c8250b54d6589d62d08436ee155f"
+    ],
+    "location": "Mikołajki",
+    "materials": [
+      "Taśma aluminiowa"
+    ]
+  },
+  "/kaseton-reklamowy-olsztyn-fish-bar/": {
+    "title": "KASETON REKLAMOWY – OLSZTYN – FISH BAR",
+    "summary": "Dla Fish Bar na olsztyńskiej starówce przygotowaliśmy kaseton reklamowy oraz semafor. W kasetonie zastosowano frezowane litery w materiale kompozytowym o połyskującym wykończeniu.",
+    "scope": [
+      "Kaseton reklamowy",
+      "Semafor"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "ea8be30bb47a568fd4d75d5deaaad6c2e54ec444c98493a217f3c07e13f4a252"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Materiał kompozytowy z połyskiem"
+    ]
+  },
+  "/litery-3d-swietlne-hotel-mikolajki/": {
+    "title": "Litery 3d Świetlne – Hotel Mikołajki",
+    "summary": "Dla Hotelu Mikołajki wykonaliśmy litery 3D z aluminiowym obrysem i modułami LED wewnątrz. Montaż oznakowania przeprowadziliśmy z rusztowania.",
+    "scope": [
+      "Wykonanie liter 3D",
+      "Montaż oświetlenia LED",
+      "Montaż z rusztowania"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "603ce5515fcd798fccee4639122361a4ca9b02f7f97cc0bdd66deb8c018333f0"
+    ],
+    "location": "Mikołajki",
+    "materials": [
+      "Taśma aluminiowa",
+      "Moduły LED"
+    ]
+  },
+  "/reklamy-swietlne-resto-bar-gdynia/": {
+    "title": "Reklamy Świetlne – Resto Bar – Gdynia",
+    "summary": "Dla Resto Bar w Gdyni przygotowaliśmy reklamę świetlną. Realizacja przedstawia oznakowanie lokalu gastronomicznego z wykorzystaniem podświetlenia.",
+    "scope": [
+      "Oznakowanie świetlne lokalu"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "dda404cba7c0f565ade3c7e01143d40c649e9af4d0fa61bee7ecc524effd9ace"
+    ],
+    "location": "Gdynia"
+  },
+  "/reklamy-na-rusztowaniach-ikotly-com-pl-gizycko/": {
+    "title": "Reklamy na rusztowaniach – ikotly.com.pl – Giżycko",
+    "summary": "Dla ikotly.com.pl w Giżycku przygotowaliśmy reklamę na rusztowaniu. Projekt prezentuje wykorzystanie konstrukcji reklamowej do ekspozycji wydruku wielkoformatowego.",
+    "scope": [
+      "Reklama na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "6d5d83f8320be32f90e1a2af463d4cb567565da2589df0897b28eadef38d64c9"
+    ],
+    "location": "Giżycko"
+  },
+  "/reklama-na-rusztowaniu-mlp-poznan/": {
+    "title": "Reklama na Rusztowaniu – MLP – Poznań",
+    "summary": "Dla MLP w Poznaniu przygotowaliśmy reklamę na rusztowaniu. Realizacja pokazuje wielkoformatowy nośnik zewnętrzny z oznakowaniem marki.",
+    "scope": [
+      "Reklama na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "a93b5dff4a95ed02415693e88e0974cc42b5141cbb22d002334f29ea0cfa2d0f"
+    ],
+    "location": "Poznań"
+  },
+  "/kaseton-restauracja-biala-pepsi-nidzica/": {
+    "title": "Kaseton – Restauracja Biała – Pepsi – Nidzica",
+    "summary": "Dla Restauracji Biała w Nidzicy, we współpracy z Pepsi, wymieniliśmy lico istniejącego kasetonu. Zakres obejmował projekt, wydruk dopasowany do wymiarów nośnika i aktualizację reklamy.",
+    "scope": [
+      "Projekt nowego lica",
+      "Druk",
+      "Wymiana lica kasetonu"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "2600bbcc24bcc4eb0b7f8af2c09229922fb013ecdfd1069abff062e2de9acf7c"
+    ],
+    "location": "Nidzica"
+  },
+  "/oklejanie-szyb-folia-apartamenty-opera-olsztyn/": {
+    "title": "Oklejanie szyb folią – APARTAMENTY OPERA – Olsztyn",
+    "summary": "Dla Apartamentów OPERA w Olsztynie przygotowaliśmy reklamę informującą o lokalach usługowych na wynajem. Projekt został wykorzystany do oklejenia szyb obiektu.",
+    "scope": [
+      "Projekt reklamy informacyjnej",
+      "Oklejenie szyb"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "adf1221e8ba0ffb9a62f6625f03b95c670f4615bd2b25abc3670c2ec36ebe6f4"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-timac-cargo-czerwinsk/": {
+    "title": "Oklejanie szyb – Timac Cargo – Czerwińsk",
+    "summary": "Dla TIMAC AGRO wykonaliśmy oklejenie drzwi wejściowych punktu w Czerwińsku. Realizacja przedstawia oznakowanie wejścia grafiką firmy.",
+    "scope": [
+      "Oklejenie drzwi wejściowych"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "6852b1e7e76038b6500fff3c161a194181ad73641e3a66aa54e8d560ad08f555"
+    ],
+    "location": "Czerwińsk"
+  },
+  "/kasetony-tablice-panda-wok-pepsi-gdynia/": {
+    "title": "Kasetony/Tablice – PANDA WOK – PEPSI – GDYNIA",
+    "summary": "Dla Panda Wok w centrum Gdyni wykonaliśmy kaseton nad wejściem oraz tablice menu. Projekt uwzględniał oznakowanie restauracji i marki Pepsi.",
+    "scope": [
+      "Projekt oznakowania",
+      "Kaseton nad wejściem",
+      "Tablice menu"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "36b56f1a1ca6ed5820dc7c80d4043f683f7f2f625619786d3385bd7ef1f27ed9"
+    ],
+    "location": "Gdynia"
+  },
+  "/baner-na-stelazu-solar-squad-olsztyn/": {
+    "title": "Baner na stelażu – SOLAR SQUAD – Olsztyn",
+    "summary": "Dla Solar Squad w Olsztynie wykonaliśmy baner reklamowy na stelażu umieszczonym na elewacji. Realizacja obejmowała przygotowanie grafiki oraz ekspozycję reklamy na budynku.",
+    "scope": [
+      "Projekt banera",
+      "Baner na stelażu elewacyjnym"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "65e3b33a2cc5494b74449bd67f121bbecdbf6752029998df15a267d4d9550afe"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-samochodow-dostawczych-ater-logic-olsztyn/": {
+    "title": "Oklejanie samochodów dostawczych – ATER LOGIC – OLSZTYN",
+    "summary": "Dla ATER Logic przygotowaliśmy projekt graficzny i oklejenie samochodu dostawczego. Grafika stanowi oznakowanie pojazdu firmowego.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie samochodu dostawczego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "f15b2b23d29019608df18e3404be7ef193465dd6adb4b61c114fe9cb65987d53"
+    ],
+    "location": "Olsztyn"
+  },
+  "/kaseton-pfu-wiener-torun/": {
+    "title": "Kaseton – PFU WIENER – TORUŃ",
+    "summary": "Dla PFU Pośrednictwo Finansowo-Ubezpieczeniowe w Toruniu przygotowaliśmy kaseton frezowany z podświetleniem LED. Realizacja dotyczy świetlnego oznakowania punktu ubezpieczeniowego.",
+    "scope": [
+      "Projekt kasetonu",
+      "Frezowanie",
+      "Podświetlenie LED"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "376456febcb7382899d18de5d9aa3a2c13c8564578d656e5e312965ee543ee50"
+    ],
+    "location": "Toruń",
+    "materials": [
+      "Moduły LED"
+    ]
+  },
+  "/druk-wielkoformatowy-unilink-olsztyn/": {
+    "title": "Druk Wielkoformatowy – UNILINK – Olsztyn",
+    "summary": "Dla UNILINK przy ul. Dworcowej w Olsztynie przygotowaliśmy materiały drukowane na podstawie plików klienta. Realizacja pokazuje wykorzystanie druku wielkoformatowego w oznakowaniu placówki.",
+    "scope": [
+      "Druk wielkoformatowy na podstawie plików klienta"
+    ],
+    "service_path": "/drukarnia-wielkoformatowa/",
+    "source_sha256": [
+      "5a67bdc7b7e5ce3670fc3fad90a63c0a5ebc3addda37cb642fc95cd19bb38b56"
+    ],
+    "location": "Olsztyn"
+  },
+  "/banery-willbud-trojmiasto/": {
+    "title": "Banery – Willbud – Trójmiasto",
+    "summary": "Dla Willbud wykonaliśmy ponad 100 m² wydruku banerowego do oznakowania trzech kontenerów przy inwestycji mieszkaniowej w Rumi. Realizacja obejmowała przygotowanie dużej powierzchni reklamy zewnętrznej.",
+    "scope": [
+      "Druk ponad 100 m² banera",
+      "Oznakowanie trzech kontenerów"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "85a2f5c147d94c4ffc558f04cd5171927edc0cd618cafc88607ef5f454a22664"
+    ],
+    "location": "Rumia"
+  },
+  "/oklejanie-samochodow-hotel-anders-stare-jablonki/": {
+    "title": "Oklejanie Samochodów – Hotel Anders – Stare Jabłonki",
+    "summary": "Dla Hotelu Anders ze Starych Jabłonek przygotowaliśmy projekt i oklejenie samochodu dostawczego Renault Trafic. Grafika została dopasowana do pojazdu używanego przez hotel.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie Renault Trafic"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "afe251117156c78e27ee5c6b0190ea00d14d39a563c33d5ad3abfedaf7bbe2b2"
+    ],
+    "location": "Stare Jabłonki"
+  },
+  "/reklama-na-rusztowaniu-palac-warlity-olsztynek/": {
+    "title": "Reklama na Rusztowaniu – PAŁAC WARLITY – Olsztynek",
+    "summary": "Dla Pałacu Warlity przygotowaliśmy projekt megaboardu i montaż reklamy na konstrukcji. Baner ma prawie 15 m szerokości i 6 m wysokości.",
+    "scope": [
+      "Projekt megaboardu",
+      "Baner prawie 15 × 6 m",
+      "Montaż na konstrukcji"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "78ef01d0019ee0bd699e639dbc2bcf744ae373dab090e5d68d666d12e4351b54"
+    ],
+    "location": "Okolice Olsztynka"
+  },
+  "/litery-niepodswietlane-zsb-w-olsztynie-olsztyn/": {
+    "title": "Litery niepodświetlane – ZSB w Olsztynie – Olsztyn",
+    "summary": "Dla Zespołu Szkół Budowlanych w Olsztynie wykonaliśmy niepodświetlane litery ze srebrnego szczotkowanego dibondu. Oznakowanie zamontowano na elewacji przy wejściu do szkoły.",
+    "scope": [
+      "Wykonanie liter",
+      "Montaż na elewacji"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "60209126f824313108f89abe38ed50e11ad408c22938439c7df58f725337a38e"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Srebrny dibond szczotkowany"
+    ]
+  },
+  "/reklamy-swietlne-londonshoes-olsztyn/": {
+    "title": "Reklamy świetlne – LONDONSHOES – Olsztyn",
+    "summary": "Dla Londonshoes w galerii DEKADA w Olsztynie przygotowaliśmy oznakowanie świetlne. Zakres obejmował dwa kasetony frezowane.",
+    "scope": [
+      "Dwa kasetony frezowane",
+      "Oznakowanie świetlne sklepu"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "68b098c9b06876175b8f53de7cd0c381d289d589b525f1b30273b662d4f21e52"
+    ],
+    "location": "Olsztyn"
+  },
+  "/neony-cooltura-pepsi-gdansk/": {
+    "title": "Neony – Cooltura – PEPSI – GDAŃSK",
+    "summary": "Dla klubu Cooltura w Gdańsku, we współpracy z PepsiCo, przygotowaliśmy neony do wnętrza. Wśród wykonanych elementów znalazło się świecące logo Pepsi.",
+    "scope": [
+      "Neony do wnętrza klubu",
+      "Świecące logo Pepsi"
+    ],
+    "service_path": "/neony/",
+    "source_sha256": [
+      "ffe29213740f1c2691047991a27c64df758b2cb5ad8474689fe0078a03558031"
+    ],
+    "location": "Gdańsk"
+  },
+  "/kaseton-reklamowy-malta-cafe-coca-cola-olsztyn/": {
+    "title": "Kaseton reklamowy – Malta Cafe – Coca-Cola – Olsztyn",
+    "summary": "Dla Malta Cafe w centrum Olsztyna wymieniliśmy lico kasetonu reklamowego przed lokalem. Nowy projekt uwzględniał oznakowanie restauracji oraz Coca-Cola.",
+    "scope": [
+      "Projekt nowego lica",
+      "Wymiana lica kasetonu"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "0bc9d7d72c2db05ac75634a2378a83bd50783d5429292e734acaaf580751765e"
+    ],
+    "location": "Olsztyn"
+  },
+  "/reklama-na-rusztowaniu-adams-gizycko/": {
+    "title": "Reklama na rusztowaniu – ADAMS – Giżycko",
+    "summary": "Dla ADAMS wykonaliśmy reklamę na rusztowaniu w Giżycku. Realizacja obejmowała przygotowanie projektu i wykonanie wielkoformatowej ekspozycji marki.",
+    "scope": [
+      "Projekt reklamy",
+      "Reklama na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "87c9c85720ca5c0e4c8d15ebaf547fc1497a51ca6046d04f4ec5e4749baf5e40"
+    ],
+    "location": "Giżycko"
+  },
+  "/tablice-reklamowe-smart-automation-olsztyn/": {
+    "title": "Tablice Reklamowe – SMART AUTOMATION – Olsztyn",
+    "summary": "Dla Smart Automation w Olsztynie wymieniliśmy lico istniejącej tablicy reklamowej. Aktualizacja grafiki pozwoliła zachować dotychczasową konstrukcję nośnika.",
+    "scope": [
+      "Przygotowanie projektu",
+      "Wymiana lica istniejącej tablicy"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "212ca5a5086baa3b07eea7fefc35facf7d29e5ea4ca9ba39b4a552bb0589a2c5"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-totalizator-olsztyn/": {
+    "title": "Oklejanie szyb – Totalizator – Olsztyn",
+    "summary": "Dla punktu Totalizatora Sportowego w Olsztynie przygotowaliśmy oklejenie szyb z hasłem „Miliony kręcą każdego”. Grafika została dopasowana do identyfikacji punktu Lotto.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie szyb"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "c66a6bad5b48fc4009a1dbcf209c4846b6c9a576b37a0e90191e49493f5c73fd"
+    ],
+    "location": "Olsztyn"
+  },
+  "/kasetony-reklamowe-itzu-olsztyn/": {
+    "title": "Kasetony Reklamowe – ITZU – Olsztyn",
+    "summary": "Dla ITZU Polska przy ul. Wyszyńskiego w Olsztynie wykonaliśmy dwa kasetony frezowane oraz oklejenie witryn. Realizacja łączyła świetlne oznakowanie punktu z grafiką na szybach.",
+    "scope": [
+      "Dwa kasetony frezowane",
+      "Oklejenie witryn"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "331741bfd6c297facb98516367273510819903f71ab38c41399a67570d560828"
+    ],
+    "location": "Olsztyn"
+  },
+  "/szyld-reklamowy-polmed-olsztyn/": {
+    "title": "Szyld Reklamowy – POLMED – Olsztyn",
+    "summary": "Dla Centrum Medycznego POLMED w Olsztynie przygotowaliśmy szyld reklamowy. Projekt oparto na białej tablicy z czytelnym oznakowaniem placówki.",
+    "scope": [
+      "Projekt szyldu",
+      "Wykonanie tablicy reklamowej"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "0549c9092d35df692c954fc935940d9b612a7fc0c8af52954408e5e7f973382d"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-samochodow-barton-olsztyn/": {
+    "title": "Oklejanie samochodów – BARTON – Olsztyn",
+    "summary": "Dla BARTON w Olsztynie przygotowaliśmy projekt oklejenia firmowego busa Renault. Realizacja dotyczy oznakowania pojazdu firmy oferującej drzwi, okna i bramy garażowe.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie busa Renault"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "2de88c50ff4fc19281718877c822892e2be7ae1928e4694a575ba6bba912e02d"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-samochodow-miedza-olsztyn/": {
+    "title": "Oklejanie samochodów – MIEDZA – Olsztyn",
+    "summary": "Dla MIEDZA Usługi Geodezyjne w Olsztynie wykonaliśmy projekt i oklejenie samochodu Dacia. Grafika została dopasowana do oznakowania firmy na pojeździe.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie samochodu Dacia"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "5aee2d1ba7fb866a2fed09ec01ef353657344e10bc2b9780137d10e2bbf192cd"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-chemia-olsztyn/": {
+    "title": "Oklejanie Szyb – CHEMIA – Olsztyn",
+    "summary": "Dla CHEMIA przy ul. Lubelskiej 36 w Olsztynie wykonaliśmy oklejenie szyb nowego oddziału. Zakres obejmował projekt oraz przygotowanie wycinanego oznakowania.",
+    "scope": [
+      "Projekt oznakowania",
+      "Wycinanie grafiki",
+      "Oklejenie szyb"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "239bb87efb0cd4da46553cba9e506343066c53d4cc0ab37b580b7f0864f36797"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-samochodow-nutrena-jeziorany/": {
+    "title": "Oklejanie samochodów – Nutrena – Jeziorany",
+    "summary": "Dla Nutrena z Jezioran przygotowaliśmy oklejenie samochodu firmowego. Realizacja przedstawia oznakowanie pojazdu marki działającej w branży paszowej.",
+    "scope": [
+      "Oklejenie samochodu firmowego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "31e8282e898974cfb3bab0d91bb03dad8ff430dfef0326d52c3b95df20baeeff"
+    ],
+    "location": "Jeziorany"
+  },
+  "/kasetony-frezowane-z-wystajaca-plexi-aligator-olsztyn/": {
+    "title": "KASETONY FREZOWANE z wystającą PLEXI – ALIGATOR – OLSZTYN",
+    "summary": "Dla Centrum Zoologicznego ALIGATOR w Galerii Warmińskiej w Olsztynie wykonaliśmy kaseton frezowany z wystającą pleksi. Oznakowanie powstało dla nowego sklepu marki.",
+    "scope": [
+      "Wykonanie kasetonu frezowanego",
+      "Wystające elementy z pleksi"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "bcf5369305245aa24353fa1625a64090f3ae86f6c5bfa2694f829a0a77d690e4"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Pleksi"
+    ]
+  },
+  "/kaseton-frezowany-litery-3d-investor-ostroda/": {
+    "title": "Kaseton frezowany, Litery 3D – INVESTOR – OSTRÓDA",
+    "summary": "Dla Nieruchomości INVESTOR w Ostródzie przygotowaliśmy kaseton frezowany i litery 3D. Realizacja obejmuje oznakowanie nowego lokalu firmy.",
+    "scope": [
+      "Kaseton frezowany",
+      "Litery przestrzenne 3D"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "d7672f4fab5f600d8204e059541f3067605e6d70202f00f6d19667b796654911"
+    ],
+    "location": "Ostróda"
+  },
+  "/stacja-paliw-falco/": {
+    "title": "STACJA PALIW FALCO",
+    "summary": "Dla stacji paliw FALCO przygotowaliśmy zestaw oznakowania obejmujący kasetony, pylony, naklejki na dystrybutory oraz napisy. Projekt łączył kilka nośników w identyfikacji jednego obiektu.",
+    "scope": [
+      "Kasetony reklamowe",
+      "Pylony",
+      "Naklejki na dystrybutory"
+    ],
+    "service_path": "/reklama-zewnetrzna/",
+    "source_sha256": [
+      "0a0ec385704a5561cdd6b1965148e31f9228b4ee5f91da2173bab2a98e440c43"
+    ]
+  },
+  "/reklama-mobilna-lidl/": {
+    "title": "Reklama mobilna Lidl Olsztyn",
+    "summary": "Dla Lidl wykonaliśmy wydruk banera i zamocowaliśmy go na przyczepie reklamowej. Realizacja przedstawia wykorzystanie wydruku wielkoformatowego w reklamie mobilnej.",
+    "scope": [
+      "Druk banera",
+      "Mocowanie banera na przyczepie"
+    ],
+    "service_path": "/mobilna-reklama/",
+    "source_sha256": [
+      "1d9d585f8fc1f53ad98eed0e6e76a60853fa557ddceb7ba755e27b2e2d318c08"
+    ],
+    "location": "Olsztyn"
+  },
+  "/tablica-podswietlana-piekne-okno/": {
+    "title": "Tablica podświetlana - Piękne Okno",
+    "summary": "Dla Piękne Okno wykonaliśmy podświetlaną tablicę montowaną na dystansach. Projekt uwzględniał logo oraz napisy wycinane z folii.",
+    "scope": [
+      "Projekt tablicy",
+      "Wycinane logo i napisy",
+      "Podświetlana tablica na dystansach"
+    ],
+    "service_path": "/reklamy-swietlne/",
+    "source_sha256": [
+      "a0b971e44bc0065c264469e0383a64b3efd7d181dc9a064f68a23a4bc89864e8"
+    ]
+  },
+  "/tablice-informacyjne-cezal/": {
+    "title": "TABLICE INFORMACYJNE - CEZAL Olsztyn",
+    "summary": "Dla CEZAL w Olsztynie przygotowaliśmy tablice informacyjne. Realizacja obejmowała opracowanie projektu oznakowania zgodnie z potrzebami firmy.",
+    "scope": [
+      "Projekt oznakowania",
+      "Tablice informacyjne"
+    ],
+    "service_path": "/tabliczki-informacyjne/",
+    "source_sha256": [
+      "455e6bb8b9610e6f496bdd2bb33601eedb2d5d4607ad02155a3b1c53a94806cd"
+    ],
+    "location": "Olsztyn"
+  },
+  "/fototapeta-pup-szczytno/": {
+    "title": "fototapeta PUP SZCZYTNO",
+    "summary": "Dla Powiatowego Urzędu Pracy w Szczytnie przygotowaliśmy fototapetę. Zakres obejmował projekt graficzny, druk oraz aplikację na ścianie.",
+    "scope": [
+      "Projekt fototapety",
+      "Druk",
+      "Aplikacja na ścianie"
+    ],
+    "service_path": "/fototapety/",
+    "source_sha256": [
+      "25c3f0a617164ffdb81115b853197e3c0465f9e62330fbb5cf0035dcf61df33a"
+    ],
+    "location": "Szczytno"
+  },
+  "/oklejanie-szyb-totalizator/": {
+    "title": "Oklejanie szyb - Totalizator",
+    "summary": "Dla Totalizatora Sportowego wykonaliśmy wydruk i aplikację grafiki na szybach. Realizacja dotyczy oznakowania punktu materiałami dopasowanymi do identyfikacji marki.",
+    "scope": [
+      "Druk grafiki",
+      "Aplikacja na szybach"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "28c893d59d7b2cf62b04542a93a5a92e457f7a39032cd9351794ee4e3e4137cc"
+    ]
+  },
+  "/fototapety-hotel-anders/": {
+    "title": "fototapety - Hotel Anders",
+    "summary": "Dla Hotelu Anders przygotowaliśmy fototapetę do wnętrza. Realizacja obejmowała projekt, wydruk oraz aplikację gotowej grafiki.",
+    "scope": [
+      "Projekt fototapety",
+      "Druk",
+      "Aplikacja"
+    ],
+    "service_path": "/fototapety/",
+    "source_sha256": [
+      "565b610e4720d1db07e55afdd8856eddac5a6651ce920d26370b3648325d2e1b"
+    ]
+  },
+  "/tablica-arena-ostroda/": {
+    "title": "tablica ARENA OSTRÓDA",
+    "summary": "Dla ARENA OSTRÓDA wykonaliśmy tablicę reklamową. Realizacja obejmowała przygotowanie projektu oznakowania obiektu.",
+    "scope": [
+      "Projekt tablicy",
+      "Wykonanie tablicy reklamowej"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "16592ada50b4f2a91402919a71c41b216ed0077e46bf1f642bfe7f17681df198"
+    ],
+    "location": "Ostróda"
+  },
+  "/litery-3d-artwood/": {
+    "title": "LITERY 3D - ARTWOOD",
+    "summary": "Dla ARTWOOD przygotowaliśmy podświetlane litery 3D. Zakres obejmował projekt oznakowania przestrzennego marki.",
+    "scope": [
+      "Projekt liter 3D",
+      "Wykonanie podświetlanego oznakowania"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "fa78995febdb07c4faa1ba22e06bd1d6ac44b75d666f2b7f85660e9193167555"
+    ]
+  },
+  "/siatka-mesh-ozgraf/": {
+    "title": "SIATKA MESH - OZGRAF Olsztyn",
+    "summary": "Z okazji 80-lecia OZGRAF w Olsztynie przygotowaliśmy reklamę na siatce mesh. Zakres obejmował projekt, druk wielkoformatowy oraz montaż na szczycie budynku.",
+    "scope": [
+      "Projekt grafiki jubileuszowej",
+      "Druk na siatce mesh",
+      "Montaż na budynku"
+    ],
+    "service_path": "/siatka-mesh/",
+    "source_sha256": [
+      "d640470be152854b9ad6a3c3178c055da952d67fd966af0810ae30dfb68bfdc0"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Siatka mesh"
+    ]
+  },
+  "/folia-szroniona-witryna-kancelarii/": {
+    "title": "FOLIA SZRONIONA - WITRYNA KANCELARII",
+    "summary": "Dla kancelarii radcy prawnego przygotowaliśmy oklejenie witryny folią szronioną. Realizacja dotyczy oznakowania przeszkleń biura folią o efekcie mrożonego szkła.",
+    "scope": [
+      "Oklejenie witryny kancelarii"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "8cee21ea30bf9f7f4da0967d47dc30fc59cbe4a9d415de85478cc34dfe99be61"
+    ],
+    "materials": [
+      "Folia szroniona"
+    ]
+  },
+  "/litery-3d-delphia/": {
+    "title": "LITERY 3D - DELPHIA",
+    "summary": "Dla DELPHIA wykonaliśmy litery 3D. Realizacja przedstawia oznakowanie marki za pomocą elementów przestrzennych.",
+    "scope": [
+      "Litery przestrzenne 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "185c605f6cfb03009795bfaee429468a66ea862152e6de58478180fb0fe0fff1"
+    ]
+  },
+  "/oklejanie-samochodu-dunaj/": {
+    "title": "OKLEJANIE SAMOCHODU - DUNAJ",
+    "summary": "Dla drobiarskiej grupy producenckiej DUNAJ przygotowaliśmy projekt i oklejenie samochodu dostawczego. Grafika została dopasowana do firmowego pojazdu.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie samochodu dostawczego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "e498777f25118d6e6a28ef58cc2117007bebd1f05842e422a5efd10f91c933b5"
+    ]
+  },
+  "/litery-plexi-poradnia-psychologiczna/": {
+    "title": "LITERY PLEXI - PORADNIA PSYCHOLOGICZNA",
+    "summary": "Dla poradni psychologicznej przygotowaliśmy litery 3D z pleksi. Realizacja przedstawia oznakowanie placówki przy użyciu wycinanych elementów literowych.",
+    "scope": [
+      "Wykonanie liter z pleksi"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "c3f7b36e74f75ea5d3c7fa8b77904ed71ec25e1bcf66218334dfbfa2b714fd6a"
+    ],
+    "materials": [
+      "Pleksi"
+    ]
+  },
+  "/beczki-reklamowe-pepsi/": {
+    "title": "BECZKI REKLAMOWE PEPSI",
+    "summary": "Przygotowaliśmy oklejenie stalowych beczek z oznakowaniem Pepsi i Da Grasso. Realizacja przedstawia personalizację beczek jako nośników identyfikacji marek.",
+    "scope": [
+      "Projekt oznakowania",
+      "Oklejenie beczek stalowych"
+    ],
+    "service_path": "/beczki-reklamowe/",
+    "source_sha256": [
+      "be0c2ba7e6809ef1d16a1ca44a42221a5a75e5b3e596bf07a6ff9f5ba35be3d0"
+    ],
+    "materials": [
+      "Beczki stalowe",
+      "Folia do oklejenia"
+    ]
+  },
+  "/litery-3d-leinster/": {
+    "title": "LITERY 3D - LEINSTER",
+    "summary": "Dla LEINSTER wykonaliśmy litery 3D z podświetleniem. Realizacja przedstawia świetlne oznakowanie marki w formie przestrzennej.",
+    "scope": [
+      "Podświetlane litery 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "33d4c7f2476d69cfc45b10f9fc57073f78815701b39fe19a725636ce6589b3af"
+    ]
+  },
+  "/litery-3d-liva-park/": {
+    "title": "LITERY 3D - LIVA PARK",
+    "summary": "Dla LIVAPARK przygotowaliśmy podświetlane litery 3D na elewację budynku. Zakres obejmował projekt graficzny, produkcję i montaż oznakowania.",
+    "scope": [
+      "Projekt liter",
+      "Produkcja",
+      "Montaż na elewacji"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "07a41a59f86d659e38bff129bddbccd1d1bc5617063cff56dd9828775aafd1a1"
+    ]
+  },
+  "/megaboard-caterpillar/": {
+    "title": "Reklama Na Rusztowaniu - Caterpillar",
+    "summary": "Dla Caterpillar wykonaliśmy wydruk wielkoformatowy przeznaczony na reklamę na rusztowaniu. Projekt graficzny został dostarczony przez klienta.",
+    "scope": [
+      "Przygotowanie pliku klienta do druku",
+      "Druk wielkoformatowy"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "afbee0e7cdd274260a0b19c0a538045fde4e64354b0c49001496a56d307cd509"
+    ]
+  },
+  "/fototapeta-olsztyn/": {
+    "title": "Fototapeta - Olsztyn",
+    "summary": "Realizacja w Olsztynie obejmowała przygotowanie fototapety do wnętrza. Zakres prac to koncepcja, wydruk wielkoformatowy i montaż grafiki na ścianie.",
+    "scope": [
+      "Koncepcja fototapety",
+      "Druk",
+      "Montaż"
+    ],
+    "service_path": "/fototapety/",
+    "source_sha256": [
+      "bdc3702989071bd50691cc6d425e838c62e70b0a13431baee5753213cb90dc7b"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejenie-samochodu-czas-na-pudelko/": {
+    "title": "Oklejenie samochodu - Czas na pudełko",
+    "summary": "Dla marki Czas na Pudełko przygotowaliśmy projekt graficzny i oklejenie samochodu dostawczego. Realizacja przedstawia oznakowanie pojazdu używanego przez catering pudełkowy.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie samochodu dostawczego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "a990195b572bfc287ff0fc4864f98b36625d5552fc96e3a1e1a1c108833fcda9"
+    ]
+  },
+  "/oklejenie-szyb-studio-figura/": {
+    "title": "Oklejenie Szyb - Studio Figura",
+    "summary": "Dla Studio Figura w Olsztynie wykonaliśmy oklejenie szyb. W projekcie zastosowano folię szronioną oraz wycinane elementy z białej i czarnej folii.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie szyb",
+      "Aplikacja wycinanych elementów"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "0fbda59c44468e4d095b1b78f79373c9f34bf3ff69428c16557da0b62beb635d"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Folia szroniona",
+      "Biała i czarna folia"
+    ]
+  },
+  "/megaboard-moya/": {
+    "title": "REKLAMA NA RUSZTOWANIU - MOYA",
+    "summary": "Dla stacji paliw MOYA wykonaliśmy wydruk megaboardu na podstawie projektu dostarczonego przez klienta. Zakres obejmował przygotowanie pliku do realizacji i druk wielkoformatowy.",
+    "scope": [
+      "Przygotowanie pliku klienta",
+      "Druk megaboardu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu-2/",
+    "source_sha256": [
+      "f615aa981e4b6a86b9635c08f293555ec6700fdbb9997ac48356b031a5e67a95"
+    ]
+  },
+  "/megaboard-palac-warlity/": {
+    "title": "REKLAMA NA RUSZTOWANIU - PAŁAC WARLITY",
+    "summary": "Dla Pałacu Warlity przygotowaliśmy projekt i wydruk megaboardu promującego hotel i restaurację. Realizacja przedstawia reklamę przeznaczoną do ekspozycji na rusztowaniu.",
+    "scope": [
+      "Projekt graficzny",
+      "Druk megaboardu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "5c40f1d5f63e0a548d787c4f6b1773a783963dada1b9bb5a92f65ee2344c9a23"
+    ]
+  },
+  "/przyczepa-reklamowa-lidl/": {
+    "title": "Przyczepa reklamowa - Lidl Olsztyn",
+    "summary": "Dla Lidl Olsztyn wydrukowaliśmy baner na przyczepę reklamową. Materiał został przygotowany na podstawie projektu graficznego przekazanego przez klienta.",
+    "scope": [
+      "Przygotowanie pliku klienta",
+      "Druk banera na przyczepę"
+    ],
+    "service_path": "/mobilna-reklama/",
+    "source_sha256": [
+      "97b4864201e3fc920553a57ec4589e88fa1e2d5313cc6371234cb326044679da"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejenie-ciezarowki-indykpol/": {
+    "title": "Oklejenie ciężarówki - INDYKPOL Olsztyn",
+    "summary": "Dla INDYKPOL Olsztyn przygotowaliśmy oklejenie ciężarówki. Realizacja obejmowała opracowanie projektu graficznego dla pojazdu firmowego.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie ciężarówki"
+    ],
+    "service_path": "/oklejanie-samochodow-ciezarowych/",
+    "source_sha256": [
+      "c2a9439f34ee646502e36387c33322dc8c8b5ec450379705c675073580676333"
+    ],
+    "location": "Olsztyn"
+  },
+  "/kaseton-vinylowy-jawor-parkiet/": {
+    "title": "Kaseton vinylowy - JAWOR-PARKIET",
+    "summary": "Dla JAWOR-PARKIET wykonaliśmy kaseton winylowy. Realizacja przedstawia świetlne oznakowanie firmy na nośniku z winylowym licem.",
+    "scope": [
+      "Kaseton winylowy"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "5c30028e12812b80b582044fe81d4700817cbf9b50e8c0fa744ed119e14a176b"
+    ],
+    "materials": [
+      "Lico winylowe"
+    ]
+  },
+  "/szyld-mpz-w-barczewie/": {
+    "title": "Szyld MPZ w Barczewie / k Olsztyna",
+    "summary": "Dla Miejskiej Przychodni Zdrowia w Barczewie przygotowaliśmy szyld reklamowy. Realizacja dotyczy oznakowania placówki medycznej w okolicach Olsztyna.",
+    "scope": [
+      "Szyld reklamowy placówki"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "460e4c566da4f62b1cbe82cffe6d123f9dae911bafaae71b08cacbb54895e04d"
+    ],
+    "location": "Barczewo"
+  },
+  "/tablica-barton/": {
+    "title": "Tablica Reklamowa - BARTON Olsztyn",
+    "summary": "Dla BARTON w Olsztynie wykonaliśmy tablicę reklamową. Realizacja przedstawia oznakowanie firmy oferującej drzwi, okna i bramy garażowe.",
+    "scope": [
+      "Wykonanie tablicy reklamowej"
+    ],
+    "service_path": "/tablice-olsztyn/",
+    "source_sha256": [
+      "1053599c9cccfa668aa6e729cd12a7e4e51f33a4233108745c3069f63c1058b3"
+    ],
+    "location": "Olsztyn"
+  },
+  "/litery-3d-michelin/": {
+    "title": "LITERY 3D - MICHELIN Olsztyn",
+    "summary": "Dla Michelin w Olsztynie przygotowaliśmy przestrzenne litery 3D. Zakres obejmował projekt i montaż oznakowania.",
+    "scope": [
+      "Projekt liter 3D",
+      "Montaż oznakowania"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "fa131b24840d8b5180701c3abc74f04590a0f7e9259b2f2bb54c494839a26fa1"
+    ],
+    "location": "Olsztyn"
+  },
+  "/pylony-ergo-arena/": {
+    "title": "Pylony - Reklamy Świetlne",
+    "summary": "Realizacja obejmowała dostarczenie i montaż 20 podświetlanych pylonów reklamowych. Zestaw nośników tworzył system informacji wizualnej obiektu.",
+    "scope": [
+      "Dostarczenie 20 pylonów",
+      "Podświetlane oznakowanie",
+      "Montaż"
+    ],
+    "service_path": "/pylony/",
+    "source_sha256": [
+      "b77c08da7a5797bcb70bb36f0890a9f850ce64e1e98b00f925082706319e6500"
+    ]
+  },
+  "/litery-3d-motodoktor/": {
+    "title": "LITERY 3D - MOTODOKTOR",
+    "summary": "Dla MOTODOKTOR wykonaliśmy świetlne litery 3D. Projekt graficzny oznakowania został dopasowany do identyfikacji marki z branży motoryzacyjnej.",
+    "scope": [
+      "Projekt oznakowania",
+      "Świetlne litery 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "d2b8eef341e07ac074a41594579c5946b62bb20cfb506f24423a9a90d97f3d3c"
+    ]
+  },
+  "/kaseton-reklamowy-rapido/": {
+    "title": "Kaseton reklamowy - RAPIDO",
+    "summary": "Kaseton reklamowy przygotowany dla RAPIDO. Oznakowanie eksponuje nazwę firmy na osobnym nośniku reklamowym.",
+    "scope": [
+      "Kaseton reklamowy"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "3fef85d26b5ca8d1a9e7b398680f8e5b99dee6168cdc18c227c395c784c154d0"
+    ]
+  },
+  "/boch-bau-oklejanie-samochodow-ostroda/": {
+    "title": "Boch-Bau - oklejanie samochodów Ostróda",
+    "summary": "Dla Boch-Bau w Ostródzie przygotowaliśmy oklejenie firmowego busa. Projekt dotyczył wykorzystania pojazdu jako nośnika identyfikacji firmy.",
+    "scope": [
+      "Projekt grafiki",
+      "Oklejenie busa"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "33ed96a43c7e7d741a374b0967a7c36b0aab396feffffa4ce82ffcd170364633"
+    ],
+    "location": "Ostróda"
+  },
+  "/beczki-reklamowe-moto-leader/": {
+    "title": "Beczki reklamowe - MOTO LEADER",
+    "summary": "Dla MOTO LEADER przygotowaliśmy beczki stalowe z oznakowaniem marki. Realizacja obejmowała wykorzystanie oklejenia do personalizacji nośników.",
+    "scope": [
+      "Przygotowanie oznakowania",
+      "Oklejenie beczek stalowych"
+    ],
+    "service_path": "/beczki-reklamowe/",
+    "source_sha256": [
+      "8bee3cb07b1d662a0bf0af79d9430499173bb2d19fb41058992194f2fafda6f6"
+    ],
+    "materials": [
+      "Beczki stalowe",
+      "Folia do oklejenia"
+    ]
+  },
+  "/oklejanie-busa-dla-zsr-ostroda/": {
+    "title": "Oklejanie busa dla ZSR Ostróda",
+    "summary": "Dla Zespołu Szkół Rolniczych im. Wincentego Witosa w Ostródzie wykonaliśmy oklejenie busa. Realizacja przedstawia oznakowanie pojazdu szkolnego.",
+    "scope": [
+      "Oklejenie busa szkolnego"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "b896dbd20a7cfb1794b982e6f70997cb255271958f21c82825699a62ad2d8f8b"
+    ],
+    "location": "Ostróda"
+  },
+  "/litery-3d-w-olsztynie-logo-doritos/": {
+    "title": "LITERY 3D w Olsztynie - LOGO DORITOS",
+    "summary": "Przygotowaliśmy przestrzenne logo DORITOS oraz elementy w kształcie nachosów. Realizacja przedstawia wykorzystanie technologii 3D w oznakowaniu marki.",
+    "scope": [
+      "Przestrzenne logo DORITOS",
+      "Elementy w kształcie nachosów"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "f7a4d66860104d7ed5aeab3f788d26e4cb300bc8e690a3051be7ab58566c120f"
+    ]
+  },
+  "/lotto-witryna-ostroda/": {
+    "title": "Oklejanie szyb Ostróda, Olsztyn",
+    "summary": "Realizacja przedstawia oklejenie witryny punktu Lotto. Przeszklenia zostały wykorzystane jako powierzchnia oznakowania lokalu.",
+    "scope": [
+      "Oklejenie witryny"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "5e0844de2cd4e956d845f094ff6109a1f131652192e3e9369cc93f054d0a7c7a"
+    ]
+  },
+  "/oklejanie-autobusu-olsztyn/": {
+    "title": "Oklejanie autobusu olsztyn",
+    "summary": "Realizacja w Olsztynie przedstawia oklejenie autobusu. Duża powierzchnia nadwozia została wykorzystana jako nośnik reklamy.",
+    "scope": [
+      "Oklejenie autobusu"
+    ],
+    "service_path": "/oklejanie-autobusow/",
+    "source_sha256": [
+      "145f2f088b17ac720834453cad242d2e93824d6d95f77ad3ed09f99cc394da0c"
+    ],
+    "location": "Olsztyn"
+  },
+  "/senpo-kaseton-vinylowy-olsztyn/": {
+    "title": "SENPO - kaseton vinylowy olsztyn",
+    "summary": "Dla SENPO wykonaliśmy kaseton winylowy. Realizacja przedstawia oznakowanie marki przy użyciu nośnika reklamowego z winylowym licem.",
+    "scope": [
+      "Kaseton winylowy"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "1456c44aad5dcb22c7dc59a6d9f43affb5baab1b79f4c37c1129a54518d0a543"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Lico winylowe"
+    ]
+  },
+  "/litery-3d-mpec-morag/": {
+    "title": "LITERY 3D - MPEC Morąg",
+    "summary": "Dla MPEC Morąg wykonaliśmy montaż liter 3D. Projekt przedstawia oznakowanie przedsiębiorstwa za pomocą elementów przestrzennych.",
+    "scope": [
+      "Litery przestrzenne 3D",
+      "Montaż"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "ff30fa7b5e46f3a5500d295b8c393f4da47181d5da67d3e22e1e27e303144545"
+    ],
+    "location": "Morąg"
+  },
+  "/eubioco-pylon-olsztyn/": {
+    "title": "EUBIOCO - pylon olsztyn",
+    "summary": "Dla EUBIOCO w Olsztynie wykonaliśmy pylon reklamowy. Zakres obejmował przygotowanie nośnika oraz jego montaż.",
+    "scope": [
+      "Wykonanie pylonu",
+      "Montaż"
+    ],
+    "service_path": "/pylony/",
+    "source_sha256": [
+      "c6fd20c1f1ed875c007208a0d80baaa4574929889c3d1c3dbefe9ffc4d5e33e6"
+    ],
+    "location": "Olsztyn"
+  },
+  "/agaplast-litery-3d-olsztyn/": {
+    "title": "AGAPLAST - Litery 3D olsztyn",
+    "summary": "Dla AGAPLAST w Olsztynie wykonaliśmy i zamontowaliśmy litery 3D. Realizacja przedstawia przestrzenne oznakowanie firmy.",
+    "scope": [
+      "Wykonanie liter 3D",
+      "Montaż"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "e4f5d0ab02489e75b4e8ce96863bc815316c7f37ce64c484cd823cf79f373cf7"
+    ],
+    "location": "Olsztyn"
+  },
+  "/mazurskie-miody-fototapety-olsztyn/": {
+    "title": "MAZURSKIE MIODY - fototapety olsztyn",
+    "summary": "Dla MAZURSKICH MIODÓW przygotowaliśmy fototapetę i jej montaż. Realizacja przedstawia grafikę ścienną wykorzystaną w identyfikacji wnętrza firmy.",
+    "scope": [
+      "Przygotowanie fototapety",
+      "Montaż"
+    ],
+    "service_path": "/fototapety/",
+    "source_sha256": [
+      "307378ec195e3b017f8b3470b39df23069f556535596038346a1d5211e00d1e4"
+    ]
+  },
+  "/lgss-oklejanie-samochodu-ostroda/": {
+    "title": "LGSS - oklejanie samochodów",
+    "summary": "Dla LGSS Dorabianie Kluczy przygotowaliśmy projekt i oklejenie samochodu. Realizacja przedstawia mobilne oznakowanie firmy.",
+    "scope": [
+      "Projekt graficzny",
+      "Oklejenie samochodu"
+    ],
+    "service_path": "/oklejanie-samochodow/",
+    "source_sha256": [
+      "1596f3090f3c53613fab88ef163d52c888eb210f1f3e6ae551b444d0b34a2342"
+    ]
+  },
+  "/fototapety-sp1-i-sp4-ostroda/": {
+    "title": "Fototapety - SP1 i SP4 - Ostróda",
+    "summary": "Dla szkół SP1 i SP4 w Ostródzie przygotowaliśmy fototapety ścienne. Realizacja przedstawia wykorzystanie dużej grafiki we wnętrzach placówek edukacyjnych.",
+    "scope": [
+      "Fototapety ścienne dla szkół"
+    ],
+    "service_path": "/fototapety/",
+    "source_sha256": [
+      "fdd9c790c990a7c3ef9feff964f349c4fe4bf63af1a12e5b03916d1e5d335b02"
+    ],
+    "location": "Ostróda"
+  },
+  "/szyldy-reklamowe-spolem-warszawa/": {
+    "title": "Szyldy reklamowe - Społem - Warszawa",
+    "summary": "Dla sklepu Społem w Warszawie przygotowaliśmy szyld reklamowy. Realizacja dotyczy oznakowania punktu handlowego.",
+    "scope": [
+      "Szyld reklamowy sklepu"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "35f9bcaa344fba63fa453004ef968bb349d0b502f5405915a05dc108322bd329"
+    ],
+    "location": "Warszawa"
+  },
+  "/litery-frezowane-z-dibondu-dla-osp/": {
+    "title": "Litery frezowane z dibondu dla OSP",
+    "summary": "Dla Ochotniczej Straży Pożarnej w Długim Borku wykonaliśmy litery frezowane z dibondu. Realizacja dotyczy oznakowania budynku jednostki.",
+    "scope": [
+      "Frezowanie liter",
+      "Oznakowanie budynku OSP"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "91df83ac885bea77dad5314ff7d5e363a0ef117d59025aa97afa3041380db823"
+    ],
+    "location": "Długi Borek",
+    "materials": [
+      "Dibond"
+    ]
+  },
+  "/litery-3d-ippon-group/": {
+    "title": "Litery 3D - IPPON GROUP",
+    "summary": "Dla IPPON GROUP w Olsztynie przygotowaliśmy litery 3D. Realizacja przedstawia przestrzenne oznakowanie nazwy firmy.",
+    "scope": [
+      "Litery przestrzenne 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "8430a224713b6360d78a707ffbfe26a7f6b30692c2e97fec5299f8ec13fcd81e"
+    ],
+    "location": "Olsztyn"
+  },
+  "/litery-3d-makurat-invest/": {
+    "title": "Litery 3D MAKURAT INVEST",
+    "summary": "Dla MAKURAT INVEST wykonaliśmy litery 3D. Projekt przedstawia oznakowanie marki w formie elementów przestrzennych.",
+    "scope": [
+      "Litery przestrzenne 3D"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "1b8cdccbe76483e27664c4ca133f4fce08f53d4b5a5fca2c45011cca6f3a8799"
+    ]
+  },
+  "/banery-mcdonald/": {
+    "title": "Banery - McDonald",
+    "summary": "Dla McDonald’s wykonaliśmy druk banera i montaż na konstrukcji reklamowej koło Olsztyna. Realizacja przedstawia wielkoformatowy nośnik zewnętrzny.",
+    "scope": [
+      "Druk banera",
+      "Montaż na konstrukcji reklamowej"
+    ],
+    "service_path": "/banery/",
+    "source_sha256": [
+      "89e4b8ec606592b79fd3e83862c1b859db50497f99f16e84215b0bf1a01d6384"
+    ],
+    "location": "Okolice Olsztyna"
+  },
+  "/litery-niepodswietlane-kolster/": {
+    "title": "Litery niepodświetlane - Kolster Olsztyn",
+    "summary": "Dla KOLSTER w Olsztynie wykonaliśmy niepodświetlane litery z dibondu. Oznakowanie marki zostało przygotowane w formie wycinanych elementów literowych.",
+    "scope": [
+      "Niepodświetlane litery reklamowe"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "4bc88a2c8e0023be43dbd8bef3c62f6f947925e2deeb6244a1cf0ea38f401453"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Dibond"
+    ]
+  },
+  "/banery-na-rusztowaniu-harmony-group/": {
+    "title": "Banery na rusztowaniu – HARMONY GROUP",
+    "summary": "Dla HARMONY GROUP w Olsztynie przygotowaliśmy reklamę inwestycji mieszkaniowej na rusztowaniu. Zakres obejmował druk wielkoformatowy, przygotowanie konstrukcyjne i montaż.",
+    "scope": [
+      "Druk wielkoformatowy",
+      "Przygotowanie konstrukcyjne",
+      "Montaż na rusztowaniu"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "63982403466b39c3b4d38f3cdaad60a3698b528a98e1fcc8b35da8c33d0d27f5"
+    ],
+    "location": "Olsztyn"
+  },
+  "/beczki-aioli/": {
+    "title": "BECZKI - AIOLI",
+    "summary": "Dla AIOLI przygotowaliśmy stalowe beczki reklamowe. Realizacja przedstawia personalizowane nośniki oznakowania marki gastronomicznej.",
+    "scope": [
+      "Personalizacja beczek reklamowych"
+    ],
+    "service_path": "/beczki-reklamowe/",
+    "source_sha256": [
+      "58dcf345489fab2e12aa7a4658ef075be17831b489c17c57bd99b91d946c7d6c",
+      "93172a50f12761ac60569be550e4054317074900066f674abfe746a0cc19144c"
+    ],
+    "materials": [
+      "Beczki stalowe"
+    ]
+  },
+  "/beczki-drewniane-pepsi/": {
+    "title": "BECZKI DREWNIANE - PEPSI",
+    "summary": "Dla Pepsi przygotowaliśmy drewniane beczki reklamowe. Realizacja przedstawia wykorzystanie drewnianego nośnika w ekspozycji marki.",
+    "scope": [
+      "Drewniane beczki z oznakowaniem Pepsi"
+    ],
+    "service_path": "/beczki-reklamowe/",
+    "source_sha256": [
+      "4d39d28055b3d0d8288f9984fa9eb07ceb09362a99f4263a8300e32453dae9f1",
+      "198cc6192c89fbfe9ceb905dd991ef75cef29836ba3097dde6e469a3dda216ca"
+    ],
+    "materials": [
+      "Drewno"
+    ]
+  },
+  "/beczki-z-siedziskami/": {
+    "title": "BECZKI STOLIK Z SIEDZISKAMI",
+    "summary": "Realizacja przedstawia stolik z beczki i zestaw siedzisk. To przykład wykorzystania beczek jako elementów wyposażenia przestrzeni promocyjnej.",
+    "scope": [
+      "Stolik z beczki",
+      "Siedziska"
+    ],
+    "service_path": "/beczki-reklamowe/",
+    "source_sha256": [
+      "6d644615c5a727a514b999cc3fa609e155b54e1c6e2f745477256ab1b2dfc291",
+      "019ef46fbf76d93916047de1115dc65f957954690e389b50afa8d686aa816640"
+    ]
+  },
+  "/szyld-nexus/": {
+    "title": "SZYLD - NEXUS",
+    "summary": "Dla NEXUS przygotowaliśmy szyld reklamowy. Opis realizacji obejmuje projekt, produkcję oraz montaż oznakowania zewnętrznego.",
+    "scope": [
+      "Projekt szyldu",
+      "Produkcja",
+      "Montaż"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "1b6912d45585882da11107578d734138ae5a45cc1196a1267ed766c3364388f3"
+    ]
+  },
+  "/szyld-autoland/": {
+    "title": "SZYLDY - AUTOLAND Olsztyn",
+    "summary": "Dla AUTOLAND w Olsztynie wykonaliśmy szyld reklamowy. Realizacja dotyczy oznakowania firmy z branży motoryzacyjnej.",
+    "scope": [
+      "Szyld reklamowy"
+    ],
+    "service_path": "/szyldy/",
+    "source_sha256": [
+      "c67c4042aa112cf7d82cdfcd58fd9e86028dc39a4c5e8870ebef55e210bbab7a"
+    ],
+    "location": "Olsztyn"
+  },
+  "/siatki-mesh-olsztyn-realizacja-dla-klebark-park/": {
+    "title": "siatki mesh Olsztyn – realizacja dla Klebark Park",
+    "summary": "Dla inwestycji Klebark Park przygotowaliśmy wydruk na siatce mesh eksponowany na elewacji budynku mieszkalnego. Realizacja przedstawia wielkoformatową reklamę inwestycji.",
+    "scope": [
+      "Druk na siatce mesh",
+      "Ekspozycja na elewacji"
+    ],
+    "service_path": "/siatka-mesh/",
+    "source_sha256": [
+      "d31962511807006cde27fa73c71a471596f1a4bea0ca9b9d35f590a20554d143",
+      "1756a2a946d811d01ba276fb38dfaf97d90c9aee6de3aa99ed7d85c6a210fe54"
+    ],
+    "materials": [
+      "Siatka mesh"
+    ]
+  },
+  "/oklejanie-szyb-olsztyn-realizacja-dla-lokalu-gastronomicznego/": {
+    "title": "Oklejanie szyb Olsztyn – realizacja dla lokalu gastronomicznego",
+    "summary": "Dla lokalu gastronomicznego w Olsztynie wykonaliśmy kaseton oraz oklejenie witryn. Grafika przedstawiała ofertę lodów Schöller i pizzy z pieca.",
+    "scope": [
+      "Kaseton reklamowy",
+      "Oklejenie witryn"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "7593b816cd0a8e8c0e42e150719765f14b474fdf49bea98b573907a0235c410f"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-olsztyn-realizacja-dla-sali-zabaw-figlowisko/": {
+    "title": "Oklejanie szyb Olsztyn – realizacja dla sali zabaw FIGLOWISKO",
+    "summary": "Dla sali zabaw FIGLOWISKO w Olsztynie przygotowaliśmy projekt i oklejenie witryn. W grafice wykorzystano kolorowe motywy związane z zabawą i ofertą dla dzieci.",
+    "scope": [
+      "Projekt graficzny",
+      "Oklejenie witryn"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "7bc75ee29ade13c582901e3a1350c9b77fda29debf7835a3ab06fb6e74ca7696"
+    ],
+    "location": "Olsztyn"
+  },
+  "/oklejanie-szyb-olsztyn-realizacja-dla-marketu-z-grafika-pepsi/": {
+    "title": "Oklejanie szyb Olsztyn – realizacja dla marketu z grafiką PEPSI",
+    "summary": "Dla marketu w Olsztynie wykonaliśmy oklejenie drzwi wejściowych i szyb grafiką Pepsi. Realizacja przedstawia oznakowanie wejścia do sklepu.",
+    "scope": [
+      "Oklejenie drzwi wejściowych",
+      "Oklejenie szyb grafiką Pepsi"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "84b0a75ff4dcbdc0466f7f2418652fd2a0239ba6d3dc6c0363438912495f126a"
+    ],
+    "location": "Olsztyn"
+  },
+  "/realizacja-efektowna-witryna-dla-outletu-kolorowy-butik/": {
+    "title": "Realizacja: Efektowna witryna dla outletu KOLOROWY BUTIK",
+    "summary": "Dla outletu KOLOROWY BUTIK przygotowaliśmy grafikę na zewnętrzne szyby lokalu. Zakres obejmował przygotowanie projektu, wydruk i aplikację folii.",
+    "scope": [
+      "Projekt grafiki",
+      "Druk",
+      "Aplikacja folii na szybach"
+    ],
+    "service_path": "/oklejanie-szyb/",
+    "source_sha256": [
+      "e483d4d81aa51ba09677b2b12790afa1f22f43601359c879ac2695e57850db6a",
+      "426e3d981b0c959d0a29711457e4e6d32c8491b9e3c22116d2ee4730f6842450"
+    ],
+    "materials": [
+      "Folia z nadrukiem"
+    ]
+  },
+  "/plotki-gastronomiczne-piekus/": {
+    "title": "Płotki Gastronomiczne - Piekuś",
+    "summary": "Realizacja przedstawia płotki gastronomiczne z oznakowaniem Piekuś. Przęsła łączą funkcję wydzielenia przestrzeni z ekspozycją identyfikacji marki.",
+    "scope": [
+      "Płotki gastronomiczne",
+      "Oznakowanie marki Piekuś"
+    ],
+    "service_path": "/plotki-ogrodki-piwne/",
+    "source_sha256": [
+      "503334d566698908972097ad82703b431ebe9af42fcde592f0eda2ddb7e46c41"
+    ]
+  },
+  "/megaboard-ikotly/": {
+    "title": "MEGABOARD - IKOTŁY",
+    "summary": "Dla I KOTŁY wykonaliśmy wydruk wielkoformatowego banera przeznaczonego na konstrukcję typu megaboard przy trasie. Zakres tej realizacji dotyczył przygotowania reklamy do dużej ekspozycji zewnętrznej.",
+    "scope": [
+      "Druk banera na megaboard"
+    ],
+    "service_path": "/reklama-na-rusztowaniu-2/",
+    "source_sha256": [
+      "035a6a5e07dd8a7d9a6187fddbfdfaddda25898dd076862d4ac0d1c044f7cdce",
+      "6732447d6faf2ad29d9dbcd8725e5d62dd1d31b0ee6f87237f57cf01c76b138c"
+    ]
+  },
+  "/rollupy-olsztyn-dla-bclinique/": {
+    "title": "Rollupy Olsztyn dla BCLINIQUE",
+    "summary": "Dla BCLINIQUE z Olsztyna przygotowaliśmy projekty i druk trzech rollupów oraz wydruki do trzech ścianek tekstylnych DXT w formacie 100 × 200 cm. Zestaw powstał do prezentacji marki podczas wydarzeń i działań promocyjnych.",
+    "scope": [
+      "Projekt i druk trzech rollupów",
+      "Wydruki do trzech ścianek DXT 100 × 200 cm"
+    ],
+    "service_path": "/rollupy/",
+    "source_sha256": [
+      "09cd68f6627b190032f12b63c4ec057d3480572067cc02bb9e2489a47b7cc2b3"
+    ],
+    "location": "Olsztyn",
+    "materials": [
+      "Materiał tekstylny do ścianek DXT"
+    ]
+  },
+  "/markiza-irjados/": {
+    "title": "MARKIZA - IRJADOS",
+    "summary": "Dla IRJADOS, z oznakowaniem Pepsi, przygotowaliśmy markizę reklamową. Zakres obejmował wizualizację, produkcję i montaż gotowej markizy.",
+    "scope": [
+      "Wizualizacja",
+      "Produkcja markizy",
+      "Montaż"
+    ],
+    "service_path": "/markizy-z-logo/",
+    "source_sha256": [
+      "dba823a01163f6c9dd2717dbbf90fd419d216f619fd8a2358f2b5ab582ca2ee2",
+      "0637b486376d895867dc4dbaaa379d78424765d54afa7ebb74f7d7191e434354"
+    ]
+  },
+  "/litery-3d-arel/": {
+    "title": "LITERY 3D - AREL",
+    "summary": "Dla AREL wykonaliśmy litery przestrzenne 3D przeznaczone na elewację. Realizacja obejmowała przygotowanie projektu, produkcję elementów i montaż oznakowania.",
+    "scope": [
+      "Projekt oznakowania",
+      "Produkcja liter 3D",
+      "Montaż na elewacji"
+    ],
+    "service_path": "/litery-3d/",
+    "source_sha256": [
+      "e46120ca58f872d3b6484242d0b7cc31fddd22a6552b13d2199c1e5ecf023486",
+      "5331c675e31b6a0e327030d401fe70d8028fd3ee3ea056b5b734685cb95d0e5d"
+    ]
+  },
+  "/reklama-na-rusztowaniu-olmi/": {
+    "title": "Reklama na rusztowaniu - OLMI",
+    "summary": "Dla OLMI przygotowaliśmy wielkoformatową reklamę na rusztowaniu. Zakres obejmował projekt, druk oraz montaż banera na istniejącej konstrukcji.",
+    "scope": [
+      "Projekt reklamy",
+      "Druk wielkoformatowy",
+      "Montaż na istniejącej konstrukcji"
+    ],
+    "service_path": "/reklama-na-rusztowaniu/",
+    "source_sha256": [
+      "9551b3d12f02190e29c153ea55c16bcb1e70577a164af8872ada157beab36e8e",
+      "93402015fc6905fd31efd5396873d266c7faaca028bcf0676208cac09521cd36"
+    ]
+  },
+  "/kaseton-ananasek/": {
+    "title": "Kaseton - ANANASEK",
+    "summary": "Dla warzywniaka ANANASEK wykonaliśmy kaseton frezowany z podświetleniem LED. Oznakowanie wykorzystuje frezowane elementy lica do prezentacji nazwy sklepu.",
+    "scope": [
+      "Wykonanie kasetonu",
+      "Frezowanie lica",
+      "Podświetlenie LED"
+    ],
+    "service_path": "/kasetony-swietlne/",
+    "source_sha256": [
+      "5abf53f7c991c2c92db6cffb5527f6ba546bd97ab68207068386377a6bae6877",
+      "ba0ffaa39cbcb77ff666549d41ac79b508f9dbdc7355e553bd9205d2716a1eca"
+    ],
+    "materials": [
+      "Moduły LED"
+    ]
+  }
+}

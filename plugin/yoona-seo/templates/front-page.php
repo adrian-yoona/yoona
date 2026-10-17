@@ -1,6 +1,7 @@
 <?php
 defined( 'ABSPATH' ) || exit;
 $yn_data = Yoona_SEO_Design::data();
+$yn_home_services = Yoona_SEO_Design::offer_cards();
 Yoona_SEO_Design::part( 'header' );
 ?>
 <main id="main-content" class="yn-main">
@@ -28,16 +29,26 @@ Yoona_SEO_Design::part( 'header' );
 		<div class="yn-container">
 			<div class="yn-section-heading">
 				<div><p class="yn-eyebrow">Nasze możliwości</p><h2 id="yn-services-title">Od pomysłu<br>do <span>efektu WOW.</span></h2></div>
-				<p>Kompleksowo ogarniamy reklamę zewnętrzną i wizualną — od projektu, przez produkcję, po profesjonalny montaż.</p>
+				<p>Agencja reklamowa YOONA — Olsztyn i Ostróda. Projektujemy, drukujemy, produkujemy i montujemy reklamę dla firm, gastronomii i klientów indywidualnych.</p>
 			</div>
 			<div class="yn-service-grid">
-				<?php foreach ( $yn_data['services'] as $yn_service ) : ?>
-					<a class="yn-service-card" href="<?php echo esc_url( Yoona_SEO_Design::url( $yn_service['url'] ) ); ?>">
+				<?php foreach ( array_slice( $yn_home_services, 0, 8 ) as $yn_service ) : ?>
+					<a class="yn-service-card" href="<?php echo esc_url( $yn_service['url'] ); ?>">
 						<div class="yn-service-image"><?php echo Yoona_SEO_Design::image( $yn_service ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 						<h3><?php echo esc_html( $yn_service['name'] ); ?><span aria-hidden="true">↗</span></h3>
 					</a>
 				<?php endforeach; ?>
 			</div>
+			<?php if ( count( $yn_home_services ) > 8 ) : ?>
+				<div class="yn-home-categories" aria-labelledby="yn-home-categories-title">
+					<h3 id="yn-home-categories-title">Wszystkie możliwości dla Twojej marki</h3>
+					<ul class="yn-category-grid">
+						<?php foreach ( array_slice( $yn_home_services, 8 ) as $yn_service ) : ?>
+							<li><a class="yn-category-link" href="<?php echo esc_url( $yn_service['url'] ); ?>"><?php echo esc_html( $yn_service['name'] ); ?><span aria-hidden="true">↗</span></a></li>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			<?php endif; ?>
 			<a class="yn-text-link yn-all-services" href="<?php echo esc_url( Yoona_SEO_Design::route( 'services' ) ); ?>">Poznaj pełną ofertę <span aria-hidden="true">↗</span></a>
 		</div>
 	</section>
@@ -82,8 +93,8 @@ Yoona_SEO_Design::part( 'header' );
 	</section>
 	<section class="yn-section yn-about" aria-labelledby="yn-about-title">
 		<div class="yn-container yn-about-grid">
-			<div><p class="yn-eyebrow">YOONA Creative Group</p><h2 id="yn-about-title">Agencja<br>reklamowa,<br>która<br><span>produkuje.</span></h2></div>
-			<div class="yn-about-copy"><p>Pomysł to dopiero początek. Projektujemy reklamę z myślą o tym, jak będzie wyglądała i działała w rzeczywistym miejscu.</p><p>Od druku i oznakowania po litery przestrzenne, neony oraz reklamę dla gastronomii. Pracujemy w Olsztynie, Ostródzie i realizujemy zlecenia w całej Polsce.</p><a class="yn-button" href="<?php echo esc_url( Yoona_SEO_Design::route( 'about' ) ); ?>">Poznaj YOONA <span aria-hidden="true">↗</span></a></div>
+			<div><p class="yn-eyebrow">YOONA Creative Group</p><h2 id="yn-about-title">Agencja<br>reklamowa.<br><span>Olsztyn<br>i Ostróda.</span></h2></div>
+			<div class="yn-about-copy"><p>Reklama w Olsztynie i Ostródzie — od projektu do montażu. Wykonujemy reklamę świetlną, kasetony reklamowe, litery 3D, tablice, ledony i neony.</p><p>Druk wielkoformatowy i banery reklamowe łączymy z oklejaniem samochodów i szyb. Oferujemy też zmianę koloru samochodu, beczki reklamowe, markizy oraz frezowanie CNC.</p><p>Dobieramy rozwiązanie do miejsca, sposobu użytkowania i budżetu. Obsługujemy firmy z Warmii i Mazur oraz realizujemy zlecenia w całej Polsce.</p><a class="yn-button" href="<?php echo esc_url( Yoona_SEO_Design::route( 'about' ) ); ?>">Poznaj YOONA <span aria-hidden="true">↗</span></a></div>
 			<div class="yn-about-image"><?php echo Yoona_SEO_Design::image( $yn_data['about'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><span class="yn-image-label">Od projektu do montażu.</span></div>
 		</div>
 	</section>
