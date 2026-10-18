@@ -1,0 +1,169 @@
+{
+  "/o-nas/": {
+    "omit": [
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "ccdf4f4ed770ba20af6d45cc995e6a9abfc6b419001f78951decf9242158efb0"
+        ],
+        "role": "legacy-hero"
+      }
+    ],
+    "annotate": [
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "fc1040ac105862bc9ebe5f2bbadeaa51d5271fb2943e5ac8ad1b0b26140eeb3c",
+          "b546077ba813d65fe50c2df0de53148c2d0d8199ac8cb134af1d3e4128d973b9"
+        ],
+        "role": "intro"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "607af5710558654b30f6d812a60c4b4c5fd06cdb5967a11a144debc00c3e6908",
+          "60f393de9ca9cc262ae4781083fd4bb7d2ca3441dbe8a0a107badd16fc4e782f"
+        ],
+        "role": "faq"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "ebb9ba29f53dc6c6b91242cba9bfe1c774154e43db8cf9b0ca04907b0d9d8b91",
+          "d4d55c6ef334f722390a15c2e61d4ac1076e45f0bc232e795aed191feb4d8e27",
+          "aed69db6b23bb5248adc0d45665e9750c91408325f635f6392960f9acc333a71",
+          "bd41f870c7dd8585a2b1f3b58e065286bb785ecd8bfde7c543e91bb235b4583b",
+          "9da79f0b15f0d06a7a8149df863d9f602756de67613814fc4a250a77249e5214",
+          "ddd18f49d236bc3ee76a4cc6ed8745e5f95d75e6a78cecda6230c427be964dd5",
+          "778a1a9b3cd49a4a144f7ad9867e59d0677a910c59c8274b36b8874caf13d570",
+          "2a4b4e1b6db0a1285acf27fecc526281e3357e5e13adfee3bbe53d2a3b619c68",
+          "7c7b0b60c6dc4e3daabca0f0199c3b0e813c9134ff90c7b5051c9692a40746b7",
+          "ba55230b490493fede7ebcd891fcf1df80b156fc82717d2d82157423f947a777",
+          "0941473c94477bf3cadda9edeb5d036d84e992da28ea2e8026e08a93880435d3",
+          "839be3d80f92f686e16dcb50435fd94b691fac7bea21bf6b5455f7e091f8558a",
+          "b126c6ca9cdc67d3a5e04608ecb23be9ca86ba4874e2fef1a238f9a1372a5a3a",
+          "83acda80a10f3622f3aff98e2898c15b6a7b4bbc93faacff2e72d17353a1ca0d"
+        ],
+        "role": "service"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "46361a6222f226c63327bf917236cba0609c0c9cc57ab22d95bfcfb180970c1c",
+          "076276ca1e7d91bc9cdb2908e8a52a95a64a4deb843aa1d4ebcb8734776210c3"
+        ],
+        "role": "values"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "d38e29173e051c4fc73e0736f64df477245870984712a32c150f649305222a39",
+          "26f688260f5fc61e843217717954f497823824d2c7c79857b26594a38d6b9e2a"
+        ],
+        "role": "narrative"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "74d77d41c2b6ef7c28825262fe4ca841c07b4b02c16959dc5807b63f32e37819",
+          "99c65b71a818748d90e50228ac6e95fd1833cd11c0fb2e982e394eea0b82732b"
+        ],
+        "role": "closing"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "0f3a995d3b7c5760aacf1cf90746953e85da82be5e977408c4736a9336b2bbc8"
+        ],
+        "role": "social"
+      }
+    ]
+  },
+  "/kontakt/": {
+    "omit": [
+      {
+        "tag": "et_pb_row",
+        "sha256": [
+          "91b3c56e6f38e13687584023ef0cba41568ef18f2869d217ff7c3db46227159f",
+          "f926140ba5deaaf14ec6797d8ea3d60c71e078e5d96ff9dcf7fb57690b056167"
+        ],
+        "role": "legacy-intro"
+      }
+    ],
+    "annotate": [
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "fe4cf001435f372e616e51e03ce51dbb9c86363ad62e01dde9b3766f1ff9a6cb",
+          "fe6df27fe7cf22fc7213dc04dd981179d1174c061933dc8a1fada94505c72889"
+        ],
+        "role": "contact-main"
+      },
+      {
+        "tag": "et_pb_row",
+        "sha256": [
+          "57ad499da86f1f7368215b5bcca6269457b93aeea6dd52a497839278c509d5c5"
+        ],
+        "role": "office-row"
+      },
+      {
+        "tag": "et_pb_row",
+        "sha256": [
+          "3161f7b44ede4eda9520ee0278aa79acc44b2c33c85f032e04a681f44075c138"
+        ],
+        "role": "map-row"
+      },
+      {
+        "tag": "et_pb_code",
+        "sha256": [
+          "d04c317b9c3e48b5d7b24e1c0838edd321a9819a23c5da3123957ed576b71ca2",
+          "9689ac70e6959cb703a4d29a375e359e6c4618e25b93f271cefff501d564589f"
+        ],
+        "role": "contact-code"
+      },
+      {
+        "tag": "et_pb_code",
+        "sha256": [
+          "e770a36f04563a0dfe4c071ad904dfb9b3d8e506d28e2211f7d7de6a04433048"
+        ],
+        "role": "map-code"
+      },
+      {
+        "tag": "et_pb_code",
+        "sha256": [
+          "4a5a5affd3ba765cc3f1aa923350edfa25982d9ec4dd2f5537fa2d114d6db8b8"
+        ],
+        "role": "review-code"
+      },
+      {
+        "tag": "et_pb_code",
+        "sha256": [
+          "619807d3a8ef2c9a32f9e399215fd67a5629a762f6c00971d6ee2dffcf6c6ab5"
+        ],
+        "role": "review-link"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "ec89e0254f8ad0232e82f9b0d106d1933c566c3db963cf05a7730efef8025a3b",
+          "5cadd3734307c6a2f5ad993bdc2cabad82d6325b8f5a9a85f032392d5a7b1059"
+        ],
+        "role": "cta"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "0c9c8dfc04e9b8c4d97783090186a321d24411c3211b302956754dca0f585031"
+        ],
+        "role": "reviews"
+      },
+      {
+        "tag": "et_pb_section",
+        "sha256": [
+          "0f3a995d3b7c5760aacf1cf90746953e85da82be5e977408c4736a9336b2bbc8"
+        ],
+        "role": "social"
+      }
+    ]
+  }
+}

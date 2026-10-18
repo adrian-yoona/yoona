@@ -1910,7 +1910,11 @@
       "/frezowanie-dibondu/",
       "/litery-3d/"
     ],
-    "image_source_path": "/frezowanie-cnc/"
+    "image_source_path": "/frezowanie-cnc/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2024/09/litery-niepodswietlane-2-1024x768.jpg",
+    "hero_alt": "Litery z plexi — realizacja YOONA dla poradni psychologicznej",
+    "card_image": "https://yoona.pl/wp-content/uploads/2024/09/litery-niepodswietlane-3-1024x768.jpg",
+    "card_alt": "Oznakowanie poradni literami z plexi — realizacja YOONA"
   },
   "/frezowanie-dibondu/": {
     "title": "Frezowanie dibondu i płyt kompozytowych",
@@ -1960,7 +1964,11 @@
       "/tablice-olsztyn/",
       "/frezowanie-elementow-reklamowych/"
     ],
-    "image_source_path": "/frezowanie-cnc/"
+    "image_source_path": "/frezowanie-cnc/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2026/02/litery-frezowane-z-dibondu-olsztyn-1024x768.jpeg",
+    "hero_alt": "Litery frezowane z dibondu dla OSP w Długim Borku — realizacja YOONA",
+    "card_image": "https://yoona.pl/wp-content/uploads/2024/09/kasetony-frezowane-yoona-olsztyn-ostroda-2-1024x768.jpg",
+    "card_alt": "Frezowany kaseton z dibondu dla ALIGATOR w Olsztynie — realizacja YOONA"
   },
   "/frezowanie-elementow-reklamowych/": {
     "title": "Frezowanie elementów reklamowych",
@@ -2010,7 +2018,11 @@
       "/litery-3d/",
       "/kasetony-swietlne/"
     ],
-    "image_source_path": "/frezowanie-cnc/"
+    "image_source_path": "/frezowanie-cnc/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2024/09/kaseton-led-litery-3d-z-plexi-INVESTOR-ostroda-4-1024x768.jpg",
+    "hero_alt": "Frezowane elementy kasetonu i litery dla INVESTOR w Ostródzie — realizacja YOONA",
+    "card_image": "https://yoona.pl/wp-content/uploads/2024/09/kasetony-frezowane-yoona-olsztyn-ostroda-6-1024x768.jpg",
+    "card_alt": "Kaseton frezowany z wystającą plexi dla ALIGATOR — realizacja YOONA"
   },
   "/markizy-tarasowe/": {
     "title": "Markizy tarasowe SELT do domów i lokali",
@@ -2060,7 +2072,11 @@
       "/markizy-wolnostojace-duo/",
       "/znakowanie-markiz/"
     ],
-    "image_source_path": "/markizy-z-logo/"
+    "image_source_path": "/markizy-z-logo/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2026/06/markizy-olsztyn3.jpg",
+    "hero_alt": "Markiza elewacyjna przy lokalu IRJADOS — realizacja YOONA",
+    "card_image": "https://yoona.pl/wp-content/uploads/2026/06/markizy-olsztyn4.jpg",
+    "card_alt": "Markiza nad tarasem lokalu IRJADOS — realizacja YOONA"
   },
   "/markizy-wolnostojace-duo/": {
     "title": "Markizy wolnostojące dwustronne DUO",
@@ -2110,7 +2126,11 @@
       "/markizy-tarasowe/",
       "/plotki-ogrodki-piwne/"
     ],
-    "image_source_path": "/markizy-z-logo/"
+    "image_source_path": "/markizy-z-logo/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2024/06/markiza-wolnostojaca-1024x768.jpg",
+    "hero_alt": "Markiza dwustronna dla ANGELO w Łodzi — realizacja YOONA",
+    "card_image": "https://yoona.pl/wp-content/uploads/2024/06/markiza-olsztyn-1024x768.jpg",
+    "card_alt": "Wolnostojąca markiza przy lokalu ANGELO w Łodzi — realizacja YOONA"
   },
   "/znakowanie-markiz/": {
     "title": "Znakowanie markiz i logo na poszyciu",
@@ -2160,6 +2180,10 @@
       "/markizy-tarasowe/",
       "/markizy-wolnostojace-duo/"
     ],
-    "image_source_path": "/markizy-z-logo/"
+    "image_source_path": "/markizy-z-logo/",
+    "hero_image": "https://yoona.pl/wp-content/uploads/2024/07/markiza-1024x768.jpg",
+    "hero_alt": "Markiza z logo dla Rybakówki — realizacja YOONA",
+    "card_image": "https://yoona.pl/wp-content/uploads/2026/06/markizy-olsztyn2.jpg",
+    "card_alt": "Znakowanie markizy dla IRJADOS i PEPSI — realizacja YOONA"
   }
 }

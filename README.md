@@ -1,6 +1,29 @@
-# YOONA — wygląd, treści i SEO 3.4.2
+# YOONA — wygląd, treści i SEO 3.5.0
 
-**[Pobierz wtyczkę yoona-seo-v3.4.2.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.2.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+**[Pobierz wtyczkę yoona-seo-v3.5.0.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.5.0.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+
+## Aktualizacja 3.5.0
+
+- Pięć slajdów na głównej, animacja tekstu, pauza i obsługa ograniczonego ruchu.
+- Wszystkie oferty od razu w katalogu; realizacje po 24 z paginacją. Na dużym ekranie sześć kolumn, na mniejszych mniej.
+- Nowy układ szczegółów realizacji, pełne galerie i pojedyncze zdjęcia, opisy oparte na faktach oraz linkowanie do powiązanych usług. Zasięg Olsztyn/Ostróda/Warmia i Mazury nie jest przypisywany jako niepotwierdzona lokalizacja konkretnego projektu.
+- Podgląd zdjęcia bez nazw plików, z telefonami i przyciskiem wyceny pod zdjęciem. Oryginalne linki obrazów działają także bez JavaScript.
+- Ikony SVG przy kategoriach i profilach społecznościowych oraz 12 odrębnych zdjęć dla sześciu usług CNC/markiz.
+- Kompaktowe O nas i Kontakt oraz osobny, odwracalny zapis układu wybranej strony do prawdziwych modułów Divi.
+
+Nie są potrzebne dodatkowe wtyczki. [Przegląd SEO, zdjęć i obecnego zestawu dodatków](docs/PRZEGLAD-SEO-I-WTYCZEK.md) rozróżnia sprawdzone dane od niezmierzonych wyników produkcyjnych.
+
+## Edytowanie w Divi
+
+Otwórz **Strony → Edytuj → YOONA — edycja układu w Divi → Edytuj układ w Divi**. Po sprawdzeniu podglądu wybierz **Zapisz układ i edytuj w Divi**, a potem **Visual Builder**. Wpis realizacji edytuje się analogicznie w **Wpisy**. Sekcje, wiersze, kolumny, teksty, zdjęcia i przyciski są natywnymi modułami; zmiany tej strony stają się nadrzędne wobec szablonu wtyczki.
+
+Operacja dotyczy jednej wybranej strony, z kopią i możliwością odzyskania także późniejszych ręcznych zmian. Lista realizacji pozostaje dynamicznym modułem Kod z `[yoona_realizacje]`; pojedyncze projekty edytuje się we wpisach. [Instrukcja edycji i ograniczenia testu Visual Builder](docs/EDYCJA-DIVI.md).
+
+## O nas i Kontakt — 3.5.0
+
+Obie strony mają jeden kompaktowy nagłówek, spokojną typografię Manrope i poprawiony kontrast. Usunięto rozpoznany stary baner z pustą kolumną na O nas oraz dodatkowe kopie kart kontaktowych. Układ zdjęć i tekstu, FAQ, karty zespołu oraz mapa dopasowują się do telefonu, tabletu i szerokiego ekranu.
+
+Oryginalne moduły wykonują się raz, ze swoimi sekcjami, wierszami i kolumnami. Mapa, opinie Trustindex, wszystkie dane zespołu, zdjęcia, FAQ i później dodany formularz pozostają w treści. Pomijane są wyłącznie dokładnie rozpoznane stare wstępy; ręczne zmiany zostają zachowane. Aktualizacja nie zapisuje tekstów ani SEO do bazy.
 
 ## Kompaktowa oferta i góra na telefonie — 3.4.2
 
@@ -21,14 +44,14 @@ Naprawa działa podczas wyświetlania; nie wymaga ponownego zapisu SEO ani tworz
 - 150 krótkich opisów realizacji opartych na potwierdzonych faktach; 103 miejscowości i 36 list materiałów. Późniejsze edycje chroni kontrola źródła.
 - Wszystkie publiczne kategorie na głównej i jasne menu **Pełna oferta**. Osiem kart ma zdjęcia, pozostałe usługi tworzą kompaktową, zawsze widoczną listę.
 - Równe kontakty Olsztyn/Ostróda w nagłówku, stopce oraz na stronie Kontakt, również przy 320 px. Mniejsze odstępy i spokojniejsza typografia.
-- Zachowane zdjęcia, zagnieżdżone galerie i formularze. Galeria realizacji nadal pokazuje 30 prac na stronę, trzy kolumny na komputerze, samo zdjęcie i tytuł. Usuwanie starego bloku z pokrętłem pozostaje aktywne.
+- Zachowane zdjęcia, zagnieżdżone galerie i formularze. Galeria realizacji pokazuje 24 prace na stronę, sześć kolumn na szerokim ekranie, samo zdjęcie i tytuł. Usuwanie starego bloku z pokrętłem pozostaje aktywne.
 - Dwa gotowe szkice artykułów o markizach, plan 10 fraz lokalnych, projekty wizytówek i reklam Ads oraz instrukcja pomiaru kontaktów.
 
 ## Wgranie w WordPressie
 
 1. Wykonaj pełną kopię witryny. Wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę**, wgraj ZIP i zastąp poprzednią Yoona SEO. Rank Math pozostaw aktywny.
-2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.4.2** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
-3. Kliknij **Dodaj 6 podstron CNC i markiz**. Przycisk tworzy brakujące strony wraz z tytułami i opisami Rank Math. Zajęte adresy są pomijane, powtórzenie nie tworzy kopii. Historia pozwala przenieść do kosza tylko całkowicie niezmienione strony utworzone tą operacją.
+2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.5.0** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
+3. Jeżeli sześciu usług jeszcze nie ma, kliknij **Dodaj 6 podstron CNC i markiz**. Przycisk tworzy brakujące strony wraz z tytułami i opisami Rank Math. Zajęte adresy są pomijane, powtórzenie nie tworzy kopii. Historia pozwala przenieść do kosza tylko całkowicie niezmienione strony utworzone tą operacją.
 4. Sprawdź główną, Kontakt, ofertę i zdjęcia realizacji na telefonie oraz komputerze. Cache hostingu/CDN może wymagać osobnego czyszczenia.
 
 **Do tej aktualizacji nie trzeba ponownie zapisywać starego pakietu SEO.** Dotychczasowy pakiet 200 metadanych i 896 zmian modułów zachowano. Jeżeli nie był jeszcze zapisany, nadal ma osobny podgląd, przycisk zapisu, kopie i kontrolę konfliktów.

@@ -1,6 +1,80 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.2
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.5.0
 
 Ostatnia aktualizacja: 18 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## Widoki firmowe, realizacje, galerie i edycja Divi — 3.5.0
+
+Testy wykonano na własnym, odizolowanym WordPressie 7.1.3, PHP 8.3.35,
+MariaDB 11.4, prawdziwym Rank Math 1.0.280 i Chromium 154. Przygotowanie
+środowiska ponowiono od zera z przypiętymi obrazami i źródłem Rank Math.
+Poniższe liczby opisują różne kontrole; nie są liczbą niezależnych testów ani
+pomiarem działającej yoona.pl.
+
+- **O nas i Kontakt:** 58 kontroli oryginalnych i zatwierdzonych po SEO
+  źródeł oraz 26 kontroli ochrony ręcznych zmian. Prywatne źródło pozostawało
+  wyłącznie w CLI. Sprawdzono zachowanie wszystkich callbacków, zdjęć, FAQ,
+  mapy, danych zespołu i opinii oraz brak zmian wpisów i metadanych.
+  Końcowy ponowny przebieg Chromium przeszedł **303 kontrole** w 14 widokach
+  przy 320–2560 px, na końcowym CSS. Sprawdza także fonty, mierzalny kontrast
+  na jednolitym tle, formularz, FAQ, mapę i pełny snapshot wpisów/metadanych.
+- **Szczegóły realizacji:** 1581 kontroli dla wszystkich 150 oryginalnych
+  źródeł i dziesięciu wariantów po SEO. Pełne rodzicielskie drzewo galerii,
+  kolejność zdjęć, formularze i późniejsze edycje pozostają zachowane.
+  229 kontroli przeglądarki obejmuje pojedyncze zdjęcie i galerię trzech zdjęć
+  w 16 widokach przy 320–2560 px. Trzy źródła bez wystarczających faktów nie
+  otrzymały wymyślonego opisu realizacji; zachowują pełną oryginalną treść.
+- **Katalogi:** 224 kontrole geometrii na 14 szerokościach oraz 231 kontroli
+  rzeczywistego WordPressa na dziesięciu szerokościach. Pełna oferta pokazuje
+  wszystkie 47 opublikowanych usług od razu. Indeks ma 24 zdjęcia i tytuły,
+  sześć kolumn od 1400 px i natywną paginację. Testowe 59 kwalifikujących się
+  projektów tworzy trzy strony; szkice, wpisy prywatne, chronione i bez zdjęć
+  nie zapełniają siatki. Końcowe 186 kontroli zapytań i SVG obejmuje również
+  publiczne zapytanie dynamicznego modułu Divi oraz odrzucanie niedozwolonych
+  parametrów tego zapytania.
+- **Slider i podgląd zdjęć:** 234 kontrole rzeczywistych zasobów w izolowanym
+  HTML przy pięciu szerokościach 320–2560 px. Badano pięć slajdów, stabilną
+  wysokość, klawiaturę, pauzę, ograniczony ruch, fallback bez JavaScript,
+  kadry pionowe, pasek kontaktu o szerokości zdjęcia, fokus i brak nazw plików.
+  Osobny test końcowy wykonuje te zasoby na rzeczywistych szablonach WordPressa:
+  **337 kontroli** pięciu szerokości, 47 ofert, SVG, dwóch galerii i odrębnych
+  zdjęć sześciu usług, z pojedynczymi metadanymi prawdziwego Rank Math.
+- **Natywna edycja Divi:** 74 kontrole źródła i routingu bez zapisów oraz
+  36 kontroli rzeczywistego zapisu w bazie. Obejmują POST, nonce, uprawnienia,
+  zmiany źródła po podglądzie, KSES, duplikaty metadanych, częściowe błędy,
+  weryfikowane cofnięcie oraz niezależne odzyskiwanie ręcznych zmian przy
+  wyłączonych rewizjach. Dwa jednoczesne procesy SQL mają jednego zwycięzcę;
+  blokada używa atomowego `INSERT IGNORE`, bez nadpisywania tokenu konkurenta.
+  Domyślny wygląd niczego nie migruje. Dopiero osobny przycisk zapisuje
+  sekcje, wiersze, kolumny i moduły wybranej strony do `post_content`.
+
+Audyt lokalnych danych potwierdza 200 unikalnych i niepustych tytułów/opisów,
+47 poradników usługowych, 150 opisów projektów i poprawne odwołania definicji
+(147 usługowych i 449 projektowych). Sześć usług CNC/markiz ma 12 odrębnych
+adresów rzeczywistych zdjęć z otrzymanego eksportu. Nie potwierdzono pobrania
+ani kadrowania tych zdjęć na produkcji. Skorygowano dwa znalezione problemy:
+tylko pierwsze zdjęcie katalogu ma wysoki priorytet; link „Pełna oferta”
+w opisie oklejania łodzi jest uwzględniany po sprawdzeniu publikacji strony.
+
+W przeglądzie wtyczek nie znaleziono potrzeby dodawania kolejnego narzędzia.
+Rank Math i PRO pozostają razem, Site Kit zachowuje istniejącą integrację,
+a skrypt pomiaru i silnik zapisu SEO są bajtowo identyczne z 3.4.2. Nie
+zmieniono kont Google ani konfiguracji wtyczek właściciela.
+
+**Ograniczenia:** licencjonowany Divi i jego Visual Builder nie były dostępne.
+Natywne shortcode i zachowanie treści sprawdza WordPress z jawnymi callbackami
+odpowiedników Divi; nie jest to test interfejsu prawdziwego Visual Buildera.
+Zdjęcia w próbach przeglądarkowych są oznaczonymi obrazami lokalnymi, mapa
+ma lokalny zastępnik strukturalny, formularz jest syntetyczny. Produkcyjne
+połączenie blokuje proxy HTTP 403. Nie zmierzono indeksacji, bieżącego rankingu
+ani Core Web Vitals. Nie wgrano wtyczki do panelu yoona.pl.
+
+Raport wydania: [premium-release35-results.txt](../tests/premium-release35-results.txt).
+Wszystkie 47 plików w przetestowanej instalacji porównano bajt po bajcie ze
+źródłem i gotowym ZIP-em. Wersja 3.5.0, CRC oraz suma SHA-256 są zgodne.
+[Instrukcje odtworzenia](../tests/README.md) ·
+[Edycja Divi i kopie](EDYCJA-DIVI.md) ·
+[Przegląd SEO, zdjęć i wtyczek](PRZEGLAD-SEO-I-WTYCZEK.md).
+Poniżej zachowano oddzielnie historyczne wyniki wcześniejszych wydań.
 
 ## Kompaktowe panele i mobilny nagłówek — 3.4.2
 
@@ -142,12 +216,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.4.2.zip](../downloads/yoona-seo-v3.4.2.zip)
+Plik: [downloads/yoona-seo-v3.5.0.zip](../downloads/yoona-seo-v3.5.0.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-7a81d4e3e170b4dbf89eb5246d01412802a46582b3e035e5c9edcfe86c30aaf8
+a8c7ebbf04ef1865237430e62859477e7da9c03413e2970b135636734aa7c3df
 ```
 
 SHA-256 dołączonego `content/changes.json`:

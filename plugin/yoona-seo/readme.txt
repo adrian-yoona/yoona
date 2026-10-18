@@ -3,7 +3,7 @@ Contributors: yoona
 Tags: seo, content, divi, design
 Requires at least: 6.0
 Requires PHP: 7.4
-Stable tag: 3.4.2
+Stable tag: 3.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,13 +11,19 @@ Nowy wygląd yoona.pl według wzoru właściciela oraz poprawki tekstów Divi i 
 
 == Description ==
 
+Wersja 3.5.0 dodaje pięć slajdów na głównej, SVG kategorii i profili, katalog w sześciu kolumnach oraz realizacje po 24 z paginacją. Szczegóły realizacji zachowują oryginalne galerie i moduły, otrzymują opisy oparte na faktach oraz linki do ofert. Podgląd zdjęcia ma telefony i wycenę zamiast nazwy pliku. Sześć nowych usług CNC/markiz korzysta z 12 różnych zdjęć z istniejących projektów firmy.
+
+Nowy panel przy stronie pozwala zapisać jej układ do rzeczywistych sekcji, wierszy, kolumn i modułów Divi. To osobna operacja z podglądem, kopią, blokadą i możliwością odzyskania ręcznych zmian. Nie uruchamia się podczas aktywacji. Po zapisaniu tej strony jej edycje Divi nie są zastępowane przez szablon wtyczki. W indeksie realizacji natywny moduł Kod zawiera dynamiczny shortcode [yoona_realizacje]. Wymaga aktywnej Yoona SEO; interfejs Visual Builder wymaga własnego Divi/Divi Builder.
+
+Wersja 3.5.0 porządkuje O nas i Kontakt: jeden zwarty nagłówek, czytelny Manrope, krótsze odstępy i układy dopasowane do telefonu, tabletu oraz komputera. Pomija wyłącznie rozpoznany stary baner O nas z pustą połową oraz dawny tekstowy wstęp kontaktu. Oryginalne karty zespołu, mapa, opinie Trustindex, zdjęcia, FAQ i formularze pozostają na swoich miejscach. Nie zmienia zapisanych treści ani SEO. Po zastąpieniu wtyczki odśwież wygląd i wyczyść LiteSpeed Cache.
+
 Wersja 3.4.2 zmniejsza nagłówki i odstępy paneli ofert. Pięć sekcji ma równy układ 3+2 na komputerze, dwie kolumny na mniejszych ekranach i jedną na telefonie. Mobile hero łączy zdjęcie, czytelny tekst i dwa przyciski w jednym bloku. Nie zmienia renderowania galerii i dolnych sekcji naprawionych w 3.4.1.
 
 Wersja 3.4.1 naprawia galerie i dół wszystkich ofert. Zamiast wyjmowania samych mediów zachowuje pełny oryginalny układ Divi, jego sekcje, wiersze, kolumny, przyciski, FAQ i pozostałe dolne elementy. Nowy opis zastępuje tylko dokładnie rozpoznany wstęp tekstowy; flagi i totemy zachowują wstępy ze zdjęciami. Ręcznie zmienione sekcje pozostają w całości. Naprawa nie przepisuje bazy, nie wymaga ponownego zapisu SEO ani ponownego dodawania stron. Po aktualizacji wyczyść również LiteSpeed Cache.
 
 Wersja 3.4 porządkuje treści 41 ofert, rozbudowuje CNC oraz markizy SELT i dodaje sześć osobnych podstron po kliknięciu administratora. Materiały, zastosowania, proces, wycena i pytania mają krótkie, czytelne sekcje. Główna pokazuje wszystkie dostępne kategorie. Olsztyn i Ostróda mają równorzędne kontakty obok siebie także na telefonie.
 
-150 rozpoznanych realizacji otrzymuje krótkie opisy oparte na potwierdzonych faktach, z zachowaniem zdjęć i galerii. Później zmienione realizacje zachowują oryginalny widok dzięki kontroli skrótu całej treści. Lista realizacji nadal pokazuje 30 zdjęć z tytułami na stronę.
+150 rozpoznanych realizacji otrzymuje opisy oparte na potwierdzonych faktach, z zachowaniem zdjęć i galerii. Później zmienione realizacje zachowują pełną treść dzięki kontroli skrótu źródła. Lista realizacji pokazuje 24 zdjęcia z tytułami na stronę, w sześciu kolumnach na szerokim ekranie.
 
 Nowe opisy istniejących ofert są częścią odwracalnego wyglądu; nie nadpisują zapisanej treści Divi ani metadanych. Sześć nowych stron tworzy się osobnym przyciskiem Dodaj 6 podstron CNC i markiz, z natywnymi polami Rank Math. Istniejące adresy są pomijane. Cofanie przenosi do kosza wyłącznie utworzone, całkowicie niezmienione strony.
 
@@ -25,7 +31,7 @@ Skrypt pomiarowy korzysta z istniejącego Google tag w Site Kit po rozpoznanej z
 
 Wersja 3 dodaje czerń i pomarańcz, duże nagłówki, zdjęciowe karty usług, proces, realizacje i kontakt. Nowa kompozycja strony głównej oraz wspólna oprawa podstron są domyślnie włączone po aktualizacji. Stan wyglądu, odświeżenie cache i powrót do motywu są dostępne w Narzędzia → Yoona SEO.
 
-Warstwa wizualna używa szablonów wtyczki i nie zastępuje układu Divi w bazie. Stronę główną nowej kompozycji edytuje się w plikach szablonu; dotychczasowa treść Divi pozostaje dostępna po wyłączeniu wyglądu. Zdjęcia i odnośniki pochodzą z istniejącej witryny, a Archivo Black i Manrope są dostarczane lokalnie z licencjami OFL. Wygląd można wyłączyć bez cofania zapisanych metadanych.
+Warstwa wizualna używa szablonów wtyczki i sama nie zastępuje układu Divi w bazie. Aby edytować nową kompozycję w Divi, zapisz układ wybranej strony przez panel YOONA — edycja układu w Divi. Ta osobna operacja tworzy kopię i zapisuje natywne moduły; późniejsza edycja tej strony jest nadrzędna wobec szablonu wtyczki. Zdjęcia i odnośniki pochodzą z istniejącej witryny, a Archivo Black i Manrope są dostarczane lokalnie z licencjami OFL. Wygląd można wyłączyć bez cofania zapisanych metadanych.
 
 Wersja 3.2 dodaje wspólny nagłówek 41 podstron ofertowych: duże zdjęcie, nazwę usługi, krótki opis i przejście do wyceny. Zastępuje rozpoznany stary baner tylko podczas wyświetlania; pozostałe moduły Divi są renderowane w dotychczasowej kolejności. Obsługuje nagłówki przed i po zapisie paczki SEO. Jeśli stary baner został zmieniony i nie odpowiada sprawdzonemu wzorcowi, zachowany jest poprzedni widok.
 
@@ -44,12 +50,13 @@ Audyt oparto na eksporcie. Nie potwierdza pozycji w Google, indeksacji, szybkoś
 == Installation ==
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. Wgraj yoona-seo-v3.4.2.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
+2. Wgraj yoona-seo-v3.5.0.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
 3. Zastąp poprzednią wersję Yoona SEO, jeśli jest zainstalowana, i pozostaw Rank Math aktywny.
-4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.4.2. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
+4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.5.0. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
 5. Aby opublikować sześć nowych usług, kliknij Dodaj 6 podstron CNC i markiz. To osobny zapis stron; powtórzenie nie tworzy duplikatów.
 6. Jeżeli poprawki tekstów/SEO nie są zapisane, wybierz Użyj pakietu dołączonego do wtyczki, sprawdź podgląd, wybierz Zaznacz wszystkie gotowe i Wgraj zmiany na zaznaczone strony. Pozostaw kartę otwartą do zakończenia.
-7. Sprawdź wygląd, galerie i formularze na komputerze oraz telefonie. Cache hostingu lub CDN może wymagać czyszczenia we własnym panelu.
+7. Aby edytować nowy układ, w edycji wybranej strony otwórz YOONA — edycja układu w Divi, sprawdź podgląd i użyj Zapisz układ i edytuj w Divi. Operacja zachowuje kopię; nie zapisuje SEO.
+8. Sprawdź wygląd, galerie i formularze na komputerze oraz telefonie. Cache hostingu lub CDN może wymagać czyszczenia we własnym panelu.
 
 == Frequently Asked Questions ==
 
@@ -69,6 +76,16 @@ Jeśli treść zmieniła się po eksporcie, kontrola hashy chroni nowszą pracę
 Warstwa wizualna zniknie. Zapisane zmiany treści i natywnych pól Rank Math pozostają. Aby skorzystać z historii cofania, zachowaj Yoona SEO. Starsze paczki wersji 1 mogły używać filtrów własnych metadanych i wymagać aktywnej wtyczki do ich wyświetlania.
 
 == Changelog ==
+
+= 3.5.0 =
+* Pięć slajdów na głównej, obsługa klawiatury, pauza i ograniczenie animacji.
+* Sześć kolumn katalogu/realizacji, 24 projekty na stronie, pełny katalog usług i paginacja.
+* Pełne galerie, pojedyncze zdjęcia, faktyczne opisy realizacji i wewnętrzne linki do usług.
+* Podgląd zdjęć z telefonami i wyceną, SVG oraz 12 różnych fotografii usług.
+* Natywna edycja Divi wybranej strony z podglądem, kopiami, cofnięciem i odzyskiwaniem ręcznych zmian.
+* Kompaktowe i responsywne O nas oraz Kontakt, poprawione fonty, kontrast i odstępy.
+* Usunięty rozpoznany stary nagłówek z pustą kolumną oraz dodatkowe kopie kart kontaktowych.
+* Zachowane oryginalne karty zespołu, mapa, opinie, FAQ, zdjęcia i formularze; bez zmian źródeł oraz SEO w bazie.
 
 = 3.4.2 =
 * Kompaktowe panele z nagłówkami Manrope, mniejszymi odstępami i układem 3+2 na komputerze.

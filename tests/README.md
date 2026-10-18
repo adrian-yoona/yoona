@@ -378,3 +378,225 @@ licencjonowanego motywu. Raport: `compact-service-results.txt`.
 
 Po pracy usuń tylko utworzone kontenery CLI/WWW/DB, ich wolumen i sieć wskazane
 przez ten przebieg. Nie używaj globalnego `docker prune` ani cudzych zasobów.
+
+
+## Bieżące zestawy — 3.5.0
+
+Poniższe próby obejmują nowe komponenty wydania 3.5.0. Raporty starszych wersji
+pozostają historyczne; samo ich istnienie nie oznacza ponownego wykonania na
+aktualnym kodzie. Faktycznie wykonane przebiegi opisuje
+[dokument wyników](../docs/WYNIKI-TESTOW.md). Polecenia uruchamiaj z katalogu
+repozytorium. Przeglądarkowe zestawy wymagają `playwright` i Chromium, jak wyżej.
+
+### Wspólny, jednorazowy WordPress
+
+Własny jednorazowy stos przygotuj istniejącym runnerem:
+
+```bash
+YOONA_TEST_KEEP=1 YOONA_GALLERY_PREPARE_ONLY=1 bash tests/run-gallery-repair.sh
+```
+
+Nazwy zasobów i loopback URL odczytaj z `/tmp/yoona-gallery-active-environment`.
+Następnie podstaw te wartości w poniższych poleceniach. Skrypty sprawdzają
+loopback i własne fixture; nie uruchamiaj ich wobec produkcji. Stos zawiera
+aktualną wtyczkę, prawdziwy WordPress i Rank Math oraz 41 syntetycznych ofert.
+Przygotowanie poniżej dodaje sześć ofert istniejącym instalatorem, publiczny
+indeks wpisów, syntetyczne realizacje i dwie strony firmowe. Cały katalog
+`tests` zawiera wyłącznie kod oraz publiczne fixture — bez prywatnego eksportu.
+
+```bash
+docker cp tests/. NAZWA_KONTENERA_WWW:/var/www/html/yoona-tests/
+docker exec NAZWA_KONTENERA_WWW chmod -R a+rX /var/www/html/yoona-tests
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/gallery-repair.php owned --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/company-pages.php prepare --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/collections35.php prepare --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/premium-projects-browser-fixtures.php --skip-themes
+```
+
+Skrypty `prepare` zapisują wyłącznie dane tego stosu. Nie uruchamiaj ich
+między `snapshot` i `verify` ani równocześnie z testem sprawdzającym brak
+zmian w bazie. Testy zapisujące uruchamiaj kolejno. Po zmianie plików produktu
+należy również zsynchronizować źródło wtyczki z własnym kontenerem WWW;
+ponowne uruchomienie runnera tworzy świeży stos z aktualnym źródłem.
+
+### O nas i Kontakt
+
+Po wspólnym przygotowaniu:
+
+```bash
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/company-pages.php guards --skip-themes
+node tests/company-pages.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+```
+
+Opcjonalna faza `private` przyjmuje ścieżkę eksportu wyłącznie w `/tmp`
+kontenera CLI. Porównuje oryginał i wariant po SEO obu stron w pamięci,
+bez zapisu do tabel WWW i bez drukowania źródeł. Po niej usuń prywatny plik,
+także w przypadku błędu. Nie umieszczaj eksportu w repo ani katalogu WWW.
+
+```bash
+docker cp /prywatna/sciezka/diagnostyka.json NAZWA_KONTENERA_CLI:/tmp/yoona-company-private-source.json
+docker exec -u 0 NAZWA_KONTENERA_CLI chmod a+r /tmp/yoona-company-private-source.json
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/company-pages.php private /tmp/yoona-company-private-source.json --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI rm -f -- /tmp/yoona-company-private-source.json
+```
+
+Ostatnie polecenie sprzątające wykonaj również wtedy, gdy próba zwróci błąd.
+
+Publiczna faza używa syntetycznych stron i jawnego MU-pluginu podmieniającego
+wyłącznie hashe w pamięci. Manifest i pliki wtyczki nie są zmieniane. Callbacki
+odtwarzają rodziców Divi, jego clearfix, siedem zdjęć, osiem FAQ, karty biur,
+mapę, widget opinii i później dodany formularz. Strony mają konkurencyjne
+style inline i style nagłówków z `!important`. Nie jest to licencjonowany Divi
+ani usługa dostarczania formularzy i opinii na produkcji.
+
+Chromium sprawdza 320, 390, 760, 1024, 1440, 1920 i 2560 px: brak przyciętych
+tekstów, lokalne fonty, kontrast kolorów na jednolitych tłach, nagłówek,
+zmianę kolumn, przyciski, mapę, FAQ i natywną walidację formularza. Fotografie
+są oznaczonymi lokalnymi SVG, a ramka Google Maps ma lokalny dokument testowy.
+Test nie potwierdza zdjęć ani działania zewnętrznych usług. Po rozgrzaniu
+Rank Math porównywane są wszystkie rekordy wpisów i metadanych bez wyjątków.
+
+Raport: [premium-release35-results.txt](premium-release35-results.txt). Zrzuty i `geometry.json` trafiają do
+`/tmp/yoona-company-pages-screenshots` lub `YOONA_TEST_SCREENSHOTS`.
+
+### Pełna oferta, realizacje i ikony
+
+Kontrola geometrii z rzeczywistym CSS i fontami, bez serwera WordPressa:
+
+```bash
+node tests/collections35.cjs
+```
+
+Kontrola API ikon, głównego zapytania WordPressa i jawnie oznaczonego
+zapytania wtórnego natywnego indeksu Divi, a następnie faktycznych tras WWW:
+
+```bash
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/collections35.php query --skip-themes
+node tests/collections35-wordpress.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+```
+
+Zestawy sprawdzają 47 ofert bez paginacji, 24 fotograficzne realizacje na
+stronę, kolejne unikalne wyniki i natywne sumy SQL. Układ ma sześć kolumn
+od 1400 px, cztery od 1100, trzy od 760, dwie od 480 i jedną poniżej.
+Sprawdzane są pełne tytuły, marginesy, pierwszeństwo ładowania zdjęć, ikony
+usług i czterech portali społecznościowych oraz pomijanie wpisów niewidocznych
+i bez odpowiedniej fotografii. Wariant WordPress porównuje serwowane bajty
+CSS z plikiem źródłowym oraz wszystkie wpisy i metadane przed i po oglądaniu.
+Zrzuty: `/tmp/yoona35-collections-screenshots` lub `YOONA_TEST_SCREENSHOTS`.
+Statyczna próba CSS nie jest testem zapytań WordPressa ani interfejsu Divi.
+
+### Pojedyncze realizacje i zachowanie całego źródła
+
+Publiczne dwie realizacje przygotowuje wspólny krok
+`premium-projects-browser-fixtures.php`. Jedna ma rodziców Divi z fotografią,
+druga natywną galerię trzech zdjęć. Ich treść jest jawnie syntetyczna.
+Uruchom przeglądarkę na tych rzeczywistych trasach WordPressa:
+
+```bash
+node tests/premium-projects.cjs http://127.0.0.1:PORT
+```
+
+Próba obejmuje 320, 390, 620, 760, 1024, 1440, 1920 i 2560 px, liczbę zdjęć,
+rodziców, podpisy, FAQ, linki, przyciski, pełne zakresy tekstów i zgodność
+serwowanego `projects.css`. Zrzuty:
+`/tmp/yoona-premium-projects35-screenshots` lub `YOONA_TEST_SCREENSHOTS`.
+
+Opcjonalnie wszystkie 150 źródeł realizacji i dziesięć rozpoznanych wariantów
+SEO można sprawdzić bez kopiowania eksportu do kontenera. Eksport jest czytany
+przez stdin i pozostaje wyłącznie w pamięci procesu CLI:
+
+```bash
+docker exec -i -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/premium-projects.php --skip-themes < /prywatna/sciezka/diagnostyka.json
+```
+
+Ta faza porównuje pełny wynik oryginalnych callbacków przed późnymi
+atrybutami obrazów WordPressa, wykonanie każdego callbacku raz, wszystkie
+fotografie i kolejność, ręczne edycje, nierozpoznane źródło, wyjątek renderera
+oraz dokładne rekordy wpisów i metadanych. Sprawdza też rozdzielenie faktów
+o pracy od ogólnych wskazówek dla 26 usług. Nie wysyła eksportu do HTTP ani
+repozytorium i nie zapisuje jego treści w publicznych tabelach lub raporcie.
+
+### Zapis i przywracanie natywnego Divi
+
+Testy używają prawdziwych API WordPressa i SQL. Tryb `readonly` sprawdza
+generowane natywne shortcode, kopiowalne sekcje i moduły, zachowanie pełnych
+funkcjonalnych sekcji źródła, dynamiczny indeks realizacji oraz wyłączenia
+edytorów. Tryb `mutation` na własnych tymczasowych wpisach sprawdza zapis,
+nonce, uprawnienia, KSES, wykrywanie zmienionego źródła, równoległe procesy,
+kopie, błędy metadanych, zweryfikowane cofanie i niezależne odzyskiwanie
+ręcznych zmian przy wyłączonych rewizjach. Przywraca swoje ustawienia
+i usuwa utworzone wpisy i terminy. Nie uruchamiaj go równolegle z innym
+testem zapisującym ani ze ścisłym snapshotem przeglądarki.
+
+Skopiuj plik również do `/tmp` CLI: procesy konkurencyjne potrzebują jego
+rzeczywistej ścieżki, a nie pseudościeżki `eval-file`:
+
+```bash
+docker cp tests/divi-editor.php NAZWA_KONTENERA_CLI:/tmp/yoona-divi-editor.php
+docker exec -u 0 NAZWA_KONTENERA_CLI chmod a+r /tmp/yoona-divi-editor.php
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /tmp/yoona-divi-editor.php readonly --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /tmp/yoona-divi-editor.php mutation /tmp/yoona-divi-editor.php --skip-themes
+```
+
+Te próby nie otwierają licencjonowanego Visual Buildera. Potwierdzają
+rzeczywiste zapisane źródło i działanie zabezpieczeń WordPressa przy jawnych
+callbackach zastępujących Divi. Dla właściciela proces pozostaje ręczny,
+osobno dla strony: **YOONA — edycja układu w Divi → Edytuj układ w Divi →
+Zapisz układ i edytuj w Divi**. Nie ma migracji przy aktywacji ani masowego
+nadpisywania stron. Szczegóły: [instrukcja Divi](../docs/EDYCJA-DIVI.md).
+
+### Slider i przeglądarka zdjęć
+
+Izolowany zestaw korzystający z rzeczywiście wysyłanych plików CSS/JS:
+
+```bash
+node tests/showcase-browser.cjs
+```
+
+Sprawdza pięć slajdów, stałą wysokość, teksty i przyciski na różnych
+szerokościach, pauzę, klawiaturę, ograniczony ruch i działanie bez JavaScript.
+Przeglądarka zdjęć ma pojedynczy dialog, obsługę Escape i strzałek, powrót
+fokusu, ukryte nazwy plików i kontakt dopasowany do szerokości fotografii.
+Test porównuje także zachowanie przy obecności testowego odbiorcy kliknięć
+galerii Divi. Jest to jawny lokalny fixture HTML/SVG, nie render WordPressa
+ani licencjonowanej galerii Divi. Raport: `showcase-results.txt`; zrzuty:
+`/tmp/yoona-showcase-screenshots` lub `YOONA_SHOWCASE_SCREENSHOTS`.
+
+Końcowe połączenie z faktycznymi szablonami WordPressa i Rank Math, po
+przygotowaniu powyższego wspólnego stosu:
+
+```bash
+node tests/final-smoke35.cjs http://127.0.0.1:PORT
+```
+
+Ten test nie tworzy fixture ani nie zmienia opcji. Sprawdza faktycznie
+wczytane zasoby względem źródła, pięć slajdów i wszystkie 47 odnośników
+ofertowych, ikony, przeglądarkę zdjęć oraz fotografie sześciu nowych usług
+w rzeczywistych lokalnych odpowiedziach WordPressa. Rank Math ma pojedyncze
+tytuły, opisy, canonical, robots i schema. Zrzuty oraz geometria:
+`/tmp/yoona35-final-smoke-screenshots` lub `YOONA_TEST_SCREENSHOTS`.
+
+### Dane SEO, zakres i sprzątanie
+
+Kontrola publicznych plików treści bez HTTP, prywatnego eksportu i zapisu:
+
+```bash
+python3 tools/audit_seo_content.py
+```
+
+Sprawdza tytuły, opisy, definicje usług i realizacji, wewnętrzne odnośniki
+oraz odrębne przypisania zdjęć. Nie jest pomiarem Search Console, szybkości,
+indeksacji lub pozycji Google. Dostęp do żywej strony yoona.pl jest
+w środowisku zablokowany. Zewnętrzne fotografie w próbach przeglądarkowych
+są zastępowane oznaczonymi lokalnymi SVG; nie potwierdzają dostarczenia
+zdjęć produkcyjnych. Prawdziwy WordPress i Rank Math nie oznaczają obecności
+licencjonowanego Divi — shortcode mają jawne testowe callbacki.
+
+Żaden zestaw nie instaluje nowych wtyczek na stronie właściciela ani nie
+zmienia jego kont Analytics. Aktualizacja użytkownika to ZIP, odświeżenie
+wyglądu YOONA i **LiteSpeed Cache → Narzędzia → Opróżnianie → Purge All**;
+wcześniej zapisanego SEO nie trzeba ponawiać.
+
+Po zakończeniu usuń prywatne pliki z `/tmp` CLI, jeśli były używane, oraz
+tylko własne kontenery CLI/WWW/DB, wolumen i sieć podane przez runner.
+Nie uruchamiaj globalnego `docker prune` ani czyszczenia cudzych zasobów.

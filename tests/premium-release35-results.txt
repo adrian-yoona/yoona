@@ -1,0 +1,84 @@
+YOONA 3.5.0 — executed checks, 2026-10-18
+
+Environment: disposable WordPress 7.1.3, PHP 8.3.35, MariaDB 11.4,
+Rank Math 1.0.280, Chromium 154. Fresh pinned runner preparation completed.
+Counts are individual assertions of varying scope, not independent test cases.
+No licensed Divi/Visual Builder execution, production photo inspection,
+live yoona.pl installation, Google account access, CWV or ranking measurement.
+Private exports remained outside the repository and HTTP database tables.
+Browser photo probes are labelled local synthetic images; map/form callbacks
+are explicit structural substitutes. Original source checks run in CLI memory.
+
+Company private source, CLI only
+Success: 58 company private assertions passed. No private source HTML was printed or installed.
+
+Company source/manual-edit guards
+Success: 26 company guards assertions passed. No private source HTML was printed or installed.
+
+Projects private source, CLI stdin only
+Success: 1581 project preservation/copy/source-guard assertions passed for 160 source versions. Private source stayed in stdin/process memory, never in HTTP or repository files. Licensed Divi is unavailable; tests use original stored shortcodes with synthetic callbacks.
+
+Projects actual WordPress browser
+PASS 229 browser project assertions across 16 responsive views. Labelled public synthetic photographs; licensed Divi unavailable.
+
+Collections isolated geometry
+PASS 224 collection geometry assertions across 14 viewport/breakpoint widths. Synthetic markup/photos, actual shipped CSS/fonts; native WordPress queries tested separately.
+
+Collections actual WordPress browser
+PASS 231 public WordPress collection assertions. 59 qualifying projects, 3 native pages. Actual WP/Rank Math/templates/CSS; remote photo probes, licensed Divi renderer not claimed.
+
+Collections final native queries and icons
+Success: 186 read-only collection/icon assertions passed.
+
+Divi native source / routing read-only
+Success: Divi readonly: 74 assertions passed; native source only, no licensed Divi UI.
+
+Divi real SQL writer, rollback and recovery
+Success: Divi writer: 36 assertions passed; real WP SQL, race, guards, verified rollback and independent recovery.
+
+Showcase shipped assets, isolated HTML
+PASS Showcase 234 assertions; real shipped assets, isolated public-data/SVG fixtures. No production or licensed Divi execution claimed.
+
+Python public-data audit: PASS; zero errors; 200 unique metadata pairs,
+47 service guides / 147 references, 150 project guides / 449 references,
+six child services / 12 distinct existing source photo URLs.
+Photo URL provenance does not prove current image delivery or crop.
+
+Syntax: all 27 plugin PHP files passed lint in PHP 8.3.35.
+showcase.js and final-smoke35.cjs passed node --check.
+Older versioned release ZIPs remained byte-identical.
+SEO engine/admin/helper/content-cleanup, changes.json and measurement.js
+remain byte-identical to 3.4.2. Viewing tests check all post/meta rows.
+
+Package: 47 whitelisted regular files; CRC and exact source bytes passed.
+ZIP bytes: 378573
+ZIP SHA256: a8c7ebbf04ef1865237430e62859477e7da9c03413e2970b135636734aa7c3df
+
+SHA256 of release test sources:
+6e19121f8f336d96f42353940a6a1deb21ff2d9af5170b7a4cb30aae6b6a2df7  tests/company-pages.php
+d6c788f07b11640a987ab637dd2562eed4bc663b5ab0ea1a6b3887b70cfa6a5f  tests/company-pages.cjs
+1de676736b48955f89c8d07b2a55e70ca10ef3ccf44779d0ab5f74c7e38ac4fc  tests/premium-projects.php
+a436b07c23897a826184e978022ad01e11cd7aee7c028b47649166dcb514c996  tests/premium-projects.cjs
+07eab6b8547528700afc27d558305f7488cd0ad36e8abf6a38e8a48d158e04b0  tests/collections35.php
+f5e6e87fd1554783fea80f7ac19166dea4b86d1122d5b1c23d24ed2e8949577b  tests/collections35.cjs
+e226435a18c5551338a4e3ecbc281900c1ddb9ff8fa5f3739847aa00df825a08  tests/collections35-wordpress.cjs
+c176303639789304e0eacbc0d96588a45ba06f4485073ccdab700d49e19441af  tests/divi-editor.php
+82619c5e4c1d81c59c9864d55f2f2792b7a1e0f2100d595661edaae83878895a  tests/showcase-browser.cjs
+
+Final actual WordPress integration
+PASS 337 final smoke assertions across 320/390/760/1440/2560px.
+Five slides, exact served CSS/JS, 47 published offers / 39 secondary SVG,
+both project photo viewers, six separate hero/card mappings, native Rank Math,
+reduced motion and zero JavaScript runtime errors.
+Animated-state checks wait for the actual transition to finish; different
+hero_image/card_image fields and local URL rewriting are tested separately.
+No product change or disabled assertion was used to resolve fixture expectations.
+All 47 served plugin files match source and installable ZIP byte for byte.
+773541700ed5b9ce68efcef5e398c3638bc1808b77777242ff79e17ad4160ee7  tests/final-smoke35.cjs
+
+Final company rerun on integrated release assets
+Success: Company: all post and metadata rows captured after frontend warmup.
+Success: Company: every post and metadata row remained byte-identical.
+Success: 303 responsive company-page / source-preservation / native-form assertions passed.
+Seven widths, 14 views; contrast checks apply to solid CSS backgrounds only.
+Final design.css SHA256: 20d606307e66826e46ccd1b8211b8a651f8caf9128ca40659291284597957b94

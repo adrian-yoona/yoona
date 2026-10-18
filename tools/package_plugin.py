@@ -15,17 +15,20 @@ def main() -> None:
         "includes/class-yoona-seo-design.php",
         "includes/class-yoona-seo-offer-hero.php",
         "includes/class-yoona-seo-content-cleanup.php",
+        "includes/class-yoona-seo-company-pages.php",
+        "includes/class-yoona-seo-icons.php", "includes/class-yoona-seo-divi-editor.php",
         "includes/class-yoona-seo-project-gallery.php",
         "includes/class-yoona-seo-service-guides.php",
         "includes/class-yoona-seo-project-guides.php",
         "includes/class-yoona-seo-growth-pages.php",
-        "content/service-guides.json", "content/project-guides.json",
+        "content/service-guides.json", "content/project-guides.json", "content/company-pages.json",
         "templates/header.php", "templates/footer.php", "templates/front-page.php",
         "templates/content.php", "templates/archive.php",
         "templates/offer-hero.php",
         "templates/full-offer.php", "templates/projects.php",
-        "templates/service-guide.php", "templates/project-guide.php", "templates/contact.php",
+        "templates/service-guide.php", "templates/project-guide.php", "templates/contact.php", "templates/company.php", "templates/divi-content.php",
         "assets/measurement.js",
+        "assets/collections.css", "assets/projects.css", "assets/showcase.css", "assets/showcase.js",
         "assets/design.css", "assets/design-data.json",
         "assets/fonts/archivo-black-latin-400-normal.woff2",
         "assets/fonts/archivo-black-latin-ext-400-normal.woff2",
@@ -37,7 +40,7 @@ def main() -> None:
     actual = {path.relative_to(source).as_posix() for path in source.rglob("*") if path.is_file()}
     if actual != expected:
         raise ValueError(f"Unexpected plugin files: {actual ^ expected}")
-    target = root / "downloads" / "yoona-seo-v3.4.2.zip"
+    target = root / "downloads" / "yoona-seo-v3.5.0.zip"
     target.parent.mkdir(exist_ok=True)
     with ZipFile(target, "w", ZIP_DEFLATED, compresslevel=9) as archive:
         for relative in sorted(expected):

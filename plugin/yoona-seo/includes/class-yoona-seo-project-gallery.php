@@ -19,8 +19,8 @@ final class Yoona_SEO_Project_Gallery {
 			return;
 		}
 		$query->set( self::QUERY_FLAG, true );
-		$query->set( 'posts_per_page', 30 );
-		$query->set( 'posts_per_archive_page', 30 );
+		$query->set( 'posts_per_page', 24 );
+		$query->set( 'posts_per_archive_page', 24 );
 		$query->set( 'post_type', 'post' );
 		$query->set( 'post_status', 'publish' );
 		$query->set( 'has_password', false );
@@ -52,7 +52,14 @@ final class Yoona_SEO_Project_Gallery {
 	 * No PHP array slicing, second full-content query, or persistent metadata cache.
 	 */
 	public static function photograph_predicate( $where, $query ) {
-		if ( ! $query->get( self::QUERY_FLAG ) || ! $query->is_main_query() || ! $query->is_home() ) {
+		if ( 'native' === $query->get( self::QUERY_FLAG ) ) {
+			// A Divi preview can render the public gallery in a secondary query.
+			// Only this exact opt-in may reuse the photograph SQL; visibility must
+			// remain explicitly public even in authenticated builder previews.
+			if ( 'post' !== $query->get( 'post_type' ) || 'publish' !== $query->get( 'post_status' ) || false !== $query->get( 'has_password' ) ) {
+				return $where;
+			}
+		} elseif ( ! $query->get( self::QUERY_FLAG ) || ! $query->is_main_query() || ! $query->is_home() ) {
 			return $where;
 		}
 		global $wpdb;

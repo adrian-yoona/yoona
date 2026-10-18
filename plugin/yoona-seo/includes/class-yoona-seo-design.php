@@ -21,6 +21,7 @@ final class Yoona_SEO_Design {
 	}
 
 	private static function eligible() {
+		if ( class_exists( 'Yoona_SEO_Divi_Editor' ) && Yoona_SEO_Divi_Editor::builder_request() ) return false;
 		if ( ! self::enabled() || is_admin() || is_feed() || is_embed() || is_preview()
 			|| ( function_exists( 'wp_doing_ajax' ) && wp_doing_ajax() )
 			|| ( function_exists( 'wp_doing_cron' ) && wp_doing_cron() )
@@ -46,7 +47,13 @@ final class Yoona_SEO_Design {
 			return $original;
 		}
 		$name = 'archive.php';
-		if ( is_front_page() && ! post_password_required() ) {
+		$native_id = is_home() ? (int) get_option( 'page_for_posts' ) : ( is_singular( array( 'page', 'post' ) ) ? get_queried_object_id() : 0 );
+		$native_post = $native_id ? get_post( $native_id ) : null;
+		if ( $native_post && in_array( $native_post->post_type, array( 'page', 'post' ), true )
+			&& ( ! is_home() || 'page' === $native_post->post_type ) && 'publish' === $native_post->post_status && '' === (string) $native_post->post_password
+			&& class_exists( 'Yoona_SEO_Divi_Editor' ) && Yoona_SEO_Divi_Editor::authoritative( $native_id ) ) {
+			$name = 'divi-content.php';
+		} elseif ( is_front_page() && ! post_password_required() ) {
 			$name = 'front-page.php';
 		} elseif ( is_home() && get_query_var( Yoona_SEO_Project_Gallery::QUERY_FLAG ) ) {
 			$name = 'projects.php';
@@ -56,8 +63,12 @@ final class Yoona_SEO_Design {
 			$name = 'service-guide.php';
 		} elseif ( Yoona_SEO_Project_Guides::context( get_queried_object_id() ) ) {
 			$name = 'project-guide.php';
+		} elseif ( is_singular( 'post' ) && ! post_password_required() ) {
+			$name = 'project-guide.php';
 		} elseif ( is_page( 'kontakt' ) && ! post_password_required() ) {
 			$name = 'contact.php';
+		} elseif ( is_page( 'o-nas' ) && ! post_password_required() ) {
+			$name = 'company.php';
 		} elseif ( is_singular( array( 'page', 'post' ) ) ) {
 			$name = 'content.php';
 		}
@@ -79,6 +90,14 @@ final class Yoona_SEO_Design {
 			return;
 		}
 		wp_enqueue_style( 'yoona-design', plugins_url( 'assets/design.css', YOONA_SEO_FILE ), array(), YOONA_SEO_VERSION );
+		wp_enqueue_style( 'yoona-collections', plugins_url( 'assets/collections.css', YOONA_SEO_FILE ), array( 'yoona-design' ), YOONA_SEO_VERSION );
+		if ( is_singular( 'post' ) ) wp_enqueue_style( 'yoona-projects', plugins_url( 'assets/projects.css', YOONA_SEO_FILE ), array( 'yoona-design' ), YOONA_SEO_VERSION );
+		wp_enqueue_style( 'yoona-showcase', plugins_url( 'assets/showcase.css', YOONA_SEO_FILE ), array( 'yoona-design' ), YOONA_SEO_VERSION );
+		wp_enqueue_script( 'yoona-showcase', plugins_url( 'assets/showcase.js', YOONA_SEO_FILE ), array(), YOONA_SEO_VERSION, true );
+		$contact = self::data()['contact'];
+		$phones = array();
+		foreach ( $contact['locations'] as $location ) $phones[] = array( 'href' => $location['telephone_href'], 'label' => $location['label'] . ': ' . $location['telephone_display'] );
+		wp_add_inline_script( 'yoona-showcase', 'window.yoonaShowcase=' . wp_json_encode( array( 'contactUrl' => self::route( 'contact' ), 'phones' => $phones ), JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT ) . ';', 'before' );
 		wp_enqueue_script( 'yoona-contact-events', plugins_url( 'assets/measurement.js', YOONA_SEO_FILE ), array(), YOONA_SEO_VERSION, true );
 	}
 

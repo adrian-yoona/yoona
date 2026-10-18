@@ -2,20 +2,63 @@
 defined( 'ABSPATH' ) || exit;
 $yn_data = Yoona_SEO_Design::data();
 $yn_home_services = Yoona_SEO_Design::offer_cards();
+// Only already public, published offers can become a slide destination.
+$yn_slide_definitions = array(
+ '/banery/' => array( 'eyebrow' => 'Banery i reklama wielkoformatowa', 'line' => 'Większy format.', 'accent' => 'Wyraźny przekaz.', 'description' => 'Banery i billboardy dopasowane do miejsca ekspozycji. Od projektu i druku po wykończenie oraz montaż.', 'button' => 'Poznaj banery' ),
+ '/litery-3d/' => array( 'eyebrow' => 'Litery przestrzenne i oznakowanie', 'line' => 'Nadaj marce', 'accent' => 'nowy wymiar.', 'description' => 'Litery 3D, które budują charakter elewacji i wnętrza. Dobieramy materiał, wielkość i sposób montażu.', 'button' => 'Zobacz litery 3D' ),
+ '/oklejanie-samochodow/' => array( 'eyebrow' => 'Oklejanie samochodów firmowych', 'line' => 'Twoja marka.', 'accent' => 'W dobrym ruchu.', 'description' => 'Reklama na samochodzie, którą łatwo zauważyć. Projekt i aplikacja grafiki dopasowanej do Twojego auta.', 'button' => 'Poznaj oklejanie' ),
+ '/neony/' => array( 'eyebrow' => 'Neony i ledony na zamówienie', 'line' => 'Pomysł, który', 'accent' => 'świeci własnym światłem.', 'description' => 'Świetlne napisy i znaki do lokali, biur oraz przestrzeni marki. Forma, kolor i wykonanie zgodne z Twoim pomysłem.', 'button' => 'Zobacz neony' ),
+);
+$yn_slides = array();
+foreach ( $yn_slide_definitions as $yn_slide_path => $yn_slide_copy ) {
+ foreach ( $yn_home_services as $yn_slide_service ) {
+  if ( untrailingslashit( $yn_slide_service['url'] ) === untrailingslashit( Yoona_SEO_Design::url( $yn_slide_path ) ) ) {
+   $yn_slides[] = array_merge( $yn_slide_service, $yn_slide_copy );
+   break;
+  }
+ }
+}
 Yoona_SEO_Design::part( 'header' );
 ?>
 <main id="main-content" class="yn-main">
-	<section class="yn-hero" aria-labelledby="yn-hero-title">
-		<div class="yn-hero-media"><?php echo Yoona_SEO_Design::image( $yn_data['hero'], 'yn-hero-image', true ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
-		<div class="yn-container yn-hero-content">
-			<div class="yn-hero-copy">
-				<p class="yn-eyebrow">Reklama wielkoformatowa / identyfikacja / produkcja</p>
-				<h1 id="yn-hero-title">Robimy<br>marki<br><span>widoczne.</span></h1>
-				<p class="yn-hero-description">Projektujemy, produkujemy i montujemy reklamę, która działa w realnym świecie. Od pomysłu do efektu&nbsp;WOW.</p>
-				<div class="yn-actions"><a class="yn-button" href="#oferta">Zobacz, co robimy <span aria-hidden="true">↗</span></a><a class="yn-button yn-button-outline" href="<?php echo esc_url( Yoona_SEO_Design::route( 'contact' ) ); ?>">Porozmawiajmy</a></div>
+	<section class="yn-hero yn-showcase" aria-labelledby="yn-hero-title" aria-roledescription="karuzela" data-yn-showcase>
+		<div class="yn-showcase-slides">
+			<div class="yn-hero-slide is-active" role="group" aria-roledescription="slajd" aria-label="1 z <?php echo esc_attr( count( $yn_slides ) + 1 ); ?>: YOONA" data-yn-slide>
+				<div class="yn-hero-media"><?php echo Yoona_SEO_Design::image( $yn_data['hero'], 'yn-hero-image', true ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+				<div class="yn-container yn-hero-content">
+					<div class="yn-hero-copy">
+						<p class="yn-eyebrow">Reklama wielkoformatowa / identyfikacja / produkcja</p>
+						<h1 id="yn-hero-title" class="yn-slide-title">Robimy<br>marki<br><span>widoczne.</span></h1>
+						<p class="yn-hero-description">Projektujemy, produkujemy i montujemy reklamę, która działa w realnym świecie. Od pomysłu do efektu&nbsp;WOW.</p>
+						<div class="yn-actions"><a class="yn-button" href="#oferta">Zobacz, co robimy <span aria-hidden="true">↗</span></a><a class="yn-button yn-button-outline" href="<?php echo esc_url( Yoona_SEO_Design::route( 'contact' ) ); ?>">Porozmawiajmy</a></div>
+					</div>
+				</div>
 			</div>
-			<span class="yn-hero-caption">YOONA / REKLAMA, KTÓRĄ WIDAĆ</span>
+			<?php foreach ( $yn_slides as $yn_slide_index => $yn_slide ) : ?>
+				<div class="yn-hero-slide" role="group" aria-roledescription="slajd" aria-label="<?php echo esc_attr( ( $yn_slide_index + 2 ) . ' z ' . ( count( $yn_slides ) + 1 ) . ': ' . $yn_slide['name'] ); ?>" data-yn-slide hidden>
+					<div class="yn-hero-media"><?php echo Yoona_SEO_Design::image( $yn_slide, 'yn-hero-image' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+					<div class="yn-container yn-hero-content">
+						<div class="yn-hero-copy">
+							<p class="yn-eyebrow"><?php echo esc_html( $yn_slide['eyebrow'] ); ?></p>
+							<h2 class="yn-slide-title"><?php echo esc_html( $yn_slide['line'] ); ?><br><span><?php echo esc_html( $yn_slide['accent'] ); ?></span></h2>
+							<p class="yn-hero-description"><?php echo esc_html( $yn_slide['description'] ); ?></p>
+							<div class="yn-actions"><a class="yn-button" href="<?php echo esc_url( $yn_slide['url'] ); ?>"><?php echo esc_html( $yn_slide['button'] ); ?> <span aria-hidden="true">↗</span></a><a class="yn-button yn-button-outline" href="<?php echo esc_url( Yoona_SEO_Design::route( 'contact' ) ); ?>">Zapytaj o wycenę</a></div>
+						</div>
+					</div>
+				</div>
+			<?php endforeach; ?>
 		</div>
+		<?php if ( $yn_slides ) : ?>
+			<div class="yn-container yn-showcase-controls" data-yn-showcase-controls hidden>
+				<p class="yn-slide-count" aria-live="off"><span data-yn-current>01</span><span aria-hidden="true"> / <?php echo esc_html( str_pad( (string) ( count( $yn_slides ) + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span></p>
+				<div class="yn-slide-dots" role="group" aria-label="Wybierz slajd">
+					<button type="button" class="yn-slide-dot" aria-label="Slajd 1: YOONA" aria-current="true" data-yn-go="0"><span></span></button>
+					<?php foreach ( $yn_slides as $yn_slide_index => $yn_slide ) : ?><button type="button" class="yn-slide-dot" aria-label="<?php echo esc_attr( 'Slajd ' . ( $yn_slide_index + 2 ) . ': ' . $yn_slide['name'] ); ?>" data-yn-go="<?php echo esc_attr( $yn_slide_index + 1 ); ?>"><span></span></button><?php endforeach; ?>
+				</div>
+				<div class="yn-slide-navigation"><button type="button" class="yn-slide-control" data-yn-prev aria-label="Poprzedni slajd">←</button><button type="button" class="yn-slide-control yn-slide-pause" data-yn-pause aria-label="Wstrzymaj automatyczną zmianę slajdów"><span aria-hidden="true">Ⅱ</span></button><button type="button" class="yn-slide-control" data-yn-next aria-label="Następny slajd">→</button></div>
+				<span class="yn-sr-only" data-yn-announcement aria-live="polite" aria-atomic="true"></span>
+			</div>
+		<?php endif; ?>
 	</section>
 	<div class="yn-capabilities" aria-label="Od pomysłu do montażu">
 		<div class="yn-container yn-capability-grid">
@@ -44,7 +87,7 @@ Yoona_SEO_Design::part( 'header' );
 					<h3 id="yn-home-categories-title">Wszystkie możliwości dla Twojej marki</h3>
 					<ul class="yn-category-grid">
 						<?php foreach ( array_slice( $yn_home_services, 8 ) as $yn_service ) : ?>
-							<li><a class="yn-category-link" href="<?php echo esc_url( $yn_service['url'] ); ?>"><?php echo esc_html( $yn_service['name'] ); ?><span aria-hidden="true">↗</span></a></li>
+							<li><a class="yn-category-link" href="<?php echo esc_url( $yn_service['url'] ); ?>"><?php if ( class_exists( 'Yoona_SEO_Icons' ) ) { echo Yoona_SEO_Icons::service( $yn_service['url'] ); } // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Static decorative SVG. ?><span class="yn-category-label"><?php echo esc_html( $yn_service['name'] ); ?></span><span aria-hidden="true">↗</span></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</div>

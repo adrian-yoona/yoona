@@ -1,0 +1,31 @@
+YOONA 3.5.0 — homepage slideshow and gallery viewer
+2026-10-18
+
+Command: node tests/showcase-browser.cjs
+Browser: system Chromium, Playwright, loopback-only disposable HTTP server.
+Fixtures: public offer copy and explicitly labelled SVG structural probes.
+Real shipped design.css, showcase.css and showcase.js are loaded.
+This isolated test does not execute WordPress/PHP, licensed Divi, or production photos.
+
+PASS Showcase isolated viewport 320
+PASS Showcase isolated viewport 390
+PASS Showcase isolated viewport 760
+PASS Showcase isolated viewport 1440
+PASS Showcase isolated viewport 2560
+PASS Showcase 234 assertions; real shipped assets, isolated public-data/SVG fixtures. No production or licensed Divi execution claimed.
+
+Coverage: five slides at 320/390/760/1440/2560px, one H1, first-photo eager/high
+priority only, no-JS fallback, stable slideshow height, no clipped text/controls,
+keyboard navigation, pause, reduced-motion preference and seven-second autoplay.
+Viewer: single/multiple/loose project images, no exposed filenames, phone/quote
+bar within image width, portrait fits viewport height, Escape, focus restore,
+Tab wrapping, and suppression of a synthetic delegated Divi click handler.
+
+PHP lint: front-page.php passed in the existing PHP CLI test container.
+Screenshots reviewed: desktop 1440, phone 390, phone portrait viewer 390.
+
+SHA-256 of reviewed files:
+05b1956d2b2fd4ed590fd7684a710f83ad05a30c8e035dd52b9ea41ebb45a089  plugin/yoona-seo/templates/front-page.php
+ddaf80872906fd7ccb2d2a047aa5eadac84d1b9cb53ec7c91443656115cb42d7  plugin/yoona-seo/assets/showcase.css
+6fcc10a1479e6ccb5155bb12d7a9d481e173801287fcdd30f14a4f199a256efd  plugin/yoona-seo/assets/showcase.js
+82619c5e4c1d81c59c9864d55f2f2792b7a1e0f2100d595661edaae83878895a  tests/showcase-browser.cjs

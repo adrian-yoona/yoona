@@ -25,9 +25,10 @@ final class Yoona_SEO_Service_Guides {
         $guide = $guides[ $path ];
         $design = Yoona_SEO_Design::data();
         $image_path = isset( $guide['image_source_path'] ) ? $guide['image_source_path'] : $path;
-        if ( empty( $design['offer_heroes'][ $image_path ]['image'] ) ) return false;
-        $guide['image'] = $design['offer_heroes'][ $image_path ]['image'];
-        $guide['alt'] = $design['offer_heroes'][ $image_path ]['alt'];
+        $hero_image = ! empty( $guide['hero_image'] ) ? $guide['hero_image'] : ( isset( $design['offer_heroes'][ $image_path ]['image'] ) ? $design['offer_heroes'][ $image_path ]['image'] : '' );
+        if ( '' === Yoona_SEO_Design::url( $hero_image ) || '' === $hero_image ) return false;
+        $guide['image'] = $hero_image;
+        $guide['alt'] = ! empty( $guide['hero_alt'] ) ? $guide['hero_alt'] : $design['offer_heroes'][ $image_path ]['alt'];
         $guide['path'] = $path;
         $guide['layout_mode'] = isset( $design['offer_heroes'][ $path ]['service_intro_mode'] ) ? $design['offer_heroes'][ $path ]['service_intro_mode'] : 'replace';
         return $guide;
@@ -38,6 +39,10 @@ final class Yoona_SEO_Service_Guides {
         foreach ( self::data() as $path => $guide ) {
             if ( ! empty( $guide['image_source_path'] ) && isset( $design['offer_heroes'][ $guide['image_source_path'] ] ) ) {
                 $children[ $path ] = $design['offer_heroes'][ $guide['image_source_path'] ];
+                if ( ! empty( $guide['card_image'] ) && '' !== Yoona_SEO_Design::url( $guide['card_image'] ) ) {
+                    $children[ $path ]['image'] = $guide['card_image'];
+                    $children[ $path ]['alt'] = ! empty( $guide['card_alt'] ) ? $guide['card_alt'] : $children[ $path ]['alt'];
+                }
             }
         }
         return $children;

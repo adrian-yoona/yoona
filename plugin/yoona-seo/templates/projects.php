@@ -17,7 +17,7 @@ $yn_gallery_position = 0;
 				<?php while ( have_posts() ) : the_post(); ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'yn-project-gallery-card' ); ?>>
 						<a href="<?php the_permalink(); ?>">
-							<div class="yn-project-gallery-image"><?php echo Yoona_SEO_Project_Gallery::image( get_the_ID(), $yn_gallery_position < 3 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by helper. ?></div>
+							<div class="yn-project-gallery-image"><?php echo Yoona_SEO_Project_Gallery::image( get_the_ID(), 0 === $yn_gallery_position ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped by helper. ?></div>
 							<h2><?php the_title(); ?></h2>
 						</a>
 					</article>

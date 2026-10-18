@@ -17,9 +17,9 @@ Nie odwzorowano panelu administracyjnego, paska wskaźników SEO ani przypadkowy
 
 ## Mechanizm i cofanie
 
-Wygląd jest domyślnie włączoną warstwą szablonów wtyczki. Nie zapisuje nowego układu do `post_content`, nie usuwa modułów Divi i nie zmienia adresów. Strona główna ma własną kompozycję, a standardowa treść podstron jest przetwarzana przez WordPress. Zmiany w dotychczasowym układzie Divi strony głównej będą widoczne po wyłączeniu nowego szablonu; nie edytują nowej kompozycji.
+Wygląd jest domyślnie włączoną warstwą szablonów wtyczki. Samo włączenie nie zapisuje nowego układu do `post_content`, nie usuwa modułów Divi i nie zmienia adresów. Strona główna ma własną kompozycję, a standardowa treść podstron jest przetwarzana przez WordPress. Od wersji 3.5.0 administrator może osobno zapisać wybraną stronę do natywnych modułów Divi, zgodnie z [instrukcją edycji](EDYCJA-DIVI.md). Bez tej operacji Visual Builder edytuje dotychczasowe zapisane źródło; nie edytuje kompozycji generowanej przez szablon.
 
-Panel **Narzędzia → Yoona SEO** pokazuje stan wyglądu, przełącznik powrotu i odświeżenie cache. Wyłączenie wyglądu lub dezaktywacja wtyczki przywraca szablony motywu. Wcześniej zapisane teksty i metadane Rank Math pozostają i mają osobne kopie w historii.
+Panel **Narzędzia → Yoona SEO** pokazuje stan wyglądu, przełącznik powrotu i odświeżenie cache. Wyłączenie wyglądu lub dezaktywacja wtyczki przywraca szablony motywu. Wcześniej zapisane teksty i metadane Rank Math pozostają i mają osobne kopie w historii. Ręcznie zapisane układy Divi pozostają w treści i mają własną kopię do przywrócenia; przełącznik wyglądu nie cofa takiego zapisu.
 
 Włączenie wyglądu nie uruchamia zapisu pakietu 200 pozycji. Panel osobno podaje liczbę wartości zgodnych z pakietem, gotowych do zapisu i zablokowanych. Nie wolno uznawać samej instalacji za potwierdzenie zapisu SEO.
 
@@ -132,3 +132,144 @@ szablony, oryginalne galerie i dolne moduły z naprawy 3.4.1, pakiet tekstów,
 metadane oraz pomiar Site Kit zachowują identyczne bajty. Do aktualizacji
 wystarczy zastąpić wtyczkę i wyczyścić cache; nie trzeba ponownie zapisywać SEO
 ani tworzyć sześciu stron. Fotografie produkcyjne nie były dostępne w testach.
+
+
+## O nas i Kontakt — 3.5.0
+
+Obie podstrony mają wspólną, kompaktową oprawę z jasnym nagłówkiem, ciemnym
+tekstem i ciemniejszym pomarańczem na jasnym tle. Manrope porządkuje treści,
+listy, FAQ i karty zespołu. Nagłówki treści mają do 30 px na komputerze i 23 px
+na telefonie; dawny kontaktowy napis 9em jest ograniczony do tej samej skali.
+Odstępy między sekcjami wynoszą 28 px na komputerze i 20 px na telefonie.
+Szerokość jest ograniczona do 1280 px z płynnymi marginesami.
+
+Nowy nagłówek zastępuje tylko dokładnie rozpoznany dawny baner O nas z pustą
+połową oraz tekstowy wstęp kontaktu. Zrezygnowano z dodatkowych kart biur
+wstawianych przez starszy szablon wtyczki: pozostają oryginalne karty zespołu,
+z tymi samymi numerami i adresami. Układ dwóch kart przechodzi do jednej
+kolumny przy 640 px. Mapa ma wysokość 320 px na większych ekranach i 240 px
+na telefonie. Link do trasy i opinie pozostają dostępne.
+
+Wszystkie oryginalne callbacki Divi wykonują się raz. Nowa warstwa dodaje
+klasy do istniejących modułów, zachowując sekcje, wiersze i kolumny. Nie
+wyciąga samych zdjęć ani kodu do nowej siatki. O nas zachowuje siedem zdjęć,
+osiem FAQ, dwa niepuste bloki narracyjne oraz pozostałe teksty. Kontakt
+zachowuje mapę i widget Trustindex; moduł z samym shortcode opinii nie jest
+traktowany jako puste pole. Formularze i późniejsze dodatki pozostają.
+
+Rozpoznanie wymaga dokładnych hashy oryginalnych modułów albo wariantów
+z dołączonego pakietu SEO. Ręczne zmiany nie są usuwane. Znane końcowe H1
+wezwania do kontaktu może być wyświetlone jako H2; jeżeli treść już zawiera
+H1, nowy tytuł ma semantykę akapitu. Ukrywanie starego banera następuje
+po wykonaniu callbacków, z zachowaniem numeracji stylów Divi.
+
+CSS tego komponentu dotyczy tylko O nas i Kontaktu. Nie zmienia reguł
+galerii ofert, formularzy zapisu SEO ani pomiaru Site Kit.
+
+
+## Strona główna, katalogi i stopka — 3.5.0
+
+Strona główna ma pięć slajdów: firmę YOONA, banery, litery 3D, oklejanie
+i neony. Pierwszy zachowuje zdjęcie firmy. Każdy slajd prowadzi do właściwej
+oferty, a wejście tekstu ma krótką animację. Dostępne są strzałki, wybór
+slajdu i pauza; automatyczne przejście zatrzymuje się przy obsłudze klawiaturą,
+najechaniu, ukrytej karcie i preferencji ograniczonego ruchu. Bez JavaScript
+widoczny jest pierwszy slajd z działającymi linkami. Tylko pierwsza fotografia
+otrzymuje priorytet pobierania; pozostałe są ładowane leniwie.
+
+Osiem kart zdjęciowych i dalsze kategorie prowadzą łącznie do wszystkich
+47 ofert bez powtórzeń. Kategorie otrzymują przypisane tematycznie ikony SVG.
+W stopce Facebook, Instagram, TikTok i YouTube mają rozpoznawalne ikony
+oraz czytelne nazwy, przy zachowanych adresach profili.
+
+Pełna Oferta pokazuje od razu wszystkie 47 publicznych ofert, każdą jako
+zdjęcie i tytuł. Nasze realizacje pokazują 24 opublikowane prace ze zdjęciami
+na stronę i natywną paginację WordPressa. Zastępuje to limit 30 kart ze
+starszego wydania. Na ekranach od 1400 px oba katalogi mają sześć kolumn;
+poniżej przechodzą kolejno do czterech, trzech, dwóch i jednej. Pełna
+szerokość ma płynne marginesy od 16 do 56 px. Tytuły nie są skracane,
+a karty realizacji zawierają tylko zdjęcie i tytuł. Zapytanie nadal pomija
+szkice, wpisy prywatne, chronione i pozbawione odpowiedniego zdjęcia.
+Kolejność pozostaje od najnowszych z rozstrzygnięciem remisu przez ID.
+
+
+## Pojedyncze realizacje i przeglądanie zdjęć — 3.5.0
+
+Pojedyncza realizacja ma kompaktowy nagłówek, oryginalną treść oraz układ
+dopasowany do liczby zdjęć. Jedna fotografia nie jest powtarzana jako drugi
+baner; wielozdjęciowe galerie zachowują całość. Oryginalne sekcje Divi,
+wiersze, kolumny, podpisy, formularze, FAQ i odnośniki wykonują się raz
+i pozostają razem. Na telefonie układ przechodzi do jednej kolumny.
+Nie zmienia to naprawionych galerii ani dolnych sekcji podstron ofertowych.
+
+150 rozpoznanych realizacji ma indywidualny, oparty na źródle opis i linki
+do pasujących ofert. Dalsza wskazówka planowania jest właściwa dla usługi
+i odróżniona od faktów o wykonanej pracy. Informacja o obsłudze Olsztyna,
+Ostródy oraz Warmii i Mazur nie oznacza przypisywania każdej pracy tym
+lokalizacjom. Ręcznie zmienione albo nierozpoznane wpisy zachowują pełną
+aktualną treść; nie otrzymują dopisanych faktów o realizacji.
+
+Zdjęcia w obsługiwanych galeriach i realizacjach można otworzyć w nowej
+przeglądarce zdjęć. Nie pokazuje nazw plików ani podpisów nad fotografią.
+Pod zdjęciem, w jego szerokości, mieści dwa numery telefonów i przejście
+do wyceny. Dostępne są klawiatura, zamknięcie Escape, przejścia między
+zdjęciami i powrót fokusu do otwierającego elementu. Oryginalne podpisy
+w treści strony pozostają. Istniejące linki zdjęć do innych podstron nie
+są przejmowane jako galerie.
+
+
+## Fotografie usług, SEO i zestaw wtyczek — 3.5.0
+
+Sześć dodatkowych podstron CNC i markiz ma różne fotografie nagłówków
+i kart: łącznie 12 odrębnych adresów istniejących zdjęć realizacji YOONA.
+Wybór oraz pochodzenie opisuje [przegląd SEO i wtyczek](PRZEGLAD-SEO-I-WTYCZEK.md).
+Zdjęcie realizacji markizy nie jest przedstawiane jako potwierdzenie
+konkretnego modelu ani producenta, jeśli źródło tego nie podaje.
+
+Lokalny audyt sprawdza kompletność i unikalność tytułów oraz opisów,
+publiczne dane ofert i realizacji, linkowanie wewnętrzne i przypisania
+zdjęć. To kontrola pakietu i kodu. Dostęp do żywej strony yoona.pl jest
+w środowisku zablokowany, dlatego nie potwierdzono aktualnego indeksowania,
+Core Web Vitals, wyników Search Console ani pozycji w Google.
+
+Nie dodano nowych wtyczek. Rank Math Free i PRO pozostają wspólnie,
+Site Kit jest istniejącym źródłem tagu Analytics, a pomiar kontaktów
+zachowuje obsługę zgody. Przegląd wskazuje sprawdzenie, czy Imagify
+i LiteSpeed nie optymalizują tych samych zdjęć równolegle; aktualizacja
+nie zmienia samodzielnie ustawień tych narzędzi ani kont Google.
+
+
+## Edycja Divi i aktualizacja — 3.5.0
+
+Do samej zmiany wyglądu wystarczą trzy kroki:
+
+1. Wgraj ZIP 3.5.0 w **Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer**
+   i zastąp obecną wersję YOONA.
+2. W **Narzędzia → Yoona SEO** odśwież wygląd.
+3. W **LiteSpeed Cache → Narzędzia → Opróżnianie** wybierz **Purge All**.
+
+Nie trzeba ponownie zapisywać już wdrożonego SEO ani tworzyć ponownie sześciu
+podstron. Sam ZIP nie publikuje zmian na serwerze — pojawią się po aktualizacji
+WordPressa i wyczyszczeniu jego cache. Na produkcji nie wykonano zdalnej instalacji.
+
+Aby zmieniać nowy układ w Divi, otwórz wybraną stronę lub wpis w zwykłej
+edycji WordPressa, a następnie panel **YOONA — edycja układu w Divi**.
+Przycisk **Edytuj układ w Divi** pokazuje źródło do przeglądu;
+**Zapisz układ i edytuj w Divi** tworzy kopię i zapisuje moduły tej jednej
+strony. Potem sekcje, wiersze, kolumny, teksty, zdjęcia, przyciski i slajdy
+można edytować i kopiować narzędziami Divi. Nie ma automatycznej masowej
+migracji. Aktualizacja wtyczki nie zastępuje zapisanych później zmian.
+
+Lista realizacji jest dynamicznym modułem Kod z `[yoona_realizacje]`
+i wymaga aktywnej wtyczki YOONA; konkretne zdjęcia i tytuły zmienia się
+w odpowiednich wpisach. Wspólny
+nagłówek i stopka nadal pochodzą z wtyczki. Konwersja ma własną kopię,
+weryfikację źródła, blokadę równoległego zapisu oraz odzyskiwanie ręcznych
+zmian przed przywracaniem. Szczegóły: [edycja i cofanie Divi](EDYCJA-DIVI.md).
+
+Testy działają na prawdziwym WordPressie, Rank Math i bazie oraz jawnych
+testowych callbackach Divi. Licencjonowany Divi i jego Visual Builder nie
+były uruchomione. Fotografie produkcyjne zastępowano oznaczonymi lokalnymi
+obrazami; testy potwierdzają układ i zachowanie, a nie dostarczenie zdjęć
+ani formularzy na yoona.pl. Faktycznie wykonane przebiegi i ich zakres
+podaje [dokument testów](WYNIKI-TESTOW.md).

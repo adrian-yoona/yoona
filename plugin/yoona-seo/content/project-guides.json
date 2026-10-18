@@ -11,7 +11,12 @@
     "source_sha256": [
       "c7478120416e044a15e3489fcfb2413ef335083409e6445ec9a0652984636771"
     ],
-    "location": "Przy trasie w kierunku Elbląga"
+    "location": "Przy trasie w kierunku Elbląga",
+    "planning": "Duży format wymaga oszczędnego układu treści i grafiki przygotowanej do oglądania z dystansu. Przed produkcją trzeba ustalić wymiary, konstrukcję nośną i sposób montażu. W zapytaniu o podobny megaboard podaj lokalizację, zdjęcia terenu i dostępny format, aby omówić projekt, druk oraz warunki realizacji.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/ippon-group-banery-olsztyn/": {
     "title": "IPPON GROUP – BANERY – OLSZTYN",
@@ -25,7 +30,12 @@
     "source_sha256": [
       "1dc7db80d43b04902c82fc6934f55c0b18dcd41a0b632572fdda2a0ca7f75e04"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/zmiana-koloru-auta-ostroda/": {
     "title": "ZMIANA KOLORU AUTA – OSTRÓDA",
@@ -41,6 +51,10 @@
     "location": "Ostróda",
     "materials": [
       "AVERY SWF ColorFlow Gloss Urban Jungle Silver/Green"
+    ],
+    "planning": "Przed zmianą koloru folią warto określić oczekiwany efekt i zakres oklejenia, a następnie ocenić stan powierzchni pojazdu. Odcień oraz rodzaj wykończenia najlepiej omówić na podstawie wzornika i konkretnego auta. W zapytaniu podaj markę, model, rocznik i wybrane elementy do oklejenia oraz dołącz aktualne zdjęcia.",
+    "related_paths": [
+      "/oklejanie-samochodow/"
     ]
   },
   "/banery-wso-ostroda/": {
@@ -55,7 +69,12 @@
     "source_sha256": [
       "5d1ceffa40a978c2d7849d17848bef4b56a77beb15248a443c0116c094990283"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/markizy-angelo-pepsi-lodz/": {
     "title": "MARKIZY – ANGELO – PEPSI – ŁÓDŹ",
@@ -69,7 +88,12 @@
     "source_sha256": [
       "06c213587b4844412c0ca55e6032abe901764c6eb3d27e340eb1221bd8ce5e1a"
     ],
-    "location": "Łódź"
+    "location": "Łódź",
+    "planning": "Przy markizie z logo grafika musi pasować do jej wymiarów, podziałów i sposobu oglądania z ulicy. Warto ustalić, które elementy mają prezentować nazwę lokalu, a które informacje dodatkowe. W zapytaniu podaj miejsce montażu, orientacyjną szerokość i wysięg oraz prześlij zdjęcie elewacji i materiały marki.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/szyldy/"
+    ]
   },
   "/litery-3d-stacja-ostroda/": {
     "title": "LITERY 3D – STACJA OSTRÓDA",
@@ -83,7 +107,12 @@
     "source_sha256": [
       "69062218576e25f793da71259a8051b25a41795d26e37d2235516a53d435c887"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/pylon-bursztynowy-sen-pepsi-stegna/": {
     "title": "PYLON – BURSZTYNOWY SEN – PEPSI – STEGNA",
@@ -101,6 +130,11 @@
     "materials": [
       "Złoty dibond",
       "Czarna folia"
+    ],
+    "planning": "Pylon warto projektować z perspektywy osoby dojeżdżającej do obiektu: liczą się kolejność informacji, wysokość ekspozycji i czytelność kierunku wjazdu. Rozwiązanie konstrukcyjne oraz sposób montażu zależą od konkretnej lokalizacji. Do rozmowy przygotuj zdjęcia terenu, logo, listę treści i orientacyjny format oznakowania.",
+    "related_paths": [
+      "/totemy/",
+      "/tablice-olsztyn/"
     ]
   },
   "/oklejanie-szyb-totalizator-mlawa/": {
@@ -119,6 +153,11 @@
     "materials": [
       "Folia mrożona na szybach zewnętrznych",
       "Folia z nadrukiem na drzwiach wewnętrznych"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/oklejanie-busow-rabata-olsztyn/": {
@@ -132,7 +171,12 @@
     "source_sha256": [
       "ccd788cc5db37f067dfe623eba60b9a885e88f08879b41cde93f7dc95fec9af0"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/tablice-szyldy-narie-pepsi-kretowiny/": {
     "title": "TABLICE/SZYLDY – NARIE – PEPSI – KRETOWINY",
@@ -146,7 +190,12 @@
     "source_sha256": [
       "2397435f06159b6ffce720f8d564ac344704982adfb276f9af3f2f8f822c040e"
     ],
-    "location": "Kretowiny"
+    "location": "Kretowiny",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/oklejanie-lodzi-ostroda/": {
     "title": "OKLEJANIE ŁODZI – OSTRÓDA",
@@ -159,7 +208,12 @@
     "source_sha256": [
       "c7c35c42954f4da888dd0243f2f3c458255daf33cd0def168a571aaeb3d45d96"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Przy nietypowym projekcie zacznij od opisania celu i miejsca wykorzystania gotowego elementu. Zdjęcia powierzchni, orientacyjne wymiary oraz materiały graficzne pomagają ocenić możliwości wykonania. W pełnej ofercie znajdziesz także oznakowanie lokali, druk i reklamę zewnętrzną, które można połączyć w jednym projekcie.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/reklama-zewnetrzna/"
+    ]
   },
   "/kaseton-tablica-wiking-pepsi-stegna/": {
     "title": "KASETON/TABLICA – WIKING – PEPSI – STEGNA",
@@ -173,7 +227,12 @@
     "source_sha256": [
       "7f8d1063297bd0c1873ef97ed82f5cbd8501e017a9e58aad016ba877def1550b"
     ],
-    "location": "Stegna"
+    "location": "Stegna",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/oklejanie-kontenerow-bujalski-dywity/": {
     "title": "OKLEJANIE KONTENERÓW – BUJALSKI – DYWITY",
@@ -186,7 +245,12 @@
     "source_sha256": [
       "63d9b3a94a58e5ac76ac47c325f9a235c0eb302087f184309fae3287eedbb2f4"
     ],
-    "location": "Dywity"
+    "location": "Dywity",
+    "planning": "Nośnik reklamy zewnętrznej powinien wynikać z miejsca ekspozycji i celu komunikatu. Inne rozwiązanie sprawdzi się przy wejściu do lokalu, inne przy drodze lub na ogrodzeniu. Zdjęcia lokalizacji, planowana treść i orientacyjny format pomogą ustalić, czy wybrać tablicę, baner, szyld czy oznakowanie przestrzenne.",
+    "related_paths": [
+      "/banery/",
+      "/tablice-olsztyn/"
+    ]
   },
   "/tablice-12-jablek-olsztyn/": {
     "title": "TABLICE – 12 JABŁEK – OLSZTYN",
@@ -200,7 +264,12 @@
     "source_sha256": [
       "a07b0a9188a63b754ccec3e6d4b711680d84e72d4ff31d613974eff221b86e8c"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/oklejanie-ciezarowek-koma-olsztyn/": {
     "title": "OKLEJANIE CIĘŻARÓWEK – KOMA – OLSZTYN",
@@ -213,7 +282,12 @@
     "source_sha256": [
       "44fc77c8d2b5bc4dfeb088113425f65d3272c0ea217379e58a52f38b9826e9b4"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy oznakowaniu pojazdu ciężarowego trzeba uwzględnić dużą powierzchnię, podziały zabudowy i widoczność danych z różnych stron. Spójny projekt ułatwia zachowanie tej samej identyfikacji na kolejnych autach we flocie. W zapytaniu prześlij zdjęcia pojazdu, wymiary powierzchni, liczbę aut i materiały graficzne.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/oklejanie-szyb-litery-3d-studio-figura-nowe-miasto-lubawskie/": {
     "title": "OKLEJANIE SZYB/LITERY 3D – STUDIO FIGURA – NOWE MIASTO LUBAWSKIE",
@@ -231,6 +305,11 @@
     "materials": [
       "Czarna folia",
       "Złota pleksi"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/oklejanie-szyb-totalizator-susz/": {
@@ -245,7 +324,12 @@
     "source_sha256": [
       "216f3e1719d13ad0daed63c9e0d30ee791846e8145dec2834059c324191b045a"
     ],
-    "location": "Susz"
+    "location": "Susz",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/litery-3d-swietlne-aligator-olsztyn/": {
     "title": "LITERY 3D ŚWIETLNE – ALIGATOR – OLSZTYN",
@@ -259,7 +343,12 @@
     "source_sha256": [
       "066e7f3e2fe87fbc102eb249cda01b6d25042b574a3a00402016ba1f3338fa07"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/markiza-dwustronna-angelo-lodz/": {
     "title": "MARKIZA DWUSTRONNA – ANGELO – ŁÓDŹ",
@@ -271,7 +360,12 @@
     "source_sha256": [
       "fb9303b221e894ce2b953c4223c3f77117e5ec2d764b6e018aca2c4d2bbacfe3"
     ],
-    "location": "Łódź"
+    "location": "Łódź",
+    "planning": "Przy markizie z logo grafika musi pasować do jej wymiarów, podziałów i sposobu oglądania z ulicy. Warto ustalić, które elementy mają prezentować nazwę lokalu, a które informacje dodatkowe. W zapytaniu podaj miejsce montażu, orientacyjną szerokość i wysięg oraz prześlij zdjęcie elewacji i materiały marki.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/szyldy/"
+    ]
   },
   "/kasetony-neony-szyldy-gok-warminsko-mazurskie/": {
     "title": "KASETONY NEONY SZYLDY – GOK – WARMIŃSKO MAZURSKIE",
@@ -285,7 +379,12 @@
     "source_sha256": [
       "243fa59c3f9f850f24d90e0479c9f29087fccbd5a0ab45bc1d068a2d53e96ae7"
     ],
-    "location": "Województwo warmińsko-mazurskie"
+    "location": "Województwo warmińsko-mazurskie",
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/tablice-szyldy-reklamowe-telbridge-olsztyn/": {
     "title": "TABLICE SZYLDY REKLAMOWE – TELBRIDGE – OLSZTYN",
@@ -298,7 +397,12 @@
     "source_sha256": [
       "90decc32e375302daf9d9f8b1ad7209c3f7948bf10b6e8a0a59d009ce2fbfcf0"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/reklama-swietlna-ortopedzi-olsztyn/": {
     "title": "REKLAMA ŚWIETLNA – ORTOPEDZI – OLSZTYN",
@@ -310,7 +414,12 @@
     "source_sha256": [
       "442d48920a04721317110a44c9ebf2c2722e08749aa0ccce4e221eea9dc03423"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/oklejenie-szyb-folia-szroniona-beauty-spa-olsztyn/": {
     "title": "OKLEJENIE SZYB FOLIA SZRONIONA – BEAUTY SPA – OLSZTYN",
@@ -325,6 +434,11 @@
     "location": "Olsztyn",
     "materials": [
       "Folia szroniona"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/reklama-swietlna-beauty-spa-olsztyn/": {
@@ -337,7 +451,12 @@
     "source_sha256": [
       "ba5597a749cd6938502d85a81844c0699ce7bc0fd3c12a8f5313434110188e0d"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/oklejenie-samochodow-go-steam-morag/": {
     "title": "OKLEJENIE SAMOCHODÓW – GO STEAM- MORĄG",
@@ -349,7 +468,12 @@
     "source_sha256": [
       "fa44cdc52fc47e9925de16ba6dc0a85124d7aed88aa2602cb8b99cd21442e07b"
     ],
-    "location": "Morąg"
+    "location": "Morąg",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/litery-3d-wewnetrzne-itzu-olsztyn/": {
     "title": "LITERY 3D WEWNĘTRZNE – ITZU -OLSZTYN",
@@ -361,7 +485,12 @@
     "source_sha256": [
       "880216cafc213bc5780637805ba990663e2a4e15e997141d675d68987a4822dc"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/litery-reklamowe-amex-baczek-falkonowo/": {
     "title": "LITERY REKLAMOWE – AMEX BĄCZEK – FALKONOWO",
@@ -372,6 +501,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "e2199c26c5883424d4a96d99aa850a820163860d3b87bd1b4067e87d475c2628"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/pylon-reklamowy-amex-baczek-falknowo/": {
@@ -384,6 +518,11 @@
     "service_path": "/pylony/",
     "source_sha256": [
       "134a576a5b41be7ae0c53130c12d508d54f3ae8011ca613d89f7a7cf1809c3d7"
+    ],
+    "planning": "Pylon warto projektować z perspektywy osoby dojeżdżającej do obiektu: liczą się kolejność informacji, wysokość ekspozycji i czytelność kierunku wjazdu. Rozwiązanie konstrukcyjne oraz sposób montażu zależą od konkretnej lokalizacji. Do rozmowy przygotuj zdjęcia terenu, logo, listę treści i orientacyjny format oznakowania.",
+    "related_paths": [
+      "/totemy/",
+      "/tablice-olsztyn/"
     ]
   },
   "/oklejanie-folia-szroniona-balkony-olsztyn/": {
@@ -399,6 +538,11 @@
     "location": "Olsztyn",
     "materials": [
       "Folia szroniona"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/litery-niepodswietlane-3d-kross/": {
@@ -414,6 +558,11 @@
     ],
     "materials": [
       "Styrodur"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/litery-3d-ze-styroduru-warmia-biskupiec/": {
@@ -429,6 +578,11 @@
     "location": "Biskupiec",
     "materials": [
       "Styrodur"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/markiza-z-logo-rybakowka/": {
@@ -443,7 +597,12 @@
     "source_sha256": [
       "0da4a431d30f1ea5e36bb705ef0221ce2686982c46592ad66e3da4943b1f5b90"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy markizie z logo grafika musi pasować do jej wymiarów, podziałów i sposobu oglądania z ulicy. Warto ustalić, które elementy mają prezentować nazwę lokalu, a które informacje dodatkowe. W zapytaniu podaj miejsce montażu, orientacyjną szerokość i wysięg oraz prześlij zdjęcie elewacji i materiały marki.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/szyldy/"
+    ]
   },
   "/markiza-do-restauracji-z-logo-piccantino/": {
     "title": "MARKIZA DO RESTAURACJI Z LOGO – PICCANTINO",
@@ -454,6 +613,11 @@
     "service_path": "/markizy-z-logo/",
     "source_sha256": [
       "c31431c171e4f92629b0cd5a0833c99c639152e6e70da34146b0d8adab896dd1"
+    ],
+    "planning": "Przy markizie z logo grafika musi pasować do jej wymiarów, podziałów i sposobu oglądania z ulicy. Warto ustalić, które elementy mają prezentować nazwę lokalu, a które informacje dodatkowe. W zapytaniu podaj miejsce montażu, orientacyjną szerokość i wysięg oraz prześlij zdjęcie elewacji i materiały marki.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/szyldy/"
     ]
   },
   "/tablica-reklamowa-podwieszana-wabud/": {
@@ -469,6 +633,11 @@
     ],
     "materials": [
       "Kompozyt obustronnie pokryty aluminium"
+    ],
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
     ]
   },
   "/reklama-zewnetrzna-willa-port/": {
@@ -485,6 +654,11 @@
     "location": "Ostróda",
     "materials": [
       "Taśma aluminiowa"
+    ],
+    "planning": "Nośnik reklamy zewnętrznej powinien wynikać z miejsca ekspozycji i celu komunikatu. Inne rozwiązanie sprawdzi się przy wejściu do lokalu, inne przy drodze lub na ogrodzeniu. Zdjęcia lokalizacji, planowana treść i orientacyjny format pomogą ustalić, czy wybrać tablicę, baner, szyld czy oznakowanie przestrzenne.",
+    "related_paths": [
+      "/banery/",
+      "/tablice-olsztyn/"
     ]
   },
   "/baner-reklamowy-doorsy/": {
@@ -496,6 +670,11 @@
     "service_path": "/banery/",
     "source_sha256": [
       "3b9557048841fafe0eeb8d9ce72c20593a189d2820b0a7825109e4254aa8551f"
+    ],
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/siatka-mesh-aquapark-hotel-platinum/": {
@@ -511,6 +690,11 @@
     "location": "Ostróda",
     "materials": [
       "Siatka mesh"
+    ],
+    "planning": "Siatkę mesh dobiera się z uwzględnieniem formatu, miejsca ekspozycji oraz warunków mocowania. Projekt powinien pozostać czytelny mimo perforacji materiału i dużej odległości oglądania. Do zapytania przygotuj wymiary nośnika, zdjęcie konstrukcji i grafikę lub główny komunikat reklamy.",
+    "related_paths": [
+      "/reklama-na-rusztowaniu/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/litery-z-pleksi-hotel-platinum-ostroda/": {
@@ -526,6 +710,11 @@
     "location": "Ostróda",
     "materials": [
       "Pleksi"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/reklama-swietlna-zatorzanka-olsztyn/": {
@@ -538,7 +727,12 @@
     "source_sha256": [
       "cc0b28641eb8b8a07361c6a5421f8c5280bf89a85fa3c23bc88a21479c9c0782"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/oklejanie-szyb-warmia-olsztyn/": {
     "title": "OKLEJANIE SZYB – WARMIA – OLSZTYN",
@@ -550,7 +744,12 @@
     "source_sha256": [
       "5bf38a5757996107c0a4f69cd8766a643eee78558323f358ce90900de8d079d2"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-szyb-warmiolandia-olsztyn/": {
     "title": "OKLEJANIE SZYB – WARMIOLANDIA – OLSZTYN",
@@ -564,7 +763,12 @@
     "source_sha256": [
       "351603d2e78388124623b48acf75ba8d700a93d272c7eaa6c344e9fd06b56a51"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-szyb-yasumi-olsztyn/": {
     "title": "OKLEJANIE SZYB – YASUMI – OLSZTYN",
@@ -576,7 +780,12 @@
     "source_sha256": [
       "c7470c25d60c02822fd71f368fa260f9aa0870da95a17a426cb49c8d234a9f95"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/szyldy-reklama-zewnetrzna-hotel-mikolajki/": {
     "title": "SZYLDY, REKLAMA ZEWNĘTRZNA – HOTEL MIKOŁAJKI",
@@ -588,6 +797,11 @@
     "service_path": "/reklama-zewnetrzna/",
     "source_sha256": [
       "f2a742fac89f1cacb2fdb3af08f41dd0d89a3615016b75caa751c7cb1addfa63"
+    ],
+    "planning": "Nośnik reklamy zewnętrznej powinien wynikać z miejsca ekspozycji i celu komunikatu. Inne rozwiązanie sprawdzi się przy wejściu do lokalu, inne przy drodze lub na ogrodzeniu. Zdjęcia lokalizacji, planowana treść i orientacyjny format pomogą ustalić, czy wybrać tablicę, baner, szyld czy oznakowanie przestrzenne.",
+    "related_paths": [
+      "/banery/",
+      "/tablice-olsztyn/"
     ]
   },
   "/litery-niepodswietlane-gifts-shop-olsztyn/": {
@@ -600,7 +814,12 @@
     "source_sha256": [
       "5ea4af62c41e3df580280ff0d9b551b8a27055f5fc1b3d5b5100fe148f28afd9"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/druk-wielkoformatowy-grupa-anders-mazury/": {
     "title": "DRUK WIELKOFORMATOWY – GRUPA ANDERS – MAZURY",
@@ -612,6 +831,11 @@
     "service_path": "/reklama-na-rusztowaniu/",
     "source_sha256": [
       "46386f0cdd6189980209670b2f0dcdfa25cfb24f6a540063c065d4bdb7cb2bd1"
+    ],
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/szyldy-reklamowe-apro-nieruchomosci-olsztyn/": {
@@ -625,7 +849,12 @@
     "source_sha256": [
       "64df04a73382ed506ae406de0f0b77bc6a2134c283f7ff84b47737a3d338516d"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
+    ]
   },
   "/druk-wielkoformatowy-kurpiowska-kraina-podlasie/": {
     "title": "DRUK WIELKOFORMATOWY – KURPIOWSKA KRAINA – PODLASIE",
@@ -640,6 +869,11 @@
     ],
     "materials": [
       "Wzmacniany baner powlekany"
+    ],
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/kaseton-reklamowy-bar-familijny-olsztyn/": {
@@ -652,7 +886,12 @@
     "source_sha256": [
       "070cac75bc3d576625ae70642b91918a13cffeb551f6e40794556edca0d36c49"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/reklama-swietlna-kolster-olsztyn/": {
     "title": "REKLAMA ŚWIETLNA – KOLSTER – OLSZTYN",
@@ -670,6 +909,11 @@
     "materials": [
       "Taśma aluminiowa",
       "Moduły LED"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/litery-swietlne-after-dark-hotel-mikolajki/": {
@@ -685,6 +929,11 @@
     "location": "Mikołajki",
     "materials": [
       "Taśma aluminiowa"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/kaseton-reklamowy-olsztyn-fish-bar/": {
@@ -701,6 +950,11 @@
     "location": "Olsztyn",
     "materials": [
       "Materiał kompozytowy z połyskiem"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/litery-3d-swietlne-hotel-mikolajki/": {
@@ -719,6 +973,11 @@
     "materials": [
       "Taśma aluminiowa",
       "Moduły LED"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/reklamy-swietlne-resto-bar-gdynia/": {
@@ -731,7 +990,12 @@
     "source_sha256": [
       "dda404cba7c0f565ade3c7e01143d40c649e9af4d0fa61bee7ecc524effd9ace"
     ],
-    "location": "Gdynia"
+    "location": "Gdynia",
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/reklamy-na-rusztowaniach-ikotly-com-pl-gizycko/": {
     "title": "Reklamy na rusztowaniach – ikotly.com.pl – Giżycko",
@@ -743,7 +1007,12 @@
     "source_sha256": [
       "6d5d83f8320be32f90e1a2af463d4cb567565da2589df0897b28eadef38d64c9"
     ],
-    "location": "Giżycko"
+    "location": "Giżycko",
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/reklama-na-rusztowaniu-mlp-poznan/": {
     "title": "Reklama na Rusztowaniu – MLP – Poznań",
@@ -755,7 +1024,12 @@
     "source_sha256": [
       "a93b5dff4a95ed02415693e88e0974cc42b5141cbb22d002334f29ea0cfa2d0f"
     ],
-    "location": "Poznań"
+    "location": "Poznań",
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/kaseton-restauracja-biala-pepsi-nidzica/": {
     "title": "Kaseton – Restauracja Biała – Pepsi – Nidzica",
@@ -769,7 +1043,12 @@
     "source_sha256": [
       "2600bbcc24bcc4eb0b7f8af2c09229922fb013ecdfd1069abff062e2de9acf7c"
     ],
-    "location": "Nidzica"
+    "location": "Nidzica",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/oklejanie-szyb-folia-apartamenty-opera-olsztyn/": {
     "title": "Oklejanie szyb folią – APARTAMENTY OPERA – Olsztyn",
@@ -782,7 +1061,12 @@
     "source_sha256": [
       "adf1221e8ba0ffb9a62f6625f03b95c670f4615bd2b25abc3670c2ec36ebe6f4"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-szyb-timac-cargo-czerwinsk/": {
     "title": "Oklejanie szyb – Timac Cargo – Czerwińsk",
@@ -794,7 +1078,12 @@
     "source_sha256": [
       "6852b1e7e76038b6500fff3c161a194181ad73641e3a66aa54e8d560ad08f555"
     ],
-    "location": "Czerwińsk"
+    "location": "Czerwińsk",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/kasetony-tablice-panda-wok-pepsi-gdynia/": {
     "title": "Kasetony/Tablice – PANDA WOK – PEPSI – GDYNIA",
@@ -808,7 +1097,12 @@
     "source_sha256": [
       "36b56f1a1ca6ed5820dc7c80d4043f683f7f2f625619786d3385bd7ef1f27ed9"
     ],
-    "location": "Gdynia"
+    "location": "Gdynia",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/baner-na-stelazu-solar-squad-olsztyn/": {
     "title": "Baner na stelażu – SOLAR SQUAD – Olsztyn",
@@ -821,7 +1115,12 @@
     "source_sha256": [
       "65e3b33a2cc5494b74449bd67f121bbecdbf6752029998df15a267d4d9550afe"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/oklejanie-samochodow-dostawczych-ater-logic-olsztyn/": {
     "title": "Oklejanie samochodów dostawczych – ATER LOGIC – OLSZTYN",
@@ -834,7 +1133,12 @@
     "source_sha256": [
       "f15b2b23d29019608df18e3404be7ef193465dd6adb4b61c114fe9cb65987d53"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/kaseton-pfu-wiener-torun/": {
     "title": "Kaseton – PFU WIENER – TORUŃ",
@@ -851,6 +1155,11 @@
     "location": "Toruń",
     "materials": [
       "Moduły LED"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/druk-wielkoformatowy-unilink-olsztyn/": {
@@ -863,7 +1172,12 @@
     "source_sha256": [
       "5a67bdc7b7e5ce3670fc3fad90a63c0a5ebc3addda37cb642fc95cd19bb38b56"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Do druku wielkoformatowego plik trzeba przygotować pod konkretny wymiar i sposób wykończenia. Dobór podłoża zależy od powierzchni aplikacji oraz tego, czy wydruk będzie używany wewnątrz czy na zewnątrz. W zapytaniu podaj format, liczbę sztuk i miejsce ekspozycji oraz dołącz projekt do sprawdzenia.",
+    "related_paths": [
+      "/banery/",
+      "/oklejanie-szyb/"
+    ]
   },
   "/banery-willbud-trojmiasto/": {
     "title": "Banery – Willbud – Trójmiasto",
@@ -876,7 +1190,12 @@
     "source_sha256": [
       "85a2f5c147d94c4ffc558f04cd5171927edc0cd618cafc88607ef5f454a22664"
     ],
-    "location": "Rumia"
+    "location": "Rumia",
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/oklejanie-samochodow-hotel-anders-stare-jablonki/": {
     "title": "Oklejanie Samochodów – Hotel Anders – Stare Jabłonki",
@@ -889,7 +1208,12 @@
     "source_sha256": [
       "afe251117156c78e27ee5c6b0190ea00d14d39a563c33d5ad3abfedaf7bbe2b2"
     ],
-    "location": "Stare Jabłonki"
+    "location": "Stare Jabłonki",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/reklama-na-rusztowaniu-palac-warlity-olsztynek/": {
     "title": "Reklama na Rusztowaniu – PAŁAC WARLITY – Olsztynek",
@@ -903,7 +1227,12 @@
     "source_sha256": [
       "78ef01d0019ee0bd699e639dbc2bcf744ae373dab090e5d68d666d12e4351b54"
     ],
-    "location": "Okolice Olsztynka"
+    "location": "Okolice Olsztynka",
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/litery-niepodswietlane-zsb-w-olsztynie-olsztyn/": {
     "title": "Litery niepodświetlane – ZSB w Olsztynie – Olsztyn",
@@ -919,6 +1248,11 @@
     "location": "Olsztyn",
     "materials": [
       "Srebrny dibond szczotkowany"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/reklamy-swietlne-londonshoes-olsztyn/": {
@@ -932,7 +1266,12 @@
     "source_sha256": [
       "68b098c9b06876175b8f53de7cd0c381d289d589b525f1b30273b662d4f21e52"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/neony-cooltura-pepsi-gdansk/": {
     "title": "Neony – Cooltura – PEPSI – GDAŃSK",
@@ -945,7 +1284,12 @@
     "source_sha256": [
       "ffe29213740f1c2691047991a27c64df758b2cb5ad8474689fe0078a03558031"
     ],
-    "location": "Gdańsk"
+    "location": "Gdańsk",
+    "planning": "Projekt neonu powinien uwzględniać czytelność znaku, kolor światła i miejsce prowadzenia przewodu zasilającego. Na etapie przygotowania warto sprawdzić, czy detale logo zachowają właściwe proporcje w wybranym formacie. Prześlij grafikę, orientacyjne wymiary i zdjęcie miejsca ekspozycji, aby omówić możliwe wykonanie.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/kaseton-reklamowy-malta-cafe-coca-cola-olsztyn/": {
     "title": "Kaseton reklamowy – Malta Cafe – Coca-Cola – Olsztyn",
@@ -958,7 +1302,12 @@
     "source_sha256": [
       "0bc9d7d72c2db05ac75634a2378a83bd50783d5429292e734acaaf580751765e"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/reklama-na-rusztowaniu-adams-gizycko/": {
     "title": "Reklama na rusztowaniu – ADAMS – Giżycko",
@@ -971,7 +1320,12 @@
     "source_sha256": [
       "87c9c85720ca5c0e4c8d15ebaf547fc1497a51ca6046d04f4ec5e4749baf5e40"
     ],
-    "location": "Giżycko"
+    "location": "Giżycko",
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/tablice-reklamowe-smart-automation-olsztyn/": {
     "title": "Tablice Reklamowe – SMART AUTOMATION – Olsztyn",
@@ -984,7 +1338,12 @@
     "source_sha256": [
       "212ca5a5086baa3b07eea7fefc35facf7d29e5ea4ca9ba39b4a552bb0589a2c5"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/oklejanie-szyb-totalizator-olsztyn/": {
     "title": "Oklejanie szyb – Totalizator – Olsztyn",
@@ -997,7 +1356,12 @@
     "source_sha256": [
       "c66a6bad5b48fc4009a1dbcf209c4846b6c9a576b37a0e90191e49493f5c73fd"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/kasetony-reklamowe-itzu-olsztyn/": {
     "title": "Kasetony Reklamowe – ITZU – Olsztyn",
@@ -1010,7 +1374,12 @@
     "source_sha256": [
       "331741bfd6c297facb98516367273510819903f71ab38c41399a67570d560828"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/szyld-reklamowy-polmed-olsztyn/": {
     "title": "Szyld Reklamowy – POLMED – Olsztyn",
@@ -1023,7 +1392,12 @@
     "source_sha256": [
       "0549c9092d35df692c954fc935940d9b612a7fc0c8af52954408e5e7f973382d"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
+    ]
   },
   "/oklejanie-samochodow-barton-olsztyn/": {
     "title": "Oklejanie samochodów – BARTON – Olsztyn",
@@ -1036,7 +1410,12 @@
     "source_sha256": [
       "2de88c50ff4fc19281718877c822892e2be7ae1928e4694a575ba6bba912e02d"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/oklejanie-samochodow-miedza-olsztyn/": {
     "title": "Oklejanie samochodów – MIEDZA – Olsztyn",
@@ -1049,7 +1428,12 @@
     "source_sha256": [
       "5aee2d1ba7fb866a2fed09ec01ef353657344e10bc2b9780137d10e2bbf192cd"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/oklejanie-szyb-chemia-olsztyn/": {
     "title": "Oklejanie Szyb – CHEMIA – Olsztyn",
@@ -1063,7 +1447,12 @@
     "source_sha256": [
       "239bb87efb0cd4da46553cba9e506343066c53d4cc0ab37b580b7f0864f36797"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-samochodow-nutrena-jeziorany/": {
     "title": "Oklejanie samochodów – Nutrena – Jeziorany",
@@ -1075,7 +1464,12 @@
     "source_sha256": [
       "31e8282e898974cfb3bab0d91bb03dad8ff430dfef0326d52c3b95df20baeeff"
     ],
-    "location": "Jeziorany"
+    "location": "Jeziorany",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/kasetony-frezowane-z-wystajaca-plexi-aligator-olsztyn/": {
     "title": "KASETONY FREZOWANE z wystającą PLEXI – ALIGATOR – OLSZTYN",
@@ -1091,6 +1485,11 @@
     "location": "Olsztyn",
     "materials": [
       "Pleksi"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/kaseton-frezowany-litery-3d-investor-ostroda/": {
@@ -1104,7 +1503,12 @@
     "source_sha256": [
       "d7672f4fab5f600d8204e059541f3067605e6d70202f00f6d19667b796654911"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
+    ]
   },
   "/stacja-paliw-falco/": {
     "title": "STACJA PALIW FALCO",
@@ -1117,6 +1521,11 @@
     "service_path": "/reklama-zewnetrzna/",
     "source_sha256": [
       "0a0ec385704a5561cdd6b1965148e31f9228b4ee5f91da2173bab2a98e440c43"
+    ],
+    "planning": "Nośnik reklamy zewnętrznej powinien wynikać z miejsca ekspozycji i celu komunikatu. Inne rozwiązanie sprawdzi się przy wejściu do lokalu, inne przy drodze lub na ogrodzeniu. Zdjęcia lokalizacji, planowana treść i orientacyjny format pomogą ustalić, czy wybrać tablicę, baner, szyld czy oznakowanie przestrzenne.",
+    "related_paths": [
+      "/banery/",
+      "/tablice-olsztyn/"
     ]
   },
   "/reklama-mobilna-lidl/": {
@@ -1130,7 +1539,12 @@
     "source_sha256": [
       "1d9d585f8fc1f53ad98eed0e6e76a60853fa557ddceb7ba755e27b2e2d318c08"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W reklamie mobilnej przekaz musi być zrozumiały także przy krótkim kontakcie z odbiorcą. Format oraz ilość tekstu warto dopasować do konkretnego nośnika i sposobu jego użytkowania. Zdjęcie nośnika, wymiary i najważniejsza informacja o ofercie pomogą omówić projekt oraz produkcję grafiki.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/banery/"
+    ]
   },
   "/tablica-podswietlana-piekne-okno/": {
     "title": "Tablica podświetlana - Piękne Okno",
@@ -1143,6 +1557,11 @@
     "service_path": "/reklamy-swietlne/",
     "source_sha256": [
       "a0b971e44bc0065c264469e0383a64b3efd7d181dc9a064f68a23a4bc89864e8"
+    ],
+    "planning": "Projekt oznakowania świetlnego warto ocenić zarówno w dzień, jak i po zmroku. Dobór formy reklamy zależy od elewacji, sąsiednich szyldów i warunków zasilania. Zdjęcie budynku, logo i orientacyjny format pomogą porozmawiać o literach, kasetonie lub innym rozwiązaniu dopasowanym do miejsca.",
+    "related_paths": [
+      "/kasetony-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/tablice-informacyjne-cezal/": {
@@ -1156,7 +1575,12 @@
     "source_sha256": [
       "455e6bb8b9610e6f496bdd2bb33601eedb2d5d4607ad02155a3b1c53a94806cd"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W systemie tabliczek istotne są spójne nazwy, hierarchia informacji i łatwe rozpoznanie kierunku. Format oraz sposób mocowania warto dopasować do ścian, drzwi i warunków korzystania z obiektu. Przygotuj listę treści, liczbę elementów i zdjęcia miejsc montażu, aby omówić jednolite oznakowanie.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/szyldy/"
+    ]
   },
   "/fototapeta-pup-szczytno/": {
     "title": "fototapeta PUP SZCZYTNO",
@@ -1170,7 +1594,12 @@
     "source_sha256": [
       "25c3f0a617164ffdb81115b853197e3c0465f9e62330fbb5cf0035dcf61df33a"
     ],
-    "location": "Szczytno"
+    "location": "Szczytno",
+    "planning": "Projekt fototapety należy dopasować do dokładnych wymiarów ściany oraz rozmieszczenia drzwi, mebli i innych elementów wnętrza. Znaczenie mają też jakość pliku i stan powierzchni przed aplikacją. Przygotuj wymiary ściany, jej zdjęcie i wybraną grafikę, aby omówić podział wydruku oraz zakres realizacji.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/"
+    ]
   },
   "/oklejanie-szyb-totalizator/": {
     "title": "Oklejanie szyb - Totalizator",
@@ -1182,6 +1611,11 @@
     "service_path": "/oklejanie-szyb/",
     "source_sha256": [
       "28c893d59d7b2cf62b04542a93a5a92e457f7a39032cd9351794ee4e3e4137cc"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/fototapety-hotel-anders/": {
@@ -1195,6 +1629,11 @@
     "service_path": "/fototapety/",
     "source_sha256": [
       "565b610e4720d1db07e55afdd8856eddac5a6651ce920d26370b3648325d2e1b"
+    ],
+    "planning": "Projekt fototapety należy dopasować do dokładnych wymiarów ściany oraz rozmieszczenia drzwi, mebli i innych elementów wnętrza. Znaczenie mają też jakość pliku i stan powierzchni przed aplikacją. Przygotuj wymiary ściany, jej zdjęcie i wybraną grafikę, aby omówić podział wydruku oraz zakres realizacji.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/"
     ]
   },
   "/tablica-arena-ostroda/": {
@@ -1208,7 +1647,12 @@
     "source_sha256": [
       "16592ada50b4f2a91402919a71c41b216ed0077e46bf1f642bfe7f17681df198"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/litery-3d-artwood/": {
     "title": "LITERY 3D - ARTWOOD",
@@ -1220,6 +1664,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "fa78995febdb07c4faa1ba22e06bd1d6ac44b75d666f2b7f85660e9193167555"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/siatka-mesh-ozgraf/": {
@@ -1237,6 +1686,11 @@
     "location": "Olsztyn",
     "materials": [
       "Siatka mesh"
+    ],
+    "planning": "Siatkę mesh dobiera się z uwzględnieniem formatu, miejsca ekspozycji oraz warunków mocowania. Projekt powinien pozostać czytelny mimo perforacji materiału i dużej odległości oglądania. Do zapytania przygotuj wymiary nośnika, zdjęcie konstrukcji i grafikę lub główny komunikat reklamy.",
+    "related_paths": [
+      "/reklama-na-rusztowaniu/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/folia-szroniona-witryna-kancelarii/": {
@@ -1251,6 +1705,11 @@
     ],
     "materials": [
       "Folia szroniona"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/litery-3d-delphia/": {
@@ -1262,6 +1721,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "185c605f6cfb03009795bfaee429468a66ea862152e6de58478180fb0fe0fff1"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/oklejanie-samochodu-dunaj/": {
@@ -1274,6 +1738,11 @@
     "service_path": "/oklejanie-samochodow/",
     "source_sha256": [
       "e498777f25118d6e6a28ef58cc2117007bebd1f05842e422a5efd10f91c933b5"
+    ],
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/litery-plexi-poradnia-psychologiczna/": {
@@ -1288,6 +1757,11 @@
     ],
     "materials": [
       "Pleksi"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/beczki-reklamowe-pepsi/": {
@@ -1304,6 +1778,11 @@
     "materials": [
       "Beczki stalowe",
       "Folia do oklejenia"
+    ],
+    "planning": "Przy beczce reklamowej liczą się proporcje logo, kolorystyka i sposób wykorzystania gotowego elementu. Oznakowanie można zaplanować z myślą o lokalu, wydarzeniu lub przestrzeni promocyjnej. W zapytaniu określ liczbę sztuk, preferowany wariant beczki i miejsce użytkowania oraz dołącz logo i wytyczne graficzne.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/reklama-zewnetrzna/"
     ]
   },
   "/litery-3d-leinster/": {
@@ -1315,6 +1794,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "33d4c7f2476d69cfc45b10f9fc57073f78815701b39fe19a725636ce6589b3af"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/litery-3d-liva-park/": {
@@ -1328,6 +1812,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "07a41a59f86d659e38bff129bddbccd1d1bc5617063cff56dd9828775aafd1a1"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/megaboard-caterpillar/": {
@@ -1340,6 +1829,11 @@
     "service_path": "/reklama-na-rusztowaniu/",
     "source_sha256": [
       "afbee0e7cdd274260a0b19c0a538045fde4e64354b0c49001496a56d307cd509"
+    ],
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/fototapeta-olsztyn/": {
@@ -1354,7 +1848,12 @@
     "source_sha256": [
       "bdc3702989071bd50691cc6d425e838c62e70b0a13431baee5753213cb90dc7b"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Projekt fototapety należy dopasować do dokładnych wymiarów ściany oraz rozmieszczenia drzwi, mebli i innych elementów wnętrza. Znaczenie mają też jakość pliku i stan powierzchni przed aplikacją. Przygotuj wymiary ściany, jej zdjęcie i wybraną grafikę, aby omówić podział wydruku oraz zakres realizacji.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/"
+    ]
   },
   "/oklejenie-samochodu-czas-na-pudelko/": {
     "title": "Oklejenie samochodu - Czas na pudełko",
@@ -1366,6 +1865,11 @@
     "service_path": "/oklejanie-samochodow/",
     "source_sha256": [
       "a990195b572bfc287ff0fc4864f98b36625d5552fc96e3a1e1a1c108833fcda9"
+    ],
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/oklejenie-szyb-studio-figura/": {
@@ -1384,6 +1888,11 @@
     "materials": [
       "Folia szroniona",
       "Biała i czarna folia"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/megaboard-moya/": {
@@ -1396,6 +1905,11 @@
     "service_path": "/reklama-na-rusztowaniu-2/",
     "source_sha256": [
       "f615aa981e4b6a86b9635c08f293555ec6700fdbb9997ac48356b031a5e67a95"
+    ],
+    "planning": "Duży format wymaga oszczędnego układu treści i grafiki przygotowanej do oglądania z dystansu. Przed produkcją trzeba ustalić wymiary, konstrukcję nośną i sposób montażu. W zapytaniu o podobny megaboard podaj lokalizację, zdjęcia terenu i dostępny format, aby omówić projekt, druk oraz warunki realizacji.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/megaboard-palac-warlity/": {
@@ -1408,6 +1922,11 @@
     "service_path": "/reklama-na-rusztowaniu/",
     "source_sha256": [
       "5c40f1d5f63e0a548d787c4f6b1773a783963dada1b9bb5a92f65ee2344c9a23"
+    ],
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/przyczepa-reklamowa-lidl/": {
@@ -1421,7 +1940,12 @@
     "source_sha256": [
       "97b4864201e3fc920553a57ec4589e88fa1e2d5313cc6371234cb326044679da"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W reklamie mobilnej przekaz musi być zrozumiały także przy krótkim kontakcie z odbiorcą. Format oraz ilość tekstu warto dopasować do konkretnego nośnika i sposobu jego użytkowania. Zdjęcie nośnika, wymiary i najważniejsza informacja o ofercie pomogą omówić projekt oraz produkcję grafiki.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/banery/"
+    ]
   },
   "/oklejenie-ciezarowki-indykpol/": {
     "title": "Oklejenie ciężarówki - INDYKPOL Olsztyn",
@@ -1434,7 +1958,12 @@
     "source_sha256": [
       "c2a9439f34ee646502e36387c33322dc8c8b5ec450379705c675073580676333"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy oznakowaniu pojazdu ciężarowego trzeba uwzględnić dużą powierzchnię, podziały zabudowy i widoczność danych z różnych stron. Spójny projekt ułatwia zachowanie tej samej identyfikacji na kolejnych autach we flocie. W zapytaniu prześlij zdjęcia pojazdu, wymiary powierzchni, liczbę aut i materiały graficzne.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/kaseton-vinylowy-jawor-parkiet/": {
     "title": "Kaseton vinylowy - JAWOR-PARKIET",
@@ -1448,6 +1977,11 @@
     ],
     "materials": [
       "Lico winylowe"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/szyld-mpz-w-barczewie/": {
@@ -1460,7 +1994,12 @@
     "source_sha256": [
       "460e4c566da4f62b1cbe82cffe6d123f9dae911bafaae71b08cacbb54895e04d"
     ],
-    "location": "Barczewo"
+    "location": "Barczewo",
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
+    ]
   },
   "/tablica-barton/": {
     "title": "Tablica Reklamowa - BARTON Olsztyn",
@@ -1472,7 +2011,12 @@
     "source_sha256": [
       "1053599c9cccfa668aa6e729cd12a7e4e51f33a4233108745c3069f63c1058b3"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Dobrze zaplanowana tablica porządkuje informację: kto działa w danym miejscu, co oferuje i jak do niego trafić. Wybór podłoża i układu treści zależy od formatu, warunków ekspozycji oraz sposobu montażu. Przygotuj zdjęcie lokalizacji, wymiary i treść oznakowania, aby porównać warianty dla swojej firmy.",
+    "related_paths": [
+      "/szyldy/",
+      "/tabliczki-informacyjne/"
+    ]
   },
   "/litery-3d-michelin/": {
     "title": "LITERY 3D - MICHELIN Olsztyn",
@@ -1485,7 +2029,12 @@
     "source_sha256": [
       "fa131b24840d8b5180701c3abc74f04590a0f7e9259b2f2bb54c494839a26fa1"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/pylony-ergo-arena/": {
     "title": "Pylony - Reklamy Świetlne",
@@ -1498,6 +2047,11 @@
     "service_path": "/pylony/",
     "source_sha256": [
       "b77c08da7a5797bcb70bb36f0890a9f850ce64e1e98b00f925082706319e6500"
+    ],
+    "planning": "Pylon warto projektować z perspektywy osoby dojeżdżającej do obiektu: liczą się kolejność informacji, wysokość ekspozycji i czytelność kierunku wjazdu. Rozwiązanie konstrukcyjne oraz sposób montażu zależą od konkretnej lokalizacji. Do rozmowy przygotuj zdjęcia terenu, logo, listę treści i orientacyjny format oznakowania.",
+    "related_paths": [
+      "/totemy/",
+      "/tablice-olsztyn/"
     ]
   },
   "/litery-3d-motodoktor/": {
@@ -1510,6 +2064,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "d2b8eef341e07ac074a41594579c5946b62bb20cfb506f24423a9a90d97f3d3c"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/kaseton-reklamowy-rapido/": {
@@ -1521,6 +2080,11 @@
     "service_path": "/kasetony-swietlne/",
     "source_sha256": [
       "3fef85d26b5ca8d1a9e7b398680f8e5b99dee6168cdc18c227c395c784c154d0"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/boch-bau-oklejanie-samochodow-ostroda/": {
@@ -1534,7 +2098,12 @@
     "source_sha256": [
       "33ed96a43c7e7d741a374b0967a7c36b0aab396feffffa4ce82ffcd170364633"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/beczki-reklamowe-moto-leader/": {
     "title": "Beczki reklamowe - MOTO LEADER",
@@ -1550,6 +2119,11 @@
     "materials": [
       "Beczki stalowe",
       "Folia do oklejenia"
+    ],
+    "planning": "Przy beczce reklamowej liczą się proporcje logo, kolorystyka i sposób wykorzystania gotowego elementu. Oznakowanie można zaplanować z myślą o lokalu, wydarzeniu lub przestrzeni promocyjnej. W zapytaniu określ liczbę sztuk, preferowany wariant beczki i miejsce użytkowania oraz dołącz logo i wytyczne graficzne.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/reklama-zewnetrzna/"
     ]
   },
   "/oklejanie-busa-dla-zsr-ostroda/": {
@@ -1562,7 +2136,12 @@
     "source_sha256": [
       "b896dbd20a7cfb1794b982e6f70997cb255271958f21c82825699a62ad2d8f8b"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/litery-3d-w-olsztynie-logo-doritos/": {
     "title": "LITERY 3D w Olsztynie - LOGO DORITOS",
@@ -1574,6 +2153,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "f7a4d66860104d7ed5aeab3f788d26e4cb300bc8e690a3051be7ab58566c120f"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/lotto-witryna-ostroda/": {
@@ -1585,6 +2169,11 @@
     "service_path": "/oklejanie-szyb/",
     "source_sha256": [
       "5e0844de2cd4e956d845f094ff6109a1f131652192e3e9369cc93f054d0a7c7a"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/oklejanie-autobusu-olsztyn/": {
@@ -1597,7 +2186,12 @@
     "source_sha256": [
       "145f2f088b17ac720834453cad242d2e93824d6d95f77ad3ed09f99cc394da0c"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Projekt reklamy autobusowej musi uwzględniać układ szyb, drzwi oraz elementów nadwozia. Najważniejsze informacje powinny pozostać czytelne przy dużej skali i krótkim czasie kontaktu z pojazdem. W zapytaniu podaj model autobusu, liczbę pojazdów i zakres powierzchni do oklejenia oraz dołącz zdjęcia i materiały marki.",
+    "related_paths": [
+      "/oklejanie-samochodow/",
+      "/oklejanie-samochodow-ciezarowych/"
+    ]
   },
   "/senpo-kaseton-vinylowy-olsztyn/": {
     "title": "SENPO - kaseton vinylowy olsztyn",
@@ -1612,6 +2206,11 @@
     "location": "Olsztyn",
     "materials": [
       "Lico winylowe"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   },
   "/litery-3d-mpec-morag/": {
@@ -1625,7 +2224,12 @@
     "source_sha256": [
       "ff30fa7b5e46f3a5500d295b8c393f4da47181d5da67d3e22e1e27e303144545"
     ],
-    "location": "Morąg"
+    "location": "Morąg",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/eubioco-pylon-olsztyn/": {
     "title": "EUBIOCO - pylon olsztyn",
@@ -1638,7 +2242,12 @@
     "source_sha256": [
       "c6fd20c1f1ed875c007208a0d80baaa4574929889c3d1c3dbefe9ffc4d5e33e6"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Pylon warto projektować z perspektywy osoby dojeżdżającej do obiektu: liczą się kolejność informacji, wysokość ekspozycji i czytelność kierunku wjazdu. Rozwiązanie konstrukcyjne oraz sposób montażu zależą od konkretnej lokalizacji. Do rozmowy przygotuj zdjęcia terenu, logo, listę treści i orientacyjny format oznakowania.",
+    "related_paths": [
+      "/totemy/",
+      "/tablice-olsztyn/"
+    ]
   },
   "/agaplast-litery-3d-olsztyn/": {
     "title": "AGAPLAST - Litery 3D olsztyn",
@@ -1651,7 +2260,12 @@
     "source_sha256": [
       "e4f5d0ab02489e75b4e8ce96863bc815316c7f37ce64c484cd823cf79f373cf7"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/mazurskie-miody-fototapety-olsztyn/": {
     "title": "MAZURSKIE MIODY - fototapety olsztyn",
@@ -1663,6 +2277,11 @@
     "service_path": "/fototapety/",
     "source_sha256": [
       "307378ec195e3b017f8b3470b39df23069f556535596038346a1d5211e00d1e4"
+    ],
+    "planning": "Projekt fototapety należy dopasować do dokładnych wymiarów ściany oraz rozmieszczenia drzwi, mebli i innych elementów wnętrza. Znaczenie mają też jakość pliku i stan powierzchni przed aplikacją. Przygotuj wymiary ściany, jej zdjęcie i wybraną grafikę, aby omówić podział wydruku oraz zakres realizacji.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/"
     ]
   },
   "/lgss-oklejanie-samochodu-ostroda/": {
@@ -1675,6 +2294,11 @@
     "service_path": "/oklejanie-samochodow/",
     "source_sha256": [
       "1596f3090f3c53613fab88ef163d52c888eb210f1f3e6ae551b444d0b34a2342"
+    ],
+    "planning": "Reklama na aucie powinna pozostać czytelna w ruchu i po zaparkowaniu. Projekt warto oprzeć na krótkiej informacji o ofercie, nazwie firmy i najważniejszym kontakcie, uwzględniając przetłoczenia oraz podziały karoserii. W zapytaniu podaj markę, model i rocznik pojazdu oraz prześlij jego zdjęcia i logo.",
+    "related_paths": [
+      "/oklejanie-samochodow-ciezarowych/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/fototapety-sp1-i-sp4-ostroda/": {
@@ -1687,7 +2311,12 @@
     "source_sha256": [
       "fdd9c790c990a7c3ef9feff964f349c4fe4bf63af1a12e5b03916d1e5d335b02"
     ],
-    "location": "Ostróda"
+    "location": "Ostróda",
+    "planning": "Projekt fototapety należy dopasować do dokładnych wymiarów ściany oraz rozmieszczenia drzwi, mebli i innych elementów wnętrza. Znaczenie mają też jakość pliku i stan powierzchni przed aplikacją. Przygotuj wymiary ściany, jej zdjęcie i wybraną grafikę, aby omówić podział wydruku oraz zakres realizacji.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/oklejanie-szyb/"
+    ]
   },
   "/szyldy-reklamowe-spolem-warszawa/": {
     "title": "Szyldy reklamowe - Społem - Warszawa",
@@ -1699,7 +2328,12 @@
     "source_sha256": [
       "35f9bcaa344fba63fa453004ef968bb349d0b502f5405915a05dc108322bd329"
     ],
-    "location": "Warszawa"
+    "location": "Warszawa",
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
+    ]
   },
   "/litery-frezowane-z-dibondu-dla-osp/": {
     "title": "Litery frezowane z dibondu dla OSP",
@@ -1715,6 +2349,11 @@
     "location": "Długi Borek",
     "materials": [
       "Dibond"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/litery-3d-ippon-group/": {
@@ -1727,7 +2366,12 @@
     "source_sha256": [
       "8430a224713b6360d78a707ffbfe26a7f6b30692c2e97fec5299f8ec13fcd81e"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
+    ]
   },
   "/litery-3d-makurat-invest/": {
     "title": "Litery 3D MAKURAT INVEST",
@@ -1738,6 +2382,11 @@
     "service_path": "/litery-3d/",
     "source_sha256": [
       "1b8cdccbe76483e27664c4ca133f4fce08f53d4b5a5fca2c45011cca6f3a8799"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/banery-mcdonald/": {
@@ -1751,7 +2400,12 @@
     "source_sha256": [
       "89e4b8ec606592b79fd3e83862c1b859db50497f99f16e84215b0bf1a01d6384"
     ],
-    "location": "Okolice Olsztyna"
+    "location": "Okolice Olsztyna",
+    "planning": "W banerze najważniejsza jest jedna wiadomość czytelna z planowanej odległości. Format grafiki, materiał, wykończenie krawędzi i rozmieszczenie oczek należy ustalić z myślą o konkretnym miejscu ekspozycji. Do zapytania dołącz wymiary, liczbę sztuk, zdjęcie miejsca mocowania oraz projekt lub tekst do opracowania.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/drukarnia-wielkoformatowa/"
+    ]
   },
   "/litery-niepodswietlane-kolster/": {
     "title": "Litery niepodświetlane - Kolster Olsztyn",
@@ -1766,6 +2420,11 @@
     "location": "Olsztyn",
     "materials": [
       "Dibond"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/banery-na-rusztowaniu-harmony-group/": {
@@ -1780,7 +2439,12 @@
     "source_sha256": [
       "63982403466b39c3b4d38f3cdaad60a3698b528a98e1fcc8b35da8c33d0d27f5"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
+    ]
   },
   "/beczki-aioli/": {
     "title": "BECZKI - AIOLI",
@@ -1795,6 +2459,11 @@
     ],
     "materials": [
       "Beczki stalowe"
+    ],
+    "planning": "Przy beczce reklamowej liczą się proporcje logo, kolorystyka i sposób wykorzystania gotowego elementu. Oznakowanie można zaplanować z myślą o lokalu, wydarzeniu lub przestrzeni promocyjnej. W zapytaniu określ liczbę sztuk, preferowany wariant beczki i miejsce użytkowania oraz dołącz logo i wytyczne graficzne.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/reklama-zewnetrzna/"
     ]
   },
   "/beczki-drewniane-pepsi/": {
@@ -1810,6 +2479,11 @@
     ],
     "materials": [
       "Drewno"
+    ],
+    "planning": "Przy beczce reklamowej liczą się proporcje logo, kolorystyka i sposób wykorzystania gotowego elementu. Oznakowanie można zaplanować z myślą o lokalu, wydarzeniu lub przestrzeni promocyjnej. W zapytaniu określ liczbę sztuk, preferowany wariant beczki i miejsce użytkowania oraz dołącz logo i wytyczne graficzne.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/reklama-zewnetrzna/"
     ]
   },
   "/beczki-z-siedziskami/": {
@@ -1823,6 +2497,11 @@
     "source_sha256": [
       "6d644615c5a727a514b999cc3fa609e155b54e1c6e2f745477256ab1b2dfc291",
       "019ef46fbf76d93916047de1115dc65f957954690e389b50afa8d686aa816640"
+    ],
+    "planning": "Przy beczce reklamowej liczą się proporcje logo, kolorystyka i sposób wykorzystania gotowego elementu. Oznakowanie można zaplanować z myślą o lokalu, wydarzeniu lub przestrzeni promocyjnej. W zapytaniu określ liczbę sztuk, preferowany wariant beczki i miejsce użytkowania oraz dołącz logo i wytyczne graficzne.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/reklama-zewnetrzna/"
     ]
   },
   "/szyld-nexus/": {
@@ -1836,6 +2515,11 @@
     "service_path": "/szyldy/",
     "source_sha256": [
       "1b6912d45585882da11107578d734138ae5a45cc1196a1267ed766c3364388f3"
+    ],
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
     ]
   },
   "/szyld-autoland/": {
@@ -1848,7 +2532,12 @@
     "source_sha256": [
       "c67c4042aa112cf7d82cdfcd58fd9e86028dc39a4c5e8870ebef55e210bbab7a"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "Szyld powinien jasno wskazywać nazwę i wejście do firmy, a przy tym współgrać z elewacją. Na etapie projektu warto określić hierarchię informacji oraz sprawdzić czytelność z chodnika i ulicy. Własne oznakowanie możemy omówić na podstawie logo, zdjęcia lokalu, wymiarów i planowanego miejsca montażu.",
+    "related_paths": [
+      "/tablice-olsztyn/",
+      "/litery-3d/"
+    ]
   },
   "/siatki-mesh-olsztyn-realizacja-dla-klebark-park/": {
     "title": "siatki mesh Olsztyn – realizacja dla Klebark Park",
@@ -1864,6 +2553,11 @@
     ],
     "materials": [
       "Siatka mesh"
+    ],
+    "planning": "Siatkę mesh dobiera się z uwzględnieniem formatu, miejsca ekspozycji oraz warunków mocowania. Projekt powinien pozostać czytelny mimo perforacji materiału i dużej odległości oglądania. Do zapytania przygotuj wymiary nośnika, zdjęcie konstrukcji i grafikę lub główny komunikat reklamy.",
+    "related_paths": [
+      "/reklama-na-rusztowaniu/",
+      "/drukarnia-wielkoformatowa/"
     ]
   },
   "/oklejanie-szyb-olsztyn-realizacja-dla-lokalu-gastronomicznego/": {
@@ -1877,7 +2571,12 @@
     "source_sha256": [
       "7593b816cd0a8e8c0e42e150719765f14b474fdf49bea98b573907a0235c410f"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-szyb-olsztyn-realizacja-dla-sali-zabaw-figlowisko/": {
     "title": "Oklejanie szyb Olsztyn – realizacja dla sali zabaw FIGLOWISKO",
@@ -1890,7 +2589,12 @@
     "source_sha256": [
       "7bc75ee29ade13c582901e3a1350c9b77fda29debf7835a3ab06fb6e74ca7696"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/oklejanie-szyb-olsztyn-realizacja-dla-marketu-z-grafika-pepsi/": {
     "title": "Oklejanie szyb Olsztyn – realizacja dla marketu z grafiką PEPSI",
@@ -1903,7 +2607,12 @@
     "source_sha256": [
       "84b0a75ff4dcbdc0466f7f2418652fd2a0239ba6d3dc6c0363438912495f126a"
     ],
-    "location": "Olsztyn"
+    "location": "Olsztyn",
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
+    ]
   },
   "/realizacja-efektowna-witryna-dla-outletu-kolorowy-butik/": {
     "title": "Realizacja: Efektowna witryna dla outletu KOLOROWY BUTIK",
@@ -1920,6 +2629,11 @@
     ],
     "materials": [
       "Folia z nadrukiem"
+    ],
+    "planning": "W projekcie oklejenia witryny liczy się równowaga między czytelnym przekazem a ilością światła w lokalu. Przed wyborem folii warto określić, które szyby mają prezentować ofertę, a które zapewniać większą prywatność. Do rozmowy o własnym oznakowaniu przygotuj zdjęcia witryny, wymiary poszczególnych szyb i treść, która ma znaleźć się na grafice.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/szyldy/"
     ]
   },
   "/plotki-gastronomiczne-piekus/": {
@@ -1932,6 +2646,11 @@
     "service_path": "/plotki-ogrodki-piwne/",
     "source_sha256": [
       "503334d566698908972097ad82703b431ebe9af42fcde592f0eda2ddb7e46c41"
+    ],
+    "planning": "Płotki z oznakowaniem mogą porządkować przestrzeń ogródka i jednocześnie prezentować nazwę lokalu. W projekcie warto uwzględnić długość poszczególnych boków, przejścia oraz układ stolików. Do rozmowy przygotuj wymiary przestrzeni, zdjęcia i logo, aby omówić podział przęseł oraz sposób oznakowania.",
+    "related_paths": [
+      "/markizy-z-logo/",
+      "/beczki-reklamowe/"
     ]
   },
   "/megaboard-ikotly/": {
@@ -1944,6 +2663,11 @@
     "source_sha256": [
       "035a6a5e07dd8a7d9a6187fddbfdfaddda25898dd076862d4ac0d1c044f7cdce",
       "6732447d6faf2ad29d9dbcd8725e5d62dd1d31b0ee6f87237f57cf01c76b138c"
+    ],
+    "planning": "Duży format wymaga oszczędnego układu treści i grafiki przygotowanej do oglądania z dystansu. Przed produkcją trzeba ustalić wymiary, konstrukcję nośną i sposób montażu. W zapytaniu o podobny megaboard podaj lokalizację, zdjęcia terenu i dostępny format, aby omówić projekt, druk oraz warunki realizacji.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/rollupy-olsztyn-dla-bclinique/": {
@@ -1960,6 +2684,11 @@
     "location": "Olsztyn",
     "materials": [
       "Materiał tekstylny do ścianek DXT"
+    ],
+    "planning": "Projekt rollupu powinien prowadzić wzrok od nazwy i głównej informacji do kontaktu, bez nadmiaru drobnego tekstu. Warto uwzględnić odległość oglądania oraz fragment grafiki wsuwany do kasety. Przygotuj wybrany format, liczbę sztuk i materiały graficzne, aby omówić wydruk oraz przygotowanie nośnika.",
+    "related_paths": [
+      "/drukarnia-wielkoformatowa/",
+      "/banery/"
     ]
   },
   "/markiza-irjados/": {
@@ -1974,6 +2703,11 @@
     "source_sha256": [
       "dba823a01163f6c9dd2717dbbf90fd419d216f619fd8a2358f2b5ab582ca2ee2",
       "0637b486376d895867dc4dbaaa379d78424765d54afa7ebb74f7d7191e434354"
+    ],
+    "planning": "Przy markizie z logo grafika musi pasować do jej wymiarów, podziałów i sposobu oglądania z ulicy. Warto ustalić, które elementy mają prezentować nazwę lokalu, a które informacje dodatkowe. W zapytaniu podaj miejsce montażu, orientacyjną szerokość i wysięg oraz prześlij zdjęcie elewacji i materiały marki.",
+    "related_paths": [
+      "/plotki-ogrodki-piwne/",
+      "/szyldy/"
     ]
   },
   "/litery-3d-arel/": {
@@ -1988,6 +2722,11 @@
     "source_sha256": [
       "e46120ca58f872d3b6484242d0b7cc31fddd22a6552b13d2199c1e5ecf023486",
       "5331c675e31b6a0e327030d401fe70d8028fd3ee3ea056b5b734685cb95d0e5d"
+    ],
+    "planning": "Przy podobnym oznakowaniu warto zacząć od zdjęcia elewacji, wymiarów dostępnego miejsca i odległości, z której nazwa ma być czytelna. Forma liter, sposób zamocowania oraz ewentualne podświetlenie powinny pasować do architektury i identyfikacji firmy. Prześlij logo oraz zdjęcie miejsca montażu, aby omówić rozwiązanie dla swojego lokalu.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/szyldy/"
     ]
   },
   "/reklama-na-rusztowaniu-olmi/": {
@@ -2002,6 +2741,11 @@
     "source_sha256": [
       "9551b3d12f02190e29c153ea55c16bcb1e70577a164af8872ada157beab36e8e",
       "93402015fc6905fd31efd5396873d266c7faaca028bcf0676208cac09521cd36"
+    ],
+    "planning": "Przy planowaniu reklamy na rusztowaniu trzeba dopasować format do istniejącej konstrukcji, otoczenia i odległości odbiorcy. Rodzaj podłoża oraz sposób mocowania wymagają ustalenia przed drukiem. Prześlij wymiary, zdjęcie rusztowania i projekt lub treść reklamy; pozwoli to omówić materiał oraz zakres montażu.",
+    "related_paths": [
+      "/siatka-mesh/",
+      "/banery/"
     ]
   },
   "/kaseton-ananasek/": {
@@ -2019,6 +2763,11 @@
     ],
     "materials": [
       "Moduły LED"
+    ],
+    "planning": "Przy wyborze kasetonu znaczenie mają widoczność z ulicy, miejsce doprowadzenia zasilania i proporcje elewacji. Inaczej planuje się oznakowanie nad wejściem, a inaczej element widoczny z boku budynku. Zdjęcie miejsca montażu, logo i orientacyjne wymiary pozwalają omówić formę reklamy oraz zakres produkcji.",
+    "related_paths": [
+      "/reklamy-swietlne/",
+      "/litery-3d/"
     ]
   }
 }
