@@ -1,0 +1,72 @@
+YOONA 3.5.1 — final executed checks, 2026-10-18
+
+Isolated WordPress7.1.3 / PHP8.3.35 / MariaDB11.4 / RankMath1.0.280.
+Official MicrosoftEdge155.0.4283.62 Linux, package verified against signed
+Microsoft repository metadata, extracted only in /tmp; no system installer.
+No access to Windows user profiles, production caches, licensed Divi or Google.
+Private source never entered public HTTP tables or repository/package.
+
+Company actual source variants, CLI private memory
+Success: 64 company private assertions passed. No private source HTML was printed or installed.
+
+Company source/manual-edit and functional-placeholder guards
+Success: 56 company guards assertions passed. No private source HTML was printed or installed.
+
+Company true Microsoft Edge, 14 responsive views
+Success: 366 responsive company-page / source-preservation / native-form assertions passed.
+
+Projects all original/SEO source variants, CLI stdin
+Success: 1581 project preservation/copy/source-guard assertions passed for 160 source versions. Private source stayed in stdin/process memory, never in HTTP or repository files. Licensed Divi is unavailable; tests use original stored shortcodes with synthetic callbacks.
+
+Projects true Microsoft Edge, 32 responsive views and legacy probes
+PASS 705 browser project assertions across 32 responsive views. Labelled public synthetic photographs and browser-only legacy layout probes; licensed Divi unavailable.
+
+Directory:233 officialEdge assertions and232Chromium assertions; seven
+widths × four stylesheet states, plus controlled reproduction.32additional
+actualWordPress home checks at1440/390px. See edge-directory351-results.txt.
+
+About original source has10spacing-only paragraphs; public fixture has11
+probes including a BR-only variant. Meaningful paragraphs sharing Word classes
+remain; only the exact empty Word artifact has a stored approval fingerprint.
+Both current pages retain callbacks, photos, FAQs, forms, contact data and
+protected live regions, SVG, CSS icons and unknown shortcode placeholders.
+
+Before/after same public fixture with3.5.0/3.5.1CSS:
+{"version":"3.5.0","width":320,"marginTop":"56px","paddingTop":"30px","sectionPadding":"24px","headingFont":"\"YN Manrope\", Arial, Helvetica, sans-serif","headingWeight":"800","nestedFont":"\"YN Manrope\", Arial, Helvetica, sans-serif","nestedFontSize":"23px"}
+{"version":"3.5.1","width":320,"marginTop":"0px","paddingTop":"0px","sectionPadding":"18px","headingFont":"\"YN Archivo\", \"Arial Black\", Arial, sans-serif","headingWeight":"400","nestedFont":"\"YN Archivo\", \"Arial Black\", Arial, sans-serif","nestedFontSize":"23px"}
+{"version":"3.5.0","width":1440,"marginTop":"122.594px","paddingTop":"30px","sectionPadding":"48px","headingFont":"\"YN Manrope\", Arial, Helvetica, sans-serif","headingWeight":"800","nestedFont":"\"YN Manrope\", Arial, Helvetica, sans-serif","nestedFontSize":"30px"}
+{"version":"3.5.1","width":1440,"marginTop":"0px","paddingTop":"0px","sectionPadding":"24px","headingFont":"\"YN Archivo\", \"Arial Black\", Arial, sans-serif","headingWeight":"400","nestedFont":"\"YN Archivo\", \"Arial Black\", Arial, sans-serif","nestedFontSize":"30px"}
+
+Final full-table company snapshot passed after warming new project routes.
+An earlier parallel first request to project fixture53 created RankMath’s
+normal rank_math_og_content_image cache row; no row type was excluded from
+the final comparison. All posts and metadata then remained byte-identical.
+
+Browser geometry uses labelled synthetic photos and explicit Divi callbacks.
+Gallery classic/Divi-grid and inline-font conflict probes are browser fixtures;
+Divi slider structure is checked unchanged, not licensedDivi execution.
+Company contrast checks cover solid CSS backgrounds only. Map uses a local
+iframe placeholder. No live image delivery, production layout or ranking claim.
+
+All27pluginPHPfiles linted; changed Node test files syntax checked.
+Public local SEO audit passed with zero errors; no production SEO/CWV scan.
+All47servedpluginfiles match source and installableZIP byte-for-byte; CRC passed.
+Current package381298bytes, version3.5.1.
+ZIP SHA256:4927e77b5b0b8190a7a16df441ac276d14b4582b9c7c699232f0f9915ffaf444
+Older numberedZIPs remain immutable. SEOengine/admin/changes.json, nativeDivi
+writer, projectguidehelper andmeasurement.js are unchanged from3.5.0.
+
+SHA256 of changed product files:
+898ef78ea329fe62070fe0cce8e28048fdec36f6fe82a7b27f23af23e3fea372  plugin/yoona-seo/assets/design.css
+8ac1a43c26c17989a2188c003031a24b9bebe78df4f75e15cedaa47148e0fe9c  plugin/yoona-seo/assets/collections.css
+9c410e5627c9f6a94af63caccba8c7be8927ee0fc896449173017e8618ee8bbc  plugin/yoona-seo/assets/projects.css
+c93a4b53eb71b4713feb57c722a6123720e1050444950799da9f5d8f3fc78977  plugin/yoona-seo/content/company-pages.json
+637160fbd388236cd50aaa5c1a2f9c0c35ac0481a184f7236ed1267189553c44  plugin/yoona-seo/includes/class-yoona-seo-company-pages.php
+3cf13c1f3d1aa27b2158bbfe41810ed38d52e63eb1d898f8581bd952b49bf243  plugin/yoona-seo/templates/project-guide.php
+
+SHA256 of release test sources:
+14f7f1454f6ec238c7d53e963eedb4e90f012e24a1bdb71bd52e8fb146ec81cb  tests/company-pages.php
+aaa4d3756d0174c1061f17fd7984180941494599019355fbd41bd90edb0fcfc3  tests/company-pages.cjs
+73787ee00e3d3eb3946ba19cadd1b7cc6230841215ebe6aca0f871125a9a404b  tests/premium-projects.cjs
+bc160d27a1185157752e91719706515a711614a65c94fd4f6c12e5f6a1a99026  tests/edge-directory351.cjs
+73ad7a8d465b6774af0d2608978aaf96350d73494dae982f29bbdce5b09c747a  tests/edge-directory351-wordpress.cjs

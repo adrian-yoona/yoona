@@ -3,13 +3,15 @@ Contributors: yoona
 Tags: seo, content, divi, design
 Requires at least: 6.0
 Requires PHP: 7.4
-Stable tag: 3.5.0
+Stable tag: 3.5.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Nowy wygląd yoona.pl według wzoru właściciela oraz poprawki tekstów Divi i metadanych Rank Math.
 
 == Description ==
+
+Wersja 3.5.1 dopasowuje nagłówki O nas do głównej: Archivo Black 400 oraz Manrope w opisach. Usuwa stare procentowe marginesy i wyłącznie rozpoznane puste akapity, zachowując zdjęcia, formularze, ikony, aktualną treść oraz stan FAQ. Realizacje mają wspólne fonty, marginesy i galerie 3/2/1 oraz pełne pojedyncze zdjęcia, zachowując oryginalne moduły, podpisy i treść. Lista kategorii na głównej ma kompletny układ zarówno w głównym CSS, jak i pomocniczym arkuszu, z ikonami oraz strzałkami niezależnymi od fontu. Po aktualizacji odśwież wygląd i opróżnij LiteSpeed Cache oraz cache przeglądarki.
 
 Wersja 3.5.0 dodaje pięć slajdów na głównej, SVG kategorii i profili, katalog w sześciu kolumnach oraz realizacje po 24 z paginacją. Szczegóły realizacji zachowują oryginalne galerie i moduły, otrzymują opisy oparte na faktach oraz linki do ofert. Podgląd zdjęcia ma telefony i wycenę zamiast nazwy pliku. Sześć nowych usług CNC/markiz korzysta z 12 różnych zdjęć z istniejących projektów firmy.
 
@@ -50,9 +52,9 @@ Audyt oparto na eksporcie. Nie potwierdza pozycji w Google, indeksacji, szybkoś
 == Installation ==
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. Wgraj yoona-seo-v3.5.0.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
+2. Wgraj yoona-seo-v3.5.1.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
 3. Zastąp poprzednią wersję Yoona SEO, jeśli jest zainstalowana, i pozostaw Rank Math aktywny.
-4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.5.0. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
+4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.5.1. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
 5. Aby opublikować sześć nowych usług, kliknij Dodaj 6 podstron CNC i markiz. To osobny zapis stron; powtórzenie nie tworzy duplikatów.
 6. Jeżeli poprawki tekstów/SEO nie są zapisane, wybierz Użyj pakietu dołączonego do wtyczki, sprawdź podgląd, wybierz Zaznacz wszystkie gotowe i Wgraj zmiany na zaznaczone strony. Pozostaw kartę otwartą do zakończenia.
 7. Aby edytować nowy układ, w edycji wybranej strony otwórz YOONA — edycja układu w Divi, sprawdź podgląd i użyj Zapisz układ i edytuj w Divi. Operacja zachowuje kopię; nie zapisuje SEO.
@@ -76,6 +78,12 @@ Jeśli treść zmieniła się po eksporcie, kontrola hashy chroni nowszą pracę
 Warstwa wizualna zniknie. Zapisane zmiany treści i natywnych pól Rank Math pozostają. Aby skorzystać z historii cofania, zachowaj Yoona SEO. Starsze paczki wersji 1 mogły używać filtrów własnych metadanych i wymagać aktywnej wtyczki do ich wyświetlania.
 
 == Changelog ==
+
+= 3.5.1 =
+* O nas: Archivo Black jak na głównej, dopasowane zagnieżdżone fonty i spokojne opisy Manrope.
+* Usunięte stare marginesy 20%, nadmierne paddingi i rozpoznane puste akapity bez naruszania pól dynamicznych.
+* Poprawione style listy ofert przy częściowo nieaktualnym CSS; samodzielne reguły w obu arkuszach i strzałki rysowane CSS.
+* Ujednolicone realizacje: typografia, marginesy, galerie natywne/klasyczne/Divi 3/2/1 i szerokie pojedyncze zdjęcia.
 
 = 3.5.0 =
 * Pięć slajdów na głównej, obsługa klawiatury, pauza i ograniczenie animacji.

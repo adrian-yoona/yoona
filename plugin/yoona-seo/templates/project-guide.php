@@ -16,13 +16,13 @@
     <?php if ( $original['has_h1'] ) : ?><p class="yn-project-title"><?php the_title(); ?></p><?php else : ?><h1 class="yn-project-title"><?php the_title(); ?></h1><?php endif; ?>
 </div></header>
 <?php Yoona_SEO_Project_Guides::render( $guide ); ?>
-<div class="yn-project-source"><div class="yn-container">
+<section class="yn-project-source" aria-label="Zdjęcia i opis realizacji"><div class="yn-container">
     <div class="entry-content yn-content yn-project-detail-gallery <?php echo function_exists( 'et_pb_is_pagebuilder_used' ) && et_pb_is_pagebuilder_used( get_the_ID() ) ? 'yn-builder-content' : 'yn-project-native-content'; ?>" data-yn-project-gallery>
         <?php if ( $featured ) : ?><figure class="yn-project-featured"><?php echo $featured; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Existing WordPress image helper. ?></figure><?php endif; ?>
         <?php echo $original['html']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Complete standard WordPress/Divi output, rendered once. ?>
         <?php wp_link_pages( array( 'before' => '<nav class="yn-page-links" aria-label="Części wpisu">Strony: ', 'after' => '</nav>' ) ); ?>
     </div>
-</div></div>
+</div></section>
 <?php Yoona_SEO_Project_Guides::render_planning( $guide ); ?>
 <section class="yn-project-next" aria-label="Kolejne kroki"><div class="yn-container yn-project-next-inner"><div class="yn-actions"><a class="yn-button" href="<?php echo esc_url( Yoona_SEO_Design::route( 'contact' ) ); ?>">Zapytaj o podobną realizację <span aria-hidden="true">↗</span></a><a class="yn-text-link" href="<?php echo esc_url( Yoona_SEO_Design::route( 'projects' ) ); ?>">Wszystkie realizacje <span aria-hidden="true">↗</span></a></div></div></section>
 </article>

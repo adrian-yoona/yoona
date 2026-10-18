@@ -12,7 +12,7 @@ Gotowy pakiet treści, dołączony również do wersji 3 wtyczki, obejmuje **tyt
 
 Poprawiono m.in. błędne nazwy usług i klientów, instrukcję redakcyjną na menuboardach, nagłówki o neonach na CNC, nieuzasadnione obietnice, naturalność fraz oraz opisy usług i procesu zamówienia. Pozostałości kodu interfejsu czatu usunięto z poprawianych modułów. Zachowano adresy URL, strukturę shortcode, media i formularze. Treść polityki prywatności i strony listy realizacji nie jest zmieniana.
 
-[Wtyczka do pobrania](../downloads/yoona-seo-v3.5.0.zip) · [Instrukcja wdrożenia](../README.md) · [Dokładny zakres adresów](zakres-poprawek.json) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
+[Wtyczka do pobrania](../downloads/yoona-seo-v3.5.1.zip) · [Instrukcja wdrożenia](../README.md) · [Dokładny zakres adresów](zakres-poprawek.json) · [Wyniki testów](../docs/WYNIKI-TESTOW.md).
 
 Pakiet nie został zdalnie wdrożony na yoona.pl. Właściciel aktualizuje wtyczkę, sprawdza podgląd i uruchamia **Wgraj zmiany na zaznaczone strony**. Pomiary i kontrole opisane w P3 pozostają do wykonania na działającej witrynie; nie zastąpiono ich analizą eksportu.
 

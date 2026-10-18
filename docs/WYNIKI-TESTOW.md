@@ -1,6 +1,66 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.5.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.5.1
 
 Ostatnia aktualizacja: 18 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## O nas, lista ofert w Edge i spójne realizacje — 3.5.1
+
+**366 kontroli w oficjalnym Microsoft Edge 155 na Linuksie** obejmuje O nas
+oraz Kontakt w 14 widokach 320–2560 px. Nagłówki O nas używają Archivo Black
+400 z głównej, opisy Manrope. Sprawdzono również zagnieżdżone fonty, rzeczywisty
+konflikt reguł `!important`, stare procentowe marginesy, ładowanie siedmiu zdjęć
+po przewinięciu, otwarte FAQ, formularz i brak przyciętych tekstów.
+
+W porównaniu tych samych publicznych fixture ze starym i nowym CSS margines
+nad opisem spadł ze **122,594 do 0 px przy 1440 px** i z **56 do 0 px przy
+320 px**; dodatkowy padding tekstu 30 px zniknął. Sekcje mają 24 px odstępu
+na komputerze i 18 px na telefonie, zamiast 48/24 px wymuszanych dawną regułą.
+To pomiar lokalny, nie odczyt yoona.pl.
+
+**64 kontrole prywatnych źródeł** obejmują oba oryginalne widoki firmowe
+i ich warianty po SEO, a **56 kontroli ochronnych** — późniejsze edycje,
+wyjątki i funkcjonalne elementy. Oryginalne O nas ma 10 pustych akapitów;
+publiczna makieta obejmuje 11 przypadków, także akapit z samym BR. Nie usuwa
+się znaczących tekstów tylko dlatego, że mają klasy Worda. Zachowane są live
+regions, kotwice, SVG, ikony CSS, nieznane shortcode, dane zespołu i formularze.
+
+**705 kontroli realizacji w Microsoft Edge** obejmuje 32 widoki przy ośmiu
+szerokościach 320–2560 px: jedno zdjęcie i trzy zdjęcia, ze znanym opisem oraz
+bez dopisywania opisu do zmienionego źródła. Dalsze próby sprawdzają klasyczną
+galerię i siatkę Divi, wspólne kolumny 3/2/1, pojedyncze fotografie bez kadrowania,
+niezmienioną scenę slidera, podpisy, oryginalne FAQ i konflikt fontów inline.
+Ponownie przeszło **1581 kontroli zachowania wszystkich 160 wariantów źródła**.
+Helper wyboru i renderowania oryginalnych treści projektów pozostał identyczny.
+
+**233 kontrole oficjalnego Microsoft Edge** i **232 kontrole Chromium**
+odtwarzają listę ofert przy siedmiu szerokościach i czterech stanach CSS:
+pełny zestaw, brak pomocniczego arkusza, stary fragment głównego i zagęszczone
+białe znaki. Każdy arkusz samodzielnie definiuje układ kategorii. Strzałki
+rysuje CSS; nie zależą od fontu z odpowiednim znakiem. Kontrolowany wariant
+sprzed poprawki odtwarza pionową listę linków przy nadal działających kartach.
+Nie ustala to zawartości cache przeglądarki właściciela. Dodatkowe **32 kontrole
+prawdziwej strony głównej WordPressa w Edge** sprawdzają dwie szerokości,
+41 publicznych ofert fixture, faktyczne arkusze 3.5.1 i zgodność ich bajtów.
+
+Przeglądarkę pobrano z oficjalnego repozytorium Microsoftu po weryfikacji
+podpisanych metadanych i SHA-256 pakietu; rozpakowano wyłącznie do `/tmp`.
+[Raport Edge i pochodzenie pakietu](../tests/edge-directory351-results.txt).
+To test prawdziwego Edge na Linuksie, bez dostępu do profilu Edge na Windowsie.
+
+Po rozgrzaniu nowych tras projektu pełny snapshot wpisów i metadanych pozostaje
+identyczny. Pierwsza równoległa próba wykryła utworzenie standardowego cache
+`rank_math_og_content_image` przez Rank Math dla nowej makiety; końcowe porównanie
+nie wyklucza tego ani innych rekordów. Wszystkie **27 plików PHP** przeszły lint.
+Wszystkie **47 plików serwowanej wtyczki** są identyczne ze źródłem i ZIP-em;
+CRC, wersja oraz SHA-256 są poprawne. Starsze numerowane ZIP-y zachowano.
+
+Nadal nie uruchomiono licencjonowanego Divi ani produkcyjnych fotografii.
+Prywatne źródło sprawdzano wyłącznie w CLI; przeglądarki używają oznaczonych
+lokalnych zdjęć i jawnych callbacków. Odczyt yoona.pl blokuje proxy. Nie wgrano
+aktualizacji do produkcji i nie zmierzono wyników Google. Układy zapisane wcześniej
+jako nadrzędne Divi nadal zachowują własne ustawienia i nie są migrowane.
+
+[Raport całego wydania 3.5.1](../tests/premium-release351-results.txt) ·
+[Odtworzenie](../tests/README.md). Poniżej osobne wyniki wcześniejszych wydań.
 
 ## Widoki firmowe, realizacje, galerie i edycja Divi — 3.5.0
 
@@ -216,12 +276,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.5.0.zip](../downloads/yoona-seo-v3.5.0.zip)
+Plik: [downloads/yoona-seo-v3.5.1.zip](../downloads/yoona-seo-v3.5.1.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-a8c7ebbf04ef1865237430e62859477e7da9c03413e2970b135636734aa7c3df
+4927e77b5b0b8190a7a16df441ac276d14b4582b9c7c699232f0f9915ffaf444
 ```
 
 SHA-256 dołączonego `content/changes.json`:

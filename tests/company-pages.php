@@ -22,18 +22,26 @@ function yoona_company_fixture_sources() {
  $section = static function ($html, $class = '') use ($m) { return $m('et_pb_section', $html, $class); };
  $parts = array('/o-nas/' => array(), '/kontakt/' => array());
  $parts['/o-nas/']['legacy-hero'] = array($section($row($column('') . $column($text('<h1 style="font-size:70px;color:#fff">Dawny nagłówek z pustą połową</h1>'))), 'company-old-hero'));
- $parts['/o-nas/']['intro'] = array($section($row($column($text('<h2>Agencja reklamowa, która produkuje</h2>')) . $column($text('<p style="text-align:justify;color:#fff;font-family:Roboto Condensed;font-size:22px">Projektujemy, drukujemy i montujemy reklamę. Pomagamy dobrać materiały, format i sposób realizacji.</p>'))), 'company-original-intro'));
- $faq = '';
- for ($i = 1; $i <= 8; ++$i) $faq .= '[et_pb_toggle title="Pytanie ' . $i . '"]Odpowiedź ' . $i . '. Szczegóły współpracy ustalamy przed realizacją.[/et_pb_toggle]';
- $parts['/o-nas/']['faq'] = array($section($row($column($text('<h2>Najczęstsze pytania</h2>')) . $column($faq)), 'company-original-faq'));
+ // The production introduction is one full-width column; the previous fixture
+ // used two short columns and could not expose its actual spacing problems.
+ $parts['/o-nas/']['intro'] = array($section($row($column($text('<h2><span style="font-family:Arial,sans-serif;font-size:56px;font-weight:700;color:#fff"><strong>Agencja reklamowa, która produkuje</strong></span></h2>') . $text('<p><strong><span style="font-family:arial,sans-serif;font-size:small"></span></strong></p><p style="text-align:justify;color:#fff;font-family:Roboto Condensed;font-size:22px">Projektujemy, drukujemy i montujemy reklamę. Pomagamy dobrać materiały, format i sposób realizacji.</p>'))), 'company-original-intro'));
+ $faq = array('', '');
+ // Real Divi content contains two columns of four initially open toggles.
+ // Keep the stored open state instead of testing an invented closed FAQ.
+ for ($i = 1; $i <= 8; ++$i) $faq[$i <= 4 ? 0 : 1] .= '[et_pb_toggle title="Pytanie ' . $i . '" open="on"]<p>Odpowiedź ' . $i . '. Szczegóły współpracy ustalamy przed realizacją. Dobór materiału, formatu i sposobu montażu zależy od miejsca ekspozycji. Projekt oraz zakres prac potwierdzamy przed rozpoczęciem produkcji.</p>[/et_pb_toggle]';
+ $parts['/o-nas/']['faq'] = array($section($row($column($faq[0]) . $column($faq[1])), 'company-original-faq'));
  $parts['/o-nas/']['service'] = array();
  foreach (array('Reklama zewnętrzna', 'Druk wielkoformatowy', 'Litery przestrzenne', 'Oznakowanie firm', 'Oklejanie samochodów', 'Materiały reklamowe', 'Montaż reklamy') as $index => $title) {
   $image = '[et_pb_image src="/company-photo-' . ($index + 1) . '.jpg" alt="Publiczne zdjęcie testowe ' . ($index + 1) . '"][/et_pb_image]';
-  $copy = $text('<h2>' . $title . '</h2><p><span style="color:#fff;font-size:22px;font-family:Roboto Condensed">Od projektu po gotową realizację. Dobieramy materiały i przygotowujemy reklamę do miejsca ekspozycji.</span></p><p><a href="/pelna-oferta/">Zobacz ofertę</a></p>');
+  // Seven nbsp paragraphs + one empty Word-export span occur in the real
+  // service blocks. One extra br-only case checks the same inert HTML rule.
+  $blank = '<p>&nbsp;</p>' . ($index === 1 ? '<p style="text-align: justify;"><span class="EOP SCXW89527369 BCX8" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"></span></p>' : '') . ($index === 2 ? '<p> <br /> </p>' : '');
+  $protected = $index === 0 ? '<p class="company-approved-live" role="status" aria-live="polite"></p><p class="company-approved-icon"><span class="company-css-icon" aria-label="Próbka ikony"></span></p><p class="company-approved-svg"><svg viewBox="0 0 20 20" width="20" height="20" role="img" aria-label="Próbka znaku"><path d="M2 2h16v16H2z"/></svg></p>' : '';
+  $copy = $m('et_pb_text', '<h2><a href="/pelna-oferta/" style="font-family:Arial,sans-serif;font-size:56px;font-weight:700"><span style="font-family:Arial,sans-serif;font-size:44px;font-weight:700">' . $title . '</span></a></h2>' . $blank . '<p><span style="color:#fff;font-size:22px;font-family:Roboto Condensed">Od projektu po gotową realizację. Dobieramy materiały i przygotowujemy reklamę do miejsca ekspozycji.</span></p><p><a href="/pelna-oferta/">Zobacz ofertę</a></p>' . $protected, $index === 4 ? 'company-legacy-spaced-text' : '');
   $parts['/o-nas/']['service'][] = $section($row($column($index % 2 ? $copy : $image) . $column($index % 2 ? $image : $copy)), 'company-original-service');
  }
  $parts['/o-nas/']['values'] = array($section($row($column($text('<h2>Projekt, produkcja i montaż</h2><p style="color:white">Jeden zespół prowadzi projekt od ustalenia zakresu do gotowej realizacji.</p>'))), 'company-original-values'));
- $parts['/o-nas/']['narrative'] = array($section($m('et_pb_fullwidth_header', '<p>Obsługujemy Olsztyn, Ostródę i realizacje w Polsce.</p>'), 'company-original-narrative'), $section($m('et_pb_fullwidth_header', '<p>Zakres prac i materiały dobieramy do miejsca ekspozycji.</p>'), 'company-original-narrative'));
+ $parts['/o-nas/']['narrative'] = array($section($m('et_pb_fullwidth_header', '<p>Obsługujemy Olsztyn, Ostródę i realizacje w Polsce.</p>'), 'company-original-narrative'), $section($m('et_pb_fullwidth_header', '<p>Zakres prac i materiały dobieramy do miejsca ekspozycji.</p><p></p>'), 'company-original-narrative'));
  $parts['/o-nas/']['closing'] = array($section($row($column($text('<h1>Porozmawiajmy o Twoim projekcie</h1><p><a href="/kontakt/">Kontakt z zespołem</a></p>'))), 'company-original-closing'));
  $social = $section($row($column('[et_pb_social_media_follow][et_pb_social_media_follow_network link="https://example.invalid/facebook"]Facebook[/et_pb_social_media_follow_network][et_pb_social_media_follow_network link="https://example.invalid/instagram"]Instagram[/et_pb_social_media_follow_network][/et_pb_social_media_follow]')), 'company-original-social');
  $parts['/o-nas/']['social'] = array($social);
@@ -54,6 +62,10 @@ function yoona_company_fixture_sources() {
  $form = $section($row($column('[et_pb_contact_form title="Zachowany formularz"][/et_pb_contact_form]')), 'company-manual-form-section');
  $sources = array('/o-nas/' => '', '/kontakt/' => '');
  foreach (array('legacy-hero','intro','faq','service','values','narrative','closing','social') as $role) $sources['/o-nas/'] .= implode('', $parts['/o-nas/'][$role]);
+ // Unknown/manual content must remain byte-identical, including empty live
+ // regions, a named anchor, CSS-only icons, raw shortcode text and media. These
+ // are not disposable spacer paragraphs merely because strip_tags() is empty.
+ $sources['/o-nas/'] .= $section($row($column($m('et_pb_code', '<p class="company-preserved-live" role="status" aria-live="polite"></p><p class="company-preserved-anchor"><a id="company-preserved-anchor"></a></p><p class="company-preserved-icon"><span class="company-css-icon" aria-label="Znak produkcji"></span></p><p class="company-preserved-svg"><svg viewBox="0 0 20 20" width="20" height="20" role="img" aria-label="Próbka ikony"><path d="M2 2h16v16H2z"/></svg></p><p class="company-preserved-shortcode">[company_unknown_slot]</p>'))), 'company-manual-protected-section');
  foreach (array('contact-main','cta','reviews','social') as $role) $sources['/kontakt/'] .= implode('', $parts['/kontakt/'][$role]);
  $sources['/kontakt/'] .= $form;
  return array('parts' => $parts, 'sources' => $sources);
@@ -75,7 +87,7 @@ add_action('plugins_loaded', static function () {
    if ($tag === 'et_pb_image') return '<div' . $attribute . '><span class="et_pb_image_wrap"><img src="' . esc_url(isset($atts['src']) ? $atts['src'] : '/company-photo.jpg') . '" width="900" height="600" alt="' . esc_attr(isset($atts['alt']) ? $atts['alt'] : 'Public synthetic photo') . '"></span></div>';
    if ($tag === 'et_pb_fullwidth_header') return '<div' . $attribute . '><div class="et_pb_fullwidth_header_container"><div class="header-content"><h2></h2>' . do_shortcode($content) . '</div></div></div>';
    if ($tag === 'et_pb_code') return '<div' . $attribute . '><div class="et_pb_code_inner">' . do_shortcode($content) . '</div></div>';
-   if ($tag === 'et_pb_toggle') return '<div' . $attribute . '><h5 class="et_pb_toggle_title" role="button" tabindex="0" aria-expanded="false">' . esc_html(isset($atts['title']) ? $atts['title'] : 'Pytanie') . '</h5><div class="et_pb_toggle_content" hidden>' . do_shortcode($content) . '</div></div>';
+   if ($tag === 'et_pb_toggle') { $open = isset($atts['open']) && $atts['open'] === 'on'; return '<div' . $attribute . '><h5 class="et_pb_toggle_title" role="button" tabindex="0" aria-expanded="' . ($open ? 'true' : 'false') . '">' . esc_html(isset($atts['title']) ? $atts['title'] : 'Pytanie') . '</h5><div class="et_pb_toggle_content"' . ($open ? '' : ' hidden') . '>' . do_shortcode($content) . '</div></div>'; }
    if ($tag === 'et_pb_social_media_follow') return '<ul' . $attribute . '>' . do_shortcode($content) . '</ul>';
    if ($tag === 'et_pb_social_media_follow_network') return '<li' . $attribute . '><a href="' . esc_url(isset($atts['link']) ? $atts['link'] : 'https://example.invalid/social') . '">' . esc_html($content) . '</a></li>';
    if ($tag === 'trustindex') return '<div' . $attribute . '><article class="ti-review-item">Publiczna opinia testowa 1</article><article class="ti-review-item">Publiczna opinia testowa 2</article><article class="ti-review-item">Publiczna opinia testowa 3</article></div>';
@@ -85,6 +97,10 @@ add_action('plugins_loaded', static function () {
  }
 }, 100);
 add_action('wp_head', static function () { echo '<style id="company-fixture-css">.yn-company-content .et_pb_section{padding:60px 0}.yn-company-content .et_pb_row{display:flex;gap:32px;width:80%;max-width:1080px;margin:auto}.yn-company-content .et_pb_row:after{content:"";display:block;clear:both}.yn-company-content .et_pb_column{min-width:0;flex:1}.yn-company-content .et_pb_image img{display:block;max-width:100%;height:auto}.yn-company-content .company-old-hero{background:#111;min-height:500px}.yn-company-content .company-old-contact-intro{min-height:260px}.yn-company-content .company-original-cta{background:#ff6600}.yn-company-content .company-original-service p,.yn-company-content .company-original-intro p{font-family:Roboto Condensed!important}.yn-company-content .et_pb_toggle{padding:20px;background:#fff;border:1px solid #ddd}.yn-company-content .et_pb_toggle_title{cursor:pointer;margin:0}.yn-company-content .et_pb_toggle_content{padding-top:12px}.yn-company-content .et_pb_social_media_follow{display:flex;gap:20px;list-style:none}.yn-company-content .company-preserved-form{max-width:700px;display:grid;gap:12px}.yn-company-content .company-preserved-form label{display:grid;gap:4px}.yn-company-content .company-preserved-form input,.yn-company-content .company-preserved-form textarea,.yn-company-content .company-preserved-form button{box-sizing:border-box;max-width:100%;width:100%;min-height:44px;font:inherit;padding:8px}.yn-company-content .trustindex{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.yn-company-content .ti-review-item{min-width:0;padding:16px;background:#fff}@media(max-width:640px){.yn-company-content .trustindex{grid-template-columns:1fr}}</style>'; }, 6);
+// Reproduce the production cascade and generated per-module spacing. The
+// former company selector was less specific than its own legacy !important
+// rule and reset only margin-bottom, leaving this 20% top margin intact.
+add_action('wp_head', static function () { echo '<style id="company-about-regression-css">.yn-design .yn-company-about .yn-company-content .et_pb_column{padding-top:18px;padding-bottom:18px}.yn-company-content .company-legacy-spaced-text{margin-top:20%!important;margin-bottom:20%!important;padding:30px 24px 0!important}.yn-design .yn-content:not(.yn-service-original) .et_pb_section:not(.et_pb_fullwidth_section){padding-top:min(4vw,48px)!important;padding-bottom:min(4vw,48px)!important}.yn-company-content .company-css-icon{display:inline-block;width:18px;height:18px;background:#151515}.yn-company-content .company-manual-protected-section svg,.yn-company-content .company-approved-svg svg{display:block}@media(max-width:640px){.yn-design .yn-content:not(.yn-service-original) .et_pb_section:not(.et_pb_fullwidth_section){padding-top:24px!important;padding-bottom:24px!important}}</style>'; }, 7);
 add_action('wp_footer', static function () { echo '<script id="company-callback-counts" type="application/json">' . wp_json_encode(isset($GLOBALS['company_fixture_callbacks']) ? $GLOBALS['company_fixture_callbacks'] : array()) . '</script><script>document.addEventListener("click",function(e){const title=e.target.closest(".et_pb_toggle_title");if(!title)return;const content=title.nextElementSibling;content.hidden=!content.hidden;title.setAttribute("aria-expanded",String(!content.hidden));});document.addEventListener("submit",function(e){if(e.target.matches(".company-preserved-form")){e.preventDefault();e.target.querySelector(".company-form-status").textContent="TEST: formularz działa";}});</script>'; });
 MU;
  if (false === file_put_contents(WPMU_PLUGIN_DIR . '/zzz-company-pages-fixture.php', $mu)) WP_CLI::error('Cannot write the test-only company fixture.');
@@ -133,6 +149,13 @@ try {
     if($roles!==$expected_roles){$pipelines=array('whole-wptexturize'=>wptexturize($body),'whole-autop-unautop'=>shortcode_unautop(wpautop(wptexturize($body))));$diagnostic=array();foreach($pipelines as$name=>$pipeline)foreach(array('et_pb_section','et_pb_row','et_pb_code')as$tag){preg_match_all('/'.get_shortcode_regex(array($tag)).'/s',$pipeline,$raw_modules,PREG_SET_ORDER);$matches=0;foreach($raw_modules as$i=>$raw_module)if(isset($observed[$tag][$i]) && in_array(hash('sha256',$raw_module[0]),$observed[$tag][$i],true))++$matches;$diagnostic[$name][$tag]=array('expected'=>count($raw_modules),'observed'=>count(isset($observed[$tag])?$observed[$tag]:array()),'exact_or_unescaped_matches'=>$matches);}WP_CLI::log('Known-source render pipeline counts: '.wp_json_encode($diagnostic));}
     $check($roles===$expected_roles,'every reviewed original module receives its correct role exactly once ' . $path . ' variant=' . $version . ' counts=' . wp_json_encode($roles) . ' preflight=' . wp_json_encode(array_count_values($preflight_roles)));
     if($path==='/o-nas/') { $check(substr_count($result['html'],'<img')===7,'all seven actual original photos survive'); $check(substr_count($result['html'],'et_pb_toggle_title')===8,'all eight actual original FAQs survive'); $check($closing_output!=='' && !preg_match('~<h1(?:\\s|>)~i',$closing_output) && ($version!==0 || preg_match('~<h2(?:\\s|>)~i',$closing_output)),'the reviewed closing H1 becomes H2 while any existing SEO introduction H1 is retained (capture_bytes=' . strlen($closing_output) . ',h1=' . preg_match_all('~<h1(?:\\s|>)~i',$closing_output) . ',h2=' . preg_match_all('~<h2(?:\\s|>)~i',$closing_output) . ')'); }
+    if ($path==='/o-nas/') {
+     preg_match_all('~<p\b[^>]*>.*?</p>~s', $body, $sp); preg_match_all('~<p\b[^>]*>.*?</p>~s', $result['html'], $rp);
+     $word_paragraphs=static function($paragraphs,$blank){return array_values(array_filter($paragraphs,static function($p)use($blank){return strpos($p,'EOP SCXW89527369 BCX8')!==false && (trim(html_entity_decode(wp_strip_all_tags($p),ENT_QUOTES | ENT_HTML5,'UTF-8'))==='')===$blank;}));};
+     $check(count($word_paragraphs($rp[0],true))===0, 'actual empty Word-export paragraph removed after original callbacks');
+     $check(count($word_paragraphs($rp[0],false))===count($word_paragraphs($sp[0],false)), 'meaningful paragraphs sharing Word-export classes remain intact');
+     $check(!preg_match('~<p\b[^>]*>\s*(?:&nbsp;|&#160;|&#x[aA]0;)\s*</p>~', $result['html']), 'actual spacing-only nonbreaking-space paragraphs removed');
+    }
     $check(substr_count($result['html'],'<iframe')===substr_count($original,'<iframe'),'all original map iframe roots retained ' . $path);
     $check(substr_count($result['html'],'class="ti-review-item"')===substr_count($original,'class="ti-review-item"'),'original review callback output retained ' . $path);
     $check(substr_count($result['html'],'et_pb_toggle_title')===substr_count($original,'et_pb_toggle_title'),'original FAQ callback output retained ' . $path);
@@ -144,6 +167,11 @@ try {
   $check($versions===4,'both original and SEO variants of both company routes covered');
  } else {
   if (!function_exists('yoona_company_fixture_sources')) WP_CLI::error('Prepare the public company fixture first.');
+  $blank_helper = new ReflectionMethod('Yoona_SEO_Company_Pages', 'without_blank_paragraphs'); $blank_helper->setAccessible(true);
+  $blank_cases = array('<p></p>', '<p> </p>', '<p>&nbsp;</p>', '<p>&#160;</p>', '<p>&#xA0;</p>', "<p>\xc2\xa0</p>", '<p><br /></p>', '<p style="margin-top:30px"><span style="font-size:small"><strong></strong></span></p>', '<p style="text-align: justify;"><span class="EOP SCXW89527369 BCX8" data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"></span></p>');
+  foreach ($blank_cases as $index => $case) $check($blank_helper->invoke(null, $case) === '', 'inert spacing paragraph removed case ' . $index);
+  $preserved_cases = array('<p role="status" aria-live="polite"></p>', '<p id="quote-status"></p>', '<p class="integration-slot"></p>', '<p><span class="icon-production"></span></p>', '<p><a id="quote-form"></a></p>', '<p><img src="/one-photo.jpg" alt="Realizacja"></p>', '<p><svg role="img" aria-label="Produkcja"><path d="M0 0"/></svg></p>', '<p><input type="hidden" name="nonce" value="test"></p>', '<p><iframe title="Mapa" src="/map"></iframe></p>', '<p>[unknown_shortcode]</p>', '<p>Niepusty tekst.</p>');
+  foreach ($preserved_cases as $index => $case) $check($blank_helper->invoke(null, $case) === $case, 'functional, attributed or meaningful paragraph preserved case ' . $index);
   $fixture=yoona_company_fixture_sources();
   foreach ($fixture['sources'] as $path=>$body) {
    $id=$set($path,$body); $context=Yoona_SEO_Company_Pages::context($id); $check(is_array($context),'known synthetic source resolves ' . $path);
@@ -151,6 +179,11 @@ try {
    $GLOBALS['company_fixture_callbacks']=array(); $result=Yoona_SEO_Company_Pages::render($context);
    $check($result['hero_omitted'] && $GLOBALS['company_fixture_callbacks']===$callbacks,'known heading omitted after all original callbacks execute once ' . $path);
    $check(strpos($result['html'],'company-manual-form-section')!==false || $path==='/o-nas/','later manual native form is preserved ' . $path);
+   if ($path === '/o-nas/') {
+    $check(strpos($result['html'], '<p>&nbsp;</p>') === false && strpos($result['html'], '<p> <br /> </p>') === false && strpos($result['html'], 'font-size:small"></span></strong></p>') === false && strpos($result['html'], 'EOP SCXW89527369 BCX8') === false, 'eleven representative blank paragraphs removed from approved About sections');
+    foreach (array('company-approved-live', 'company-approved-icon', 'company-approved-svg', 'company-preserved-live', 'company-preserved-anchor', 'company-preserved-icon', 'company-preserved-svg', 'company-preserved-shortcode') as $marker) $check(strpos($result['html'], $marker) !== false, 'functional empty markup preserved in approved and manual modules ' . $marker);
+    $check(substr_count($result['html'], 'aria-expanded="true"') === 8 && substr_count($result['html'], 'et_pb_toggle_content" hidden') === 0, 'all eight stored initially open FAQ toggles remain open');
+   }
    // Change every original annotated/omitted module. Unknown source must retain
    // its complete content and must not receive any reviewed role annotation.
    $changed=preg_replace('~\[(et_pb_[a-z_]+)(?=[\s\]])~', '[$1 synthetic_edit="yes"', $body); $id=$set($path,$changed);

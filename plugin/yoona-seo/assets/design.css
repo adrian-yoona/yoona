@@ -889,3 +889,36 @@ body.yn-design { font-size:16px; line-height:1.75; }
  .yn-design .yn-company-content .yn-company-faq .et_pb_toggle { padding:14px 16px!important; }
  .yn-design .yn-company-content .yn-company-faq .et_pb_toggle_title { min-height:30px; }
 }
+
+/* 3.5.1: About uses the home page's typefaces and removes legacy spacer margins. */
+.yn-design .yn-category-link { justify-content:flex-start; gap:12px; }
+.yn-design .yn-category-link .yn-icon-service { display:block; flex:0 0 24px; width:24px; height:24px; color:#9b410c; }
+.yn-design .yn-category-link>.yn-category-label { flex:1 1 auto; min-width:0; color:inherit; font-size:inherit; overflow-wrap:anywhere; }
+.yn-design .yn-category-link>span[aria-hidden="true"] { position:relative; display:inline-block; flex:0 0 12px; width:12px; height:12px; margin-left:auto; font-size:0; line-height:0; }
+.yn-design .yn-category-link>span[aria-hidden="true"]::before { content:""; position:absolute; left:0; top:10px; width:14px; height:1px; background:currentColor; transform:rotate(-45deg); transform-origin:left center; }
+.yn-design .yn-category-link>span[aria-hidden="true"]::after { content:""; position:absolute; right:1px; top:0; width:7px; height:7px; border-top:1px solid currentColor; border-right:1px solid currentColor; }
+.yn-design .yn-company-page.yn-company-about .yn-container,
+.yn-design .yn-company-page.yn-company-about .yn-company-content .et_pb_row { width:min(var(--yn-width),calc(100% - clamp(40px,7vw,96px))); max-width:var(--yn-width); }
+.yn-design .yn-company-page.yn-company-about .yn-company-content .et_pb_section:not(.et_pb_fullwidth_section),
+.yn-design .yn-company-page.yn-company-about .yn-company-content .et_pb_fullwidth_section { margin:0!important; padding:24px 0!important; }
+.yn-design .yn-company-about .yn-company-content .et_pb_column { padding-block:0!important; }
+.yn-design .yn-company-about .yn-company-content .et_pb_text { width:100%!important; max-width:none!important; height:auto!important; min-height:0!important; margin:0 0 14px!important; padding:0!important; }
+.yn-design .yn-company-about .yn-company-content .et_pb_text:last-child { margin-bottom:0!important; }
+.yn-design .yn-company-about .yn-company-content .et_pb_text_inner { min-height:0!important; height:auto!important; }
+.yn-design .yn-company-page.yn-company-about .yn-company-content :is(p,li) { font-family:var(--yn-body-font)!important; font-size:14px!important; line-height:1.7!important; color:#3c3b36!important; }
+.yn-design .yn-company-about .yn-company-content .et_pb_text :is(p,li) { max-width:70ch; margin-inline:0!important; }
+.yn-design .yn-company-page.yn-company-about .yn-company-content :is(h1,h2) { font-family:var(--yn-display-font)!important; font-weight:400!important; font-style:normal!important; line-height:1.12!important; letter-spacing:-.04em!important; text-transform:uppercase; color:#111!important; }
+.yn-design .yn-company-page.yn-company-about .yn-company-content :is(h1,h2) :is(span,strong,b,em,i,a) { font-family:inherit!important; font-size:inherit!important; font-weight:inherit!important; font-style:normal!important; line-height:inherit!important; letter-spacing:inherit!important; color:inherit!important; text-decoration:none!important; }
+.yn-design .yn-company-about .yn-company-content :is(h1,h2) a:hover { text-decoration:underline!important; text-underline-offset:4px; }
+.yn-design .yn-company-about .yn-company-content .yn-company-faq .et_pb_toggle_title { font-family:var(--yn-body-font)!important; font-weight:800!important; }
+.yn-design .yn-company-about .yn-company-content .yn-company-intro>.et_pb_row { display:block!important; }
+.yn-design .yn-company-about .yn-company-content .yn-company-intro>.et_pb_row>.et_pb_column { float:none!important; width:100%!important; max-width:900px; margin:0!important; }
+.yn-design .yn-company-about .yn-company-content .yn-company-intro>.et_pb_row>.et_pb_column+.et_pb_column { margin-top:14px!important; }
+.yn-design .yn-company-about .yn-company-content .yn-company-service>.et_pb_row { align-items:start; }
+.yn-design .yn-company-about .yn-company-content .yn-company-narrative .et_pb_fullwidth_header { width:min(var(--yn-width),calc(100% - clamp(40px,7vw,96px))); margin-inline:auto!important; }
+.yn-design .yn-company-about .yn-company-content .yn-company-narrative .header-content-container { width:100%!important; max-width:none!important; }
+@media(max-width:640px) {
+ .yn-design .yn-company-page.yn-company-about .yn-company-content .et_pb_section:not(.et_pb_fullwidth_section),
+ .yn-design .yn-company-page.yn-company-about .yn-company-content .et_pb_fullwidth_section { padding-block:18px!important; }
+ .yn-design .yn-company-about .yn-company-content .yn-company-service>.et_pb_row { gap:14px; }
+}

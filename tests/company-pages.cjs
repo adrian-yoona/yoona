@@ -37,9 +37,19 @@ const {chromium} = require('playwright');
   const luminance=c=>{const v=c.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4;});return .2126*v[0]+.7152*v[1]+.0722*v[2];};
   const contrast=[];
   for(const element of elements){if(!element.textContent.trim())continue;const s=getComputedStyle(element),color=rgba(s.color),bg=background(element);if(s.backgroundImage!=='none')continue;const a=luminance(color),b=luminance(bg),ratio=(Math.max(a,b)+.05)/(Math.min(a,b)+.05),size=parseFloat(s.fontSize),large=size>=24 || (size>=18.66 && Number(s.fontWeight)>=700),minimum=large?3:4.5;if(ratio<minimum-.01)contrast.push({text:element.textContent.trim().slice(0,100),color:s.color,background:bg,size,weight:s.fontWeight,ratio,minimum});}
+  const about = main.classList.contains('yn-company-about') ? {
+   headings:[...main.querySelectorAll('.yn-company-content h1,.yn-company-content h2')].map(e=>{const s=getComputedStyle(e);return {font:s.fontFamily,weight:s.fontWeight,size:parseFloat(s.fontSize),descendants:[...e.querySelectorAll('span,strong,b,em,i,a')].map(n=>{const t=getComputedStyle(n);return {font:t.fontFamily,weight:t.fontWeight,size:parseFloat(t.fontSize)};})};}),
+   archivoLoaded:[...document.fonts].some(f=>f.family.replace(/["']/g,'')==='YN Archivo' && f.status==='loaded'),
+   sectionPadding:[...main.querySelectorAll('.yn-company-service,.yn-company-intro,.yn-company-faq')].map(e=>{const s=getComputedStyle(e);return [parseFloat(s.paddingTop),parseFloat(s.paddingBottom)];}),
+   oldSpacer:[...main.querySelectorAll('.company-legacy-spaced-text')].map(e=>{const s=getComputedStyle(e);return {marginTop:parseFloat(s.marginTop),paddingTop:parseFloat(s.paddingTop),paddingLeft:parseFloat(s.paddingLeft)};}),
+   blankParagraphs:[...main.querySelectorAll('.yn-company-content p')].filter(e=>!e.textContent.trim() && [...e.attributes].every(a=>a.name==='style') && [...e.querySelectorAll('*')].every(n=>['SPAN','STRONG','B','EM','I','BR'].includes(n.tagName) && [...n.attributes].every(a=>a.name==='style'))).length,
+   wordArtifacts:main.querySelectorAll('.EOP').length,
+   protectedSlots:main.querySelectorAll('.company-approved-live,.company-approved-icon,.company-approved-svg,.company-preserved-live,.company-preserved-anchor,.company-preserved-icon,.company-preserved-svg,.company-preserved-shortcode').length,
+   introColumns:[...main.querySelectorAll('.yn-company-intro>.et_pb_row>.et_pb_column')].map(rect)
+  } : null;
   const offices=[...main.querySelectorAll('.yn-company-office-row>.et_pb_column')];
   const paragraphs=[...main.querySelectorAll('.yn-company-intro p,.yn-company-service p,.yn-company-contact-code p,.yn-company-narrative p,.yn-company-values p')].filter(e=>e.getBoundingClientRect().height>0).map(e=>{const s=getComputedStyle(e);return {font:s.fontFamily,size:parseFloat(s.fontSize),align:s.textAlign,color:s.color};});
-  return {overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,clipped,contrast,main:rect(main),header:rect(header),content:rect(content),gutters:[...main.querySelectorAll('.yn-company-heading .yn-container,.yn-company-content .et_pb_row')].map(rect),title:(()=>{const e=main.querySelector('.yn-company-title'),s=getComputedStyle(e);return {box:rect(e),tag:e.tagName,font:s.fontFamily,size:parseFloat(s.fontSize),color:s.color};})(),serviceHeadings:[...main.querySelectorAll('.yn-company-service h2')].map(e=>parseFloat(getComputedStyle(e).fontSize)),gridRows:[...main.querySelectorAll('.yn-company-service>.et_pb_row,.yn-company-faq>.et_pb_row,.yn-company-office-row')].map(e=>({before:getComputedStyle(e,'::before').display,after:getComputedStyle(e,'::after').display})),offices:offices.map(rect),paragraphs,map:main.querySelector('iframe')?rect(main.querySelector('iframe')):null,cta:main.querySelector('.yn-company-cta')?rect(main.querySelector('.yn-company-cta')):null,ctaTitle:main.querySelector('.yn-company-cta h2')?parseFloat(getComputedStyle(main.querySelector('.yn-company-cta h2')).fontSize):null,serviceImages:[...main.querySelectorAll('.yn-company-service img')].map(rect),touchTargets:[...main.querySelectorAll('.yn-company-contact-code a,.yn-company-map-code a,.yn-company-review-link a')].map(e=>({text:e.textContent.trim(),...rect(e)})),fontLoaded:[...document.fonts].some(f=>f.family.replace(/["']/g,'')==='YN Manrope' && f.status==='loaded')};
+  return {about,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,clipped,contrast,main:rect(main),header:rect(header),content:rect(content),gutters:[...main.querySelectorAll('.yn-company-heading .yn-container,.yn-company-content .et_pb_row')].map(rect),title:(()=>{const e=main.querySelector('.yn-company-title'),s=getComputedStyle(e);return {box:rect(e),tag:e.tagName,font:s.fontFamily,size:parseFloat(s.fontSize),color:s.color};})(),serviceHeadings:[...main.querySelectorAll('.yn-company-service h2')].map(e=>parseFloat(getComputedStyle(e).fontSize)),gridRows:[...main.querySelectorAll('.yn-company-service>.et_pb_row,.yn-company-faq>.et_pb_row,.yn-company-office-row')].map(e=>({before:getComputedStyle(e,'::before').display,after:getComputedStyle(e,'::after').display})),offices:offices.map(rect),paragraphs,map:main.querySelector('iframe')?rect(main.querySelector('iframe')):null,cta:main.querySelector('.yn-company-cta')?rect(main.querySelector('.yn-company-cta')):null,ctaTitle:main.querySelector('.yn-company-cta h2')?parseFloat(getComputedStyle(main.querySelector('.yn-company-cta h2')).fontSize):null,serviceImages:[...main.querySelectorAll('.yn-company-service img')].map(rect),touchTargets:[...main.querySelectorAll('.yn-company-contact-code a,.yn-company-map-code a,.yn-company-review-link a')].map(e=>({text:e.textContent.trim(),...rect(e)})),fontLoaded:[...document.fonts].some(f=>f.family.replace(/["']/g,'')==='YN Manrope' && f.status==='loaded')};
  });
  try {
   for(const route of routes){const r=await fetch(base+route);check(r.status===200,'Warmup '+route);await r.arrayBuffer();}
@@ -59,6 +69,12 @@ const {chromium} = require('playwright');
     check(await page.locator('.company-old-hero,.company-old-contact-intro').count()===0,width+' known old empty hero / duplicate contact introduction removed '+route);
     const cssUrl=await page.locator('link[href*="/assets/design.css"]').first().getAttribute('href'),response=await page.request.get(cssUrl);
     check(response.status()===200 && sha(await response.body())===sha(css),width+' served stylesheet matches reviewed source bytes '+route);
+    if(route==='/o-nas/') {
+     const photos=await page.locator('.yn-company-service img').all();
+     for(const photo of photos){await photo.scrollIntoViewIfNeeded();await photo.evaluate(e=>e.decode());}
+     check(photos.length===7 && await page.locator('.yn-company-service img').evaluateAll(images=>images.every(e=>e.complete && e.naturalWidth>0)),width+' all seven lazy photos load when their sections enter the viewport');
+     await page.evaluate(()=>window.scrollTo(0,0));
+    }
     const value=await measure(page);
     await page.screenshot({path:path.join(output,width+'-'+route.replaceAll('/','')+'-initial.png'),fullPage:true});
     check(value.overflow<=2 && value.clipped.length===0,width+' no document or text overflow '+route+' '+JSON.stringify(value.clipped));
@@ -72,14 +88,22 @@ const {chromium} = require('playwright');
     check((await page.title()).startsWith('COMPANY NATIVE ') && await page.locator('meta[name="description"]').count()===1,width+' native Rank Math metadata preserved '+route);
     check(await page.locator('main .et_pb_social_media_follow_network a').count()===2,width+' original social links preserved once '+route);
     if(route==='/o-nas/'){
+     check(value.about.archivoLoaded && value.about.headings.length>0 && value.about.headings.every(h=>h.font.includes('YN Archivo') && h.weight==='400' && h.descendants.every(d=>d.font===h.font && d.weight===h.weight && d.size===h.size)),width+' headings and their nested links/spans match homepage Archivo without synthetic bold');
+     check(value.about.sectionPadding.every(p=>p.every(v=>v===(width<=640?18:24))),width+' compact section padding wins over the actual older important selector');
+     check(value.about.oldSpacer.length===1 && value.about.oldSpacer.every(s=>s.marginTop===0 && s.paddingTop===0 && s.paddingLeft===0),width+' legacy 20 percent text margin and inline padding removed');
+     check(value.about.blankParagraphs===0 && value.about.wordArtifacts===0,width+' no spacing-only or known Word-export paragraphs remain');
+     check(value.about.protectedSlots===8,width+' live regions, anchors, CSS icons, SVG and shortcode slots remain intact');
+     check(value.about.introColumns.length===1 && value.about.introColumns[0].width>Math.min(280,width-50),width+' original one-column introduction retains useful width');
+     check(await page.locator('.yn-company-faq .et_pb_toggle_title[aria-expanded="true"]').count()===8,width+' stored open FAQ state retained');
      check(await page.locator('.yn-company-service>.et_pb_row>.et_pb_column .et_pb_image img').count()===7,width+' seven original photos retain Divi section / row / column ancestry');
      check(await page.locator('.yn-company-faq .et_pb_toggle').count()===8,width+' all eight original FAQs preserved');
      check(value.serviceHeadings.length===7 && value.serviceHeadings.every(s=>s<=(width<=640?23:30)),width+' service headings override the old !important content heading size '+JSON.stringify(value.serviceHeadings));
      check(value.serviceImages.every(b=>b.width>0 && b.height>0 && b.height<=390),width+' all service photos visible with compact aspect ratios');
      const first=page.locator('.yn-company-faq .et_pb_toggle').first();
      await first.locator('.et_pb_toggle_title').click();
-     check(await first.locator('.et_pb_toggle_content').isVisible() && await first.locator('.et_pb_toggle_title').getAttribute('aria-expanded')==='true',width+' original FAQ remains interactive');
+     check(!await first.locator('.et_pb_toggle_content').isVisible() && await first.locator('.et_pb_toggle_title').getAttribute('aria-expanded')==='false',width+' original open FAQ can close');
      await first.locator('.et_pb_toggle_title').click();
+     check(await first.locator('.et_pb_toggle_content').isVisible() && await first.locator('.et_pb_toggle_title').getAttribute('aria-expanded')==='true',width+' original FAQ can reopen');
     }else{
      check(await page.locator('.yn-company-contact-main>.yn-company-office-row>.et_pb_column>.yn-company-contact-code').count()===2,width+' exactly two original office code modules retain complete parents');
      check(value.offices.length===2 && (width<=640 ? value.offices[1].y>=value.offices[0].bottom-1 : Math.abs(value.offices[0].y-value.offices[1].y)<=1),width+' office columns switch cleanly to stacked cards at mobile width');

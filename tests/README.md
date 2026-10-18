@@ -380,9 +380,10 @@ Po pracy usuń tylko utworzone kontenery CLI/WWW/DB, ich wolumen i sieć wskazan
 przez ten przebieg. Nie używaj globalnego `docker prune` ani cudzych zasobów.
 
 
-## Bieżące zestawy — 3.5.0
+## Zestawy komponentów — 3.5.0 i 3.5.1
 
-Poniższe próby obejmują nowe komponenty wydania 3.5.0. Raporty starszych wersji
+Poniższe próby obejmują komponenty wprowadzone w 3.5.0; dodatkowe regresje
+3.5.1 opisano na końcu. Raporty starszych wersji
 pozostają historyczne; samo ich istnienie nie oznacza ponownego wykonania na
 aktualnym kodzie. Faktycznie wykonane przebiegi opisuje
 [dokument wyników](../docs/WYNIKI-TESTOW.md). Polecenia uruchamiaj z katalogu
@@ -600,3 +601,124 @@ wcześniej zapisanego SEO nie trzeba ponawiać.
 Po zakończeniu usuń prywatne pliki z `/tmp` CLI, jeśli były używane, oraz
 tylko własne kontenery CLI/WWW/DB, wolumen i sieć podane przez runner.
 Nie uruchamiaj globalnego `docker prune` ani czyszczenia cudzych zasobów.
+
+
+## Regresje O nas, kategorii Edge i realizacji — 3.5.1
+
+Użyj własnego jednorazowego stosu oraz wspólnego przygotowania opisanego
+powyżej, z aktualnym źródłem wtyczki i aktualnym katalogiem `tests`.
+Skrypty przygotowujące fixture zapisują syntetyczne dane; wykonaj je przed
+rozgrzaniem stron i ścisłym porównaniem bazy. Nie uruchamiaj równolegle
+przygotowania, testów zapisu ani prób wymagających niezmienionej bazy.
+Faktyczne wyniki i liczby kontroli podaje
+[WYNIKI-TESTOW.md](../docs/WYNIKI-TESTOW.md), a nie historyczne raporty 3.5.0.
+
+### O nas: prawdziwe ustawienia odstępów i fontów
+
+Zaktualizowany `company-pages.php prepare` odwzorowuje jedną kolumnę wstępu,
+tekst z górnym marginesem 20%, paddingi kolumn i tekstu oraz starszy,
+bardziej szczegółowy selektor `!important`. Nagłówki mają konkurencyjne
+fonty i rozmiary także w zagnieżdżonych linkach, spanach i pogrubieniach.
+FAQ ma dwie kolumny po cztery elementy, początkowo otwarte tak jak
+w oryginalnej treści. Próba sprawdza zamykanie i ponowne otwieranie,
+zamiast narzucać inny stan źródłu.
+
+Oryginalne O nas zawiera dziesięć pustych akapitów. Publiczny fixture
+obejmuje jedenaście przypadków: siedem `&nbsp;`, pusty span Worda,
+puste formatowanie, pusty akapit oraz dodatkowe `<br>`. Ochrona obejmuje
+również pozornie puste komunikaty dynamiczne, kotwice, ikony CSS, SVG,
+formularze i nierozpoznane shortcode, zarówno w sekcji rozpoznanej, jak i ręcznie
+dodanej. Prywatny eksport nadal służy wyłącznie kontroli w pamięci CLI;
+nie trafia do publicznych stron, raportów ani repozytorium.
+
+```bash
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/company-pages.php guards --skip-themes
+node tests/company-pages.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+```
+
+Przeglądarka mierzy nagłówki Archivo 400 oraz ich potomków, Manrope 14 px
+w treści, sekcje 24 px na komputerze i 18 px do szerokości 640 px,
+zerowy margines i padding dawnego modułu oraz wszystkie zachowane zdjęcia.
+Przed pomiarem przewija do zdjęć z leniwym ładowaniem; pusty obszar przed
+załadowaniem obrazu nie jest uznawany za poprawny widok.
+Kontrolowane porównanie z 3.5.0 odtworzyło dawny górny margines
+122,594 px na komputerze i 56 px na telefonie; 3.5.1 daje odpowiednio
+0 i 0 px. Zakres oraz wynik tego porównania podaje dokument wyników.
+
+### Kategorie strony głównej: rzeczywisty Edge i dwa arkusze
+
+Komponent ma kompletne reguły w `design.css` i `collections.css`, ze
+strzałkami rysowanymi w CSS. Lokalna regresja używa rzeczywistych arkuszy,
+fontów, publicznych tytułów oraz SVG wtyczki. Sprawdza normalne wczytanie,
+celowo zablokowany `collections.css`, brak reguł kategorii w `design.css`
+oraz usunięte komentarze i zagęszczone białe znaki. Ostatni wariant nie
+jest testem produkcyjnego optymalizatora LiteSpeed.
+
+```bash
+node tests/edge-directory351.cjs
+```
+
+Bez dodatkowych zmiennych ten test uruchamia Chromium z identyfikatorem
+Edge/Windows. Rzeczywistego Edge wybiera osobna zmienna `YOONA_TEST_EDGE`:
+
+```bash
+YOONA_TEST_EDGE=/sciezka/do/zweryfikowanego/msedge node tests/edge-directory351.cjs
+YOONA_TEST_EDGE=/sciezka/do/zweryfikowanego/msedge node tests/edge-directory351-wordpress.cjs http://127.0.0.1:PORT
+```
+
+Pierwszy skrypt potrzebuje lokalnego PHP do uzyskania SVG. Przy PHP
+dostępnym wyłącznie w Dockerze wyeksportuj publiczną mapę
+`ścieżka usługi → Yoona_SEO_Icons::service(ścieżka)` do lokalnego JSON
+i przekaż jego ścieżkę w `YOONA_TEST_ICON_JSON`. Wariant WordPress czyta
+faktyczną stronę główną i zasoby po HTTP, porównuje ich SHA-256 ze źródłem
+oraz wymaga `?ver=3.5.1`; nie tworzy fixture, nie zapisuje opcji i nie
+zmienia konfiguracji motywu.
+
+Wykonane próby korzystały także z rzeczywistego Microsoft Edge
+155.0.4283.62 na Linuksie. Pochodzi z oficjalnego repozytorium Microsoftu;
+zweryfikowano podpis metadanych, SHA-256 ich indeksu oraz paczki `.deb`.
+Paczka została wyłącznie rozpakowana pod `/tmp`, bez instalacji systemowej
+ani uruchamiania skryptów instalatora. Wersję, podpis i skróty dokumentuje
+[edge-directory351-results.txt](edge-directory351-results.txt).
+Testy nie mają dostępu do profilu Windows Edge właściciela i nie ustalają
+zawartości produkcyjnej pamięci cache. Jeżeli oba arkusze są stare,
+potrzebna jest aktualizacja i zwykłe czyszczenie cache.
+
+### Realizacje: jednolita typografia i trzy rodzaje galerii
+
+```bash
+node tests/premium-projects.cjs http://127.0.0.1:PORT
+```
+
+Test sprawdza rzeczywiste lokalne trasy WordPressa dla jawnych syntetycznych
+wpisów oraz zgodność serwowanego `projects.css`. Znany opis jest włączany
+przez testowy, działający tylko dla tych wpisów wariant HTTP; nierozpoznana
+treść zachowuje własny tekst bez dopisywania nieaktualnych faktów.
+Dodatkowe przypadki w przeglądarce odwzorowują klasyczną galerię WordPressa,
+siatkę Divi, jej dawne pływające elementy i style inline. Nie są to moduły
+licencjonowanego Divi.
+
+Weryfikowane są Archivo 400 w nagłówkach, dziedziczenie przez pogrubienia,
+Manrope w treści, nieucięte tytuły i marginesy. Galeria blokowa, klasyczna
+i siatka Divi mają wspólny układ trzech kolumn powyżej 1100 px, dwóch do
+1100 px i jednej do 620 px. Jedna fotografia zachowuje proporcje i pełny
+kadr. Osobny przypadek wymaga zachowania sceny slidera Divi jako slidera,
+bez nadpisania jej szerokości, marginesu i `display` regułami siatki.
+Próby sprawdzają również komplet zdjęć, podpisów, linków, FAQ, pojedynczy
+H1 i brak przewijania poziomego. Aktualne zrzuty i geometria trafiają do
+`/tmp/yoona-premium-projects351-screenshots` lub `YOONA_TEST_SCREENSHOTS`.
+
+Zestawy firmowe i realizacji pozwalają opcjonalnie uruchomić tę samą próbę
+w dostępnej, zweryfikowanej przeglądarce Edge, bez jej instalowania w systemie:
+
+```bash
+YOONA_TEST_CHROMIUM=/sciezka/do/zweryfikowanego/msedge node tests/company-pages.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+YOONA_TEST_CHROMIUM=/sciezka/do/zweryfikowanego/msedge node tests/premium-projects.cjs http://127.0.0.1:PORT
+```
+
+Aktualizacja dla właściciela to ZIP 3.5.1, **Narzędzia → Yoona SEO →
+Odśwież wygląd**, **LiteSpeed Cache → Purge All** i **Ctrl+F5** w Edge.
+Nie ponawia zapisanego SEO i nie nadpisuje ręcznych, autorytatywnych
+układów Divi. Wyniki lokalne nie oznaczają wdrożenia na yoona.pl,
+uruchomienia licencjonowanego Visual Buildera ani potwierdzenia dostarczenia
+produkcyjnych fotografii.

@@ -1,0 +1,74 @@
+YOONA 3.5.1 — homepage directory regression, 2026-10-18
+
+PASS: 233 assertions in official Microsoft Edge 155.0.4283.62 on Linux.
+PASS: 232 assertions in Chromium 154 with Edge/Windows user agent.
+PASS: 32 additional read-only real WordPress homepage assertions in official
+Microsoft Edge 155.0.4283.62, at 1440 and 390 CSS pixels.
+
+Real WordPress integration:
+  tests/edge-directory351-wordpress.cjs http://127.0.0.1:<port>
+  Actual plugin front-page template and WordPress stylesheet enqueue.
+  Both CSS responses HTTP 200 with ?ver=3.5.1 and byte-identical to source:
+    design.css SHA256
+    898ef78ea329fe62070fe0cce8e28048fdec36f6fe82a7b27f23af23e3fea372
+    collections.css SHA256
+    8ac1a43c26c17989a2188c003031a24b9bebe78df4f75e15cedaa47148e0fe9c
+  All 41 fixture offers appear exactly once: 8 photo cards + 33 directory
+  links (the six newly owned child pages are not installed in this fixture).
+  Actual 3-column desktop / 1-column phone geometry, no horizontal overflow,
+  full labels, dark uppercase Manrope, 24px icons, CSS-drawn arrows and
+  44px-or-larger targets. Local labelled photo placeholders; actual plugin
+  markup, CSS, local font files and PHP-generated SVGs. HTTP reads only:
+  no CLI calls, database mutations or WordPress/theme configuration changes.
+
+Seven viewport widths: 320, 390, 600, 760, 900, 1440 and 2560 CSS pixels.
+Device scale factor: 1.25. Four stylesheet states at every width:
+  1. Current main stylesheet plus current collections stylesheet.
+  2. Collections stylesheet request deliberately aborted.
+  3. Main stylesheet deliberately lacks all homepage-directory rules;
+     current collections stylesheet independently restores the component.
+  4. Comments removed and whitespace compacted without changing CSS tokens.
+
+The controlled pre-fix baseline reproduces the reported appearance:
+  directory display:block, links display:inline, eight photo cards still grid.
+This proves a missing/stale style failure mode; it does not establish what
+the user's production Edge cache actually contained.
+
+Assertions cover 3/2/1 responsive columns, all 39 unique directory links,
+no horizontal overflow, complete labels, nonoverlapping icon/text/arrow,
+24px SVG icons, dark uppercase Manrope type, compact matching heading,
+44px-or-larger targets, visible keyboard focus, and CSS-drawn arrows that
+do not depend on a particular font containing the diagonal-arrow glyph.
+
+Real shipped CSS, local font files, actual PHP SVG helper and public service
+titles are used. Photo placeholders and component HTML are local fixtures.
+No licensed Divi renderer or access to the user's Windows browser profile;
+this is not a claim to inspect production page caches or run LiteSpeed's
+production optimizer. If both cached stylesheets are old, they still require
+the normal versioned update and cache purge.
+
+Microsoft Edge provenance:
+  https://packages.microsoft.com/repos/edge/
+  Release signature verified against fingerprint
+  BC528686B50D79E339D3721CEB3E94ADBE1229CF.
+  Signed Release date: 2026-10-16 22:10:50 UTC.
+  Packages.gz SHA256 matched the signed Release metadata.
+  microsoft-edge-stable_155.0.4283.62-1_amd64.deb:
+  194357122 bytes; SHA256
+  3e53834d9d6e505bc57e6bff44d92cfe8cf0bed9064e88efc5b0d8f1c75f70fa.
+  Extracted with dpkg-deb only under /tmp; no system installation or
+  maintainer scripts. Native executable and Edg/155 user agent verified.
+
+Reproduction:
+  With PHP and Chromium available:
+    node tests/edge-directory351.cjs
+  A Docker-only PHP setup can export a public path=>SVG map using
+  Yoona_SEO_Icons::service() and pass its local path as YOONA_TEST_ICON_JSON.
+  To test a verified, available Edge executable:
+    YOONA_TEST_EDGE=/path/to/msedge \
+      YOONA_TEST_ICON_JSON=/path/to/public-icons.json \
+      node tests/edge-directory351.cjs
+  Optional screenshot directory: YOONA_TEST_SCREENSHOTS=/tmp/directory-probe.
+
+Collections stylesheet SHA256:
+8ac1a43c26c17989a2188c003031a24b9bebe78df4f75e15cedaa47148e0fe9c

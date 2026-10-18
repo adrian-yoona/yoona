@@ -140,7 +140,8 @@ Obie podstrony mają wspólną, kompaktową oprawę z jasnym nagłówkiem, ciemn
 tekstem i ciemniejszym pomarańczem na jasnym tle. Manrope porządkuje treści,
 listy, FAQ i karty zespołu. Nagłówki treści mają do 30 px na komputerze i 23 px
 na telefonie; dawny kontaktowy napis 9em jest ograniczony do tej samej skali.
-Odstępy między sekcjami wynoszą 28 px na komputerze i 20 px na telefonie.
+W tej wersji założono odstępy sekcji 28 px na komputerze i 20 px na telefonie;
+konflikt starszej reguły CSS oraz dalszą korektę opisuje wydanie 3.5.1 poniżej.
 Szerokość jest ograniczona do 1280 px z płynnymi marginesami.
 
 Nowy nagłówek zastępuje tylko dokładnie rozpoznany dawny baner O nas z pustą
@@ -273,3 +274,75 @@ były uruchomione. Fotografie produkcyjne zastępowano oznaczonymi lokalnymi
 obrazami; testy potwierdzają układ i zachowanie, a nie dostarczenie zdjęć
 ani formularzy na yoona.pl. Faktycznie wykonane przebiegi i ich zakres
 podaje [dokument testów](WYNIKI-TESTOW.md).
+
+
+## Dopracowanie O nas — 3.5.1
+
+Nagłówki O nas używają teraz tego samego lokalnego Archivo Black 400 co
+strona główna. Zagnieżdżone linki, pogrubienia i spany dziedziczą krój,
+rozmiar oraz kolor nagłówka; stare ustawienia Arial i Roboto nie tworzą
+drugiej typografii. Akapity i listy mają Manrope 14 px. Zmiana jest
+ograniczona do O nas; nie przebudowuje ponownie Kontaktu.
+
+Usunięto zachowany górny margines 20% modułu tekstowego, zbędne paddingi
+modułów i konflikt ze starszą regułą `!important`. Sekcje mają 24 px
+odstępu z góry i z dołu, a do 640 px — 18 px. W kontrolowanym porównaniu
+3.5.0 z 3.5.1 margines badanego modułu spadł ze 122,594 do 0 px na
+komputerze i z 56 do 0 px na telefonie. Są to pomiary lokalnego przypadku
+odtwarzającego zapisane ustawienia Divi, nie odczyt produkcyjnej witryny.
+
+W dokładnie rozpoznanych sekcjach oryginalnego O nas usuwane są puste
+akapity, także zawierające `&nbsp;`, same znaczniki formatowania lub jeden
+rozpoznany artefakt eksportu Worda. Oryginalne źródło zawiera dziesięć takich
+akapitów; jawny fixture sprawdza jedenaście przypadków, w tym dodatkowe
+puste `<br>`. Puste obszary komunikatów, identyfikatory kotwic, ikony CSS,
+SVG, zdjęcia, formularze i nierozpoznane shortcode pozostają. Przetwarzanie
+następuje po wykonaniu callbacków, bez przepisywania zapisanej treści.
+Siedem zdjęć i osiem FAQ zachowuje swoich rodziców Divi. FAQ pozostaje
+w dwóch kolumnach na większych ekranach i zachowuje zapisany stan otwarcia.
+
+## Kategorie strony głównej w Edge — 3.5.1
+
+Lista pozostałych możliwości ma kompletny zestaw reguł zarówno
+w `design.css`, jak i `collections.css`. Każdy z tych plików samodzielnie
+zapewnia jej kolumny, odstępy, czytelne etykiety i ikony. Układ przechodzi
+z trzech kolumn do dwóch i jednej. Strzałki są rysowane w CSS, dzięki czemu
+nie zależą od obecności ukośnego znaku w systemowym foncie.
+
+Regresję sprawdzono w rzeczywistym Microsoft Edge 155 na Linuksie,
+pochodzącym z oficjalnego repozytorium Microsoftu. Zweryfikowano podpis
+metadanych i SHA-256 paczki, którą rozpakowano wyłącznie do `/tmp`, bez
+instalacji systemowej. Próby obejmują brak jednego arkusza, stary fragment
+drugiego i zagęszczony zapis CSS oraz faktyczne odpowiedzi lokalnego
+WordPressa. Kontrolowany dawny wariant odtwarza listę linków w jednej linii;
+nie dowodzi, jaka wersja CSS była zapisana w pamięci Edge właściciela.
+Przebiegi i pochodzenie przeglądarki opisują
+[raport Edge](../tests/edge-directory351-results.txt) oraz
+[wyniki testów](WYNIKI-TESTOW.md).
+
+## Typografia i galerie pojedynczych realizacji — 3.5.1
+
+Nagłówki realizacji oraz zachowane nagłówki źródłowe używają Archivo Black
+400, a treść Manrope. Zagnieżdżone pogrubienia i dawne style inline nie
+zmieniają kroju ani rozmiaru. Galeria blokowa WordPressa, klasyczna galeria
+i siatka Divi mają wspólny rytm: trzy kolumny powyżej 1100 px, dwie do
+1100 px i jedną do 620 px, z równymi odstępami oraz płynnymi marginesami.
+Pojedyncza fotografia zachowuje proporcje i jest pokazywana w całości.
+Reguły siatki Divi nie obejmują sceny slidera ani jego sterowania.
+
+Zmiana dotyczy prezentacji pojedynczego wpisu. Zachowuje pełną oryginalną
+treść, kolejność zdjęć, podpisy, linki i FAQ. Nie zmienia limitu 24 kart
+na liście realizacji ani układu katalogu ofert. Szczegółowe zakresy faktycznie
+wykonanych prób podaje [dokument testów](WYNIKI-TESTOW.md).
+
+## Aktualizacja 3.5.1
+
+Wgraj [ZIP 3.5.1](../downloads/yoona-seo-v3.5.1.zip), zastępując poprzednią
+wtyczkę YOONA. Następnie w **Narzędzia → Yoona SEO** odśwież wygląd,
+w LiteSpeed Cache wybierz **Purge All**, a w Edge przeładuj stronę przez
+**Ctrl+F5**. Wcześniej zapisanego SEO nie trzeba ponawiać.
+
+Ręcznie zapisane układy autorytatywnego Divi pozostają pod kontrolą właściciela
+i nie są nadpisywane aktualizacją. Korzystają z własnych ustawień; poprawki
+warstwy generowanego O nas nie stanowią automatycznej migracji takich
+układów. Aktualizacja nie instaluje się sama na yoona.pl.

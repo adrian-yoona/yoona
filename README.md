@@ -1,6 +1,16 @@
-# YOONA — wygląd, treści i SEO 3.5.0
+# YOONA — wygląd, treści i SEO 3.5.1
 
-**[Pobierz wtyczkę yoona-seo-v3.5.0.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.5.0.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+**[Pobierz wtyczkę yoona-seo-v3.5.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.5.1.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+
+## Poprawka 3.5.1
+
+O nas używa teraz tych samych fontów co główna: nagłówki Archivo Black 400 i opisy Manrope. Poprawiono stare procentowe marginesy, nadmiar odstępów i rozpoznane puste akapity Divi. FAQ zachowuje zapisany stan, a pola dynamiczne, zdjęcia i ręczne zmiany pozostają.
+
+Podstrony realizacji mają wspólną typografię Archivo Black/Manrope, zwarte odstępy, równe marginesy oraz spójne galerie natywne, klasyczne i Divi. Pojedyncze zdjęcie pozostaje szerokie, bez kadrowania i powielania. Oryginalne podpisy, FAQ, linki i moduły pozostają.
+
+Sekcja „Wszystkie możliwości dla Twojej marki” ma kompletny układ w obu arkuszach CSS. Dzięki temu pojedynczy brakujący lub stary arkusz nie zamienia jej w pionową listę pomarańczowych linków. Po aktualizacji wybierz **Odśwież wygląd i wyczyść cache**, **LiteSpeed Cache → Purge All**, następnie odśwież Edge przez **Ctrl+F5**. Rozpoznany objaw ze zrzutu nie dowodzi błędu silnika Edge; zakres sprawdzenia opisuje raport testów.
+
+Zmiany zwykłego widoku nie nadpisują stron wcześniej zapisanych jako nadrzędne moduły Divi ani ręcznych ustawień w takim układzie. Taki układ edytuje się we własnym Divi.
 
 ## Aktualizacja 3.5.0
 
@@ -50,7 +60,7 @@ Naprawa działa podczas wyświetlania; nie wymaga ponownego zapisu SEO ani tworz
 ## Wgranie w WordPressie
 
 1. Wykonaj pełną kopię witryny. Wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę**, wgraj ZIP i zastąp poprzednią Yoona SEO. Rank Math pozostaw aktywny.
-2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.5.0** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
+2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.5.1** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
 3. Jeżeli sześciu usług jeszcze nie ma, kliknij **Dodaj 6 podstron CNC i markiz**. Przycisk tworzy brakujące strony wraz z tytułami i opisami Rank Math. Zajęte adresy są pomijane, powtórzenie nie tworzy kopii. Historia pozwala przenieść do kosza tylko całkowicie niezmienione strony utworzone tą operacją.
 4. Sprawdź główną, Kontakt, ofertę i zdjęcia realizacji na telefonie oraz komputerze. Cache hostingu/CDN może wymagać osobnego czyszczenia.
 

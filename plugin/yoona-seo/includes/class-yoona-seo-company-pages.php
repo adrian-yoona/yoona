@@ -77,6 +77,9 @@ final class Yoona_SEO_Company_Pages {
 			if ( 'about' === $context['kind'] && 'closing' === $module['role'] ) {
 				$output = preg_replace( '~(</?)h1(?=[\s>])~i', '$1h2', $output );
 			}
+			if ( 'about' === $context['kind'] && 'et_pb_section' === $tag ) {
+				$output = self::without_blank_paragraphs( $output );
+			}
 			return self::add_class( $output, 'yn-company-' . $module['role'] );
 		};
 		add_filter( 'do_shortcode_tag', $filter, 20, 4 );
@@ -89,6 +92,25 @@ final class Yoona_SEO_Company_Pages {
 			remove_filter( 'do_shortcode_tag', $filter, 20 );
 		}
 		return $result;
+	}
+
+	/** Remove spacing-only paragraphs from approved About sections, never embeds. */
+	private static function without_blank_paragraphs( $html ) {
+		$data = self::data();
+		$known = isset( $data['/o-nas/']['blank_paragraph_sha256'] ) ? $data['/o-nas/']['blank_paragraph_sha256'] : array();
+		return preg_replace_callback( '~<p\b([^>]*)>(.*?)</p\s*>~is', static function ( $paragraph ) use ( $known ) {
+			// One exact Word-export artifact has document metadata on an empty span.
+			if ( in_array( hash( 'sha256', $paragraph[0] ), $known, true ) ) return '';
+			// Keep IDs, classes, data/ARIA attributes and any functional markup.
+			$inert_attributes = '~\A\s*(?:style\s*=\s*(?:"[^"]*"|\'[^\']*\')\s*)?\z~is';
+			if ( ! preg_match( $inert_attributes, $paragraph[1] ) ) return $paragraph[0];
+			$body = preg_replace_callback( '~</?(?:span|strong|b|em|i|br)\b([^>]*)>~is', static function ( $tag ) use ( $inert_attributes ) {
+				$attributes = preg_replace( '~/\s*\z~', '', $tag[1] );
+				return preg_match( $inert_attributes, $attributes ) ? '' : $tag[0];
+			}, $paragraph[2] );
+			$body = html_entity_decode( $body, ENT_QUOTES | ENT_HTML5, 'UTF-8' );
+			return preg_match( '/\A[\s\x{00a0}]*\z/u', $body ) ? '' : $paragraph[0];
+		}, $html );
 	}
 
 	/** Add one class to the existing module root without changing its ancestry. */

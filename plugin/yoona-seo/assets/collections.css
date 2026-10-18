@@ -17,12 +17,22 @@
 .yn-design .yn-collection-content .pagination { margin-top:36px; }
 .yn-design .yn-collection-content .page-numbers { min-width:44px; min-height:44px; padding:10px 14px; border-color:#ccc7bc; font-size:13px; }
 
-/* Icons are decorative; the visible link text always identifies the destination. */
+/* The homepage directory is self-contained in both stylesheets. A stale main
+ * stylesheet must not leave newly rendered links as an unstyled vertical list.
+ * Icons are decorative; the visible text identifies every destination. */
+.yn-design .yn-home-categories { margin-top:32px; border-top:1px solid #d8d3c8; padding-top:26px; }
+.yn-design .yn-main .yn-home-categories>h3 { margin:0 0 16px; padding:0; font-family:var(--yn-body-font),Arial,sans-serif; font-size:13px; line-height:1.5; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
+.yn-design .yn-category-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:0 26px; list-style:none; margin:0; padding:0; }
+.yn-design .yn-category-grid>li { min-width:0; margin:0; padding:0; border-bottom:1px solid #ddd8cd; }
 .yn-design .yn-icon { display:inline-block; flex:none; vertical-align:middle; }
-.yn-design .yn-category-link { justify-content:flex-start; gap:12px; }
-.yn-design .yn-category-link .yn-icon-service { width:24px; height:24px; color:#9b410c; }
+.yn-design .yn-category-link { display:flex; align-items:center; justify-content:flex-start; gap:12px; min-height:62px; padding:15px 0; color:#191916; font-family:var(--yn-body-font),Arial,sans-serif; font-size:12px; font-weight:750; line-height:1.55; letter-spacing:.025em; text-transform:uppercase; overflow-wrap:anywhere; }
+.yn-design .yn-category-link:hover { color:var(--yn-orange-ink,#c34600); }
+.yn-design .yn-category-link:focus-visible { outline:3px solid var(--yn-orange-ink,#c34600); outline-offset:3px; }
+.yn-design .yn-category-link .yn-icon-service { display:block; flex:0 0 24px; width:24px; height:24px; color:#9b410c; }
 .yn-design .yn-category-link>.yn-category-label { flex:1 1 auto; min-width:0; color:inherit; font-size:inherit; overflow-wrap:anywhere; }
-.yn-design .yn-category-link>span[aria-hidden="true"] { margin-left:auto; }
+.yn-design .yn-category-link>span[aria-hidden="true"] { position:relative; display:inline-block; flex:0 0 12px; width:12px; height:12px; margin-left:auto; color:var(--yn-orange-ink,#c34600); font-size:0; line-height:0; }
+.yn-design .yn-category-link>span[aria-hidden="true"]::before { content:""; position:absolute; left:0; top:10px; width:14px; height:1px; background:currentColor; transform:rotate(-45deg); transform-origin:left center; }
+.yn-design .yn-category-link>span[aria-hidden="true"]::after { content:""; position:absolute; right:1px; top:0; width:7px; height:7px; border-top:1px solid currentColor; border-right:1px solid currentColor; }
 .yn-design .yn-footer-social { display:flex; flex-direction:column; gap:3px; }
 .yn-design .yn-footer .yn-footer-social li { margin:0; }
 .yn-design .yn-footer .yn-footer-social a { display:inline-flex; align-items:center; gap:10px; min-height:44px; color:#deded7; }
@@ -72,6 +82,12 @@
  .yn-design .yn-native-divi .yn-divi-project-index :is(.et_pb_salvattore_content,.et_pb_ajax_pagination_container:has(>article)) { grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px 18px; }
  .yn-design .yn-native-divi .et_pb_section:has(>.yn-divi-offer-catalog) { grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px 18px; }
 }
+@media(max-width:1100px) {
+ .yn-design .yn-category-grid { gap:0 20px; }
+}
+@media(max-width:760px) {
+ .yn-design .yn-category-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
 @media(max-width:759px) {
  .yn-design :is(.yn-catalog-grid,.yn-project-gallery-grid) { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 16px; }
  .yn-design .yn-native-divi .yn-divi-project-index :is(.et_pb_salvattore_content,.et_pb_ajax_pagination_container:has(>article)) { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 16px; }
@@ -82,6 +98,11 @@
  .yn-design .yn-native-divi .yn-divi-project-index .entry-title { margin-top:10px!important; font-size:13px!important; }
  .yn-design .yn-collection-content .pagination { margin-top:28px; }
  .yn-design .yn-collection-content .nav-links { gap:7px; }
+}
+@media(max-width:600px) {
+ .yn-design .yn-home-categories { margin-top:24px; padding-top:21px; }
+ .yn-design .yn-category-grid { grid-template-columns:1fr; }
+ .yn-design .yn-category-link { min-height:52px; padding-block:12px; font-size:12px; }
 }
 @media(max-width:479px) {
  .yn-design :is(.yn-catalog-grid,.yn-project-gallery-grid) { grid-template-columns:1fr; gap:25px; }
