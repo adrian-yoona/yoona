@@ -577,16 +577,16 @@ body.yn-design { font-size:16px; line-height:1.75; }
 .yn-design .yn-content { line-height:1.75; }
 .yn-design .yn-content p { padding-bottom:0; }
 .yn-design .yn-content:not(.yn-builder-content) p { margin-bottom:16px; }
-.yn-design .yn-content .et_pb_text :is(p,li) { font-size:clamp(16px,1.1vw,18px); line-height:1.75; }
-.yn-design .yn-content .et_pb_text p { max-width:70ch; margin-bottom:16px; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_text :is(p,li) { font-size:clamp(16px,1.1vw,18px); line-height:1.75; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_text p { max-width:70ch; margin-bottom:16px; }
 .yn-design .yn-content .et_pb_text_align_center p { margin-inline:auto; }
 .yn-design .yn-content .et_pb_text_align_right p { margin-left:auto; }
-.yn-design .yn-content .et_pb_text :is(h1,h2) { font-size:clamp(25px,2.4vw,36px)!important; line-height:1.22; letter-spacing:-.02em; }
-.yn-design .yn-content .et_pb_text :is(h1,h2)>span { font-size:inherit!important; line-height:inherit; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_text :is(h1,h2) { font-size:clamp(25px,2.4vw,36px)!important; line-height:1.22; letter-spacing:-.02em; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_text :is(h1,h2)>span { font-size:inherit!important; line-height:inherit; }
 .yn-design .yn-content :is(.et_pb_text,.et_pb_text_inner)>p:empty { display:none; }
-.yn-design .yn-content .et_pb_section:not(.et_pb_fullwidth_section) { padding-top:min(4vw,48px)!important; padding-bottom:min(4vw,48px)!important; }
-.yn-design .yn-content .et_pb_row { padding-top:18px; padding-bottom:18px; }
-.yn-design .yn-content .et_pb_divider.et_pb_divider_hidden { max-height:24px; min-height:0; margin-block:0; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_section:not(.et_pb_fullwidth_section) { padding-top:min(4vw,48px)!important; padding-bottom:min(4vw,48px)!important; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_row { padding-top:18px; padding-bottom:18px; }
+.yn-design .yn-content:not(.yn-service-original) .et_pb_divider.et_pb_divider_hidden { max-height:24px; min-height:0; margin-block:0; }
 /* Service guides use short readable panels rather than one uninterrupted text wall. */
 .yn-design .yn-guide { padding-block:44px 56px; }
 .yn-design .yn-guide>.yn-container { max-width:1120px; }
@@ -670,8 +670,8 @@ body.yn-design { font-size:16px; line-height:1.75; }
  .yn-design .yn-footer-grid { gap:25px 20px; }
  .yn-design .yn-collection-heading { padding-block:35px 28px; }
  .yn-design .yn-collection-content { padding-bottom:44px; }
- .yn-design .yn-content .et_pb_section:not(.et_pb_fullwidth_section) { padding-top:24px!important; padding-bottom:24px!important; }
- .yn-design .yn-content .et_pb_row { padding-block:12px; }
+ .yn-design .yn-content:not(.yn-service-original) .et_pb_section:not(.et_pb_fullwidth_section) { padding-top:24px!important; padding-bottom:24px!important; }
+ .yn-design .yn-content:not(.yn-service-original) .et_pb_row { padding-block:12px; }
  .yn-design .yn-guide { padding-block:34px 42px; }
  .yn-design .yn-guide-grid { grid-template-columns:1fr; }
  .yn-design .yn-guide-media-grid { grid-template-columns:1fr; }

@@ -29,6 +29,7 @@ final class Yoona_SEO_Service_Guides {
         $guide['image'] = $design['offer_heroes'][ $image_path ]['image'];
         $guide['alt'] = $design['offer_heroes'][ $image_path ]['alt'];
         $guide['path'] = $path;
+        $guide['layout_mode'] = isset( $design['offer_heroes'][ $path ]['service_intro_mode'] ) ? $design['offer_heroes'][ $path ]['service_intro_mode'] : 'replace';
         return $guide;
     }
     public static function child_definitions() {
@@ -45,6 +46,63 @@ final class Yoona_SEO_Service_Guides {
         if ( ! is_string( $path ) || ! preg_match( '~\A/[a-z0-9-]+/\z~', $path ) ) return '';
         $page = get_page_by_path( trim( $path, '/' ), OBJECT, 'page' );
         return $page && 'publish' === $page->post_status && '' === (string) $page->post_password ? get_permalink( $page ) : '';
+    }
+    /**
+     * Keep the complete Divi tree: sections, rows, columns and every lower module.
+     * Only a reviewed introduction may change, after its callback has run. Never
+     * rebuild an offer's gallery from detached media modules.
+     */
+    public static function legacy_content( $post_id, $guide, $details ) {
+        $result = array( 'html' => '', 'hero_applied' => false, 'intro_applied' => false );
+        $post = get_post( $post_id );
+        if ( ! $post || (int) $post_id !== (int) get_the_ID() || (int) $post_id !== (int) get_queried_object_id() ) return $result;
+        if ( get_post_meta( $post_id, '_yoona_growth_owned', true ) ) {
+            return array( 'html' => $details, 'hero_applied' => true, 'intro_applied' => true );
+        }
+        $hero = Yoona_SEO_Offer_Hero::context( $post_id );
+        $design = Yoona_SEO_Design::data();
+        $definition = isset( $guide['path'], $design['offer_heroes'][ $guide['path'] ] ) ? $design['offer_heroes'][ $guide['path'] ] : array();
+        $render_hashes = array();
+        $mode = isset( $definition['service_intro_mode'] ) ? $definition['service_intro_mode'] : '';
+        if ( $hero && in_array( $mode, array( 'replace', 'append' ), true ) && ! empty( $definition['service_intro_sha256'] ) && is_array( $definition['service_intro_sha256'] ) ) {
+            $body = Yoona_SEO_Offer_Hero::prepare_content( $post->post_content, $definition );
+            if ( is_string( $body ) && preg_match( '/\A\s*\[et_pb_section(?:\s|\])/', $body ) ) {
+                $start = strpos( $body, '[et_pb_section' );
+                $end = strpos( $body, '[/et_pb_section]', $start );
+                if ( false !== $end ) {
+                    $intro = substr( $body, $start, $end + strlen( '[/et_pb_section]' ) - $start );
+                    if ( in_array( hash( 'sha256', $intro ), $definition['service_intro_sha256'], true ) ) {
+                        // Typography variants are accepted only after the stored
+                        // introduction passed its exact, reviewed source hash.
+                        $render_hashes = array_unique( array( hash( 'sha256', $intro ), hash( 'sha256', wptexturize( $intro ) ) ) );
+                    }
+                }
+            }
+        }
+        $filter = static function ( $output, $tag, $attributes, $match ) use ( $post_id, $render_hashes, $details, $mode, &$result ) {
+            if ( $result['intro_applied'] || 'et_pb_section' !== $tag || ! $render_hashes
+                || (int) $post_id !== (int) get_the_ID() || (int) $post_id !== (int) get_queried_object_id()
+                || ! isset( $match[0] ) || ! is_string( $match[0] ) ) return $output;
+            // Core protects literal [] in HTML attributes before callbacks.
+            // Undo only those two core escapes; the stored intro has already
+            // passed its exact reviewed hash. Do not execute shortcodes again.
+            if ( ! in_array( hash( 'sha256', $match[0] ), $render_hashes, true )
+                && ! in_array( hash( 'sha256', unescape_invalid_shortcodes( $match[0] ) ), $render_hashes, true ) ) return $output;
+            $result['intro_applied'] = true;
+            // Flags and totems have media inside their original introduction.
+            // Keep that whole section and add only the detailed service panels.
+            return 'append' === $mode ? $output . $details : $details;
+        };
+        add_filter( 'do_shortcode_tag', $filter, 20, 4 );
+        ob_start();
+        try {
+            $result['hero_applied'] = Yoona_SEO_Content_Cleanup::the_content( $hero );
+            $result['html'] = ob_get_contents();
+        } finally {
+            ob_end_clean();
+            remove_filter( 'do_shortcode_tag', $filter, 20 );
+        }
+        return $result;
     }
     /** Render every callback once, then retain complete media/form containers. */
     public static function legacy_media( $post_id, $guide ) {

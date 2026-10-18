@@ -1,6 +1,18 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.0
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.1
 
-Ostatnia aktualizacja: 17 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+Ostatnia aktualizacja: 18 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## Galerie i dolne sekcje wszystkich ofert — 3.4.1
+
+Naprawiono błąd 3.4: galerie oraz zdjęcia były wyjmowane z oryginalnych rodziców Divi, a część dolnych modułów znikała. Teraz zachowywane jest całe drzewo sekcji, wierszy i kolumn. Nowe opisy zastępują wyłącznie zatwierdzony tekstowy wstęp. Flagi i totemy zachowują również pełne wprowadzenia ze zdjęciami. Nowy test odtworzył zgłoszony błąd na zamrożonej wersji 3.4.0: galeria nie miała swoich oryginalnych przodków.
+
+**1265 kontroli źródła i renderowania** obejmuje wszystkie 41 ofert przed zapisem SEO i po nim: 82 kompletne wersje. Pełne dolne sekcje, łącznie z indeksami CSS, są porównywane bajt po bajcie po standardowym odkodowaniu shortcode, przed późniejszymi filtrami obrazów WordPressa. Każdy oryginalny callback wykonuje się raz. Sprawdzono bezpieczne zachowanie ręcznie zmienionego wstępu i hero, usunięcie tymczasowych filtrów oraz zamknięcie bufora po wyjątku. Prywatne treści były badane wyłącznie w pamięci CLI, bez zapisania źródła do tabel WWW.
+
+**599 kontroli Chromium** obejmuje wszystkie 41 ofert na komputerze, przykłady przy 390 i 320 px oraz sześć nowych stron przy wszystkich trzech szerokościach. Galerie zachowują sekcje, wiersze i kolumny, linki do zdjęć oraz działający CSS zależny od rodziców. Dolne przyciski, FAQ, social i syntetyczny formularz pozostają w swoich kolumnach. Stary blok ze zdjęciem pokrętła jest nadal usunięty. **52 kontrole** dotyczą istniejącego instalatora, pojedynczego wyświetlenia sześciu nowych stron i ochrony późniejszych edycji. Pełny snapshot wszystkich wpisów i metadanych potwierdza brak zmian podczas przeglądania. Pomiar Site Kit ponownie przeszedł 91 asercji Node VM.
+
+W fazie przygotowania poprawiono metadane syntetycznych stron w pamięci oraz etap porównania HTML: WordPress dodaje atrybuty obrazów już po callbacku Divi. Nie poluzowano kontroli źródła. Test wykrył też standardowe kodowanie literalnych nawiasów w HTML przez WordPressa. Po zatwierdzeniu dokładnego źródła renderer obsługuje wyłącznie jego standardowe odkodowanie, bez ponownego wykonywania shortcode.
+
+Środowisko: rzeczywisty WordPress 7.1.3, PHP 8.3.35, MariaDB 11.4, Rank Math 1.0.280, Chromium 154. Callbacki Divi są jawnymi odpowiednikami testowymi; nie uruchomiono licencjonowanego Divi ani produkcyjnych zdjęć. Zachowane zrzuty zawierają oznaczone obrazy lokalne. Nie wykonano zdalnej instalacji na yoona.pl. Raport: [gallery-repair-results.txt](../tests/gallery-repair-results.txt). Testy 3.4.0 opisane poniżej nie sprawdzały pełnych przodków galerii; samo zachowanie zdjęć nie wystarczało do potwierdzenia układu.
 
 ## Treści, kontakty i nowe usługi — 3.4.0
 
@@ -116,12 +128,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.4.zip](../downloads/yoona-seo-v3.4.zip)
+Plik: [downloads/yoona-seo-v3.4.1.zip](../downloads/yoona-seo-v3.4.1.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-095a71011b2ac1109c0c7e4055cd66f85280d3e242d6a7dcbc2fc95d5c4fb6af
+250424bdf75ed0e06f71b1fc8804de4d0bfba6444b4b99ca29af03c5f645ad5d
 ```
 
 SHA-256 dołączonego `content/changes.json`:

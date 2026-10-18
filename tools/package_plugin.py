@@ -37,7 +37,7 @@ def main() -> None:
     actual = {path.relative_to(source).as_posix() for path in source.rglob("*") if path.is_file()}
     if actual != expected:
         raise ValueError(f"Unexpected plugin files: {actual ^ expected}")
-    target = root / "downloads" / "yoona-seo-v3.4.zip"
+    target = root / "downloads" / "yoona-seo-v3.4.1.zip"
     target.parent.mkdir(exist_ok=True)
     with ZipFile(target, "w", ZIP_DEFLATED, compresslevel=9) as archive:
         for relative in sorted(expected):

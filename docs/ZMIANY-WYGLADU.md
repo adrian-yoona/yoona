@@ -89,3 +89,24 @@ Nie usunięto formularza ani mapy z oryginalnego kontaktu.
 Pomiar przekazuje intencje kontaktowe przez istniejące gtag Site Kit po
 rozpoznanej zgodzie CookieYes/WP Consent API; nie ładuje drugiego tagu ani
 nie zmienia konfiguracji kont. Wariant GTM jest osobną ścieżką przy braku gtag. Szczegóły w GOOGLE-POMIAR-I-ADS.md.
+
+
+## Naprawa galerii i dolnych sekcji ofert — 3.4.1
+
+W 3.4 same moduły mediów były przenoszone do nowej siatki. Utrata ich rodziców
+Divi zepsuła układ galerii, a dolne nagłówki, przyciski, FAQ i linki nie były
+zachowane. 3.4.1 renderuje pełne źródło każdej oferty dokładnie raz i zachowuje
+oryginalne sekcje, wiersze, kolumny, indeksy modułów oraz wszystkie dolne elementy.
+Wycofany kontakt ze zdjęciem pokrętła pozostaje usuwany.
+
+Nowy opis zastępuje tylko rozpoznany wstęp tekstowy na 39 ofertach, po sprawdzeniu
+SHA źródła i wykonaniu callbacku. Flagi oraz totemy mają we wstępie zdjęcia;
+całe ich wprowadzenie pozostaje, a szczegóły zamówienia pojawiają się pod nim jako
+osobny blok bez powtarzania wstępu. Późniejsza ręczna edycja wstępu lub banera
+powoduje zachowanie oryginalnego układu. Na sześciu nowych stronach treść
+wtyczki nadal pojawia się raz, z ochroną późniejszych edycji.
+
+Wyłączono wymuszone odstępy i rozmiary tekstów 3.4 w zachowanych sekcjach ofert.
+W bazie nie są zmieniane ani treści, ani Rank Math. Do aktualizacji wystarczy
+zastąpić wtyczkę, odświeżyć wygląd i wyczyścić także LiteSpeed Cache; nie trzeba
+ponownie zapisywać SEO ani tworzyć sześciu stron.

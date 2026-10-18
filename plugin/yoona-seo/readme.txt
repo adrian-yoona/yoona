@@ -3,13 +3,15 @@ Contributors: yoona
 Tags: seo, content, divi, design
 Requires at least: 6.0
 Requires PHP: 7.4
-Stable tag: 3.4.0
+Stable tag: 3.4.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Nowy wygląd yoona.pl według wzoru właściciela oraz poprawki tekstów Divi i metadanych Rank Math.
 
 == Description ==
+
+Wersja 3.4.1 naprawia galerie i dół wszystkich ofert. Zamiast wyjmowania samych mediów zachowuje pełny oryginalny układ Divi, jego sekcje, wiersze, kolumny, przyciski, FAQ i pozostałe dolne elementy. Nowy opis zastępuje tylko dokładnie rozpoznany wstęp tekstowy; flagi i totemy zachowują wstępy ze zdjęciami. Ręcznie zmienione sekcje pozostają w całości. Naprawa nie przepisuje bazy, nie wymaga ponownego zapisu SEO ani ponownego dodawania stron. Po aktualizacji wyczyść również LiteSpeed Cache.
 
 Wersja 3.4 porządkuje treści 41 ofert, rozbudowuje CNC oraz markizy SELT i dodaje sześć osobnych podstron po kliknięciu administratora. Materiały, zastosowania, proces, wycena i pytania mają krótkie, czytelne sekcje. Główna pokazuje wszystkie dostępne kategorie. Olsztyn i Ostróda mają równorzędne kontakty obok siebie także na telefonie.
 
@@ -40,9 +42,9 @@ Audyt oparto na eksporcie. Nie potwierdza pozycji w Google, indeksacji, szybkoś
 == Installation ==
 
 1. Wykonaj pełną kopię witryny w hostingu.
-2. Wgraj yoona-seo-v3.4.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
+2. Wgraj yoona-seo-v3.4.1.zip w Wtyczki → Dodaj nową → Wyślij wtyczkę na serwer.
 3. Zastąp poprzednią wersję Yoona SEO, jeśli jest zainstalowana, i pozostaw Rank Math aktywny.
-4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.4.0. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
+4. Odśwież Narzędzia → Yoona SEO i sprawdź wersję 3.4.1. Użyj Odśwież wygląd i wyczyść cache, a potem otwórz Pełną Ofertę i Nasze realizacje. Nowy wygląd jest domyślnie włączony, o ile wcześniej nie został wyłączony. Do tych zmian wyglądu nie trzeba ponownie zapisywać SEO.
 5. Aby opublikować sześć nowych usług, kliknij Dodaj 6 podstron CNC i markiz. To osobny zapis stron; powtórzenie nie tworzy duplikatów.
 6. Jeżeli poprawki tekstów/SEO nie są zapisane, wybierz Użyj pakietu dołączonego do wtyczki, sprawdź podgląd, wybierz Zaznacz wszystkie gotowe i Wgraj zmiany na zaznaczone strony. Pozostaw kartę otwartą do zakończenia.
 7. Sprawdź wygląd, galerie i formularze na komputerze oraz telefonie. Cache hostingu lub CDN może wymagać czyszczenia we własnym panelu.
@@ -65,6 +67,12 @@ Jeśli treść zmieniła się po eksporcie, kontrola hashy chroni nowszą pracę
 Warstwa wizualna zniknie. Zapisane zmiany treści i natywnych pól Rank Math pozostają. Aby skorzystać z historii cofania, zachowaj Yoona SEO. Starsze paczki wersji 1 mogły używać filtrów własnych metadanych i wymagać aktywnej wtyczki do ich wyświetlania.
 
 == Changelog ==
+
+= 3.4.1 =
+* Naprawione galerie i dolne sekcje ofert przez zachowanie całego oryginalnego drzewa Divi.
+* Zachowane przyciski, nagłówki galerii, FAQ, linki social oraz numeracja wszystkich renderowanych modułów.
+* Nowe opisy tylko w rozpoznanych wstępach; zachowane zdjęcia flag i totemów oraz późniejsze ręczne edycje.
+* Usunięte wymuszanie odstępów 3.4 na oryginalnych sekcjach ofertowych.
 
 = 3.4.0 =
 * 41 uporządkowanych ofert, rozbudowane CNC i markizy SELT oraz sześć podstron dodawanych osobnym przyciskiem.

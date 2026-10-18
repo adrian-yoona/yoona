@@ -1,6 +1,12 @@
-# YOONA — wygląd, treści i SEO 3.4
+# YOONA — wygląd, treści i SEO 3.4.1
 
-**[Pobierz wtyczkę yoona-seo-v3.4.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+**[Pobierz wtyczkę yoona-seo-v3.4.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.1.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+
+## Naprawa galerii i dolnych sekcji — 3.4.1
+
+Wersja 3.4 wyjmowała moduły mediów z oryginalnych rodziców Divi. Galerie traciły układ, a część dolnych nagłówków, przycisków i FAQ znikała. W 3.4.1 oferty renderują cały oryginalny układ, z sekcjami, wierszami, kolumnami i numeracją modułów. Nowe opisy zastępują wyłącznie dokładnie rozpoznany tekstowy wstęp. Wprowadzenia flag i totemów zachowują także swoje zdjęcia i przyciski. Stary blok kontaktu ze zdjęciem pokrętła nadal jest usuwany.
+
+Naprawa działa podczas wyświetlania; nie wymaga ponownego zapisu SEO ani tworzenia sześciu stron drugi raz. Po aktualizacji wyczyść cache w panelu wtyczki oraz LiteSpeed Cache.
 
 ## Co zawiera aktualizacja
 
@@ -15,7 +21,7 @@
 ## Wgranie w WordPressie
 
 1. Wykonaj pełną kopię witryny. Wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę**, wgraj ZIP i zastąp poprzednią Yoona SEO. Rank Math pozostaw aktywny.
-2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.4.0** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
+2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.4.1** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
 3. Kliknij **Dodaj 6 podstron CNC i markiz**. Przycisk tworzy brakujące strony wraz z tytułami i opisami Rank Math. Zajęte adresy są pomijane, powtórzenie nie tworzy kopii. Historia pozwala przenieść do kosza tylko całkowicie niezmienione strony utworzone tą operacją.
 4. Sprawdź główną, Kontakt, ofertę i zdjęcia realizacji na telefonie oraz komputerze. Cache hostingu/CDN może wymagać osobnego czyszczenia.
 
@@ -23,7 +29,7 @@
 
 ## Treści i edycja
 
-Nowe opisy istniejących ofert należą do warstwy wyglądu. Zapisane treści Divi pozostają w bazie; wyłączenie wyglądu przywraca dotychczasowe szablony i treść. Redakcję nowych opisów zawiera [service-guides.json](plugin/yoona-seo/content/service-guides.json). Edycja starego Divi nie zastępuje tych opisów w nowej prezentacji.
+Nowe opisy istniejących ofert należą do warstwy wyglądu. Zapisane treści Divi pozostają w bazie; wyłączenie wyglądu przywraca dotychczasowe szablony i treść. Redakcję nowych opisów zawiera [service-guides.json](plugin/yoona-seo/content/service-guides.json). Rozpoznany wstęp ma kontrolę dokładnego źródła. Ręcznie zmieniony wstęp zachowuje swój pełny układ i tekst; nowa prezentacja nie nakłada na niego nieaktualnego opisu. Pozostałe sekcje Divi, w tym galerie i cały dół, są zachowane.
 
 Sześć nowych stron ma również normalną treść WordPressa działającą po wyłączeniu wtyczki. Późniejsza ręczna zmiana ich treści lub tytułu powoduje użycie standardowego widoku, aby zachować nową pracę. Opisy realizacji działają tylko przy zgodnej, sprawdzonej wersji źródła; zmienione wpisy zachowują dotychczasową treść.
 

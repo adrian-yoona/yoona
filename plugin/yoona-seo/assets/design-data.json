@@ -170,7 +170,12 @@
       "section_sha256": [
         "ca93e1971c9e9952a939d910400f5ffcc68ae2f20c04179855c5f6625027374a",
         "e818d0ac738a544118fabec6663792249f3ee6e2c84b3cdc5576cf6aa29219c2"
-      ]
+      ],
+      "service_intro_sha256": [
+        "0c767c0af41e75829b825dd30ba95265ccf58d1c736885a6e5074a39488d8c07",
+        "344b17d95a96b23c064e328e4032aa53ed426376e747a82d372c515a064ffeb6"
+      ],
+      "service_intro_mode": "replace"
     },
     "/reklamy-swietlne/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklamy-swietlne-olsztyn.jpg",
@@ -179,7 +184,12 @@
       "section_sha256": [
         "a41804adc4da398c2215a07f679a5445271375221fcf970d7017efe52614eaee",
         "166c89d7863ef52f0d78ec9b10ecab44c30b0f1e9595296843f291c6d8b1b329"
-      ]
+      ],
+      "service_intro_sha256": [
+        "e89b041ec3eed9883ca5d76212c88304f7eb56ecfc259f5fc63c44d91e5b39f7",
+        "79b4754ef3864c8adcf82345764f30930436584015f10da72fca2061dadb2fc4"
+      ],
+      "service_intro_mode": "replace"
     },
     "/tablice-olsztyn/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/TABLICA-reklamowa-tablice-reklamowe-szyld.jpg",
@@ -188,7 +198,12 @@
       "section_sha256": [
         "685cdded7aa18e781d8b23b821b84fc01148e5091a4fbe220ebe36efd52f613a",
         "e59b04a6cf6960d9c77be61eb340b6946172330989f982d99007a330a7500a7b"
-      ]
+      ],
+      "service_intro_sha256": [
+        "0a9058069771e06348f52116bd11edc336876ff331e0cf9799c10166245b6985",
+        "c4dda18cfee2bfb88acff132e3088965c5926b5b9e02ec3c7f025f9ff21672a1"
+      ],
+      "service_intro_mode": "replace"
     },
     "/drukarnia-wielkoformatowa/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/head.jpg",
@@ -196,7 +211,12 @@
       "lead": "Druk wielkoformatowy w YOONA: banery, siatki mesh i naklejki. Dobierz materiał oraz format reklamy do miejsca ekspozycji. Olsztyn i Ostróda.",
       "section_sha256": [
         "97aa3ea3ba7feef9458dcee3879e294c8fe1d3dfd0ac3cdf6b89ab3e524ff8a9"
-      ]
+      ],
+      "service_intro_sha256": [
+        "8bdafe38b139d54599293da5187c09e08ff94a410c5554d920968f74f024bfdd",
+        "38b65849d3f39c0948a93c717f5aa69f2192bc68673743b4075d16ab67d71bb4"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-samochodow/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie_samochodow_head.jpg",
@@ -204,7 +224,12 @@
       "lead": "Oklejanie samochodów reklamą w Olsztynie i Ostródzie. Projekt, dobór folii, druk oraz aplikacja grafiki na autach osobowych, dostawczych i flotach.",
       "section_sha256": [
         "819955a7fb121ae5d4383dd20d89634e44218d55ba2595d9f093ba4d3a387c33"
-      ]
+      ],
+      "service_intro_sha256": [
+        "bdd792f9e579ddeaaf0212c592a2a3066f5d8f0fc6afe7f43634dff7c10c95a1",
+        "4947359bc80ba9445601a5d8b2474fa85a72e07a694c4f0468dca6ba486793e5"
+      ],
+      "service_intro_mode": "replace"
     },
     "/zmiana-koloru-samochodu/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/zmiana-koloru-samochodu-oklejanie-samochodu-reklama-olsztyn-11.jpg",
@@ -212,7 +237,12 @@
       "lead": "Zmień wygląd auta folią: wybierz kolor, fakturę i zakres oklejenia. YOONA w Olsztynie i Ostródzie doradza w doborze folii do zmiany koloru.",
       "section_sha256": [
         "10fd76d929b59471f0a1012674c952b4c24750a805b3f20cdf2dc4bed17fe4f5"
-      ]
+      ],
+      "service_intro_sha256": [
+        "7e80195b5e6818baed315f7af2fdcdc0a2a3fd3ad8ef44a9e70f9bfe3a241f0a",
+        "e3c5e3592b8ba9a6a5750e48189c2047fe3740dea39dbbc321989d4ee83f3e84"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-szyb/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklama-na-szybe.jpg",
@@ -220,7 +250,12 @@
       "lead": "Oklejanie witryn i szyb biurowych: folie reklamowe, OWV, szronione i napisy ploterowe. YOONA przygotowuje projekt, druk oraz montaż w Olsztynie i Ostródzie.",
       "section_sha256": [
         "94d9e94e5dc61997a3f9609360305ca5f72997f1db2c813368dfcbc098b70348"
-      ]
+      ],
+      "service_intro_sha256": [
+        "9734457694511c8159eed332be395d1f513e71675083034c10191ea750beb89b",
+        "ce5d7ef0a60a36e420071ac35db51665398f5f0af190b48913ed9499bd7e8211"
+      ],
+      "service_intro_mode": "replace"
     },
     "/reklama-zewnetrzna/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklama-zewnetrzna-olsztyn.jpg",
@@ -228,7 +263,12 @@
       "lead": "Reklama zewnętrzna od projektu do montażu: szyldy, litery 3D, banery, tablice, kasetony i pylony. Poznaj ofertę YOONA w Olsztynie i Ostródzie.",
       "section_sha256": [
         "4ae67fd32ce3d3b5df020b97bb35b14be8ef66e1c6b08f4d28f54ba94290f7a2"
-      ]
+      ],
+      "service_intro_sha256": [
+        "fab08b56c18f210b96a676ee9de74025ecf48f4663b51202b16c2b423bf4cc13",
+        "51051ddb7df6dead4b72dbcf5d199a6844fbe2ee5800b7864c997252ba92a621"
+      ],
+      "service_intro_mode": "replace"
     },
     "/szyldy/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/SZYLDY-AGENCJA-REKLAMOWA-OLSZTYN.jpg",
@@ -236,7 +276,12 @@
       "lead": "Szyldy dla sklepów, biur i lokali usługowych. YOONA projektuje, produkuje i montuje szyldy podświetlane, przestrzenne oraz kierunkowe w Olsztynie i Ostródzie.",
       "section_sha256": [
         "927e5b760a595afb77f129247d03a4711dd9bafa296fdd82c81d19e9a3b8a4bb"
-      ]
+      ],
+      "service_intro_sha256": [
+        "82433e0a430f652adeabc0f39c5ca365335c098fe4cb045807e92c01a4b5a1c3",
+        "2720e7d30310cad813c6ae0c39054d530979a4fa52af227df7852972bd27efb4"
+      ],
+      "service_intro_mode": "replace"
     },
     "/banery/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/banery-baner-reklama-wielkoformatowa.jpg",
@@ -244,7 +289,12 @@
       "lead": "Projekt, druk i montaż banerów reklamowych. YOONA dobiera PVC lub siatkę mesh, format i wykończenie do ekspozycji. Olsztyn i Ostróda.",
       "section_sha256": [
         "97261cbaf7dc4225d1f553442e5ef81fdd831e59ab61f5a936ed2ac088b3dd56"
-      ]
+      ],
+      "service_intro_sha256": [
+        "badd075ba39a75ecd6fb29d2c48a1b658eba1a0e67bab445a7caed53be15f79b",
+        "c41361c9c3759451e11213779a47956dd1c8a5010917eb8f8a552481d271373b"
+      ],
+      "service_intro_mode": "replace"
     },
     "/beczki-reklamowe/": {
       "image": "https://yoona.pl/wp-content/uploads/2026/02/beczki-relamowe-olsztyn.jpg",
@@ -252,7 +302,12 @@
       "lead": "Beczki reklamowe z logo do lokali, sklepów i na eventy. YOONA wykonuje beczki stalowe i drewniane jako stoły, siedziska oraz ekspozytory.",
       "section_sha256": [
         "97051ccb536548eab7d05e9be16de967ca43aa991249558e1d93dc28aac53e74"
-      ]
+      ],
+      "service_intro_sha256": [
+        "912c9e71cde3c1ebdd4f81f6f1ce19af12fc6fc3aa09796fecbf91e4481ecb97",
+        "ce3e0c6b14352583f8d018062977bd82773b33e0b7dc249bfc21c37d672b804e"
+      ],
+      "service_intro_mode": "replace"
     },
     "/reklama-na-rusztowaniu/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklama-na-rusztowaniu-olsztyn.jpg",
@@ -260,7 +315,12 @@
       "lead": "Reklama na rusztowaniu: projekt, druk banera PVC lub siatki mesh i montaż. YOONA dobiera format, wykończenie oraz mocowanie do lokalizacji.",
       "section_sha256": [
         "6fb2316ba9c7b39b5508b8fb7a93b46fc551bd288c201fcae148f61df596fd3b"
-      ]
+      ],
+      "service_intro_sha256": [
+        "f942400f9be7681e3baa410078295759d85c92969c6584b33dcaf9b14a413047",
+        "7368897fcb76b27445836b639733a5c33e435cf299feb5d52724144e35f207c9"
+      ],
+      "service_intro_mode": "replace"
     },
     "/reklama-na-rusztowaniu-2/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklamy-na-rusztowaniach-reklama-na-rusztowaniu-4.jpg",
@@ -268,7 +328,12 @@
       "lead": "Megaboardy i wielkoformatowa reklama przy trasie S7. YOONA omawia lokalizację, projekt, konstrukcję i druk reklamy w Olsztynie oraz Ostródzie.",
       "section_sha256": [
         "9868019c69e10a899d567f2e79a4dda420e1b00cc273495f7cad848872be2d49"
-      ]
+      ],
+      "service_intro_sha256": [
+        "9767ab35901b7aee47efb661f50df3a33906e6d4286f0d42c6d994787dde380d",
+        "71419d3ae3befad79767430fa2720052f699c40d4e3da6f278c81ce9fa699837"
+      ],
+      "service_intro_mode": "replace"
     },
     "/plotki-ogrodki-piwne/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/ogrodki-piwne-olsztyn.jpg",
@@ -276,7 +341,12 @@
       "lead": "Płotki gastronomiczne z logo do ogródków piwnych, restauracji i kawiarni. YOONA przygotowuje projekt, znakowanie oraz montaż w Olsztynie i Ostródzie.",
       "section_sha256": [
         "28e2244438d1b80ba13cdecf29ff920d864103c9530c5f405d0a9f19ad5df56e"
-      ]
+      ],
+      "service_intro_sha256": [
+        "a875bedd71c1851a6436bc2a08b0ddde7239d760a465c69b2bcf9e19119bc859",
+        "cf88e9f2a495bdbf30dbc9088c41eec8d20e8ea3ddb962af814aab98a78bd8b8"
+      ],
+      "service_intro_mode": "replace"
     },
     "/neony/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/neony-reklama-swietlna-olsztyn.jpg",
@@ -284,7 +354,12 @@
       "lead": "Neony z logo i napisami do lokali oraz wnętrz. YOONA projektuje, produkuje i montuje neony, dobierając formę do miejsca. Olsztyn i Ostróda.",
       "section_sha256": [
         "7c5d24ba416a7428ad1be20cd795098bb9e06c44e4282b3514be869bb9e4f857"
-      ]
+      ],
+      "service_intro_sha256": [
+        "1d576c0f3ac951fecf2fcf1c13c64dd83134fd400760ac6d8fec2b8e52b91745",
+        "2caa2ecaa636f9b97d32ab7186cf9bff3c6b1e41ca86c74f9dde4380fae9db20"
+      ],
+      "service_intro_mode": "replace"
     },
     "/siatka-mesh/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/siatki-mesh.jpg",
@@ -292,7 +367,12 @@
       "lead": "Druk na siatce mesh do reklam na budynkach, ogrodzeniach i rusztowaniach. YOONA dobiera format, wykończenie i mocowanie. Olsztyn i Ostróda.",
       "section_sha256": [
         "de199baf570954ea1abca351791fe89da563a2e9f6748f8f9ebf8eaefaaab641"
-      ]
+      ],
+      "service_intro_sha256": [
+        "deecfb2c8dda165adc1a63b75f708617bc789d9e02f7717ae906e8de56b69fc9",
+        "ff9225f8a8505ff87425b5839a46038cd49edcd79dc5be4823a6f8d21437e4b7"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-samochodow-osobowych/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/reklama-na-samochod-olsztyn-ostroda.jpg",
@@ -300,7 +380,12 @@
       "lead": "Logo, napisy i grafika reklamowa na autach osobowych. YOONA przygotowuje projekt, folię, druk i aplikację w Olsztynie oraz Ostródzie.",
       "section_sha256": [
         "454ae3cbd2db49ff70aeacf95209d9520942550c8bfbeb37ff9cee6e07700a78"
-      ]
+      ],
+      "service_intro_sha256": [
+        "a76c3f1f38fce23aac7b6c8fcb72bf2a76417469e82d7cfecab3f74334677e3b",
+        "6085ecae6b70f3a4e7314df15c816fa38938dc97fee75be197b1424d30a222c1"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-autobusow/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie-autobusow-olsztyn-ostroda.jpg",
@@ -308,7 +393,12 @@
       "lead": "Reklama na autobusach: projekt dopasowany do nadwozia, dobór folii, druk i aplikacja. Omów oklejanie autobusów z YOONA w Olsztynie i Ostródzie.",
       "section_sha256": [
         "86eeae09c2da4b24533310806b7a2e58df29d1c678898e4b22aced7beb5bac58"
-      ]
+      ],
+      "service_intro_sha256": [
+        "c4d7522ba7a29ca35f798fe86f2c625e4387bf04b9ee08a24b3d532e3acf7d53",
+        "d155dee48fd878833895b39f70509333d5bb7a3172808410aaa484b60db880a7"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-samochodow-ciezarowych/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie-busa-olsztyn-ostroda.jpg",
@@ -316,7 +406,12 @@
       "lead": "Oklejanie samochodów ciężarowych i naczep. YOONA przygotowuje projekt, dobiera folię, drukuje oraz aplikuje reklamę w Olsztynie i Ostródzie.",
       "section_sha256": [
         "4918065ff0d6a5636e0a02e7251ab6b59c7c33e8546de40b9bd609e3c28fffbc"
-      ]
+      ],
+      "service_intro_sha256": [
+        "2c9459376f1a7b045bc6cfd3b55b71aa36e8693d45e80a6f68db3c0b956aa783",
+        "5707f26ac41122ebd1cdc46213efba62bd3331bb2fe71e77ce8a2237150da491"
+      ],
+      "service_intro_mode": "replace"
     },
     "/kasetony-swietlne/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/01/slider_kasetony_swietlne_olsztyn.jpg",
@@ -324,7 +419,12 @@
       "lead": "Kasetony z dibondu i plexi, z podświetleniem LED. YOONA: projekt, produkcja i montaż w Olsztynie i Ostródzie. Prześlij wymiary do wyceny.",
       "section_sha256": [
         "a06531c7b445879827a725c6b694d5d880ebe2084095b1b60dbd7e7d23e89b27"
-      ]
+      ],
+      "service_intro_sha256": [
+        "0720497c316b2c46722fece5d0ff1f5da6d6778f7e819b490ef93603a0f1ec93",
+        "d2092ceca8e922fe96118f6f209dc96a8e121b63ee26678c26f90dec53c0048d"
+      ],
+      "service_intro_mode": "replace"
     },
     "/pylony/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/07/pylon-olsztyn-ostroda-reklama-olsztyn.jpg",
@@ -332,7 +432,12 @@
       "lead": "Pylony i totemy reklamowe dla firm i obiektów usługowych. Projekt, produkcja oraz montaż w YOONA. Zapytaj o rozwiązanie dla swojej lokalizacji.",
       "section_sha256": [
         "29b48aff921bb02c4cafe14b59683a46aa0229950102c595e32c3d12ee0f2d17"
-      ]
+      ],
+      "service_intro_sha256": [
+        "293ed6e074fa1882bd449e1d6729a1ec1176108b02ad179e3f6fe6ad6f6368dd",
+        "7922deaf2e0b5983a0b2f739c39eaf0d9c5c3031e89924e7197a9889df727365"
+      ],
+      "service_intro_mode": "replace"
     },
     "/markizy-z-logo/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/09/markizy-reklama-olsztyn-1.jpg",
@@ -340,7 +445,12 @@
       "lead": "Markizy z logo dla restauracji, kawiarni i sklepów. YOONA: projekt, znakowanie i montaż. Prześlij zdjęcie lokalu i wymiary do wyceny.",
       "section_sha256": [
         "c38c27e59420619f8ef367c8c951305b1f71597fce62e8e58944dbbaae5068d5"
-      ]
+      ],
+      "service_intro_sha256": [
+        "bb82bdf6e85227d40d13a8da9bec23519c9ef01dd31f6e6dc4c2970143e7ee04",
+        "1f7e329f93305c5d6ec5b50a318b328dbb93f0a047d83d4973525015fc052ea3"
+      ],
+      "service_intro_mode": "replace"
     },
     "/flagi/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/09/flagi-plazowe.jpg",
@@ -348,7 +458,12 @@
       "lead": "Flagi z nadrukiem i maszty reklamowe dla firm. Różne kształty i rozmiary. YOONA w Olsztynie i Ostródzie — zapytaj o projekt i wycenę.",
       "section_sha256": [
         "a70e569b9a4e6591213b33ab06cbecb54e08813b837cee2e56b13e89b53b942c"
-      ]
+      ],
+      "service_intro_sha256": [
+        "6a4205708a43889bbff5f1d0d3003fd9990da8b8cf62b6bc801326c5e5f6b17a",
+        "3b30c25ef356c3988111544b66a4f9b91beee4d80bc55f23fdbdc0ebf610d0fa"
+      ],
+      "service_intro_mode": "append"
     },
     "/fototapety/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/10/fototapety-olsztyn-2.jpg",
@@ -356,7 +471,12 @@
       "lead": "Fototapety z własną grafiką do domu, biura i lokalu. Projekt i druk na wymiar w YOONA. Prześlij wymiary ściany i zapytaj o wycenę.",
       "section_sha256": [
         "4cecfc676b7a2e5a227e1bd523dc2368f5bdd7f7462513461dc2471597d952a4"
-      ]
+      ],
+      "service_intro_sha256": [
+        "2675f6442d23f6aecab7a93ac6ee691965574657039f01255e00a17a6244771b",
+        "cb6d77ff922abe019a4d13bfbd3bad89b15532ce62a33c19539a1c89c1bb3665"
+      ],
+      "service_intro_mode": "replace"
     },
     "/totemy/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/09/pylon-reklamowy-olsztyn.jpg",
@@ -364,7 +484,12 @@
       "lead": "Totemy do oznakowania firm i obiektów. YOONA w Olsztynie i Ostródzie — omów projekt, miejsce ustawienia i zakres realizacji swojego oznakowania.",
       "section_sha256": [
         "7b5ed644f1dd5bd015f3bfd94529f35d80e2e80a1229d392bc1ee143c5fc035d"
-      ]
+      ],
+      "service_intro_sha256": [
+        "f2dccbcd1a0acffed65d6eb5cfc47207f5ddd0f6cc0bf4d7a6189b7c1dfba8c2",
+        "e7a5c2e3b6bd471be7fc6e810c4ba469ccc08de2b31b2f63b16ee5efda26ce0e"
+      ],
+      "service_intro_mode": "append"
     },
     "/scianki-reklamowe/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/11/scianki-ostroda.jpg",
@@ -372,7 +497,12 @@
       "lead": "Ścianki reklamowe z grafiką firmową na targi, konferencje i wydarzenia. YOONA: projekt i wykonanie. Zapytaj o format dopasowany do ekspozycji.",
       "section_sha256": [
         "ef51a71bf65a9c81b279ad31b5f2d5f2783439dc990476f2a61df889c915af0e"
-      ]
+      ],
+      "service_intro_sha256": [
+        "517181569be58431bc32b8dece527f33de82716a6bfe08607929152d6782b4e3",
+        "224f4c6ca7cdca8e2712f26d3da918094f86a57c2164a66d742dbe72d6958523"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-przyczep-gastronomicznych/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie-przyczepy-gastronomicznej-olsztyn-ostroda.jpg",
@@ -380,7 +510,12 @@
       "lead": "Oklejanie przyczep gastronomicznych i food trucków. YOONA: projekt, druk i aplikacja grafiki. Olsztyn i Ostróda — prześlij zdjęcia do wyceny.",
       "section_sha256": [
         "fd260b6f8eebcb9da56e453eb0e2a4d962c6cf547fb0176214dfe5adbc3ec2d5"
-      ]
+      ],
+      "service_intro_sha256": [
+        "849b24aedbdf855f17a9a023857a608e0ecd8bf3680cbd4408fb670749f02699",
+        "e8fdb9f53bc1c3f7f00de7e1b2d9164454c44675ea34fbd9fa081e62813d98e9"
+      ],
+      "service_intro_mode": "replace"
     },
     "/mobilna-reklama/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie_samochodow_head.jpg",
@@ -388,7 +523,12 @@
       "lead": "Reklama mobilna na samochodach, autobusach i przyczepach. YOONA: projekt i oklejanie pojazdów w Olsztynie i Ostródzie. Zapytaj o wycenę.",
       "section_sha256": [
         "97cbf6cce60ed4a31a7f18ddf16d5d68cddac5b7c0feccbd69abbbc0cd275d80"
-      ]
+      ],
+      "service_intro_sha256": [
+        "6a7d54ae12ea7831b730ab36a1180a60ecdc0f7d39684dc8269505ec5dd86523",
+        "5ae30cdc32a99ceb17dd2eb06c3cfd28c41338a8bfd16a18b351711205a60992"
+      ],
+      "service_intro_mode": "replace"
     },
     "/ledony/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/02/slider_ledony.jpg",
@@ -396,7 +536,12 @@
       "lead": "Ledony z logo i napisy LED dla firm. YOONA: projekt, wykonanie oraz montaż w Olsztynie i Ostródzie. Prześlij pomysł i zapytaj o wycenę.",
       "section_sha256": [
         "e6e172c61642a5fceee393741651f93fcebeb0b3eb45a121b9235798d40e1278"
-      ]
+      ],
+      "service_intro_sha256": [
+        "5fe6f9a8ae107640b324527db231018923b2d536c68ea8e6cb53a29741700464",
+        "305898515e1a8c931b6e204d9d44a5dfcb728e6d75486d54a8dea075ea6960ac"
+      ],
+      "service_intro_mode": "replace"
     },
     "/tabliczki-informacyjne/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/02/tabliczki-informacyjne-olsztyn-1.jpg",
@@ -404,7 +549,12 @@
       "lead": "Tabliczki na drzwi, oznakowanie pomieszczeń i systemy informacji. YOONA w Olsztynie i Ostródzie — projekt oraz wykonanie dla firm i instytucji.",
       "section_sha256": [
         "1c5a6258439a45b9eb09a94365782e1cb3ff157a28bfc642b494f758f9a6fc74"
-      ]
+      ],
+      "service_intro_sha256": [
+        "2b53892dbe7c8b1d9228c01da6ee4ac3cd5f22b8f7edb2741dbde2a217fc33ad",
+        "fcfd5833b7ab7191476c91f75441fb6f86557b970b178bb2599af8a73c9d9e58"
+      ],
+      "service_intro_mode": "replace"
     },
     "/windery/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/09/flagi-plazowe.jpg",
@@ -412,7 +562,12 @@
       "lead": "Windery z logo na wydarzenia i przed lokal. Projekt nadruku, różne formaty flag. YOONA w Olsztynie i Ostródzie — zapytaj o zestaw i wycenę.",
       "section_sha256": [
         "5b3d142c2e43404befd1cfcd1741bf70528ee77bc01e274f4bce69668be01a8e"
-      ]
+      ],
+      "service_intro_sha256": [
+        "e820d66f98d94a5d16caace1b7ba1eeecc13e8d54ddc2c980b192caa032cdb48",
+        "650532ace89af059055c7183180c66463259677a1667e4ba5a4b7c5124f50ab4"
+      ],
+      "service_intro_mode": "replace"
     },
     "/billboardy/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/agencja-reklamy-olsztynostroda.jpg",
@@ -420,7 +575,12 @@
       "lead": "Projekt, druk i montaż billboardów dla firm. YOONA w Olsztynie i Ostródzie — przygotuj format, lokalizację i treść reklamy do indywidualnej wyceny.",
       "section_sha256": [
         "cfc27a0f4a460e7796c3599604012d9476265a30d4a5be7b90d5c2d70f260566"
-      ]
+      ],
+      "service_intro_sha256": [
+        "8fd399e76cc6dde18a5dda6b711752227c2f1ceb429317668efa53611b5b87bc",
+        "3abd9263796f477af23a3d76a95e3915fe668612b2aa3e21c883dcc434e93b19"
+      ],
+      "service_intro_mode": "replace"
     },
     "/etykiety/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/naklejki-reklamowe-olsztyn-2.jpg",
@@ -428,7 +588,12 @@
       "lead": "Etykiety z logo i grafiką dla produktów oraz opakowań. YOONA: projekt i wykonanie w Olsztynie i Ostródzie. Podaj format i nakład do wyceny.",
       "section_sha256": [
         "823e4221cb566533dd4ff5da9ef9571879fc7fcbbb258d2bad71670ef03f7380"
-      ]
+      ],
+      "service_intro_sha256": [
+        "ffb92b375f312e5bdc40be324f69f26b43677d0e7cf101d357e6c88bf60fbbd9",
+        "4338da4978614b24b5cbb5c1536a10e41b30f85f31dcdc132586ff5f0d4bb40c"
+      ],
+      "service_intro_mode": "replace"
     },
     "/naklejki/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/naklejki-reklamowe-olsztyn-4.jpg",
@@ -436,7 +601,12 @@
       "lead": "Naklejki z logo i grafiką dla firm. Projekt oraz wykonanie w YOONA w Olsztynie i Ostródzie. Podaj wymiary, liczbę sztuk i miejsce aplikacji.",
       "section_sha256": [
         "d65a7f1ae7bd815a0cbb8b215f8028c7ecdff055e7b840cf94d9369954054601"
-      ]
+      ],
+      "service_intro_sha256": [
+        "ad036961314800064a53b1fbb3f27a691e92c5d5442c224d060cc8b1352bc2d3",
+        "e0dbe99cff6b1421e605ddf06016d62849147e901d955d0d1fe9e89ab25bb626"
+      ],
+      "service_intro_mode": "replace"
     },
     "/potykacze/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/potykacze-reklama-olsztyn-yoona-10.jpg",
@@ -444,7 +614,12 @@
       "lead": "Potykacze z grafiką dla sklepów i gastronomii. YOONA w Olsztynie i Ostródzie — projekt oraz wykonanie. Zapytaj o oznakowanie przed lokalem.",
       "section_sha256": [
         "b5a883c744b18b0b5139b35c3f97ac0d81dd869e95dfb4c0d032847325d18e58"
-      ]
+      ],
+      "service_intro_sha256": [
+        "1514cf2fe4e31a3359764f1b4ef56943b1be40df71e756e2d3c20de2a472ae57",
+        "ced143ee509d77aee3d78b957b43d80785584ad4f8c33c5baad9091b45c22b46"
+      ],
+      "service_intro_mode": "replace"
     },
     "/rollupy/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/reklama-olsztyn-ostroda.jpg",
@@ -452,7 +627,12 @@
       "lead": "Rollupy z własną grafiką na targi, konferencje i do biura. YOONA w Olsztynie i Ostródzie: projekt i wykonanie. Zapytaj o format oraz wycenę.",
       "section_sha256": [
         "98740ca1814a3687ff595a63c61d5b28fc78c0d600cdbba33ea0e2706c05fd42"
-      ]
+      ],
+      "service_intro_sha256": [
+        "050634d497a55ab1549a2d9fe28efe2e3b2cbd8e25539e79656868904db1b8ab",
+        "4bfc6333ff3860ccd3e7fa02a2306151e5ba473bc42ecd7bd642c61ce3197780"
+      ],
+      "service_intro_mode": "replace"
     },
     "/koszulki/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/koszulki-olsztyn-2.jpg",
@@ -460,7 +640,12 @@
       "lead": "Koszulki z logo dla firm, zespołów i wydarzeń. YOONA: projekt i znakowanie w Olsztynie i Ostródzie. Prześlij grafikę, rozmiary i nakład do wyceny.",
       "section_sha256": [
         "4388c9f975f8286a8afe5b576729ece261b9ea78c5b1af956df07da6fb98565c"
-      ]
+      ],
+      "service_intro_sha256": [
+        "ded8a2b4c0ad96a0b8a1ff8253390e089614e44d1cd0c78990b0b274fdc09552",
+        "76e7864811c1d63139a07e4342de991d9cbb63e93d712def6d47bc626f09619a"
+      ],
+      "service_intro_mode": "replace"
     },
     "/menuboardy/": {
       "image": "https://yoona.pl/wp-content/uploads/2024/04/menuboardy-head.jpg",
@@ -468,7 +653,12 @@
       "lead": "Menuboardy i tablice menu dla restauracji, pizzerii i barów. YOONA: projekt, druk i montaż w Olsztynie i Ostródzie. Zapytaj o wycenę.",
       "section_sha256": [
         "7b21cdc453225798650c63a97a16f8a8f562e878a3ce6825a3ad8eed2182e64b"
-      ]
+      ],
+      "service_intro_sha256": [
+        "3d47a7b669b00460892fbad5a71c42d5c7233e398b6560ca86472c915fdc24a1",
+        "d8966edd154d139db2d1b62446f19796835933c3b5e339f2424226e5d1f04d71"
+      ],
+      "service_intro_mode": "replace"
     },
     "/oklejanie-samochodu-cena/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/oklejanie_samochodow_head.jpg",
@@ -476,7 +666,12 @@
       "lead": "Od czego zależy cena oklejenia samochodu? Sprawdź zakres prac i materiały do wyceny. YOONA: reklama na autach w Olsztynie i Ostródzie.",
       "section_sha256": [
         "a124ca143402c90f0d13ce2e1c070afc8eda1bcc83e9fd7f5ae80b51504611ae"
-      ]
+      ],
+      "service_intro_sha256": [
+        "a2b73875b517e42e56c82ef12e4aeb1f76f5279a1012bfa68935d8dbe24ec80e",
+        "11ad2478f9cc8785a54c68e703f4acc93c66b1450a4dad9050494b8a0aab41d1"
+      ],
+      "service_intro_mode": "replace"
     },
     "/frezowanie-cnc/": {
       "image": "https://yoona.pl/wp-content/uploads/2023/07/litery-swietlne-litery-podswietlanelitery-led.jpg",
@@ -484,7 +679,12 @@
       "lead": "Frezowanie CNC plexi, tworzyw, MDF i sklejki. Elementy reklamowe i formatki na zamówienie. YOONA — prześlij projekt, materiał i liczbę sztuk.",
       "section_sha256": [
         "60f97b082eeeedc9ae4c6197ba947a883eed005ba806e621ecaf7ef48f22bba1"
-      ]
+      ],
+      "service_intro_sha256": [
+        "b211e77d43030bb25ce5056b4988d2ca5f8b28bf216e264f1c5ea7fc40fde622",
+        "3b568e4f7f16156b8cf634974abccdb7da58a687f7c8eff40bcd452a90902e53"
+      ],
+      "service_intro_mode": "replace"
     },
     "/tablice-unijne/": {
       "image": "https://yoona.pl/wp-content/uploads/2026/10/tablice-unijne-olsztyn-9.jpg",
@@ -493,7 +693,12 @@
       "section_sha256": [
         "f8f8d3b06a6b3ba8f03f7dfb2c33fd0e2f1e68a8b66132abb828c499a1ed8567",
         "abb509ca82f5ccae32cce0f3a597a074ee268b1aa552b40d9c9c91e4a84659c2"
-      ]
+      ],
+      "service_intro_sha256": [
+        "59428b4fbbe49371a01efe784eeacfac603637f7f2daa0194e94dfbd61fa2492",
+        "e518c077a717787aab91d62c9288b5117f58f0dd67eebdb6356e64e83a31e06f"
+      ],
+      "service_intro_mode": "replace"
     }
   },
   "removed_contact_sections": {

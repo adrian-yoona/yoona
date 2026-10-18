@@ -1,20 +1,22 @@
 <?php
-/** Structured service copy with preserved original photographs and forms. */
+/** Structured service copy inside the complete, preserved original Divi layout. */
 defined( 'ABSPATH' ) || exit;
 Yoona_SEO_Design::part( 'header' );
 ?>
 <main id="main-content" class="yn-main yn-secondary-main yn-service-guide">
 <?php while ( have_posts() ) : the_post();
     $guide = Yoona_SEO_Service_Guides::context( get_the_ID() );
-    $legacy_media = Yoona_SEO_Service_Guides::legacy_media( get_the_ID(), $guide );
-    $offer_hero = $guide;
-    $offer_hero['has_body_h1'] = false;
-    $offer_hero['lead'] = $guide['lead'];
-    require __DIR__ . '/offer-hero.php';
+    $yn_owned_service = (bool) get_post_meta( get_the_ID(), '_yoona_growth_owned', true );
+    ob_start();
+    try {
 ?>
-<section id="yn-offer-content" tabindex="-1" class="yn-section yn-guide" aria-labelledby="yn-guide-title">
+<section class="yn-section yn-guide" aria-labelledby="yn-guide-title">
   <div class="yn-container">
+    <?php if ( 'append' === $guide['layout_mode'] ) : ?>
+    <div class="yn-guide-intro"><p class="yn-eyebrow">Materiały / wykonanie / wycena</p><h2 id="yn-guide-title">Szczegóły zamówienia</h2></div>
+    <?php else : ?>
     <div class="yn-guide-intro"><p class="yn-eyebrow">Olsztyn / Ostróda / realizacje w Polsce</p><h2 id="yn-guide-title"><?php echo esc_html( $guide['title'] ); ?></h2><p><?php echo esc_html( $guide['overview'] ); ?></p></div>
+    <?php endif; ?>
     <div class="yn-guide-grid">
     <?php foreach ( array( 'applications' => 'Zastosowanie', 'materials' => 'Materiały i warianty', 'process' => 'Jak realizujemy zamówienie', 'pricing' => 'Od czego zależy cena', 'quote' => 'Co przesłać do wyceny' ) as $key => $label ) : if ( empty( $guide[ $key ] ) ) continue; ?>
       <section class="yn-guide-panel"><h2><?php echo esc_html( $label ); ?></h2><ul><?php foreach ( $guide[ $key ] as $item ) : ?><li><?php echo esc_html( $item ); ?></li><?php endforeach; ?></ul></section>
@@ -25,7 +27,18 @@ Yoona_SEO_Design::part( 'header' );
     <div class="yn-actions"><a class="yn-button" href="<?php echo esc_url( Yoona_SEO_Design::route( 'contact' ) ); ?>">Prześlij projekt do wyceny <span aria-hidden="true">↗</span></a></div>
   </div>
 </section>
-<?php if ( $legacy_media ) : ?><section class="yn-section yn-guide-media" aria-labelledby="yn-guide-media-title"><div class="yn-container"><h2 id="yn-guide-media-title">Zdjęcia i materiały</h2><div class="yn-guide-media-grid"><?php foreach ( $legacy_media as $html ) echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Original WordPress/Divi callback output. ?></div></div></section><?php endif; ?>
+<?php
+    } finally { $yn_service_details = ob_get_clean(); }
+    $yn_service_layout = Yoona_SEO_Service_Guides::legacy_content( get_the_ID(), $guide, $yn_service_details );
+    if ( $yn_service_layout['hero_applied'] ) {
+        $offer_hero = $guide;
+        $offer_hero['has_body_h1'] = 1 === preg_match( '/<h1(?:\s|>)/i', $yn_service_layout['html'] );
+        require __DIR__ . '/offer-hero.php';
+    }
+?>
+<div id="yn-offer-content" tabindex="-1" class="<?php echo $yn_owned_service ? 'yn-service-copy' : 'entry-content yn-content yn-builder-content yn-service-original'; ?>">
+<?php echo $yn_service_layout['html']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Complete standard WordPress/Divi output, rendered once. ?>
+</div>
 <?php endwhile; ?>
 </main>
 <?php Yoona_SEO_Design::part( 'footer' ); ?>

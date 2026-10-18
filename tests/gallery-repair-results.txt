@@ -1,0 +1,670 @@
+Yoona 3.4.1 — offer galleries and complete lower sections, 2026-10-18
+
+Real isolated WordPress 7.1.3 / PHP 8.3.35 / MariaDB 11.4 / Rank Math 1.0.280, local Chromium.
+Stack resumed after the environment restart: yoona-seo-test-gallery-537138-13880, loopback port 32768.
+
+1265 memory-only source assertions cover all 41 original offers and all 41 frozen SEO variants. Complete lower callback output, including indexed CSS classes, is compared byte for byte at the same shortcode phase, after core bracket unescaping and before later WordPress image-attribute filters. Manual intro/hero edits preserve complete source; exception checks preserve prior hooks and output-buffer depth. The raw private export was never installed in served tables or printed and was removed from CLI/tmp even after failures.
+
+599 real Chromium checks cover all 41 synthetic public offers on desktop, representative offers at 390/320 px and all 6 owned pages at 1440/390/320 px. Every gallery preserves section/row/column ancestors, source links and wrapper-dependent CSS. Bottom CTA, FAQ, social and a synthetic form retain their columns. The retired knob contact stays removed. 52 additional owned-page installer/render/manual-edit assertions passed. Every post and metadata row stayed byte-identical after browsing. The six owned fixtures were created before warming and capturing the strict database baseline.
+
+Private preflight corrections: ephemeral builder metadata was added in memory; callback HTML and final image attributes are checked at separate appropriate stages. Standard WordPress literal-bracket encoding was reproduced exactly and handled after the strict stored-source hash check. No arbitrary normalization or second shortcode execution was introduced. The full-source manifest builder validated 811 frozen text patches and 82 intro hashes using the existing PHP helper.
+
+Licensed Divi is not installed. Callbacks are explicit synthetic equivalents for all actual module types, with indexed classes and ancestor-dependent CSS. Images are visibly labelled local media probes; the screenshots do not show production photographs. This proves preservation of the original layout structure, not a live production Divi rendering. No remote installation on yoona.pl was performed.
+
+All 37 files served by the tested WordPress match final release sources byte for byte. The v3.4.1 ZIP contains those exact 37 files, valid CRC and version 3.4.1. SHA-256: 250424bdf75ed0e06f71b1fc8804de4d0bfba6444b4b99ca29af03c5f645ad5d.
+
+Expected failure on frozen v3.4.0 (exit 1):
+
+PASS Gallery repair 1440 service template /litery-3d/
+AssertionError [ERR_ASSERTION]: 1440 gallery retains section / row / column ancestors /litery-3d/
+    at check (/workspace/yoona/tests/gallery-repair.cjs:15:46)
+    at /workspace/yoona/tests/gallery-repair.cjs:29:5 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Final private source command (exit 0):
+wp eval-file gallery-repair.php private /tmp/yoona-gallery-private-source.json --skip-themes
+
+No syntax errors detected in /var/www/html/yoona-tests/gallery-repair.php
+Success: 1265 memory-only gallery / complete lower-section assertions passed for 82 offer versions. No private source HTML was printed or installed.
+
+Final real browser command (exit 0):
+node tests/gallery-repair.cjs http://127.0.0.1:32768 yoona-seo-test-gallery-537138-13880-cli
+
+Success: 52 owned specialist-page installer / single-render / manual-edit guard assertions passed.
+PASS Gallery repair 1440 service template /litery-3d/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /litery-3d/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /litery-3d/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /litery-3d/
+PASS Gallery repair 1440 retired knob contact section remains removed /litery-3d/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /litery-3d/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /litery-3d/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /litery-3d/
+PASS Gallery repair 1440 native Rank Math metadata stays present /litery-3d/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /litery-3d/
+PASS Gallery repair 1440 service template /reklamy-swietlne/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /reklamy-swietlne/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /reklamy-swietlne/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /reklamy-swietlne/
+PASS Gallery repair 1440 retired knob contact section remains removed /reklamy-swietlne/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /reklamy-swietlne/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /reklamy-swietlne/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /reklamy-swietlne/
+PASS Gallery repair 1440 native Rank Math metadata stays present /reklamy-swietlne/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /reklamy-swietlne/
+PASS Gallery repair 1440 service template /tablice-olsztyn/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /tablice-olsztyn/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /tablice-olsztyn/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /tablice-olsztyn/
+PASS Gallery repair 1440 retired knob contact section remains removed /tablice-olsztyn/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /tablice-olsztyn/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /tablice-olsztyn/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /tablice-olsztyn/
+PASS Gallery repair 1440 native Rank Math metadata stays present /tablice-olsztyn/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /tablice-olsztyn/
+PASS Gallery repair 1440 service template /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 retired knob contact section remains removed /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 native Rank Math metadata stays present /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /drukarnia-wielkoformatowa/
+PASS Gallery repair 1440 service template /oklejanie-samochodow/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-samochodow/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-samochodow/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-samochodow/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-samochodow/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-samochodow/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-samochodow/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-samochodow/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-samochodow/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-samochodow/
+PASS Gallery repair 1440 service template /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 retired knob contact section remains removed /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 native Rank Math metadata stays present /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /zmiana-koloru-samochodu/
+PASS Gallery repair 1440 service template /oklejanie-szyb/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-szyb/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-szyb/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-szyb/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-szyb/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-szyb/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-szyb/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-szyb/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-szyb/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-szyb/
+PASS Gallery repair 1440 service template /reklama-zewnetrzna/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /reklama-zewnetrzna/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /reklama-zewnetrzna/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /reklama-zewnetrzna/
+PASS Gallery repair 1440 retired knob contact section remains removed /reklama-zewnetrzna/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /reklama-zewnetrzna/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /reklama-zewnetrzna/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /reklama-zewnetrzna/
+PASS Gallery repair 1440 native Rank Math metadata stays present /reklama-zewnetrzna/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /reklama-zewnetrzna/
+PASS Gallery repair 1440 service template /szyldy/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /szyldy/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /szyldy/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /szyldy/
+PASS Gallery repair 1440 retired knob contact section remains removed /szyldy/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /szyldy/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /szyldy/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /szyldy/
+PASS Gallery repair 1440 native Rank Math metadata stays present /szyldy/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /szyldy/
+PASS Gallery repair 1440 service template /banery/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /banery/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /banery/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /banery/
+PASS Gallery repair 1440 retired knob contact section remains removed /banery/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /banery/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /banery/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /banery/
+PASS Gallery repair 1440 native Rank Math metadata stays present /banery/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /banery/
+PASS Gallery repair 1440 service template /beczki-reklamowe/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /beczki-reklamowe/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /beczki-reklamowe/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /beczki-reklamowe/
+PASS Gallery repair 1440 retired knob contact section remains removed /beczki-reklamowe/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /beczki-reklamowe/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /beczki-reklamowe/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /beczki-reklamowe/
+PASS Gallery repair 1440 native Rank Math metadata stays present /beczki-reklamowe/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /beczki-reklamowe/
+PASS Gallery repair 1440 service template /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 retired knob contact section remains removed /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 native Rank Math metadata stays present /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /reklama-na-rusztowaniu/
+PASS Gallery repair 1440 service template /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 retired knob contact section remains removed /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 native Rank Math metadata stays present /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /reklama-na-rusztowaniu-2/
+PASS Gallery repair 1440 service template /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 retired knob contact section remains removed /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 native Rank Math metadata stays present /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /plotki-ogrodki-piwne/
+PASS Gallery repair 1440 service template /neony/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /neony/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /neony/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /neony/
+PASS Gallery repair 1440 retired knob contact section remains removed /neony/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /neony/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /neony/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /neony/
+PASS Gallery repair 1440 native Rank Math metadata stays present /neony/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /neony/
+PASS Gallery repair 1440 service template /siatka-mesh/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /siatka-mesh/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /siatka-mesh/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /siatka-mesh/
+PASS Gallery repair 1440 retired knob contact section remains removed /siatka-mesh/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /siatka-mesh/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /siatka-mesh/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /siatka-mesh/
+PASS Gallery repair 1440 native Rank Math metadata stays present /siatka-mesh/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /siatka-mesh/
+PASS Gallery repair 1440 service template /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-samochodow-osobowych/
+PASS Gallery repair 1440 service template /oklejanie-autobusow/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-autobusow/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-autobusow/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-autobusow/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-autobusow/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-autobusow/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-autobusow/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-autobusow/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-autobusow/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-autobusow/
+PASS Gallery repair 1440 service template /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-samochodow-ciezarowych/
+PASS Gallery repair 1440 service template /kasetony-swietlne/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /kasetony-swietlne/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /kasetony-swietlne/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /kasetony-swietlne/
+PASS Gallery repair 1440 retired knob contact section remains removed /kasetony-swietlne/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /kasetony-swietlne/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /kasetony-swietlne/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /kasetony-swietlne/
+PASS Gallery repair 1440 native Rank Math metadata stays present /kasetony-swietlne/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /kasetony-swietlne/
+PASS Gallery repair 1440 service template /pylony/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /pylony/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /pylony/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /pylony/
+PASS Gallery repair 1440 retired knob contact section remains removed /pylony/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /pylony/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /pylony/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /pylony/
+PASS Gallery repair 1440 native Rank Math metadata stays present /pylony/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /pylony/
+PASS Gallery repair 1440 service template /markizy-z-logo/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /markizy-z-logo/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /markizy-z-logo/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /markizy-z-logo/
+PASS Gallery repair 1440 retired knob contact section remains removed /markizy-z-logo/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /markizy-z-logo/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /markizy-z-logo/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /markizy-z-logo/
+PASS Gallery repair 1440 native Rank Math metadata stays present /markizy-z-logo/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /markizy-z-logo/
+PASS Gallery repair 1440 service template /flagi/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /flagi/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /flagi/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /flagi/
+PASS Gallery repair 1440 retired knob contact section remains removed /flagi/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /flagi/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /flagi/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /flagi/
+PASS Gallery repair 1440 native Rank Math metadata stays present /flagi/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /flagi/
+PASS Gallery repair 1440 service template /fototapety/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /fototapety/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /fototapety/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /fototapety/
+PASS Gallery repair 1440 retired knob contact section remains removed /fototapety/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /fototapety/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /fototapety/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /fototapety/
+PASS Gallery repair 1440 native Rank Math metadata stays present /fototapety/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /fototapety/
+PASS Gallery repair 1440 service template /totemy/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /totemy/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /totemy/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /totemy/
+PASS Gallery repair 1440 retired knob contact section remains removed /totemy/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /totemy/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /totemy/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /totemy/
+PASS Gallery repair 1440 native Rank Math metadata stays present /totemy/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /totemy/
+PASS Gallery repair 1440 service template /scianki-reklamowe/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /scianki-reklamowe/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /scianki-reklamowe/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /scianki-reklamowe/
+PASS Gallery repair 1440 retired knob contact section remains removed /scianki-reklamowe/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /scianki-reklamowe/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /scianki-reklamowe/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /scianki-reklamowe/
+PASS Gallery repair 1440 native Rank Math metadata stays present /scianki-reklamowe/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /scianki-reklamowe/
+PASS Gallery repair 1440 service template /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-przyczep-gastronomicznych/
+PASS Gallery repair 1440 service template /mobilna-reklama/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /mobilna-reklama/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /mobilna-reklama/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /mobilna-reklama/
+PASS Gallery repair 1440 retired knob contact section remains removed /mobilna-reklama/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /mobilna-reklama/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /mobilna-reklama/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /mobilna-reklama/
+PASS Gallery repair 1440 native Rank Math metadata stays present /mobilna-reklama/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /mobilna-reklama/
+PASS Gallery repair 1440 service template /ledony/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /ledony/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /ledony/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /ledony/
+PASS Gallery repair 1440 retired knob contact section remains removed /ledony/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /ledony/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /ledony/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /ledony/
+PASS Gallery repair 1440 native Rank Math metadata stays present /ledony/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /ledony/
+PASS Gallery repair 1440 service template /tabliczki-informacyjne/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /tabliczki-informacyjne/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /tabliczki-informacyjne/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /tabliczki-informacyjne/
+PASS Gallery repair 1440 retired knob contact section remains removed /tabliczki-informacyjne/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /tabliczki-informacyjne/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /tabliczki-informacyjne/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /tabliczki-informacyjne/
+PASS Gallery repair 1440 native Rank Math metadata stays present /tabliczki-informacyjne/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /tabliczki-informacyjne/
+PASS Gallery repair 1440 service template /windery/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /windery/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /windery/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /windery/
+PASS Gallery repair 1440 retired knob contact section remains removed /windery/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /windery/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /windery/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /windery/
+PASS Gallery repair 1440 native Rank Math metadata stays present /windery/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /windery/
+PASS Gallery repair 1440 service template /billboardy/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /billboardy/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /billboardy/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /billboardy/
+PASS Gallery repair 1440 retired knob contact section remains removed /billboardy/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /billboardy/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /billboardy/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /billboardy/
+PASS Gallery repair 1440 native Rank Math metadata stays present /billboardy/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /billboardy/
+PASS Gallery repair 1440 service template /etykiety/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /etykiety/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /etykiety/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /etykiety/
+PASS Gallery repair 1440 retired knob contact section remains removed /etykiety/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /etykiety/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /etykiety/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /etykiety/
+PASS Gallery repair 1440 native Rank Math metadata stays present /etykiety/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /etykiety/
+PASS Gallery repair 1440 service template /naklejki/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /naklejki/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /naklejki/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /naklejki/
+PASS Gallery repair 1440 retired knob contact section remains removed /naklejki/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /naklejki/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /naklejki/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /naklejki/
+PASS Gallery repair 1440 native Rank Math metadata stays present /naklejki/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /naklejki/
+PASS Gallery repair 1440 service template /potykacze/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /potykacze/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /potykacze/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /potykacze/
+PASS Gallery repair 1440 retired knob contact section remains removed /potykacze/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /potykacze/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /potykacze/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /potykacze/
+PASS Gallery repair 1440 native Rank Math metadata stays present /potykacze/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /potykacze/
+PASS Gallery repair 1440 service template /rollupy/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /rollupy/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /rollupy/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /rollupy/
+PASS Gallery repair 1440 retired knob contact section remains removed /rollupy/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /rollupy/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /rollupy/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /rollupy/
+PASS Gallery repair 1440 native Rank Math metadata stays present /rollupy/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /rollupy/
+PASS Gallery repair 1440 service template /koszulki/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /koszulki/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /koszulki/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /koszulki/
+PASS Gallery repair 1440 retired knob contact section remains removed /koszulki/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /koszulki/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /koszulki/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /koszulki/
+PASS Gallery repair 1440 native Rank Math metadata stays present /koszulki/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /koszulki/
+PASS Gallery repair 1440 service template /menuboardy/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /menuboardy/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /menuboardy/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /menuboardy/
+PASS Gallery repair 1440 retired knob contact section remains removed /menuboardy/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /menuboardy/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /menuboardy/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /menuboardy/
+PASS Gallery repair 1440 native Rank Math metadata stays present /menuboardy/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /menuboardy/
+PASS Gallery repair 1440 service template /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 retired knob contact section remains removed /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 native Rank Math metadata stays present /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /oklejanie-samochodu-cena/
+PASS Gallery repair 1440 service template /frezowanie-cnc/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /frezowanie-cnc/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /frezowanie-cnc/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /frezowanie-cnc/
+PASS Gallery repair 1440 retired knob contact section remains removed /frezowanie-cnc/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /frezowanie-cnc/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /frezowanie-cnc/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /frezowanie-cnc/
+PASS Gallery repair 1440 native Rank Math metadata stays present /frezowanie-cnc/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /frezowanie-cnc/
+PASS Gallery repair 1440 service template /tablice-unijne/
+PASS Gallery repair 1440 gallery retains section / row / column ancestors /tablice-unijne/
+PASS Gallery repair 1440 every source photo, lightbox link and item wrapper survives once /tablice-unijne/
+PASS Gallery repair 1440 lower CTA, toggle, social links and form retain their actual columns /tablice-unijne/
+PASS Gallery repair 1440 retired knob contact section remains removed /tablice-unijne/
+PASS Gallery repair 1440 source gallery never enters an unrelated image grid /tablice-unijne/
+PASS Gallery repair 1440 wrapper-dependent original gallery stylesheet still applies /tablice-unijne/
+PASS Gallery repair 1440 every preserved shortcode callback runs exactly once /tablice-unijne/
+PASS Gallery repair 1440 native Rank Math metadata stays present /tablice-unijne/
+PASS Gallery repair 1440 gallery and bottom have no horizontal overflow /tablice-unijne/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /frezowanie-plexi/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /frezowanie-plexi/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /frezowanie-plexi/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /frezowanie-plexi/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /frezowanie-plexi/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /frezowanie-plexi/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /frezowanie-dibondu/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /frezowanie-dibondu/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /frezowanie-dibondu/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /frezowanie-dibondu/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /frezowanie-dibondu/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /frezowanie-dibondu/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /frezowanie-elementow-reklamowych/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /markizy-tarasowe/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /markizy-tarasowe/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /markizy-tarasowe/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /markizy-tarasowe/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /markizy-tarasowe/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /markizy-tarasowe/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /markizy-wolnostojace-duo/
+PASS Gallery repair 1440 owned specialist page uses the repaired template /znakowanie-markiz/
+PASS Gallery repair 1440 owned details appear once without duplicating the stored fallback /znakowanie-markiz/
+PASS Gallery repair 1440 owned pages add no detached gallery or original-body wrapper /znakowanie-markiz/
+PASS Gallery repair 1440 owned pages execute no original shortcode callbacks /znakowanie-markiz/
+PASS Gallery repair 1440 owned title and native Rank Math description remain present /znakowanie-markiz/
+PASS Gallery repair 1440 owned specialist page has no horizontal overflow /znakowanie-markiz/
+PASS Gallery repair 390 service template /banery/
+PASS Gallery repair 390 gallery retains section / row / column ancestors /banery/
+PASS Gallery repair 390 every source photo, lightbox link and item wrapper survives once /banery/
+PASS Gallery repair 390 lower CTA, toggle, social links and form retain their actual columns /banery/
+PASS Gallery repair 390 retired knob contact section remains removed /banery/
+PASS Gallery repair 390 source gallery never enters an unrelated image grid /banery/
+PASS Gallery repair 390 wrapper-dependent original gallery stylesheet still applies /banery/
+PASS Gallery repair 390 every preserved shortcode callback runs exactly once /banery/
+PASS Gallery repair 390 native Rank Math metadata stays present /banery/
+PASS Gallery repair 390 gallery and bottom have no horizontal overflow /banery/
+PASS Gallery repair 390 service template /frezowanie-cnc/
+PASS Gallery repair 390 gallery retains section / row / column ancestors /frezowanie-cnc/
+PASS Gallery repair 390 every source photo, lightbox link and item wrapper survives once /frezowanie-cnc/
+PASS Gallery repair 390 lower CTA, toggle, social links and form retain their actual columns /frezowanie-cnc/
+PASS Gallery repair 390 retired knob contact section remains removed /frezowanie-cnc/
+PASS Gallery repair 390 source gallery never enters an unrelated image grid /frezowanie-cnc/
+PASS Gallery repair 390 wrapper-dependent original gallery stylesheet still applies /frezowanie-cnc/
+PASS Gallery repair 390 every preserved shortcode callback runs exactly once /frezowanie-cnc/
+PASS Gallery repair 390 native Rank Math metadata stays present /frezowanie-cnc/
+PASS Gallery repair 390 gallery and bottom have no horizontal overflow /frezowanie-cnc/
+PASS Gallery repair 390 service template /markizy-z-logo/
+PASS Gallery repair 390 gallery retains section / row / column ancestors /markizy-z-logo/
+PASS Gallery repair 390 every source photo, lightbox link and item wrapper survives once /markizy-z-logo/
+PASS Gallery repair 390 lower CTA, toggle, social links and form retain their actual columns /markizy-z-logo/
+PASS Gallery repair 390 retired knob contact section remains removed /markizy-z-logo/
+PASS Gallery repair 390 source gallery never enters an unrelated image grid /markizy-z-logo/
+PASS Gallery repair 390 wrapper-dependent original gallery stylesheet still applies /markizy-z-logo/
+PASS Gallery repair 390 every preserved shortcode callback runs exactly once /markizy-z-logo/
+PASS Gallery repair 390 native Rank Math metadata stays present /markizy-z-logo/
+PASS Gallery repair 390 gallery and bottom have no horizontal overflow /markizy-z-logo/
+PASS Gallery repair 390 service template /beczki-reklamowe/
+PASS Gallery repair 390 gallery retains section / row / column ancestors /beczki-reklamowe/
+PASS Gallery repair 390 every source photo, lightbox link and item wrapper survives once /beczki-reklamowe/
+PASS Gallery repair 390 lower CTA, toggle, social links and form retain their actual columns /beczki-reklamowe/
+PASS Gallery repair 390 retired knob contact section remains removed /beczki-reklamowe/
+PASS Gallery repair 390 source gallery never enters an unrelated image grid /beczki-reklamowe/
+PASS Gallery repair 390 wrapper-dependent original gallery stylesheet still applies /beczki-reklamowe/
+PASS Gallery repair 390 every preserved shortcode callback runs exactly once /beczki-reklamowe/
+PASS Gallery repair 390 native Rank Math metadata stays present /beczki-reklamowe/
+PASS Gallery repair 390 gallery and bottom have no horizontal overflow /beczki-reklamowe/
+PASS Gallery repair 390 owned specialist page uses the repaired template /frezowanie-plexi/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /frezowanie-plexi/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /frezowanie-plexi/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /frezowanie-plexi/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /frezowanie-plexi/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /frezowanie-plexi/
+PASS Gallery repair 390 owned specialist page uses the repaired template /frezowanie-dibondu/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /frezowanie-dibondu/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /frezowanie-dibondu/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /frezowanie-dibondu/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /frezowanie-dibondu/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /frezowanie-dibondu/
+PASS Gallery repair 390 owned specialist page uses the repaired template /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /frezowanie-elementow-reklamowych/
+PASS Gallery repair 390 owned specialist page uses the repaired template /markizy-tarasowe/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /markizy-tarasowe/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /markizy-tarasowe/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /markizy-tarasowe/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /markizy-tarasowe/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /markizy-tarasowe/
+PASS Gallery repair 390 owned specialist page uses the repaired template /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /markizy-wolnostojace-duo/
+PASS Gallery repair 390 owned specialist page uses the repaired template /znakowanie-markiz/
+PASS Gallery repair 390 owned details appear once without duplicating the stored fallback /znakowanie-markiz/
+PASS Gallery repair 390 owned pages add no detached gallery or original-body wrapper /znakowanie-markiz/
+PASS Gallery repair 390 owned pages execute no original shortcode callbacks /znakowanie-markiz/
+PASS Gallery repair 390 owned title and native Rank Math description remain present /znakowanie-markiz/
+PASS Gallery repair 390 owned specialist page has no horizontal overflow /znakowanie-markiz/
+PASS Gallery repair 320 service template /banery/
+PASS Gallery repair 320 gallery retains section / row / column ancestors /banery/
+PASS Gallery repair 320 every source photo, lightbox link and item wrapper survives once /banery/
+PASS Gallery repair 320 lower CTA, toggle, social links and form retain their actual columns /banery/
+PASS Gallery repair 320 retired knob contact section remains removed /banery/
+PASS Gallery repair 320 source gallery never enters an unrelated image grid /banery/
+PASS Gallery repair 320 wrapper-dependent original gallery stylesheet still applies /banery/
+PASS Gallery repair 320 every preserved shortcode callback runs exactly once /banery/
+PASS Gallery repair 320 native Rank Math metadata stays present /banery/
+PASS Gallery repair 320 gallery and bottom have no horizontal overflow /banery/
+PASS Gallery repair 320 service template /frezowanie-cnc/
+PASS Gallery repair 320 gallery retains section / row / column ancestors /frezowanie-cnc/
+PASS Gallery repair 320 every source photo, lightbox link and item wrapper survives once /frezowanie-cnc/
+PASS Gallery repair 320 lower CTA, toggle, social links and form retain their actual columns /frezowanie-cnc/
+PASS Gallery repair 320 retired knob contact section remains removed /frezowanie-cnc/
+PASS Gallery repair 320 source gallery never enters an unrelated image grid /frezowanie-cnc/
+PASS Gallery repair 320 wrapper-dependent original gallery stylesheet still applies /frezowanie-cnc/
+PASS Gallery repair 320 every preserved shortcode callback runs exactly once /frezowanie-cnc/
+PASS Gallery repair 320 native Rank Math metadata stays present /frezowanie-cnc/
+PASS Gallery repair 320 gallery and bottom have no horizontal overflow /frezowanie-cnc/
+PASS Gallery repair 320 service template /markizy-z-logo/
+PASS Gallery repair 320 gallery retains section / row / column ancestors /markizy-z-logo/
+PASS Gallery repair 320 every source photo, lightbox link and item wrapper survives once /markizy-z-logo/
+PASS Gallery repair 320 lower CTA, toggle, social links and form retain their actual columns /markizy-z-logo/
+PASS Gallery repair 320 retired knob contact section remains removed /markizy-z-logo/
+PASS Gallery repair 320 source gallery never enters an unrelated image grid /markizy-z-logo/
+PASS Gallery repair 320 wrapper-dependent original gallery stylesheet still applies /markizy-z-logo/
+PASS Gallery repair 320 every preserved shortcode callback runs exactly once /markizy-z-logo/
+PASS Gallery repair 320 native Rank Math metadata stays present /markizy-z-logo/
+PASS Gallery repair 320 gallery and bottom have no horizontal overflow /markizy-z-logo/
+PASS Gallery repair 320 service template /beczki-reklamowe/
+PASS Gallery repair 320 gallery retains section / row / column ancestors /beczki-reklamowe/
+PASS Gallery repair 320 every source photo, lightbox link and item wrapper survives once /beczki-reklamowe/
+PASS Gallery repair 320 lower CTA, toggle, social links and form retain their actual columns /beczki-reklamowe/
+PASS Gallery repair 320 retired knob contact section remains removed /beczki-reklamowe/
+PASS Gallery repair 320 source gallery never enters an unrelated image grid /beczki-reklamowe/
+PASS Gallery repair 320 wrapper-dependent original gallery stylesheet still applies /beczki-reklamowe/
+PASS Gallery repair 320 every preserved shortcode callback runs exactly once /beczki-reklamowe/
+PASS Gallery repair 320 native Rank Math metadata stays present /beczki-reklamowe/
+PASS Gallery repair 320 gallery and bottom have no horizontal overflow /beczki-reklamowe/
+PASS Gallery repair 320 owned specialist page uses the repaired template /frezowanie-plexi/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /frezowanie-plexi/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /frezowanie-plexi/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /frezowanie-plexi/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /frezowanie-plexi/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /frezowanie-plexi/
+PASS Gallery repair 320 owned specialist page uses the repaired template /frezowanie-dibondu/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /frezowanie-dibondu/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /frezowanie-dibondu/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /frezowanie-dibondu/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /frezowanie-dibondu/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /frezowanie-dibondu/
+PASS Gallery repair 320 owned specialist page uses the repaired template /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /frezowanie-elementow-reklamowych/
+PASS Gallery repair 320 owned specialist page uses the repaired template /markizy-tarasowe/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /markizy-tarasowe/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /markizy-tarasowe/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /markizy-tarasowe/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /markizy-tarasowe/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /markizy-tarasowe/
+PASS Gallery repair 320 owned specialist page uses the repaired template /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /markizy-wolnostojace-duo/
+PASS Gallery repair 320 owned specialist page uses the repaired template /znakowanie-markiz/
+PASS Gallery repair 320 owned details appear once without duplicating the stored fallback /znakowanie-markiz/
+PASS Gallery repair 320 owned pages add no detached gallery or original-body wrapper /znakowanie-markiz/
+PASS Gallery repair 320 owned pages execute no original shortcode callbacks /znakowanie-markiz/
+PASS Gallery repair 320 owned title and native Rank Math description remain present /znakowanie-markiz/
+PASS Gallery repair 320 owned specialist page has no horizontal overflow /znakowanie-markiz/
+PASS Gallery repair No browser JavaScript errors: []
+Success: Every post and metadata row stayed byte-identical.
+Success: 599 focused gallery / bottom browser assertions passed.
+
+Final plugin PHP syntax output (exit 0):
+
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/service-guide.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/full-offer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/project-guide.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/projects.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/contact.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-guides.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-content-cleanup.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-service-guides.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-growth-pages.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-gallery.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+
+Independent unchanged Site Kit measurement (exit 0):
+node tests/test-contact-measurement.cjs
+
+PASS: 91 assertions — shipped contact measurement, Site Kit/GTM routing, consent, privacy and single initialization.

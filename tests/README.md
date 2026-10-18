@@ -298,3 +298,34 @@ wcześniejszy bazowy przebieg 3.3.1 i wyraźnie opisuje swój zakres. Historyczn
 raportów innych wydań nie nadpisano. Pełne archiwum instalacyjne ma teraz
 37 dozwolonych plików. Sześć nowych stron tworzy osobny przycisk administratora;
 sama aktywacja ani wyświetlenie panelu nie wykonują zapisu.
+
+
+## Galerie i dolne sekcje ofert — 3.4.1
+
+Aktualny test tej warstwy:
+
+```bash
+YOONA_TEST_EXPORT_JSON=/prywatna/sciezka/diagnostyka.json bash tests/run-gallery-repair.sh
+```
+
+Eksport jest opcjonalny. Runner uruchamia własny WordPress, MariaDB, WP CLI
+oraz prawdziwy Rank Math. W razie braku lokalnego źródła Rank Math pobiera jego
+przypięty oficjalny commit. Prywatne źródła trafiają wyłącznie do `/tmp` CLI,
+są sprawdzane w pamięci i usuwane także po błędzie. Nigdy nie trafiają do tabel
+WWW. Jednorazowe zasoby są usuwane przez runner; `YOONA_TEST_KEEP=1` pozostawia
+wyłącznie własny stos do diagnostyki. Nie używaj go wobec produkcji.
+
+Regresja sprawdza oryginalnych rodziców galerii, wszystkie dolne moduły,
+klasy indeksów CSS i wykonanie callbacków raz. Prywatna faza porównuje pełne
+sekcje bajt po bajcie po `do_shortcode`, przed późniejszym dodawaniem atrybutów
+obrazów przez WordPressa. Końcowy DOM i układ są osobno badane w Chromium.
+Odmienne, ręcznie edytowane wstępy zachowują cały oryginalny wynik. Test wyjątku
+sprawdza domknięcie bufora i usunięcie tylko tymczasowych filtrów. Sześć nowych
+stron jest sprawdzanych z istniejącym instalatorem i ochroną nowszych edycji.
+
+Publiczne próby używają syntetycznych sekcji oraz jawnie oznaczonych zdjęć.
+Callbacki obejmują wszystkie typy modułów z ofert, ale nie są licencjonowanym
+Divi. Raport `gallery-repair-results.txt` zachowuje rzeczywisty wynik bieżącej
+poprawki oraz oczekiwaną porażkę poprzedniej wersji. Starszy zestaw `growth`
+i jego raporty opisują 3.4.0; nie potwierdzały zachowania całego drzewa Divi.
+Do regresji układu ofert po 3.4.1 używaj niniejszego zestawu.
