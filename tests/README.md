@@ -329,3 +329,52 @@ Divi. Raport `gallery-repair-results.txt` zachowuje rzeczywisty wynik bieżącej
 poprawki oraz oczekiwaną porażkę poprzedniej wersji. Starszy zestaw `growth`
 i jego raporty opisują 3.4.0; nie potwierdzały zachowania całego drzewa Divi.
 Do regresji układu ofert po 3.4.1 używaj niniejszego zestawu.
+
+
+## Kompaktowe panele i mobilna góra — 3.4.2
+
+Na nowym, jednorazowym stosie testowym (nie na produkcji):
+
+```bash
+YOONA_TEST_KEEP=1 YOONA_GALLERY_PREPARE_ONLY=1 bash tests/run-gallery-repair.sh
+```
+
+Runner zapisuje nazwy własnych zasobów i adres w
+`/tmp/yoona-gallery-active-environment`. Zastąp poniższe nazwy wyłącznie
+wartościami z tego pliku:
+
+```bash
+docker cp tests/compact-service.php NAZWA_KONTENERA_WWW:/var/www/html/yoona-tests/compact-service.php
+docker exec NAZWA_KONTENERA_WWW chmod a+r /var/www/html/yoona-tests/compact-service.php
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/compact-service.php prepare --skip-themes
+docker exec -u 0 NAZWA_KONTENERA_CLI wp --allow-root --path=/var/www/html eval-file /var/www/html/yoona-tests/gallery-repair.php owned --skip-themes
+node tests/compact-service.cjs http://127.0.0.1:PORT NAZWA_KONTENERA_CLI
+```
+
+Fixture dopuszcza tylko loopback i istniejące 41 syntetycznych stron galerii.
+Do nich wstawia publiczne teksty z wtyczki oraz syntetyczny nagłówek i wstęp.
+Testowy MU-plugin przez `ReflectionProperty` podmienia rozpoznawane hashe
+wyłącznie w pamięci procesu. Nie zmienia plików wtyczki, produkcyjnego manifestu
+ani jego zabezpieczeń. Dzięki temu opisy są sprawdzane wewnątrz rzeczywistego
+`.yn-content.yn-service-original`, z konkurencyjnym `font-family: !important`.
+Flagi i totemy zachowują obraz we wstępie oraz oba warianty tytułu `p`/`h1`.
+Prywatny eksport nie jest potrzebny ani wczytywany przez te próby.
+
+Porównanie bazowe podstawia wyłącznie CSS z commita wydania 3.4.1
+`f9955dd6c711c422d9e01fff17c07b8ac0bb4e78`; domyślnie nie używa ruchomego
+HEAD. Opcjonalne `YOONA_COMPACT_BASELINE_REF` wskazuje inną zgodną bazę.
+Chromium sprawdza 11 reprezentatywnych ofert przy 1440 px i wszystkie 47
+przy 760, 390 i 320 px. Mierzy dopasowanie tekstu, lokalne fonty, układ 3+2,
+2 i 1 kolumny, pojedynczy nagłówek fotograficzny, rozmiary CTA, kolory przycisku,
+rodziców galerii i komplet dolnych callbacków. Dodatkowe białe zdjęcie służy
+kontroli warstwy przyciemniającej i przeglądowi zrzutu; to nie liczbowy pomiar
+kontrastu ani certyfikacja dostępności. Wszystkie wpisy i metadane są
+porównywane bez wyjątków po rozgrzaniu własnego cache Rank Math.
+
+Zrzuty oraz `geometry.json` trafiają do `/tmp/yoona-compact-service-screenshots`
+(lub `YOONA_TEST_SCREENSHOTS`). Są to oznaczone syntetyczne fotografie
+oraz callbacki zastępujące Divi; nie potwierdzają zdjęć produkcyjnych ani
+licencjonowanego motywu. Raport: `compact-service-results.txt`.
+
+Po pracy usuń tylko utworzone kontenery CLI/WWW/DB, ich wolumen i sieć wskazane
+przez ten przebieg. Nie używaj globalnego `docker prune` ani cudzych zasobów.

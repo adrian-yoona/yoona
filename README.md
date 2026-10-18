@@ -1,6 +1,12 @@
-# YOONA — wygląd, treści i SEO 3.4.1
+# YOONA — wygląd, treści i SEO 3.4.2
 
-**[Pobierz wtyczkę yoona-seo-v3.4.1.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.1.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+**[Pobierz wtyczkę yoona-seo-v3.4.2.zip](https://github.com/adrian-yoona/yoona/raw/refs/heads/yoona-seo-download-20261015/downloads/yoona-seo-v3.4.2.zip)**. ZIP jest archiwum instalacyjnym WordPressa.
+
+## Kompaktowa oferta i góra na telefonie — 3.4.2
+
+Panele mają mniejsze nagłówki Manrope, czytelne listy i krótsze odstępy. Na komputerze tworzą układ trzech i dwóch bloków, na mniejszych ekranach przechodzą do dwóch i jednej kolumny. Wstęp jest szerszy, bez wielkiego pustego miejsca obok tekstu.
+
+Telefon pokazuje jeden nagłówek ze zdjęciem w tle, ciemnym gradientem i dwoma przyciskami. Usunięto osobny wysoki blok zdjęcia pod tekstem i dekoracyjne podpisy. Zachowano wszystkie teksty i linki. Zakres CSS ograniczono do nowych paneli i góry ofert, z zachowaniem naprawy galerii i dołu 3.4.1.
 
 ## Naprawa galerii i dolnych sekcji — 3.4.1
 
@@ -21,7 +27,7 @@ Naprawa działa podczas wyświetlania; nie wymaga ponownego zapisu SEO ani tworz
 ## Wgranie w WordPressie
 
 1. Wykonaj pełną kopię witryny. Wybierz **Wtyczki → Dodaj nową → Wyślij wtyczkę**, wgraj ZIP i zastąp poprzednią Yoona SEO. Rank Math pozostaw aktywny.
-2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.4.1** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
+2. Otwórz **Narzędzia → Yoona SEO**, sprawdź **wersję 3.4.2** i kliknij **Odśwież wygląd i wyczyść cache**. Jeśli nowy wygląd był wyłączony, włącz go w tym panelu.
 3. Kliknij **Dodaj 6 podstron CNC i markiz**. Przycisk tworzy brakujące strony wraz z tytułami i opisami Rank Math. Zajęte adresy są pomijane, powtórzenie nie tworzy kopii. Historia pozwala przenieść do kosza tylko całkowicie niezmienione strony utworzone tą operacją.
 4. Sprawdź główną, Kontakt, ofertę i zdjęcia realizacji na telefonie oraz komputerze. Cache hostingu/CDN może wymagać osobnego czyszczenia.
 

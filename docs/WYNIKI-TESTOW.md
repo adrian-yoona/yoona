@@ -1,6 +1,20 @@
-# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.1
+# Wyniki sprawdzenia Yoona — wygląd i SEO 3.4.2
 
 Ostatnia aktualizacja: 18 października 2026 r. Testy wykonano na odizolowanym WordPressie, bez połączenia z panelem lub bazą produkcyjną yoona.pl. Starsze sekcje zachowują wyniki poprzednich wydań.
+
+## Kompaktowe panele i mobilny nagłówek — 3.4.2
+
+**2774 kontrole Chromium** obejmują 11 reprezentatywnych ofert przy 1440 px i wszystkie 47 przy 760, 390 oraz 320 px. Sprawdzają rzeczywiste szablony WordPressa i Rank Math, dokładny serwowany CSS, załadowany Manrope 800, małe nagłówki paneli, dopasowanie tekstów i brak poziomego przewijania. Pięć paneli tworzy układ 3+2 na komputerze, dwa słupki przy 760 px i jeden na telefonach. Dolny przycisk wyceny zachowuje ciemny tekst bez podkreślenia mimo konkurencyjnych stylów linków kontenera treści.
+
+Na tych samych syntetycznych stronach porównano CSS z wydania 3.4.1 (commit `f9955dd6c711c422d9e01fff17c07b8ac0bb4e78`) z końcowym 3.4.2. Wysokość siatki Banerów spadła **z 776,75 do 413 px, o 46,8%**; CNC z 832,75 do 437 px, o 47,5%; Flag z 776,75 do 389 px, o 49,9%. Wszystkie teksty pozostają widoczne. To pomiary lokalnego układu przy 1440 px, nie pomiar wdrożonej strony.
+
+Telefon otrzymuje jedno zdjęcie w tle nagłówka i dwa przyciski o wysokości 46 px, bez osobnego wysokiego bloku fotografii pod tekstem. Kontrola obejmuje długie polskie tytuły, semantykę `p`/`h1`, pojedyncze H1 i priorytet zdjęcia. Obejrzano również zrzuty z celowo białym obrazem: gradient utrzymuje ciemne tło napisów. Nie wykonano tu liczbowego pomiaru kontrastu ani certyfikacji dostępności.
+
+Test zachowania obejmuje pełnych rodziców galerii, trzy podlinkowane fotografie i wszystkie dolne moduły CTA, FAQ, social oraz formularz na 41 syntetycznych ofertach. Każdy callback wykonuje się raz. Sześć własnych stron nie powiela treści. Ścisłe porównanie wszystkich rekordów wpisów i metadanych po rozgrzaniu cache potwierdza brak zmian podczas przeglądania. Wszystkie **34 pozostałe pliki wtyczki** są identyczne z 3.4.1; zmieniono tylko CSS, numer wersji w pliku głównym oraz readme. Nie zmieniono rendererów, szablonów, danych, SEO ani skryptu Site Kit.
+
+Przygotowano od zera własny WordPress 7.1.3, PHP 8.3.35, MariaDB 11.4 i Rank Math 1.0.280, wraz z pobraniem przypiętego źródła Rank Math; uruchomiono Chromium 154. Publiczne fixture zawierają syntetyczne nagłówki oraz pełne publiczne teksty usług. Testowy MU-plugin podmienia hashe wyłącznie w pamięci, aby sprawdzać nowy opis wewnątrz rzeczywistego kontenera treści z konkurencyjnym `!important`; pliki i produkcyjne hashe pozostają bez zmian. Prywatny eksport nie jest używany w tej próbie. Licencjonowany Divi i produkcyjne fotografie nie były dostępne. Starsze prywatne kontrole 3.4.1 pozostają opisane poniżej, bez przypisywania ich temu przebiegowi.
+
+Raport: [compact-service-results.txt](../tests/compact-service-results.txt). Instrukcja odtworzenia: [tests/README.md](../tests/README.md). Wszystkie 37 plików serwowanej wtyczki porównano bajt po bajcie z końcowym źródłem oraz ZIP-em; CRC i wersja 3.4.2 są poprawne. Nie instalowano aktualizacji na yoona.pl.
 
 ## Galerie i dolne sekcje wszystkich ofert — 3.4.1
 
@@ -128,12 +142,12 @@ Pełny wynik: [wordpress-integration-results.txt](../tests/wordpress-integration
 
 ## Paczka do pobrania
 
-Plik: [downloads/yoona-seo-v3.4.1.zip](../downloads/yoona-seo-v3.4.1.zip)
+Plik: [downloads/yoona-seo-v3.4.2.zip](../downloads/yoona-seo-v3.4.2.zip)
 
 SHA-256 ZIP-a:
 
 ```text
-250424bdf75ed0e06f71b1fc8804de4d0bfba6444b4b99ca29af03c5f645ad5d
+7a81d4e3e170b4dbf89eb5246d01412802a46582b3e035e5c9edcfe86c30aaf8
 ```
 
 SHA-256 dołączonego `content/changes.json`:

@@ -1,0 +1,226 @@
+Yoona 3.4.2 — compact service details and mobile header
+Date: 2026-10-18
+Scope: disposable loopback WordPress / real Rank Math; public synthetic Divi callbacks.
+No production installation, licensed Divi or production photograph validation.
+No private export used by this compact suite. Test-only runtime hash fixture;
+plugin source and the production hash manifest are not altered.
+
+Fresh setup command:
+YOONA_TEST_KEEP=1 YOONA_GALLERY_PREPARE_ONLY=1 bash tests/run-gallery-repair.sh
+
+From https://github.com/rankmath/seo-by-rank-math
+ * branch            50fc59587112316ad754ca3c9a26e1282795d49d -> FETCH_HEAD
+Generating optimized autoload files
+Generated optimized autoload files containing 422 classes
+Success: WordPress installed successfully.
+Success: Updated 'rank_math_registration_skip' option.
+Plugin 'seo-by-rank-math' activated.
+Plugin 'yoona-seo' activated.
+Success: Activated 2 of 2 plugins.
+Success: 41 synthetic service pages retain real Divi section, row and column contracts, gallery, CTA, toggle, social links, form and retired section.
+Warning: Regenerating a .htaccess file requires special configuration. See usage docs.
+Success: Rewrite rules flushed.
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/service-guide.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/archive.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/footer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/full-offer.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/project-guide.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/front-page.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/projects.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/content.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/contact.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/templates/header.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-guides.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-content-cleanup.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-engine.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-offer-hero.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-service-guides.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-growth-pages.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-design.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-divi.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-admin.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/includes/class-yoona-seo-project-gallery.php
+No syntax errors detected in /var/www/html/wp-content/plugins/yoona-seo/yoona-seo.php
+Gallery repair test URL: http://127.0.0.1:32769
+7.1.3
+1.0.280
+Keeping owned gallery test resources: yoona-seo-test-gallery-49196-22990
+
+Final browser command (after preparing the public compact fixture and six owned pages):
+node tests/compact-service.cjs http://127.0.0.1:32769 yoona-seo-test-gallery-49196-22990-cli
+
+Success: Compact: all post and metadata rows captured after frontend warmup.
+PASS Compact 1440 /banery/
+PASS Compact 1440 /frezowanie-cnc/
+PASS Compact 1440 /oklejanie-przyczep-gastronomicznych/
+PASS Compact 1440 /flagi/
+PASS Compact 1440 /totemy/
+PASS Compact 1440 /frezowanie-plexi/
+PASS Compact 1440 /frezowanie-dibondu/
+PASS Compact 1440 /frezowanie-elementow-reklamowych/
+PASS Compact 1440 /markizy-tarasowe/
+PASS Compact 1440 /markizy-wolnostojace-duo/
+PASS Compact 1440 /znakowanie-markiz/
+PASS Compact 760 /litery-3d/
+PASS Compact 760 /reklamy-swietlne/
+PASS Compact 760 /tablice-olsztyn/
+PASS Compact 760 /drukarnia-wielkoformatowa/
+PASS Compact 760 /oklejanie-samochodow/
+PASS Compact 760 /zmiana-koloru-samochodu/
+PASS Compact 760 /oklejanie-szyb/
+PASS Compact 760 /reklama-zewnetrzna/
+PASS Compact 760 /szyldy/
+PASS Compact 760 /banery/
+PASS Compact 760 /beczki-reklamowe/
+PASS Compact 760 /reklama-na-rusztowaniu/
+PASS Compact 760 /reklama-na-rusztowaniu-2/
+PASS Compact 760 /plotki-ogrodki-piwne/
+PASS Compact 760 /neony/
+PASS Compact 760 /siatka-mesh/
+PASS Compact 760 /oklejanie-samochodow-osobowych/
+PASS Compact 760 /oklejanie-autobusow/
+PASS Compact 760 /oklejanie-samochodow-ciezarowych/
+PASS Compact 760 /kasetony-swietlne/
+PASS Compact 760 /pylony/
+PASS Compact 760 /markizy-z-logo/
+PASS Compact 760 /flagi/
+PASS Compact 760 /fototapety/
+PASS Compact 760 /totemy/
+PASS Compact 760 /scianki-reklamowe/
+PASS Compact 760 /oklejanie-przyczep-gastronomicznych/
+PASS Compact 760 /mobilna-reklama/
+PASS Compact 760 /ledony/
+PASS Compact 760 /tabliczki-informacyjne/
+PASS Compact 760 /windery/
+PASS Compact 760 /billboardy/
+PASS Compact 760 /etykiety/
+PASS Compact 760 /naklejki/
+PASS Compact 760 /potykacze/
+PASS Compact 760 /rollupy/
+PASS Compact 760 /koszulki/
+PASS Compact 760 /menuboardy/
+PASS Compact 760 /oklejanie-samochodu-cena/
+PASS Compact 760 /frezowanie-cnc/
+PASS Compact 760 /tablice-unijne/
+PASS Compact 760 /frezowanie-plexi/
+PASS Compact 760 /frezowanie-dibondu/
+PASS Compact 760 /frezowanie-elementow-reklamowych/
+PASS Compact 760 /markizy-tarasowe/
+PASS Compact 760 /markizy-wolnostojace-duo/
+PASS Compact 760 /znakowanie-markiz/
+PASS Compact 390 /litery-3d/
+PASS Compact 390 /reklamy-swietlne/
+PASS Compact 390 /tablice-olsztyn/
+PASS Compact 390 /drukarnia-wielkoformatowa/
+PASS Compact 390 /oklejanie-samochodow/
+PASS Compact 390 /zmiana-koloru-samochodu/
+PASS Compact 390 /oklejanie-szyb/
+PASS Compact 390 /reklama-zewnetrzna/
+PASS Compact 390 /szyldy/
+PASS Compact 390 /banery/
+PASS Compact 390 /beczki-reklamowe/
+PASS Compact 390 /reklama-na-rusztowaniu/
+PASS Compact 390 /reklama-na-rusztowaniu-2/
+PASS Compact 390 /plotki-ogrodki-piwne/
+PASS Compact 390 /neony/
+PASS Compact 390 /siatka-mesh/
+PASS Compact 390 /oklejanie-samochodow-osobowych/
+PASS Compact 390 /oklejanie-autobusow/
+PASS Compact 390 /oklejanie-samochodow-ciezarowych/
+PASS Compact 390 /kasetony-swietlne/
+PASS Compact 390 /pylony/
+PASS Compact 390 /markizy-z-logo/
+PASS Compact 390 /flagi/
+PASS Compact 390 /fototapety/
+PASS Compact 390 /totemy/
+PASS Compact 390 /scianki-reklamowe/
+PASS Compact 390 /oklejanie-przyczep-gastronomicznych/
+PASS Compact 390 /mobilna-reklama/
+PASS Compact 390 /ledony/
+PASS Compact 390 /tabliczki-informacyjne/
+PASS Compact 390 /windery/
+PASS Compact 390 /billboardy/
+PASS Compact 390 /etykiety/
+PASS Compact 390 /naklejki/
+PASS Compact 390 /potykacze/
+PASS Compact 390 /rollupy/
+PASS Compact 390 /koszulki/
+PASS Compact 390 /menuboardy/
+PASS Compact 390 /oklejanie-samochodu-cena/
+PASS Compact 390 /frezowanie-cnc/
+PASS Compact 390 /tablice-unijne/
+PASS Compact 390 /frezowanie-plexi/
+PASS Compact 390 /frezowanie-dibondu/
+PASS Compact 390 /frezowanie-elementow-reklamowych/
+PASS Compact 390 /markizy-tarasowe/
+PASS Compact 390 /markizy-wolnostojace-duo/
+PASS Compact 390 /znakowanie-markiz/
+PASS Compact 320 /litery-3d/
+PASS Compact 320 /reklamy-swietlne/
+PASS Compact 320 /tablice-olsztyn/
+PASS Compact 320 /drukarnia-wielkoformatowa/
+PASS Compact 320 /oklejanie-samochodow/
+PASS Compact 320 /zmiana-koloru-samochodu/
+PASS Compact 320 /oklejanie-szyb/
+PASS Compact 320 /reklama-zewnetrzna/
+PASS Compact 320 /szyldy/
+PASS Compact 320 /banery/
+PASS Compact 320 /beczki-reklamowe/
+PASS Compact 320 /reklama-na-rusztowaniu/
+PASS Compact 320 /reklama-na-rusztowaniu-2/
+PASS Compact 320 /plotki-ogrodki-piwne/
+PASS Compact 320 /neony/
+PASS Compact 320 /siatka-mesh/
+PASS Compact 320 /oklejanie-samochodow-osobowych/
+PASS Compact 320 /oklejanie-autobusow/
+PASS Compact 320 /oklejanie-samochodow-ciezarowych/
+PASS Compact 320 /kasetony-swietlne/
+PASS Compact 320 /pylony/
+PASS Compact 320 /markizy-z-logo/
+PASS Compact 320 /flagi/
+PASS Compact 320 /fototapety/
+PASS Compact 320 /totemy/
+PASS Compact 320 /scianki-reklamowe/
+PASS Compact 320 /oklejanie-przyczep-gastronomicznych/
+PASS Compact 320 /mobilna-reklama/
+PASS Compact 320 /ledony/
+PASS Compact 320 /tabliczki-informacyjne/
+PASS Compact 320 /windery/
+PASS Compact 320 /billboardy/
+PASS Compact 320 /etykiety/
+PASS Compact 320 /naklejki/
+PASS Compact 320 /potykacze/
+PASS Compact 320 /rollupy/
+PASS Compact 320 /koszulki/
+PASS Compact 320 /menuboardy/
+PASS Compact 320 /oklejanie-samochodu-cena/
+PASS Compact 320 /frezowanie-cnc/
+PASS Compact 320 /tablice-unijne/
+PASS Compact 320 /frezowanie-plexi/
+PASS Compact 320 /frezowanie-dibondu/
+PASS Compact 320 /frezowanie-elementow-reklamowych/
+PASS Compact 320 /markizy-tarasowe/
+PASS Compact 320 /markizy-wolnostojace-duo/
+PASS Compact 320 /znakowanie-markiz/
+Success: Compact: every post and metadata row remained byte-identical.
+Current CSS SHA-256: 148b4dd61b185689c047e3b3c4c62f05cfa562f773d09bd499bdbfcafbdd9ace
+Baseline CSS SHA-256 (f9955dd6c711c422d9e01fff17c07b8ac0bb4e78): 81708e613b61140bc5d2c22882852166bcbbcac636071ae1d0e4656a170849a9
+Success: 2774 compact-offer / mobile-hero / preserved-gallery assertions passed.
+Screenshots: /tmp/yoona-compact-service-screenshots (synthetic photos and known synthetic Divi callbacks, not licensed Divi or production-media validation).
+
+Measured panel-grid heights at 1440px, same fixture / old CSS vs current CSS:
+/banery/: 776.75 px -> 413 px; 46.8% shorter
+/frezowanie-cnc/: 832.75 px -> 437 px; 47.5% shorter
+/flagi/: 776.75 px -> 389 px; 49.9% shorter
+
+Additional final source/package checks performed:
+- All 34 files other than CSS, entry version and plugin readme are byte-identical
+  to 3.4.1 commit f9955dd6c711c422d9e01fff17c07b8ac0bb4e78.
+- All 37 files in the served WordPress plugin match final repository source.
+- The ZIP contains exactly the 37 allowlisted files; CRC is valid and all entries
+  equal source bytes. Entry version 3.4.2. Generic download alias equals release.
+- White-image screenshots were visually reviewed. No numeric contrast result
+  or whole-site accessibility claim is made by these checks.
+Release ZIP bytes: 332275
+Release ZIP SHA-256: 7a81d4e3e170b4dbf89eb5246d01412802a46582b3e035e5c9edcfe86c30aaf8

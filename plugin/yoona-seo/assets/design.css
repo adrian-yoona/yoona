@@ -695,3 +695,71 @@ body.yn-design { font-size:16px; line-height:1.75; }
 @media(min-width:901px) {
  .yn-design .yn-service-guide .yn-guide-grid>.yn-guide-panel:last-child:nth-child(odd) ul { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); column-gap:32px; }
 }
+
+/* 3.4.2: compact service details; original Divi galleries keep their own layout. */
+.yn-design .yn-service-guide .yn-guide { padding-block:32px 38px; }
+.yn-design .yn-service-guide .yn-guide-intro { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); align-items:start; gap:10px 36px; max-width:none; margin-bottom:22px; }
+.yn-design .yn-service-guide .yn-guide-intro>.yn-eyebrow { grid-column:1 / -1; margin:0!important; font-size:10px; letter-spacing:.09em; }
+.yn-design .yn-service-guide .yn-guide-intro>h2 { max-width:24ch; margin:0; font-size:clamp(24px,2.35vw,30px); line-height:1.15; letter-spacing:-.025em; }
+.yn-design .yn-service-guide .yn-guide-intro>p:not(.yn-eyebrow) { margin:0; max-width:none; font-size:15px; line-height:1.65; }
+.yn-design .yn-service-guide .yn-guide :is(p,li) { font-size:15px; line-height:1.6; }
+.yn-design .yn-service-guide .yn-guide-grid { grid-template-columns:repeat(6,minmax(0,1fr)); gap:14px; margin-top:20px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel { grid-column:span 2; padding:18px 20px; border-color:#dedbd3; background:rgba(255,255,255,.7); }
+.yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel:nth-child(n+4) { grid-column:span 3; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-panel>h2 { max-width:none; margin:0 0 12px; font-family:var(--yn-body-font)!important; font-size:13px; font-weight:800; line-height:1.5; letter-spacing:.035em; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-panel :is(ul,ol) { padding-left:17px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-panel li+li { margin-top:5px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel:last-child ul { display:block; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-panel li::marker { color:var(--yn-orange-ink); font-size:.8em; }
+.yn-design .yn-service-guide .yn-guide-faq { margin-top:24px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-faq>h2,
+.yn-design .yn-service-guide .yn-guide .yn-guide-related>h2 { margin-bottom:10px; font-family:var(--yn-body-font)!important; font-size:15px; font-weight:800; line-height:1.5; letter-spacing:.025em; }
+.yn-design .yn-service-guide .yn-guide-faq details { padding:12px 0; }
+.yn-design .yn-service-guide .yn-guide-faq summary { font-size:14px; line-height:1.6; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-related { margin-top:22px; padding-top:18px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-related .yn-actions { gap:10px 22px; margin-top:8px; }
+.yn-design .yn-service-guide .yn-guide .yn-guide-related .yn-text-link { font-size:11px; letter-spacing:.015em; }
+.yn-design .yn-service-guide .yn-guide>.yn-container>.yn-actions { margin-top:20px; }
+.yn-design .yn-service-guide .yn-guide .yn-button { color:#111!important; text-decoration:none; }
+@media(max-width:1000px) {
+ .yn-design .yn-service-guide .yn-guide-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel:nth-child(n) { grid-column:span 1; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel:last-child { grid-column:1 / -1; }
+}
+@media(max-width:760px) {
+ .yn-design .yn-service-guide .yn-guide { padding-block:28px 32px; }
+ .yn-design .yn-service-guide .yn-guide-intro { display:block; margin-bottom:18px; }
+ .yn-design .yn-service-guide .yn-guide-intro>.yn-eyebrow { margin-bottom:10px!important; font-size:9px; line-height:1.6; }
+ .yn-design .yn-service-guide .yn-guide-intro>h2 { max-width:none; margin-bottom:12px; font-size:25px; line-height:1.2; }
+ .yn-design .yn-service-guide .yn-offer-layout { position:relative; z-index:2; min-height:0; }
+ .yn-design .yn-service-guide .yn-offer-copy { max-width:620px; padding:26px 0 30px; }
+ .yn-design .yn-service-guide .yn-offer-breadcrumbs { gap:10px; margin-bottom:18px; font-size:10px; color:#d0d2cb; }
+ .yn-design .yn-service-guide .yn-offer-eyebrow { gap:10px; margin-bottom:14px!important; font-size:9px; line-height:1.6; letter-spacing:.1em; color:#ffb17b; }
+ .yn-design .yn-service-guide .yn-offer-eyebrow::before { width:22px; }
+ .yn-design .yn-service-guide .yn-offer-title { font-size:clamp(28px,7.2vw,38px); line-height:1.12; text-wrap:balance; }
+ .yn-design .yn-service-guide .yn-offer-title-long { font-size:clamp(26px,6.6vw,34px); }
+ .yn-design .yn-service-guide .yn-offer-title-wide { font-size:clamp(24px,6.2vw,32px); }
+ .yn-design .yn-service-guide .yn-offer-lead { max-width:48ch; margin-top:16px!important; font-size:15px; line-height:1.65; color:#f2f3ed; }
+ .yn-design .yn-service-guide .yn-offer-actions { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:10px; max-width:400px; margin-top:22px; }
+ .yn-design .yn-service-guide .yn-offer-actions .yn-button,
+ .yn-design .yn-service-guide .yn-offer-more { min-width:0; min-height:46px; justify-content:center; gap:8px; padding:12px 10px; font-size:11px; line-height:1.5; letter-spacing:.025em; text-align:center; }
+ .yn-design .yn-service-guide .yn-offer-more { border:1px solid rgba(255,255,255,.38); background:rgba(9,11,10,.25); }
+ .yn-design .yn-service-guide .yn-offer-signature,
+ .yn-design .yn-service-guide .yn-offer-visual figcaption { display:none; }
+ .yn-design .yn-service-guide .yn-offer-visual { position:absolute; inset:0; width:100%; height:100%; }
+ .yn-design .yn-service-guide .yn-offer-visual img { object-position:65% center; filter:saturate(.82) contrast(1.02); }
+ .yn-design .yn-service-guide .yn-offer-visual::after { background:linear-gradient(90deg,rgba(9,11,10,.95),rgba(9,11,10,.74)),linear-gradient(0deg,rgba(9,11,10,.18),transparent 65%); }
+}
+@media(max-width:600px) {
+ .yn-design .yn-service-guide .yn-guide-grid { grid-template-columns:minmax(0,1fr); gap:10px; margin-top:18px; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-grid>.yn-guide-panel:nth-child(n) { grid-column:1 / -1; padding:16px 18px; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-panel>h2 { margin-bottom:9px; font-size:12px; }
+ .yn-design .yn-service-guide .yn-guide-faq { margin-top:20px; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-related { margin-top:18px; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-related .yn-actions { display:grid; gap:8px; }
+ .yn-design .yn-service-guide .yn-guide .yn-guide-related .yn-text-link { min-height:44px; justify-content:space-between; padding-block:8px; }
+ .yn-design .yn-service-guide .yn-guide>.yn-container>.yn-actions .yn-button { width:100%; justify-content:center; }
+}
+@media(max-width:360px) {
+ .yn-design .yn-service-guide .yn-offer-actions .yn-button>span[aria-hidden="true"] { display:none; }
+}

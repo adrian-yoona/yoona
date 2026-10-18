@@ -110,3 +110,25 @@ Wyłączono wymuszone odstępy i rozmiary tekstów 3.4 w zachowanych sekcjach of
 W bazie nie są zmieniane ani treści, ani Rank Math. Do aktualizacji wystarczy
 zastąpić wtyczkę, odświeżyć wygląd i wyczyścić także LiteSpeed Cache; nie trzeba
 ponownie zapisywać SEO ani tworzyć sześciu stron.
+
+
+## Kompaktowa oferta i mobilny nagłówek — 3.4.2
+
+Pięć paneli ma na komputerze trzy kolumny w pierwszym rzędzie i dwa równe
+bloki w drugim. Węższe ekrany przechodzą do dwóch kolumn, telefony do jednej.
+Nagłówki paneli używają Manrope 800, 13 px na komputerze i 12 px na telefonie,
+przy tekście list 15 px. Nazwy pozostają wielkimi literami, bez ukrywania treści.
+Mniejsze odstępy i dwukolumnowy wstęp ograniczają pustą przestrzeń. W lokalnym
+porównaniu Banerów wysokość siatki spadła z 776,75 do 413 px (o 46,8%).
+
+Do 760 px zdjęcie jest tłem jednego nagłówka, zamiast osobnej wysokiej sekcji
+pod tekstem. Ciemny gradient, krótsze odstępy, dopasowane długie nazwy i dwa
+równe przyciski o wysokości co najmniej 46 px porządkują górę. Pominięto
+mobilny podpis dekoracyjny zdjęcia. Dolny przycisk wyceny ma ciemny tekst
+bez podkreślenia, także wewnątrz oryginalnego kontenera treści Divi.
+
+Zmiana dotyczy wyłącznie CSS nowych paneli oraz nagłówka oferty. Renderery,
+szablony, oryginalne galerie i dolne moduły z naprawy 3.4.1, pakiet tekstów,
+metadane oraz pomiar Site Kit zachowują identyczne bajty. Do aktualizacji
+wystarczy zastąpić wtyczkę i wyczyścić cache; nie trzeba ponownie zapisywać SEO
+ani tworzyć sześciu stron. Fotografie produkcyjne nie były dostępne w testach.
